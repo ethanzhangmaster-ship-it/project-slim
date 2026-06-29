@@ -461,9 +461,32 @@ class ExperimentEngine:
 
                 ctr = clicks / impressions * 100 if impressions > 0 else 0
                 cpi = spend / installs if installs > 0 else 0
-                reward = self._compute_reward_v2(
-                    ctr, roas_d7, impressions, baseline_ctr, baseline_roas,
+                # Spec §9.2: IAP Observation Layer — 用 QualityScore 替换 deprecated _compute_reward_v2
+                # FinalBandit 只接收 quality_score, 不知道 CTR/ROAS
+                reward = self._compute_quality_score(
+                    creative_id=creative_id,
+                    ctr=ctr,
+                    roas_d7=roas_d7,
+                    impressions=impressions,
+                    clicks=clicks,
+                    installs=installs,
+                    spend=spend,
+                    date=today,
                 )
+                if reward < 0:
+                    # Anti-noise: 不过门槛不进 Bandit (Spec §7)
+                    # 仍写 metrics 表记录数据存在, 但不进 Bandit
+                    conn.execute(
+                        f"""INSERT OR REPLACE INTO {self.T_METRICS}
+                            (variant_id, experiment_id, backfilled_date,
+                             spend, impressions, clicks, installs,
+                             ctr, cpi, roas_d7, is_win, backfilled_at)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                        [vid, exp_id, today,
+                         spend, impressions, clicks, installs,
+                         ctr, cpi, roas_d7, False, datetime.now().isoformat()],
+                    )
+                    continue
                 is_win = reward > 0.5
 
                 # DB 层去重: INSERT OR REPLACE 按 (variant_id, backfilled_date)

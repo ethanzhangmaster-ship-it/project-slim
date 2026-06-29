@@ -2,12 +2,11 @@
 from __future__ import annotations
 
 import json
-import shutil
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any
 
-from market_ops.clients.lovart import LovartClient
+from market_ops.clients.lovart import LovartClient, download_image
 
 
 class P04CreativeLoop:
@@ -271,26 +270,25 @@ class P04CreativeLoop:
     def _generate_images(self, prompts: List[Dict[str, Any]], run_id: str, winner_idx: int) -> List[Dict[str, Any]]:
         """使用Lovart生成图片"""
         images = []
-        
+
         for idx, prompt_data in enumerate(prompts):
             print(f"      Generating image {idx+1}/{len(prompts)}: {prompt_data['hook_text']}")
-            
+
             try:
                 result = self.lovart_client.generate_image(
                     prompt_data["prompt_text"]
                 )
-                
-                if result and "image_path" in result:
-                    image_path = Path(result["image_path"])
+
+                # LovartResult 是 dataclass，属性是 image_urls: list[str]，没有 "image_path" key
+                image_urls = getattr(result, "image_urls", None) if result else None
+                if image_urls:
+                    img_url = image_urls[0]
                     final_path = self.output_dir / "images" / f"{run_id}_w{winner_idx+1}_{idx:02d}_{prompt_data['hook_text'][:20]}.png"
-                    
-                    if image_path.exists():
-                        shutil.move(str(image_path), str(final_path))
-                    else:
-                        final_path = image_path
-                    
+                    download_image(img_url, final_path)
+
                     images.append({
                         "image_path": str(final_path),
+                        "image_url": img_url,
                         "prompt": prompt_data["prompt_text"],
                         "hook_text": prompt_data["hook_text"],
                         "mutation_type": prompt_data["mutation_type"],
@@ -298,41 +296,54 @@ class P04CreativeLoop:
                     })
                     print(f"        Saved: {final_path.name}")
                 else:
-                    print(f"        Failed: No image returned")
-                    
+                    status = getattr(result, "status", "unknown") if result else "None"
+                    text = getattr(result, "assistant_text", "")[:120] if result else ""
+                    print(f"        Failed: status={status} text={text}")
+
             except Exception as e:
-                print(f"        Error: {str(e)[:50]}")
+                print(f"        Error: {str(e)[:80]}")
                 continue
-        
+
         return images
     
     def _score_images(self, images: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """使用Lovart评分"""
+        """使用Lovart评分（LovartClient 没有 score_image 方法，改用 evaluate_image）"""
         scores = []
-        
+
         for img_data in images:
             try:
-                result = self.lovart_client.score_image(img_data["image_path"])
-                
-                if result:
+                result = self.lovart_client.evaluate_image(
+                    image_path=img_data["image_path"],
+                    prompt=img_data.get("prompt", ""),
+                    project=self.PROJECT_NAME,
+                    hook_type=img_data.get("mutation_type", ""),
+                )
+
+                if result and "error" not in result:
+                    dims = ["visual_quality", "brand_alignment", "hook_clarity",
+                            "ad_suitability", "originality"]
+                    vals = [float(result.get(d, 0) or 0) for d in dims]
+                    overall = sum(vals) / len(vals) if vals else 0.0
+
                     score_data = {
                         "image_path": img_data["image_path"],
-                        "visual_quality": result.get("visual_quality", 0),
-                        "hook_clarity": result.get("hook_clarity", 0),
-                        "brand_alignment": result.get("brand_alignment", 0),
-                        "originality": result.get("originality", 0),
-                        "ad_suitability": result.get("ad_suitability", 0),
-                        "overall": result.get("overall", 0),
+                        "visual_quality": vals[0],
+                        "hook_clarity": vals[2],
+                        "brand_alignment": vals[1],
+                        "originality": vals[4],
+                        "ad_suitability": vals[3],
+                        "overall": overall,
                     }
                     scores.append(score_data)
-                    print(f"        Score: {score_data['overall']:.2f} - {img_data['hook_text']}")
+                    print(f"        Score: {overall:.2f} - {img_data['hook_text']}")
                 else:
-                    print(f"        No score returned")
-                    
+                    err = result.get("error", "unknown") if result else "None"
+                    print(f"        No score returned: {err[:80]}")
+
             except Exception as e:
-                print(f"        Score error: {str(e)[:50]}")
+                print(f"        Score error: {str(e)[:80]}")
                 continue
-        
+
         return scores
     
     def _save_winner_results(self, winner: Dict[str, Any], result: Dict[str, Any]) -> None:

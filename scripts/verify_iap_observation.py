@@ -250,23 +250,53 @@ def main() -> int:
     print(f"  ✅ 充分样本 (500 imp, 20 click, 5 install) → sufficient_data=True, score={qs_ok.score:.3f}")
 
     # ========================================================================
-    # 8 问验收
+    # 8 问验收 (升级版: 真实验证生产路径，不只自验)
     # ========================================================================
     print(f"\n{'=' * 78}")
-    print("  8 问验收")
+    print("  8 问验收（含生产路径验证）")
     print(f"{'=' * 78}")
 
-    # ① FinalBandit 是否完全保持不变？
-    q1 = True  # 代码中未修改 final_bandit.py 任何一行
-    print(f"  {'✅' if q1 else '❌'} ① FinalBandit 是否完全保持不变？ → YES (final_bandit.py 未修改)")
+    import subprocess
 
-    # ② 是否所有 Facebook / Adjust 数据都先进入 Observation Builder？
-    q2 = all(hasattr(obs, 'ctr') and hasattr(obs, 'roas_d7') for obs in observations[:5])
-    print(f"  {'✅' if q2 else '❌'} ② 所有数据先进入 Observation Builder？ → YES ({len(observations)} CreativeObservations)")
+    # ① FinalBandit 是否完全保持不变？——用 git diff 真验
+    fb_path = ROOT / "src" / "market_ops" / "creative_intelligence" / "final_bandit.py"
+    try:
+        diff = subprocess.run(
+            ["git", "diff", "--quiet", "HEAD", "--", str(fb_path)],
+            cwd=str(ROOT), capture_output=True,
+        )
+        q1 = diff.returncode == 0  # 0 表示无改动
+        q1_detail = "git diff 为空" if q1 else "❌ final_bandit.py 有改动!"
+    except Exception as e:
+        q1 = False
+        q1_detail = f"git diff 失败: {e}"
+    print(f"  {'✅' if q1 else '❌'} ① FinalBandit 是否完全保持不变？ → {'YES (' + q1_detail + ')' if q1 else 'NO (' + q1_detail + ')'}")
 
-    # ③ Bandit 是否只接收 Quality Score？
-    q3 = update_count > 0  # 所有 update 调用都传 quality_score
-    print(f"  {'✅' if q3 else '❌'} ③ Bandit 只接收 Quality Score？ → YES ({update_count} updates, 全部传 quality_score)")
+    # ② 所有数据先进入 Observation Builder？——验证生产代码不再用旧公式
+    pipeline_path = ROOT / "scripts" / "run_pipeline.py"
+    engine_path = ROOT / "src" / "market_ops" / "creative_intelligence" / "experiment_engine.py"
+    pipeline_src = pipeline_path.read_text(encoding="utf-8")
+    engine_src = engine_path.read_text(encoding="utf-8")
+    # 旧 reward 公式特征: "0.6 * roas_score" 或 "_compute_reward_v2(" 作为生产调用
+    pipeline_has_old = "0.6 * roas_score" in pipeline_src and "0.4 * cpi_score" in pipeline_src
+    engine_calls_v2 = "_compute_reward_v2(" in engine_src.replace(
+        # 排除掉 _compute_reward_v2 自己的定义和 docstring
+        engine_src[engine_src.find("def _compute_reward_v2"):engine_src.find("def _compute_reward_v2") + 800],
+        "",
+    )
+    pipeline_has_quality = "QualityScoreBuilder" in pipeline_src and "qs.score" in pipeline_src
+    engine_has_quality = "_compute_quality_score(" in engine_src and "QualityScoreBuilder" in engine_src
+    q2 = (not pipeline_has_old) and (not engine_calls_v2) and pipeline_has_quality and engine_has_quality
+    print(f"  {'✅' if q2 else '❌'} ② 所有数据先进入 Observation Builder？ → "
+          f"{'YES (pipeline+engine 已接入 QualityScoreBuilder)' if q2 else 'NO: pipeline_has_old=' + str(pipeline_has_old) + ' engine_calls_v2=' + str(engine_calls_v2)}")
+
+    # ③ Bandit 只接收 Quality Score？——grep 生产路径的 bandit.update 调用
+    # 检查 pipeline 的 monitor.update 前一行是否来自 qs.score
+    pipeline_quality_update = "monitor.update(gt, gv, reward)" in pipeline_src and "qs.score" in pipeline_src
+    engine_quality_update = "_update_final_bandit_dedup(variant, reward" in engine_src and "_compute_quality_score" in engine_src
+    q3 = pipeline_quality_update and engine_quality_update and update_count > 0
+    print(f"  {'✅' if q3 else '❌'} ③ Bandit 只接收 Quality Score？ → "
+          f"{'YES (生产路径 reward 来源均为 qs.score)' if q3 else 'NO: pipeline_quality=' + str(pipeline_quality_update) + ' engine_quality=' + str(engine_quality_update)}")
 
     # ④ 是否支持 Delayed Revenue 回流？
     q4 = updated and merged.revenue_d7 == delayed.revenue_d7

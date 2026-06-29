@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from collections import defaultdict
 from datetime import date
@@ -36,7 +37,7 @@ class MetaAdsCreativeClient:
         params = {
             "access_token": self._access_token,
             "level": "ad",
-            "time_range": {"since": start_date.isoformat(), "until": end_date.isoformat()},
+            "time_range": json.dumps({"since": start_date.isoformat(), "until": end_date.isoformat()}),
             "fields": ",".join(
                 [
                     "ad_id",

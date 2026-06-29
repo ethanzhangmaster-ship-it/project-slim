@@ -31,6 +31,10 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from market_ops.creative_intelligence.final_bandit import FinalBandit
 from market_ops.creative_intelligence.monitor import FinalBanditMonitor
+from market_ops.creative_intelligence.iap_observation import (
+    CreativeObservation,
+    QualityScoreBuilder,
+)
 
 
 # ============================================================================
@@ -258,14 +262,15 @@ def step3_learn(db_path: Path, n_days: int = 7, seed: int = 42, project: str | N
             results[gt] = {"status": "too_few_arms", "arms": len(arms)}
             continue
 
-        # baseline
+        # baseline (保留用于排序/对比，不进入 Bandit)
         all_cpis = [a["cpi"] for a in arms if a["cpi"] < 999]
         all_roas = [a.get("roas", 0) for a in arms]
         b_cpi = float(np.median(all_cpis)) if all_cpis else 10
         b_roas = float(np.median(all_roas)) if all_roas else 0.1
 
-        # N 天 backfill
-        def sigmoid(x): return x / (1 + abs(x))
+        # IAP Observation Layer: 用 QualityScoreBuilder 替换旧的 0.6*roas+0.4*cpi
+        # Spec §9.1: FinalBandit 只接收 quality_score
+        quality_builder = QualityScoreBuilder()
 
         for day in range(n_days):
             date_str = f"2026-07-{1+day:02d}"
@@ -277,14 +282,37 @@ def step3_learn(db_path: Path, n_days: int = 7, seed: int = 42, project: str | N
                 if arm["installs"] < 1:
                     continue
 
-                # 内购产品 reward: ROAS 权重 0.6 + CPI 权重 0.4
-                # ROAS 越高越好, CPI 越低越好
-                roas = arm.get("roas", 0)
-                cpi = arm["cpi"]
-                roas_score = sigmoid((roas - b_roas) / max(b_roas, 1e-6))
-                cpi_score = sigmoid((b_cpi - cpi) / max(b_cpi, 1e-6))
-                reward = 0.6 * roas_score + 0.4 * cpi_score
-                reward = max(-1.0, min(1.0, reward + rng.gauss(0, 0.03)))
+                # 构造 CreativeObservation（arm 是按 gene_value 聚合的，creative_id 用 gv 占位）
+                imp = int(arm["imp"])
+                ctr = float(arm["ctr"])
+                clicks = int(ctr / 100.0 * imp) if imp > 0 else 0
+                installs = int(arm["installs"])
+                spend = float(arm["spend"])
+                roas_d7 = float(arm.get("roas", 0))
+
+                obs = CreativeObservation(
+                    creative_id=f"arm:{gv}",
+                    date=date_str,
+                    impression=imp,
+                    click=clicks,
+                    ctr=ctr,
+                    install=installs,
+                    spend=spend,
+                    roas_d7=roas_d7,
+                )
+                obs.cvr = installs / max(clicks, 1)
+                obs.cpi = spend / max(installs, 1)
+                obs.ipm = installs / max(imp, 1) * 1000
+
+                qs = quality_builder.build(obs)
+
+                # Anti-noise: 不过门槛不进 Bandit (Spec §7)
+                if not qs.sufficient_data:
+                    continue
+
+                # FinalBandit 只接收 quality_score (Spec §9.1)
+                # 加微小噪声避免同分同列，clamp 到 [0,1]
+                reward = max(0.0, min(1.0, qs.score + rng.gauss(0, 0.01)))
                 monitor.update(gt, gv, reward)
                 monitor.mark_learned_on_date(gt, gv, date_str)
 

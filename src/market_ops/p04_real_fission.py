@@ -1,9 +1,11 @@
 """P04 Witch 真实裂变素材生成"""
+from pathlib import Path
+
 from market_ops.clients.lovart import LovartClient
 import time
 
 SOURCE_DIR = r"D:\p4素材\新建文件夹 (3)"
-OUTPUT_DIR = r"d:\ethan\Documents\市场会议\output\P04_Real_Fission"
+OUTPUT_DIR = str(Path("output/P04_Real_Fission"))
 
 def main():
     client = LovartClient()
