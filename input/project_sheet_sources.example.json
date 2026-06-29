@@ -1,0 +1,12 @@
+[
+  {
+    "game": "P02 Mermaid",
+    "daily_url": "https://your-feishu-daily-sheet-url-for-p02",
+    "roi_url": "https://your-feishu-roi-sheet-url-for-p02"
+  },
+  {
+    "game": "P07 Vampire",
+    "daily_url": "https://your-feishu-daily-sheet-url-for-p07",
+    "roi_url": "https://your-feishu-roi-sheet-url-for-p07"
+  }
+]

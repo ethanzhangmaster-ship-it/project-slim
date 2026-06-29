@@ -1,0 +1,18 @@
+周报发前最短流程
+
+1. 先跑总门禁：
+.\gate_weekly_release.ps1
+
+这条命令现在会额外检查：
+- 公司总花费是否一致
+- 公司总收入是否一致
+- 公司 ROI 是否一致
+
+2. 如果总门禁通过，再正式发市场群：
+.\send_market_weekly_all.ps1
+
+3. 如果机器人不回：
+.\refresh_feishu_callback_stack.ps1
+
+4. 如果只想看当前飞书后台配置：
+.\show_feishu_callback_config.ps1

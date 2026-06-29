@@ -1,0 +1,6 @@
+Asset ID,Video URL,Hook Type,Duration,CTR,CVR,ROAS,Status
+CR-101,https://example.com/creative-101.mp4,Win Streak,22,0.031,0.18,1.52,Scaling
+CR-102,https://example.com/creative-102.mp4,Failure Rescue,18,0.029,0.15,1.22,Testing
+CR-103,https://example.com/creative-103.mp4,ASMR Merge,27,0.024,0.20,1.35,Testing
+CR-104,https://example.com/creative-104.mp4,Before After,20,0.034,0.19,1.58,Scaling
+CR-105,https://example.com/creative-105.mp4,Character Drama,30,0.019,0.12,0.94,Paused

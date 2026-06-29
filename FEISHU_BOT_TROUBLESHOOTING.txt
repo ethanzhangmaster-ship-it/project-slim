@@ -1,0 +1,16 @@
+飞书机器人排障最短流程
+
+1. 先跑总诊断：
+.\doctor_feishu_bot.ps1
+
+2. 如果总诊断失败，优先刷新：
+.\refresh_feishu_callback_stack.ps1
+
+3. 刷新后再跑一次总诊断：
+.\doctor_feishu_bot.ps1
+
+4. 如果只是想看当前飞书后台该填什么：
+.\show_feishu_callback_config.ps1
+
+5. 如果只是想检查当前地址活不活：
+.\check_feishu_callback_stack.ps1

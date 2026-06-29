@@ -1,0 +1,24 @@
+{
+  "owner": "human_strategy",
+  "updated_at": "YYYY-MM-DD",
+  "priorities": [
+    {
+      "name": "US female Merge IAA exploration",
+      "status": "active",
+      "project": "P04 Witch",
+      "audience": "female",
+      "genre": "Merge",
+      "country": "United States",
+      "platform": "Meta",
+      "monetization": "IAA",
+      "objective": "maximize learning speed before ROI scaling",
+      "priority_weight": 1.0,
+      "notes": "Example only. Copy to strategy_context.json and edit before activation."
+    }
+  ],
+  "guardrails": [
+    "Do not scale when lifecycle_stage=data_gap.",
+    "Discovery priorities optimize learning speed before ROI.",
+    "All platform writes require approval until write readiness passes."
+  ]
+}

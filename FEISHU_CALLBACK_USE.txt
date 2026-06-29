@@ -1,0 +1,33 @@
+飞书回调最短使用步骤
+
+1. 运行：
+.\start_feishu_callback_stack.ps1
+
+如果你不想等前台命令跑完，改用：
+.\start_feishu_callback_stack_detached.ps1
+
+如果地址失效或机器人没反应，直接运行：
+.\refresh_feishu_callback_stack.ps1
+
+2. 打开这个文件直接复制：
+output\active\feishu_callback_live.txt
+
+3. 把里面 4 行内容填到飞书后台：
+- Callback URL
+- Verification Token
+- Encrypt Key
+- Event
+
+4. 保存后去群里发：
+@机器人 帮助
+
+补充命令：
+- 检查当前地址是否还活着：.\check_feishu_callback_stack.ps1
+- 停止回调服务：.\stop_feishu_callback_stack.ps1
+- 安装免管理员开机自启动：.\install_feishu_callback_startup_shortcut.ps1
+- 卸载免管理员开机自启动：.\uninstall_feishu_callback_startup_shortcut.ps1
+- 安装计划任务版开机自启动：.\install_feishu_callback_startup_task.ps1
+- 卸载计划任务版开机自启动：.\uninstall_feishu_callback_startup_task.ps1
+
+长期优化方案：
+- 固定回调域名方案说明：FIXED_CALLBACK_DOMAIN_PLAN.md

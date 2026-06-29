@@ -1,0 +1,26 @@
+交付包最快生成方式：
+运行：.\build_delivery_bundle.ps1
+
+它会把当前最关键的内容打包到：
+
+output\delivery_bundle\<timestamp>\
+
+里面包含：
+
+1. 当前系统总状态
+2. 当前飞书回调配置
+3. 当前周报发前门禁结果
+4. 当前周报预览与关键校验
+5. 群里问答 / 待办队列 / 已批准执行结果
+6. 当前使用说明与稳定启动说明
+7. 固定域名接入方案
+
+建议优先看：
+
+1. market_ops_status_latest.md
+2. feishu_callback_live.txt
+3. weekly_release_gate_latest.md
+4. group_execution_checklist_latest.md
+5. group_requirements_queue.json
+6. GROUP_QA_BOT_USE.md
+7. FIXED_CALLBACK_DOMAIN_PLAN.md
