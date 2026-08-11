@@ -77,18 +77,25 @@ _GENRE_KEYWORDS: Dict[str, Dict[str, List[str]]] = {
         "core": [
             "bible quiz", "bible trivia", "biblical quiz", "scripture quiz",
             "bible game", "faith quiz", "bible questions", "bible study",
-            "bible knowledge", "bible verse",
+            "bible knowledge", "bible verse", "christian trivia",
         ],
         "long_tail": [
             "free bible quiz", "bible quiz offline", "bible trivia free",
             "bible quiz game for free", "bible game no wifi", "bible quiz daily",
             "bible trivia game offline", "christian quiz", "bible word game",
             "bible guess game", "bible quiz and answers", "bible trivia with answers",
+            "old testament trivia", "new testament trivia", "who wrote genesis",
+            "12 disciples quiz", "who killed goliath", "psalms 23 verse",
+            "genesis to revelation", "bible quiz for kids", "bible trivia for adults",
+            "bible multiple choice", "bible verse memory", "bible prophecy quiz",
+            "psalms quiz", "proverbs trivia", "gospel questions",
         ],
         "related": [
             "scripture game", "bible learning", "bible memory", "bible puzzle",
             "bible study app", "christian game", "faith based game",
             "bible facts", "old testament quiz", "new testament quiz",
+            "jesus miracles quiz", "bible character quiz", "moses exodus trivia",
+            "david and goliath", "bible story game", "christian education app",
         ],
     },
     "trivia": {
@@ -482,8 +489,10 @@ class GooglePlayASOEngine:
             platform="google_play",
         )
 
-        # 1. 品类关键词建议
-        report.keyword_suggestions = self._research_keywords_from_genre(genre, country)
+        # 1. 品类关键词建议 (支持包名/ID 语义自动叠加相关词库)
+        report.keyword_suggestions = self._research_keywords_from_genre(
+            genre, country, game_id=game_id, package_name=package_name
+        )
 
         # 2. 评论驱动关键词挖掘
         if reviews:
@@ -542,50 +551,86 @@ class GooglePlayASOEngine:
 
     # ── 1. 品类关键词研究 ──
 
+    # 语义标签 → 对应词库名的映射 (package_name/game_id 命中时自动叠加)
+    _SEMANTIC_TAG_TO_GENRE: Dict[str, Tuple[str, ...]] = {
+        "bible": ("bible", "trivia"),
+        "scripture": ("bible",),
+        "biblia": ("bible",),
+        "biblico": ("bible",),
+        "biblique": ("bible",),
+        "cristiano": ("bible",),
+        "christian": ("bible",),
+        "faith": ("bible",),
+        "quiz": ("trivia",),
+        "trivia": ("trivia",),
+        "merge": ("merge",),
+        "puzzle": ("puzzle",),
+        "hospital": ("simulation",),
+        "salon": ("simulation",),
+        "cooking": ("simulation",),
+        "chef": ("simulation",),
+    }
+
+    def _detect_semantic_genres(self, game_id: str, package_name: str) -> List[str]:
+        """从 game_id / package_name 中检测语义标签, 返回需要叠加的词库名列表 (去重, 原 genre 不含这些)."""
+        text = f"{game_id or ''} {package_name or ''}".lower()
+        hits: List[str] = []
+        seen = set()
+        for tag, genres in self._SEMANTIC_TAG_TO_GENRE.items():
+            if tag in text:
+                for g in genres:
+                    if g not in seen:
+                        hits.append(g)
+                        seen.add(g)
+        return hits
+
     def _research_keywords_from_genre(
         self,
         genre: str,
         country: str,
+        game_id: str = "",
+        package_name: str = "",
     ) -> List[KeywordSuggestion]:
-        """基于品类知识库生成关键词建议."""
-        kb = _GENRE_KEYWORDS.get(genre) or _GENRE_KEYWORDS["casual"]
+        """基于品类知识库生成关键词建议 (含包名/ID 的语义叠加)."""
+        primary = genre or "casual"
+        kb = _GENRE_KEYWORDS.get(primary) or _GENRE_KEYWORDS["casual"]
         suggestions: List[KeywordSuggestion] = []
+        seen_kw: set = set()
 
-        # Core keywords — 高优先级
-        for kw in kb["core"]:
-            suggestions.append(KeywordSuggestion(
-                keyword=kw,
-                source="genre_kb",
-                search_volume=self._estimate_volume(kw, is_core=True),
-                difficulty=0.4,
-                priority="HIGH",
-                reason=f"{genre} 品类核心关键词, 搜索量大",
-                action=f"放入标题和短描述前 30 字符",
-            ))
+        # 叠加语义词库 (com.born2play.biblequiz → 命中 bible + trivia → 3 个词库叠加)
+        extra_genres = self._detect_semantic_genres(game_id, package_name)
+        kbs_to_apply: List[Tuple[str, str]] = [(primary, "primary")]
+        for eg in extra_genres:
+            if eg != primary:
+                kbs_to_apply.append((eg, "semantic"))
 
-        # Long tail keywords — 中优先级
-        for kw in kb["long_tail"]:
-            suggestions.append(KeywordSuggestion(
-                keyword=kw,
-                source="genre_kb",
-                search_volume=self._estimate_volume(kw, is_core=False),
-                difficulty=0.25,
-                priority="MEDIUM",
-                reason=f"{genre} 长尾词, 竞争低, 转化率高",
-                action=f"放入完整描述, 每个词自然出现 2-3 次",
-            ))
+        def _priority_for(source: str, tier: str) -> str:
+            if source == "primary":
+                return {"core": "HIGH", "long_tail": "MEDIUM", "related": "LOW"}[tier]
+            # 语义词库: 核心词降一档 (避免跟主品类抢权重), 长尾保持
+            return {"core": "MEDIUM", "long_tail": "MEDIUM", "related": "LOW"}[tier]
 
-        # Related keywords — 低优先级
-        for kw in kb["related"]:
-            suggestions.append(KeywordSuggestion(
-                keyword=kw,
-                source="genre_kb",
-                search_volume=self._estimate_volume(kw, is_core=False),
-                difficulty=0.5,
-                priority="LOW",
-                reason="相关品类词, 扩大覆盖面",
-                action="放入完整描述尾部",
-            ))
+        for source_name, src_label in kbs_to_apply:
+            kb_i = _GENRE_KEYWORDS.get(source_name) or _GENRE_KEYWORDS["casual"]
+            for tier, priority_map in (("core", _priority_for(src_label, "core")),
+                                        ("long_tail", _priority_for(src_label, "long_tail")),
+                                        ("related", _priority_for(src_label, "related"))):
+                for kw in kb_i[tier]:
+                    if kw in seen_kw:
+                        continue
+                    seen_kw.add(kw)
+                    is_core = tier == "core"
+                    label = "语义扩展" if src_label != "primary" else primary
+                    suggestions.append(KeywordSuggestion(
+                        keyword=kw,
+                        source=f"genre_kb:{source_name}" if src_label != "primary" else "genre_kb",
+                        search_volume=self._estimate_volume(kw, is_core=is_core),
+                        difficulty=0.35 if is_core else 0.22,
+                        priority=priority_map,
+                        reason=f"{label} 品类词, {tier}",
+                        action=("放入标题和短描述前 30 字符" if is_core
+                                else "嵌入完整描述, 每个词自然出现 2-3 次"),
+                    ))
 
         return suggestions
 
