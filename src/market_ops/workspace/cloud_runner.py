@@ -145,7 +145,7 @@ def _run_all(store: StateStore, dashboard: bool = False) -> Dict[str, Any]:
         data_dir=data_dir,
         project_root=project_root,
     )
-    result = loop.run_all_games_cycle()
+    result = loop.run_cycle()
     _sync_local_back_to_cloud_if_needed(store, data_dir)
     if dashboard:
         try:
