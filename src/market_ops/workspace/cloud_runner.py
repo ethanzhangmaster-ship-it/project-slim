@@ -149,7 +149,7 @@ def _run_all(store: StateStore, dashboard: bool = False) -> Dict[str, Any]:
     _sync_local_back_to_cloud_if_needed(store, data_dir)
     if dashboard:
         try:
-            dash = loop.get_dashboard()
+            dash = loop.get_monitor().get_dashboard()
             dash_dict = dash.to_dict() if hasattr(dash, "to_dict") else dash.__dict__
             report_key = f"aso_deploy/dashboard/daily_{datetime.now(timezone.utc).strftime('%Y%m%d')}.json"
             store.write_json(report_key, dash_dict)
