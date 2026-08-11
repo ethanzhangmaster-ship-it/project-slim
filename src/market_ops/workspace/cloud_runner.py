@@ -150,8 +150,9 @@ def _run_all(store: StateStore, dashboard: bool = False) -> Dict[str, Any]:
     if dashboard:
         try:
             dash = loop.get_dashboard()
+            dash_dict = dash.to_dict() if hasattr(dash, "to_dict") else dash.__dict__
             report_key = f"aso_deploy/dashboard/daily_{datetime.now(timezone.utc).strftime('%Y%m%d')}.json"
-            store.write_json(report_key, dash)
+            store.write_json(report_key, dash_dict)
             result["dashboard_report"] = report_key
         except Exception as e:
             logger.exception("dashboard 生成失败")
