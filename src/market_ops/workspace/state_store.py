@@ -218,6 +218,11 @@ class GistStateStore(StateStore):
         logger.info(f"[state_store] Gist 后端初始化: gist_id={gist_id[:8]}...")
 
     # ── low-level HTTP ───────────────────────────────────────────
+    @staticmethod
+    def _fn(key: str) -> str:
+        """key → gist 文件名 (Gist 不允许文件名含 '/')."""
+        return key.replace("/", "__")
+
     def _headers(self) -> Dict[str, str]:
         return {
             "Authorization": f"Bearer {self._token}",
@@ -248,8 +253,9 @@ class GistStateStore(StateStore):
 
     # ── JSON ─────────────────────────────────────────────────────
     def read_json(self, key: str, default: Any = None) -> Any:
+        fn = self._fn(key)
         files = self._get_files()
-        entry = files.get(key)
+        entry = files.get(fn)
         if not entry or entry.get("truncated"):
             # 文件被截断的情况需要单独下载 raw_url
             if entry and entry.get("raw_url"):
@@ -269,18 +275,20 @@ class GistStateStore(StateStore):
 
     def write_json(self, key: str, value: Any) -> None:
         payload = json.dumps(value, ensure_ascii=False, indent=2, default=str)
-        self._patch_gist({key: {"content": payload}})
+        self._patch_gist({self._fn(key): {"content": payload}})
 
     # ── JSONL ────────────────────────────────────────────────────
     def append_jsonl(self, key: str, record: Dict[str, Any]) -> None:
+        fn = self._fn(key)
         line = json.dumps(record, ensure_ascii=False, default=str) + "\n"
         files = self._get_files()
-        existing = files.get(key, {}).get("content", "") if key in files else ""
-        self._patch_gist({key: {"content": existing + line}})
+        existing = files.get(fn, {}).get("content", "") if fn in files else ""
+        self._patch_gist({fn: {"content": existing + line}})
 
     def read_jsonl(self, key: str, limit: Optional[int] = None) -> List[Dict[str, Any]]:
+        fn = self._fn(key)
         files = self._get_files()
-        entry = files.get(key)
+        entry = files.get(fn)
         content = ""
         if entry:
             if entry.get("truncated") and entry.get("raw_url"):
@@ -307,10 +315,11 @@ class GistStateStore(StateStore):
 
     # ── 通用 ─────────────────────────────────────────────────────
     def exists(self, key: str) -> bool:
-        return key in self._get_files()
+        return self._fn(key) in self._get_files()
 
     def list_keys(self, prefix: str = "") -> List[str]:
-        return [k for k in self._get_files().keys() if k.startswith(prefix)]
+        fn_prefix = self._fn(prefix)
+        return [k.replace("__", "/") for k in self._get_files().keys() if k.startswith(fn_prefix)]
 
 
 # ── S3 后端 (生产/团队用, 支持 R2/MinIO) ────────────────────────
