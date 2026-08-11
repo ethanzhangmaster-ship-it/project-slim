@@ -213,6 +213,109 @@ class GrowthLoopScheduler:
             return self._build_status_dict()
 
     # ──────────────────────────────────────
+    # SOP 集成
+    # ──────────────────────────────────────
+
+    def list_sops(self) -> list[str]:
+        """列出所有可用的 SOP 定义名称."""
+        try:
+            from .sop_engine import SOPLoader
+            loader = SOPLoader(sops_dir=str(self.project_root / "sops"))
+            return loader.list_sops()
+        except Exception as exc:
+            logger.warning("列出 SOP 失败: %s", exc)
+            return []
+
+    def load_sop(self, name: str) -> dict[str, Any]:
+        """加载 SOP 定义.
+
+        Args:
+            name: SOP 名称 (对应 sops/{name}.yaml)
+
+        Returns:
+            SOPDefinition.to_dict()
+        """
+        from .sop_engine import SOPLoader
+        loader = SOPLoader(sops_dir=str(self.project_root / "sops"))
+        sop = loader.load(name)
+        return sop.to_dict()
+
+    def run_sop(
+        self,
+        name: str,
+        context: dict[str, Any] | None = None,
+        agent_registry: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        """按 SOP 定义编排 agent 调用链.
+
+        Args:
+            name: SOP 名称
+            context: 初始上下文 (SOP 输入变量)
+            agent_registry: agent 实例注册表, 默认自动构建
+
+        Returns:
+            SOPExecutionResult.to_dict()
+        """
+        from .sop_engine import SOPLoader, SOPExecutor
+
+        loader = SOPLoader(sops_dir=str(self.project_root / "sops"))
+        sop = loader.load(name)
+
+        # 自动构建 agent 注册表
+        registry = agent_registry or self._build_agent_registry()
+
+        executor = SOPExecutor(sop, registry)
+        result = executor.execute(context=context)
+
+        # 持久化 SOP 执行结果
+        self._persist_sop_result(result.to_dict())
+
+        logger.info(
+            "SOP '%s' 执行完成: %d/%d 步成功, %.1fs",
+            name, result.steps_succeeded, result.steps_executed,
+            result.duration_seconds,
+        )
+        return result.to_dict()
+
+    def _build_agent_registry(self) -> dict[str, Any]:
+        """构建默认的 agent 注册表."""
+        registry: dict[str, Any] = {}
+
+        try:
+            from .market_intelligence_agent import get_market_intelligence_agent
+            registry["MarketIntelligenceAgent"] = get_market_intelligence_agent(
+                data_dir=str(self.data_dir)
+            )
+        except Exception as exc:
+            logger.debug("MarketIntelligenceAgent 加载失败: %s", exc)
+
+        try:
+            from .data_analyst_agent import DataAnalystAgent
+            registry["DataAnalystAgent"] = DataAnalystAgent(
+                data_dir=str(self.data_dir)
+            )
+        except Exception as exc:
+            logger.debug("DataAnalystAgent 加载失败: %s", exc)
+
+        try:
+            from src.aso_intelligence.keyword.agent import ASOKeywordAgent
+            registry["ASOKeywordAgent"] = ASOKeywordAgent.build()
+        except Exception as exc:
+            logger.debug("ASOKeywordAgent 加载失败: %s", exc)
+
+        return registry
+
+    def _persist_sop_result(self, data: dict[str, Any]) -> None:
+        """持久化 SOP 执行结果."""
+        path = self.data_dir / "sop_results.jsonl"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(data, ensure_ascii=False, default=str) + "\n")
+        except (OSError, TypeError) as exc:
+            logger.warning("SOP 结果持久化失败: %s", exc)
+
+    # ──────────────────────────────────────
     # 内部实现
     # ──────────────────────────────────────
 

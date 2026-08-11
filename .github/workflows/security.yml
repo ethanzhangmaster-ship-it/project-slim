@@ -1,0 +1,39 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    - cron: "0 8 * * 1"  # weekly Monday 08:00 UTC
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run secret scanner
+        run: |
+          python -c "
+          import sys
+          sys.path.insert(0, '.')
+          from security.secrets.scanner import SecretScanner
+          scanner = SecretScanner()
+          # Scan PRODUCTION code only. Test fixtures in tests/ deliberately contain
+          # fake secrets (e.g. 'abc123', 's3cr3t') to validate the scanner itself,
+          # so including tests/ would make CI permanently red. Tests are never
+          # deployed, so production paths are the only leak surface that matters.
+          report = scanner.scan('src', 'operation', 'monetization', 'examples', 'samples')
+          print(report.to_markdown())
+          if not report.is_clean:
+              print(f'\n::error::{len(report.findings)} hardcoded secret(s) detected!')
+              sys.exit(1)
+          "

@@ -383,11 +383,82 @@ class DataAnalystAgent:
         config: DataAnalystConfig | None = None,
         message_bus: Any = None,
         agent_identity: Any = None,
+        query_engine=None,
     ) -> None:
         self.data_dir = data_dir
         self.config = config or DataAnalystConfig()
         self._message_bus = message_bus
         self._agent_identity = agent_identity
+        self._query_engine = query_engine
+
+    # ── pandas-ai 集成 ─────────────────────────────────────
+
+    def set_query_engine(self, engine) -> None:
+        """注入数据查询引擎 (pandas-ai 封装)."""
+        self._query_engine = engine
+
+    def has_query_engine(self) -> bool:
+        return self._query_engine is not None
+
+    def _get_query_engine(self):
+        """Lazy-load DataQueryEngine, 不可用时返回 None."""
+        if self._query_engine is not None:
+            return self._query_engine
+        try:
+            from .data_query_engine import get_data_query_engine
+            engine = get_data_query_engine()
+            status = engine.check_status()
+            if status["status"] == "ready":
+                self._query_engine = engine
+                return engine
+        except Exception as exc:
+            logger.debug("数据查询引擎不可用: %s", exc)
+        return None
+
+    def ask(
+        self,
+        question: str,
+        data: BehaviorData | None = None,
+        extra_dataframes: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        """用自然语言查询行为数据 — pandas-ai 驱动.
+
+        将 BehaviorData 转为 DataFrame, 附加额外的 DataFrame, 用 pandas-ai
+        让 LLM 生成代码并在 DataFrame 上执行.
+
+        Args:
+            question: 自然语言问题 (如 "D1 留存低于基准的游戏有哪些?")
+            data: 行为数据 (转为 "behavior" DataFrame)
+            extra_dataframes: 额外的命名 DataFrame (如 {"revenue": df})
+
+        Returns:
+            QueryResult.to_dict(), 不可用时返回降级信息
+        """
+        engine = self._get_query_engine()
+        if engine is None:
+            return {
+                "question": question,
+                "answer": "",
+                "error": "pandas-ai 不可用, 请安装并配置 LLM",
+                "success": False,
+            }
+
+        dataframes: dict[str, Any] = {}
+        if data is not None:
+            dataframes["behavior"] = data.to_dict()
+        if extra_dataframes:
+            dataframes.update(extra_dataframes)
+
+        if not dataframes:
+            return {
+                "question": question,
+                "answer": "",
+                "error": "没有提供数据",
+                "success": False,
+            }
+
+        result = engine.ask(question, dataframes)
+        return result.to_dict()
 
     # ── 辅助 ───────────────────────────────────────────────
 

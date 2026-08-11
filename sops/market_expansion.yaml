@@ -1,0 +1,48 @@
+# 市场拓展决策 SOP
+# 适用场景: 评估是否进入某新区域市场、调整 UA 预算区域分配
+# 输入变量: $target_region $target_genre $budget_cap
+name: market_expansion
+trigger: manual
+description: |
+  市场拓展决策流程: 市场研究 → 竞品分析 → ASO 关键词评估 → 预算建议
+steps:
+  # 步骤 1: 市场研究 (gpt-researcher)
+  - agent: MarketIntelligenceAgent
+    action: research_market
+    input:
+      query: "${target_region} ${target_genre} mobile game market size 2026, user acquisition cost, top publishers and competitive landscape"
+      report_type: research_report
+    output: market_research
+    timeout: 180
+    on_error: skip
+
+  # 步骤 2: ASO 关键词研究 (Apple Search Ads)
+  - agent: ASOKeywordAgent
+    action: run
+    input:
+      game_id: "market_expansion_candidate"
+      platform: APP_STORE
+      country: "${target_region}"
+    output: keyword_report
+    timeout: 120
+    on_error: skip
+
+  # 步骤 3: 数据分析师评估市场潜力和 ROI
+  - agent: DataAnalystAgent
+    action: compute_bi_report
+    input:
+      title: "Market Expansion Viability Report - ${target_region}"
+      region: "${target_region}"
+      genre: "${target_genre}"
+      budget_cap: "${budget_cap}"
+      market_research: "$market_research"
+      keyword_report: "$keyword_report"
+    output: viability_report
+    timeout: 60
+    on_error: skip
+
+fallback_on_error: skip
+metadata:
+  owner: marketing
+  criticality: high
+  estimated_cost_usd: 0

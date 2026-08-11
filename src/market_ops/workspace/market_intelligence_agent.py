@@ -128,6 +128,11 @@ class MarketIntelligenceAgent:
 
     封装 market_intelligence 管道模块，提供统一的 agent 接口。
 
+    gpt-researcher 集成:
+      - research_market() 使用 Plan-and-Solve 架构做深度市场研究
+      - 研究引擎可注入 (set_research_engine), 默认 lazy-load
+      - gpt-researcher 不可用时优雅降级
+
     用法:
         agent = MarketIntelligenceAgent(data_dir="data")
         analysis = agent.analyze_market()
@@ -138,16 +143,20 @@ class MarketIntelligenceAgent:
         opportunities = agent.generate_opportunities()
         report = agent.get_market_report()
         stats = agent.get_stats()
+        # gpt-researcher 深度研究
+        research = agent.research_market("2026 休闲合并类游戏市场趋势")
     """
 
     def __init__(
         self,
         data_dir: str = "data",
         config: MarketIntelligenceConfig | None = None,
+        research_engine=None,
     ) -> None:
         self.data_dir = data_dir
         self.config = config or MarketIntelligenceConfig()
         self._lock = threading.Lock()
+        self._research_engine = research_engine
 
         # 复用现有 market_intelligence 管道模块
         from src.market_ops.market_intelligence import (
@@ -162,6 +171,101 @@ class MarketIntelligenceAgent:
         self._signal_miner = CreativeSignalMiner()
         self._heatmap_engine = CategoryHeatmapEngine()
         self._opportunity_generator = OpportunityGenerator()
+
+    # ── gpt-researcher 集成 ─────────────────────────────────
+
+    def set_research_engine(self, engine) -> None:
+        """注入市场研究引擎 (gpt-researcher 封装)."""
+        self._research_engine = engine
+
+    def has_research_engine(self) -> bool:
+        return self._research_engine is not None
+
+    def _get_research_engine(self):
+        """Lazy-load MarketResearchEngine, 不可用时返回 None."""
+        if self._research_engine is not None:
+            return self._research_engine
+        try:
+            from .research_engine import get_market_research_engine
+            engine = get_market_research_engine()
+            status = engine.check_status()
+            if status["status"] == "ready":
+                self._research_engine = engine
+                return engine
+        except Exception as exc:
+            logger.debug("市场研究引擎不可用: %s", exc)
+        return None
+
+    def research_market(
+        self,
+        query: str,
+        report_type: str | None = None,
+    ) -> dict[str, Any]:
+        """深度市场研究 — 使用 gpt-researcher 的 Plan-and-Solve 架构.
+
+        将查询拆解为子问题 → 并行抓取多来源 → 聚合为带引用报告.
+
+        Args:
+            query: 研究查询 (如 "2026 休闲合并类游戏市场趋势和竞品分析")
+            report_type: 报告类型 (research_report / summary_report)
+
+        Returns:
+            研究结果 dict (ResearchReport.to_dict()), 不可用时返回降级信息
+        """
+        engine = self._get_research_engine()
+        if engine is None:
+            return {
+                "query": query,
+                "content": "",
+                "error": "gpt-researcher 不可用, 请安装并配置 LLM 和检索器",
+                "success": False,
+                "sources": [],
+                "sub_queries": [],
+            }
+
+        report = engine.research(query, report_type=report_type)
+
+        # 持久化研究结果
+        self._persist_research(report.to_dict())
+
+        return report.to_dict()
+
+    def research_competitors(
+        self,
+        competitor_names: list[str],
+        genre: str = "casual",
+    ) -> list[dict[str, Any]]:
+        """批量研究竞品 — 对每个竞品执行深度研究.
+
+        Args:
+            competitor_names: 竞品名称列表
+            genre: 游戏品类
+
+        Returns:
+            研究结果列表
+        """
+        engine = self._get_research_engine()
+        if engine is None:
+            return [{
+                "query": name,
+                "content": "",
+                "error": "gpt-researcher 不可用",
+                "success": False,
+            } for name in competitor_names]
+
+        queries = [
+            f"{name} {genre} game market performance, user acquisition strategy, monetization 2026"
+            for name in competitor_names
+        ]
+        reports = engine.research_batch(queries)
+        results = []
+        for name, report in zip(competitor_names, reports):
+            data = report.to_dict()
+            data["competitor_name"] = name
+            self._persist_research(data)
+            results.append(data)
+
+        return results
 
     # ── 核心方法 ─────────────────────────────────────────────
 
@@ -456,6 +560,11 @@ class MarketIntelligenceAgent:
         path = Path(self.data_dir) / "market_intelligence" / "reports.jsonl"
         return _read_jsonl(path, limit)
 
+    def list_researches(self, limit: int = 50) -> list[dict[str, Any]]:
+        """列出历史 gpt-researcher 研究记录."""
+        path = Path(self.data_dir) / "market_intelligence" / "researches.jsonl"
+        return _read_jsonl(path, limit)
+
     def get_report(self, report_id: str) -> dict[str, Any] | None:
         """按 ID 查询市场报告."""
         for r in self.list_reports(limit=500):
@@ -562,6 +671,10 @@ class MarketIntelligenceAgent:
     def _persist_report(self, report: MarketReport) -> None:
         path = Path(self.data_dir) / "market_intelligence" / "reports.jsonl"
         _append_jsonl(path, report.to_dict())
+
+    def _persist_research(self, data: dict[str, Any]) -> None:
+        path = Path(self.data_dir) / "market_intelligence" / "researches.jsonl"
+        _append_jsonl(path, data)
 
 
 # ═══════════════════════════════════════════════════════════════

@@ -1,0 +1,76 @@
+# 新品立项 SOP
+# 适用场景: 立项评估 (品类研究 → 竞品对比 → 用户画像 → LTV 建模 → ROI 决策)
+# 输入变量: $proposed_genre $proposed_sub_genre $target_region $development_budget
+name: new_game_ideation
+trigger: manual
+description: |
+  新品立项评估流程: 品类研究 → 竞品对比 → 用户画像 → LTV 建模 → ROI 决策
+steps:
+  # 步骤 1: 品类市场研究
+  - agent: MarketIntelligenceAgent
+    action: research_market
+    input:
+      query: "${proposed_genre} ${proposed_sub_genre} mobile games CAGR 2024-2026, emerging trends, consumer demand signal, monetization patterns in ${target_region}"
+      report_type: research_report
+    output: category_research
+    timeout: 240
+    on_error: skip
+
+  # 步骤 2: 市场热度评估
+  - agent: MarketIntelligenceAgent
+    action: get_category_heatmap
+    input:
+      platform: "GLOBAL"
+      lookback_days: 90
+    output: category_heatmap
+    timeout: 30
+    on_error: skip
+
+  # 步骤 3: 机会挖掘
+  - agent: MarketIntelligenceAgent
+    action: generate_opportunities
+    input:
+      heatmap: "$category_heatmap"
+      budget: "$development_budget"
+    output: opportunities
+    timeout: 30
+    on_error: skip
+
+  # 步骤 4: LTV 建模 (数值模型)
+  - agent: DataAnalystAgent
+    action: compute_retention_prediction
+    input:
+      title: "New Game LTV Model - ${proposed_genre} ${target_region}"
+      genre: "${proposed_genre}"
+      sub_genre: "${proposed_sub_genre}"
+      region: "${target_region}"
+      benchmarks:
+        d1_retention: 0.30
+        d7_retention: 0.10
+        d30_retention: 0.04
+    output: ltv_model
+    timeout: 60
+    on_error: skip
+
+  # 步骤 5: ROI 决策报告
+  - agent: DataAnalystAgent
+    action: compute_bi_report
+    input:
+      title: "New Game Ideation Decision Report"
+      proposed_genre: "${proposed_genre}"
+      proposed_sub_genre: "${proposed_sub_genre}"
+      target_region: "${target_region}"
+      development_budget: "$development_budget"
+      category_research: "$category_research"
+      category_heatmap: "$category_heatmap"
+      opportunities: "$opportunities"
+      ltv_model: "$ltv_model"
+    output: decision_report
+    timeout: 60
+    on_error: skip
+
+fallback_on_error: skip
+metadata:
+  owner: product
+  criticality: high
+  requires_human_approval: true

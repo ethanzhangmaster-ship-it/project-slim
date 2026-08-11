@@ -1,9 +1,15 @@
-# 敏感配置
+# ─── 敏感配置 (硬约束 #1: 真密钥绝不进 git) ───
+# 当前 .env 含真密钥 → 不进 git; .env.example 作为脱敏模板进 git
+# 真密钥统一放 .env.local (本机) 或系统环境变量 (跨机器)
 .env
+.env.local
+workspace/.env.local
+**/.env.local
+data/secrets/
 credentials/*.json
 !credentials/*.example
 
-# Python
+# ─── Python ───
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -11,34 +17,46 @@ dist/
 build/
 *.egg
 
-# 运行产物
+# ─── 运行产物 / 状态文件 (走 state_store 抽象, 不进 git) ───
 output/
+outputs/
 *.log
+data/aso_deploy/
+data/google_play_release/
+data/ios_release/
+data/play_runtime/
+data/_cache/
+data/test_research/
+data/organic_growth_report_*.json
+data/release_gate_*.json
+data/ACCT_*_report.json
+data/_t_*.json
+data/_t_*.jsonl
+data/token_monitor/
 
-# 素材池（大量二进制文件）
+# ─── 素材池 (大量二进制文件) ───
 loser_pool/
 winner_pool/
 
-# 数据库
+# ─── 数据库 ───
 db/
 *.db
 *.sqlite3
 
-# IDE
+# ─── IDE ───
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Playwright / MCP / Qoder
+# ─── Playwright / MCP / Qoder ───
 .playwright-mcp/
 .qoder/
-*.yml
 
-# 冗余文件
+# ─── 冗余文件 ───
 .gitignore_*
 
-# 系统文件
+# ─── 系统文件 ───
 Thumbs.db
 .DS_Store
 Desktop.ini

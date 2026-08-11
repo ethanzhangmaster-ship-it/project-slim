@@ -5117,6 +5117,452 @@ async def aso_keywords_research_single(body: dict) -> dict:
     return result.to_dict()
 
 
+# ── 外部集成: gpt-researcher 市场研究 API ─────────────────────
+
+@app.get("/api/intelligence/research/status")
+async def intelligence_research_status() -> dict:
+    """检查 gpt-researcher 安装和 LLM 配置状态."""
+    from .research_engine import get_market_research_engine
+    engine = get_market_research_engine()
+    return engine.check_status()
+
+
+@app.post("/api/intelligence/research")
+async def intelligence_research(body: dict) -> dict:
+    """深度市场研究 — 使用 gpt-researcher Plan-and-Solve 架构.
+
+    请求体:
+        query: str                  研究查询 (如 "2026 休闲合并类游戏市场趋势")
+        report_type: str            报告类型 (research_report / summary_report, 默认 research_report)
+        use_pipeline: bool          True 时走 MarketIntelligenceAgent 管道, 默认 False
+    """
+    query = body.get("query", "").strip()
+    if not query:
+        return {"error": "query 不能为空"}
+    report_type = body.get("report_type")
+
+    if body.get("use_pipeline", False):
+        from .market_intelligence_agent import get_market_intelligence_agent
+        agent = get_market_intelligence_agent(
+            data_dir=str(_PROJECT_ROOT / "data")
+        )
+        return agent.research_market(query, report_type=report_type)
+
+    from .research_engine import get_market_research_engine
+    engine = get_market_research_engine()
+    report = engine.research(query, report_type=report_type)
+    return report.to_dict()
+
+
+@app.post("/api/intelligence/research/competitors")
+async def intelligence_research_competitors(body: dict) -> list[dict]:
+    """批量竞品研究.
+
+    请求体:
+        competitor_names: List[str]  竞品名称列表
+        genre: str                   游戏品类 (默认 casual)
+    """
+    names = body.get("competitor_names", [])
+    if not names:
+        return [{"error": "competitor_names 不能为空"}]
+    genre = body.get("genre", "casual")
+
+    from .market_intelligence_agent import get_market_intelligence_agent
+    agent = get_market_intelligence_agent(
+        data_dir=str(_PROJECT_ROOT / "data")
+    )
+    return agent.research_competitors(names, genre=genre)
+
+
+@app.get("/api/intelligence/researches")
+async def intelligence_list_researches(limit: int = 50) -> list[dict]:
+    """列出历史 gpt-researcher 研究记录."""
+    from .market_intelligence_agent import get_market_intelligence_agent
+    agent = get_market_intelligence_agent(
+        data_dir=str(_PROJECT_ROOT / "data")
+    )
+    return agent.list_researches(limit=limit)
+
+
+# ── 外部集成: pandas-ai 数据查询 API ──────────────────────────
+
+@app.get("/api/analyst/query/status")
+async def analyst_query_status() -> dict:
+    """检查 pandas-ai 安装和 LLM 配置状态."""
+    from .data_query_engine import get_data_query_engine
+    engine = get_data_query_engine()
+    return engine.check_status()
+
+
+@app.post("/api/analyst/query")
+async def analyst_query(body: dict) -> dict:
+    """自然语言查询行为数据 — pandas-ai 驱动.
+
+    请求体:
+        question: str                   自然语言问题 (如 "D1 留存低于基准的游戏?")
+        behavior_data: Optional[dict]   BehaviorData 数据字典 (可选, 使用内置默认数据)
+        extra_dataframes: Optional[Dict[str, Any]]  额外 DataFrame (如 {"revenue": {...}})
+        game_id: str                    游戏 ID (默认 test_game)
+    """
+    question = body.get("question", "").strip()
+    if not question:
+        return {"error": "question 不能为空"}
+
+    from .data_analyst_agent import (
+        BehaviorData,
+        DataAnalystAgent,
+    )
+
+    agent = DataAnalystAgent(data_dir=str(_PROJECT_ROOT / "data"))
+    behavior_dict = body.get("behavior_data")
+    data = (
+        BehaviorData(**behavior_dict)
+        if behavior_dict
+        else BehaviorData(game_id=body.get("game_id", "test_game"))
+    )
+    extra = body.get("extra_dataframes")
+    return agent.ask(question, data=data, extra_dataframes=extra)
+
+
+# ── 外部集成: SOP 编排 API ────────────────────────────────────
+
+@app.get("/api/sop/list")
+async def sop_list() -> list[str]:
+    """列出所有可用的 SOP 定义名称."""
+    scheduler = _get_scheduler()
+    return scheduler.list_sops()
+
+
+@app.get("/api/sop/load/{name}")
+async def sop_load(name: str) -> dict:
+    """加载 SOP 定义.
+
+    路径参数:
+        name: SOP 名称 (对应 sops/{name}.yaml)
+    """
+    scheduler = _get_scheduler()
+    try:
+        return scheduler.load_sop(name)
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=404,
+            detail=f"SOP '{name}' not found",
+        )
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=400,
+            detail=str(exc),
+        )
+
+
+@app.post("/api/sop/run/{name}")
+async def sop_run(name: str, body: dict) -> dict:
+    """按 SOP 定义编排 agent 调用链.
+
+    路径参数:
+        name: SOP 名称
+
+    请求体:
+        context: Dict[str, Any]  初始上下文 (SOP 输入变量)
+    """
+    scheduler = _get_scheduler()
+    context = body.get("context", {})
+    try:
+        return scheduler.run_sop(name, context=context)
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=404,
+            detail=f"SOP '{name}' not found",
+        )
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=400,
+            detail=str(exc),
+        )
+
+
+# ── Google Play ASO + 自然量增长 API ──────────────────────────
+
+@app.post("/api/organic/analyze")
+async def organic_analyze(body: dict) -> dict:
+    """Google Play 自然量增长分析 — ASO + 交叉推广 + 内容营销 + SEO.
+
+    请求体:
+        game_id: str                   游戏 ID
+        package_name: str              Google Play 包名 (可选)
+        genre: str                     品类 (merge/puzzle/trivia/simulation/casual)
+        country: str                   目标国家 (默认 US)
+        reviews: List[dict]            用户评论 (可选, 每条含 text + rating)
+        competitor_packages: List[str] 竞品包名 (可选)
+        portfolio_games: List[dict]    同发行商其他游戏 (可选)
+        format: str                    返回格式 (json / markdown, 默认 json)
+    """
+    from .organic_growth_engine import get_google_play_aso_engine
+
+    engine = get_google_play_aso_engine()
+    report = engine.analyze(
+        game_id=body.get("game_id", ""),
+        package_name=body.get("package_name", ""),
+        genre=body.get("genre", ""),
+        country=body.get("country", "US"),
+        reviews=body.get("reviews"),
+        competitor_packages=body.get("competitor_packages"),
+        portfolio_games=body.get("portfolio_games"),
+    )
+
+    if body.get("format") == "markdown":
+        return {"markdown": report.to_markdown(), "summary": report.to_dict()}
+    return report.to_dict()
+
+
+@app.post("/api/organic/analyze/batch")
+async def organic_analyze_batch(body: dict) -> list[dict]:
+    """批量分析多个 Google Play 游戏.
+
+    请求体:
+        games: List[dict]  游戏列表, 每个含 game_id, package_name, genre
+        portfolio: bool     是否分析交叉推广 (默认 True)
+    """
+    from .organic_growth_engine import get_google_play_aso_engine
+
+    engine = get_google_play_aso_engine()
+    games = body.get("games", [])
+    do_portfolio = body.get("portfolio", True)
+
+    results: list[dict] = []
+    for game in games:
+        portfolio_games = games if do_portfolio else None
+        report = engine.analyze(
+            game_id=game.get("game_id", ""),
+            package_name=game.get("package_name", ""),
+            genre=game.get("genre", ""),
+            portfolio_games=portfolio_games,
+        )
+        results.append(report.to_dict())
+
+    return results
+
+
+# ── ASO 自动优化 API ──────────────────────────────────────────
+
+@app.post("/api/aso/optimize")
+async def aso_optimize(body: dict) -> dict:
+    """为单个游戏生成 ASO Store Listing 部署包.
+
+    请求体:
+        game_id: str                   游戏 ID
+        package_name: str              Google Play 包名
+        genre: str                     品类
+        reviews: List[dict]            用户评论 (可选)
+        portfolio_games: List[dict]    同发行商其他游戏 (可选)
+        save: bool                     是否保存到文件 (默认 True)
+    """
+    from .aso_auto_optimizer import get_aso_auto_optimizer
+
+    optimizer = get_aso_auto_optimizer(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    pkg = optimizer.generate_deploy_package(
+        game_id=body.get("game_id", ""),
+        package_name=body.get("package_name", ""),
+        genre=body.get("genre", "casual"),
+        reviews=body.get("reviews"),
+        portfolio_games=body.get("portfolio_games"),
+    )
+
+    if body.get("save", True):
+        optimizer.save_package(pkg)
+        optimizer.record_optimization(
+            game_id=pkg.game_id,
+            optimization_type="listing_update",
+            description=f"API 触发 ASO 优化 v{pkg.version}",
+        )
+
+    return pkg.to_dict()
+
+
+@app.post("/api/aso/optimize/batch")
+async def aso_optimize_batch(body: dict) -> dict:
+    """批量优化多个游戏.
+
+    请求体:
+        games: List[dict]  游戏列表 [{game_id, package_name, genre}, ...]
+    """
+    from .aso_auto_optimizer import get_aso_auto_optimizer
+
+    optimizer = get_aso_auto_optimizer(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    games = body.get("games", [])
+    packages = optimizer.auto_optimize(games)
+    return {
+        "total": len(packages),
+        "packages": [p.to_dict() for p in packages],
+    }
+
+
+@app.get("/api/aso/optimize/status")
+async def aso_optimize_status() -> dict:
+    """获取 ASO 优化状态汇总."""
+    from .aso_auto_optimizer import get_aso_auto_optimizer
+
+    optimizer = get_aso_auto_optimizer(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    return optimizer.get_status_summary()
+
+
+@app.get("/api/aso/history/{game_id}")
+async def aso_history(game_id: str) -> list[dict]:
+    """获取某个游戏的优化历史."""
+    from .aso_auto_optimizer import get_aso_auto_optimizer
+
+    optimizer = get_aso_auto_optimizer(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    return optimizer.get_optimization_history(game_id)
+
+
+@app.post("/api/aso/metrics/{game_id}")
+async def aso_update_metrics(game_id: str, body: dict) -> dict:
+    """更新游戏的 ASO 指标 (用于追踪优化效果).
+
+    请求体:
+        store_impressions: int
+        store_conversion_rate: float
+        organic_installs: int
+        organic_revenue: float
+        organic_dau: int
+        average_rating: float
+        rating_count: int
+    """
+    from .aso_auto_optimizer import ASOMetrics, get_aso_auto_optimizer
+
+    optimizer = get_aso_auto_optimizer(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    metrics = ASOMetrics(
+        game_id=game_id,
+        store_impressions=body.get("store_impressions", 0),
+        store_conversion_rate=body.get("store_conversion_rate", 0.0),
+        organic_installs=body.get("organic_installs", 0),
+        organic_revenue=body.get("organic_revenue", 0.0),
+        organic_dau=body.get("organic_dau", 0),
+        average_rating=body.get("average_rating", 0.0),
+        rating_count=body.get("rating_count", 0),
+    )
+    optimizer.update_metrics(game_id, metrics)
+    return {"status": "updated", "game_id": game_id}
+
+
+# ── ASO 优化循环 + 自然量监控 API ─────────────────────────────
+
+@app.post("/api/aso/loop/run")
+async def aso_loop_run(body: dict) -> dict:
+    """运行一次 ASO 优化循环 — 自动扫描所有 Google Play 游戏并优化.
+
+    请求体:
+        force: bool                  强制重新优化所有游戏 (默认 False)
+        only_game_ids: List[str]     只优化指定游戏 (可选)
+    """
+    from .aso_optimization_loop import get_aso_optimization_loop
+
+    loop = get_aso_optimization_loop(
+        data_dir=str(_PROJECT_ROOT / "data"),
+        project_root=str(_PROJECT_ROOT),
+    )
+    return loop.run_cycle(
+        force=body.get("force", False),
+        only_game_ids=body.get("only_game_ids"),
+    )
+
+
+@app.post("/api/aso/loop/single/{game_id}")
+async def aso_loop_single(game_id: str, body: dict = None) -> dict:
+    """单产品自动优化循环 — 检查指标并决定是否需要新变体.
+
+    决策逻辑:
+      - 从未优化 → 生成 v1
+      - 已优化但无指标数据 → 等待 (最多 7 天)
+      - 指标下降 → 立即生成新变体
+      - 指标稳定/增长 → 保持当前策略
+      - force_new_variant=True → 强制生成新变体 (A/B 测试)
+
+    请求体 (可选):
+        force_new_variant: bool     强制生成新变体 (默认 False)
+    """
+    from .aso_optimization_loop import get_aso_optimization_loop
+
+    loop = get_aso_optimization_loop(
+        data_dir=str(_PROJECT_ROOT / "data"),
+        project_root=str(_PROJECT_ROOT),
+    )
+    body = body or {}
+    return loop.run_single_game_auto_cycle(
+        game_id=game_id,
+        force_new_variant=body.get("force_new_variant", False),
+    )
+
+
+@app.get("/api/aso/loop/games")
+async def aso_loop_games() -> list[dict]:
+    """列出所有待优化的 Google Play 游戏."""
+    from .aso_optimization_loop import get_aso_optimization_loop
+
+    loop = get_aso_optimization_loop(
+        data_dir=str(_PROJECT_ROOT / "data"),
+        project_root=str(_PROJECT_ROOT),
+    )
+    games = loop.get_games()
+    return [
+        {
+            "game_id": g.game_id,
+            "package_name": g.package_name,
+            "genre": g.genre,
+            "platform": g.platform,
+            "country": g.country,
+            "account": g.account,
+        }
+        for g in games
+    ]
+
+
+@app.get("/api/aso/dashboard")
+async def aso_dashboard() -> dict:
+    """ASO 自然量增长 Dashboard — 全局汇总."""
+    from .aso_optimization_loop import get_organic_growth_monitor
+
+    monitor = get_organic_growth_monitor(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    return monitor.get_dashboard().to_dict()
+
+
+@app.get("/api/aso/growth/{game_id}")
+async def aso_growth_trend(game_id: str, days: int = 30) -> dict:
+    """获取某游戏的自然量增长趋势."""
+    from .aso_optimization_loop import get_organic_growth_monitor
+
+    monitor = get_organic_growth_monitor(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    trend = monitor.get_growth_trend(game_id, period_days=days)
+    return trend.to_dict()
+
+
+@app.get("/api/aso/metrics/{game_id}/history")
+async def aso_metrics_history(game_id: str) -> list[dict]:
+    """获取某游戏的指标历史记录."""
+    from .aso_optimization_loop import get_organic_growth_monitor
+
+    monitor = get_organic_growth_monitor(
+        data_dir=str(_PROJECT_ROOT / "data" / "aso_deploy")
+    )
+    with monitor._lock:
+        history = list(monitor._metrics_history.get(game_id, []))
+    return [m.to_dict() for m in history]
+
+
 def main() -> None:
     """CLI 入口: python -m market_ops.workspace.app"""
     import uvicorn
