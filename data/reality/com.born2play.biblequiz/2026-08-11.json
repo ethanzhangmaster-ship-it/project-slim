@@ -1,0 +1,96 @@
+{
+  "game_id": "com.born2play.biblequiz",
+  "as_of": "2026-08-11",
+  "saved_at": "2026-08-11T17:30:54+08:00",
+  "snapshot": {
+    "game_id": "com.born2play.biblequiz",
+    "timestamp": "2026-08-11",
+    "revenue": null,
+    "acquisition": {
+      "spend": 0.0,
+      "installs": 5,
+      "cpi": 0.0,
+      "roas": 0.0
+    },
+    "aso": {
+      "ranking": 0,
+      "store_cvr": 0.154,
+      "rating": 0.0,
+      "review_velocity": 0.0
+    },
+    "creative": null,
+    "product": {
+      "dau": 0,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": "live"
+    },
+    "confidence": 0.67,
+    "sources": [
+      "google_play_console"
+    ],
+    "real_confidence": 0.67,
+    "real_domains": [
+      "acquisition",
+      "aso",
+      "product"
+    ],
+    "attribution": null
+  },
+  "evidence": {
+    "scope": "google_play_console_read_only",
+    "current_installed_users": 7,
+    "last_release_date": "2026-05-21",
+    "last_store_listing_update": "2026-05-11",
+    "last_28_days": {
+      "device_impressions": 782,
+      "device_impressions_change": -0.56,
+      "device_acquisitions": 5,
+      "device_acquisitions_change": -0.75,
+      "first_opens": 2,
+      "first_opens_change": -0.67,
+      "monthly_active_devices": 7,
+      "monthly_active_devices_change": 0.0,
+      "store_visitors": 36,
+      "store_visitors_change": 0.41,
+      "unique_install_clicks": 7,
+      "unique_install_clicks_change": 0.46,
+      "install_click_rate": 0.19,
+      "install_click_rate_change": 0.09
+    },
+    "default_store_listing": {
+      "visitors": 39,
+      "conversion_rate": 0.154,
+      "experiments_running": 0,
+      "experiments_ended": 0,
+      "experiments_applied": 0
+    },
+    "last_90_days": {
+      "browse_acquisitions": 36
+    },
+    "play_revenue_usd": null,
+    "revenue_note": "Google Play Console displayed no Play revenue value; this is unknown, not asserted as zero."
+  },
+  "planned_experiment": {
+    "type": "controlled_before_after",
+    "locale": "en-US",
+    "single_variable": "short_description",
+    "current": "Play a fun Bible quiz and test your Bible knowledge with trivia questions.",
+    "candidate": "Test your Bible knowledge with thousands of trivia questions. Play offline free!",
+    "status": "awaiting_publish_confirmation",
+    "evaluation_windows_days": [
+      14,
+      28
+    ],
+    "primary_metrics": [
+      "device_impressions",
+      "store_visitors",
+      "unique_install_clicks",
+      "first_opens"
+    ],
+    "guardrails": [
+      "install_click_rate",
+      "default_store_listing_conversion_rate"
+    ]
+  }
+}
