@@ -365,6 +365,13 @@ def main(argv: List[str] | None = None) -> int:
     result.setdefault("finished_at", datetime.now(timezone.utc).isoformat())
 
     # 4. 日志输出
+    # Windows 任务计划/部分 IDE 会把 stdout 设成 cp1252，中文 reason 会导致
+    # 一个本来成功的优化循环在最后打印 JSON 时失败。统一为 UTF-8。
+    try:
+        if hasattr(sys.stdout, "reconfigure"):
+            sys.stdout.reconfigure(encoding="utf-8")
+    except (AttributeError, OSError):
+        pass
     if args.json_output:
         print(json.dumps(result, ensure_ascii=False, indent=2, default=str))
     else:

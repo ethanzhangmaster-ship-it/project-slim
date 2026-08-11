@@ -196,7 +196,7 @@ class TestASOAutoOptimizer:
             description="Test optimization",
         )
         assert record.game_id == "Bible Quiz"
-        assert record.status == "deployed"
+        assert record.status == "generated"
 
         history = optimizer.get_optimization_history("Bible Quiz")
         assert len(history) == 1
@@ -209,6 +209,7 @@ class TestASOAutoOptimizer:
             optimization_type="listing_update",
             description="Test",
         )
+        assert optimizer.mark_published("Bible Quiz") is True
         metrics = ASOMetrics(
             game_id="Bible Quiz",
             organic_installs=1000,
@@ -221,6 +222,47 @@ class TestASOAutoOptimizer:
         assert history[0]["after_metrics"] is not None
         assert history[0]["after_metrics"]["organic_installs"] == 1000
         assert history[0]["status"] == "measuring"
+
+    def test_history_survives_process_restart(self, tmp_path):
+        """云端定时任务每次都是新进程，历史必须从磁盘恢复."""
+        first = ASOAutoOptimizer(data_dir=str(tmp_path))
+        first.record_optimization(
+            game_id="com.born2play.biblequiz",
+            optimization_type="listing_update",
+            description="自动循环优化 v1",
+        )
+
+        restarted = ASOAutoOptimizer(data_dir=str(tmp_path))
+        history = restarted.get_optimization_history("com.born2play.biblequiz")
+        assert len(history) == 1
+        assert history[0]["status"] == "generated"
+
+        pkg = restarted.generate_deploy_package(
+            game_id="com.born2play.biblequiz",
+            package_name="com.born2play.biblequiz",
+            genre="bible",
+        )
+        assert pkg.version == 2
+
+    def test_legacy_deployed_without_metrics_is_migrated(self, tmp_path):
+        """旧数据没有真实发布凭证，不能继续冒充 deployed."""
+        history_path = tmp_path / "optimization_history.json"
+        history_path.write_text(json.dumps({
+            "com.born2play.biblequiz": [{
+                "game_id": "com.born2play.biblequiz",
+                "optimization_id": "legacy",
+                "timestamp": "2026-08-11T00:00:00+00:00",
+                "optimization_type": "listing_update",
+                "description": "自动循环优化 v1",
+                "before_metrics": None,
+                "after_metrics": None,
+                "status": "deployed",
+            }],
+        }), encoding="utf-8")
+
+        optimizer = ASOAutoOptimizer(data_dir=str(tmp_path))
+        history = optimizer.get_optimization_history("com.born2play.biblequiz")
+        assert history[0]["status"] == "generated"
 
     def test_auto_optimize_batch(self, optimizer):
         """批量自动优化."""

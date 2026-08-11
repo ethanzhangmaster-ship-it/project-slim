@@ -338,7 +338,10 @@ class OptimizationRecord:
     description: str = ""
     before_metrics: Optional[ASOMetrics] = None
     after_metrics: Optional[ASOMetrics] = None
-    status: str = "pending"  # pending / deployed / measuring / completed
+    # generated: 仅生成了部署包, 尚未证明已发布到商店
+    # published: 已收到 Google Play 发布确认, 等待效果数据
+    # measuring/completed: 已开始/完成效果评估
+    status: str = "pending"
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -369,6 +372,7 @@ class ASOAutoOptimizer:
         self._engine = get_google_play_aso_engine()
         self._lock = threading.Lock()
         self._records: Dict[str, List[OptimizationRecord]] = defaultdict(list)
+        self._load_records()
 
     # ── 1. 生成 Store Listing 部署包 ──
 
@@ -919,27 +923,56 @@ class ASOAutoOptimizer:
         optimization_type: str,
         description: str,
         before_metrics: Optional[ASOMetrics] = None,
+        status: str = "generated",
     ) -> OptimizationRecord:
-        """记录一次优化."""
+        """记录一次优化.
+
+        默认状态是 ``generated``，因为保存部署 JSON 不等于已经发布到
+        Google Play。只有真实发布接口返回成功后才应调用
+        :meth:`mark_published`。
+        """
         record = OptimizationRecord(
             game_id=game_id,
             optimization_id=f"opt_{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')}",
             optimization_type=optimization_type,
             description=description,
             before_metrics=before_metrics,
-            status="deployed",
+            status=status,
         )
         with self._lock:
             self._records[game_id].append(record)
         self._save_records()
         return record
 
+    def mark_published(
+        self,
+        game_id: str,
+        optimization_id: Optional[str] = None,
+    ) -> bool:
+        """在收到真实商店发布确认后，将部署包标为已发布."""
+        with self._lock:
+            records = self._records.get(game_id, [])
+            target: Optional[OptimizationRecord] = None
+            if optimization_id:
+                target = next(
+                    (r for r in reversed(records)
+                     if r.optimization_id == optimization_id),
+                    None,
+                )
+            elif records:
+                target = records[-1]
+            if target is None:
+                return False
+            target.status = "published"
+            self._save_records()
+            return True
+
     def update_metrics(self, game_id: str, metrics: ASOMetrics) -> None:
         """更新优化后的指标."""
         with self._lock:
             if game_id in self._records and self._records[game_id]:
                 latest = self._records[game_id][-1]
-                if latest.status == "deployed":
+                if latest.status in ("published", "deployed"):
                     latest.after_metrics = metrics
                     latest.status = "measuring"
                 elif latest.status == "measuring":
@@ -961,6 +994,56 @@ class ASOAutoOptimizer:
         with records_path.open("w", encoding="utf-8") as f:
             json.dump(all_records, f, ensure_ascii=False, indent=2)
             f.write("\n")
+
+    @staticmethod
+    def _metrics_from_dict(data: Optional[Dict[str, Any]]) -> Optional[ASOMetrics]:
+        if not isinstance(data, dict):
+            return None
+        fields = {
+            "timestamp", "store_impressions", "store_conversion_rate",
+            "organic_installs", "keyword_rankings", "search_visibility_score",
+            "organic_revenue", "organic_dau", "average_rating", "rating_count",
+        }
+        kwargs = {k: data[k] for k in fields if k in data}
+        return ASOMetrics(game_id=str(data.get("game_id", "")), **kwargs)
+
+    def _load_records(self) -> None:
+        """加载跨进程优化历史，避免每天都把同一方案重新生成成 v1.
+
+        旧版本把“只生成文件”错误记录为 ``deployed``。没有 after_metrics
+        的这类记录在加载时迁移成 ``generated``，防止误报真实发布。
+        """
+        records_path = self._data_dir / "optimization_history.json"
+        if not records_path.exists():
+            return
+        try:
+            migrated = False
+            with records_path.open(encoding="utf-8") as f:
+                raw = json.load(f)
+            for game_id, items in (raw or {}).items():
+                if not isinstance(items, list):
+                    continue
+                for item in items:
+                    if not isinstance(item, dict):
+                        continue
+                    status = str(item.get("status") or "generated")
+                    if status == "deployed" and not item.get("after_metrics"):
+                        status = "generated"
+                        migrated = True
+                    self._records[str(game_id)].append(OptimizationRecord(
+                        game_id=str(item.get("game_id") or game_id),
+                        optimization_id=str(item.get("optimization_id") or ""),
+                        timestamp=str(item.get("timestamp") or datetime.now(timezone.utc).isoformat()),
+                        optimization_type=str(item.get("optimization_type") or ""),
+                        description=str(item.get("description") or ""),
+                        before_metrics=self._metrics_from_dict(item.get("before_metrics")),
+                        after_metrics=self._metrics_from_dict(item.get("after_metrics")),
+                        status=status,
+                    ))
+            if migrated:
+                self._save_records()
+        except (OSError, ValueError, TypeError) as exc:
+            logger.warning("加载 ASO 优化历史失败, 将从空历史继续: %s", exc)
 
     # ── 4. 自动优化循环 ──
 

@@ -347,16 +347,27 @@ class ASOOptimizationLoop:
                     results.append({
                         "game_id": game.game_id,
                         "status": "optimized",
+                        "publish_status": "generated_not_published",
                         "title": pkg.title,
                         "keywords": len(pkg.keywords),
                         "localizations": len(pkg.localizations),
                     })
                 else:
                     skipped += 1
+                    history = self._optimizer.get_optimization_history(game.game_id)
+                    latest = history[-1] if history else {}
+                    latest_status = latest.get("status")
+                    if latest_status == "generated":
+                        skip_reason = "部署包已生成, 尚未确认发布到 Google Play"
+                    elif latest_status in ("published", "deployed") \
+                            and not latest.get("after_metrics"):
+                        skip_reason = "已确认发布, 等待真实效果数据"
+                    else:
+                        skip_reason = "指标稳定, 无需重新优化"
                     results.append({
                         "game_id": game.game_id,
                         "status": "skipped",
-                        "reason": "指标稳定, 无需重新优化",
+                        "reason": skip_reason,
                     })
             except Exception as exc:
                 failed += 1
@@ -393,8 +404,11 @@ class ASOOptimizationLoop:
             return True  # 从未优化过
 
         latest = history[-1]
-        if latest.get("status") == "deployed" and not latest.get("after_metrics"):
-            return False  # 已部署但还没收到效果数据, 等待
+        if latest.get("status") in ("generated", "published", "deployed") \
+                and not latest.get("after_metrics"):
+            # generated: 等待真实发布；published/deployed: 等待效果数据。
+            # 两种情况都不应每天盲目覆盖同一部署包。
+            return False
 
         # 如果有 after_metrics, 检查是否在下降
         after = latest.get("after_metrics")
@@ -453,6 +467,9 @@ class ASOOptimizationLoop:
         elif force_new_variant:
             action = "optimize"
             reason = "强制生成新变体 (A/B 测试)"
+        elif history[-1].get("status") == "generated":
+            action = "skip"
+            reason = "部署包已生成但尚未确认发布, 等待 Google Play 发布"
         elif not latest_metrics or latest_metrics.organic_installs == 0:
             # 无指标数据 — 检查上次优化距今多久
             latest_record = history[-1]
@@ -525,6 +542,7 @@ class ASOOptimizationLoop:
                     description=f"自动循环优化 v{pkg.version} (genre={game.genre}) — {reason}",
                 )
                 result["status"] = "optimized"
+                result["publish_status"] = "generated_not_published"
                 result["new_version"] = pkg.version
                 result["title"] = pkg.title
                 result["keywords"] = len(pkg.keywords)
