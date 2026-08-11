@@ -104,11 +104,12 @@ jobs:
           python -m market_ops.workspace.cloud_runner --healthcheck --no-dotenv
 
       - name: Decode Google Play Service Account (if provided)
-        if: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64 != '' }}
+        env:
+          GP_SA_B64: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64 }}
+        if: ${{ env.GP_SA_B64 != '' }}
         run: |
           mkdir -p ./data/secrets
-          echo "${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64 }}" \
-            | base64 -d > ./data/secrets/google_play_service_account.json
+          echo "$GP_SA_B64" | base64 -d > ./data/secrets/google_play_service_account.json
           echo "GOOGLE_PLAY_SERVICE_ACCOUNT_JSON=$(pwd)/data/secrets/google_play_service_account.json" >> "$GITHUB_ENV"
 
       - name: "Manual trigger — single game mode"
