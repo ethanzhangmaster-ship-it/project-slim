@@ -89,6 +89,8 @@ class StateStore(ABC):
         probe_key = f".probe/{os.getpid()}_{int(__import__('time').time()*1000)}.json"
         try:
             self.write_json(probe_key, {"ok": True})
+            # Gist 等远程后端存在最终一致性延迟, 写入后短暂等待再读
+            __import__("time").sleep(1.5)
             got = self.read_json(probe_key)
             return {"backend": self.backend, "ok": bool(got and got.get("ok")), "probe": probe_key}
         except Exception as e:
