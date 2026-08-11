@@ -1,0 +1,841 @@
+{
+  "shots": {
+    "witch_ad_shot_001": {
+      "shot_id": "witch_ad_shot_001",
+      "source_video": "witch_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 89,
+      "performance_score": 70,
+      "duration": 3.068894343304872,
+      "start_time": 0,
+      "end_time": 3.068894343304872,
+      "tags": [
+        "character",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing attack with surprise emotion"
+    },
+    "witch_ad_shot_002": {
+      "shot_id": "witch_ad_shot_002",
+      "source_video": "witch_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 71,
+      "performance_score": 83,
+      "duration": 4.113604079578177,
+      "start_time": 5,
+      "end_time": 9.113604079578177,
+      "tags": [
+        "character",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing merge with curiosity emotion"
+    },
+    "witch_ad_shot_003": {
+      "shot_id": "witch_ad_shot_003",
+      "source_video": "witch_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 84,
+      "performance_score": 75,
+      "duration": 2.159650265731864,
+      "start_time": 10,
+      "end_time": 12.159650265731864,
+      "tags": [
+        "character",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing upgrade with satisfaction emotion"
+    },
+    "witch_ad_shot_004": {
+      "shot_id": "witch_ad_shot_004",
+      "source_video": "witch_ad",
+      "role": "ending",
+      "subject": "character",
+      "action": "collect",
+      "emotion": "satisfaction",
+      "camera": "tracking",
+      "visual_score": 77,
+      "performance_score": 63,
+      "duration": 5.7574656576815,
+      "start_time": 15,
+      "end_time": 20.7574656576815,
+      "tags": [
+        "character",
+        "collect",
+        "satisfaction",
+        "ending"
+      ],
+      "description": "ending: character performing collect with satisfaction emotion"
+    },
+    "dragon_ad_shot_001": {
+      "shot_id": "dragon_ad_shot_001",
+      "source_video": "dragon_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 89,
+      "performance_score": 93,
+      "duration": 7.559280010113529,
+      "start_time": 0,
+      "end_time": 7.559280010113529,
+      "tags": [
+        "character",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing attack with surprise emotion"
+    },
+    "dragon_ad_shot_002": {
+      "shot_id": "dragon_ad_shot_002",
+      "source_video": "dragon_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 73,
+      "performance_score": 75,
+      "duration": 7.126621613688258,
+      "start_time": 5,
+      "end_time": 12.126621613688258,
+      "tags": [
+        "character",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing merge with curiosity emotion"
+    },
+    "dragon_ad_shot_003": {
+      "shot_id": "dragon_ad_shot_003",
+      "source_video": "dragon_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 81,
+      "performance_score": 86,
+      "duration": 5.2263147350985815,
+      "start_time": 10,
+      "end_time": 15.226314735098581,
+      "tags": [
+        "character",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing upgrade with satisfaction emotion"
+    },
+    "dragon_ad_shot_004": {
+      "shot_id": "dragon_ad_shot_004",
+      "source_video": "dragon_ad",
+      "role": "ending",
+      "subject": "character",
+      "action": "collect",
+      "emotion": "satisfaction",
+      "camera": "tracking",
+      "visual_score": 76,
+      "performance_score": 89,
+      "duration": 2.7121150010415214,
+      "start_time": 15,
+      "end_time": 17.71211500104152,
+      "tags": [
+        "character",
+        "collect",
+        "satisfaction",
+        "ending"
+      ],
+      "description": "ending: character performing collect with satisfaction emotion"
+    },
+    "warrior_ad_shot_001": {
+      "shot_id": "warrior_ad_shot_001",
+      "source_video": "warrior_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 81,
+      "performance_score": 84,
+      "duration": 6.453525479070995,
+      "start_time": 0,
+      "end_time": 6.453525479070995,
+      "tags": [
+        "character",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing attack with surprise emotion"
+    },
+    "warrior_ad_shot_002": {
+      "shot_id": "warrior_ad_shot_002",
+      "source_video": "warrior_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 80,
+      "performance_score": 82,
+      "duration": 5.196792234863041,
+      "start_time": 5,
+      "end_time": 10.196792234863041,
+      "tags": [
+        "character",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing merge with curiosity emotion"
+    },
+    "warrior_ad_shot_003": {
+      "shot_id": "warrior_ad_shot_003",
+      "source_video": "warrior_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 85,
+      "performance_score": 69,
+      "duration": 3.13981237077088,
+      "start_time": 10,
+      "end_time": 13.13981237077088,
+      "tags": [
+        "character",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing upgrade with satisfaction emotion"
+    },
+    "warrior_ad_shot_004": {
+      "shot_id": "warrior_ad_shot_004",
+      "source_video": "warrior_ad",
+      "role": "ending",
+      "subject": "character",
+      "action": "collect",
+      "emotion": "satisfaction",
+      "camera": "tracking",
+      "visual_score": 78,
+      "performance_score": 74,
+      "duration": 2.361923346208197,
+      "start_time": 15,
+      "end_time": 17.361923346208197,
+      "tags": [
+        "character",
+        "collect",
+        "satisfaction",
+        "ending"
+      ],
+      "description": "ending: character performing collect with satisfaction emotion"
+    },
+    "monster_ad_shot_001": {
+      "shot_id": "monster_ad_shot_001",
+      "source_video": "monster_ad",
+      "role": "hook",
+      "subject": "monster",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 84,
+      "performance_score": 88,
+      "duration": 2.3716727767714176,
+      "start_time": 0,
+      "end_time": 2.3716727767714176,
+      "tags": [
+        "monster",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: monster performing attack with surprise emotion"
+    },
+    "monster_ad_shot_002": {
+      "shot_id": "monster_ad_shot_002",
+      "source_video": "monster_ad",
+      "role": "gameplay",
+      "subject": "monster",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 77,
+      "performance_score": 62,
+      "duration": 4.361084676354583,
+      "start_time": 5,
+      "end_time": 9.361084676354583,
+      "tags": [
+        "monster",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: monster performing merge with curiosity emotion"
+    },
+    "monster_ad_shot_003": {
+      "shot_id": "monster_ad_shot_003",
+      "source_video": "monster_ad",
+      "role": "reward",
+      "subject": "monster",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 83,
+      "performance_score": 74,
+      "duration": 7.608400434720185,
+      "start_time": 10,
+      "end_time": 17.608400434720185,
+      "tags": [
+        "monster",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: monster performing upgrade with satisfaction emotion"
+    },
+    "castle_ad_shot_001": {
+      "shot_id": "castle_ad_shot_001",
+      "source_video": "castle_ad",
+      "role": "hook",
+      "subject": "building",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 86,
+      "performance_score": 67,
+      "duration": 2.9655662847656936,
+      "start_time": 0,
+      "end_time": 2.9655662847656936,
+      "tags": [
+        "building",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: building performing attack with surprise emotion"
+    },
+    "castle_ad_shot_002": {
+      "shot_id": "castle_ad_shot_002",
+      "source_video": "castle_ad",
+      "role": "gameplay",
+      "subject": "building",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 77,
+      "performance_score": 73,
+      "duration": 5.979340224802117,
+      "start_time": 5,
+      "end_time": 10.979340224802117,
+      "tags": [
+        "building",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: building performing merge with curiosity emotion"
+    },
+    "castle_ad_shot_003": {
+      "shot_id": "castle_ad_shot_003",
+      "source_video": "castle_ad",
+      "role": "reward",
+      "subject": "building",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 83,
+      "performance_score": 70,
+      "duration": 7.673440932770969,
+      "start_time": 10,
+      "end_time": 17.67344093277097,
+      "tags": [
+        "building",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: building performing upgrade with satisfaction emotion"
+    },
+    "treasure_ad_shot_001": {
+      "shot_id": "treasure_ad_shot_001",
+      "source_video": "treasure_ad",
+      "role": "hook",
+      "subject": "item",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 85,
+      "performance_score": 82,
+      "duration": 7.797760808159794,
+      "start_time": 0,
+      "end_time": 7.797760808159794,
+      "tags": [
+        "item",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: item performing attack with surprise emotion"
+    },
+    "treasure_ad_shot_002": {
+      "shot_id": "treasure_ad_shot_002",
+      "source_video": "treasure_ad",
+      "role": "gameplay",
+      "subject": "item",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 75,
+      "performance_score": 74,
+      "duration": 7.859470507190792,
+      "start_time": 5,
+      "end_time": 12.859470507190792,
+      "tags": [
+        "item",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: item performing merge with curiosity emotion"
+    },
+    "treasure_ad_shot_003": {
+      "shot_id": "treasure_ad_shot_003",
+      "source_video": "treasure_ad",
+      "role": "reward",
+      "subject": "item",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 77,
+      "performance_score": 91,
+      "duration": 3.7962937345573344,
+      "start_time": 10,
+      "end_time": 13.796293734557334,
+      "tags": [
+        "item",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: item performing upgrade with satisfaction emotion"
+    },
+    "merge_ad_shot_001": {
+      "shot_id": "merge_ad_shot_001",
+      "source_video": "merge_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 81,
+      "performance_score": 71,
+      "duration": 6.330857797592785,
+      "start_time": 0,
+      "end_time": 6.330857797592785,
+      "tags": [
+        "character",
+        "merge",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing merge with surprise emotion"
+    },
+    "merge_ad_shot_002": {
+      "shot_id": "merge_ad_shot_002",
+      "source_video": "merge_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 73,
+      "performance_score": 92,
+      "duration": 4.582690223031806,
+      "start_time": 5,
+      "end_time": 9.582690223031806,
+      "tags": [
+        "character",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing merge with curiosity emotion"
+    },
+    "merge_ad_shot_003": {
+      "shot_id": "merge_ad_shot_003",
+      "source_video": "merge_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 81,
+      "performance_score": 83,
+      "duration": 2.0606511563326997,
+      "start_time": 10,
+      "end_time": 12.0606511563327,
+      "tags": [
+        "character",
+        "merge",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing merge with satisfaction emotion"
+    },
+    "battle_ad_shot_001": {
+      "shot_id": "battle_ad_shot_001",
+      "source_video": "battle_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 84,
+      "performance_score": 88,
+      "duration": 2.013617918622834,
+      "start_time": 0,
+      "end_time": 2.013617918622834,
+      "tags": [
+        "character",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing attack with surprise emotion"
+    },
+    "battle_ad_shot_002": {
+      "shot_id": "battle_ad_shot_002",
+      "source_video": "battle_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 72,
+      "performance_score": 92,
+      "duration": 5.31625314726962,
+      "start_time": 5,
+      "end_time": 10.31625314726962,
+      "tags": [
+        "character",
+        "attack",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing attack with curiosity emotion"
+    },
+    "battle_ad_shot_003": {
+      "shot_id": "battle_ad_shot_003",
+      "source_video": "battle_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 79,
+      "performance_score": 90,
+      "duration": 5.75420440766365,
+      "start_time": 10,
+      "end_time": 15.75420440766365,
+      "tags": [
+        "character",
+        "attack",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing attack with satisfaction emotion"
+    },
+    "explore_ad_shot_001": {
+      "shot_id": "explore_ad_shot_001",
+      "source_video": "explore_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "explore",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 83,
+      "performance_score": 75,
+      "duration": 7.216484025851879,
+      "start_time": 0,
+      "end_time": 7.216484025851879,
+      "tags": [
+        "character",
+        "explore",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing explore with surprise emotion"
+    },
+    "explore_ad_shot_002": {
+      "shot_id": "explore_ad_shot_002",
+      "source_video": "explore_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "explore",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 78,
+      "performance_score": 83,
+      "duration": 6.341016760625472,
+      "start_time": 5,
+      "end_time": 11.341016760625472,
+      "tags": [
+        "character",
+        "explore",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing explore with curiosity emotion"
+    },
+    "explore_ad_shot_003": {
+      "shot_id": "explore_ad_shot_003",
+      "source_video": "explore_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "explore",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 79,
+      "performance_score": 74,
+      "duration": 2.8550390088030717,
+      "start_time": 10,
+      "end_time": 12.855039008803072,
+      "tags": [
+        "character",
+        "explore",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing explore with satisfaction emotion"
+    },
+    "evolve_ad_shot_001": {
+      "shot_id": "evolve_ad_shot_001",
+      "source_video": "evolve_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 83,
+      "performance_score": 80,
+      "duration": 5.196758238476327,
+      "start_time": 0,
+      "end_time": 5.196758238476327,
+      "tags": [
+        "character",
+        "upgrade",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing upgrade with surprise emotion"
+    },
+    "evolve_ad_shot_002": {
+      "shot_id": "evolve_ad_shot_002",
+      "source_video": "evolve_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 78,
+      "performance_score": 82,
+      "duration": 6.480021936050473,
+      "start_time": 5,
+      "end_time": 11.480021936050473,
+      "tags": [
+        "character",
+        "upgrade",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing upgrade with curiosity emotion"
+    },
+    "evolve_ad_shot_003": {
+      "shot_id": "evolve_ad_shot_003",
+      "source_video": "evolve_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 76,
+      "performance_score": 85,
+      "duration": 3.4875044074748,
+      "start_time": 10,
+      "end_time": 13.4875044074748,
+      "tags": [
+        "character",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing upgrade with satisfaction emotion"
+    },
+    "rescue_ad_shot_001": {
+      "shot_id": "rescue_ad_shot_001",
+      "source_video": "rescue_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "rescue",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 90,
+      "performance_score": 88,
+      "duration": 7.988466628252086,
+      "start_time": 0,
+      "end_time": 7.988466628252086,
+      "tags": [
+        "character",
+        "rescue",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing rescue with surprise emotion"
+    },
+    "rescue_ad_shot_002": {
+      "shot_id": "rescue_ad_shot_002",
+      "source_video": "rescue_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "rescue",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 71,
+      "performance_score": 82,
+      "duration": 6.919712519135729,
+      "start_time": 5,
+      "end_time": 11.919712519135729,
+      "tags": [
+        "character",
+        "rescue",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing rescue with curiosity emotion"
+    },
+    "rescue_ad_shot_003": {
+      "shot_id": "rescue_ad_shot_003",
+      "source_video": "rescue_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "rescue",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 77,
+      "performance_score": 68,
+      "duration": 6.031654781957368,
+      "start_time": 10,
+      "end_time": 16.031654781957368,
+      "tags": [
+        "character",
+        "rescue",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing rescue with satisfaction emotion"
+    },
+    "magic_ad_shot_001": {
+      "shot_id": "magic_ad_shot_001",
+      "source_video": "magic_ad",
+      "role": "hook",
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in",
+      "visual_score": 89,
+      "performance_score": 71,
+      "duration": 7.862689638680783,
+      "start_time": 0,
+      "end_time": 7.862689638680783,
+      "tags": [
+        "character",
+        "attack",
+        "surprise",
+        "hook"
+      ],
+      "description": "hook: character performing attack with surprise emotion"
+    },
+    "magic_ad_shot_002": {
+      "shot_id": "magic_ad_shot_002",
+      "source_video": "magic_ad",
+      "role": "gameplay",
+      "subject": "character",
+      "action": "merge",
+      "emotion": "curiosity",
+      "camera": "pan",
+      "visual_score": 70,
+      "performance_score": 73,
+      "duration": 3.2915913884208674,
+      "start_time": 5,
+      "end_time": 8.291591388420867,
+      "tags": [
+        "character",
+        "merge",
+        "curiosity",
+        "gameplay"
+      ],
+      "description": "gameplay: character performing merge with curiosity emotion"
+    },
+    "magic_ad_shot_003": {
+      "shot_id": "magic_ad_shot_003",
+      "source_video": "magic_ad",
+      "role": "reward",
+      "subject": "character",
+      "action": "upgrade",
+      "emotion": "satisfaction",
+      "camera": "zoom_in",
+      "visual_score": 77,
+      "performance_score": 77,
+      "duration": 4.362582971664832,
+      "start_time": 10,
+      "end_time": 14.362582971664832,
+      "tags": [
+        "character",
+        "upgrade",
+        "satisfaction",
+        "reward"
+      ],
+      "description": "reward: character performing upgrade with satisfaction emotion"
+    }
+  },
+  "stats": {
+    "total": 39,
+    "avg_visual_score": 79.8,
+    "avg_performance_score": 78.9,
+    "role_distribution": {
+      "hook": 12,
+      "gameplay": 12,
+      "reward": 12,
+      "ending": 3
+    },
+    "subject_distribution": {
+      "character": 30,
+      "monster": 3,
+      "building": 3,
+      "item": 3
+    }
+  },
+  "timestamp": "2026-07-13T14:27:46.470923"
+}

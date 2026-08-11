@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-06",
+  "ran_at": "2026-08-06T23:24:18",
+  "mode": "SIMULATION",
+  "apply": false,
+  "packages_count": 5,
+  "packages": [
+    "com.bibleword.encryption.challenge.trivia",
+    "com.born2play.biblequiz",
+    "com.lilijoy.monster",
+    "com.ofwsalary.ofwcalculator",
+    "com.travel.quiz.trivia"
+  ],
+  "agents": {
+    "health": {
+      "status": "OK",
+      "seconds": 0.004,
+      "items": 5
+    },
+    "release": {
+      "status": "OK",
+      "seconds": 0.002,
+      "items": 5
+    },
+    "review": {
+      "status": "OK",
+      "seconds": 0.0,
+      "items": 5
+    },
+    "experiment": {
+      "status": "OK",
+      "seconds": 0.002,
+      "items": 5
+    },
+    "tester_pool": {
+      "status": "OK",
+      "seconds": 0.004,
+      "items": 5
+    }
+  },
+  "agents_ok": 5,
+  "agents_total": 5,
+  "real_api_called": false,
+  "failures": [],
+  "status": "OK"
+}

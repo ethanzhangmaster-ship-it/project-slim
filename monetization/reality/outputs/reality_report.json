@@ -1,0 +1,104 @@
+{
+  "layer": "E13.3.1 Monetization Reality Engine",
+  "generated_at": "2026-07-23T04:58:55.302267+00:00",
+  "events_processed": 14206,
+  "facts_emitted": 226,
+  "daily_facts": 43,
+  "segment_facts": 183,
+  "opportunities": 3,
+  "checks_passed": 18,
+  "checks_total": 18,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "demo_events_with_dimensions",
+      "pass": true,
+      "detail": "14206/14206 carry traffic_source+user_cohort"
+    },
+    {
+      "name": "traffic_source_values_present",
+      "pass": true,
+      "detail": "sources=['facebook', 'google', 'organic']"
+    },
+    {
+      "name": "user_cohort_values_present",
+      "pass": true,
+      "detail": "cohorts=['early', 'late']"
+    },
+    {
+      "name": "events_ingested",
+      "pass": true,
+      "detail": "14206 ingested"
+    },
+    {
+      "name": "facts_emitted",
+      "pass": true,
+      "detail": "226 facts"
+    },
+    {
+      "name": "daily_facts_present",
+      "pass": true,
+      "detail": "43 daily facts"
+    },
+    {
+      "name": "segment_facts_present",
+      "pass": true,
+      "detail": "183 segment facts"
+    },
+    {
+      "name": "all_facts_schema_valid",
+      "pass": true,
+      "detail": "0 errors"
+    },
+    {
+      "name": "segment_facts_have_traffic_source",
+      "pass": true,
+      "detail": "183 have traffic_source"
+    },
+    {
+      "name": "segment_facts_have_user_cohort",
+      "pass": true,
+      "detail": "183 have user_cohort"
+    },
+    {
+      "name": "multiple_traffic_source_segments",
+      "pass": true,
+      "detail": "sources=['facebook', 'google', 'organic']"
+    },
+    {
+      "name": "ecpm_drop_detected",
+      "pass": true,
+      "detail": "types=['ad_frequency_issue', 'ecpm_drop', 'fill_drop']"
+    },
+    {
+      "name": "fill_drop_detected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ad_frequency_issue_detected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "opportunities_found",
+      "pass": true,
+      "detail": "3 opportunities"
+    },
+    {
+      "name": "continuous_ingest_stable",
+      "pass": true,
+      "detail": "after batch1=181 after batch2=226"
+    },
+    {
+      "name": "continuous_detect_stable",
+      "pass": true,
+      "detail": "3 opportunities after incremental ingest"
+    },
+    {
+      "name": "metricstore_roundtrip",
+      "pass": true,
+      "detail": "saved=226 loaded=226"
+    }
+  ]
+}

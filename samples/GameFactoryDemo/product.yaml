@@ -1,0 +1,46 @@
+# ============================================================================
+# GameFactoryDemo — E13.2.6 Integration Validation Layer reference game config
+# 这是 LaunchForge 流水线「生成配置」的最小真实验证样本。
+# 改 product.name / sdk_keys / placements / tokens 后重跑 config_generator 即可。
+# 运行：python ../../src/config_generator.py --config product.yaml \
+#        --out Assets/Resources/GameFactory/gamefactory_config.json
+# ============================================================================
+product:
+  name: "GameFactory Demo"
+  genre: puzzle
+  platforms: ["android"]
+  package_name: "com.gamefactory.demo"
+  bundle_id: "com.gamefactory.demo"
+  unity_version: "2022.3.62f1"
+
+monetization:
+  provider: MAX                       # MAX | LevelPlay
+  sdk_keys:
+    android: "REPLACE_WITH_MAX_SDK_KEY"
+    ios: "REPLACE_WITH_MAX_SDK_KEY"
+  placements:
+    rewarded: "REPLACE_WITH_REWARD_ID"
+    interstitial: "REPLACE_WITH_INTERSTITIAL_ID"
+    banner: "REPLACE_WITH_BANNER_ID"
+  optimize:
+    auto_apply: false
+    report_cron: "0 9 * * *"
+    eCPM_floor_step: 0.02
+    min_fill_rate: 0.05
+
+analytics:
+  providers: [Firebase, Adjust]
+  firebase_key: "REPLACE_WITH_FIREBASE_KEY"
+  adjust_token: "REPLACE_WITH_ADJUST_TOKEN"
+
+# 嵌套写法；config_generator 拍平成 dot-path entries。
+# 运行时：RemoteConfigManager.GetInt("ads.reward_frequency") 应返回 3。
+remote_config:
+  ads:
+    reward_frequency: 3
+    interstitial_gap: 2
+  gameplay:
+    level_difficulty: 1.2
+    reward_multiplier: 2
+
+iap_products: []

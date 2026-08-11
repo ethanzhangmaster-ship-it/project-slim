@@ -1,0 +1,25 @@
+{
+  "result": "PRODUCTION READY",
+  "fleet_size": 50,
+  "cycles": 2744,
+  "actions": 57,
+  "auto_execute": 0,
+  "rollbacks": 0,
+  "blocked": 0,
+  "observed": 2693,
+  "critical_failures": 0,
+  "decision_explainability": "100%",
+  "health_snapshots": 50,
+  "decision_traces": 57,
+  "alerts": 0,
+  "metrics_types": "alert, decision, game_health",
+  "notes": [
+    "Cold-start fleet (seed_memory_fn=None): agent has zero prior data and appropriately observes/experiments instead of auto-executing. Auto-execute ramps up once experiments close and priors converge (expected after ~30+ cycles per game at default policy thresholds)."
+  ],
+  "issues": [],
+  "fault_injected": {
+    "transient_crash": "witch_merge",
+    "forced_degraded": "tap_rpg",
+    "high_rollback": "sling_adventure"
+  }
+}

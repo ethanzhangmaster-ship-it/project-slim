@@ -1,0 +1,235 @@
+{
+  "acceptance_date": "2026-08-10T16:06:15",
+  "duration_seconds": 0.39,
+  "summary": {
+    "total_steps": 12,
+    "pass": 12,
+    "fail": 0,
+    "skip": 0,
+    "overall": "PASS"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "name": "CEO 每日例会",
+      "status": "pass",
+      "detail": {
+        "endpoint": "POST /api/ceo/daily-run",
+        "mode": "demo",
+        "stages": 0,
+        "status": "skipped",
+        "duration_seconds": 0.1,
+        "real_api_called": false
+      }
+    },
+    {
+      "step": 2,
+      "name": "GrowthLoop 触发",
+      "status": "pass",
+      "detail": {
+        "endpoint": "POST /api/loop/trigger",
+        "mode": "dry_run",
+        "cycle": 14,
+        "phase": "",
+        "actions_planned": 0
+      }
+    },
+    {
+      "step": 3,
+      "name": "决策列表 + 审批",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/decisions",
+        "total": 5,
+        "pending": 0,
+        "approved_in_this_run": false
+      }
+    },
+    {
+      "step": 4,
+      "name": "LiveOps 流失分析",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/liveops/churn-analysis/p04",
+        "game_id": "p04",
+        "total_players": 0,
+        "at_risk_count": 0,
+        "avg_churn_risk": 0.0
+      }
+    },
+    {
+      "step": 5,
+      "name": "LiveOps 回流活动设计",
+      "status": "pass",
+      "detail": {
+        "endpoint": "POST /api/liveops/winback-campaign",
+        "campaign_id": "wb-p04-a00c3063",
+        "campaign_type": "login_bonus",
+        "target_count": 1
+      }
+    },
+    {
+      "step": 6,
+      "name": "LiveOps 活动执行",
+      "status": "pass",
+      "detail": {
+        "endpoint": "POST /api/liveops/campaigns/wb-p04-a00c3063/execute",
+        "execution_id": "exec_b6263a452616",
+        "approval_level": 0,
+        "status": "completed",
+        "actions": 3
+      }
+    },
+    {
+      "step": 7,
+      "name": "LiveOps 执行审批",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/liveops/pending-approvals",
+        "pending_count": 0,
+        "note": "Level 0 自动通过, 无 pending"
+      }
+    },
+    {
+      "step": 8,
+      "name": "ChurnAlert 回流响应",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/growth/churn-responses",
+        "responses": 0
+      }
+    },
+    {
+      "step": 9,
+      "name": "ChurnAlert 统计",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/growth/churn-responses/stats",
+        "stats": {
+          "total_responses": 0,
+          "severity_distribution": {
+            "high": 0,
+            "medium": 0,
+            "low": 0
+          },
+          "status_distribution": {},
+          "action_type_distribution": {},
+          "by_game": {},
+          "recent_responses": []
+        }
+      }
+    },
+    {
+      "step": 10,
+      "name": "监控总览",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/monitor/overview",
+        "health_status": "healthy",
+        "alerts_count": 0,
+        "critical_alerts": 0,
+        "warning_alerts": 0,
+        "growth_loop": {
+          "total_cycles": 14,
+          "total_actions_planned": 85,
+          "total_actions_executed": 85,
+          "total_actions_rolled_back": 0,
+          "success_rate": 1.0,
+          "latest_cycle": {
+            "cycle_number": 14,
+            "completed_at": "2026-08-10T08:06:15.867411+00:00",
+            "actions_planned": 0,
+            "actions_executed": 0,
+            "duration_ms": 0
+          }
+        },
+        "liveops": {
+          "total_executions": 6,
+          "completed": 6,
+          "blocked": 0,
+          "dry_run": 0,
+          "failed": 0,
+          "success_rate": 1.0
+        },
+        "approval_queue": {
+          "ceo_pending": 0,
+          "liveops_pending": 0,
+          "total_pending": 0,
+          "oldest_ceo_pending_hours": 0.0
+        }
+      }
+    },
+    {
+      "step": 11,
+      "name": "监控告警列表",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/monitor/alerts",
+        "alerts": 0,
+        "alert_ids": []
+      }
+    },
+    {
+      "step": 12,
+      "name": "跨 Agent 协同拓扑",
+      "status": "pass",
+      "detail": {
+        "endpoint": "GET /api/liveops/cross-agent",
+        "topology_nodes": [
+          {
+            "id": "ceo",
+            "name": "CEO Office",
+            "role": "supervisor",
+            "color": "#8b5cf6"
+          },
+          {
+            "id": "liveops",
+            "name": "LiveOps Agent",
+            "role": "liveops",
+            "color": "#d946ef"
+          },
+          {
+            "id": "growth",
+            "name": "Growth Loop",
+            "role": "ua",
+            "color": "#3b82f6"
+          },
+          {
+            "id": "memory",
+            "name": "CEO Memory",
+            "role": "memory",
+            "color": "#10b981"
+          }
+        ],
+        "topology_edges": [
+          {
+            "from": "ceo",
+            "to": "liveops",
+            "label": "STAGE_LIVEOPS 触发",
+            "type": "trigger"
+          },
+          {
+            "from": "liveops",
+            "to": "memory",
+            "label": "执行结果回流",
+            "type": "feedback"
+          },
+          {
+            "from": "liveops",
+            "to": "ceo",
+            "label": "MessageBus 广播",
+            "type": "broadcast"
+          },
+          {
+            "from": "liveops",
+            "to": "growth",
+            "label": "churn_alert",
+            "type": "alert"
+          }
+        ],
+        "ceo_liveops_triggered": false,
+        "total_liveops_events": 0
+      }
+    }
+  ]
+}

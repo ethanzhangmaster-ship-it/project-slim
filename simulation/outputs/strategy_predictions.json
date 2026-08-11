@@ -1,0 +1,125 @@
+[
+  {
+    "decision_id": "a179c4e3",
+    "action_type": "change_waterfall",
+    "lever": "waterfall_promote",
+    "target": "US_android_reward_applovin",
+    "baseline_metric": {
+      "impressions": 344,
+      "requests": 344,
+      "completions": 344,
+      "revenue": 6.88,
+      "ecpm": 20.0,
+      "fill_rate": 1.0,
+      "show_rate": 1.0,
+      "reward_completion": 1.0
+    },
+    "prediction": {
+      "revenue_delta_pct": 1.352,
+      "ecpm_delta_pct": 3.0,
+      "fill_delta_pct": -1.6,
+      "impressions_delta_pct": -1.6,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "confidence": 0.518
+    },
+    "projected_metric": {
+      "ecpm": 20.6,
+      "fill_rate": 0.984,
+      "impressions": 338,
+      "revenue": 6.9628
+    },
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": 0.15,
+        "fill": -0.08,
+        "retention": 0.0
+      },
+      "magnitude_pct": 20.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated waterfall_promote (magnitude +20.0%): predicted revenue +1.4%, eCPM +3.0%, fill -1.6%, impressions -1.6%, retention +0.00% (low risk). Confidence 0.518.",
+    "status": "simulated"
+  },
+  {
+    "decision_id": "ea3f616f",
+    "action_type": "review_bidding",
+    "lever": "fill_recovery",
+    "target": "US_android_interstitial_applovin",
+    "baseline_metric": {
+      "impressions": 46,
+      "requests": 86,
+      "completions": 0,
+      "revenue": 0.0,
+      "ecpm": 0.0,
+      "fill_rate": 0.5349,
+      "show_rate": 0.5349,
+      "reward_completion": 0.0
+    },
+    "prediction": {
+      "revenue_delta_pct": 2.228,
+      "ecpm_delta_pct": -0.75,
+      "fill_delta_pct": 3.0,
+      "impressions_delta_pct": 3.0,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "confidence": 0.493
+    },
+    "projected_metric": {
+      "ecpm": 0.0,
+      "fill_rate": 0.5509,
+      "impressions": 47,
+      "revenue": 0.0
+    },
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": -0.05,
+        "fill": 0.2,
+        "retention": 0.0
+      },
+      "magnitude_pct": 15.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated fill_recovery (magnitude +15.0%): predicted revenue +2.2%, eCPM -0.8%, fill +3.0%, impressions +3.0%, retention +0.00% (low risk). Confidence 0.493.",
+    "status": "simulated"
+  },
+  {
+    "decision_id": "4c78bc9c",
+    "action_type": "adjust_ad_frequency",
+    "lever": "freq_down",
+    "target": "US_android",
+    "baseline_metric": {
+      "dau": 86,
+      "ad_revenue": 6.88,
+      "iap_revenue": 0.0,
+      "arpdau": 0.08,
+      "ad_arpdau": 0.08,
+      "ads_per_dau": 4.5349,
+      "d1_retention_est": 0.3
+    },
+    "prediction": {
+      "revenue_delta_pct": -9.55,
+      "ecpm_delta_pct": 0.5,
+      "fill_delta_pct": 0.0,
+      "impressions_delta_pct": -10.0,
+      "retention_delta_pct": 1.6,
+      "retention_risk": "low",
+      "confidence": 0.446
+    },
+    "projected_metric": {},
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": 0.05,
+        "fill": 0.0,
+        "retention": 0.16
+      },
+      "magnitude_pct": 10.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated freq_down (magnitude +10.0%): predicted revenue -9.6%, eCPM +0.5%, fill +0.0%, impressions -10.0%, retention +1.60% (low risk). Confidence 0.446.",
+    "status": "simulated"
+  }
+]

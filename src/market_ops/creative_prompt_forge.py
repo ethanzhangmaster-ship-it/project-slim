@@ -68,32 +68,32 @@ HOOK_PROMPT_TEMPLATES: dict[str, str] = {
     "crisis": (
         "Show a {game} gameplay screenshot in a critical state: a messy merge board with timer running out, "
         "items scattered chaotically, the witch looks worried. Add a bold text overlay: 'Can YOU fix this in 10 seconds?' "
-        "Use {palette} colors. CTA button at bottom: '{cta}'. Mobile portrait 9:16."
+        "Use {palette} colors. CTA button at bottom: '{cta}'. 1:1 square 1080x1080."
     ),
     "reward": (
         "Show a {game} gameplay close-up of a satisfying merge combo: multiple items merging into a rare high-level item, "
         "sparkle and level-up effects. Bold overlay text: 'Best Merge Ever!' Use {palette}. "
-        "CTA: '{cta}'. Mobile portrait 9:16."
+        "CTA: '{cta}'. 1:1 square 1080x1080."
     ),
     "twist": (
         "Split-screen {game} image: LEFT side shows a 'fail' (wrong merge, ugly result), "
         "RIGHT side shows the perfect merge result. Overlay text: 'Don't make this mistake!' "
-        "Use {palette} and {mood} feeling. CTA: '{cta}'. Mobile portrait 9:16."
+        "Use {palette} and {mood} feeling. CTA: '{cta}'. 1:1 square 1080x1080."
     ),
     "comparison": (
         "Before/after {game} screenshot: top half shows low-level items, bottom half shows the same items merged "
         "into epic versions. Arrow pointing down. Overlay: 'Level 1 → Level 10 in ONE merge!' "
-        "Use {palette}. CTA: '{cta}'. Mobile portrait 9:16."
+        "Use {palette}. CTA: '{cta}'. 1:1 square 1080x1080."
     ),
     "curiosity": (
         "A mysterious {game} screenshot with a hidden item partially revealed behind fog/shadows. "
         "Question overlay: 'What happens when you merge these?' A glowing merge board hint in background. "
-        "Use {palette} and {mood} atmosphere. CTA: '{cta}'. Mobile portrait 9:16."
+        "Use {palette} and {mood} atmosphere. CTA: '{cta}'. 1:1 square 1080x1080."
     ),
     "collection": (
         "A {game} collection screen showing many locked character/item slots with 1-2 unlocked. "
         "Overlay: 'Collect ALL 50 characters!' Progress bar at bottom. Use {palette}. "
-        "CTA: '{cta}'. Mobile portrait 9:16."
+        "CTA: '{cta}'. 1:1 square 1080x1080."
     ),
 }
 
@@ -359,7 +359,7 @@ class CreativePromptForge:
         # Creative direction: what's NEW/DIFERENT in this variation
         return (
             f"Create a NEW Facebook ad for {self._game}, inspired by the reference winner image "
-            f"but with a fresh creative direction. Mobile portrait 9:16, professional game ad quality.\n\n"
+            f"but with a fresh creative direction. 1:1 square 1080x1080, professional game ad quality.\n\n"
             f"{style_brief}\n"
             f"CREATIVE DIRECTION for this variation:\n"
             f"{variation_value}\n\n"
@@ -454,7 +454,7 @@ class CreativePromptForge:
             f"Bold overlay text relevant to {hook_type}. "
             f"CTA button: '{v.get('cta_text', 'Play Now!')}'. "
             f"UI style: {v['ui_style']}. "
-            f"Mobile portrait 9:16 aspect ratio. Professional game ad quality."
+            f"1:1 square 1080x1080. Professional game ad quality."
         )
 
     def _build_negative(self) -> str:

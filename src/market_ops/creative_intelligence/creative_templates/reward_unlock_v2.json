@@ -1,0 +1,88 @@
+{
+  "template_id": "reward_unlock_v2",
+  "template_name": "Reward Unlock V2 — Epic Drop with AI Assets",
+  "version": "2.0",
+  "description": "V2: AI-generated reward character center, unlock effects, rarity badge, collection CTA",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "background",
+      "position": "full",
+      "x": 0,
+      "y": 0,
+      "width": 1.0,
+      "height": 1.0,
+      "z_index": 0,
+      "content": "ai_generated",
+      "generator": "base_background"
+    },
+    {
+      "name": "reward_character",
+      "position": "center",
+      "x": 0.10,
+      "y": 0.15,
+      "width": 0.80,
+      "height": 0.58,
+      "z_index": 20,
+      "content": "ai_generated",
+      "generator": "reward_asset",
+      "feather_radius": 20
+    },
+    {
+      "name": "unlock_effect",
+      "position": "center",
+      "x": 0.0,
+      "y": 0.15,
+      "width": 1.0,
+      "height": 0.58,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["radial_burst", "sparkle_particles", "rarity_glow"]
+    },
+    {
+      "name": "reward_label",
+      "position": "below_character",
+      "x": 0.20,
+      "y": 0.74,
+      "width": 0.60,
+      "height": 0.08,
+      "z_index": 15,
+      "content": "text_label",
+      "text": "LEGENDARY DRAGON",
+      "style": "rarity_badge"
+    },
+    {
+      "name": "text_area",
+      "position": "top",
+      "x": 0.0,
+      "y": 0.02,
+      "width": 1.0,
+      "height": 0.12,
+      "z_index": 30,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0,
+      "y": 0.84,
+      "width": 1.0,
+      "height": 0.16,
+      "z_index": 35,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "generation_config": {
+    "reward_config": {
+      "reward_type": "legendary_dragon",
+      "rarity": "legendary",
+      "style": "premium_reward_screen"
+    }
+  }
+}

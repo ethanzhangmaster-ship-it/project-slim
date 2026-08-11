@@ -1,0 +1,11 @@
+import requests, json
+TOKEN = 'EAAI8u9NniuEBRwKmUjbrQ1T6THmmf0ZA3uGczZCLcjI4HdrglE93qluZCCEeDHYTxujC2JsXRYs0xwwzenupJz1qT92i5TVSCI90ceYS4aAI8pguIRhIizfO4rZBZAiP1Qz4HqfDA4pZBdHyXcLEYdD4jmYBlg0fj8sSCZAkqDeE6d6dHjX9DGRtFXJtFyKPnQk'
+BV = 'https://graph.facebook.com/v19.0'
+adset_id = '120249161378170444'  # P4-AND-Purchase-AI-img-0630
+
+r = requests.get(f'{BV}/{adset_id}', params={
+    'access_token': TOKEN,
+    'fields': 'id,name,optimization_goal,status,daily_budget,targeting,promoted_object,billing_event,bid_strategy'
+}, timeout=30)
+
+print(json.dumps(r.json(), indent=2, ensure_ascii=False))

@@ -1,0 +1,214 @@
+{
+  "version": "V4.5.5",
+  "timestamp": "2026-07-08T11:12:25.223433",
+  "pass_count": 41,
+  "fail_count": 0,
+  "passed": true,
+  "results": [
+    {
+      "test": "Dashboard Generation",
+      "status": "PASS",
+      "details": "Date: 2026-07-08"
+    },
+    {
+      "test": "Generation Summary",
+      "status": "PASS",
+      "details": "Total: 842"
+    },
+    {
+      "test": "Queue Summary",
+      "status": "PASS",
+      "details": "Pending: 20"
+    },
+    {
+      "test": "Cost Summary",
+      "status": "PASS",
+      "details": "Cost: $320.5"
+    },
+    {
+      "test": "Platform Count",
+      "status": "PASS",
+      "details": "Platforms: 3"
+    },
+    {
+      "test": "Dashboard Persistence",
+      "status": "PASS",
+      "details": "Path: D:\\project_slim\\project_slim\\src\\market_ops\\video_generation\\observability\\dashboard\\data\\dashboard_2026-07-08.json"
+    },
+    {
+      "test": "Markdown Export",
+      "status": "PASS",
+      "details": "Has header"
+    },
+    {
+      "test": "Generation Count",
+      "status": "PASS",
+      "details": "Count: 3"
+    },
+    {
+      "test": "Success Rate",
+      "status": "PASS",
+      "details": "Rate: 0.667"
+    },
+    {
+      "test": "Worker Utilization",
+      "status": "PASS",
+      "details": "Util: 0.8"
+    },
+    {
+      "test": "Queue Latency",
+      "status": "PASS",
+      "details": "Latency: 12.5"
+    },
+    {
+      "test": "Creative Generated",
+      "status": "PASS",
+      "details": "Generated: 2"
+    },
+    {
+      "test": "QA Pass Count",
+      "status": "PASS",
+      "details": "Passed: 1"
+    },
+    {
+      "test": "Winner Count",
+      "status": "PASS",
+      "details": "Winners: 1"
+    },
+    {
+      "test": "Top Creatives",
+      "status": "PASS",
+      "details": "Top: 2"
+    },
+    {
+      "test": "Creative Performance",
+      "status": "PASS",
+      "details": "CTR: 5.0"
+    },
+    {
+      "test": "Winners Detection",
+      "status": "PASS",
+      "details": "Winners: 1"
+    },
+    {
+      "test": "Winner CTR Threshold",
+      "status": "PASS",
+      "details": "CTR: 5.0"
+    },
+    {
+      "test": "Daily Cost Report",
+      "status": "PASS",
+      "details": "Cost: $385.0"
+    },
+    {
+      "test": "Avg Cost",
+      "status": "PASS",
+      "details": "Avg: $0.385"
+    },
+    {
+      "test": "Budget Remaining",
+      "status": "PASS",
+      "details": "Remaining: $115.0"
+    },
+    {
+      "test": "Platform Analysis",
+      "status": "PASS",
+      "details": "Platforms: 3"
+    },
+    {
+      "test": "Recommendation",
+      "status": "PASS",
+      "details": "Rec: Increase comfyui allocation by 20%, reduce veo..."
+    },
+    {
+      "test": "Efficiency Ranking",
+      "status": "PASS",
+      "details": "Best: comfyui"
+    },
+    {
+      "test": "Winner Count",
+      "status": "PASS",
+      "details": "Winners: 3"
+    },
+    {
+      "test": "Winner Ranking",
+      "status": "PASS",
+      "details": "Rank 1: video_001"
+    },
+    {
+      "test": "Winner CTR",
+      "status": "PASS",
+      "details": "CTR: 5.8%"
+    },
+    {
+      "test": "Text Report",
+      "status": "PASS",
+      "details": "Has header"
+    },
+    {
+      "test": "DNA Patterns",
+      "status": "PASS",
+      "details": "Patterns: 3"
+    },
+    {
+      "test": "Top Camera",
+      "status": "PASS",
+      "details": "Camera: close-up"
+    },
+    {
+      "test": "Top Lighting",
+      "status": "PASS",
+      "details": "Lighting: warm"
+    },
+    {
+      "test": "Top Hook",
+      "status": "PASS",
+      "details": "Hook: action"
+    },
+    {
+      "test": "DNA Report Text",
+      "status": "PASS",
+      "details": "Has header"
+    },
+    {
+      "test": "Cost Spike Detection",
+      "status": "PASS",
+      "details": "Cost spike detected"
+    },
+    {
+      "test": "QA Drop Detection",
+      "status": "PASS",
+      "details": "QA drop detected"
+    },
+    {
+      "test": "Creative Fatigue Detection",
+      "status": "PASS",
+      "details": "Fatigue detected"
+    },
+    {
+      "test": "Success Rate Drop Detection",
+      "status": "PASS",
+      "details": "Success rate drop detected"
+    },
+    {
+      "test": "Queue Backlog Detection",
+      "status": "PASS",
+      "details": "Queue backlog detected"
+    },
+    {
+      "test": "Scan All",
+      "status": "PASS",
+      "details": "Detected: 4 anomalies"
+    },
+    {
+      "test": "Alert Summary",
+      "status": "PASS",
+      "details": "Total alerts: 9"
+    },
+    {
+      "test": "Active Alerts",
+      "status": "PASS",
+      "details": "Active: 9"
+    }
+  ]
+}

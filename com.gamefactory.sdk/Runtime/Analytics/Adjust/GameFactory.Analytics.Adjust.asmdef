@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.Analytics.Adjust",
+  "rootNamespace": "GameFactory.Analytics",
+  "references": ["GameFactory.Analytics", "Adjust"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": ["ADJUST_SDK"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

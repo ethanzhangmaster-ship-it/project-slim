@@ -1,0 +1,127 @@
+[
+  {
+    "opportunity_id": "mock_merge_vampire",
+    "genre": "merge",
+    "theme": "vampire",
+    "source": "growth_os",
+    "target_geos": [
+      "US",
+      "DE",
+      "JP"
+    ],
+    "keyword_trend": 0.85,
+    "competition": 0.25,
+    "ecpm_signal": 0.8,
+    "ltv_forecast": 0.75,
+    "score": 0.7925,
+    "notes": "[MOCK] proven in our fleet (Merge Monster) + US casual chart hold"
+  },
+  {
+    "opportunity_id": "mock_word_zen",
+    "genre": "word",
+    "theme": "zen",
+    "source": "growth_os",
+    "target_geos": [
+      "US"
+    ],
+    "keyword_trend": 0.8,
+    "competition": 0.2,
+    "ecpm_signal": 0.7,
+    "ltv_forecast": 0.7,
+    "score": 0.755,
+    "notes": "[MOCK] word + relax niche trending on TikTok (1.2M views/wk)"
+  },
+  {
+    "opportunity_id": "mock_sort_color",
+    "genre": "sort",
+    "theme": "color",
+    "source": "growth_os",
+    "target_geos": [
+      "US"
+    ],
+    "keyword_trend": 0.82,
+    "competition": 0.3,
+    "ecpm_signal": 0.7,
+    "ltv_forecast": 0.68,
+    "score": 0.732,
+    "notes": "[MOCK] sort/color emerging hypercasual->casual migration"
+  },
+  {
+    "opportunity_id": "mock_idle_tycoon",
+    "genre": "idle",
+    "theme": "tycoon",
+    "source": "growth_os",
+    "target_geos": [
+      "US",
+      "BR"
+    ],
+    "keyword_trend": 0.75,
+    "competition": 0.4,
+    "ecpm_signal": 0.6,
+    "ltv_forecast": 0.65,
+    "score": 0.655,
+    "notes": "[MOCK] idle-tycoon CPI softening, eCPM holding"
+  },
+  {
+    "opportunity_id": "mock_puzzle_block",
+    "genre": "puzzle",
+    "theme": "block",
+    "source": "growth_os",
+    "target_geos": [
+      "US",
+      "KR"
+    ],
+    "keyword_trend": 0.7,
+    "competition": 0.35,
+    "ecpm_signal": 0.65,
+    "ltv_forecast": 0.6,
+    "score": 0.655,
+    "notes": "[MOCK] block-puzzle evergreen; stable top-50 US casual"
+  },
+  {
+    "opportunity_id": "mock_cooking_rest",
+    "genre": "cooking",
+    "theme": "restaurant",
+    "source": "growth_os",
+    "target_geos": [
+      "US"
+    ],
+    "keyword_trend": 0.72,
+    "competition": 0.5,
+    "ecpm_signal": 0.62,
+    "ltv_forecast": 0.6,
+    "score": 0.616,
+    "notes": "[MOCK] cooking/restaurant steady; bundle with Hospital Fever"
+  },
+  {
+    "opportunity_id": "mock_draw_puzzle",
+    "genre": "draw",
+    "theme": "puzzle",
+    "source": "growth_os",
+    "target_geos": [
+      "US",
+      "ID"
+    ],
+    "keyword_trend": 0.68,
+    "competition": 0.45,
+    "ecpm_signal": 0.6,
+    "ltv_forecast": 0.55,
+    "score": 0.6015,
+    "notes": "[MOCK] draw-puzzle mid-tier; moderate competition"
+  },
+  {
+    "opportunity_id": "mock_match_candy",
+    "genre": "match",
+    "theme": "candy",
+    "source": "growth_os",
+    "target_geos": [
+      "US"
+    ],
+    "keyword_trend": 0.6,
+    "competition": 0.8,
+    "ecpm_signal": 0.55,
+    "ltv_forecast": 0.5,
+    "score": 0.4675,
+    "notes": "[MOCK] match-3 saturated; low score, deprioritise"
+  }
+]

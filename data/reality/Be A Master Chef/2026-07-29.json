@@ -1,0 +1,53 @@
+{
+  "game_id": "Be A Master Chef",
+  "as_of": "2026-07-29",
+  "saved_at": "2026-07-30T01:24:05.552404+00:00",
+  "snapshot": {
+    "game_id": "Be A Master Chef",
+    "timestamp": "2026-07-29",
+    "revenue": {
+      "daily_revenue": 3.43,
+      "payer_count": 0,
+      "arpdau": 0.1035,
+      "ltv": 0.0,
+      "impressions": 1280,
+      "requests": 37259,
+      "ecpm": 26.7764,
+      "rewarded_video_revenue": 2.79,
+      "network_distribution": {
+        "VUNGLE_BIDDING": 0.0134,
+        "UNITY_BIDDING": 0.0302,
+        "TIKTOK_BIDDING": 0.028,
+        "MINTEGRAL_BIDDING": 0.0407,
+        "IRONSOURCE_BIDDING": 0.0,
+        "FYBER_BIDDING": 0.0,
+        "CHARTBOOST_BIDDING": 0.0,
+        "ADMOB_BIDDING": 0.6134,
+        "FYBER_NETWORK": 0.0191,
+        "FACEBOOK_NETWORK": 0.0455,
+        "APPLOVIN_NETWORK": 0.209,
+        "APPLOVIN_EXCHANGE": 0.0007
+      }
+    },
+    "acquisition": null,
+    "aso": null,
+    "creative": null,
+    "product": {
+      "dau": 33,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": null
+    },
+    "confidence": 0.4,
+    "sources": [
+      "registry",
+      "max_live"
+    ],
+    "real_confidence": 0.4,
+    "real_domains": [
+      "product",
+      "revenue"
+    ],
+    "attribution": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "game_name": "GameFactory Demo",
+  "ads": {
+    "provider": "MAX",
+    "app_key": "REPLACE_WITH_MAX_APP_KEY",
+    "reward_id": "REPLACE_WITH_REWARD_PLACEMENT",
+    "interstitial_id": "REPLACE_WITH_INTERSTITIAL_PLACEMENT",
+    "banner_id": "REPLACE_WITH_BANNER_PLACEMENT"
+  },
+  "analytics": {
+    "providers": ["Firebase", "Adjust"],
+    "firebase_key": "REPLACE_WITH_FIREBASE_KEY",
+    "adjust_token": "REPLACE_WITH_ADJUST_TOKEN",
+    "event_endpoint": "",
+    "app_id": ""
+  },
+  "remote_config": {
+    "entries": [
+      { "key": "ads.reward_frequency", "value": "3" },
+      { "key": "ads.interstitial_gap", "value": "2" },
+      { "key": "gameplay.level_difficulty", "value": "1.1" },
+      { "key": "gameplay.reward_multiplier", "value": "2" }
+    ]
+  },
+  "iap": {
+    "enabled": false,
+    "products": [
+      { "id": "remove_ads", "type": "non_consumable" },
+      { "id": "coin_pack_100", "type": "consumable" },
+      { "id": "vip_monthly", "type": "subscription" }
+    ]
+  }
+}

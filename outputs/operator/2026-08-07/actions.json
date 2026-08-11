@@ -1,0 +1,52 @@
+[
+  {
+    "action_id": "cea-000",
+    "game_id": "demo_game_004",
+    "action_type": "恢复收入（demo_game_004）",
+    "source": "e17.3_decision+p2.3_approval",
+    "priority": 0.3078,
+    "execution_mode": "approval",
+    "status": "awaiting",
+    "explanation": "等待 CEO 审批：恢复收入（demo_game_004） ｜ 风险 45%，置信 90%，预期收益 +36.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+  },
+  {
+    "action_id": "cea-001",
+    "game_id": "demo_game_008",
+    "action_type": "恢复收入（demo_game_008）",
+    "source": "e17.3_decision+p2.3_approval",
+    "priority": 0.26496,
+    "execution_mode": "approval",
+    "status": "awaiting",
+    "explanation": "等待 CEO 审批：恢复收入（demo_game_008） ｜ 风险 45%，置信 90%，预期收益 +32.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+  },
+  {
+    "action_id": "cea-002",
+    "game_id": "demo_game_000",
+    "action_type": "恢复收入（demo_game_000）",
+    "source": "e17.3_decision+p2.3_approval",
+    "priority": 0.128,
+    "execution_mode": "approval",
+    "status": "awaiting",
+    "explanation": "等待 CEO 审批：恢复收入（demo_game_000） ｜ 风险 45%，置信 80%，预期收益 +20.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+  },
+  {
+    "action_id": "cea-003",
+    "game_id": "demo_game_002",
+    "action_type": "刷新创意素材（demo_game_002）",
+    "source": "e17.3_decision+e17.8_sim+p2.4_execution",
+    "priority": 0.10416,
+    "execution_mode": "auto",
+    "status": "executed",
+    "explanation": "已自动执行：刷新创意素材（demo_game_002） ｜ 预期收益 +20.0%，置信 84%，风险 30%。"
+  },
+  {
+    "action_id": "cea-004",
+    "game_id": "demo_game_006",
+    "action_type": "刷新创意素材（demo_game_006）",
+    "source": "e17.3_decision+e17.8_sim+p2.4_execution",
+    "priority": 0.10292,
+    "execution_mode": "auto",
+    "status": "executed",
+    "explanation": "已自动执行：刷新创意素材（demo_game_006） ｜ 预期收益 +20.0%，置信 83%，风险 30%。"
+  }
+]

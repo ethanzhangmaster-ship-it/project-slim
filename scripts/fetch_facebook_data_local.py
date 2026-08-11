@@ -22,15 +22,39 @@ import requests
 import urllib3
 urllib3.disable_warnings()
 
+
 # ============================================================================
-# 配置 — 在这里填入你的值
+# .env 自动加载（不依赖 python-dotenv，避免引入新依赖）
+# ============================================================================
+def _load_dotenv() -> None:
+    """从项目根目录的 .env 文件加载环境变量（不覆盖已存在的）。"""
+    # scripts/ → 项目根
+    env_path = Path(__file__).parent.parent / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+_load_dotenv()
+
+
+# ============================================================================
+# 配置 — 优先环境变量，回退到默认值
 # ============================================================================
 
 ACCESS_TOKEN = os.environ.get("META_ACCESS_TOKEN", "")
 
-AD_ACCOUNT_ID = "1455525822955003"  # 你的 Facebook 广告账户 ID
-API_VERSION = "v19.0"
-LOOKBACK_DAYS = 30  # 拉取最近多少天
+AD_ACCOUNT_ID = os.environ.get("META_AD_ACCOUNT_ID", "1455525822955003")
+API_VERSION = os.environ.get("META_API_VERSION", "v19.0")
+LOOKBACK_DAYS = int(os.environ.get("META_CREATIVE_LOOKBACK_DAYS", "30"))
 
 OUTPUT_FILE = "output/facebook_fresh_data.json"
 

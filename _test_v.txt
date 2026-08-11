@@ -1,0 +1,87 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\ethan\AppData\Roaming\TRAE SOLO CN\ModularData\ai-agent\vm\tools\python\python.exe
+cachedir: .pytest_cache
+rootdir: D:\project_slim\project_slim
+configfile: pyproject.toml
+plugins: anyio-4.14.2
+collecting ... collected 71 items
+
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_roas_below_threshold_triggers_retire PASSED [  1%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_ltv_below_threshold_triggers_retire PASSED [  2%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_retention_below_threshold_triggers_retire PASSED [  4%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_all_metrics_healthy_returns_keep PASSED [  5%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_metrics_near_threshold_returns_review PASSED [  7%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_custom_thresholds_override_defaults PASSED [  8%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_missing_metrics_does_not_crash PASSED [  9%]
+tests/test_retirement_orchestrator.py::TestEvaluateRetirement::test_decision_to_dict_round_trip PASSED [ 11%]
+tests/test_retirement_orchestrator.py::TestCreatePlan::test_create_plan_generates_plan_id PASSED [ 12%]
+tests/test_retirement_orchestrator.py::TestCreatePlan::test_create_plan_initializes_stages PASSED [ 14%]
+tests/test_retirement_orchestrator.py::TestCreatePlan::test_create_plan_persists_to_disk PASSED [ 15%]
+tests/test_retirement_orchestrator.py::TestCreatePlan::test_create_plan_current_stage_pending PASSED [ 16%]
+tests/test_retirement_orchestrator.py::TestExecuteRetirement::test_dry_run_completes_all_stages PASSED [ 18%]
+tests/test_retirement_orchestrator.py::TestExecuteRetirement::test_dry_run_marks_credential_actions_needs_credential PASSED [ 19%]
+tests/test_retirement_orchestrator.py::TestExecuteRetirement::test_dry_run_completes_local_actions PASSED [ 21%]
+tests/test_retirement_orchestrator.py::TestExecuteRetirement::test_dry_run_takedown_actions_marked_needs_credential PASSED [ 22%]
+tests/test_retirement_orchestrator.py::TestExecuteRetirement::test_non_dry_run_still_marks_pending_credential PASSED [ 23%]
+tests/test_retirement_orchestrator.py::TestExecuteRetirement::test_already_completed_plan_returns_unchanged PASSED [ 25%]
+tests/test_retirement_orchestrator.py::TestArchiveGameData::test_archive_creates_directory PASSED [ 26%]
+tests/test_retirement_orchestrator.py::TestArchiveGameData::test_archive_creates_all_files PASSED [ 28%]
+tests/test_retirement_orchestrator.py::TestArchiveGameData::test_game_config_contains_game_id_and_archive_metadata PASSED [ 29%]
+tests/test_retirement_orchestrator.py::TestArchiveGameData::test_audit_log_contains_retirement_archive_record PASSED [ 30%]
+tests/test_retirement_orchestrator.py::TestArchiveGameData::test_archive_reads_existing_campaigns_jsonl PASSED [ 32%]
+tests/test_retirement_orchestrator.py::TestArchiveGameData::test_archive_handles_empty_data_dir PASSED [ 33%]
+tests/test_retirement_orchestrator.py::TestReleaseResources::test_returns_four_actions PASSED [ 35%]
+tests/test_retirement_orchestrator.py::TestReleaseResources::test_local_actions_complete_in_dry_run PASSED [ 36%]
+tests/test_retirement_orchestrator.py::TestReleaseResources::test_credential_actions_marked_in_dry_run PASSED [ 38%]
+tests/test_retirement_orchestrator.py::TestReleaseResources::test_credential_actions_pending_in_non_dry_run PASSED [ 39%]
+tests/test_retirement_orchestrator.py::TestReleaseResources::test_each_action_has_executed_at_timestamp PASSED [ 40%]
+tests/test_retirement_orchestrator.py::TestRequestTakedown::test_returns_two_platforms PASSED [ 42%]
+tests/test_retirement_orchestrator.py::TestRequestTakedown::test_dry_run_marks_needs_credential PASSED [ 43%]
+tests/test_retirement_orchestrator.py::TestRequestTakedown::test_non_dry_run_marks_pending_credential PASSED [ 45%]
+tests/test_retirement_orchestrator.py::TestRequestTakedown::test_app_store_action_has_correct_credential_hint PASSED [ 46%]
+tests/test_retirement_orchestrator.py::TestRequestTakedown::test_google_play_action_has_correct_credential_hint PASSED [ 47%]
+tests/test_retirement_orchestrator.py::TestRequestTakedown::test_actions_include_game_id PASSED [ 49%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_get_plan_returns_persisted_plan PASSED [ 50%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_get_plan_returns_none_for_unknown PASSED [ 52%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_list_plans_returns_all PASSED [ 53%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_list_plans_filter_by_status PASSED [ 54%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_persist_plan_upserts_existing PASSED [ 56%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_plan_to_dict_round_trip PASSED [ 57%]
+tests/test_retirement_orchestrator.py::TestPersistence::test_execute_retirement_persists_final_state PASSED [ 59%]
+tests/test_retirement_orchestrator.py::TestCancelRetirement::test_cancel_pending_plan_succeeds PASSED [ 60%]
+tests/test_retirement_orchestrator.py::TestCancelRetirement::test_cancel_completed_plan_fails PASSED [ 61%]
+tests/test_retirement_orchestrator.py::TestCancelRetirement::test_cancel_nonexistent_returns_false PASSED [ 63%]
+tests/test_retirement_orchestrator.py::TestCancelRetirement::test_cancel_failed_plan_fails PASSED [ 64%]
+tests/test_retirement_orchestrator.py::TestCancelRetirement::test_cancel_persists_cancelled_state PASSED [ 66%]
+tests/test_retirement_orchestrator.py::TestGetStats::test_empty_stats PASSED [ 67%]
+tests/test_retirement_orchestrator.py::TestGetStats::test_stats_with_mixed_plans PASSED [ 69%]
+tests/test_retirement_orchestrator.py::TestGetStats::test_stats_by_trigger PASSED [ 70%]
+tests/test_retirement_orchestrator.py::TestGetStats::test_stats_by_decision PASSED [ 71%]
+tests/test_retirement_orchestrator.py::TestGetStats::test_success_rate_calculation PASSED [ 73%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_evaluate_returns_decision PASSED [ 74%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_evaluate_missing_game_id_returns_400 PASSED [ 76%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_evaluate_missing_metrics_returns_400 PASSED [ 77%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_plan_creates_plan PASSED [ 78%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_plan_missing_decision_returns_400 PASSED [ 80%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_execute_completes_plan PASSED [ 81%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_execute_missing_plan_id_returns_400 PASSED [ 83%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_execute_unknown_plan_returns_404 PASSED [ 84%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_list_plans_returns_all PASSED [ 85%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_list_plans_filter_by_status PASSED [ 87%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_get_plan_returns_detail PASSED [ 88%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_get_plan_not_found_returns_404 PASSED [ 90%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_cancel_plan_succeeds PASSED [ 91%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_cancel_completed_plan_returns_400 PASSED [ 92%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_cancel_unknown_plan_returns_404 PASSED [ 94%]
+tests/test_retirement_orchestrator.py::TestRetirementAPI::test_stats_returns_overview PASSED [ 95%]
+tests/test_retirement_orchestrator.py::TestEndToEnd::test_full_retirement_flow_with_roas_violation PASSED [ 97%]
+tests/test_retirement_orchestrator.py::TestEndToEnd::test_full_flow_with_multiple_kpi_violations PASSED [ 98%]
+tests/test_retirement_orchestrator.py::TestEndToEnd::test_full_flow_with_keep_decision PASSED [100%]
+
+============================== warnings summary ===============================
+C:\Users\ethan\AppData\Roaming\TRAE SOLO CN\ModularData\ai-agent\vm\tools\python\lib\site-packages\fastapi\testclient.py:1
+  C:\Users\ethan\AppData\Roaming\TRAE SOLO CN\ModularData\ai-agent\vm\tools\python\lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 71 passed, 1 warning in 1.70s ========================

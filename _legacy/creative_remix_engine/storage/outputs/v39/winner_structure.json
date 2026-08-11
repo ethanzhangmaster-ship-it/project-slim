@@ -1,0 +1,51 @@
+{
+  "name": "Character_Attack_hook_gameplay_reward_ending",
+  "structure_id": "struct_character_attack_hook_gameplay_reward_ending",
+  "segments": [
+    {
+      "role": "hook",
+      "duration": 3.0,
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in"
+    },
+    {
+      "role": "gameplay",
+      "duration": 7.0,
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "pan"
+    },
+    {
+      "role": "reward",
+      "duration": 8.0,
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "zoom_in"
+    },
+    {
+      "role": "ending",
+      "duration": 5.0,
+      "subject": "character",
+      "action": "attack",
+      "emotion": "surprise",
+      "camera": "static"
+    }
+  ],
+  "total_duration": 23.0,
+  "samples": 10,
+  "avg_ctr": 4.08,
+  "avg_cpi": 0.4,
+  "avg_d7_roi": 0.686,
+  "avg_d30_roi": 1.011,
+  "ad_value": 292.36,
+  "confidence": 1.0,
+  "tags": [
+    "character",
+    "attack",
+    "hook->gameplay->reward->ending"
+  ]
+}

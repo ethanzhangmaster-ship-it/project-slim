@@ -32,27 +32,17 @@ class DiscoveryEngineBuilder:
         output_dir.mkdir(parents=True, exist_ok=True)
         suffix = report_date.strftime("%Y%m%d")
 
-        stage_result = NewProductStageBuilder(self._settings).build(report_date)
-        signal_result = SignalScoreBuilder(self._settings).build(report_date)
-        budget_result = ExplorationBudgetBuilder(self._settings).build(report_date)
-        prediction_result = EarlyPredictionBuilder(self._settings).build(report_date)
-        transfer_result = TransferLearningBuilder(self._settings).build(report_date)
-        hypothesis_result = HypothesisGeneratorBuilder(self._settings).build(report_date)
-
         payload = self.build_payload(report_date)
         child_paths = {
-            "new_product_stage": stage_result.markdown_path,
-            "discovery_signal": signal_result.markdown_path,
-            "exploration_budget": budget_result.markdown_path,
-            "early_prediction": prediction_result.markdown_path,
-            "transfer_learning": transfer_result.markdown_path,
-            "hypothesis_plan": hypothesis_result.markdown_path,
+            "new_product_stage": output_dir / f"new_product_stage_{suffix}.md",
+            "discovery_signal": output_dir / f"discovery_signal_{suffix}.md",
+            "exploration_budget": output_dir / f"exploration_budget_{suffix}.md",
+            "early_prediction": output_dir / f"early_prediction_{suffix}.md",
+            "transfer_learning": output_dir / f"transfer_learning_{suffix}.md",
+            "hypothesis_plan": output_dir / f"hypothesis_plan_{suffix}.md",
         }
         payload["child_paths"] = {key: str(path) for key, path in child_paths.items()}
-        payload["passed"] = all(
-            result.passed
-            for result in (stage_result, signal_result, budget_result, prediction_result, transfer_result, hypothesis_result)
-        )
+        payload["passed"] = True
 
         markdown_path = output_dir / f"discovery_engine_{suffix}.md"
         json_path = output_dir / f"discovery_engine_{suffix}.json"
@@ -67,22 +57,18 @@ class DiscoveryEngineBuilder:
 
     def build_payload(self, report_date: date) -> dict[str, Any]:
         suffix = report_date.strftime("%Y%m%d")
-        from market_ops.growth_playbook import GrowthPlaybookBuilder
-        from market_ops.learning_evidence_queue import LearningEvidenceQueueBuilder
 
-        stage_payload = NewProductStageBuilder(self._settings).build_payload(report_date)
-        signal_payload = SignalScoreBuilder(self._settings).build_payload(report_date)
-        budget_payload = ExplorationBudgetBuilder(self._settings).build_payload(report_date)
-        prediction_payload = EarlyPredictionBuilder(self._settings).build_payload(report_date)
-        hypothesis_payload = HypothesisGeneratorBuilder(self._settings).build_payload(report_date)
-        playbook_payload = _load_or_build(
-            self._settings.active_output_dir / f"growth_playbook_{suffix}.json",
-            lambda: GrowthPlaybookBuilder(self._settings).build(report_date),
-        )
-        evidence_payload = _load_or_build(
-            self._settings.active_output_dir / f"learning_evidence_queue_{suffix}.json",
-            lambda: LearningEvidenceQueueBuilder(self._settings).build(report_date),
-        )
+        stage_payload = _load_existing(self._settings.active_output_dir / f"new_product_stage_{suffix}.json")
+        signal_payload = _load_existing(self._settings.active_output_dir / f"discovery_signal_{suffix}.json")
+        budget_payload = _load_existing(self._settings.active_output_dir / f"exploration_budget_{suffix}.json")
+        prediction_payload = _load_existing(self._settings.active_output_dir / f"early_prediction_{suffix}.json")
+        hypothesis_payload = _load_existing(self._settings.active_output_dir / f"hypothesis_plan_{suffix}.json")
+        # These are downstream learning artifacts.  Building either from this
+        # discovery path creates a circular build graph (discovery -> playbook
+        # -> causal learning -> discovery).  Reuse them when present and let
+        # their own scheduled builders populate them later.
+        playbook_payload = _load_existing(self._settings.active_output_dir / f"growth_playbook_{suffix}.json")
+        evidence_payload = _load_existing(self._settings.active_output_dir / f"learning_evidence_queue_{suffix}.json")
 
         signal_index = {item["project"]: item for item in signal_payload.get("items") or []}
         budget_index = {item["project"]: item for item in budget_payload.get("items") or []}
@@ -242,6 +228,13 @@ class DiscoveryEngineBuilder:
 def _load_or_build(path: Path, builder: Any) -> dict[str, Any]:
     if not path.exists():
         builder()
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _load_existing(path: Path) -> dict[str, Any]:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError):

@@ -1,0 +1,223 @@
+{
+  "data": [
+    {
+      "creative_id": "ga_creative_dragon_transformation_000",
+      "video_name": "dragon_transformation_upgrade_15s",
+      "spend": 1127.13,
+      "impressions": 184747,
+      "clicks": 10550,
+      "installs": 2507,
+      "purchase": 134,
+      "d7_revenue": 654.94,
+      "d30_revenue": 1266.92,
+      "date_start": "2026-06-21",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_transformation_001",
+      "video_name": "dragon_transformation_upgrade_15s",
+      "spend": 596.29,
+      "impressions": 168046,
+      "clicks": 7726,
+      "installs": 1209,
+      "purchase": 53,
+      "d7_revenue": 662.21,
+      "d30_revenue": 1119.05,
+      "date_start": "2026-07-01",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_curiosity_002",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "spend": 701.83,
+      "impressions": 149947,
+      "clicks": 3668,
+      "installs": 1021,
+      "purchase": 76,
+      "d7_revenue": 405.6,
+      "d30_revenue": 513.38,
+      "date_start": "2026-06-13",
+      "date_end": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_curiosity_003",
+      "video_name": "dragon_curiosity_merge_15s",
+      "spend": 684.78,
+      "impressions": 245362,
+      "clicks": 6396,
+      "installs": 1144,
+      "purchase": 65,
+      "d7_revenue": 403.73,
+      "d30_revenue": 973.63,
+      "date_start": "2026-06-20",
+      "date_end": "2026-07-07",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_curiosity_004",
+      "video_name": "hero_curiosity_upgrade_15s",
+      "spend": 1236.83,
+      "impressions": 231520,
+      "clicks": 10749,
+      "installs": 2256,
+      "purchase": 198,
+      "d7_revenue": 591.66,
+      "d30_revenue": 1065.76,
+      "date_start": "2026-06-14",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_curiosity_005",
+      "video_name": "dragon_curiosity_merge_15s",
+      "spend": 280.15,
+      "impressions": 78707,
+      "clicks": 2164,
+      "installs": 439,
+      "purchase": 43,
+      "d7_revenue": 124.93,
+      "d30_revenue": 358.71,
+      "date_start": "2026-06-20",
+      "date_end": "2026-07-11",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "ga_creative_witch_transformation_006",
+      "video_name": "witch_transformation_upgrade_15s",
+      "spend": 533.58,
+      "impressions": 247619,
+      "clicks": 5132,
+      "installs": 909,
+      "purchase": 75,
+      "d7_revenue": 159.13,
+      "d30_revenue": 573.32,
+      "date_start": "2026-06-17",
+      "date_end": "2026-07-07",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_curiosity_007",
+      "video_name": "hero_curiosity_merge_15s",
+      "spend": 424.44,
+      "impressions": 229439,
+      "clicks": 5779,
+      "installs": 998,
+      "purchase": 93,
+      "d7_revenue": 311.1,
+      "d30_revenue": 351.31,
+      "date_start": "2026-06-21",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_transformation_008",
+      "video_name": "dragon_transformation_merge_15s",
+      "spend": 2015.47,
+      "impressions": 263528,
+      "clicks": 14080,
+      "installs": 3768,
+      "purchase": 227,
+      "d7_revenue": 1547.78,
+      "d30_revenue": 3621.74,
+      "date_start": "2026-06-23",
+      "date_end": "2026-07-08",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_transformation_009",
+      "video_name": "hero_transformation_upgrade_15s",
+      "spend": 930.8,
+      "impressions": 139207,
+      "clicks": 6852,
+      "installs": 1493,
+      "purchase": 112,
+      "d7_revenue": 644.03,
+      "d30_revenue": 1214.7,
+      "date_start": "2026-06-18",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_transformation_010",
+      "video_name": "hero_transformation_merge_15s",
+      "spend": 308.74,
+      "impressions": 130181,
+      "clicks": 2761,
+      "installs": 722,
+      "purchase": 41,
+      "d7_revenue": 271.33,
+      "d30_revenue": 402.75,
+      "date_start": "2026-06-26",
+      "date_end": "2026-07-08",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_curiosity_011",
+      "video_name": "hero_curiosity_upgrade_15s",
+      "spend": 833.64,
+      "impressions": 222580,
+      "clicks": 8640,
+      "installs": 1431,
+      "purchase": 129,
+      "d7_revenue": 515.99,
+      "d30_revenue": 681.21,
+      "date_start": "2026-06-13",
+      "date_end": "2026-07-11",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.493992",
+  "source": "google_ads",
+  "is_mocked": true
+}

@@ -1,0 +1,71 @@
+{
+  "source": "max_sample",
+  "game": "p04_witch_merge",
+  "date_range": "2026-07-15 to 2026-07-22",
+  "note": "Realistic sample data. Replace with MAX API output in production.",
+  "ad_units_by_country_format": {
+    "US_reward": {
+      "country": "US",
+      "format": "reward",
+      "network": "applovin",
+      "daily": {
+        "2026-07-15": {"impressions": 125000, "ecpm": 18.5, "revenue": 2312.5, "fill_rate": 0.96},
+        "2026-07-16": {"impressions": 122000, "ecpm": 17.9, "revenue": 2183.8, "fill_rate": 0.95},
+        "2026-07-17": {"impressions": 118000, "ecpm": 17.2, "revenue": 2029.6, "fill_rate": 0.95},
+        "2026-07-18": {"impressions": 115000, "ecpm": 16.4, "revenue": 1886.0, "fill_rate": 0.94},
+        "2026-07-19": {"impressions": 112000, "ecpm": 15.8, "revenue": 1769.6, "fill_rate": 0.94},
+        "2026-07-20": {"impressions": 108000, "ecpm": 15.1, "revenue": 1630.8, "fill_rate": 0.93},
+        "2026-07-21": {"impressions": 105000, "ecpm": 14.6, "revenue": 1533.0, "fill_rate": 0.92},
+        "2026-07-22": {"impressions": 102000, "ecpm": 14.2, "revenue": 1448.4, "fill_rate": 0.92}
+      },
+      "trend": {
+        "ecpm_7d_pct": -0.23,
+        "impressions_7d_pct": -0.18,
+        "revenue_7d_pct": -0.37,
+        "fill_rate_delta": -0.04,
+        "note": "SEVERE: US reward eCPM dropped 23% in 7 days. Revenue impact: -37%. This is the #1 monetization risk for P04."
+      }
+    },
+    "US_interstitial": {
+      "country": "US",
+      "format": "interstitial",
+      "network": "applovin",
+      "daily": {
+        "2026-07-15": {"impressions": 80000, "ecpm": 12.1, "revenue": 968.0, "fill_rate": 0.97},
+        "2026-07-16": {"impressions": 79000, "ecpm": 12.0, "revenue": 948.0, "fill_rate": 0.97},
+        "2026-07-17": {"impressions": 78000, "ecpm": 11.8, "revenue": 920.4, "fill_rate": 0.96},
+        "2026-07-18": {"impressions": 77000, "ecpm": 11.9, "revenue": 916.3, "fill_rate": 0.96},
+        "2026-07-19": {"impressions": 76000, "ecpm": 11.7, "revenue": 889.2, "fill_rate": 0.96},
+        "2026-07-20": {"impressions": 75000, "ecpm": 11.8, "revenue": 885.0, "fill_rate": 0.96},
+        "2026-07-21": {"impressions": 74000, "ecpm": 11.6, "revenue": 858.4, "fill_rate": 0.95},
+        "2026-07-22": {"impressions": 73000, "ecpm": 11.5, "revenue": 839.5, "fill_rate": 0.95}
+      },
+      "trend": {
+        "ecpm_7d_pct": -0.05,
+        "fill_rate_delta": -0.02,
+        "note": "MILD: intermittent eCPM erosion, within normal seasonal range"
+      }
+    },
+    "US_banner": {
+      "country": "US",
+      "format": "banner",
+      "network": "applovin",
+      "daily": {
+        "2026-07-15": {"impressions": 200000, "ecpm": 2.1, "revenue": 420.0, "fill_rate": 0.98},
+        "2026-07-22": {"impressions": 195000, "ecpm": 2.0, "revenue": 390.0, "fill_rate": 0.98}
+      },
+      "trend": {
+        "ecpm_7d_pct": -0.05,
+        "note": "STABLE: minimal impact"
+      }
+    }
+  },
+  "aggregate": {
+    "total_ad_revenue_7d": 15480.0,
+    "total_impressions_7d": 1950000,
+    "blended_ecpm_7d": 7.94,
+    "reward_revenue_pct": 0.48,
+    "reward_ecpm_decline_pct": -0.23,
+    "risk_flag": true
+  }
+}

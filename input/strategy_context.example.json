@@ -1,24 +1,61 @@
 {
-  "owner": "human_strategy",
-  "updated_at": "YYYY-MM-DD",
+  "_note": "人工策略输入模板。此文件由投放负责人维护，系统读取后影响决策引擎的权重和约束。",
+  "version": "1.0",
+  "last_updated": "2026-06-29",
+  
   "priorities": [
     {
-      "name": "US female Merge IAA exploration",
-      "status": "active",
+      "id": "p1",
+      "name": "P04 Witch 回收验证",
+      "description": "P04 Witch 当前 D7=0.33，需验证是否能在不新增预算前提下自然回升",
       "project": "P04 Witch",
-      "audience": "female",
-      "genre": "Merge",
-      "country": "United States",
-      "platform": "Meta",
-      "monetization": "IAA",
-      "objective": "maximize learning speed before ROI scaling",
-      "priority_weight": 1.0,
-      "notes": "Example only. Copy to strategy_context.json and edit before activation."
+      "type": "repair",
+      "weight": 0.8,
+      "active": true
+    },
+    {
+      "id": "p2", 
+      "name": "P02 Mermaid 限额验证",
+      "description": "P02 Mermaid 花费 1319, ROI 2.51, 但付费 ROI 仅 0.04, 先小额验证",
+      "project": "P02 Mermaid",
+      "type": "verify",
+      "weight": 0.6,
+      "active": true
     }
   ],
+
   "guardrails": [
-    "Do not scale when lifecycle_stage=data_gap.",
-    "Discovery priorities optimize learning speed before ROI.",
-    "All platform writes require approval until write readiness passes."
-  ]
+    {
+      "id": "g1",
+      "rule": "单日预算增幅不超过 10%",
+      "scope": "all",
+      "active": true
+    },
+    {
+      "id": "g2",
+      "rule": "连续 2 日 D3 代理 ROI 恶化超过 15% 则回撤",
+      "scope": "all",
+      "active": true
+    },
+    {
+      "id": "g3",
+      "rule": "素材疲劳为 high 时禁止扩量",
+      "scope": "creative",
+      "active": true
+    },
+    {
+      "id": "g4",
+      "rule": "新素材前 24 小时不扩量",
+      "scope": "creative",
+      "active": true
+    }
+  ],
+
+  "budget": {
+    "daily_total_cap": 200,
+    "per_campaign_cap": 50,
+    "per_adset_cap": 20,
+    "exploration_pool_pct": 15,
+    "exploitation_pool_pct": 85
+  }
 }

@@ -1,0 +1,69 @@
+{
+  "character": {
+    "preserve": ["witch"],
+    "variants": []
+  },
+  "background": [
+    "enchanted moonlit forest with glowing mushrooms",
+    "ancient gothic library with floating candles",
+    "serene magical lake reflecting the night sky",
+    "crystal cavern with bioluminescent crystals",
+    "floating sky island above the clouds",
+    "witch's potion lab with shelves of jars",
+    "haunted carnival at midnight",
+    "underwater coral palace with light rays"
+  ],
+  "gameplay": [
+    "merge board with glowing tiles",
+    "collection shelf filling up",
+    "upgrade progress bar",
+    "match-3 burst",
+    "garden cultivation loop"
+  ],
+  "reward": [
+    { "from": "baby dragon", "to": "legendary shadow dragon" },
+    { "from": "baby dragon", "to": "celestial phoenix" },
+    { "from": "baby dragon", "to": "crown of starlight" },
+    { "from": "baby dragon", "to": "blooming celestial flower" },
+    { "from": "magic garden", "to": "treasure vault of coins" },
+    { "from": "magic garden", "to": "golden grimoire" },
+    { "from": "cat", "to": "mythic gargoyle guardian" },
+    { "from": "gargoyle", "to": "golden grimoire" },
+    { "from": "dragon", "to": "legendary shadow dragon" }
+  ],
+  "reward_alternatives": [
+    "legendary shadow dragon",
+    "celestial phoenix",
+    "crown of starlight",
+    "treasure vault of coins",
+    "golden grimoire",
+    "blooming celestial flower"
+  ],
+  "composition": [
+    "before_after",
+    "collection",
+    "upgrade_moment",
+    "merge_evolution",
+    "reward_reveal",
+    "gameplay_demo"
+  ],
+  "color": [
+    { "from": "purple blue", "to": "purple gold" },
+    { "from": "purple blue", "to": "magenta teal" },
+    { "from": "purple blue", "to": "crimson violet" },
+    { "from": "purple blue", "to": "emerald gold" }
+  ],
+  "color_alternatives": [
+    "purple gold",
+    "magenta teal",
+    "crimson violet",
+    "emerald gold"
+  ],
+  "hook": [
+    "collection",
+    "merge evolution",
+    "reward reveal",
+    "power upgrade",
+    "fantasy lifestyle"
+  ]
+}

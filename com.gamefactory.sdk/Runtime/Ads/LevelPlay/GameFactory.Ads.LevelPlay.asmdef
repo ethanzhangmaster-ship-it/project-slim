@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.Ads.LevelPlay",
+  "rootNamespace": "GameFactory.Ads",
+  "references": ["GameFactory.Ads", "GameFactory.Analytics"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": ["MODULE_LEVELPLAY"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

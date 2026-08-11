@@ -1,0 +1,83 @@
+{
+  "layer": "E13.2.8 Monetization Intelligence Layer",
+  "generated_at": "2026-07-23T04:40:52.098536+00:00",
+  "events_processed": 14206,
+  "facts_emitted": 43,
+  "opportunities": 3,
+  "decisions": 3,
+  "checks_passed": 14,
+  "checks_total": 14,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "events_generated",
+      "pass": true,
+      "detail": "14206 events"
+    },
+    {
+      "name": "reward_segment_present",
+      "pass": true,
+      "detail": "impressions=160"
+    },
+    {
+      "name": "interstitial_segment_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all_facts_schema_valid",
+      "pass": true,
+      "detail": "0 errors"
+    },
+    {
+      "name": "fact_kinds_present",
+      "pass": true,
+      "detail": "ad=28 user=14 retention=1"
+    },
+    {
+      "name": "ecpm_drop_in_data",
+      "pass": true,
+      "detail": "prev=32.0 last=20.0"
+    },
+    {
+      "name": "retention_computed",
+      "pass": true,
+      "detail": "d1=0.3167 d7=0.0617 d0_ltv=0.1526"
+    },
+    {
+      "name": "user_metrics_present",
+      "pass": true,
+      "detail": "arpdau=0.064 ads_per_dau=2.75"
+    },
+    {
+      "name": "ecpm_drop_detected",
+      "pass": true,
+      "detail": "types=['ad_frequency_issue', 'ecpm_drop', 'fill_drop']"
+    },
+    {
+      "name": "fill_drop_detected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ad_frequency_issue_detected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "opportunities_found",
+      "pass": true,
+      "detail": "3 opportunities"
+    },
+    {
+      "name": "decisions_proposed_only",
+      "pass": true,
+      "detail": "3 decisions, all proposed=True"
+    },
+    {
+      "name": "no_execution_side_effect",
+      "pass": true,
+      "detail": "Decision Interface emits proposals; E13.3.3 Executor applies them."
+    }
+  ]
+}

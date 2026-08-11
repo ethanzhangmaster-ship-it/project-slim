@@ -1,0 +1,43 @@
+{
+  "game_id": "com.movie.trivia.quiz.fun.test.ios",
+  "as_of": "2026-07-29",
+  "saved_at": "2026-07-30T01:24:05.429697+00:00",
+  "snapshot": {
+    "game_id": "com.movie.trivia.quiz.fun.test.ios",
+    "timestamp": "2026-07-29",
+    "revenue": {
+      "daily_revenue": 0.14,
+      "payer_count": 0,
+      "arpdau": 0.0,
+      "ltv": 0.0,
+      "impressions": 113,
+      "requests": 665,
+      "ecpm": 12.4042,
+      "rewarded_video_revenue": 0.12,
+      "network_distribution": {
+        "APPLOVIN_NETWORK": 0.9894,
+        "APPLOVIN_EXCHANGE": 0.0106
+      }
+    },
+    "acquisition": null,
+    "aso": null,
+    "creative": null,
+    "product": {
+      "dau": 0,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": null
+    },
+    "confidence": 0.4,
+    "sources": [
+      "registry",
+      "max_live"
+    ],
+    "real_confidence": 0.4,
+    "real_domains": [
+      "product",
+      "revenue"
+    ],
+    "attribution": null
+  }
+}

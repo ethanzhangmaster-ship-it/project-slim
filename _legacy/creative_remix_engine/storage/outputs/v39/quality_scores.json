@@ -1,0 +1,448 @@
+{
+  "evaluations": [
+    {
+      "plan_id": "plan_creative_001",
+      "creative_id": "creative_001",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_002",
+      "creative_id": "creative_002",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_003",
+      "creative_id": "creative_003",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_004",
+      "creative_id": "creative_004",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_005",
+      "creative_id": "creative_005",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_006",
+      "creative_id": "creative_006",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_007",
+      "creative_id": "creative_007",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_008",
+      "creative_id": "creative_008",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_009",
+      "creative_id": "creative_009",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_010",
+      "creative_id": "creative_010",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_011",
+      "creative_id": "creative_011",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_012",
+      "creative_id": "creative_012",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_013",
+      "creative_id": "creative_013",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_014",
+      "creative_id": "creative_014",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_015",
+      "creative_id": "creative_015",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_016",
+      "creative_id": "creative_016",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_017",
+      "creative_id": "creative_017",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_018",
+      "creative_id": "creative_018",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_019",
+      "creative_id": "creative_019",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_020",
+      "creative_id": "creative_020",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 90.2,
+        "overall_score": 83.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_001",
+      "creative_id": "creative_mut_001",
+      "quality": {
+        "hook_strength": 97.0,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 93.5,
+        "pacing": 75.6,
+        "winner_similarity": 92.1,
+        "overall_score": 84.2,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_002",
+      "creative_id": "creative_mut_002",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 94.0,
+        "pacing": 78.7,
+        "winner_similarity": 90.9,
+        "overall_score": 84.0,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_003",
+      "creative_id": "creative_mut_003",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 94.0,
+        "pacing": 78.7,
+        "winner_similarity": 90.9,
+        "overall_score": 84.0,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_001",
+      "creative_id": "creative_mut_001",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 60.2,
+        "overall_score": 80.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_002",
+      "creative_id": "creative_mut_002",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 60.2,
+        "overall_score": 80.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_003",
+      "creative_id": "creative_mut_003",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 72.6,
+        "reward_impact": 73.0,
+        "visual_density": 89.0,
+        "pacing": 80.8,
+        "winner_similarity": 60.2,
+        "overall_score": 80.4,
+        "grade": "S",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_001",
+      "creative_id": "creative_mut_001",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 47.6,
+        "reward_impact": 73.0,
+        "visual_density": 88.8,
+        "pacing": 81.0,
+        "winner_similarity": 84.5,
+        "overall_score": 77.8,
+        "grade": "A",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_002",
+      "creative_id": "creative_mut_002",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 47.6,
+        "reward_impact": 73.0,
+        "visual_density": 88.8,
+        "pacing": 81.0,
+        "winner_similarity": 84.5,
+        "overall_score": 77.8,
+        "grade": "A",
+        "passed": true
+      }
+    },
+    {
+      "plan_id": "plan_creative_mut_003",
+      "creative_id": "creative_mut_003",
+      "quality": {
+        "hook_strength": 95.2,
+        "gameplay_clarity": 47.6,
+        "reward_impact": 73.0,
+        "visual_density": 88.8,
+        "pacing": 81.0,
+        "winner_similarity": 84.5,
+        "overall_score": 77.8,
+        "grade": "A",
+        "passed": true
+      }
+    }
+  ],
+  "grade_distribution": {
+    "S+": 0,
+    "S": 26,
+    "A": 3,
+    "B": 0,
+    "Reject": 0
+  },
+  "pass_rate": 1.0,
+  "timestamp": "2026-07-13T14:28:14.371537"
+}

@@ -1,0 +1,15 @@
+{
+  "is_running": true,
+  "total_creatives_generated": 6,
+  "total_ads_published": 3,
+  "total_events_collected": 55,
+  "compiler_version": 2,
+  "last_update_at": 1782882427,
+  "conditions_met": {
+    "condition_1_ad_published": true,
+    "condition_2_events_collected": true,
+    "condition_3_training_samples": true,
+    "condition_4_weight_updated": true,
+    "condition_5_params_different": true
+  }
+}

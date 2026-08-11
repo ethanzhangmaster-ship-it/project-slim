@@ -1,0 +1,250 @@
+[
+  {
+    "id": "st_f694b438",
+    "opportunity_id": "1814ce33",
+    "strategy_type": "bid_floor_adjust",
+    "target_segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "reward",
+      "network": "applovin"
+    },
+    "mutation": {
+      "action_type": "review_bidding",
+      "params": {
+        "increase_bid_floor": true,
+        "bid_floor_pct": 20
+      },
+      "description": "Raise bid floor +20% to lift eCPM (accepts some fill loss).",
+      "mutation_type": "bid_floor_gene",
+      "gene": {
+        "bid_floor_delta": 0.2
+      }
+    },
+    "expected_impact": {
+      "intent": "raise_bid_floor",
+      "expected_effect": "ecpm_up_fill_down"
+    },
+    "confidence": 0.82,
+    "status": "candidate"
+  },
+  {
+    "id": "st_d45dea6c",
+    "opportunity_id": "1814ce33",
+    "strategy_type": "network_test",
+    "target_segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "reward",
+      "network": "applovin"
+    },
+    "mutation": {
+      "action_type": "review_bidding",
+      "params": {
+        "increase_bid_floor": false,
+        "magnitude_pct": 15
+      },
+      "description": "Enable / A-B test a backup network to stabilise fill and eCPM.",
+      "mutation_type": "network_gene",
+      "gene": {
+        "enable_backup": true
+      }
+    },
+    "expected_impact": {
+      "intent": "test_backup_network",
+      "expected_effect": "fill_up_ecpm_stable"
+    },
+    "confidence": 0.7,
+    "status": "candidate"
+  },
+  {
+    "id": "st_c26b7709",
+    "opportunity_id": "1814ce33",
+    "strategy_type": "waterfall_change",
+    "target_segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "reward",
+      "network": "applovin"
+    },
+    "mutation": {
+      "action_type": "change_waterfall",
+      "params": {
+        "magnitude_pct": 20
+      },
+      "description": "Promote a healthy network above the underperforming one in the waterfall for this segment to lift eCPM.",
+      "mutation_type": "waterfall_gene",
+      "gene": {
+        "priority_shift": 1
+      }
+    },
+    "expected_impact": {
+      "intent": "rebalance_waterfall",
+      "expected_effect": "ecpm_up_fill_down"
+    },
+    "confidence": 0.75,
+    "status": "candidate"
+  },
+  {
+    "id": "st_7b986fcc",
+    "opportunity_id": "94ce94bf",
+    "strategy_type": "backup_network",
+    "target_segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "interstitial",
+      "network": "applovin"
+    },
+    "mutation": {
+      "action_type": "review_bidding",
+      "params": {
+        "increase_bid_floor": false,
+        "magnitude_pct": 15
+      },
+      "description": "Enable backup networks / fix mediation timeout to recover fill.",
+      "mutation_type": "network_gene",
+      "gene": {
+        "enable_backup": true
+      }
+    },
+    "expected_impact": {
+      "intent": "enable_backup_network",
+      "expected_effect": "fill_up"
+    },
+    "confidence": 0.7,
+    "status": "candidate"
+  },
+  {
+    "id": "st_69f7df41",
+    "opportunity_id": "94ce94bf",
+    "strategy_type": "floor_down",
+    "target_segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "interstitial",
+      "network": "applovin"
+    },
+    "mutation": {
+      "action_type": "review_bidding",
+      "params": {
+        "increase_bid_floor": false,
+        "bid_floor_pct": 20
+      },
+      "description": "Lower bid floor to widen fill for this segment.",
+      "mutation_type": "bid_floor_gene",
+      "gene": {
+        "bid_floor_delta": -0.15
+      }
+    },
+    "expected_impact": {
+      "intent": "lower_bid_floor",
+      "expected_effect": "fill_up_ecpm_down"
+    },
+    "confidence": 0.78,
+    "status": "candidate"
+  },
+  {
+    "id": "st_90c33f4c",
+    "opportunity_id": "94ce94bf",
+    "strategy_type": "waterfall_change",
+    "target_segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "interstitial",
+      "network": "applovin"
+    },
+    "mutation": {
+      "action_type": "change_waterfall",
+      "params": {
+        "magnitude_pct": 20
+      },
+      "description": "Re-prioritise the waterfall to a higher-fill network.",
+      "mutation_type": "waterfall_gene",
+      "gene": {
+        "priority_shift": 1
+      }
+    },
+    "expected_impact": {
+      "intent": "rebalance_waterfall",
+      "expected_effect": "ecpm_up_fill_down"
+    },
+    "confidence": 0.75,
+    "status": "candidate"
+  },
+  {
+    "id": "st_99559625",
+    "opportunity_id": "40002690",
+    "strategy_type": "no_action",
+    "target_segment": {
+      "country": "US",
+      "platform": "android"
+    },
+    "mutation": {
+      "action_type": "",
+      "params": {},
+      "description": "Accept current ad load; monitor retention for one more window before changing anything.",
+      "mutation_type": "none",
+      "gene": {}
+    },
+    "expected_impact": {
+      "intent": "no_change",
+      "expected_effect": "none"
+    },
+    "confidence": 0.9,
+    "status": "candidate"
+  },
+  {
+    "id": "st_870c7e3e",
+    "opportunity_id": "40002690",
+    "strategy_type": "frequency_down",
+    "target_segment": {
+      "country": "US",
+      "platform": "android"
+    },
+    "mutation": {
+      "action_type": "adjust_ad_frequency",
+      "params": {
+        "direction": "down",
+        "magnitude_pct": 10
+      },
+      "description": "Reduce ad frequency (e.g. raise RemoteConfig reward interval) to recover retention.",
+      "mutation_type": "frequency_gene",
+      "gene": {
+        "reward_interval_delta": 1
+      }
+    },
+    "expected_impact": {
+      "intent": "reduce_ad_frequency",
+      "expected_effect": "retention_up_revenue_down"
+    },
+    "confidence": 0.62,
+    "status": "candidate"
+  },
+  {
+    "id": "st_9581abc6",
+    "opportunity_id": "40002690",
+    "strategy_type": "reward_cooldown",
+    "target_segment": {
+      "country": "US",
+      "platform": "android"
+    },
+    "mutation": {
+      "action_type": "adjust_ad_frequency",
+      "params": {
+        "direction": "down",
+        "magnitude_pct": 10
+      },
+      "description": "Increase rewarded-ad cooldown to protect D1 retention.",
+      "mutation_type": "frequency_gene",
+      "gene": {
+        "reward_cooldown_delta": 1
+      }
+    },
+    "expected_impact": {
+      "intent": "increase_reward_cooldown",
+      "expected_effect": "retention_up_revenue_down"
+    },
+    "confidence": 0.62,
+    "status": "candidate"
+  }
+]

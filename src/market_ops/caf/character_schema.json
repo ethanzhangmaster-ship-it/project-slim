@@ -1,0 +1,29 @@
+{
+  "character_id": "witch_v1",
+  "features": {
+    "visual_identity": 0.80,
+    "emotional_trust": 0.90,
+    "curiosity_trigger": 0.85,
+    "reward_clarity": 0.78,
+    "mechanic_legibility": 0.75,
+    "cta_affinity": 0.70,
+    "brand_memory_strength": 0.85
+  },
+  "version": 2,
+  "updated_at": "2026-07-02T10:45:00Z",
+  "update_history": [
+    {
+      "version": 2,
+      "timestamp": "2026-07-02T10:45:00Z",
+      "reason": "Aligned with pattern-mined historical winners (296 Facebook creatives analyzed): warm amber/gold palette, cute/whimsical witch, collection hook dominant (60%), center hero composition",
+      "changes": {
+        "emotional_trust": {"old": 0.60, "new": 0.90},
+        "cta_affinity": {"old": 0.65, "new": 0.70},
+        "brand_memory_strength": {"old": 0.75, "new": 0.85},
+        "curiosity_trigger": {"old": 0.90, "new": 0.85},
+        "reward_clarity": {"old": 0.85, "new": 0.78},
+        "mechanic_legibility": {"old": 0.70, "new": 0.75}
+      }
+    }
+  ]
+}

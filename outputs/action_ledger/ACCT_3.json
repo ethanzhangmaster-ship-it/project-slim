@@ -1,0 +1,26 @@
+{
+ "41a4c13d27f0": {
+  "action_id": "41a4c13d27f0",
+  "priority": "P2",
+  "action": "quarantine_network",
+  "target": "CHARTBOOST_BIDDING",
+  "title": "Quarantine & watch CHARTBOOST_BIDDING (7d)",
+  "source_rule": "zombie_network",
+  "status": "open",
+  "first_seen": "2026-07-24",
+  "last_seen": "2026-07-30",
+  "age_days": 6
+ },
+ "07ddc3cd1a37": {
+  "action_id": "07ddc3cd1a37",
+  "priority": "P2",
+  "action": "quarantine_network",
+  "target": "IRONSOURCE_BIDDING",
+  "title": "Quarantine & watch IRONSOURCE_BIDDING (7d)",
+  "source_rule": "zombie_network",
+  "status": "open",
+  "first_seen": "2026-07-24",
+  "last_seen": "2026-07-30",
+  "age_days": 6
+ }
+}

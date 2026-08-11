@@ -1,0 +1,1871 @@
+{
+  "data": [
+    {
+      "creative_id": "creative_witch_challenge_upgrade_000",
+      "video_name": "witch_challenge_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_witch_challenge_upgrade_000",
+        "video_name": "witch_challenge_upgrade_15s",
+        "platform": "facebook",
+        "spend": 980.79,
+        "impressions": 263715,
+        "clicks": 11281,
+        "installs": 2000,
+        "purchase": 111,
+        "d7_revenue": 715.13,
+        "d30_revenue": 959.18,
+        "date_start": "2026-06-20",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "challenge",
+          "subject": "witch",
+          "gameplay": "upgrade",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 4.28,
+        "cpi": 0.49,
+        "cvr": 17.73,
+        "d7_roas": 0.73,
+        "d30_roas": 0.98,
+        "d7_roi": -0.271,
+        "d30_roi": -0.022,
+        "payback_d7": 9,
+        "payback_d30": 7,
+        "ltv_d7": 0.36,
+        "ltv_d30": 0.48,
+        "efficiency_score": 4.0,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_curiosity_upgrade_001",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_dragon_curiosity_upgrade_001",
+        "video_name": "dragon_curiosity_upgrade_15s",
+        "platform": "facebook",
+        "spend": 940.1,
+        "impressions": 303395,
+        "clicks": 9958,
+        "installs": 1621,
+        "purchase": 218,
+        "d7_revenue": 852.2,
+        "d30_revenue": 1505.73,
+        "date_start": "2026-06-21",
+        "date_end": "2026-07-08",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "upgrade",
+          "reward": "magic"
+        }
+      },
+      "performance": {
+        "ctr": 3.28,
+        "cpi": 0.58,
+        "cvr": 16.28,
+        "d7_roas": 0.91,
+        "d30_roas": 1.6,
+        "d7_roi": -0.094,
+        "d30_roi": 0.602,
+        "payback_d7": 7,
+        "payback_d30": 4,
+        "ltv_d7": 0.53,
+        "ltv_d30": 0.93,
+        "efficiency_score": 14.2,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_castle_shock_upgrade_002",
+      "video_name": "castle_shock_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_castle_shock_upgrade_002",
+        "video_name": "castle_shock_upgrade_15s",
+        "platform": "facebook",
+        "spend": 732.79,
+        "impressions": 190806,
+        "clicks": 10582,
+        "installs": 2043,
+        "purchase": 147,
+        "d7_revenue": 526.04,
+        "d30_revenue": 1350.07,
+        "date_start": "2026-06-18",
+        "date_end": "2026-07-08",
+        "dna": {
+          "hook": "shock",
+          "subject": "castle",
+          "gameplay": "upgrade",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 5.55,
+        "cpi": 0.36,
+        "cvr": 19.31,
+        "d7_roas": 0.72,
+        "d30_roas": 1.84,
+        "d7_roi": -0.282,
+        "d30_roi": 0.842,
+        "payback_d7": 9,
+        "payback_d30": 3,
+        "ltv_d7": 0.26,
+        "ltv_d30": 0.66,
+        "efficiency_score": 6.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_castle_curiosity_showcase_003",
+      "video_name": "castle_curiosity_showcase_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_castle_curiosity_showcase_003",
+        "video_name": "castle_curiosity_showcase_15s",
+        "platform": "facebook",
+        "spend": 1504.63,
+        "impressions": 290850,
+        "clicks": 13708,
+        "installs": 2727,
+        "purchase": 245,
+        "d7_revenue": 1771.22,
+        "d30_revenue": 1977.15,
+        "date_start": "2026-06-13",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "castle",
+          "gameplay": "showcase",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 4.71,
+        "cpi": 0.55,
+        "cvr": 19.89,
+        "d7_roas": 1.18,
+        "d30_roas": 1.31,
+        "d7_roi": 0.177,
+        "d30_roi": 0.314,
+        "payback_d7": 5,
+        "payback_d30": 5,
+        "ltv_d7": 0.65,
+        "ltv_d30": 0.73,
+        "efficiency_score": 33.9,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_challenge_upgrade_004",
+      "video_name": "dragon_challenge_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_dragon_challenge_upgrade_004",
+        "video_name": "dragon_challenge_upgrade_15s",
+        "platform": "facebook",
+        "spend": 658.19,
+        "impressions": 253534,
+        "clicks": 8021,
+        "installs": 1970,
+        "purchase": 163,
+        "d7_revenue": 327.58,
+        "d30_revenue": 1007.38,
+        "date_start": "2026-07-02",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "challenge",
+          "subject": "dragon",
+          "gameplay": "upgrade",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 3.16,
+        "cpi": 0.33,
+        "cvr": 24.56,
+        "d7_roas": 0.5,
+        "d30_roas": 1.53,
+        "d7_roi": -0.502,
+        "d30_roi": 0.531,
+        "payback_d7": 14,
+        "payback_d30": 4,
+        "ltv_d7": 0.17,
+        "ltv_d30": 0.51,
+        "efficiency_score": -8.3,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_witch_transformation_merge_005",
+      "video_name": "witch_transformation_merge_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_witch_transformation_merge_005",
+        "video_name": "witch_transformation_merge_15s",
+        "platform": "facebook",
+        "spend": 1690.55,
+        "impressions": 422020,
+        "clicks": 19699,
+        "installs": 3156,
+        "purchase": 346,
+        "d7_revenue": 1849.36,
+        "d30_revenue": 1241.64,
+        "date_start": "2026-06-16",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "transformation",
+          "subject": "witch",
+          "gameplay": "merge",
+          "reward": "magic"
+        }
+      },
+      "performance": {
+        "ctr": 4.67,
+        "cpi": 0.54,
+        "cvr": 16.02,
+        "d7_roas": 1.09,
+        "d30_roas": 0.73,
+        "d7_roi": 0.094,
+        "d30_roi": -0.266,
+        "payback_d7": 6,
+        "payback_d30": 9,
+        "ltv_d7": 0.59,
+        "ltv_d30": 0.39,
+        "efficiency_score": 28.5,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_monster_challenge_battle_006",
+      "video_name": "monster_challenge_battle_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_monster_challenge_battle_006",
+        "video_name": "monster_challenge_battle_15s",
+        "platform": "facebook",
+        "spend": 424.47,
+        "impressions": 94316,
+        "clicks": 5040,
+        "installs": 925,
+        "purchase": 59,
+        "d7_revenue": 221.75,
+        "d30_revenue": 805.42,
+        "date_start": "2026-06-25",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "challenge",
+          "subject": "monster",
+          "gameplay": "battle",
+          "reward": "magic"
+        }
+      },
+      "performance": {
+        "ctr": 5.34,
+        "cpi": 0.46,
+        "cvr": 18.35,
+        "d7_roas": 0.52,
+        "d30_roas": 1.9,
+        "d7_roi": -0.478,
+        "d30_roi": 0.897,
+        "payback_d7": 13,
+        "payback_d30": 3,
+        "ltv_d7": 0.24,
+        "ltv_d30": 0.87,
+        "efficiency_score": -9.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_monster_transformation_unlock_007",
+      "video_name": "monster_transformation_unlock_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_monster_transformation_unlock_007",
+        "video_name": "monster_transformation_unlock_15s",
+        "platform": "facebook",
+        "spend": 740.62,
+        "impressions": 222866,
+        "clicks": 9207,
+        "installs": 1450,
+        "purchase": 94,
+        "d7_revenue": 345.03,
+        "d30_revenue": 788.32,
+        "date_start": "2026-06-22",
+        "date_end": "2026-07-10",
+        "dna": {
+          "hook": "transformation",
+          "subject": "monster",
+          "gameplay": "unlock",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 4.13,
+        "cpi": 0.51,
+        "cvr": 15.75,
+        "d7_roas": 0.47,
+        "d30_roas": 1.06,
+        "d7_roi": -0.534,
+        "d30_roi": 0.064,
+        "payback_d7": 15,
+        "payback_d30": 6,
+        "ltv_d7": 0.24,
+        "ltv_d30": 0.54,
+        "efficiency_score": -14.9,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_monster_shock_battle_008",
+      "video_name": "monster_shock_battle_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_monster_shock_battle_008",
+        "video_name": "monster_shock_battle_15s",
+        "platform": "facebook",
+        "spend": 702.47,
+        "impressions": 198140,
+        "clicks": 10274,
+        "installs": 1611,
+        "purchase": 175,
+        "d7_revenue": 238.4,
+        "d30_revenue": 826.35,
+        "date_start": "2026-06-20",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "shock",
+          "subject": "monster",
+          "gameplay": "battle",
+          "reward": "evolution"
+        }
+      },
+      "performance": {
+        "ctr": 5.19,
+        "cpi": 0.44,
+        "cvr": 15.68,
+        "d7_roas": 0.34,
+        "d30_roas": 1.18,
+        "d7_roi": -0.661,
+        "d30_roi": 0.176,
+        "payback_d7": 20,
+        "payback_d30": 5,
+        "ltv_d7": 0.15,
+        "ltv_d30": 0.51,
+        "efficiency_score": -21.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_castle_urgency_battle_009",
+      "video_name": "castle_urgency_battle_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_castle_urgency_battle_009",
+        "video_name": "castle_urgency_battle_15s",
+        "platform": "facebook",
+        "spend": 725.48,
+        "impressions": 189751,
+        "clicks": 9638,
+        "installs": 1504,
+        "purchase": 103,
+        "d7_revenue": 839.07,
+        "d30_revenue": 470.92,
+        "date_start": "2026-07-06",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "urgency",
+          "subject": "castle",
+          "gameplay": "battle",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 5.08,
+        "cpi": 0.48,
+        "cvr": 15.6,
+        "d7_roas": 1.16,
+        "d30_roas": 0.65,
+        "d7_roi": 0.157,
+        "d30_roi": -0.351,
+        "payback_d7": 6,
+        "payback_d30": 10,
+        "ltv_d7": 0.56,
+        "ltv_d30": 0.31,
+        "efficiency_score": 34.2,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_castle_shock_upgrade_010",
+      "video_name": "castle_shock_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_castle_shock_upgrade_010",
+        "video_name": "castle_shock_upgrade_15s",
+        "platform": "facebook",
+        "spend": 505.65,
+        "impressions": 155927,
+        "clicks": 5596,
+        "installs": 1376,
+        "purchase": 183,
+        "d7_revenue": 366.72,
+        "d30_revenue": 475.01,
+        "date_start": "2026-06-25",
+        "date_end": "2026-07-07",
+        "dna": {
+          "hook": "shock",
+          "subject": "castle",
+          "gameplay": "upgrade",
+          "reward": "evolution"
+        }
+      },
+      "performance": {
+        "ctr": 3.59,
+        "cpi": 0.37,
+        "cvr": 24.59,
+        "d7_roas": 0.73,
+        "d30_roas": 0.94,
+        "d7_roi": -0.275,
+        "d30_roi": -0.061,
+        "payback_d7": 9,
+        "payback_d30": 7,
+        "ltv_d7": 0.27,
+        "ltv_d30": 0.35,
+        "efficiency_score": 6.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_challenge_merge_011",
+      "video_name": "dragon_challenge_merge_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_dragon_challenge_merge_011",
+        "video_name": "dragon_challenge_merge_15s",
+        "platform": "facebook",
+        "spend": 2271.0,
+        "impressions": 360447,
+        "clicks": 18466,
+        "installs": 3954,
+        "purchase": 549,
+        "d7_revenue": 1807.08,
+        "d30_revenue": 4242.55,
+        "date_start": "2026-06-17",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "challenge",
+          "subject": "dragon",
+          "gameplay": "merge",
+          "reward": "evolution"
+        }
+      },
+      "performance": {
+        "ctr": 5.12,
+        "cpi": 0.57,
+        "cvr": 21.41,
+        "d7_roas": 0.8,
+        "d30_roas": 1.87,
+        "d7_roi": -0.204,
+        "d30_roi": 0.868,
+        "payback_d7": 8,
+        "payback_d30": 3,
+        "ltv_d7": 0.46,
+        "ltv_d30": 1.07,
+        "efficiency_score": 6.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_witch_curiosity_showcase_012",
+      "video_name": "witch_curiosity_showcase_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_witch_curiosity_showcase_012",
+        "video_name": "witch_curiosity_showcase_15s",
+        "platform": "facebook",
+        "spend": 1918.7,
+        "impressions": 511756,
+        "clicks": 26959,
+        "installs": 4885,
+        "purchase": 710,
+        "d7_revenue": 858.29,
+        "d30_revenue": 3967.17,
+        "date_start": "2026-06-26",
+        "date_end": "2026-07-11",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "witch",
+          "gameplay": "showcase",
+          "reward": "magic"
+        }
+      },
+      "performance": {
+        "ctr": 5.27,
+        "cpi": 0.39,
+        "cvr": 18.12,
+        "d7_roas": 0.45,
+        "d30_roas": 2.07,
+        "d7_roi": -0.553,
+        "d30_roi": 1.068,
+        "payback_d7": 15,
+        "payback_d30": 3,
+        "ltv_d7": 0.18,
+        "ltv_d30": 0.81,
+        "efficiency_score": -13.2,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_witch_challenge_merge_013",
+      "video_name": "witch_challenge_merge_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_witch_challenge_merge_013",
+        "video_name": "witch_challenge_merge_15s",
+        "platform": "facebook",
+        "spend": 2175.21,
+        "impressions": 486994,
+        "clicks": 18069,
+        "installs": 4076,
+        "purchase": 432,
+        "d7_revenue": 2180.25,
+        "d30_revenue": 2403.4,
+        "date_start": "2026-07-02",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "challenge",
+          "subject": "witch",
+          "gameplay": "merge",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 3.71,
+        "cpi": 0.53,
+        "cvr": 22.56,
+        "d7_roas": 1.0,
+        "d30_roas": 1.1,
+        "d7_roi": 0.002,
+        "d30_roi": 0.105,
+        "payback_d7": 6,
+        "payback_d30": 6,
+        "ltv_d7": 0.53,
+        "ltv_d30": 0.59,
+        "efficiency_score": 22.0,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_witch_shock_battle_014",
+      "video_name": "witch_shock_battle_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_witch_shock_battle_014",
+        "video_name": "witch_shock_battle_15s",
+        "platform": "facebook",
+        "spend": 1872.23,
+        "impressions": 363505,
+        "clicks": 20895,
+        "installs": 4146,
+        "purchase": 418,
+        "d7_revenue": 2000.52,
+        "d30_revenue": 2216.13,
+        "date_start": "2026-06-29",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "shock",
+          "subject": "witch",
+          "gameplay": "battle",
+          "reward": "evolution"
+        }
+      },
+      "performance": {
+        "ctr": 5.75,
+        "cpi": 0.45,
+        "cvr": 19.84,
+        "d7_roas": 1.07,
+        "d30_roas": 1.18,
+        "d7_roi": 0.069,
+        "d30_roi": 0.184,
+        "payback_d7": 6,
+        "payback_d30": 5,
+        "ltv_d7": 0.48,
+        "ltv_d30": 0.53,
+        "efficiency_score": 28.9,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_curiosity_upgrade_015",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_dragon_curiosity_upgrade_015",
+        "video_name": "dragon_curiosity_upgrade_15s",
+        "platform": "facebook",
+        "spend": 951.61,
+        "impressions": 316847,
+        "clicks": 12004,
+        "installs": 2335,
+        "purchase": 255,
+        "d7_revenue": 685.83,
+        "d30_revenue": 1177.83,
+        "date_start": "2026-06-25",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "upgrade",
+          "reward": "magic"
+        }
+      },
+      "performance": {
+        "ctr": 3.79,
+        "cpi": 0.41,
+        "cvr": 19.45,
+        "d7_roas": 0.72,
+        "d30_roas": 1.24,
+        "d7_roi": -0.279,
+        "d30_roi": 0.238,
+        "payback_d7": 9,
+        "payback_d30": 5,
+        "ltv_d7": 0.29,
+        "ltv_d30": 0.5,
+        "efficiency_score": 5.5,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_hero_curiosity_upgrade_016",
+      "video_name": "hero_curiosity_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_hero_curiosity_upgrade_016",
+        "video_name": "hero_curiosity_upgrade_15s",
+        "platform": "facebook",
+        "spend": 705.75,
+        "impressions": 180456,
+        "clicks": 5794,
+        "installs": 1290,
+        "purchase": 115,
+        "d7_revenue": 799.33,
+        "d30_revenue": 968.74,
+        "date_start": "2026-06-15",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "hero",
+          "gameplay": "upgrade",
+          "reward": "magic"
+        }
+      },
+      "performance": {
+        "ctr": 3.21,
+        "cpi": 0.55,
+        "cvr": 22.26,
+        "d7_roas": 1.13,
+        "d30_roas": 1.37,
+        "d7_roi": 0.133,
+        "d30_roi": 0.373,
+        "payback_d7": 6,
+        "payback_d30": 5,
+        "ltv_d7": 0.62,
+        "ltv_d30": 0.75,
+        "efficiency_score": 30.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_curiosity_upgrade_017",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_dragon_curiosity_upgrade_017",
+        "video_name": "dragon_curiosity_upgrade_15s",
+        "platform": "facebook",
+        "spend": 839.49,
+        "impressions": 205085,
+        "clicks": 10135,
+        "installs": 2321,
+        "purchase": 171,
+        "d7_revenue": 414.59,
+        "d30_revenue": 1109.37,
+        "date_start": "2026-07-05",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "upgrade",
+          "reward": "evolution"
+        }
+      },
+      "performance": {
+        "ctr": 4.94,
+        "cpi": 0.36,
+        "cvr": 22.9,
+        "d7_roas": 0.49,
+        "d30_roas": 1.32,
+        "d7_roi": -0.506,
+        "d30_roi": 0.321,
+        "payback_d7": 14,
+        "payback_d30": 5,
+        "ltv_d7": 0.18,
+        "ltv_d30": 0.48,
+        "efficiency_score": -9.2,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_monster_urgency_merge_018",
+      "video_name": "monster_urgency_merge_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_monster_urgency_merge_018",
+        "video_name": "monster_urgency_merge_15s",
+        "platform": "facebook",
+        "spend": 211.49,
+        "impressions": 82844,
+        "clicks": 2539,
+        "installs": 507,
+        "purchase": 39,
+        "d7_revenue": 183.47,
+        "d30_revenue": 320.16,
+        "date_start": "2026-06-17",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "urgency",
+          "subject": "monster",
+          "gameplay": "merge",
+          "reward": "treasure"
+        }
+      },
+      "performance": {
+        "ctr": 3.06,
+        "cpi": 0.42,
+        "cvr": 19.97,
+        "d7_roas": 0.87,
+        "d30_roas": 1.51,
+        "d7_roi": -0.132,
+        "d30_roi": 0.514,
+        "payback_d7": 8,
+        "payback_d30": 4,
+        "ltv_d7": 0.36,
+        "ltv_d30": 0.63,
+        "efficiency_score": 15.5,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "creative_hero_curiosity_merge_019",
+      "video_name": "hero_curiosity_merge_15s",
+      "platform": "facebook",
+      "raw": {
+        "creative_id": "creative_hero_curiosity_merge_019",
+        "video_name": "hero_curiosity_merge_15s",
+        "platform": "facebook",
+        "spend": 1217.71,
+        "impressions": 372220,
+        "clicks": 15361,
+        "installs": 3328,
+        "purchase": 466,
+        "d7_revenue": 1314.02,
+        "d30_revenue": 1044.57,
+        "date_start": "2026-06-16",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "hero",
+          "gameplay": "merge",
+          "reward": "evolution"
+        }
+      },
+      "performance": {
+        "ctr": 4.13,
+        "cpi": 0.37,
+        "cvr": 21.67,
+        "d7_roas": 1.08,
+        "d30_roas": 0.86,
+        "d7_roi": 0.079,
+        "d30_roi": -0.142,
+        "payback_d7": 6,
+        "payback_d30": 8,
+        "ltv_d7": 0.39,
+        "ltv_d30": 0.31,
+        "efficiency_score": 31.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_000",
+      "video_name": "hero_shock_merge_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_hero_shock_000",
+        "video_name": "hero_shock_merge_10s",
+        "platform": "tiktok",
+        "spend": 1232.1,
+        "impressions": 252508,
+        "clicks": 14474,
+        "installs": 2826,
+        "purchase": 252,
+        "d7_revenue": 1048.27,
+        "d30_revenue": 1209.24,
+        "date_start": "2026-06-30",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "shock",
+          "subject": "hero",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 5.73,
+        "cpi": 0.44,
+        "cvr": 19.52,
+        "d7_roas": 0.85,
+        "d30_roas": 0.98,
+        "d7_roi": -0.149,
+        "d30_roi": -0.019,
+        "payback_d7": 8,
+        "payback_d30": 7,
+        "ltv_d7": 0.37,
+        "ltv_d30": 0.43,
+        "efficiency_score": 14.0,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_curiosity_001",
+      "video_name": "dragon_curiosity_battle_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_dragon_curiosity_001",
+        "video_name": "dragon_curiosity_battle_10s",
+        "platform": "tiktok",
+        "spend": 223.39,
+        "impressions": 71728,
+        "clicks": 3396,
+        "installs": 715,
+        "purchase": 82,
+        "d7_revenue": 91.58,
+        "d30_revenue": 390.9,
+        "date_start": "2026-06-14",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "battle"
+        }
+      },
+      "performance": {
+        "ctr": 4.73,
+        "cpi": 0.31,
+        "cvr": 21.05,
+        "d7_roas": 0.41,
+        "d30_roas": 1.75,
+        "d7_roi": -0.59,
+        "d30_roi": 0.75,
+        "payback_d7": 17,
+        "payback_d30": 4,
+        "ltv_d7": 0.13,
+        "ltv_d30": 0.55,
+        "efficiency_score": -13.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_002",
+      "video_name": "hero_shock_battle_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_hero_shock_002",
+        "video_name": "hero_shock_battle_10s",
+        "platform": "tiktok",
+        "spend": 375.43,
+        "impressions": 63446,
+        "clicks": 4155,
+        "installs": 798,
+        "purchase": 35,
+        "d7_revenue": 375.08,
+        "d30_revenue": 209.46,
+        "date_start": "2026-06-20",
+        "date_end": "2026-07-07",
+        "dna": {
+          "hook": "shock",
+          "subject": "hero",
+          "gameplay": "battle"
+        }
+      },
+      "performance": {
+        "ctr": 6.55,
+        "cpi": 0.47,
+        "cvr": 19.21,
+        "d7_roas": 1.0,
+        "d30_roas": 0.56,
+        "d7_roi": -0.001,
+        "d30_roi": -0.442,
+        "payback_d7": 7,
+        "payback_d30": 12,
+        "ltv_d7": 0.47,
+        "ltv_d30": 0.26,
+        "efficiency_score": 23.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_shock_003",
+      "video_name": "dragon_shock_battle_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_dragon_shock_003",
+        "video_name": "dragon_shock_battle_10s",
+        "platform": "tiktok",
+        "spend": 218.1,
+        "impressions": 66062,
+        "clicks": 5130,
+        "installs": 643,
+        "purchase": 50,
+        "d7_revenue": 218.47,
+        "d30_revenue": 182.91,
+        "date_start": "2026-07-04",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "shock",
+          "subject": "dragon",
+          "gameplay": "battle"
+        }
+      },
+      "performance": {
+        "ctr": 7.77,
+        "cpi": 0.34,
+        "cvr": 12.53,
+        "d7_roas": 1.0,
+        "d30_roas": 0.84,
+        "d7_roi": 0.002,
+        "d30_roi": -0.161,
+        "payback_d7": 6,
+        "payback_d30": 8,
+        "ltv_d7": 0.34,
+        "ltv_d30": 0.28,
+        "efficiency_score": 27.1,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_witch_curiosity_004",
+      "video_name": "witch_curiosity_battle_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_witch_curiosity_004",
+        "video_name": "witch_curiosity_battle_10s",
+        "platform": "tiktok",
+        "spend": 771.12,
+        "impressions": 187160,
+        "clicks": 12048,
+        "installs": 2277,
+        "purchase": 253,
+        "d7_revenue": 670.28,
+        "d30_revenue": 895.34,
+        "date_start": "2026-06-29",
+        "date_end": "2026-07-08",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "witch",
+          "gameplay": "battle"
+        }
+      },
+      "performance": {
+        "ctr": 6.44,
+        "cpi": 0.34,
+        "cvr": 18.9,
+        "d7_roas": 0.87,
+        "d30_roas": 1.16,
+        "d7_roi": -0.131,
+        "d30_roi": 0.161,
+        "payback_d7": 8,
+        "payback_d30": 6,
+        "ltv_d7": 0.29,
+        "ltv_d30": 0.39,
+        "efficiency_score": 17.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_witch_shock_005",
+      "video_name": "witch_shock_merge_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_witch_shock_005",
+        "video_name": "witch_shock_merge_10s",
+        "platform": "tiktok",
+        "spend": 855.2,
+        "impressions": 210273,
+        "clicks": 15373,
+        "installs": 2581,
+        "purchase": 174,
+        "d7_revenue": 568.36,
+        "d30_revenue": 443.98,
+        "date_start": "2026-06-19",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "shock",
+          "subject": "witch",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 7.31,
+        "cpi": 0.33,
+        "cvr": 16.79,
+        "d7_roas": 0.66,
+        "d30_roas": 0.52,
+        "d7_roi": -0.335,
+        "d30_roi": -0.481,
+        "payback_d7": 10,
+        "payback_d30": 13,
+        "ltv_d7": 0.22,
+        "ltv_d30": 0.17,
+        "efficiency_score": 3.7,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_006",
+      "video_name": "hero_shock_upgrade_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_hero_shock_006",
+        "video_name": "hero_shock_upgrade_10s",
+        "platform": "tiktok",
+        "spend": 181.11,
+        "impressions": 63923,
+        "clicks": 3778,
+        "installs": 574,
+        "purchase": 53,
+        "d7_revenue": 74.35,
+        "d30_revenue": 266.73,
+        "date_start": "2026-07-06",
+        "date_end": "2026-07-10",
+        "dna": {
+          "hook": "shock",
+          "subject": "hero",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 5.91,
+        "cpi": 0.32,
+        "cvr": 15.19,
+        "d7_roas": 0.41,
+        "d30_roas": 1.47,
+        "d7_roi": -0.589,
+        "d30_roi": 0.473,
+        "payback_d7": 17,
+        "payback_d30": 4,
+        "ltv_d7": 0.13,
+        "ltv_d30": 0.46,
+        "efficiency_score": -13.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_curiosity_007",
+      "video_name": "dragon_curiosity_merge_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_dragon_curiosity_007",
+        "video_name": "dragon_curiosity_merge_10s",
+        "platform": "tiktok",
+        "spend": 959.5,
+        "impressions": 280728,
+        "clicks": 15072,
+        "installs": 2260,
+        "purchase": 228,
+        "d7_revenue": 353.58,
+        "d30_revenue": 804.14,
+        "date_start": "2026-06-18",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 5.37,
+        "cpi": 0.42,
+        "cvr": 14.99,
+        "d7_roas": 0.37,
+        "d30_roas": 0.84,
+        "d7_roi": -0.631,
+        "d30_roi": -0.162,
+        "payback_d7": 18,
+        "payback_d30": 8,
+        "ltv_d7": 0.16,
+        "ltv_d30": 0.36,
+        "efficiency_score": -19.5,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_challenge_008",
+      "video_name": "dragon_challenge_upgrade_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_dragon_challenge_008",
+        "video_name": "dragon_challenge_upgrade_10s",
+        "platform": "tiktok",
+        "spend": 135.05,
+        "impressions": 66671,
+        "clicks": 3568,
+        "installs": 489,
+        "purchase": 33,
+        "d7_revenue": 58.51,
+        "d30_revenue": 136.88,
+        "date_start": "2026-07-01",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "challenge",
+          "subject": "dragon",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 5.35,
+        "cpi": 0.28,
+        "cvr": 13.71,
+        "d7_roas": 0.43,
+        "d30_roas": 1.01,
+        "d7_roi": -0.567,
+        "d30_roi": 0.014,
+        "payback_d7": 16,
+        "payback_d30": 6,
+        "ltv_d7": 0.12,
+        "ltv_d30": 0.28,
+        "efficiency_score": -11.3,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_shock_009",
+      "video_name": "dragon_shock_merge_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_dragon_shock_009",
+        "video_name": "dragon_shock_merge_10s",
+        "platform": "tiktok",
+        "spend": 1083.55,
+        "impressions": 186128,
+        "clicks": 17131,
+        "installs": 2418,
+        "purchase": 112,
+        "d7_revenue": 848.52,
+        "d30_revenue": 2184.25,
+        "date_start": "2026-06-14",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "shock",
+          "subject": "dragon",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 9.2,
+        "cpi": 0.45,
+        "cvr": 14.11,
+        "d7_roas": 0.78,
+        "d30_roas": 2.02,
+        "d7_roi": -0.217,
+        "d30_roi": 1.016,
+        "payback_d7": 8,
+        "payback_d30": 3,
+        "ltv_d7": 0.35,
+        "ltv_d30": 0.9,
+        "efficiency_score": 9.2,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_shock_010",
+      "video_name": "dragon_shock_merge_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_dragon_shock_010",
+        "video_name": "dragon_shock_merge_10s",
+        "platform": "tiktok",
+        "spend": 1211.91,
+        "impressions": 247790,
+        "clicks": 12124,
+        "installs": 2456,
+        "purchase": 155,
+        "d7_revenue": 1360.69,
+        "d30_revenue": 2118.12,
+        "date_start": "2026-06-14",
+        "date_end": "2026-07-10",
+        "dna": {
+          "hook": "shock",
+          "subject": "dragon",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 4.89,
+        "cpi": 0.49,
+        "cvr": 20.26,
+        "d7_roas": 1.12,
+        "d30_roas": 1.75,
+        "d7_roi": 0.123,
+        "d30_roi": 0.748,
+        "payback_d7": 6,
+        "payback_d30": 4,
+        "ltv_d7": 0.55,
+        "ltv_d30": 0.86,
+        "efficiency_score": 31.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_witch_curiosity_011",
+      "video_name": "witch_curiosity_battle_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_witch_curiosity_011",
+        "video_name": "witch_curiosity_battle_10s",
+        "platform": "tiktok",
+        "spend": 352.06,
+        "impressions": 143369,
+        "clicks": 6088,
+        "installs": 759,
+        "purchase": 90,
+        "d7_revenue": 300.29,
+        "d30_revenue": 388.57,
+        "date_start": "2026-06-14",
+        "date_end": "2026-07-07",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "witch",
+          "gameplay": "battle"
+        }
+      },
+      "performance": {
+        "ctr": 4.25,
+        "cpi": 0.46,
+        "cvr": 12.47,
+        "d7_roas": 0.85,
+        "d30_roas": 1.1,
+        "d7_roi": -0.147,
+        "d30_roi": 0.104,
+        "payback_d7": 8,
+        "payback_d30": 6,
+        "ltv_d7": 0.4,
+        "ltv_d30": 0.51,
+        "efficiency_score": 13.4,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_012",
+      "video_name": "hero_shock_merge_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_hero_shock_012",
+        "video_name": "hero_shock_merge_10s",
+        "platform": "tiktok",
+        "spend": 240.82,
+        "impressions": 42524,
+        "clicks": 2647,
+        "installs": 556,
+        "purchase": 45,
+        "d7_revenue": 91.99,
+        "d30_revenue": 277.44,
+        "date_start": "2026-06-16",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "shock",
+          "subject": "hero",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 6.22,
+        "cpi": 0.43,
+        "cvr": 21.0,
+        "d7_roas": 0.38,
+        "d30_roas": 1.15,
+        "d7_roi": -0.618,
+        "d30_roi": 0.152,
+        "payback_d7": 18,
+        "payback_d30": 6,
+        "ltv_d7": 0.17,
+        "ltv_d30": 0.5,
+        "efficiency_score": -18.7,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_013",
+      "video_name": "hero_shock_upgrade_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_hero_shock_013",
+        "video_name": "hero_shock_upgrade_10s",
+        "platform": "tiktok",
+        "spend": 840.49,
+        "impressions": 205284,
+        "clicks": 11398,
+        "installs": 2140,
+        "purchase": 180,
+        "d7_revenue": 647.38,
+        "d30_revenue": 913.59,
+        "date_start": "2026-06-19",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "shock",
+          "subject": "hero",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 5.55,
+        "cpi": 0.39,
+        "cvr": 18.78,
+        "d7_roas": 0.77,
+        "d30_roas": 1.09,
+        "d7_roi": -0.23,
+        "d30_roi": 0.087,
+        "payback_d7": 9,
+        "payback_d30": 6,
+        "ltv_d7": 0.3,
+        "ltv_d30": 0.43,
+        "efficiency_score": 9.4,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_challenge_014",
+      "video_name": "hero_challenge_battle_10s",
+      "platform": "tiktok",
+      "raw": {
+        "creative_id": "tt_creative_hero_challenge_014",
+        "video_name": "hero_challenge_battle_10s",
+        "platform": "tiktok",
+        "spend": 898.18,
+        "impressions": 260426,
+        "clicks": 19285,
+        "installs": 3021,
+        "purchase": 281,
+        "d7_revenue": 848.09,
+        "d30_revenue": 1159.13,
+        "date_start": "2026-06-15",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "challenge",
+          "subject": "hero",
+          "gameplay": "battle"
+        }
+      },
+      "performance": {
+        "ctr": 7.41,
+        "cpi": 0.3,
+        "cvr": 15.67,
+        "d7_roas": 0.94,
+        "d30_roas": 1.29,
+        "d7_roi": -0.056,
+        "d30_roi": 0.291,
+        "payback_d7": 7,
+        "payback_d30": 5,
+        "ltv_d7": 0.28,
+        "ltv_d30": 0.38,
+        "efficiency_score": 24.1,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_transformation_000",
+      "video_name": "dragon_transformation_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_dragon_transformation_000",
+        "video_name": "dragon_transformation_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 1127.13,
+        "impressions": 184747,
+        "clicks": 10550,
+        "installs": 2507,
+        "purchase": 134,
+        "d7_revenue": 654.94,
+        "d30_revenue": 1266.92,
+        "date_start": "2026-06-21",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "transformation",
+          "subject": "dragon",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 5.71,
+        "cpi": 0.45,
+        "cvr": 23.76,
+        "d7_roas": 0.58,
+        "d30_roas": 1.12,
+        "d7_roi": -0.419,
+        "d30_roi": 0.124,
+        "payback_d7": 12,
+        "payback_d30": 6,
+        "ltv_d7": 0.26,
+        "ltv_d30": 0.51,
+        "efficiency_score": -5.2,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_transformation_001",
+      "video_name": "dragon_transformation_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_dragon_transformation_001",
+        "video_name": "dragon_transformation_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 596.29,
+        "impressions": 168046,
+        "clicks": 7726,
+        "installs": 1209,
+        "purchase": 53,
+        "d7_revenue": 662.21,
+        "d30_revenue": 1119.05,
+        "date_start": "2026-07-01",
+        "date_end": "2026-07-12",
+        "dna": {
+          "hook": "transformation",
+          "subject": "dragon",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 4.6,
+        "cpi": 0.49,
+        "cvr": 15.65,
+        "d7_roas": 1.11,
+        "d30_roas": 1.88,
+        "d7_roi": 0.111,
+        "d30_roi": 0.877,
+        "payback_d7": 6,
+        "payback_d30": 3,
+        "ltv_d7": 0.55,
+        "ltv_d30": 0.93,
+        "efficiency_score": 30.7,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_curiosity_002",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_dragon_curiosity_002",
+        "video_name": "dragon_curiosity_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 701.83,
+        "impressions": 149947,
+        "clicks": 3668,
+        "installs": 1021,
+        "purchase": 76,
+        "d7_revenue": 405.6,
+        "d30_revenue": 513.38,
+        "date_start": "2026-06-13",
+        "date_end": "2026-07-08",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 2.45,
+        "cpi": 0.69,
+        "cvr": 27.84,
+        "d7_roas": 0.58,
+        "d30_roas": 0.73,
+        "d7_roi": -0.422,
+        "d30_roi": -0.269,
+        "payback_d7": 12,
+        "payback_d30": 9,
+        "ltv_d7": 0.4,
+        "ltv_d30": 0.5,
+        "efficiency_score": -11.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_curiosity_003",
+      "video_name": "dragon_curiosity_merge_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_dragon_curiosity_003",
+        "video_name": "dragon_curiosity_merge_15s",
+        "platform": "google_ads",
+        "spend": 684.78,
+        "impressions": 245362,
+        "clicks": 6396,
+        "installs": 1144,
+        "purchase": 65,
+        "d7_revenue": 403.73,
+        "d30_revenue": 973.63,
+        "date_start": "2026-06-20",
+        "date_end": "2026-07-07",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 2.61,
+        "cpi": 0.6,
+        "cvr": 17.89,
+        "d7_roas": 0.59,
+        "d30_roas": 1.42,
+        "d7_roi": -0.41,
+        "d30_roi": 0.422,
+        "payback_d7": 11,
+        "payback_d30": 4,
+        "ltv_d7": 0.35,
+        "ltv_d30": 0.85,
+        "efficiency_score": -8.5,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_curiosity_004",
+      "video_name": "hero_curiosity_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_hero_curiosity_004",
+        "video_name": "hero_curiosity_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 1236.83,
+        "impressions": 231520,
+        "clicks": 10749,
+        "installs": 2256,
+        "purchase": 198,
+        "d7_revenue": 591.66,
+        "d30_revenue": 1065.76,
+        "date_start": "2026-06-14",
+        "date_end": "2026-07-13",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "hero",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 4.64,
+        "cpi": 0.55,
+        "cvr": 20.99,
+        "d7_roas": 0.48,
+        "d30_roas": 0.86,
+        "d7_roi": -0.522,
+        "d30_roi": -0.138,
+        "payback_d7": 14,
+        "payback_d30": 8,
+        "ltv_d7": 0.26,
+        "ltv_d30": 0.47,
+        "efficiency_score": -14.9,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_curiosity_005",
+      "video_name": "dragon_curiosity_merge_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_dragon_curiosity_005",
+        "video_name": "dragon_curiosity_merge_15s",
+        "platform": "google_ads",
+        "spend": 280.15,
+        "impressions": 78707,
+        "clicks": 2164,
+        "installs": 439,
+        "purchase": 43,
+        "d7_revenue": 124.93,
+        "d30_revenue": 358.71,
+        "date_start": "2026-06-20",
+        "date_end": "2026-07-11",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "dragon",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 2.75,
+        "cpi": 0.64,
+        "cvr": 20.29,
+        "d7_roas": 0.45,
+        "d30_roas": 1.28,
+        "d7_roi": -0.554,
+        "d30_roi": 0.28,
+        "payback_d7": 15,
+        "payback_d30": 5,
+        "ltv_d7": 0.28,
+        "ltv_d30": 0.82,
+        "efficiency_score": -19.6,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_witch_transformation_006",
+      "video_name": "witch_transformation_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_witch_transformation_006",
+        "video_name": "witch_transformation_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 533.58,
+        "impressions": 247619,
+        "clicks": 5132,
+        "installs": 909,
+        "purchase": 75,
+        "d7_revenue": 159.13,
+        "d30_revenue": 573.32,
+        "date_start": "2026-06-17",
+        "date_end": "2026-07-07",
+        "dna": {
+          "hook": "transformation",
+          "subject": "witch",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 2.07,
+        "cpi": 0.59,
+        "cvr": 17.71,
+        "d7_roas": 0.3,
+        "d30_roas": 1.07,
+        "d7_roi": -0.702,
+        "d30_roi": 0.074,
+        "payback_d7": 23,
+        "payback_d30": 6,
+        "ltv_d7": 0.18,
+        "ltv_d30": 0.63,
+        "efficiency_score": -28.7,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_curiosity_007",
+      "video_name": "hero_curiosity_merge_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_hero_curiosity_007",
+        "video_name": "hero_curiosity_merge_15s",
+        "platform": "google_ads",
+        "spend": 424.44,
+        "impressions": 229439,
+        "clicks": 5779,
+        "installs": 998,
+        "purchase": 93,
+        "d7_revenue": 311.1,
+        "d30_revenue": 351.31,
+        "date_start": "2026-06-21",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "hero",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 2.52,
+        "cpi": 0.43,
+        "cvr": 17.27,
+        "d7_roas": 0.73,
+        "d30_roas": 0.83,
+        "d7_roi": -0.267,
+        "d30_roi": -0.172,
+        "payback_d7": 9,
+        "payback_d30": 8,
+        "ltv_d7": 0.31,
+        "ltv_d30": 0.35,
+        "efficiency_score": 5.8,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_dragon_transformation_008",
+      "video_name": "dragon_transformation_merge_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_dragon_transformation_008",
+        "video_name": "dragon_transformation_merge_15s",
+        "platform": "google_ads",
+        "spend": 2015.47,
+        "impressions": 263528,
+        "clicks": 14080,
+        "installs": 3768,
+        "purchase": 227,
+        "d7_revenue": 1547.78,
+        "d30_revenue": 3621.74,
+        "date_start": "2026-06-23",
+        "date_end": "2026-07-08",
+        "dna": {
+          "hook": "transformation",
+          "subject": "dragon",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 5.34,
+        "cpi": 0.53,
+        "cvr": 26.76,
+        "d7_roas": 0.77,
+        "d30_roas": 1.8,
+        "d7_roi": -0.232,
+        "d30_roi": 0.797,
+        "payback_d7": 9,
+        "payback_d30": 3,
+        "ltv_d7": 0.41,
+        "ltv_d30": 0.96,
+        "efficiency_score": 5.7,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_transformation_009",
+      "video_name": "hero_transformation_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_hero_transformation_009",
+        "video_name": "hero_transformation_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 930.8,
+        "impressions": 139207,
+        "clicks": 6852,
+        "installs": 1493,
+        "purchase": 112,
+        "d7_revenue": 644.03,
+        "d30_revenue": 1214.7,
+        "date_start": "2026-06-18",
+        "date_end": "2026-07-09",
+        "dna": {
+          "hook": "transformation",
+          "subject": "hero",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 4.92,
+        "cpi": 0.62,
+        "cvr": 21.79,
+        "d7_roas": 0.69,
+        "d30_roas": 1.31,
+        "d7_roi": -0.308,
+        "d30_roi": 0.305,
+        "payback_d7": 10,
+        "payback_d30": 5,
+        "ltv_d7": 0.43,
+        "ltv_d30": 0.81,
+        "efficiency_score": -1.9,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_transformation_010",
+      "video_name": "hero_transformation_merge_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_hero_transformation_010",
+        "video_name": "hero_transformation_merge_15s",
+        "platform": "google_ads",
+        "spend": 308.74,
+        "impressions": 130181,
+        "clicks": 2761,
+        "installs": 722,
+        "purchase": 41,
+        "d7_revenue": 271.33,
+        "d30_revenue": 402.75,
+        "date_start": "2026-06-26",
+        "date_end": "2026-07-08",
+        "dna": {
+          "hook": "transformation",
+          "subject": "hero",
+          "gameplay": "merge"
+        }
+      },
+      "performance": {
+        "ctr": 2.12,
+        "cpi": 0.43,
+        "cvr": 26.15,
+        "d7_roas": 0.88,
+        "d30_roas": 1.3,
+        "d7_roi": -0.121,
+        "d30_roi": 0.304,
+        "payback_d7": 7,
+        "payback_d30": 5,
+        "ltv_d7": 0.38,
+        "ltv_d30": 0.56,
+        "efficiency_score": 16.0,
+        "quality_flag": "poor"
+      }
+    },
+    {
+      "creative_id": "ga_creative_hero_curiosity_011",
+      "video_name": "hero_curiosity_upgrade_15s",
+      "platform": "google_ads",
+      "raw": {
+        "creative_id": "ga_creative_hero_curiosity_011",
+        "video_name": "hero_curiosity_upgrade_15s",
+        "platform": "google_ads",
+        "spend": 833.64,
+        "impressions": 222580,
+        "clicks": 8640,
+        "installs": 1431,
+        "purchase": 129,
+        "d7_revenue": 515.99,
+        "d30_revenue": 681.21,
+        "date_start": "2026-06-13",
+        "date_end": "2026-07-11",
+        "dna": {
+          "hook": "curiosity",
+          "subject": "hero",
+          "gameplay": "upgrade"
+        }
+      },
+      "performance": {
+        "ctr": 3.88,
+        "cpi": 0.58,
+        "cvr": 16.56,
+        "d7_roas": 0.62,
+        "d30_roas": 0.82,
+        "d7_roi": -0.381,
+        "d30_roi": -0.183,
+        "payback_d7": 11,
+        "payback_d30": 8,
+        "ltv_d7": 0.36,
+        "ltv_d30": 0.48,
+        "efficiency_score": -6.0,
+        "quality_flag": "poor"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.507805",
+  "total": 47,
+  "summary": {
+    "avg_ctr": 4.77,
+    "median_ctr": 4.89,
+    "avg_cpi": 0.46,
+    "median_cpi": 0.45,
+    "avg_d7_roi": -0.264,
+    "avg_d30_roi": 0.238,
+    "winner_count": 0,
+    "good_count": 0,
+    "acceptable_count": 0,
+    "poor_count": 47
+  }
+}

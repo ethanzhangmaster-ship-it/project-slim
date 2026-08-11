@@ -8,7 +8,7 @@ from typing import Any
 
 import requests
 
-from market_ops.models import CreativeAssetRow
+from market_ops.models import AdsPerformanceRow, CreativeAssetRow
 
 
 class MetaAdsCreativeClient:
@@ -33,13 +33,41 @@ class MetaAdsCreativeClient:
         rows.sort(key=lambda row: (row.game, -row.roas, -row.ctr, -row.spend, row.asset_id))
         return rows
 
+    def fetch_performance_rows(self, start_date: date, end_date: date) -> list[AdsPerformanceRow]:
+        """Return daily ad-level performance directly from Meta Insights."""
+        ads_map = self._fetch_ads_map()
+        result: list[AdsPerformanceRow] = []
+        for insight in self._fetch_insights(start_date=start_date, end_date=end_date):
+            ad_id = str(insight.get("ad_id") or "")
+            ad_meta = ads_map.get(ad_id) or {}
+            creative_id = str((ad_meta.get("creative") or {}).get("id") or ad_id)
+            row_date = date.fromisoformat(str(insight.get("date_start") or ""))
+            spend = self._to_float(insight.get("spend"))
+            clicks = int(self._to_float(insight.get("clicks")))
+            impressions = self._to_float(insight.get("impressions"))
+            installs = self._extract_conversion_count(insight.get("actions"))
+            revenue = self._extract_conversion_value(insight.get("action_values"))
+            names = [str((ad_meta.get("creative") or {}).get("name") or ""), str(ad_meta.get("name") or insight.get("ad_name") or ""), str((ad_meta.get("campaign") or {}).get("name") or insight.get("campaign_name") or "")]
+            result.append(AdsPerformanceRow(
+                date=row_date, game=self._infer_game_name(names), country="All", channel="Facebook",
+                ad_id=ad_id, creative_id=creative_id, spend=spend, clicks=clicks,
+                ctr=clicks / impressions if impressions else 0.0,
+                cpi=spend / installs if installs else 0.0,
+                roas=revenue / spend if spend else 0.0,
+                retention_d1=0.0, retention_d7=0.0, retention_d30=0.0,
+            ))
+        return result
+
     def _fetch_insights(self, start_date: date, end_date: date) -> list[dict[str, Any]]:
         params = {
             "access_token": self._access_token,
             "level": "ad",
             "time_range": json.dumps({"since": start_date.isoformat(), "until": end_date.isoformat()}),
+            "time_increment": 1,
             "fields": ",".join(
                 [
+                    "date_start",
+                    "date_stop",
                     "ad_id",
                     "ad_name",
                     "campaign_name",
@@ -72,7 +100,14 @@ class MetaAdsCreativeClient:
             ),
             "limit": 500,
         }
-        rows = self._get_paginated(f"/act_{self._ad_account_id}/ads", params)
+        try:
+            rows = self._get_paginated(f"/act_{self._ad_account_id}/ads", params)
+        except RuntimeError as exc:
+            if "HTTP 5" not in str(exc):
+                raise
+            fallback = dict(params)
+            fallback["fields"] = "id,name,effective_status,campaign{id,name},adset{id,name},creative{id,name}"
+            rows = self._get_paginated(f"/act_{self._ad_account_id}/ads", fallback)
         return {str(row.get("id") or ""): row for row in rows if row.get("id")}
 
     def _aggregate_by_creative(
@@ -182,7 +217,8 @@ class MetaAdsCreativeClient:
         next_params: dict[str, Any] | None = params
         while url:
             response = requests.get(url, params=next_params, timeout=60)
-            response.raise_for_status()
+            if not response.ok:
+                raise RuntimeError(f"Meta Ads API request failed (HTTP {response.status_code})")
             payload = response.json()
             if "error" in payload:
                 raise RuntimeError(f"Meta Ads API error: {payload['error']}")

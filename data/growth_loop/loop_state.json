@@ -1,0 +1,15 @@
+{
+  "loop_id": "loop_ab78f260f983",
+  "cycle_number": 14,
+  "mode": "autonomous",
+  "interval_hours": 0.01,
+  "started_at": "2026-08-06T10:21:26.667344+00:00",
+  "last_cycle_at": "2026-08-10T08:06:15.867411+00:00",
+  "next_cycle_at": "",
+  "total_cycles": 14,
+  "total_actions_executed": 85,
+  "total_actions_skipped": 0,
+  "total_outcomes_evaluated": 0,
+  "experience_count": 0,
+  "success_rate": 0.0
+}

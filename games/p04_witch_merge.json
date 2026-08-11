@@ -1,0 +1,25 @@
+{
+  "game_id": "p04_witch_merge",
+  "display_name": "P04 Witch Merge",
+  "platforms": ["ios", "android"],
+  "monetization": ["iap", "iaa"],
+  "genres": ["merge", "puzzle", "fantasy"],
+  "sources": {
+    "adjust": true,
+    "meta_ads": true,
+    "max": true
+  },
+  "mode": "shadow",
+  "baselines": {
+    "iap_arpdau": {"ios": 0.52, "android": 0.31},
+    "ad_arpdau":  {"ios": 0.18, "android": 0.22},
+    "d7_retention": {"ios": 0.14, "android": 0.10},
+    "d30_retention": {"ios": 0.06, "android": 0.04},
+    "payer_conversion": {"ios": 0.045, "android": 0.028},
+    "reward_ecpm_us": 18.5,
+    "reward_fill_rate": 0.96,
+    "creative_ctr_baseline": 0.022,
+    "creative_frequency_limit": 4.0
+  },
+  "note": "Shadow mode — READ ONLY. No MAX/RemoteConfig changes, no budget adjustments."
+}

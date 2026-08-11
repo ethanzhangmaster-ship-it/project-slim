@@ -1,0 +1,93 @@
+{
+    "veo": {
+        "camera": true,
+        "subtitle": false,
+        "music": false,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 8000,
+        "max_duration": 120,
+        "resolutions": ["1080p", "720p"]
+    },
+    "kling": {
+        "camera": true,
+        "subtitle": true,
+        "music": false,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 6000,
+        "max_duration": 60,
+        "resolutions": ["1080p", "720p", "4K"]
+    },
+    "runway": {
+        "camera": true,
+        "subtitle": false,
+        "music": false,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 10000,
+        "max_duration": 120,
+        "resolutions": ["1080p", "720p", "4K"]
+    },
+    "pika": {
+        "camera": true,
+        "subtitle": false,
+        "music": false,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 4000,
+        "max_duration": 30,
+        "resolutions": ["1080p", "720p"]
+    },
+    "hailuo": {
+        "camera": true,
+        "subtitle": true,
+        "music": true,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 8000,
+        "max_duration": 60,
+        "resolutions": ["1080p", "720p"]
+    },
+    "luma": {
+        "camera": true,
+        "subtitle": false,
+        "music": false,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 6000,
+        "max_duration": 60,
+        "resolutions": ["1080p", "4K"]
+    },
+    "comfyui": {
+        "camera": true,
+        "subtitle": true,
+        "music": true,
+        "fx": true,
+        "character": true,
+        "environment": true,
+        "lighting": true,
+        "motion": true,
+        "max_tokens": 15000,
+        "max_duration": 180,
+        "resolutions": ["1080p", "720p", "4K", "8K"]
+    }
+}

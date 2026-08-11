@@ -1,0 +1,19 @@
+{
+  "id": "video_001",
+  "creative_angle": "dragon_attack",
+  "source_dna": "v2601523",
+  "seed": 1001,
+  "status": "success",
+  "video_path": "outputs/P04_Video_Test_Set_001/video_001.mp4",
+  "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_001_flux.png",
+  "prompt": "",
+  "negative_prompt": "",
+  "error": "",
+  "validation": {
+    "valid": true,
+    "resolution": "832x480",
+    "duration": 10.1,
+    "fps": 8.0,
+    "issues": []
+  }
+}

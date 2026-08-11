@@ -1,0 +1,149 @@
+{
+  "module": "E13.4.1 Decision Memory Layer",
+  "records_total": 10,
+  "closed_loop_samples": 9,
+  "strategy_performance": {
+    "bid_floor_adjust": {
+      "label": "bid_floor_adjust",
+      "total_decisions": 3,
+      "executed": 3,
+      "closed_loop": 3,
+      "successes": 2,
+      "success_rate": 0.6,
+      "avg_predicted_revenue_delta": 6.0,
+      "avg_actual_revenue_delta": 3.433,
+      "avg_abs_prediction_error": 2.567,
+      "avg_bias": -2.567
+    },
+    "frequency_adjust": {
+      "label": "frequency_adjust",
+      "total_decisions": 2,
+      "executed": 2,
+      "closed_loop": 2,
+      "successes": 1,
+      "success_rate": 0.5,
+      "avg_predicted_revenue_delta": 5.0,
+      "avg_actual_revenue_delta": 0.1,
+      "avg_abs_prediction_error": 5.1,
+      "avg_bias": -4.9
+    },
+    "network_change": {
+      "label": "network_change",
+      "total_decisions": 1,
+      "executed": 1,
+      "closed_loop": 1,
+      "successes": 1,
+      "success_rate": 0.6667,
+      "avg_predicted_revenue_delta": 3.0,
+      "avg_actual_revenue_delta": 2.8,
+      "avg_abs_prediction_error": 0.2,
+      "avg_bias": -0.2
+    },
+    "no_action": {
+      "label": "no_action",
+      "total_decisions": 1,
+      "executed": 1,
+      "closed_loop": 1,
+      "successes": 1,
+      "success_rate": 0.6667,
+      "avg_predicted_revenue_delta": 0.0,
+      "avg_actual_revenue_delta": 0.3,
+      "avg_abs_prediction_error": 0.3,
+      "avg_bias": 0.3
+    },
+    "waterfall_rebalance": {
+      "label": "waterfall_rebalance",
+      "total_decisions": 3,
+      "executed": 2,
+      "closed_loop": 2,
+      "successes": 2,
+      "success_rate": 0.75,
+      "avg_predicted_revenue_delta": 3.75,
+      "avg_actual_revenue_delta": 3.6,
+      "avg_abs_prediction_error": 0.35,
+      "avg_bias": -0.15
+    }
+  },
+  "strategy_prior_ranked": [
+    {
+      "strategy_type": "waterfall_rebalance",
+      "label": "waterfall_rebalance",
+      "total_decisions": 3,
+      "executed": 2,
+      "closed_loop": 2,
+      "successes": 2,
+      "success_rate": 0.75,
+      "avg_predicted_revenue_delta": 3.75,
+      "avg_actual_revenue_delta": 3.6,
+      "avg_abs_prediction_error": 0.35,
+      "avg_bias": -0.15
+    },
+    {
+      "strategy_type": "network_change",
+      "label": "network_change",
+      "total_decisions": 1,
+      "executed": 1,
+      "closed_loop": 1,
+      "successes": 1,
+      "success_rate": 0.6667,
+      "avg_predicted_revenue_delta": 3.0,
+      "avg_actual_revenue_delta": 2.8,
+      "avg_abs_prediction_error": 0.2,
+      "avg_bias": -0.2
+    },
+    {
+      "strategy_type": "no_action",
+      "label": "no_action",
+      "total_decisions": 1,
+      "executed": 1,
+      "closed_loop": 1,
+      "successes": 1,
+      "success_rate": 0.6667,
+      "avg_predicted_revenue_delta": 0.0,
+      "avg_actual_revenue_delta": 0.3,
+      "avg_abs_prediction_error": 0.3,
+      "avg_bias": 0.3
+    },
+    {
+      "strategy_type": "bid_floor_adjust",
+      "label": "bid_floor_adjust",
+      "total_decisions": 3,
+      "executed": 3,
+      "closed_loop": 3,
+      "successes": 2,
+      "success_rate": 0.6,
+      "avg_predicted_revenue_delta": 6.0,
+      "avg_actual_revenue_delta": 3.433,
+      "avg_abs_prediction_error": 2.567,
+      "avg_bias": -2.567
+    },
+    {
+      "strategy_type": "frequency_adjust",
+      "label": "frequency_adjust",
+      "total_decisions": 2,
+      "executed": 2,
+      "closed_loop": 2,
+      "successes": 1,
+      "success_rate": 0.5,
+      "avg_predicted_revenue_delta": 5.0,
+      "avg_actual_revenue_delta": 0.1,
+      "avg_abs_prediction_error": 5.1,
+      "avg_bias": -4.9
+    }
+  ],
+  "prediction_error_stats": {
+    "closed_samples": 9,
+    "revenue_mae": 2.122,
+    "revenue_mean_bias": -1.967,
+    "retention_mae": 0.244,
+    "retention_mean_bias": -0.111,
+    "interpretation": "Simulator systematically OVER-predicts revenue (actuals fall short of forecasts)."
+  },
+  "priors": {
+    "bid_floor_adjust": 0.6,
+    "frequency_adjust": 0.5,
+    "network_change": 0.6667,
+    "no_action": 0.6667,
+    "waterfall_rebalance": 0.75
+  }
+}

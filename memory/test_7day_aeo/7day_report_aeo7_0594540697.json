@@ -1,0 +1,36 @@
+{
+  "run_id": "aeo7_0594540697",
+  "campaign_id": "",
+  "status": "error",
+  "totals": {
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "installs": 0,
+    "purchases": 0,
+    "revenue": 0.0,
+    "ctr": 0.0,
+    "cvr": 0.0,
+    "cpa": 0.0,
+    "roas": 0.0
+  },
+  "best_creative": "",
+  "best_creative_roas": 0.0,
+  "worst_creative": "",
+  "worst_creative_roas": 0.0,
+  "best_adset": "",
+  "worst_adset": "",
+  "budget_curve": [],
+  "learning_delta": {},
+  "daily_metrics": [],
+  "adsets": [],
+  "creatives": [],
+  "dataset_written": false,
+  "weight_update_applied": false,
+  "timing": {
+    "started_at": 1782886919,
+    "completed_at": 1782886919,
+    "duration_sec": 0
+  },
+  "error": "'str' object has no attribute 'get'"
+}

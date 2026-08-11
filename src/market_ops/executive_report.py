@@ -1722,17 +1722,9 @@ class ExecutiveReportBuilder:
         if proxy_rows:
             reasons.append("当前素材来源含 ad 级代理归因，可用于方向判断，但不等同于真实 creative id 归因。")
         if channel == "Google" and not self._settings.using_google_creative_source:
-            if self._settings.using_tecdo_creative_source and proxy_rows:
-                reasons.append("Google 当前未接入官方素材接口凭证，但 TecDo ad 级代理素材源已接入。")
-                score = 68 if len(qualified) == len(rows) else 62
-                return self._score_object(module, score, reasons)
             reasons.append("Google 当前未接入官方素材接口凭证。")
             return self._score_object(module, 45, reasons)
         if channel == "Facebook" and not self._settings.using_meta_creative_source:
-            if self._settings.using_tecdo_creative_source and proxy_rows:
-                reasons.append("Facebook 当前未接入官方素材接口凭证，但 TecDo ad 级代理素材源已接入。")
-                score = 72 if len(qualified) == len(rows) else 65
-                return self._score_object(module, score, reasons)
             reasons.append("Facebook 当前未接入官方素材接口凭证。")
             return self._score_object(module, 55, reasons)
         score = 90 if len(qualified) == len(rows) else 72

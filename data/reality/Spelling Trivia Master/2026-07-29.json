@@ -1,0 +1,28 @@
+{
+  "game_id": "Spelling Trivia Master",
+  "as_of": "2026-07-29",
+  "saved_at": "2026-07-30T01:24:05.300373+00:00",
+  "snapshot": {
+    "game_id": "Spelling Trivia Master",
+    "timestamp": "2026-07-29",
+    "revenue": null,
+    "acquisition": null,
+    "aso": null,
+    "creative": null,
+    "product": {
+      "dau": 0,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": null
+    },
+    "confidence": 0.2,
+    "sources": [
+      "registry"
+    ],
+    "real_confidence": 0.2,
+    "real_domains": [
+      "product"
+    ],
+    "attribution": null
+  }
+}

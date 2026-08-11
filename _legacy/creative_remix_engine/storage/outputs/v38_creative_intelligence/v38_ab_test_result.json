@@ -1,0 +1,662 @@
+{
+  "experiment": "V3.8 Creative Intelligence Calibration A/B Test",
+  "timestamp": "2026-07-13T13:51:05.317898",
+  "pool_size": 599,
+  "n_per_group": 10,
+  "baseline": {
+    "method": "V3.4 Shot Selector (Visual Quality)",
+    "top_n": [
+      {
+        "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+        "ad_value_score": 72.9,
+        "hook_score": 82.1,
+        "gameplay_score": 30,
+        "reward_score": 62.5,
+        "impact_score": 76.5,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+        "ad_value_score": 72.3,
+        "hook_score": 82.8,
+        "gameplay_score": 30,
+        "reward_score": 56.3,
+        "impact_score": 77.5,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+        "ad_value_score": 72.3,
+        "hook_score": 82.2,
+        "gameplay_score": 30,
+        "reward_score": 58.6,
+        "impact_score": 74.5,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+        "ad_value_score": 72.2,
+        "hook_score": 82.9,
+        "gameplay_score": 30,
+        "reward_score": 55.8,
+        "impact_score": 77.3,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+        "ad_value_score": 72.2,
+        "hook_score": 82.5,
+        "gameplay_score": 30,
+        "reward_score": 55.9,
+        "impact_score": 78.1,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+        "ad_value_score": 72.0,
+        "hook_score": 83.3,
+        "gameplay_score": 30,
+        "reward_score": 57.0,
+        "impact_score": 66.2,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+        "ad_value_score": 71.7,
+        "hook_score": 79.9,
+        "gameplay_score": 30,
+        "reward_score": 60.8,
+        "impact_score": 72.8,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601506-mg-2d-juesezhanshi-en-43s-9X16",
+        "ad_value_score": 71.5,
+        "hook_score": 81.5,
+        "gameplay_score": 30,
+        "reward_score": 55.0,
+        "impact_score": 74.9,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601269-mg-2d-juqing-en-45s-1X1",
+        "ad_value_score": 71.3,
+        "hook_score": 81.4,
+        "gameplay_score": 30,
+        "reward_score": 54.4,
+        "impact_score": 72.2,
+        "motion_score": 100
+      },
+      {
+        "video_name": "P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1",
+        "ad_value_score": 71.2,
+        "hook_score": 79.3,
+        "gameplay_score": 30,
+        "reward_score": 56.8,
+        "impact_score": 79.2,
+        "motion_score": 100
+      }
+    ],
+    "ad_value": {
+      "composite_ad_value": 71.96,
+      "avg_buying_score": 72.0,
+      "estimated_ctr": 3.88,
+      "estimated_cpi": 0.48,
+      "estimated_d7_roi": 0.216,
+      "top_list": [
+        {
+          "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+          "score": 72.9,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+          "score": 72.3,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+          "score": 72.3,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+          "score": 72.2,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+          "score": 72.2,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+          "score": 72.0,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+          "score": 71.7,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601506-mg-2d-juesezhanshi-en-43s-9X16",
+          "score": 71.5,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601269-mg-2d-juqing-en-45s-1X1",
+          "score": 71.3,
+          "grade": ""
+        },
+        {
+          "video_name": "P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1",
+          "score": 71.2,
+          "grade": ""
+        }
+      ]
+    },
+    "grades": {
+      "S+": 0,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "Reject": 0
+    }
+  },
+  "variant": {
+    "method": "V3.8 Winner DNA Ranking (Buying Score)",
+    "top_n": [
+      {
+        "video_name": "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+        "buying_score": 65.6,
+        "predicted_ctr": 2.42,
+        "predicted_cpi": 0.38,
+        "predicted_d7_roi": 0.61,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 55.03,
+        "breakdown": {
+          "hook": 20.8,
+          "gameplay": 7.5,
+          "reward": 11.4,
+          "novelty": 15.0,
+          "emotion": 8.3,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (83/100)，能有效吸引注意力",
+            "创意新颖度高 (100/100)，有差异化优势",
+            "预测CPI低 ($0.38)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+        "buying_score": 64.9,
+        "predicted_ctr": 2.37,
+        "predicted_cpi": 0.39,
+        "predicted_d7_roi": 0.6,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 50.76,
+        "breakdown": {
+          "hook": 20.6,
+          "gameplay": 7.5,
+          "reward": 11.7,
+          "novelty": 15.0,
+          "emotion": 7.7,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (82/100)，能有效吸引注意力",
+            "创意新颖度高 (100/100)，有差异化优势",
+            "预测CPI低 ($0.39)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+        "buying_score": 64.3,
+        "predicted_ctr": 2.33,
+        "predicted_cpi": 0.4,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 43.12,
+        "breakdown": {
+          "hook": 20.0,
+          "gameplay": 7.5,
+          "reward": 12.2,
+          "novelty": 15.0,
+          "emotion": 7.3,
+          "cta": 2.4,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (80/100)，能有效吸引注意力",
+            "创意新颖度高 (100/100)，有差异化优势",
+            "预测CPI低 ($0.40)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+        "buying_score": 64.3,
+        "predicted_ctr": 2.32,
+        "predicted_cpi": 0.4,
+        "predicted_d7_roi": 0.6,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 50.28,
+        "breakdown": {
+          "hook": 20.5,
+          "gameplay": 7.5,
+          "reward": 12.5,
+          "novelty": 13.0,
+          "emotion": 8.3,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (82/100)，能有效吸引注意力",
+            "创意新颖度高 (87/100)，有差异化优势",
+            "预测CPI低 ($0.40)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+        "buying_score": 63.8,
+        "predicted_ctr": 2.29,
+        "predicted_cpi": 0.4,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 50.25,
+        "breakdown": {
+          "hook": 20.7,
+          "gameplay": 7.5,
+          "reward": 11.2,
+          "novelty": 15.0,
+          "emotion": 7.0,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (83/100)，能有效吸引注意力",
+            "创意新颖度高 (100/100)，有差异化优势",
+            "预测CPI低 ($0.40)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601269-mg-2d-juqing-en-45s-1X1",
+        "buying_score": 63.7,
+        "predicted_ctr": 2.28,
+        "predicted_cpi": 0.4,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 50.9,
+        "breakdown": {
+          "hook": 20.4,
+          "gameplay": 7.5,
+          "reward": 10.9,
+          "novelty": 15.0,
+          "emotion": 7.5,
+          "cta": 2.4,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (82/100)，能有效吸引注意力",
+            "创意新颖度高 (100/100)，有差异化优势",
+            "预测CPI低 ($0.40)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601285-mg-2d-juqing-en-39s-1X1",
+        "buying_score": 63.7,
+        "predicted_ctr": 2.28,
+        "predicted_cpi": 0.4,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 52.13,
+        "breakdown": {
+          "hook": 19.5,
+          "gameplay": 7.5,
+          "reward": 11.7,
+          "novelty": 15.0,
+          "emotion": 7.7,
+          "cta": 2.3,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (78/100)，能有效吸引注意力",
+            "创意新颖度高 (100/100)，有差异化优势",
+            "预测CPI低 ($0.40)，买量效率高"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+        "buying_score": 63.5,
+        "predicted_ctr": 2.26,
+        "predicted_cpi": 0.41,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 50.27,
+        "breakdown": {
+          "hook": 20.7,
+          "gameplay": 7.5,
+          "reward": 11.3,
+          "novelty": 14.0,
+          "emotion": 7.5,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (83/100)，能有效吸引注意力",
+            "创意新颖度高 (93/100)，有差异化优势"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+        "buying_score": 63.5,
+        "predicted_ctr": 2.26,
+        "predicted_cpi": 0.41,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 50.34,
+        "breakdown": {
+          "hook": 20.6,
+          "gameplay": 7.5,
+          "reward": 11.2,
+          "novelty": 14.4,
+          "emotion": 7.4,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (82/100)，能有效吸引注意力",
+            "创意新颖度高 (96/100)，有差异化优势"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      },
+      {
+        "video_name": "P4-v2601336-mg-2d-juqing-en-17s-9X16",
+        "buying_score": 63.4,
+        "predicted_ctr": 2.26,
+        "predicted_cpi": 0.41,
+        "predicted_d7_roi": 0.59,
+        "performance_grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "archetype_similarity": 54.24,
+        "breakdown": {
+          "hook": 20.6,
+          "gameplay": 7.5,
+          "reward": 8.7,
+          "novelty": 14.8,
+          "emotion": 9.3,
+          "cta": 2.5,
+          "winner_bonus": 0
+        },
+        "grade_details": {
+          "strengths": [
+            "Hook能力强 (82/100)，能有效吸引注意力",
+            "创意新颖度高 (99/100)，有差异化优势"
+          ],
+          "weaknesses": [
+            "玩法清晰度低 (30/100)，游戏机制表达不足",
+            "未匹配到已知Winner模式，表现不确定性较高"
+          ],
+          "recommendations": [
+            "良好素材，建议在测试组投放",
+            "优化方向: 玩法清晰度低 (30/100)，游戏机制表达不足",
+            "建议向 Premium_Character_Showcase 模式靠拢 (平均CTR 4.7%)"
+          ]
+        }
+      }
+    ],
+    "ad_value": {
+      "composite_ad_value": 100.01,
+      "avg_buying_score": 64.1,
+      "estimated_ctr": 2.31,
+      "estimated_cpi": 0.4,
+      "estimated_d7_roi": 0.594,
+      "top_list": [
+        {
+          "video_name": "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+          "score": 65.6,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+          "score": 64.9,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+          "score": 64.3,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+          "score": 64.3,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+          "score": 63.8,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601269-mg-2d-juqing-en-45s-1X1",
+          "score": 63.7,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601285-mg-2d-juqing-en-39s-1X1",
+          "score": 63.7,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+          "score": 63.5,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+          "score": 63.5,
+          "grade": "A"
+        },
+        {
+          "video_name": "P4-v2601336-mg-2d-juqing-en-17s-9X16",
+          "score": 63.4,
+          "grade": "A"
+        }
+      ]
+    },
+    "grades": {
+      "S+": 0,
+      "S": 0,
+      "A": 10,
+      "B": 0,
+      "Reject": 0
+    },
+    "archetypes": {
+      "distribution": {
+        "Premium_Character_Showcase": 10
+      },
+      "avg_archetype_similarity": 50.7
+    },
+    "winner_patterns": [
+      {
+        "video_name": "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+        "buying_score": 65.6,
+        "grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase"
+      },
+      {
+        "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+        "buying_score": 64.9,
+        "grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase"
+      },
+      {
+        "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+        "buying_score": 64.3,
+        "grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "hook_type": "general",
+        "subject": "character",
+        "action": "merge"
+      },
+      {
+        "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+        "buying_score": 64.3,
+        "grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase"
+      },
+      {
+        "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+        "buying_score": 63.8,
+        "grade": "A",
+        "archetype": "Premium_Character_Showcase",
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase"
+      }
+    ]
+  },
+  "improvement": {
+    "baseline_ad_value": 71.96,
+    "variant_ad_value": 100.01,
+    "absolute_improvement": 28.05,
+    "improvement_percentage": 39.0,
+    "target_20pct_met": true
+  },
+  "archetype_ranking": [
+    {
+      "name": "Premium_Character_Showcase",
+      "avg_ctr": 4.74,
+      "avg_cpi": 0.29,
+      "avg_d7_roi": 0.71,
+      "winner_count": 28,
+      "performance_score": 24.23,
+      "key_features": [
+        "subject:character",
+        "action:showcase",
+        "emotion:excitement",
+        "hook:general",
+        "hook:shock"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Dashboard · 2026-07-29</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; padding: 24px; background: #f8fafc; color: #0f172a;
+         font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 16px; margin: 28px 0 10px; border-left: 4px solid #2563eb;
+       padding-left: 8px; }
+  .status { display: inline-block; padding: 2px 10px; border-radius: 999px;
+            color: #fff; font-size: 13px; background: #16a34a; }
+  .kpis { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
+  .kpi { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px;
+         padding: 12px 16px; min-width: 130px; }
+  .kv { font-size: 20px; font-weight: 700; }
+  .kl { font-size: 12px; color: #64748b; margin-top: 2px; }
+  table { border-collapse: collapse; width: 100%; background: #ffffff;
+          font-size: 13px; }
+  th, td { border: 1px solid #e2e8f0; padding: 6px 8px; text-align: left; }
+  th { background: #f1f5f9; }
+  .gid { font-weight: 600; }
+  details { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px;
+            padding: 8px 12px; margin: 8px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  .muted { color: #64748b; }
+  .memo { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px;
+          padding: 8px 12px; }
+  footer { margin-top: 28px; font-size: 12px; color: #94a3b8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>组合仪表盘 · 2026-07-29</h1>
+  <span class="status">🟢 健康</span>
+
+  <div class="kpis">
+    <div class="kpi"><div class="kv">12</div>
+      <div class="kl">在册游戏（🟢12 🟡0 🔴0）</div></div>
+    <div class="kpi"><div class="kv">$11,120.00</div>
+      <div class="kl">舰队日收入</div></div>
+    <div class="kpi"><div class="kv">36,066</div>
+      <div class="kl">舰队 DAU</div></div>
+    <div class="kpi"><div class="kv">$1,280.00</div>
+      <div class="kl">舰队日花费</div></div>
+    <div class="kpi"><div class="kv">70%</div>
+      <div class="kl">平均数据置信度</div></div>
+    <div class="kpi"><div class="kv">2/3/0</div>
+      <div class="kl">自动 / 待审批 / 阻断</div></div>
+    <div class="kpi"><div class="kv">+40.0%</div>
+      <div class="kl">自动执行预期收入影响</div></div>
+    <div class='kpi'><div class='kv'>+16.8%</div><div class='kl'>组合模拟 p50（基线）</div></div>
+  </div>
+
+  <h2>游戏矩阵</h2>
+  <table>
+    <thead><tr><th>#</th><th>游戏</th><th>状态</th><th>日收入</th><th>DAU</th>
+    <th>ROAS</th><th>置信度</th><th>首要动作</th><th>决策</th><th>闸门</th>
+    <th>优先分</th></tr></thead>
+    <tbody><tr><td>1</td><td class='gid'>game_004</td><td>🟢</td><td>$640.00</td><td>3,004</td><td>2.00</td><td>70%</td><td>恢复收入（game_004）</td><td>approve</td><td>pass</td><td>0.3078</td></tr><tr><td>2</td><td class='gid'>game_008</td><td>🟢</td><td>$680.00</td><td>3,008</td><td>2.00</td><td>80%</td><td>恢复收入（game_008）</td><td>approve</td><td>pass</td><td>0.2650</td></tr><tr><td>3</td><td class='gid'>game_000</td><td>🟢</td><td>$800.00</td><td>3,000</td><td>2.00</td><td>60%</td><td>恢复收入（game_000）</td><td>approve</td><td>pass</td><td>0.1280</td></tr><tr><td>4</td><td class='gid'>game_002</td><td>🟢</td><td>$1,000.00</td><td>3,002</td><td>2.00</td><td>80%</td><td>刷新创意素材（game_002）</td><td>execute</td><td>pass</td><td>0.1042</td></tr><tr><td>5</td><td class='gid'>game_006</td><td>🟢</td><td>$1,000.00</td><td>3,006</td><td>2.00</td><td>60%</td><td>刷新创意素材（game_006）</td><td>execute</td><td>pass</td><td>0.1029</td></tr><tr><td>6</td><td class='gid'>game_009</td><td>🟢</td><td>$1,000.00</td><td>3,009</td><td>1.38</td><td>60%</td><td>止损买量（game_009）</td><td>observe</td><td>—</td><td>0.0915</td></tr><tr><td>7</td><td class='gid'>game_003</td><td>🟢</td><td>$1,000.00</td><td>3,003</td><td>2.00</td><td>60%</td><td>优化商店页（game_003）</td><td>observe</td><td>—</td><td>0.0578</td></tr><tr><td>8</td><td class='gid'>game_007</td><td>🟢</td><td>$1,000.00</td><td>3,007</td><td>2.00</td><td>70%</td><td>优化商店页（game_007）</td><td>observe</td><td>—</td><td>0.0578</td></tr><tr><td>9</td><td class='gid'>game_011</td><td>🟢</td><td>$1,000.00</td><td>3,011</td><td>2.00</td><td>80%</td><td>优化商店页（game_011）</td><td>observe</td><td>—</td><td>0.0578</td></tr><tr><td>10</td><td class='gid'>game_001</td><td>🟢</td><td>$1,000.00</td><td>3,001</td><td>1.62</td><td>70%</td><td>止损买量（game_001）</td><td>observe</td><td>—</td><td>0.0561</td></tr><tr><td>—</td><td class='gid'>game_005</td><td>🟢</td><td>$1,000.00</td><td>3,005</td><td>1.70</td><td>80%</td><td>—</td><td>—</td><td>—</td><td>0.0000</td></tr><tr><td>—</td><td class='gid'>game_010</td><td>🟢</td><td>$1,000.00</td><td>3,010</td><td>2.00</td><td>70%</td><td>—</td><td>—</td><td>—</td><td>0.0000</td></tr></tbody>
+  </table>
+
+  <h2>决策队列</h2>
+  <details open><summary>✋ 待审批（3）</summary><ul><li><b>game_000</b>：恢复收入（game_000） — <span class='muted'>决策引擎判定需人工审批（已进审批队列）</span></li><li><b>game_004</b>：恢复收入（game_004） — <span class='muted'>决策引擎判定需人工审批（已进审批队列）</span></li><li><b>game_008</b>：恢复收入（game_008） — <span class='muted'>决策引擎判定需人工审批（已进审批队列）</span></li></ul></details><details><summary>🤖 已自动执行（2）</summary><ul><li><b>game_002</b>：刷新创意素材（game_002） — <span class='muted'>已自动下发执行层（执行状态：waiting_approval）</span></li><li><b>game_006</b>：刷新创意素材（game_006） — <span class='muted'>已自动下发执行层（执行状态：waiting_approval）</span></li></ul></details>
+
+  <h2>风险旗标</h2>
+  <p class='muted'>无风险旗标</p>
+
+  <h2>记忆图谱 · 已学到的模式</h2>
+  <p class='muted'>暂无沉淀模式</p>
+
+  <footer>LaunchForge E17.10 Portfolio Dashboard · 确定性文件快照 · 无外部依赖</footer>
+</div>
+</body>
+</html>

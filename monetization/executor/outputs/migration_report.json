@@ -1,0 +1,119 @@
+{
+  "module": "E14.3.3 -> E14.3.1 Executor Migration",
+  "status": "PASS",
+  "checks_passed": 21,
+  "checks_total": 21,
+  "contract": {
+    "resolver_replaced_only": true,
+    "executor_gate_unchanged": true,
+    "rollback_loop_unchanged": true,
+    "real_api_called_false": true
+  },
+  "checks": [
+    {
+      "name": "A0 default_is_legacy_resolver",
+      "passed": true,
+      "detail": "resolver=LegacyProviderResolver"
+    },
+    {
+      "name": "A1 case1_executed",
+      "passed": true,
+      "detail": "status=executed"
+    },
+    {
+      "name": "A2 case1_approved",
+      "passed": true,
+      "detail": "verdict=approved"
+    },
+    {
+      "name": "A3 case1_no_real_api",
+      "passed": true,
+      "detail": "real_api_called=false on every response"
+    },
+    {
+      "name": "A4 case2_rejected",
+      "passed": true,
+      "detail": "status=rejected verdict=rejected"
+    },
+    {
+      "name": "A5 case2_gate_rejected",
+      "passed": true,
+      "detail": "Approval Gate still gates high-risk strategies"
+    },
+    {
+      "name": "A6 case3_rolled_back",
+      "passed": true,
+      "detail": "status=rolled_back"
+    },
+    {
+      "name": "A7 case3_rollback_invoked",
+      "passed": true,
+      "detail": "reverted 1 change(s)"
+    },
+    {
+      "name": "A8 case3_no_real_api",
+      "passed": true,
+      "detail": "rollback responses also certify real_api_called=false"
+    },
+    {
+      "name": "B0 resolver_is_contract",
+      "passed": true,
+      "detail": "resolver=ContractProviderResolver game_id=game_a"
+    },
+    {
+      "name": "B1 contract_case1_executed",
+      "passed": true,
+      "detail": "status=executed"
+    },
+    {
+      "name": "B2 contract_case1_no_real_api",
+      "passed": true,
+      "detail": "contract adapter certifies real_api_called=false"
+    },
+    {
+      "name": "B3 used_provider_isolated_to_game_a",
+      "passed": true,
+      "detail": "MAX provider used for game_a has hash='41ce75efeb6f7fbc'"
+    },
+    {
+      "name": "B4 contract_case2_rejected",
+      "passed": true,
+      "detail": "status=rejected verdict=rejected"
+    },
+    {
+      "name": "B5 contract_case3_rolled_back",
+      "passed": true,
+      "detail": "status=rolled_back"
+    },
+    {
+      "name": "B6 contract_case3_rollback_invoked",
+      "passed": true,
+      "detail": "reverted 1 change(s) via contract adapter"
+    },
+    {
+      "name": "B7 contract_case3_no_real_api",
+      "passed": true,
+      "detail": "contract rollback responses certify real_api_called=false"
+    },
+    {
+      "name": "C1 shim_apply_legacy_shape",
+      "passed": true,
+      "detail": "shim.apply -> simulated_success"
+    },
+    {
+      "name": "C2 shim_rollback_legacy_shape",
+      "passed": true,
+      "detail": "shim.rollback -> status=simulated_success"
+    },
+    {
+      "name": "C3 shim_fault_injection",
+      "passed": true,
+      "detail": "set_fail_next(True) on shim -> contract adapter fails next apply"
+    },
+    {
+      "name": "C4 shim_exposes_name",
+      "passed": true,
+      "detail": "shim.name='MAX'"
+    }
+  ]
+}

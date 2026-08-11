@@ -1,0 +1,111 @@
+{
+  "module": "E13.2.9 Monetization Strategy Simulator",
+  "generated_at": "2026-07-23T04:51:21.119724+00:00",
+  "pipeline": {
+    "facts": 43,
+    "opportunities": 3,
+    "decisions": 3
+  },
+  " simulated_decisions": 3,
+  "scenarios": 4,
+  "checks_total": 18,
+  "checks_passed": 18,
+  "status": "PASS",
+  "constraints": {
+    "max_api_called": false,
+    "mutations_executed": false,
+    "decision_status": "simulated"
+  },
+  "checks": [
+    {
+      "name": "decisions_simulated",
+      "passed": true,
+      "detail": "3/3"
+    },
+    {
+      "name": "no_decision_executed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all_predictions_schema_valid",
+      "passed": true,
+      "detail": "validated against strategy_prediction.schema.json"
+    },
+    {
+      "name": "S1_revenue_up",
+      "passed": true,
+      "detail": "+1.3%"
+    },
+    {
+      "name": "S1_ecpm_up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "S1_fill_down",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "S1_retention_low",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "S2_revenue_up",
+      "passed": true,
+      "detail": "+1.4%"
+    },
+    {
+      "name": "S2_ecpm_up",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "S2_fill_down",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "S3_revenue_up",
+      "passed": true,
+      "detail": "+9.4%"
+    },
+    {
+      "name": "S3_retention_down",
+      "passed": true,
+      "detail": "-1.60%"
+    },
+    {
+      "name": "S3_risk_not_low",
+      "passed": true,
+      "detail": "medium"
+    },
+    {
+      "name": "S4_revenue_down",
+      "passed": true,
+      "detail": "-9.6%"
+    },
+    {
+      "name": "S4_retention_up",
+      "passed": true,
+      "detail": "+1.60%"
+    },
+    {
+      "name": "S4_risk_low",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "scenarios_schema_valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "confidence_in_range",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

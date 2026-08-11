@@ -185,7 +185,7 @@ class GoogleCreativeRepairAuditBuilder:
             "summary": [
                 f"本周 Google 付费花费：{total_cost:.2f}",
                 f"占位素材花费占比：{(placeholder_cost / total_cost):.1%}" if total_cost else "占位素材花费占比：0.0%",
-                "当前优先使用 TecDo/API 素材身份映射回补 Adjust 占位值。",
+                "当前优先使用 API 素材身份映射回补 Adjust 占位值。",
                 "当前最可用的修复键是 source_id + adgroup_id + campaign_id。",
             ],
         }

@@ -1,0 +1,108 @@
+{
+  "template_id": "before_after_v2",
+  "template_name": "Before → After V2 — Split Comparison with AI Assets",
+  "version": "2.0",
+  "description": "V2: Split screen with AI-generated before/after characters, merge arrow, gameplay board center",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "background",
+      "position": "full",
+      "x": 0,
+      "y": 0,
+      "width": 1.0,
+      "height": 1.0,
+      "z_index": 0,
+      "content": "ai_generated",
+      "generator": "base_background"
+    },
+    {
+      "name": "before_area",
+      "position": "left_half",
+      "x": 0.03,
+      "y": 0.18,
+      "width": 0.38,
+      "height": 0.50,
+      "z_index": 20,
+      "content": "ai_generated",
+      "generator": "character_asset",
+      "label": "BEFORE",
+      "label_color": [180, 180, 220],
+      "label_style": "dim",
+      "feather_radius": 20
+    },
+    {
+      "name": "transition_arrow",
+      "position": "center",
+      "x": 0.38,
+      "y": 0.30,
+      "width": 0.24,
+      "height": 0.25,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["large_arrow", "glow_line", "evolution_burst"]
+    },
+    {
+      "name": "after_area",
+      "position": "right_half",
+      "x": 0.59,
+      "y": 0.18,
+      "width": 0.38,
+      "height": 0.50,
+      "z_index": 20,
+      "content": "ai_generated",
+      "generator": "reward_asset",
+      "label": "AFTER",
+      "label_color": [255, 215, 0],
+      "label_style": "glowing",
+      "feather_radius": 20
+    },
+    {
+      "name": "gameplay_hint",
+      "position": "bottom_center",
+      "x": 0.20,
+      "y": 0.72,
+      "width": 0.60,
+      "height": 0.12,
+      "z_index": 15,
+      "content": "gameplay_hint",
+      "components": ["merge_action_text", "level_up_indicator"]
+    },
+    {
+      "name": "text_area",
+      "position": "top",
+      "x": 0.0,
+      "y": 0.02,
+      "width": 1.0,
+      "height": 0.12,
+      "z_index": 30,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0,
+      "y": 0.86,
+      "width": 1.0,
+      "height": 0.14,
+      "z_index": 35,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "generation_config": {
+    "before_config": {
+      "character_type": "egg_lv1",
+      "style": "cute_low_level"
+    },
+    "after_config": {
+      "reward_type": "dragon_legendary",
+      "style": "premium_evolved"
+    }
+  }
+}

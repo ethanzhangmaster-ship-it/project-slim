@@ -1,0 +1,29 @@
+# ComfyUI Model Template — Phase 3.0
+# Prompt structure optimized for ComfyUI workflows.
+
+model: comfyui
+version: "1.0"
+
+# Prompt structure: workflow-compatible
+prompt_structure:
+  style: "natural_language"
+  max_tokens: 200
+
+# Prompt template
+template: >
+  {character}, holding {reward}, {gameplay} gameplay,
+  {camera}, {lighting}, {palette} palette,
+  {style}, mobile game advertisement,
+  high quality, sharp focus, {aspect_ratio}
+
+# Default parameters
+defaults:
+  aspect_ratio: "9:16"
+  batch_size: 1
+
+# Supported aspect ratios
+aspect_ratios:
+  - "1:1"
+  - "9:16"
+  - "16:9"
+  - "4:5"

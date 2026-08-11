@@ -1,0 +1,76 @@
+{
+  "template_id": "reward_unlock",
+  "template_name": "Reward Unlock — Epic Drop",
+  "version": "1.0",
+  "description": "Reward-focused layout: large character center, unlock glow, reward text, collect CTA",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "hook_area",
+      "position": "top",
+      "x": 0,
+      "y": 0,
+      "width": 1.0,
+      "height": 0.15,
+      "z_index": 10,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "reward_character",
+      "position": "center",
+      "x": 0.15,
+      "y": 0.18,
+      "width": 0.70,
+      "height": 0.55,
+      "z_index": 20,
+      "content": "character_render",
+      "components": ["reward_character", "upgrade_glow", "rarity_badge"]
+    },
+    {
+      "name": "unlock_effect",
+      "position": "center",
+      "x": 0.0,
+      "y": 0.18,
+      "width": 1.0,
+      "height": 0.55,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["radial_burst", "sparkle_particles", "rarity_glow"]
+    },
+    {
+      "name": "reward_label",
+      "position": "below_character",
+      "x": 0.25,
+      "y": 0.74,
+      "width": 0.50,
+      "height": 0.08,
+      "z_index": 15,
+      "content": "text_label",
+      "text": "LEGENDARY DRAGON",
+      "style": "rarity_badge"
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0,
+      "y": 0.84,
+      "width": 1.0,
+      "height": 0.16,
+      "z_index": 30,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "reward_config": {
+    "rarity": "legendary",
+    "glow_color": [255, 215, 0],
+    "show_rarity_badge": true,
+    "show_collection_progress": true,
+    "collection_text": "3/5 DRAGONS"
+  }
+}

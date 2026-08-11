@@ -1,0 +1,42 @@
+{
+  "model_type": "random_forest",
+  "trained": true,
+  "metrics": {
+    "d7": {},
+    "d30": {}
+  },
+  "feature_names": [
+    "hook_transformation",
+    "hook_challenge",
+    "hook_curiosity",
+    "hook_urgency",
+    "hook_shock",
+    "hook_general",
+    "subject_dragon",
+    "subject_witch",
+    "subject_castle",
+    "subject_hero",
+    "subject_monster",
+    "subject_treasure",
+    "subject_character",
+    "gameplay_merge",
+    "gameplay_upgrade",
+    "gameplay_battle",
+    "gameplay_unlock",
+    "gameplay_showcase",
+    "gameplay_drag",
+    "reward_evolution",
+    "reward_treasure",
+    "reward_magic",
+    "reward_new_character",
+    "reward_general",
+    "motion_score",
+    "subject_size",
+    "gameplay_clarity",
+    "reward_strength",
+    "emotion",
+    "duration",
+    "structure_score"
+  ],
+  "feature_importance": []
+}

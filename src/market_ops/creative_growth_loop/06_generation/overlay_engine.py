@@ -101,6 +101,89 @@ class OverlayEngine:
         img.save(output_path)
         
         return output_path
+
+    def add_safe_tagline(
+        self,
+        image_path: str,
+        text: str,
+        *,
+        output_name: str | None = None,
+        target_size: tuple[int, int] = (1080, 1920),
+        bottom_margin_ratio: float = 0.14,
+        horizontal_safe_ratio: float = 0.075,
+        fill: tuple[int, int, int] = (255, 205, 92),
+        stroke_fill: tuple[int, int, int] = (56, 8, 78),
+    ) -> Path:
+        """Render exact ad copy inside a deterministic mobile-safe area.
+
+        Generative image models are intentionally not trusted for final ad copy.
+        The source is center-cropped to the requested aspect ratio, resized, and
+        the font is reduced until the complete string fits the horizontal safe
+        area.  This makes the output suitable for strict placement checks.
+        """
+        source = Path(image_path)
+        if not source.exists():
+            raise FileNotFoundError(f"Image not found: {source}")
+        if not text.strip():
+            raise ValueError("Tagline text is required")
+
+        image = Image.open(source).convert("RGB")
+        target_w, target_h = target_size
+        target_ratio = target_w / target_h
+        source_ratio = image.width / image.height
+        if source_ratio > target_ratio:
+            crop_w = round(image.height * target_ratio)
+            left = (image.width - crop_w) // 2
+            image = image.crop((left, 0, left + crop_w, image.height))
+        elif source_ratio < target_ratio:
+            crop_h = round(image.width / target_ratio)
+            top = (image.height - crop_h) // 2
+            image = image.crop((0, top, image.width, top + crop_h))
+        image = image.resize(target_size, Image.Resampling.LANCZOS)
+
+        draw = ImageDraw.Draw(image)
+        max_width = round(target_w * (1 - 2 * horizontal_safe_ratio))
+        font_size = round(target_h * 0.044)
+        font_candidates = (
+            "C:/Windows/Fonts/georgiab.ttf",
+            "C:/Windows/Fonts/timesbd.ttf",
+            "arialbd.ttf",
+            "arial.ttf",
+        )
+        font = None
+        while font_size >= 28:
+            for candidate in font_candidates:
+                try:
+                    font = ImageFont.truetype(candidate, font_size)
+                    break
+                except OSError:
+                    continue
+            if font is None:
+                font = ImageFont.load_default()
+            bbox = draw.textbbox((0, 0), text, font=font, stroke_width=3)
+            if bbox[2] - bbox[0] <= max_width:
+                break
+            font_size -= 2
+
+        bbox = draw.textbbox((0, 0), text, font=font, stroke_width=3)
+        text_w = bbox[2] - bbox[0]
+        text_h = bbox[3] - bbox[1]
+        x = (target_w - text_w) // 2
+        baseline_y = target_h - round(target_h * bottom_margin_ratio) - text_h
+        y = baseline_y - bbox[1]
+        draw.text(
+            (x, y),
+            text,
+            font=font,
+            fill=fill,
+            stroke_width=max(2, round(font_size * 0.055)),
+            stroke_fill=stroke_fill,
+        )
+
+        filename = output_name or f"{source.stem}_safe_tagline.png"
+        destination = self.output_dir / filename
+        image.save(destination, format="PNG", optimize=True)
+        return destination
     
     def _apply_overlay(self, img: Image.Image, template: OverlayTemplate) -> Image.Image:
         """应用Overlay"""

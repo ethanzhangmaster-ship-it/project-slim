@@ -1,0 +1,119 @@
+{
+  "account": "ACCT_3",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-29"
+  },
+  "generated_at": "2026-07-30",
+  "overall_blend_ecpm": 44.08,
+  "summary": {
+    "segments": 1,
+    "demote_candidates": 0,
+    "floor_suggestions": 0
+  },
+  "segments": [
+    {
+      "app": "Be A Master Chef",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 30.73,
+      "segment_impressions": 246,
+      "networks": [
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 117.27,
+          "fill_rate": 0.9855,
+          "impression_share": 0.0366,
+          "revenue": 1.06,
+          "score": 115.5675,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 63.36,
+          "fill_rate": 0.991,
+          "impression_share": 0.126,
+          "revenue": 1.96,
+          "score": 62.7861,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 40.13,
+          "fill_rate": 0.9744,
+          "impression_share": 0.0325,
+          "revenue": 0.32,
+          "score": 39.1081,
+          "rank": 3
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 34.01,
+          "fill_rate": 0.7774,
+          "impression_share": 0.2114,
+          "revenue": 1.77,
+          "score": 26.4416,
+          "rank": 4
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 24.58,
+          "fill_rate": 0.9954,
+          "impression_share": 0.0813,
+          "revenue": 0.49,
+          "score": 24.4702,
+          "rank": 5
+        },
+        {
+          "network": "TIKTOK_BIDDING",
+          "ecpm": 14.18,
+          "fill_rate": 0.9136,
+          "impression_share": 0.0976,
+          "revenue": 0.34,
+          "score": 12.9533,
+          "rank": 6
+        },
+        {
+          "network": "FACEBOOK_NETWORK",
+          "ecpm": 15.27,
+          "fill_rate": 0.8286,
+          "impression_share": 0.3455,
+          "revenue": 1.3,
+          "score": 12.6563,
+          "rank": 7
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 4.64,
+          "fill_rate": 0.8554,
+          "impression_share": 0.0122,
+          "revenue": 0.01,
+          "score": 3.966,
+          "rank": 8
+        },
+        {
+          "network": "FYBER_NETWORK",
+          "ecpm": 21.86,
+          "fill_rate": 0.0134,
+          "impression_share": 0.0569,
+          "revenue": 0.31,
+          "score": 0.2919,
+          "rank": 9
+        }
+      ],
+      "recommended_order": [
+        "UNITY_BIDDING",
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING",
+        "ADMOB_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "TIKTOK_BIDDING",
+        "FACEBOOK_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "FYBER_NETWORK"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    }
+  ]
+}

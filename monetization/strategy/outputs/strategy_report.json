@@ -1,0 +1,207 @@
+{
+  "layer": "E13.3.2 Monetization Strategy Engine",
+  "generated_at": "2026-07-23T05:35:17.021128+00:00",
+  "pipeline": {
+    "reality_events": 14206,
+    "reality_facts": 226,
+    "opportunities": 3,
+    "strategy_candidates": 9,
+    "ranked_opportunities": 3,
+    "decisions": 3,
+    "simulated_predictions": 2
+  },
+  "top_strategies": [
+    {
+      "opportunity_id": "1814ce33",
+      "opportunity_type": "ecpm_drop",
+      "segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "reward",
+        "network": "applovin"
+      },
+      "top_strategy": "bid_floor_adjust",
+      "score": 0.6895,
+      "confidence": 0.587,
+      "revenue_delta_pct": 1.336,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "simulated": true,
+      "e12_mutation": "bid_floor_gene"
+    },
+    {
+      "opportunity_id": "94ce94bf",
+      "opportunity_type": "fill_drop",
+      "segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "interstitial",
+        "network": "applovin"
+      },
+      "top_strategy": "backup_network",
+      "score": 0.6702,
+      "confidence": 0.493,
+      "revenue_delta_pct": 2.228,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "simulated": true,
+      "e12_mutation": "network_gene"
+    },
+    {
+      "opportunity_id": "40002690",
+      "opportunity_type": "ad_frequency_issue",
+      "segment": {
+        "country": "US",
+        "platform": "android"
+      },
+      "top_strategy": "no_action",
+      "score": 0.68,
+      "confidence": 0.6,
+      "revenue_delta_pct": 0.0,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "simulated": true,
+      "e12_mutation": "none"
+    }
+  ],
+  "checks_total": 26,
+  "checks_passed": 26,
+  "status": "PASS",
+  "constraints": {
+    "max_api_called": false,
+    "mutations_executed": false,
+    "decision_status": "simulated"
+  },
+  "checks": [
+    {
+      "name": "ecpm_drop_>=3_candidates",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "ecpm_drop_types",
+      "pass": true,
+      "detail": "types=['bid_floor_adjust', 'network_test', 'waterfall_change']"
+    },
+    {
+      "name": "fill_drop_>=3_candidates",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "fill_drop_types",
+      "pass": true,
+      "detail": "types=['backup_network', 'floor_down', 'waterfall_change']"
+    },
+    {
+      "name": "freq_issue_>=3_candidates",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "freq_issue_types",
+      "pass": true,
+      "detail": "types=['frequency_down', 'no_action', 'reward_cooldown']"
+    },
+    {
+      "name": "revenue_drop_types",
+      "pass": true,
+      "detail": "types=['monetization_aggressive']"
+    },
+    {
+      "name": "all_candidates_have_e12_gene",
+      "pass": true,
+      "detail": "10 candidates"
+    },
+    {
+      "name": "all_candidates_status_candidate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ecpm_drop_1814ce33_>=3_candidates",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "1814ce33_has_top",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fill_drop_94ce94bf_>=3_candidates",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "94ce94bf_has_top",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ad_frequency_issue_40002690_>=3_candidates",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "40002690_has_top",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all_candidates_schema_valid",
+      "pass": true,
+      "detail": "9/9"
+    },
+    {
+      "name": "all_real_predictions_simulated_and_valid",
+      "pass": true,
+      "detail": "2/2"
+    },
+    {
+      "name": "no_prediction_executed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "decisions_emitted",
+      "pass": true,
+      "detail": "3/3"
+    },
+    {
+      "name": "all_decisions_simulated",
+      "pass": true,
+      "detail": "3 decisions"
+    },
+    {
+      "name": "all_decisions_type_correct",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_decision_executed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all_decisions_schema_valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "decisions_carry_e12_mutation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "constraint_no_max_api",
+      "pass": true,
+      "detail": "no MAX/RemoteConfig import or call in E13.3.2"
+    },
+    {
+      "name": "constraint_no_execution",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

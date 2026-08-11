@@ -1,0 +1,279 @@
+{
+  "priors": [
+    {
+      "strategy_type": "backup_network",
+      "alpha": 55,
+      "beta": 32,
+      "mean": 0.6322,
+      "samples": 85,
+      "wins": 54,
+      "losses": 31
+    },
+    {
+      "strategy_type": "bid_floor_adjust",
+      "alpha": 67,
+      "beta": 17,
+      "mean": 0.7976,
+      "samples": 82,
+      "wins": 66,
+      "losses": 16
+    },
+    {
+      "strategy_type": "floor_down",
+      "alpha": 58,
+      "beta": 26,
+      "mean": 0.6905,
+      "samples": 82,
+      "wins": 57,
+      "losses": 25
+    },
+    {
+      "strategy_type": "frequency_down",
+      "alpha": 59,
+      "beta": 25,
+      "mean": 0.7024,
+      "samples": 82,
+      "wins": 58,
+      "losses": 24
+    },
+    {
+      "strategy_type": "monetization_aggressive",
+      "alpha": 159,
+      "beta": 103,
+      "mean": 0.6069,
+      "samples": 260,
+      "wins": 158,
+      "losses": 102
+    },
+    {
+      "strategy_type": "network_test",
+      "alpha": 54,
+      "beta": 32,
+      "mean": 0.6279,
+      "samples": 84,
+      "wins": 53,
+      "losses": 31
+    },
+    {
+      "strategy_type": "no_action",
+      "alpha": 73,
+      "beta": 8,
+      "mean": 0.9012,
+      "samples": 79,
+      "wins": 72,
+      "losses": 7
+    },
+    {
+      "strategy_type": "reward_cooldown",
+      "alpha": 67,
+      "beta": 21,
+      "mean": 0.7614,
+      "samples": 86,
+      "wins": 66,
+      "losses": 20
+    },
+    {
+      "strategy_type": "waterfall_change",
+      "alpha": 117,
+      "beta": 45,
+      "mean": 0.7222,
+      "samples": 160,
+      "wins": 116,
+      "losses": 44
+    }
+  ],
+  "dominant_calibration": {
+    "key": "monetization_aggressive|change_waterfall:25",
+    "strategy_type": "monetization_aggressive",
+    "action_type": "change_waterfall",
+    "parameter": "change_waterfall:25",
+    "correction": 0.335,
+    "samples": 260,
+    "sum_predicted": 435.5,
+    "sum_actual": 145.872
+  },
+  "calibration_factors": [
+    {
+      "key": "waterfall_change|change_waterfall:20",
+      "strategy_type": "waterfall_change",
+      "action_type": "change_waterfall",
+      "parameter": "change_waterfall:20",
+      "correction": 0.4821,
+      "samples": 160,
+      "sum_predicted": 216.32,
+      "sum_actual": 104.292
+    },
+    {
+      "key": "monetization_aggressive|change_waterfall:25",
+      "strategy_type": "monetization_aggressive",
+      "action_type": "change_waterfall",
+      "parameter": "change_waterfall:25",
+      "correction": 0.335,
+      "samples": 260,
+      "sum_predicted": 435.5,
+      "sum_actual": 145.872
+    },
+    {
+      "key": "floor_down|review_bidding",
+      "strategy_type": "floor_down",
+      "action_type": "review_bidding",
+      "parameter": "review_bidding",
+      "correction": 0.4579,
+      "samples": 82,
+      "sum_predicted": 182.696,
+      "sum_actual": 83.656
+    },
+    {
+      "key": "frequency_down|adjust_ad_frequency:10",
+      "strategy_type": "frequency_down",
+      "action_type": "adjust_ad_frequency",
+      "parameter": "adjust_ad_frequency:10",
+      "correction": 0.3,
+      "samples": 82,
+      "sum_predicted": -783.1,
+      "sum_actual": -52.524
+    },
+    {
+      "key": "bid_floor_adjust|review_bidding",
+      "strategy_type": "bid_floor_adjust",
+      "action_type": "review_bidding",
+      "parameter": "review_bidding",
+      "correction": 0.5405,
+      "samples": 82,
+      "sum_predicted": 109.552,
+      "sum_actual": 59.21
+    },
+    {
+      "key": "no_action|unknown",
+      "strategy_type": "no_action",
+      "action_type": "",
+      "parameter": "unknown",
+      "correction": 0.6592,
+      "samples": 79,
+      "sum_predicted": 106.808,
+      "sum_actual": 70.413
+    },
+    {
+      "key": "reward_cooldown|adjust_ad_frequency:10",
+      "strategy_type": "reward_cooldown",
+      "action_type": "adjust_ad_frequency",
+      "parameter": "adjust_ad_frequency:10",
+      "correction": 0.3,
+      "samples": 86,
+      "sum_predicted": -821.3,
+      "sum_actual": -13.98
+    },
+    {
+      "key": "backup_network|review_bidding:15",
+      "strategy_type": "backup_network",
+      "action_type": "review_bidding",
+      "parameter": "review_bidding:15",
+      "correction": 0.3635,
+      "samples": 85,
+      "sum_predicted": 189.38,
+      "sum_actual": 68.841
+    },
+    {
+      "key": "network_test|review_bidding:15",
+      "strategy_type": "network_test",
+      "action_type": "review_bidding",
+      "parameter": "review_bidding:15",
+      "correction": 0.3396,
+      "samples": 84,
+      "sum_predicted": 187.152,
+      "sum_actual": 63.558
+    }
+  ],
+  "top3": [
+    {
+      "strategy_type": "bid_floor_adjust",
+      "action_type": "review_bidding",
+      "simulation_score": 0.5181,
+      "safety_score": 1.0,
+      "confidence": 0.782,
+      "historical_prior": 0.7976,
+      "experiment_evidence": 0.5181,
+      "final_score": 0.7434,
+      "probability": 0.7434,
+      "evidence": {
+        "predicted_revenue_delta": 1.336,
+        "calibrated_revenue_delta": 0.722,
+        "predicted_retention_delta": 0.0,
+        "prior_samples": 82,
+        "exp_samples": 82,
+        "correction": 0.5405,
+        "rank": 1
+      }
+    },
+    {
+      "strategy_type": "waterfall_change",
+      "action_type": "change_waterfall",
+      "simulation_score": 0.5163,
+      "safety_score": 1.0,
+      "confidence": 0.69,
+      "historical_prior": 0.7222,
+      "experiment_evidence": 0.5163,
+      "final_score": 0.7167,
+      "probability": 0.7167,
+      "evidence": {
+        "predicted_revenue_delta": 1.352,
+        "calibrated_revenue_delta": 0.652,
+        "predicted_retention_delta": 0.0,
+        "prior_samples": 160,
+        "exp_samples": 160,
+        "correction": 0.4821,
+        "rank": 2
+      }
+    },
+    {
+      "strategy_type": "network_test",
+      "action_type": "review_bidding",
+      "simulation_score": 0.5189,
+      "safety_score": 1.0,
+      "confidence": 0.658,
+      "historical_prior": 0.6279,
+      "experiment_evidence": 0.5189,
+      "final_score": 0.702,
+      "probability": 0.702,
+      "evidence": {
+        "predicted_revenue_delta": 2.228,
+        "calibrated_revenue_delta": 0.757,
+        "predicted_retention_delta": 0.0,
+        "prior_samples": 84,
+        "exp_samples": 84,
+        "correction": 0.3396,
+        "rank": 3
+      }
+    }
+  ],
+  "new_opportunity": {
+    "id": "opp_us_ecpm",
+    "type": "ecpm_drop",
+    "segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "reward"
+    },
+    "metrics": {
+      "ecpm": 12.5,
+      "fill_rate": 0.92,
+      "d1_retention_pct": 42.0
+    }
+  },
+  "lightweight_p_win": {
+    "bid_floor_adjust": 0.5,
+    "waterfall_change": 0.6923,
+    "network_test": 0.7778
+  },
+  "summary": {
+    "records": 1000,
+    "successes": 700,
+    "fails": 300,
+    "prior_strategies": 9,
+    "calibration_factors": 9,
+    "top1_strategy": "bid_floor_adjust",
+    "top1_probability": 0.7434,
+    "passed": 33,
+    "failed": 0
+  }
+}

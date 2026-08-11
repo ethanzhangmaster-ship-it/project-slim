@@ -1,0 +1,187 @@
+{
+  "total_assets": 599,
+  "coverage_score": {
+    "hook": 1.0,
+    "gameplay": 0.7,
+    "reward": 1.0,
+    "problem": 1.0,
+    "cta": 0.02,
+    "character": 1.0,
+    "scene": 1.0
+  },
+  "role_distribution": {
+    "hook": 591,
+    "reward": 598,
+    "character": 598,
+    "scene": 513,
+    "gameplay": 140,
+    "problem": 235,
+    "cta": 1
+  },
+  "role_quality": {
+    "hook": 51.93,
+    "gameplay": 36.12,
+    "reward": 69.05,
+    "problem": 38.63,
+    "cta": 29.21,
+    "character": 59.47,
+    "scene": 48.5
+  },
+  "missing_assets": [
+    {
+      "type": "hook",
+      "need": "curiosity_hook",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 25,
+      "gap": 25,
+      "avg_quality": 0
+    },
+    {
+      "type": "hook",
+      "need": "fail_hook",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 25,
+      "gap": 25,
+      "avg_quality": 0
+    },
+    {
+      "type": "hook",
+      "need": "evolution_hook",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 25,
+      "gap": 25,
+      "avg_quality": 0
+    },
+    {
+      "type": "hook",
+      "need": "challenge_hook",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 25,
+      "gap": 25,
+      "avg_quality": 0
+    },
+    {
+      "type": "gameplay",
+      "need": "merge_action",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 50,
+      "gap": 50,
+      "avg_quality": 0
+    },
+    {
+      "type": "gameplay",
+      "need": "progression",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 50,
+      "gap": 50,
+      "avg_quality": 0
+    },
+    {
+      "type": "gameplay",
+      "need": "decision_moment",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 50,
+      "gap": 50,
+      "avg_quality": 0
+    },
+    {
+      "type": "gameplay",
+      "need": "fail_retry",
+      "priority": "high",
+      "current_count": 0,
+      "target_count": 50,
+      "gap": 50,
+      "avg_quality": 0
+    },
+    {
+      "type": "gameplay",
+      "need": "gameplay_coverage",
+      "priority": "medium",
+      "current_count": 140,
+      "target_count": 200,
+      "gap": 60,
+      "avg_quality": 36.12
+    },
+    {
+      "type": "cta",
+      "need": "cta_coverage",
+      "priority": "high",
+      "current_count": 1,
+      "target_count": 50,
+      "gap": 49,
+      "avg_quality": 29.21
+    }
+  ],
+  "top_20_gaps": [
+    {
+      "type": "gameplay",
+      "need": "merge_action",
+      "priority": "high",
+      "gap": 50
+    },
+    {
+      "type": "gameplay",
+      "need": "progression",
+      "priority": "high",
+      "gap": 50
+    },
+    {
+      "type": "gameplay",
+      "need": "decision_moment",
+      "priority": "high",
+      "gap": 50
+    },
+    {
+      "type": "gameplay",
+      "need": "fail_retry",
+      "priority": "high",
+      "gap": 50
+    },
+    {
+      "type": "cta",
+      "need": "cta_coverage",
+      "priority": "high",
+      "gap": 49
+    },
+    {
+      "type": "gameplay",
+      "need": "gameplay_coverage",
+      "priority": "medium",
+      "gap": 60
+    },
+    {
+      "type": "hook",
+      "need": "curiosity_hook",
+      "priority": "high",
+      "gap": 25
+    },
+    {
+      "type": "hook",
+      "need": "fail_hook",
+      "priority": "high",
+      "gap": 25
+    },
+    {
+      "type": "hook",
+      "need": "evolution_hook",
+      "priority": "high",
+      "gap": 25
+    },
+    {
+      "type": "hook",
+      "need": "challenge_hook",
+      "priority": "high",
+      "gap": 25
+    }
+  ],
+  "recommendations": [
+    "🟡 现有 Gameplay 素材平均质量较低 (36.1)。建议录制更清晰的 merge grid 和 before-after 对比。"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "game_id": "com.born2play.biblequiz",
+  "as_of": "2026-07-29",
+  "saved_at": "2026-07-30T01:24:05.406368+00:00",
+  "snapshot": {
+    "game_id": "com.born2play.biblequiz",
+    "timestamp": "2026-07-29",
+    "revenue": {
+      "daily_revenue": 0.0,
+      "payer_count": 0,
+      "arpdau": 0.0,
+      "ltv": 0.0,
+      "impressions": 12,
+      "requests": 135,
+      "ecpm": 0.3059,
+      "rewarded_video_revenue": 0.0,
+      "network_distribution": {
+        "UNITY_BIDDING": 0.0185,
+        "APPLOVIN_NETWORK": 0.9646,
+        "APPLOVIN_EXCHANGE": 0.0169
+      }
+    },
+    "acquisition": null,
+    "aso": null,
+    "creative": null,
+    "product": {
+      "dau": 0,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": null
+    },
+    "confidence": 0.4,
+    "sources": [
+      "registry",
+      "max_live"
+    ],
+    "real_confidence": 0.4,
+    "real_domains": [
+      "product",
+      "revenue"
+    ],
+    "attribution": null
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "c_evolution_chain_dbc4bf0b": {
+    "layout_ast_id": "ast_evolution_chain_da17167c",
+    "template_id": "evolution_chain",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Final MAX evolution form - largest, L1 focus"
+      },
+      "mechanism": {
+        "position": "center_right",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Stage 3 - large pre-final form"
+      },
+      "identity": {
+        "position": "left_side",
+        "size": 0.271,
+        "brightness": "normal",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Stage 1 - smallest starting form"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "",
+    "campaign_id": "",
+    "created_at": 1782885799,
+    "deployed_at": 0,
+    "status": "registered",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.9
+    },
+    "metrics": null
+  },
+  "c_evolution_chain_a0c70540": {
+    "layout_ast_id": "ast_evolution_chain_09216a38",
+    "template_id": "evolution_chain",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Final MAX evolution form - largest, L1 focus"
+      },
+      "mechanism": {
+        "position": "center_right",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Stage 3 - large pre-final form"
+      },
+      "identity": {
+        "position": "left_side",
+        "size": 0.271,
+        "brightness": "normal",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Stage 1 - smallest starting form"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "",
+    "campaign_id": "",
+    "created_at": 1782885841,
+    "deployed_at": 0,
+    "status": "registered",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.9
+    },
+    "metrics": null
+  },
+  "c_before_after_99011ffb": {
+    "layout_ast_id": "ast_before_after_d96f1569",
+    "template_id": "before_after",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "After/reward state - right side, brighter, L1 focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Before/low state - left side, dimmer"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Character shown in both states or as guide"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "",
+    "campaign_id": "",
+    "created_at": 1782886535,
+    "deployed_at": 0,
+    "status": "registered",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.8
+    },
+    "metrics": null
+  }
+}

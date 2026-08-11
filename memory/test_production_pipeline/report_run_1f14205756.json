@@ -1,0 +1,59 @@
+{
+  "run_id": "run_1f14205756",
+  "status": "error",
+  "creative_id": "c_before_after_15960e49",
+  "template_id": "before_after",
+  "layout_ast_id": "ast_before_after_6a18f20d",
+  "score": 0.6531,
+  "reject_reason": "No module named 'market_ops.creative_growth_loop._10_learning'",
+  "asset": {
+    "asset_id": "img_101cf3714666",
+    "file_path": "memory\\test_production_pipeline\\assets\\img_101cf3714666.png",
+    "sha256": "59b806b7d76b1810ca294b814c6249698aefa63569dda7080bcbfe66aa4c4fb9",
+    "url": "http://localhost:8080/assets/img_101cf3714666.png"
+  },
+  "ad_stack": {
+    "campaign_id": "camp_487388da72",
+    "adset_id": "adset_a08f89248a",
+    "ad_id": "ad_d02454f68b",
+    "api_calls_count": 3
+  },
+  "metrics": {
+    "impressions": 200,
+    "clicks": 20,
+    "installs": 6,
+    "purchases": 0,
+    "ctr": 0.0,
+    "cvr": 0.0,
+    "ipm": 0.0,
+    "roas": 0.0,
+    "cpc": 0.0,
+    "total_revenue": 0.0,
+    "total_cost": 1.4
+  },
+  "attribution": {
+    "method": "last_touch",
+    "click_attributed_installs": 6,
+    "view_attributed_installs": 0
+  },
+  "weight_update": {
+    "applied": false,
+    "budget_delta": {},
+    "template_delta": {},
+    "inference_delta": {},
+    "compiler_version_before": 1,
+    "compiler_version_after": 1
+  },
+  "steps_completed": {
+    "step1_generate": true,
+    "step2_render": true,
+    "step3_upload": true,
+    "step4_campaign": true,
+    "step5_adset": true,
+    "step6_ad": true,
+    "step7_launch": true,
+    "step8_collect_events": true
+  },
+  "started_at": 1782884768,
+  "completed_at": 1782884769
+}

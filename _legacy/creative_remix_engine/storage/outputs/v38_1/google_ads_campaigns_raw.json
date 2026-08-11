@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "campaign_id": "ga_campaign_0001",
+      "campaign_name": "P04_UAC_Global_1",
+      "country": "AU",
+      "date": "2026-06-30"
+    },
+    {
+      "campaign_id": "ga_campaign_0002",
+      "campaign_name": "P04_UAC_Global_2",
+      "country": "UK",
+      "date": "2026-06-22"
+    },
+    {
+      "campaign_id": "ga_campaign_0003",
+      "campaign_name": "P04_UAC_Global_3",
+      "country": "CA",
+      "date": "2026-06-22"
+    },
+    {
+      "campaign_id": "ga_campaign_0004",
+      "campaign_name": "P04_UAC_Global_4",
+      "country": "CA",
+      "date": "2026-07-06"
+    },
+    {
+      "campaign_id": "ga_campaign_0005",
+      "campaign_name": "P04_UAC_Global_5",
+      "country": "US",
+      "date": "2026-06-13"
+    },
+    {
+      "campaign_id": "ga_campaign_0006",
+      "campaign_name": "P04_UAC_Global_6",
+      "country": "AU",
+      "date": "2026-07-03"
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.490919",
+  "source": "google_ads",
+  "is_mocked": true
+}

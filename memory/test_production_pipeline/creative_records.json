@@ -1,0 +1,402 @@
+{
+  "c_merge_formula_984ae1ad": {
+    "layout_ast_id": "ast_merge_formula_6b53fa80",
+    "template_id": "merge_formula",
+    "render_constraints": {
+      "reward": {
+        "position": "center",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Merge result C - glowing reward, L1 visual focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Item A - left side merge ingredient"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Witch character hands reaching in"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "ad_8185e8504f",
+    "campaign_id": "camp_d710faf54c",
+    "created_at": 1782884644,
+    "deployed_at": 1782884644,
+    "status": "deployed",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.9,
+      "click_probability": 0.7322150000000001
+    },
+    "metrics": null
+  },
+  "c_before_after_15960e49": {
+    "layout_ast_id": "ast_before_after_6a18f20d",
+    "template_id": "before_after",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "After/reward state - right side, brighter, L1 focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Before/low state - left side, dimmer"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Character shown in both states or as guide"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "ad_d02454f68b",
+    "campaign_id": "camp_487388da72",
+    "created_at": 1782884768,
+    "deployed_at": 1782884769,
+    "status": "deployed",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.8,
+      "click_probability": 0.6530800000000001
+    },
+    "metrics": null
+  },
+  "c_evolution_chain_2380d7ff": {
+    "layout_ast_id": "ast_evolution_chain_e6689300",
+    "template_id": "evolution_chain",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Final MAX evolution form - largest, L1 focus"
+      },
+      "mechanism": {
+        "position": "center_right",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Stage 3 - large pre-final form"
+      },
+      "identity": {
+        "position": "left_side",
+        "size": 0.271,
+        "brightness": "normal",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Stage 1 - smallest starting form"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "ad_2952fe2104",
+    "campaign_id": "camp_f2341ba64e",
+    "created_at": 1782884813,
+    "deployed_at": 1782884813,
+    "status": "deployed",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.9,
+      "click_probability": 0.7322150000000001
+    },
+    "metrics": null
+  },
+  "c_merge_formula_6aaf47fc": {
+    "layout_ast_id": "ast_merge_formula_6d32d402",
+    "template_id": "merge_formula",
+    "render_constraints": {
+      "reward": {
+        "position": "center",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Merge result C - glowing reward, L1 visual focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Item A - left side merge ingredient"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Witch character hands reaching in"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "ad_dcf222631b",
+    "campaign_id": "camp_75c267670e",
+    "created_at": 1782884848,
+    "deployed_at": 1782884848,
+    "status": "deployed",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.9,
+      "click_probability": 0.7322150000000001
+    },
+    "metrics": {
+      "creative_id": "c_merge_formula_6aaf47fc",
+      "template_id": "",
+      "layout_ast_id": "",
+      "impressions": 200,
+      "clicks": 20,
+      "installs": 6,
+      "purchases": 0,
+      "total_cost": 1.400000000000001,
+      "ctr": 0.1,
+      "ipm": 30.0,
+      "cpa": 0.23,
+      "roas": 0.0,
+      "sample_size": 200,
+      "computed_at": 1782884882
+    }
+  },
+  "c_before_after_59eac2ec": {
+    "layout_ast_id": "ast_before_after_3d08d65d",
+    "template_id": "before_after",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "After/reward state - right side, brighter, L1 focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Before/low state - left side, dimmer"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Character shown in both states or as guide"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "ad_215a36f915",
+    "campaign_id": "camp_90a3e9b623",
+    "created_at": 1782884877,
+    "deployed_at": 1782884877,
+    "status": "deployed",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.8,
+      "click_probability": 0.6530800000000001
+    },
+    "metrics": {
+      "creative_id": "c_before_after_59eac2ec",
+      "template_id": "",
+      "layout_ast_id": "",
+      "impressions": 500,
+      "clicks": 50,
+      "installs": 15,
+      "purchases": 0,
+      "total_cost": 3.499999999999996,
+      "ctr": 0.1,
+      "ipm": 30.0,
+      "cpa": 0.23,
+      "roas": 0.0,
+      "sample_size": 500,
+      "computed_at": 1782884882
+    }
+  }
+}

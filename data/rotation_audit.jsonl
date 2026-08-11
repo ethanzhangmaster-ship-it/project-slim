@@ -1,0 +1,2 @@
+{"timestamp": "2026-08-10T07:51:28.617014+00:00", "original_file": "data\\ceo\\execution_memory.jsonl", "archive_file": "data\\ceo\\execution_memory.jsonl.1.gz", "original_size": 0, "archive_size": 448223, "max_bytes": 5242880, "max_lines": 50000, "max_backups": 5}
+{"timestamp": "2026-08-10T07:51:28.706746+00:00", "original_file": "data\\play_runtime\\audit.jsonl", "archive_file": "data\\play_runtime\\audit.jsonl.1.gz", "original_size": 0, "archive_size": 172107, "max_bytes": 5242880, "max_lines": 50000, "max_backups": 5}

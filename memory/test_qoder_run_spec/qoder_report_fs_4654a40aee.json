@@ -1,0 +1,42 @@
+{
+  "run_id": "fs_4654a40aee",
+  "creative_id": "c_before_after_2f387f4a",
+  "asset_id": "img_55224c1be97b",
+  "asset_url": "http://localhost:8080/assets/img_55224c1be97b.png",
+  "campaign_id": "meta_camp_05ab6f0a12",
+  "adset_id": "meta_adset_f6f35b3cc3",
+  "ad_id": "meta_ad_a157d6b1b2",
+  "platform": "meta",
+  "metrics": {
+    "ctr": 0.1,
+    "cvr": 0.3,
+    "ipm": 30.0,
+    "roas": 39.96,
+    "total_revenue": 39.96,
+    "total_cost": 1.0,
+    "impressions": 500,
+    "clicks": 50,
+    "installs": 15,
+    "purchases": 4
+  },
+  "budget_decision": "scale",
+  "budget_delta_percent": 0.5,
+  "budget_reason": "ROAS 39.96 >= 1.5, scale",
+  "events_count": 569,
+  "dataset_written": true,
+  "weight_update_applied": true,
+  "delta": {
+    "budget_updates": {},
+    "inference_updates": {
+      "reward_vividness": 0.1,
+      "mechanism_clarity": -0.05
+    },
+    "template_updates": {
+      "before_after": 0.0
+    },
+    "compiler_version_before": 2,
+    "compiler_version_after": 3
+  },
+  "attribution_model": "last_click",
+  "status": "success"
+}

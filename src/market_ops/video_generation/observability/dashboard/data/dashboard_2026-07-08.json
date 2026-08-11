@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-08",
+  "generation": {
+    "total": 842,
+    "success": 812,
+    "failed": 30,
+    "success_rate": 0.964
+  },
+  "queue": {
+    "pending": 20,
+    "processing": 15,
+    "retrying": 3,
+    "dead_letter": 2
+  },
+  "cost": {
+    "total": 320.5,
+    "avg_cost": 0.38,
+    "success_cost": 0.41,
+    "failed_cost": 0.08,
+    "budget_remaining": 679.5,
+    "budget_usage_percent": 32.1
+  },
+  "platforms": [
+    {
+      "platform": "kling",
+      "count": 500,
+      "cost": 250.0,
+      "avg_cost": 0.5,
+      "success_rate": 0.97,
+      "avg_time": 45.0
+    },
+    {
+      "platform": "veo",
+      "count": 200,
+      "cost": 110.0,
+      "avg_cost": 0.55,
+      "success_rate": 0.95,
+      "avg_time": 60.0
+    },
+    {
+      "platform": "comfyui",
+      "count": 142,
+      "cost": 11.5,
+      "avg_cost": 0.08,
+      "success_rate": 0.98,
+      "avg_time": 120.0
+    }
+  ],
+  "top_creatives": [
+    {
+      "creative_id": "video_001",
+      "ctr": 5.8,
+      "qa_score": 92,
+      "dna": "witch treasure opening"
+    },
+    {
+      "creative_id": "video_002",
+      "ctr": 4.2,
+      "qa_score": 88,
+      "dna": "battle scene epic"
+    },
+    {
+      "creative_id": "video_003",
+      "ctr": 3.9,
+      "qa_score": 85,
+      "dna": "character reveal surprise"
+    }
+  ],
+  "alerts": []
+}

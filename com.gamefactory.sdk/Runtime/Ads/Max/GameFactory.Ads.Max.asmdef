@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.Ads.Max",
+  "rootNamespace": "GameFactory.Ads",
+  "references": ["GameFactory.Ads", "GameFactory.Analytics", "MaxSdk"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": ["APPLOVIN_MAX"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

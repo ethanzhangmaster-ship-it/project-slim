@@ -1,0 +1,39 @@
+{
+  "account": "ACCT_TEST",
+  "period": {
+    "start": "2026-07-21",
+    "end": "2026-07-30"
+  },
+  "generated_at": "2026-07-31",
+  "overall_blend_ecpm": 24.44,
+  "summary": {
+    "segments": 1,
+    "demote_candidates": 0,
+    "floor_suggestions": 0
+  },
+  "segments": [
+    {
+      "app": "GameA",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 25.0,
+      "segment_impressions": 1200,
+      "networks": [
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 25.0,
+          "fill_rate": 0.6818,
+          "impression_share": 1.0,
+          "revenue": 30.0,
+          "score": 17.0455,
+          "rank": 1
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL_BIDDING"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    }
+  ]
+}

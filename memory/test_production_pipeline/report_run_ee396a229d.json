@@ -1,0 +1,59 @@
+{
+  "run_id": "run_ee396a229d",
+  "status": "error",
+  "creative_id": "c_evolution_chain_2380d7ff",
+  "template_id": "evolution_chain",
+  "layout_ast_id": "ast_evolution_chain_e6689300",
+  "score": 0.7322,
+  "reject_reason": "PerformanceMetrics.__init__() got an unexpected keyword argument 'cpc'",
+  "asset": {
+    "asset_id": "img_5ba42e536d89",
+    "file_path": "memory\\test_production_pipeline\\assets\\img_5ba42e536d89.png",
+    "sha256": "a913649a0e6197212e68ddedca916a05587bba1d73715302ae9e20a73d5e4e34",
+    "url": "http://localhost:8080/assets/img_5ba42e536d89.png"
+  },
+  "ad_stack": {
+    "campaign_id": "camp_f2341ba64e",
+    "adset_id": "adset_f1865994cc",
+    "ad_id": "ad_2952fe2104",
+    "api_calls_count": 3
+  },
+  "metrics": {
+    "impressions": 200,
+    "clicks": 20,
+    "installs": 6,
+    "purchases": 0,
+    "ctr": 0.0,
+    "cvr": 0.0,
+    "ipm": 0.0,
+    "roas": 0.0,
+    "cpc": 0.0,
+    "total_revenue": 0.0,
+    "total_cost": 1.4
+  },
+  "attribution": {
+    "method": "last_touch",
+    "click_attributed_installs": 6,
+    "view_attributed_installs": 0
+  },
+  "weight_update": {
+    "applied": false,
+    "budget_delta": {},
+    "template_delta": {},
+    "inference_delta": {},
+    "compiler_version_before": 1,
+    "compiler_version_after": 1
+  },
+  "steps_completed": {
+    "step1_generate": true,
+    "step2_render": true,
+    "step3_upload": true,
+    "step4_campaign": true,
+    "step5_adset": true,
+    "step6_ad": true,
+    "step7_launch": true,
+    "step8_collect_events": true
+  },
+  "started_at": 1782884813,
+  "completed_at": 1782884813
+}

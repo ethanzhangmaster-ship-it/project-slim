@@ -1,0 +1,65 @@
+{
+  "config": {
+    "wide_screen_mode": true
+  },
+  "header": {
+    "template": "blue",
+    "title": {
+      "tag": "plain_text",
+      "content": "IAA 变现日报 · ACCT_2 · 2026-07-24  💚 H67 🚀 O57 ⚠️ R51"
+    }
+  },
+  "elements": [
+    {
+      "tag": "markdown",
+      "content": "**周期** 2026-07-14 ~ 2026-07-23\n**收入** $285.36    **展示** 4,988    **混合eCPM** $57.21\n**请求** 140,411    **瀑布深度** 28.1 请求/展示"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "markdown",
+      "content": "**🎯 Scorecard（三维分离）**\n| 维度 | 分 | 等级 | 含义 |\n|---|---|---|---|\n| 💚 Health | **67** | C | 当前变现效率（现状） |\n| 🚀 Opportunity | **57** | MEDIUM | 可追回的应用内上行空间 |\n| ⚠️ Risk | **51** | MEDIUM | 收入脆弱度（集中度） |\n> Health 是*状态*不是*判决*；Opportunity 是空间。低 Health / 高 Opportunity = 被低估，不是没救。"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "markdown",
+      "content": "**🛡️ 用户护栏 (ARPDAU)**\n_待接入 — no user-side key configured (adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable。优化前接 Adjust/Firebase，才能在 Experiment 层验证「收入涨了，但广告负载没涨」_"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "markdown",
+      "content": "**🔥 行动分层（是否值得执行）**\n**🔥 今日执行 (Safe)**  _高置信·可回滚·零风险 — Phase 3 自动执行候选_\n🔴 **P0 | Disable CHARTBOOST_NETWORK**\n   动作：disable_network → `CHARTBOOST_NETWORK` *(需在 MAX 后台手动执行)*\n   价值分：0.79 · conf 98% / safety 90% / rev 100%\n   预期：free 17,261 requests (revenue loss < $0.16)\n   判据：high-confidence, reversible, minimal downside — auto-execute candidate (Phase 3)\n🔴 **P0 | Disable IRONSOURCE_BIDDING**\n   动作：disable_network → `IRONSOURCE_BIDDING` *(需在 MAX 后台手动执行)*\n   价值分：0.79 · conf 98% / safety 90% / rev 100%\n   预期：free 12,361 requests (revenue loss < $0.99)\n   判据：high-confidence, reversible, minimal downside — auto-execute candidate (Phase 3)\n🔴 **P0 | Disable INMOBI_BIDDING**\n   动作：disable_network → `INMOBI_BIDDING` *(需在 MAX 后台手动执行)*\n   价值分：0.73 · conf 90% / safety 90% / rev 100%\n   预期：free 1,608 requests (revenue loss < $0.00)\n   判据：high-confidence, reversible, minimal downside — auto-execute candidate (Phase 3)\n**🧪 先实验 (Experiment)**  _真实收入/填充影响 — 用 A/B 验证后再放量_\n🟠 **P1 | Increase bid opportunity for MINTEGRAL_BIDDING**\n   动作：increase_bid_opportunity → `MINTEGRAL_BIDDING` *(需在 MAX 后台手动执行)*\n   价值分：0.41 · conf 81% / safety 70% / rev 90%\n   预期：capturing only 37% of its eCPM-implied potential at eCPM $82.28 — raise auction exposure\n   判据：real revenue/fill impact — validate with a controlled A/B before rollout\n🟡 **P2 | Raise unified auction price floor on APPLOVIN_EXCHANGE to $4.58-$8.58**\n   动作：adjust_bid_constraint → `APPLOVIN_EXCHANGE` *(需在 MAX 后台手动执行)*\n   价值分：0.28 · conf 85% / safety 60% / rev 90%\n   预期：cut lowest-value backfill impressions; watch fill\n   判据：real revenue/fill impact — validate with a controlled A/B before rollout\n**👀 监控/移交 (Observe)**  _建议性或越界 — 仅观察，不写 MAX_\n🔵 **P3 | Diversify: application:Merge Monster: Vampire Mansion**\n   动作：diversify → `application:Merge Monster: Vampire Mansion` *(需在 MAX 后台手动执行)*\n   价值分：0.24 · conf 95% / safety 100% / rev 50%\n   预期：reduce single-point-of-failure revenue risk\n   判据：advisory / out-of-scope — watch only, never an automated write\n🔵 **P3 | UA opportunity: geo nz**\n   动作：handoff_ua → `nz` *(需在 MAX 后台手动执行)*\n   价值分：0.22 · conf 72% / safety 100% / rev 100%\n   预期：eCPM $148.51 — hand to Growth OS (not a monetization action)\n   判据：advisory / out-of-scope — watch only, never an automated write\n🔵 **P3 | UA opportunity: geo se**\n   动作：handoff_ua → `se` *(需在 MAX 后台手动执行)*\n   价值分：0.20 · conf 66% / safety 100% / rev 100%\n   预期：eCPM $130.64 — hand to Growth OS (not a monetization action)\n   判据：advisory / out-of-scope — watch only, never an automated write\n🔵 **P3 | UA opportunity: geo au**\n   动作：handoff_ua → `au` *(需在 MAX 后台手动执行)*\n   价值分：0.17 · conf 58% / safety 100% / rev 100%\n   预期：eCPM $98.45 — hand to Growth OS (not a monetization action)\n   判据：advisory / out-of-scope — watch only, never an automated write\n🔵 **P3 | UA opportunity: geo be**\n   动作：handoff_ua → `be` *(需在 MAX 后台手动执行)*\n   价值分：0.17 · conf 56% / safety 100% / rev 100%\n   预期：eCPM $106.59 — hand to Growth OS (not a monetization action)\n   判据：advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "markdown",
+      "content": "**🧠 优化思路**\n1. **砍僵尸渠道**：请求量大但几乎不出展示、不产收入的渠道，只消耗瀑布深度（延迟+SDK开销）。先砍零风险的浪费，是 ROI 最高的一步。\n2. **放大隐形冠军**：eCPM 显著高于账号均值但展示占比极低的渠道，说明它有高价需求却在竞价里拿不到量——给它更多竞价机会，用高价展示替换低价展示。\n3. **控瀑布效率**：每个展示背后的请求次数（深度）越高，延迟越大、用户体验越差。砍掉无效层，深度下降 = 每次广告机会的变现效率上升。\n4. **用底价卡回填吸血**：兜底渠道以极低 eCPM 吃走大量展示，每次展示都在挤占高价渠道的机会。设置 bid floor 砍掉最差的展示，宁缺毋滥。\n5. **盯集中度风险**：收入过度依赖单一 App/渠道/国家时，任何一个政策变动（渠道调价、平台下架、geo 波动）都可能腰斩收入。优化的同时必须分散风险。\n6. **高价 geo 反哺买量**：某些国家 eCPM 远超均值但量极小——这是给 UA 的信号：往这些 geo 投放，LTV 天花板更高（移交 Growth OS 执行）。"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "markdown",
+      "content": "**⚠️ 风险**\n- One app contributes 99% of revenue ('Merge Monster: Vampire Mansion' $282.49 of $285.36) — risk HIGH"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "note",
+      "elements": [
+        {
+          "tag": "plain_text",
+          "content": "Phase 1：仅诊断建议，系统零写入 MAX；执行后次日自动核销闭环。"
+        }
+      ]
+    }
+  ]
+}

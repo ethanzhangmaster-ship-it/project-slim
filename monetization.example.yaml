@@ -1,0 +1,28 @@
+game: busstop
+ads:
+  reward:
+    networks:
+    - applovin
+    - admob
+    - mintegral
+    waterfall:
+      US:
+        applovin: 1
+        admob: 2
+        mintegral: 3
+      CN:
+        applovin: 1
+        mintegral: 2
+  interstitial:
+    networks:
+    - applovin
+    - admob
+    waterfall:
+      US:
+        applovin: 1
+        admob: 2
+optimize:
+  mode: suggestion
+  eCPM_floor_step: 0.02
+  min_fill_rate: 0.05
+  report_cron: 0 9 * * *

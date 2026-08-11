@@ -1,0 +1,2521 @@
+{
+  "total": 599,
+  "top_hook": [
+    {
+      "video_name": "P4-v2601414-mg-2d-kaitou-en-23s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601414-mg-2d-kaitou-en-23s-1X1.mp4",
+      "motion_score": 73.5,
+      "impact_score": 77.1,
+      "gameplay_score": 35.1,
+      "hook_score": 55.6,
+      "reward_score": 52.2,
+      "dna_score": 30,
+      "final_score": 58.8,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601415-mg-2d-kaitou-en-22s-16X9",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601415-mg-2d-kaitou-en-22s-16X9.mp4",
+      "motion_score": 21.0,
+      "impact_score": 63.1,
+      "gameplay_score": 27.6,
+      "hook_score": 55.1,
+      "reward_score": 55.7,
+      "dna_score": 30,
+      "final_score": 43.6,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601329-mg-2d-juqing-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601329-mg-2d-juqing-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 53.9,
+      "gameplay_score": 44.8,
+      "hook_score": 55.0,
+      "reward_score": 46.9,
+      "dna_score": 30,
+      "final_score": 59.6,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion"
+      ]
+    },
+    {
+      "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601182-mg-2d-juqing-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 76.5,
+      "gameplay_score": 45.9,
+      "hook_score": 54.8,
+      "reward_score": 62.5,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 80.7,
+      "gameplay_score": 65.4,
+      "hook_score": 54.8,
+      "reward_score": 48.1,
+      "dna_score": 30,
+      "final_score": 70.5,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601150-mg-2d-changjingzhanshi-en-43s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601150-mg-2d-changjingzhanshi-en-43s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.5,
+      "gameplay_score": 42.7,
+      "hook_score": 54.6,
+      "reward_score": 45.3,
+      "dna_score": 30,
+      "final_score": 64.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.5,
+      "gameplay_score": 48.6,
+      "hook_score": 54.6,
+      "reward_score": 54.9,
+      "dna_score": 30,
+      "final_score": 67.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.6,
+      "gameplay_score": 61.7,
+      "hook_score": 54.5,
+      "reward_score": 45.7,
+      "dna_score": 30,
+      "final_score": 69.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 78.1,
+      "gameplay_score": 48.3,
+      "hook_score": 54.5,
+      "reward_score": 55.9,
+      "dna_score": 30,
+      "final_score": 67.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601002-mg-2d-kaitou-en-5s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601002-mg-2d-kaitou-en-5s-1X1.mp4",
+      "motion_score": 37.8,
+      "impact_score": 68.3,
+      "gameplay_score": 29.5,
+      "hook_score": 54.3,
+      "reward_score": 54.8,
+      "dna_score": 30,
+      "final_score": 48.4,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.5,
+      "gameplay_score": 53.6,
+      "hook_score": 54.2,
+      "reward_score": 56.3,
+      "dna_score": 30,
+      "final_score": 68.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601413-mg-2d-kaitou-en-21s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601413-mg-2d-kaitou-en-21s-9X16.mp4",
+      "motion_score": 34.9,
+      "impact_score": 60.9,
+      "gameplay_score": 28.5,
+      "hook_score": 53.8,
+      "reward_score": 50.1,
+      "dna_score": 30,
+      "final_score": 45.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601589-mg-2d-juesezhanshi-en-26s-16X9",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601589-mg-2d-juesezhanshi-en-26s-16X9.mp4",
+      "motion_score": 100,
+      "impact_score": 61.0,
+      "gameplay_score": 43.6,
+      "hook_score": 53.6,
+      "reward_score": 43.6,
+      "dna_score": 30,
+      "final_score": 60.6,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601246-mg-2d-juqing-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601246-mg-2d-juqing-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 73.1,
+      "gameplay_score": 44.9,
+      "hook_score": 53.5,
+      "reward_score": 55.7,
+      "dna_score": 30,
+      "final_score": 65.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 66.6,
+      "hook_score": 53.5,
+      "reward_score": 41.8,
+      "dna_score": 30,
+      "final_score": 69.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601292-mg-2d-juesezhanshi-en-34s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601292-mg-2d-juesezhanshi-en-34s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 69.9,
+      "gameplay_score": 42.2,
+      "hook_score": 53.4,
+      "reward_score": 49.9,
+      "dna_score": 30,
+      "final_score": 63.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601109-mg-2d-kaitou-en-30s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601109-mg-2d-kaitou-en-30s-1X1.mp4",
+      "motion_score": 97.5,
+      "impact_score": 70.3,
+      "gameplay_score": 42.5,
+      "hook_score": 53.3,
+      "reward_score": 50.6,
+      "dna_score": 30,
+      "final_score": 62.8,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601089-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601089-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 73.3,
+      "gameplay_score": 43.5,
+      "hook_score": 53.2,
+      "reward_score": 38.5,
+      "dna_score": 30,
+      "final_score": 63.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 47.7,
+      "hook_score": 53.2,
+      "reward_score": 59.8,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601157-mg-2d-chongwuzhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601157-mg-2d-chongwuzhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 75.5,
+      "gameplay_score": 39.8,
+      "hook_score": 53.1,
+      "reward_score": 51.0,
+      "dna_score": 30,
+      "final_score": 64.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    }
+  ],
+  "top_gameplay": [
+    {
+      "video_name": "P4-v2601457-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601457-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.1,
+      "gameplay_score": 70.2,
+      "hook_score": 43.8,
+      "reward_score": 34.5,
+      "dna_score": 30,
+      "final_score": 66.3,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601438-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601438-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.1,
+      "gameplay_score": 68.5,
+      "hook_score": 45.2,
+      "reward_score": 29.8,
+      "dna_score": 30,
+      "final_score": 65.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601455-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601455-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.8,
+      "gameplay_score": 68.5,
+      "hook_score": 43.8,
+      "reward_score": 38.7,
+      "dna_score": 30,
+      "final_score": 66.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601495-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601495-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 79.5,
+      "impact_score": 73.2,
+      "gameplay_score": 67.7,
+      "hook_score": 43.5,
+      "reward_score": 31.9,
+      "dna_score": 30,
+      "final_score": 61.1,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601465-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601465-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.8,
+      "gameplay_score": 67.6,
+      "hook_score": 49.0,
+      "reward_score": 46.5,
+      "dna_score": 30,
+      "final_score": 69.4,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601394-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601394-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 81.3,
+      "gameplay_score": 67.0,
+      "hook_score": 49.2,
+      "reward_score": 46.1,
+      "dna_score": 30,
+      "final_score": 69.7,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 66.6,
+      "hook_score": 53.5,
+      "reward_score": 41.8,
+      "dna_score": 30,
+      "final_score": 69.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601448-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601448-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 69.2,
+      "gameplay_score": 66.3,
+      "hook_score": 36.8,
+      "reward_score": 25.3,
+      "dna_score": 30,
+      "final_score": 61.9,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "reward"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 80.7,
+      "gameplay_score": 65.4,
+      "hook_score": 54.8,
+      "reward_score": 48.1,
+      "dna_score": 30,
+      "final_score": 70.5,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601207-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601207-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 76.9,
+      "gameplay_score": 65.2,
+      "hook_score": 41.3,
+      "reward_score": 35.8,
+      "dna_score": 30,
+      "final_score": 65.6,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601538-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601538-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 76.2,
+      "gameplay_score": 64.0,
+      "hook_score": 52.1,
+      "reward_score": 39.1,
+      "dna_score": 30,
+      "final_score": 67.7,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601453-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601453-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 71.7,
+      "gameplay_score": 62.9,
+      "hook_score": 41.4,
+      "reward_score": 30.3,
+      "dna_score": 30,
+      "final_score": 63.3,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601484-mg-2d-juesezhanshi-en-17s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601484-mg-2d-juesezhanshi-en-17s-9X16.mp4",
+      "motion_score": 72.4,
+      "impact_score": 73.2,
+      "gameplay_score": 62.1,
+      "hook_score": 50.0,
+      "reward_score": 35.1,
+      "dna_score": 30,
+      "final_score": 60.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.6,
+      "gameplay_score": 61.7,
+      "hook_score": 54.5,
+      "reward_score": 45.7,
+      "dna_score": 30,
+      "final_score": 69.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601436-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601436-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.5,
+      "gameplay_score": 60.4,
+      "hook_score": 39.3,
+      "reward_score": 38.4,
+      "dna_score": 30,
+      "final_score": 64.7,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601540-mg-2d-juesezhanshi-en-15s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601540-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.6,
+      "gameplay_score": 60.4,
+      "hook_score": 43.9,
+      "reward_score": 35.2,
+      "dna_score": 30,
+      "final_score": 65.3,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601203-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601203-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 84.9,
+      "impact_score": 74.2,
+      "gameplay_score": 60.2,
+      "hook_score": 41.0,
+      "reward_score": 35.5,
+      "dna_score": 30,
+      "final_score": 60.8,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.3,
+      "gameplay_score": 59.8,
+      "hook_score": 53.0,
+      "reward_score": 55.8,
+      "dna_score": 30,
+      "final_score": 69.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601450-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601450-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.2,
+      "gameplay_score": 58.7,
+      "hook_score": 47.5,
+      "reward_score": 45.4,
+      "dna_score": 30,
+      "final_score": 67.1,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601219-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601219-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 71.3,
+      "gameplay_score": 58.3,
+      "hook_score": 40.9,
+      "reward_score": 30.1,
+      "dna_score": 30,
+      "final_score": 62.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    }
+  ],
+  "top_reward": [
+    {
+      "video_name": "P4-v2601324-mg-2d-wenzigundong-en-19s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601324-mg-2d-wenzigundong-en-19s-1X1.mp4",
+      "motion_score": 95.8,
+      "impact_score": 73.6,
+      "gameplay_score": 39.5,
+      "hook_score": 50.5,
+      "reward_score": 68.4,
+      "dna_score": 30,
+      "final_score": 63.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601025-mg-2d-wanfashipin-en-31s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601025-mg-2d-wanfashipin-en-31s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 58.4,
+      "gameplay_score": 37.7,
+      "hook_score": 48.8,
+      "reward_score": 64.2,
+      "dna_score": 30,
+      "final_score": 59.8,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601275-mg-2d-wenzigundong-en-42s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601275-mg-2d-wenzigundong-en-42s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 68.5,
+      "gameplay_score": 38.1,
+      "hook_score": 45.5,
+      "reward_score": 63.0,
+      "dna_score": 30,
+      "final_score": 61.6,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601182-mg-2d-juqing-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 76.5,
+      "gameplay_score": 45.9,
+      "hook_score": 54.8,
+      "reward_score": 62.5,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601012-mg-2d-kaitou-en-5s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601012-mg-2d-kaitou-en-5s-1X1.mp4",
+      "motion_score": 47.9,
+      "impact_score": 62.2,
+      "gameplay_score": 38.1,
+      "hook_score": 52.8,
+      "reward_score": 61.0,
+      "dna_score": 30,
+      "final_score": 50.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601010-mg-2d-wanfashipin-en-30s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.8,
+      "gameplay_score": 50.4,
+      "hook_score": 50.4,
+      "reward_score": 60.8,
+      "dna_score": 30,
+      "final_score": 65.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601350-mg-2d-juesezhanshi-en-44s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601350-mg-2d-juesezhanshi-en-44s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 58.5,
+      "gameplay_score": 43.8,
+      "hook_score": 47.2,
+      "reward_score": 60.2,
+      "dna_score": 30,
+      "final_score": 60.3,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601162-mg-2d-juesezhanshi-en-44s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601162-mg-2d-juesezhanshi-en-44s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 64.4,
+      "gameplay_score": 42.1,
+      "hook_score": 47.4,
+      "reward_score": 60.0,
+      "dna_score": 30,
+      "final_score": 61.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 47.7,
+      "hook_score": 53.2,
+      "reward_score": 59.8,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601323-mg-2d-wenzigundong-en-38s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601323-mg-2d-wenzigundong-en-38s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.4,
+      "gameplay_score": 46.4,
+      "hook_score": 48.2,
+      "reward_score": 59.1,
+      "dna_score": 30,
+      "final_score": 64.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.5,
+      "gameplay_score": 51.5,
+      "hook_score": 51.2,
+      "reward_score": 58.6,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601285-mg-2d-juqing-en-39s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601285-mg-2d-juqing-en-39s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.3,
+      "gameplay_score": 42.1,
+      "hook_score": 48.6,
+      "reward_score": 58.4,
+      "dna_score": 30,
+      "final_score": 64.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601006-mg-2d-wanfashipin-en-30s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601006-mg-2d-wanfashipin-en-30s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 65.9,
+      "gameplay_score": 42.9,
+      "hook_score": 42.9,
+      "reward_score": 58.2,
+      "dna_score": 30,
+      "final_score": 61.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601545-mg-2d-juesezhanshi-en-43s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601545-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.2,
+      "gameplay_score": 46.4,
+      "hook_score": 42.3,
+      "reward_score": 58.2,
+      "dna_score": 30,
+      "final_score": 63.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601530-mg-2d-wenzigundong-en-45s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601530-mg-2d-wenzigundong-en-45s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.5,
+      "gameplay_score": 48.2,
+      "hook_score": 48.3,
+      "reward_score": 58.0,
+      "dna_score": 30,
+      "final_score": 64.7,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601255-mg-2d-juqing-en-39s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601255-mg-2d-juqing-en-39s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 67.5,
+      "gameplay_score": 42.1,
+      "hook_score": 49.4,
+      "reward_score": 57.9,
+      "dna_score": 30,
+      "final_score": 62.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601052-mg-2d-wenzigundong-en-52s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601052-mg-2d-wenzigundong-en-52s-1X1.mp4",
+      "motion_score": 63.0,
+      "impact_score": 76.0,
+      "gameplay_score": 47.2,
+      "hook_score": 49.9,
+      "reward_score": 57.8,
+      "dna_score": 30,
+      "final_score": 58.3,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601403-mg-2d-wenzigundong-en-45s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601403-mg-2d-wenzigundong-en-45s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.0,
+      "gameplay_score": 44.4,
+      "hook_score": 52.0,
+      "reward_score": 57.8,
+      "dna_score": 30,
+      "final_score": 65.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601288-mg-2d-juesezhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601288-mg-2d-juesezhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 72.9,
+      "gameplay_score": 45.2,
+      "hook_score": 49.7,
+      "reward_score": 57.7,
+      "dna_score": 30,
+      "final_score": 64.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601042-mg-2d-wanfashipin-en-31s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601042-mg-2d-wanfashipin-en-31s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 59.5,
+      "gameplay_score": 43.3,
+      "hook_score": 45.0,
+      "reward_score": 57.5,
+      "dna_score": 30,
+      "final_score": 59.8,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion"
+      ]
+    }
+  ],
+  "top_cta": [
+    {
+      "video_name": "P4-v2601324-mg-2d-wenzigundong-en-19s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601324-mg-2d-wenzigundong-en-19s-1X1.mp4",
+      "motion_score": 95.8,
+      "impact_score": 73.6,
+      "gameplay_score": 39.5,
+      "hook_score": 50.5,
+      "reward_score": 68.4,
+      "dna_score": 30,
+      "final_score": 63.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601182-mg-2d-juqing-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 76.5,
+      "gameplay_score": 45.9,
+      "hook_score": 54.8,
+      "reward_score": 62.5,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 47.7,
+      "hook_score": 53.2,
+      "reward_score": 59.8,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601237-mg-2d-changjingzhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601237-mg-2d-changjingzhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 79.5,
+      "gameplay_score": 46.0,
+      "hook_score": 51.9,
+      "reward_score": 57.4,
+      "dna_score": 30,
+      "final_score": 66.7,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 79.2,
+      "gameplay_score": 47.3,
+      "hook_score": 52.3,
+      "reward_score": 56.8,
+      "dna_score": 30,
+      "final_score": 66.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 80.7,
+      "gameplay_score": 65.4,
+      "hook_score": 54.8,
+      "reward_score": 48.1,
+      "dna_score": 30,
+      "final_score": 70.5,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.5,
+      "gameplay_score": 48.6,
+      "hook_score": 54.6,
+      "reward_score": 54.9,
+      "dna_score": 30,
+      "final_score": 67.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601236-mg-2d-changjingzhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601236-mg-2d-changjingzhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 82.0,
+      "gameplay_score": 44.4,
+      "hook_score": 52.3,
+      "reward_score": 51.5,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601187-mg-2d-wenzigundong-en-51s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601187-mg-2d-wenzigundong-en-51s-1X1.mp4",
+      "motion_score": 60.9,
+      "impact_score": 77.1,
+      "gameplay_score": 47.6,
+      "hook_score": 50.8,
+      "reward_score": 57.1,
+      "dna_score": 30,
+      "final_score": 58.3,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.6,
+      "gameplay_score": 61.7,
+      "hook_score": 54.5,
+      "reward_score": 45.7,
+      "dna_score": 30,
+      "final_score": 69.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 78.1,
+      "gameplay_score": 48.3,
+      "hook_score": 54.5,
+      "reward_score": 55.9,
+      "dna_score": 30,
+      "final_score": 67.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601222-mg-2d-juesezhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601222-mg-2d-juesezhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 79.1,
+      "gameplay_score": 46.1,
+      "hook_score": 52.6,
+      "reward_score": 54.8,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601052-mg-2d-wenzigundong-en-52s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601052-mg-2d-wenzigundong-en-52s-1X1.mp4",
+      "motion_score": 63.0,
+      "impact_score": 76.0,
+      "gameplay_score": 47.2,
+      "hook_score": 49.9,
+      "reward_score": 57.8,
+      "dna_score": 30,
+      "final_score": 58.3,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.5,
+      "gameplay_score": 53.6,
+      "hook_score": 54.2,
+      "reward_score": 56.3,
+      "dna_score": 30,
+      "final_score": 68.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601010-mg-2d-wanfashipin-en-30s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.8,
+      "gameplay_score": 50.4,
+      "hook_score": 50.4,
+      "reward_score": 60.8,
+      "dna_score": 30,
+      "final_score": 65.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601323-mg-2d-wenzigundong-en-38s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601323-mg-2d-wenzigundong-en-38s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.4,
+      "gameplay_score": 46.4,
+      "hook_score": 48.2,
+      "reward_score": 59.1,
+      "dna_score": 30,
+      "final_score": 64.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601038-mg-2d-wanfashipin-en-32s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601038-mg-2d-wanfashipin-en-32s-9X16.mp4",
+      "motion_score": 81.4,
+      "impact_score": 77.1,
+      "gameplay_score": 44.5,
+      "hook_score": 50.4,
+      "reward_score": 56.3,
+      "dna_score": 30,
+      "final_score": 61.7,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.3,
+      "gameplay_score": 59.8,
+      "hook_score": 53.0,
+      "reward_score": 55.8,
+      "dna_score": 30,
+      "final_score": 69.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.5,
+      "gameplay_score": 51.5,
+      "hook_score": 51.2,
+      "reward_score": 58.6,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601285-mg-2d-juqing-en-39s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601285-mg-2d-juqing-en-39s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.3,
+      "gameplay_score": 42.1,
+      "hook_score": 48.6,
+      "reward_score": 58.4,
+      "dna_score": 30,
+      "final_score": 64.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    }
+  ],
+  "top_overall": [
+    {
+      "video_name": "P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 80.7,
+      "gameplay_score": 65.4,
+      "hook_score": 54.8,
+      "reward_score": 48.1,
+      "dna_score": 30,
+      "final_score": 70.5,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601394-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601394-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 81.3,
+      "gameplay_score": 67.0,
+      "hook_score": 49.2,
+      "reward_score": 46.1,
+      "dna_score": 30,
+      "final_score": 69.7,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601465-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601465-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.8,
+      "gameplay_score": 67.6,
+      "hook_score": 49.0,
+      "reward_score": 46.5,
+      "dna_score": 30,
+      "final_score": 69.4,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601459-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.6,
+      "gameplay_score": 61.7,
+      "hook_score": 54.5,
+      "reward_score": 45.7,
+      "dna_score": 30,
+      "final_score": 69.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 66.6,
+      "hook_score": 53.5,
+      "reward_score": 41.8,
+      "dna_score": 30,
+      "final_score": 69.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.3,
+      "gameplay_score": 59.8,
+      "hook_score": 53.0,
+      "reward_score": 55.8,
+      "dna_score": 30,
+      "final_score": 69.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.5,
+      "gameplay_score": 53.6,
+      "hook_score": 54.2,
+      "reward_score": 56.3,
+      "dna_score": 30,
+      "final_score": 68.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601538-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601538-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 76.2,
+      "gameplay_score": 64.0,
+      "hook_score": 52.1,
+      "reward_score": 39.1,
+      "dna_score": 30,
+      "final_score": 67.7,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.5,
+      "gameplay_score": 48.6,
+      "hook_score": 54.6,
+      "reward_score": 54.9,
+      "dna_score": 30,
+      "final_score": 67.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 78.1,
+      "gameplay_score": 48.3,
+      "hook_score": 54.5,
+      "reward_score": 55.9,
+      "dna_score": 30,
+      "final_score": 67.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601450-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601450-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.2,
+      "gameplay_score": 58.7,
+      "hook_score": 47.5,
+      "reward_score": 45.4,
+      "dna_score": 30,
+      "final_score": 67.1,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601182-mg-2d-juqing-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 76.5,
+      "gameplay_score": 45.9,
+      "hook_score": 54.8,
+      "reward_score": 62.5,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 47.7,
+      "hook_score": 53.2,
+      "reward_score": 59.8,
+      "dna_score": 30,
+      "final_score": 67.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 79.2,
+      "gameplay_score": 47.3,
+      "hook_score": 52.3,
+      "reward_score": 56.8,
+      "dna_score": 30,
+      "final_score": 66.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601541-mg-2d-juesezhanshi-en-43s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601541-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 78.6,
+      "gameplay_score": 55.0,
+      "hook_score": 48.6,
+      "reward_score": 50.1,
+      "dna_score": 30,
+      "final_score": 66.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601237-mg-2d-changjingzhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601237-mg-2d-changjingzhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 79.5,
+      "gameplay_score": 46.0,
+      "hook_score": 51.9,
+      "reward_score": 57.4,
+      "dna_score": 30,
+      "final_score": 66.7,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601506-mg-2d-juesezhanshi-en-43s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601506-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.9,
+      "gameplay_score": 53.2,
+      "hook_score": 51.5,
+      "reward_score": 55.0,
+      "dna_score": 30,
+      "final_score": 66.7,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601451-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601451-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.6,
+      "gameplay_score": 52.5,
+      "hook_score": 50.7,
+      "reward_score": 50.8,
+      "dna_score": 30,
+      "final_score": 66.6,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601454-mg-2d-juesezhanshi-en-48s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601454-mg-2d-juesezhanshi-en-48s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.1,
+      "gameplay_score": 58.1,
+      "hook_score": 45.5,
+      "reward_score": 51.0,
+      "dna_score": 30,
+      "final_score": 66.6,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.5,
+      "gameplay_score": 51.5,
+      "hook_score": 51.2,
+      "reward_score": 58.6,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601222-mg-2d-juesezhanshi-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601222-mg-2d-juesezhanshi-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 79.1,
+      "gameplay_score": 46.1,
+      "hook_score": 52.6,
+      "reward_score": 54.8,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601236-mg-2d-changjingzhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601236-mg-2d-changjingzhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 82.0,
+      "gameplay_score": 44.4,
+      "hook_score": 52.3,
+      "reward_score": 51.5,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601487-mg-2d-juesezhanshi-en-47s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601487-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.7,
+      "gameplay_score": 51.2,
+      "hook_score": 49.7,
+      "reward_score": 53.7,
+      "dna_score": 30,
+      "final_score": 66.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601386-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601386-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 76.1,
+      "gameplay_score": 57.2,
+      "hook_score": 49.6,
+      "reward_score": 45.4,
+      "dna_score": 30,
+      "final_score": 66.4,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601457-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601457-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.1,
+      "gameplay_score": 70.2,
+      "hook_score": 43.8,
+      "reward_score": 34.5,
+      "dna_score": 30,
+      "final_score": 66.3,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601563-mg-2d-juesezhanshi-en-45s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601563-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 79.1,
+      "gameplay_score": 48.4,
+      "hook_score": 49.9,
+      "reward_score": 52.9,
+      "dna_score": 30,
+      "final_score": 66.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 75.2,
+      "gameplay_score": 51.8,
+      "hook_score": 52.8,
+      "reward_score": 49.7,
+      "dna_score": 30,
+      "final_score": 66.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601455-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601455-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.8,
+      "gameplay_score": 68.5,
+      "hook_score": 43.8,
+      "reward_score": 38.7,
+      "dna_score": 30,
+      "final_score": 66.0,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601010-mg-2d-wanfashipin-en-30s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.8,
+      "gameplay_score": 50.4,
+      "hook_score": 50.4,
+      "reward_score": 60.8,
+      "dna_score": 30,
+      "final_score": 65.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "reward:magic"
+      ]
+    },
+    {
+      "video_name": "P4-v2601587-mg-2d-juesezhanshi-en-44s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601587-mg-2d-juesezhanshi-en-44s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 75.2,
+      "gameplay_score": 49.1,
+      "hook_score": 51.2,
+      "reward_score": 55.1,
+      "dna_score": 30,
+      "final_score": 65.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601500-mg-2d-juesezhanshi-en-48s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601500-mg-2d-juesezhanshi-en-48s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.7,
+      "gameplay_score": 49.8,
+      "hook_score": 52.2,
+      "reward_score": 51.5,
+      "dna_score": 30,
+      "final_score": 65.7,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601458-mg-2d-juesezhanshi-en-45s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601458-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.2,
+      "gameplay_score": 53.5,
+      "hook_score": 46.7,
+      "reward_score": 48.0,
+      "dna_score": 30,
+      "final_score": 65.6,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601207-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601207-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 76.9,
+      "gameplay_score": 65.2,
+      "hook_score": 41.3,
+      "reward_score": 35.8,
+      "dna_score": 30,
+      "final_score": 65.6,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601241-mg-2d-changjingzhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601241-mg-2d-changjingzhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.9,
+      "gameplay_score": 53.8,
+      "hook_score": 49.1,
+      "reward_score": 47.3,
+      "dna_score": 30,
+      "final_score": 65.5,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601586-mg-2d-juesezhanshi-en-17s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601586-mg-2d-juesezhanshi-en-17s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 75.0,
+      "gameplay_score": 53.0,
+      "hook_score": 48.2,
+      "reward_score": 48.9,
+      "dna_score": 30,
+      "final_score": 65.4,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601204-mg-2d-juesezhanshi-en-46s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601204-mg-2d-juesezhanshi-en-46s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 78.8,
+      "gameplay_score": 49.3,
+      "hook_score": 46.9,
+      "reward_score": 49.3,
+      "dna_score": 30,
+      "final_score": 65.4,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601437-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601437-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 76.8,
+      "gameplay_score": 54.6,
+      "hook_score": 46.1,
+      "reward_score": 45.2,
+      "dna_score": 30,
+      "final_score": 65.4,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601540-mg-2d-juesezhanshi-en-15s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601540-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.6,
+      "gameplay_score": 60.4,
+      "hook_score": 43.9,
+      "reward_score": 35.2,
+      "dna_score": 30,
+      "final_score": 65.3,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601223-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601223-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 78.1,
+      "gameplay_score": 43.2,
+      "hook_score": 52.3,
+      "reward_score": 51.5,
+      "dna_score": 30,
+      "final_score": 65.3,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601438-mg-2d-juesezhanshi-en-18s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601438-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 72.1,
+      "gameplay_score": 68.5,
+      "hook_score": 45.2,
+      "reward_score": 29.8,
+      "dna_score": 30,
+      "final_score": 65.2,
+      "gameplay_type": "merge",
+      "reward_types": [
+        "dragon"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact",
+        "gameplay:merge"
+      ]
+    },
+    {
+      "video_name": "P4-v2601084-mg-2d-juesezhanshi-en-37s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601084-mg-2d-juesezhanshi-en-37s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 73.9,
+      "gameplay_score": 50.4,
+      "hook_score": 48.5,
+      "reward_score": 54.7,
+      "dna_score": 30,
+      "final_score": 65.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601086-mg-2d-juesezhanshi-en-37s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601086-mg-2d-juesezhanshi-en-37s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 73.9,
+      "gameplay_score": 50.4,
+      "hook_score": 48.5,
+      "reward_score": 54.7,
+      "dna_score": 30,
+      "final_score": 65.2,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601201-mg-2d-juesezhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601201-mg-2d-juesezhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 77.6,
+      "gameplay_score": 47.6,
+      "hook_score": 49.9,
+      "reward_score": 47.3,
+      "dna_score": 30,
+      "final_score": 65.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601496-mg-2d-juesezhanshi-en-44s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601496-mg-2d-juesezhanshi-en-44s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 77.4,
+      "gameplay_score": 50.8,
+      "hook_score": 46.6,
+      "reward_score": 47.5,
+      "dna_score": 30,
+      "final_score": 65.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601403-mg-2d-wenzigundong-en-45s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601403-mg-2d-wenzigundong-en-45s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.0,
+      "gameplay_score": 44.4,
+      "hook_score": 52.0,
+      "reward_score": 57.8,
+      "dna_score": 30,
+      "final_score": 65.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601149-mg-2d-changjingzhanshi-en-15s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601149-mg-2d-changjingzhanshi-en-15s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 77.4,
+      "gameplay_score": 43.4,
+      "hook_score": 52.4,
+      "reward_score": 50.4,
+      "dna_score": 30,
+      "final_score": 65.1,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601246-mg-2d-juqing-en-48s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601246-mg-2d-juqing-en-48s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 73.1,
+      "gameplay_score": 44.9,
+      "hook_score": 53.5,
+      "reward_score": 55.7,
+      "dna_score": 30,
+      "final_score": 65.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601514-mg-2d-juesezhanshi-en-46s-9X16",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601514-mg-2d-juesezhanshi-en-46s-9X16.mp4",
+      "motion_score": 100,
+      "impact_score": 74.1,
+      "gameplay_score": 49.0,
+      "hook_score": 49.4,
+      "reward_score": 52.6,
+      "dna_score": 30,
+      "final_score": 65.0,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601323-mg-2d-wenzigundong-en-38s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601323-mg-2d-wenzigundong-en-38s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 74.4,
+      "gameplay_score": 46.4,
+      "hook_score": 48.2,
+      "reward_score": 59.1,
+      "dna_score": 30,
+      "final_score": 64.9,
+      "gameplay_type": "idle",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    },
+    {
+      "video_name": "P4-v2601297-mg-2d-juesezhanshi-en-20s-1X1",
+      "video_path": "D:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601297-mg-2d-juesezhanshi-en-20s-1X1.mp4",
+      "motion_score": 100,
+      "impact_score": 81.0,
+      "gameplay_score": 49.0,
+      "hook_score": 47.5,
+      "reward_score": 38.4,
+      "dna_score": 30,
+      "final_score": 64.9,
+      "gameplay_type": "reward",
+      "reward_types": [
+        "magic"
+      ],
+      "tags": [
+        "high_motion",
+        "high_impact"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "video_006",
+  "creative_angle": "fast_push_transform",
+  "source_dna": "v2601523",
+  "seed": 1006,
+  "status": "success",
+  "video_path": "outputs/P04_Video_Test_Set_001/video_006.mp4",
+  "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_006_flux.png",
+  "prompt": "",
+  "negative_prompt": "",
+  "error": "",
+  "validation": {
+    "valid": true,
+    "resolution": "832x480",
+    "duration": 10.1,
+    "fps": 8.0,
+    "issues": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "budget": {
+    "reward": 45.0,
+    "mechanism": 30.0,
+    "identity": 15.0,
+    "ui": 10.0
+  },
+  "inference_weights": {
+    "mechanism_clarity": 0.238,
+    "reward_vividness": 0.429,
+    "identity_projection": 0.19,
+    "low_friction": 0.143
+  },
+  "template_priorities": {
+    "merge_formula": 0.345,
+    "evolution_chain": 0.372,
+    "before_after": 0.283
+  },
+  "version": 2,
+  "updated_at": 1782887487,
+  "update_logs": [
+    {
+      "timestamp": 1782887487,
+      "update_type": "batch_update",
+      "before": {
+        "budget": {
+          "reward": 45.0,
+          "mechanism": 30.0,
+          "identity": 15.0,
+          "ui": 10.0
+        },
+        "inference_weights": {
+          "mechanism_clarity": 0.3,
+          "reward_vividness": 0.35,
+          "identity_projection": 0.2,
+          "low_friction": 0.15
+        },
+        "template_priorities": {
+          "merge_formula": 0.35,
+          "evolution_chain": 0.35,
+          "before_after": 0.3
+        },
+        "version": 1,
+        "updated_at": 0
+      },
+      "after": {
+        "budget": {
+          "reward": 45.0,
+          "mechanism": 30.0,
+          "identity": 15.0,
+          "ui": 10.0
+        },
+        "inference_weights": {
+          "mechanism_clarity": 0.238,
+          "reward_vividness": 0.429,
+          "identity_projection": 0.19,
+          "low_friction": 0.143
+        },
+        "template_priorities": {
+          "merge_formula": 0.345,
+          "evolution_chain": 0.372,
+          "before_after": 0.283
+        },
+        "version": 2,
+        "updated_at": 1782887487
+      },
+      "ctr_change": 0.025018489788467938,
+      "reason": "Updated based on 2 changes"
+    }
+  ]
+}

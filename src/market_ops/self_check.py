@@ -363,9 +363,6 @@ def run_self_check(report_date: date, meeting_name: str, output_dir: Path) -> Se
         google_creative_repair_audit_markdown=google_creative_repair_paths["summary"],
         google_revenue_attribution_audit_markdown=google_revenue_attribution_result.markdown_path,
         send_payload_consistency_markdown=payload_consistency.markdown_path,
-        tecdo_probe_markdown=(output_dir / f"tecdo_probe_{stamp}.md") if (output_dir / f"tecdo_probe_{stamp}.md").exists() else None,
-        tecdo_account_reconciliation_markdown=(output_dir / f"tecdo_account_reconciliation_{stamp}.md") if (output_dir / f"tecdo_account_reconciliation_{stamp}.md").exists() else None,
-        tecdo_sync_checklist_markdown=(output_dir / f"tecdo_sync_checklist_{stamp}.md") if (output_dir / f"tecdo_sync_checklist_{stamp}.md").exists() else None,
         management_action_list_markdown=(output_dir / f"management_action_list_{stamp}.md") if (output_dir / f"management_action_list_{stamp}.md").exists() else None,
         action_refinement_notes=list(artifacts.digest.action_refinement_notes),
     )
@@ -1391,22 +1388,10 @@ def _build_creative_audit_warnings(payload: dict) -> list[str]:
 def _build_creative_source_readiness_warnings(payload: dict) -> list[str]:
     warnings: list[str] = []
     summary = payload.get("summary") or {}
-    tecdo_formal = bool(summary.get("tecdo_is_formal_source"))
-    if not summary.get("meta_can_run_now") and not tecdo_formal:
+    if not summary.get("meta_can_run_now"):
         missing = ", ".join(summary.get("meta_missing_env") or [])
         warnings.append(f"素材API提示：Facebook 官方素材接口当前未启用，缺少 {missing}")
-    if summary.get("tecdo_can_run_now") and summary.get("tecdo_probe_has_rows") is False:
-        warnings.append("素材API提示：TecDo 已授权，且 report/query 接口可调用；当前为空是因为服务商后台数据同步尚未完成，暂时不能作为可用素材数据源。")
-    elif not summary.get("tecdo_can_run_now"):
-        probe_message = str(summary.get("tecdo_probe_message") or "").strip()
-        missing = ", ".join(summary.get("tecdo_missing_env") or [])
-        if probe_message:
-            warnings.append(f"素材API提示：TecDo 代理素材源当前不可用，原因：{probe_message}")
-        elif missing:
-            warnings.append(f"素材API提示：TecDo 代理素材源当前未启用，缺少 {missing}")
-        else:
-            warnings.append("素材API提示：TecDo 代理素材源当前未启用，且未返回可识别的失败原因。")
-    if not summary.get("google_can_run_now") and not tecdo_formal:
+    if not summary.get("google_can_run_now"):
         missing = ", ".join(summary.get("google_missing_env") or [])
         warnings.append(f"素材API提示：Google 官方素材接口当前未启用，缺少 {missing}")
     return warnings

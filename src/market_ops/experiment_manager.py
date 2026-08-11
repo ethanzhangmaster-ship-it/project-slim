@@ -90,7 +90,7 @@ class ExperimentPlanBuilder:
             return {"priors": []}
 
     def _load_winner_material_experiments(self, report_date: date) -> list[dict[str, Any]]:
-        hypothesis_payload = HypothesisGeneratorBuilder(self._settings).build_payload(report_date)
+        hypothesis_payload = self._load_existing_hypotheses(report_date)
         experiments: list[dict[str, Any]] = []
         index = 1
         for item in hypothesis_payload.get("hypotheses") or []:
@@ -134,8 +134,9 @@ class ExperimentPlanBuilder:
         report_date: date,
         discovery_pattern_prior_payload: dict[str, Any],
     ) -> list[dict[str, Any]]:
-        discovery_payload = DiscoveryEngineBuilder(self._settings).build_payload(report_date)
-        hypothesis_payload = HypothesisGeneratorBuilder(self._settings).build_payload(report_date)
+        suffix = report_date.strftime("%Y%m%d")
+        discovery_payload = _load_json(self._settings.active_output_dir / f"discovery_engine_{suffix}.json")
+        hypothesis_payload = self._load_existing_hypotheses(report_date)
         winner_hypotheses = [item for item in (hypothesis_payload.get("hypotheses") or []) if item.get("source") == "local_winner_prior"]
         grouped_hypotheses = _group_winner_hypotheses(winner_hypotheses)
         slot_pattern_index = {
@@ -190,6 +191,10 @@ class ExperimentPlanBuilder:
             )
         )
         return experiments
+
+    def _load_existing_hypotheses(self, report_date: date) -> dict[str, Any]:
+        suffix = report_date.strftime("%Y%m%d")
+        return _load_json(self._settings.active_output_dir / f"hypothesis_plan_{suffix}.json")
 
     @staticmethod
     def _plan_for_decision(item: dict[str, Any], index: int) -> dict[str, Any] | None:
@@ -284,6 +289,13 @@ class ExperimentPlanBuilder:
         if not payload["experiments"]:
             lines.append("- 暂无需要生成实验计划的决策。")
         return "\n".join(lines)
+
+
+def _load_json(path: Path) -> dict[str, Any]:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
 
 
 def _discovery_experiment_id(project: str) -> str:

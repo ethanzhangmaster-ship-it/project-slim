@@ -1,0 +1,58 @@
+{
+  "source": "adjust_sample",
+  "game": "p04_witch_merge",
+  "date_range": "2026-07-15 to 2026-07-22",
+  "note": "Realistic sample data. Replace with Adjust API output in production.",
+  "daily": {
+    "2026-07-15": {
+      "ios": {"installs": 420, "sessions": 1280, "iap_revenue": 218.4, "ad_revenue": 75.6, "dau": 3800},
+      "android": {"installs": 580, "sessions": 1450, "iap_revenue": 179.8, "ad_revenue": 127.6, "dau": 5200}
+    },
+    "2026-07-16": {
+      "ios": {"installs": 405, "sessions": 1230, "iap_revenue": 210.6, "ad_revenue": 72.9, "dau": 3750},
+      "android": {"installs": 560, "sessions": 1400, "iap_revenue": 173.6, "ad_revenue": 123.2, "dau": 5100}
+    },
+    "2026-07-17": {
+      "ios": {"installs": 440, "sessions": 1340, "iap_revenue": 228.8, "ad_revenue": 79.2, "dau": 3850},
+      "android": {"installs": 600, "sessions": 1500, "iap_revenue": 186.0, "ad_revenue": 132.0, "dau": 5300}
+    },
+    "2026-07-18": {
+      "ios": {"installs": 390, "sessions": 1170, "iap_revenue": 202.8, "ad_revenue": 70.2, "dau": 3700},
+      "android": {"installs": 540, "sessions": 1350, "iap_revenue": 167.4, "ad_revenue": 118.8, "dau": 5000}
+    },
+    "2026-07-19": {
+      "ios": {"installs": 460, "sessions": 1400, "iap_revenue": 239.2, "ad_revenue": 82.8, "dau": 3900},
+      "android": {"installs": 620, "sessions": 1550, "iap_revenue": 192.2, "ad_revenue": 136.4, "dau": 5400}
+    },
+    "2026-07-20": {
+      "ios": {"installs": 380, "sessions": 1100, "iap_revenue": 197.6, "ad_revenue": 68.4, "dau": 3650},
+      "android": {"installs": 520, "sessions": 1300, "iap_revenue": 161.2, "ad_revenue": 114.4, "dau": 4900}
+    },
+    "2026-07-21": {
+      "ios": {"installs": 350, "sessions": 1050, "iap_revenue": 182.0, "ad_revenue": 63.0, "dau": 3500},
+      "android": {"installs": 480, "sessions": 1200, "iap_revenue": 148.8, "ad_revenue": 105.6, "dau": 4800}
+    },
+    "2026-07-22": {
+      "ios": {"installs": 320, "sessions": 980, "iap_revenue": 166.4, "ad_revenue": 57.6, "dau": 3400},
+      "android": {"installs": 440, "sessions": 1100, "iap_revenue": 136.4, "ad_revenue": 96.8, "dau": 4600}
+    }
+  },
+  "cohorts": {
+    "ios": {
+      "d0": 1.0, "d1": 0.42, "d3": 0.28, "d7": 0.15, "d30": 0.065, "d120": 0.035,
+      "payer_d7": 0.047, "payer_d30": 0.052
+    },
+    "android": {
+      "d0": 1.0, "d1": 0.35, "d3": 0.22, "d7": 0.11, "d30": 0.042, "d120": 0.021,
+      "payer_d7": 0.017, "payer_d30": 0.022
+    }
+  },
+  "trends": {
+    "ios_installs_7d_pct": -0.12,
+    "android_installs_7d_pct": -0.16,
+    "ios_arpdau": 0.55,
+    "android_arpdau": 0.37,
+    "ios_payer_conversion": 0.046,
+    "android_payer_conversion": 0.017
+  }
+}

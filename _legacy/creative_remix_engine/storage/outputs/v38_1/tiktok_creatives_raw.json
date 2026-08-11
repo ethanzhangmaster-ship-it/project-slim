@@ -1,0 +1,277 @@
+{
+  "data": [
+    {
+      "creative_id": "tt_creative_hero_shock_000",
+      "video_name": "hero_shock_merge_10s",
+      "spend": 1232.1,
+      "impressions": 252508,
+      "clicks": 14474,
+      "installs": 2826,
+      "purchase": 252,
+      "d7_revenue": 1048.27,
+      "d30_revenue": 1209.24,
+      "date_start": "2026-06-30",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_curiosity_001",
+      "video_name": "dragon_curiosity_battle_10s",
+      "spend": 223.39,
+      "impressions": 71728,
+      "clicks": 3396,
+      "installs": 715,
+      "purchase": 82,
+      "d7_revenue": 91.58,
+      "d30_revenue": 390.9,
+      "date_start": "2026-06-14",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_002",
+      "video_name": "hero_shock_battle_10s",
+      "spend": 375.43,
+      "impressions": 63446,
+      "clicks": 4155,
+      "installs": 798,
+      "purchase": 35,
+      "d7_revenue": 375.08,
+      "d30_revenue": 209.46,
+      "date_start": "2026-06-20",
+      "date_end": "2026-07-07",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_shock_003",
+      "video_name": "dragon_shock_battle_10s",
+      "spend": 218.1,
+      "impressions": 66062,
+      "clicks": 5130,
+      "installs": 643,
+      "purchase": 50,
+      "d7_revenue": 218.47,
+      "d30_revenue": 182.91,
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "creative_id": "tt_creative_witch_curiosity_004",
+      "video_name": "witch_curiosity_battle_10s",
+      "spend": 771.12,
+      "impressions": 187160,
+      "clicks": 12048,
+      "installs": 2277,
+      "purchase": 253,
+      "d7_revenue": 670.28,
+      "d30_revenue": 895.34,
+      "date_start": "2026-06-29",
+      "date_end": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "creative_id": "tt_creative_witch_shock_005",
+      "video_name": "witch_shock_merge_10s",
+      "spend": 855.2,
+      "impressions": 210273,
+      "clicks": 15373,
+      "installs": 2581,
+      "purchase": 174,
+      "d7_revenue": 568.36,
+      "d30_revenue": 443.98,
+      "date_start": "2026-06-19",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "shock",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_006",
+      "video_name": "hero_shock_upgrade_10s",
+      "spend": 181.11,
+      "impressions": 63923,
+      "clicks": 3778,
+      "installs": 574,
+      "purchase": 53,
+      "d7_revenue": 74.35,
+      "d30_revenue": 266.73,
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-10",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_curiosity_007",
+      "video_name": "dragon_curiosity_merge_10s",
+      "spend": 959.5,
+      "impressions": 280728,
+      "clicks": 15072,
+      "installs": 2260,
+      "purchase": 228,
+      "d7_revenue": 353.58,
+      "d30_revenue": 804.14,
+      "date_start": "2026-06-18",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_challenge_008",
+      "video_name": "dragon_challenge_upgrade_10s",
+      "spend": 135.05,
+      "impressions": 66671,
+      "clicks": 3568,
+      "installs": 489,
+      "purchase": 33,
+      "d7_revenue": 58.51,
+      "d30_revenue": 136.88,
+      "date_start": "2026-07-01",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_shock_009",
+      "video_name": "dragon_shock_merge_10s",
+      "spend": 1083.55,
+      "impressions": 186128,
+      "clicks": 17131,
+      "installs": 2418,
+      "purchase": 112,
+      "d7_revenue": 848.52,
+      "d30_revenue": 2184.25,
+      "date_start": "2026-06-14",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "tt_creative_dragon_shock_010",
+      "video_name": "dragon_shock_merge_10s",
+      "spend": 1211.91,
+      "impressions": 247790,
+      "clicks": 12124,
+      "installs": 2456,
+      "purchase": 155,
+      "d7_revenue": 1360.69,
+      "d30_revenue": 2118.12,
+      "date_start": "2026-06-14",
+      "date_end": "2026-07-10",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "tt_creative_witch_curiosity_011",
+      "video_name": "witch_curiosity_battle_10s",
+      "spend": 352.06,
+      "impressions": 143369,
+      "clicks": 6088,
+      "installs": 759,
+      "purchase": 90,
+      "d7_revenue": 300.29,
+      "d30_revenue": 388.57,
+      "date_start": "2026-06-14",
+      "date_end": "2026-07-07",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_012",
+      "video_name": "hero_shock_merge_10s",
+      "spend": 240.82,
+      "impressions": 42524,
+      "clicks": 2647,
+      "installs": 556,
+      "purchase": 45,
+      "d7_revenue": 91.99,
+      "d30_revenue": 277.44,
+      "date_start": "2026-06-16",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_shock_013",
+      "video_name": "hero_shock_upgrade_10s",
+      "spend": 840.49,
+      "impressions": 205284,
+      "clicks": 11398,
+      "installs": 2140,
+      "purchase": 180,
+      "d7_revenue": 647.38,
+      "d30_revenue": 913.59,
+      "date_start": "2026-06-19",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "creative_id": "tt_creative_hero_challenge_014",
+      "video_name": "hero_challenge_battle_10s",
+      "spend": 898.18,
+      "impressions": 260426,
+      "clicks": 19285,
+      "installs": 3021,
+      "purchase": 281,
+      "d7_revenue": 848.09,
+      "d30_revenue": 1159.13,
+      "date_start": "2026-06-15",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "challenge",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.482954",
+  "source": "tiktok",
+  "is_mocked": true
+}

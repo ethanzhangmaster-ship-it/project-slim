@@ -1,0 +1,57 @@
+{
+  "release_id": "gprel_1786359093_662f38b4",
+  "game_id": "game_api_test",
+  "package_name": "com.api.test",
+  "version": "1.0.0",
+  "build_number": 1,
+  "aab_path": "/fake/app.aab",
+  "track": "internal",
+  "rollout_fraction": 0.05,
+  "started_at": "2026-08-10T18:51:33",
+  "finished_at": "2026-08-10T18:51:33",
+  "current_step": "check_status",
+  "completed_steps": [
+    "upload_bundle",
+    "create_release",
+    "submit_review"
+  ],
+  "step_results": {
+    "upload_bundle": {
+      "step": "upload_bundle",
+      "success": true,
+      "started_at": "2026-08-10T18:51:33",
+      "finished_at": "2026-08-10T18:51:33",
+      "data": {
+        "version_code": "1"
+      },
+      "error": ""
+    },
+    "create_release": {
+      "step": "create_release",
+      "success": true,
+      "started_at": "2026-08-10T18:51:33",
+      "finished_at": "2026-08-10T18:51:33",
+      "data": {
+        "release_id_play": "rel_game_api_test_internal",
+        "track": "internal"
+      },
+      "error": ""
+    },
+    "submit_review": {
+      "step": "submit_review",
+      "success": true,
+      "started_at": "2026-08-10T18:51:33",
+      "finished_at": "2026-08-10T18:51:33",
+      "data": {
+        "status": "in_review"
+      },
+      "error": ""
+    }
+  },
+  "version_code": "1",
+  "release_id_play": "rel_game_api_test_internal",
+  "review_status": "in_review",
+  "rejection": null,
+  "rollout_status": "",
+  "status": "submitted"
+}

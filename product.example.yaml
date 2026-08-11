@@ -1,0 +1,113 @@
+# ============================================================================
+# LaunchForge — product.yaml 配置 Schema（完整字段说明）
+# 一份配置进，商店可搜、广告能跑、内购能买的应用出。
+# 所有带 <...> 的是需要你填的机密/平台生成值；流水线会回写生成的 ID。
+# ============================================================================
+
+product:
+  name: "My Game"                 # 游戏显示名（商店用）
+  slug: mygame                    # 内部短名，用于目录/命名（小写无空格）
+  engine: unity                   # unity | cocos | defold | godot
+  unity_version: "2022.3.62f1"    # 工程实际 Unity 版本
+  company_name: xjoy              # PlayerSettings companyName
+  bundle_id: com.xjoy.mygame      # 基础包名（iOS/Android 复用，可分别覆盖）
+  version: "1.0.0"                # CFBundle/versionName
+  build: 1                        # CFBundleVersion/versionCode
+
+store:
+  title: "My Game"
+  subtitle: "Best puzzle ever"    # App Store 副标题
+  description: |
+    多行商店描述（中/英/各语言可分别给）。
+  keywords: [puzzle, casual, offline]
+  category: games.puzzle          # App Store 一级/二级分类
+  content_rating: "4+"            # 年龄分级（流水线也会跑问卷得出）
+  privacy_policy_url: "https://your-domain.com/privacy.html"   # 必须托管
+  terms_url: "https://your-domain.com/terms.html"
+  support_url: "https://your-domain.com/support.html"
+  screenshots:                    # 由 build 阶段用 Fastlane snapshot 生成，这里给规格
+    devices: [iphone6.7, iphone6.5, ipad12.9, pixel7]
+  languages:
+    - locale: en-US
+      title: "My Game"
+      description: "..."
+    - locale: zh-CN
+      title: "我的游戏"
+      description: "..."
+
+# ---- 变现：Watermelon 框架用 LevelPlay（ironSource，现属 AppLovin）做聚合 ----
+monetization:
+  provider: levelplay             # levelplay（推荐，AppLovin 旗下 mediation）| applovin_max（legacy MaxSdk，需自写 provider）
+  # 以下 SDK key / 广告位 ID 由流水线 Phase2 在 MAX/LevelPlay 后台建好后回写，
+  # 首次可留占位，跑完 Phase2 再 apply 一次注入器。
+  sdk_keys:
+    android: "<LEVELPLAY_ANDROID_APP_KEY>"
+    ios: "<LEVELPLAY_IOS_APP_KEY>"
+  placements:
+    banner:
+      android: "<ANDROID_BANNER_ID>"
+      ios: "<IOS_BANNER_ID>"
+    interstitial:
+      android: "<ANDROID_INTERSTITIAL_ID>"
+      ios: "<IOS_INTERSTITIAL_ID>"
+    # LevelPlay rewarded 走全局 app key/placement，无需单独 ID
+  # 自动优化（Phase6）
+  optimize:
+    auto_apply: false             # false=只出建议+日报；true=自动调整 waterfall/地板价
+    report_cron: "0 9 * * *"      # 每日 09:00 出日报
+    eCPM_floor_step: 0.02         # waterfall 调价步长（USD）
+    min_fill_rate: 0.05           # 低于此 fill rate 长期无量的网络降权
+
+# ---- 数据分析：Firebase + Adjust（E13.1 Module 5 Analytics）----
+# config_generator 会据此生成 gamefactory_config.json 的 analytics 段
+analytics:
+  providers: [Firebase, Adjust]      # SDK 会为列表里每个 provider 挂适配器
+  firebase_key: "<FIREBASE_WEB_APP_ID / plist GOOGLE_APP_ID>"
+  adjust_token: "<ADJUST_APP_TOKEN>"
+
+# ---- 远程配置：不用发版即可调参（E13.2 Priority 4 生产化）----
+# 嵌套写法；config_generator 拍平成 dot-path entries，SDK 用 GetFloat("ads.reward_frequency") 读取。
+# 未来 AI 控制：ReloadFromFile 直接换 remote_config.json，无需发版。
+remote_config:
+  ads:
+    reward_frequency: 5             # 每 N 关一次激励
+    interstitial_gap: 2             # 两次插屏间隔关卡数
+  gameplay:
+    level_difficulty: 1.2           # 难度系数
+
+# ---- 内购：Watermelon IAPManager，productKeyType 固定 0..5 ----
+# key 名 -> Watermelon ProductKeyType：noads0 starterpack1 goldsmall2 goldmed3 goldbig4 pupack5
+iap_products:
+  - key: noads
+    android_id: com.xjoy.mygame.noads
+    ios_id: com.xjoy.mygame.noads
+    type: non_consumable          # non_consumable | consumable | subscription
+  - key: starterpack
+    android_id: com.xjoy.mygame.starterpack
+    ios_id: com.xjoy.mygame.starterpack
+    type: non_consumable
+  - key: goldsmall
+    android_id: com.xjoy.mygame.goldsmall
+    ios_id: com.xjoy.mygame.goldsmall
+    type: consumable
+  - key: goldmed
+    android_id: com.xjoy.mygame.goldmed
+    ios_id: com.xjoy.mygame.goldmed
+    type: consumable
+  - key: goldbig
+    android_id: com.xjoy.mygame.goldbig
+    ios_id: com.xjoy.mygame.goldbig
+    type: consumable
+  - key: pupack
+    android_id: com.xjoy.mygame.pupack
+    ios_id: com.xjoy.mygame.pupack
+    type: consumable
+
+# ---- 凭据（仅本地/CI 用，绝不进 git；从 env 读取，这里只写变量名）----
+credentials:
+  applovin_api_key: "${APPLOVIN_API_KEY}"          # 或 LevelPlay/ironSource key
+  appstore_p8_path: "${APPSTORE_P8_PATH}"           # App Store Connect API p8
+  appstore_issuer: "${APPSTORE_ISSUER_ID}"
+  appstore_key_id: "${APPSTORE_KEY_ID}"
+  play_service_account_json: "${PLAY_SERVICE_ACCOUNT_JSON}"
+  fastlane_match_repo: "${FASTLANE_MATCH_REPO}"     # iOS 证书/描述文件仓库

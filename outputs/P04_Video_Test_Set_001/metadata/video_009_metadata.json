@@ -1,0 +1,19 @@
+{
+  "id": "video_009",
+  "creative_angle": "golden_explosion",
+  "source_dna": "v2601523",
+  "seed": 1009,
+  "status": "success",
+  "video_path": "outputs/P04_Video_Test_Set_001\\video_009.mp4",
+  "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_009_flux.png",
+  "prompt": "masterpiece, best quality, ultra detailed, 4K, sharp focus, epic fantasy scene, witch casting powerful spell, dragon breathing fire attack, magical explosion with bright flash, castle under siege with dramatic lighting, energy shockwave spreading across screen, dragon attacks castle with fire breath, witch defends with magic shield, epic battle clash, fantasy magical environment with character in center frame, particle effects filling screen, camera whip pan, tracking, 9X16 vertical format, golden dramatic, dramatic backlighting, volumetric light rays, mobile game advertisement, high quality cinematic, dynamic motion, engaging gameplay footage, colorful vibrant, vertical portrait composition, glowing particles, magical transformation flash, radiant light burst, sparkling stardust",
+  "negative_prompt": "dark forest, landscape, wide shot, scenery only, no character, text, watermark, blurry, low quality, deformed hands, extra fingers, bad anatomy, static image, freeze frame, ugly, distorted, character standing still, meaningless background",
+  "error": "",
+  "validation": {
+    "valid": true,
+    "resolution": "832x480",
+    "duration": 10.1,
+    "fps": 8.0,
+    "issues": []
+  }
+}

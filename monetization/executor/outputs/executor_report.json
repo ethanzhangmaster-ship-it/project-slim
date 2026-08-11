@@ -1,0 +1,352 @@
+{
+  "module": "E13.3.3 Autonomous Monetization Executor",
+  "status": "PASS",
+  "checks_passed": 22,
+  "checks_total": 22,
+  "pipeline": {
+    "decisions": 3,
+    "results": [
+      {
+        "execution_id": "exec_c0c2d4c2",
+        "status": "pending",
+        "gate_verdict": "manual_review",
+        "decision_id": "909370a2",
+        "strategy_type": "bid_floor_adjust",
+        "changes": [],
+        "rollback_available": false,
+        "provider_response": {},
+        "error": "awaiting_human_approval",
+        "score": 0.6895,
+        "confidence": 0.587,
+        "risk": "low",
+        "simulation_positive": true,
+        "repeat_count": 0,
+        "created_at": "2026-07-23T10:37:54.125754+00:00"
+      },
+      {
+        "execution_id": "exec_9485fb16",
+        "status": "pending",
+        "gate_verdict": "manual_review",
+        "decision_id": "db3aae8e",
+        "strategy_type": "backup_network",
+        "changes": [],
+        "rollback_available": false,
+        "provider_response": {},
+        "error": "awaiting_human_approval",
+        "score": 0.6702,
+        "confidence": 0.493,
+        "risk": "low",
+        "simulation_positive": true,
+        "repeat_count": 0,
+        "created_at": "2026-07-23T10:37:54.128079+00:00"
+      },
+      {
+        "execution_id": "exec_9e5f53b2",
+        "status": "pending",
+        "gate_verdict": "manual_review",
+        "decision_id": "db47c188",
+        "strategy_type": "no_action",
+        "changes": [],
+        "rollback_available": false,
+        "provider_response": {},
+        "error": "awaiting_human_approval",
+        "score": 0.68,
+        "confidence": 0.6,
+        "risk": "low",
+        "simulation_positive": true,
+        "repeat_count": 0,
+        "created_at": "2026-07-23T10:37:54.129076+00:00"
+      }
+    ]
+  },
+  "cases": {
+    "case1_low_risk_approved_executed": {
+      "execution_id": "exec_0d018114",
+      "status": "executed",
+      "gate_verdict": "approved",
+      "decision_id": "case1",
+      "strategy_type": "bid_floor_adjust",
+      "changes": [
+        {
+          "target": "US_android_reward_applovin_floor",
+          "provider": "MAX",
+          "change_type": "bid_floor",
+          "old": 30.0,
+          "new": 36.0,
+          "note": "Bid floor +20% per bid_floor_adjust"
+        },
+        {
+          "target": "US_android_reward_applovin_floor_rc_mirror",
+          "provider": "RemoteConfig",
+          "change_type": "bid_floor",
+          "old": 30.0,
+          "new": 36.0,
+          "note": "RemoteConfig mirror of the new floor (client-side gate)"
+        }
+      ],
+      "rollback_available": true,
+      "provider_response": {
+        "applied": [
+          {
+            "provider": "MAX",
+            "status": "simulated_success",
+            "real_api_called": false,
+            "change": {
+              "target": "US_android_reward_applovin_floor",
+              "provider": "MAX",
+              "change_type": "bid_floor",
+              "old": 30.0,
+              "new": 36.0,
+              "note": "Bid floor +20% per bid_floor_adjust"
+            }
+          },
+          {
+            "provider": "RemoteConfig",
+            "status": "simulated_success",
+            "real_api_called": false,
+            "parameter": "US_android_reward_applovin_floor_rc_mirror",
+            "value": 36.0,
+            "change": {
+              "target": "US_android_reward_applovin_floor_rc_mirror",
+              "provider": "RemoteConfig",
+              "change_type": "bid_floor",
+              "old": 30.0,
+              "new": 36.0,
+              "note": "RemoteConfig mirror of the new floor (client-side gate)"
+            }
+          }
+        ],
+        "real_api_called": false
+      },
+      "error": null,
+      "score": 0.85,
+      "confidence": 0.9,
+      "risk": "low",
+      "simulation_positive": true,
+      "repeat_count": 5,
+      "created_at": "2026-07-23T10:37:54.129988+00:00"
+    },
+    "case2_high_risk_rejected": {
+      "execution_id": "exec_2b529352",
+      "status": "rejected",
+      "gate_verdict": "rejected",
+      "decision_id": "case2",
+      "strategy_type": "frequency_adjust",
+      "changes": [],
+      "rollback_available": false,
+      "provider_response": {},
+      "error": "approval_gate_rejected",
+      "score": 0.7,
+      "confidence": 0.45,
+      "risk": "high",
+      "simulation_positive": false,
+      "repeat_count": 0,
+      "created_at": "2026-07-23T10:37:54.131220+00:00"
+    },
+    "case3_provider_failure_rolled_back": {
+      "execution_id": "exec_23946e04",
+      "status": "rolled_back",
+      "gate_verdict": "approved",
+      "decision_id": "case3",
+      "strategy_type": "bid_floor_adjust",
+      "changes": [
+        {
+          "target": "US_android_reward_applovin_floor",
+          "provider": "MAX",
+          "change_type": "bid_floor",
+          "old": 30.0,
+          "new": 36.0,
+          "note": "Bid floor +20% per bid_floor_adjust"
+        }
+      ],
+      "rollback_available": true,
+      "provider_response": {
+        "applied": [
+          {
+            "provider": "MAX",
+            "status": "simulated_success",
+            "real_api_called": false,
+            "change": {
+              "target": "US_android_reward_applovin_floor",
+              "provider": "MAX",
+              "change_type": "bid_floor",
+              "old": 30.0,
+              "new": 36.0,
+              "note": "Bid floor +20% per bid_floor_adjust"
+            }
+          }
+        ],
+        "failed": {
+          "provider": "RemoteConfig",
+          "status": "simulated_failed",
+          "real_api_called": false,
+          "change": {
+            "target": "US_android_reward_applovin_floor_rc_mirror",
+            "provider": "RemoteConfig",
+            "change_type": "bid_floor",
+            "old": 30.0,
+            "new": 36.0,
+            "note": "RemoteConfig mirror of the new floor (client-side gate)"
+          },
+          "error": "mock injected failure (simulate_fail=True)"
+        },
+        "rollback": {
+          "execution_id": "exec_e7f92ca5",
+          "reverted_changes": [
+            {
+              "target": "US_android_reward_applovin_floor",
+              "provider": "MAX",
+              "change_type": "bid_floor",
+              "old": 30.0,
+              "new": 36.0,
+              "note": "Bid floor +20% per bid_floor_adjust"
+            }
+          ],
+          "provider_responses": [
+            {
+              "provider": "MAX",
+              "status": "simulated_rolled_back",
+              "real_api_called": false,
+              "change": {
+                "target": "US_android_reward_applovin_floor",
+                "provider": "MAX",
+                "change_type": "bid_floor",
+                "old": 30.0,
+                "new": 36.0,
+                "note": "Bid floor +20% per bid_floor_adjust"
+              }
+            }
+          ],
+          "status": "rolled_back",
+          "created_at": "2026-07-23T10:37:54.132473+00:00"
+        },
+        "real_api_called": false
+      },
+      "error": "provider_failure: mock injected failure (simulate_fail=True)",
+      "score": 0.85,
+      "confidence": 0.9,
+      "risk": "low",
+      "simulation_positive": true,
+      "repeat_count": 5,
+      "created_at": "2026-07-23T10:37:54.132507+00:00"
+    }
+  },
+  "constraints": {
+    "no_real_api_called": true,
+    "approval_gate_mandatory": true,
+    "rollback_on_failure": true,
+    "direct_opportunity_to_api_forbidden": true
+  },
+  "checks": [
+    {
+      "name": "A1 real_pipeline_produced_decisions",
+      "passed": true,
+      "detail": "3 decisions from real E13.3.1 opportunities"
+    },
+    {
+      "name": "A2 pipeline_schema_valid",
+      "passed": true,
+      "detail": "all pipeline ExecutionResults validate against schema"
+    },
+    {
+      "name": "A3 pipeline_no_real_api",
+      "passed": true,
+      "detail": "no provider response ever set real_api_called=true"
+    },
+    {
+      "name": "A4 first_exposure_not_auto_executed",
+      "passed": true,
+      "detail": "first-exposure strategies default to manual_review/rejected (safe)"
+    },
+    {
+      "name": "A5 pipeline_status_known",
+      "passed": true,
+      "detail": "pipeline statuses: ['pending', 'pending', 'pending']"
+    },
+    {
+      "name": "C1 gate_approved",
+      "passed": true,
+      "detail": "verdict=approved"
+    },
+    {
+      "name": "C2 executed",
+      "passed": true,
+      "detail": "status=executed"
+    },
+    {
+      "name": "C3 has_changes",
+      "passed": true,
+      "detail": "2 change(s): ['bid_floor', 'bid_floor']"
+    },
+    {
+      "name": "C4 rollback_available",
+      "passed": true,
+      "detail": "rollback_available=True after a successful execution"
+    },
+    {
+      "name": "C5 no_real_api_case1",
+      "passed": true,
+      "detail": "provider responses certify real_api_called=false"
+    },
+    {
+      "name": "C6 schema_case1",
+      "passed": true,
+      "detail": "Case 1 result validates"
+    },
+    {
+      "name": "C7 gate_rejected",
+      "passed": true,
+      "detail": "verdict=rejected"
+    },
+    {
+      "name": "C8 not_executed",
+      "passed": true,
+      "detail": "status=rejected"
+    },
+    {
+      "name": "C9 nothing_applied_on_reject",
+      "passed": true,
+      "detail": "rejected decision produced zero applied changes"
+    },
+    {
+      "name": "C10 schema_case2",
+      "passed": true,
+      "detail": "Case 2 result validates"
+    },
+    {
+      "name": "C11 rolled_back",
+      "passed": true,
+      "detail": "status=rolled_back"
+    },
+    {
+      "name": "C12 rollback_invoked",
+      "passed": true,
+      "detail": "reverted 1 change(s)"
+    },
+    {
+      "name": "C13 rollback_no_real_api",
+      "passed": true,
+      "detail": "rollback responses also certify real_api_called=false"
+    },
+    {
+      "name": "C14 schema_case3",
+      "passed": true,
+      "detail": "Case 3 result validates"
+    },
+    {
+      "name": "S1 executed_requires_approval",
+      "passed": true,
+      "detail": "no executed/rolled_back result lacks gate approval"
+    },
+    {
+      "name": "S2 never_direct_from_opportunity",
+      "passed": true,
+      "detail": "every result passed through the gate (no Opportunity->API shortcut)"
+    },
+    {
+      "name": "S3 global_no_real_api",
+      "passed": true,
+      "detail": "global: real_api_called never true in any result"
+    }
+  ]
+}

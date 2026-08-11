@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "campaign_id": "campaign_0001",
+      "campaign_name": "P04_Witch_Battle_1",
+      "country": "DE",
+      "date": "2026-06-16"
+    },
+    {
+      "campaign_id": "campaign_0002",
+      "campaign_name": "P04_Witch_Battle_2",
+      "country": "US",
+      "date": "2026-07-09"
+    },
+    {
+      "campaign_id": "campaign_0003",
+      "campaign_name": "P04_Witch_Battle_3",
+      "country": "DE",
+      "date": "2026-06-26"
+    },
+    {
+      "campaign_id": "campaign_0004",
+      "campaign_name": "P04_Witch_Battle_4",
+      "country": "FR",
+      "date": "2026-07-07"
+    },
+    {
+      "campaign_id": "campaign_0005",
+      "campaign_name": "P04_Witch_Battle_5",
+      "country": "US",
+      "date": "2026-07-11"
+    },
+    {
+      "campaign_id": "campaign_0006",
+      "campaign_name": "P04_Witch_Battle_6",
+      "country": "JP",
+      "date": "2026-07-09"
+    },
+    {
+      "campaign_id": "campaign_0007",
+      "campaign_name": "P04_Witch_Battle_7",
+      "country": "US",
+      "date": "2026-06-17"
+    },
+    {
+      "campaign_id": "campaign_0008",
+      "campaign_name": "P04_Witch_Battle_8",
+      "country": "US",
+      "date": "2026-06-25"
+    },
+    {
+      "campaign_id": "campaign_0009",
+      "campaign_name": "P04_Witch_Battle_9",
+      "country": "UK",
+      "date": "2026-06-30"
+    },
+    {
+      "campaign_id": "campaign_0010",
+      "campaign_name": "P04_Witch_Battle_10",
+      "country": "US",
+      "date": "2026-06-30"
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.463722",
+  "source": "facebook",
+  "is_mocked": true
+}

@@ -51,15 +51,6 @@ class ExternalBlockersBuilder:
                 creative_source_readiness_markdown=output_dir / f"creative_source_readiness_{suffix}.md",
                 creative_attribution_audit_markdown=output_dir / f"creative_attribution_audit_{suffix}.md",
                 google_creative_repair_audit_markdown=output_dir / f"google_creative_repair_audit_{suffix}.md",
-                tecdo_probe_markdown=(output_dir / f"tecdo_probe_{suffix}.md")
-                if (output_dir / f"tecdo_probe_{suffix}.md").exists()
-                else None,
-                tecdo_account_reconciliation_markdown=(output_dir / f"tecdo_account_reconciliation_{suffix}.md")
-                if (output_dir / f"tecdo_account_reconciliation_{suffix}.md").exists()
-                else None,
-                tecdo_sync_checklist_markdown=(output_dir / f"tecdo_sync_checklist_{suffix}.md")
-                if (output_dir / f"tecdo_sync_checklist_{suffix}.md").exists()
-                else None,
                 closure_status_markdown=(output_dir / f"closure_status_{suffix}.md")
                 if (output_dir / f"closure_status_{suffix}.md").exists()
                 else None,
@@ -83,7 +74,6 @@ class ExternalBlockersBuilder:
         output_dir = self._settings.active_output_dir
         p04 = self._load_json(output_dir / f"p04_source_checklist_{suffix}.json")
         detail_reply = self._load_json(output_dir / f"detail_reply_checklist_{suffix}.json")
-        tecdo = self._load_json(output_dir / f"tecdo_sync_checklist_{suffix}.json")
         creative_readiness = self._load_json(output_dir / f"creative_source_readiness_{suffix}.json")
         preview_paths = self._load_preview_paths(report_date)
 
@@ -118,25 +108,12 @@ class ExternalBlockersBuilder:
                 "success_criteria": "当前已锁群；如需新增群，再补充 allowlist 并复跑健康检查。",
             },
             {
-                "name": "TecDo 后台同步",
-                "status": "done" if tecdo.get("passed") else "pending",
-                "what_missing": [] if tecdo.get("passed") else ["服务商完成 report/query 报表同步"],
-                "current": str((tecdo.get("summary") or {}).get("root_cause") or ""),
-                "next_command": f"python -m market_ops.cli tecdo-probe --report-date {report_date.isoformat()}",
-                "success_criteria": "tecdo_probe_has_rows = true",
-            },
-            {
                 "name": "Google 直连素材凭证",
                 "status": "done"
                 if bool((creative_readiness.get("summary") or {}).get("google_can_run_now"))
-                or bool((creative_readiness.get("summary") or {}).get("tecdo_is_formal_source"))
                 else "pending",
                 "what_missing": list((creative_readiness.get("summary") or {}).get("google_missing_env") or []),
-                "current": (
-                    "Google 当前已由 TecDo 代理素材源承接；Google Ads 官方直连凭证仍属于增强项。"
-                    if bool((creative_readiness.get("summary") or {}).get("tecdo_is_formal_source"))
-                    else "Google 解析层已接入，但 Google Ads 直连素材凭证仍缺失。"
-                ),
+                "current": "Google 解析层已接入，但 Google Ads 直连素材凭证仍缺失。",
                 "next_command": f"python -m market_ops.cli creative-source-readiness --report-date {report_date.isoformat()}",
                 "success_criteria": "当前周报已有可用素材来源；如需原生 creative id，再补 google_can_run_now = true",
             },

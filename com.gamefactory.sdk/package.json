@@ -1,0 +1,11 @@
+{
+  "name": "com.gamefactory.sdk",
+  "version": "1.0.0",
+  "displayName": "GameFactory SDK",
+  "description": "Unified game infrastructure SDK for the LaunchForge pipeline: Ads (AppLovin MAX / ironSource LevelPlay / Google AdMob standalone), Analytics (Firebase / Adjust), RemoteConfig, IAP (Unity IAP), User. EU/US channel roster (Meta, UnityAds, Vungle, Mintegral, Pangle, AmazonAPS, InMobi, Chartboost) covered via MAX mediation. Config-driven via gamefactory_config.json. Plug-and-play: conditional provider assemblies compile only when their SDK + scripting define are present.",
+  "unity": "2022.3",
+  "documentationUrl": "Documentation/README.md",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {}
+}

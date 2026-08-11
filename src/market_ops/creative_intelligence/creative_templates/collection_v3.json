@@ -1,0 +1,64 @@
+{
+  "template_id": "collection_v3",
+  "template_name": "Collection V3 — Complete the Set",
+  "version": "3.0",
+  "description": "V3: Collection hook with grid of collected items, one missing slot, treasure chest reward, CTA",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "background",
+      "position": "full",
+      "x": 0, "y": 0, "width": 1.0, "height": 1.0,
+      "z_index": 0,
+      "content": "background",
+      "generator": "base_background"
+    },
+    {
+      "name": "text_area",
+      "position": "top",
+      "x": 0.0, "y": 0.04, "width": 1.0, "height": 0.14,
+      "z_index": 30,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "reward_area",
+      "position": "center",
+      "x": 0.12, "y": 0.18, "width": 0.76, "height": 0.50,
+      "z_index": 20,
+      "content": "ai_generated",
+      "generator": "reward_asset",
+      "feather_radius": 15,
+      "crop_strategy": "crop_center",
+      "crop_scale": 0.80
+    },
+    {
+      "name": "collection_progress",
+      "position": "below_grid",
+      "x": 0.15, "y": 0.70, "width": 0.70, "height": 0.08,
+      "z_index": 15,
+      "content": "progress_indicator",
+      "progress_pct": 0.75,
+      "label": "3/4 DRAGONS COLLECTED"
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0, "y": 0.82, "width": 1.0, "height": 0.18,
+      "z_index": 35,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "generation_config": {
+    "reward_config": {
+      "reward_type": "dragon_collection",
+      "rarity": "legendary",
+      "style": "collection_screen"
+    }
+  }
+}

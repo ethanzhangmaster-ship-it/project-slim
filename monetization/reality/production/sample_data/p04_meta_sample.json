@@ -1,0 +1,109 @@
+{
+  "source": "meta_ads_sample",
+  "game": "p04_witch_merge",
+  "date_range": "2026-07-15 to 2026-07-22",
+  "note": "Realistic sample data. Replace with Meta Ads API output in production.",
+  "campaigns": [
+    {
+      "campaign_id": "c_p04_us_ios_a",
+      "campaign_name": "P04 US iOS - Witch Apple DNA v3",
+      "objective": "app_installs",
+      "platform": "ios",
+      "country": "US",
+      "status": "active",
+      "daily_budget": 1500.0,
+      "spend_7d": 10200.0,
+      "impressions_7d": 420000,
+      "clicks_7d": 9200,
+      "installs_7d": 2800,
+      "cpi_7d": 3.64
+    },
+    {
+      "campaign_id": "c_p04_us_android_a",
+      "campaign_name": "P04 US Android - Witch Merge",
+      "objective": "app_installs",
+      "platform": "android",
+      "country": "US",
+      "status": "active",
+      "daily_budget": 1200.0,
+      "spend_7d": 8200.0,
+      "impressions_7d": 380000,
+      "clicks_7d": 7500,
+      "installs_7d": 2200,
+      "cpi_7d": 3.73
+    }
+  ],
+  "creatives": [
+    {
+      "creative_id": "FB_10291",
+      "creative_name": "Witch Apple DNA v3",
+      "format": "video",
+      "platform": "ios",
+      "campaign_ids": ["c_p04_us_ios_a"],
+      "spend_7d": 6800.0,
+      "impressions_7d": 280000,
+      "clicks_7d": 4800,
+      "installs_7d": 1400,
+      "ctr_7d": 0.0171,
+      "cpi_7d": 4.86,
+      "frequency_7d": 5.1,
+      "ctr_trend": -0.21,
+      "note": "FATIGUE DETECTED: CTR declining 21%, frequency 5.1 > 4.0 limit. This is the creative on the risk list."
+    },
+    {
+      "creative_id": "FB_10345",
+      "creative_name": "Merge Bubble Design v1",
+      "format": "video",
+      "platform": "ios",
+      "campaign_ids": ["c_p04_us_ios_a"],
+      "spend_7d": 3400.0,
+      "impressions_7d": 140000,
+      "clicks_7d": 4400,
+      "installs_7d": 1400,
+      "ctr_7d": 0.0314,
+      "cpi_7d": 2.43,
+      "frequency_7d": 2.1,
+      "ctr_trend": 0.05,
+      "note": "HEALTHY — good CTR, low frequency"
+    },
+    {
+      "creative_id": "FB_10280",
+      "creative_name": "Witch Merge Story v2",
+      "format": "video",
+      "platform": "android",
+      "campaign_ids": ["c_p04_us_android_a"],
+      "spend_7d": 5200.0,
+      "impressions_7d": 240000,
+      "clicks_7d": 4200,
+      "installs_7d": 1300,
+      "ctr_7d": 0.0175,
+      "cpi_7d": 4.00,
+      "frequency_7d": 3.5,
+      "ctr_trend": -0.08,
+      "note": "WARNING: mild CTR decline but within limits"
+    },
+    {
+      "creative_id": "FB_10410",
+      "creative_name": "Witch Merge New DNA v4",
+      "format": "video",
+      "platform": "android",
+      "campaign_ids": ["c_p04_us_android_a"],
+      "spend_7d": 3000.0,
+      "impressions_7d": 140000,
+      "clicks_7d": 3300,
+      "installs_7d": 900,
+      "ctr_7d": 0.0236,
+      "cpi_7d": 3.33,
+      "frequency_7d": 1.8,
+      "ctr_trend": 0.12,
+      "note": "HEALTHY — new creative, good early CTR"
+    }
+  ],
+  "aggregate": {
+    "total_spend_7d": 18400.0,
+    "total_installs_7d": 5000,
+    "blended_cpi_7d": 3.68,
+    "fatigued_creatives": 1,
+    "fatigue_spend_pct": 0.37
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "network_cleanup": {
+    "strategy_id": "network_cleanup",
+    "dimension": "monetization",
+    "parameters": {
+      "target": "low_ecpm"
+    },
+    "confidence": 0.6,
+    "performance": {
+      "wins": 0,
+      "losses": 0,
+      "reward_sum": 0,
+      "samples": 0,
+      "consecutive_failures": 0,
+      "last_outcome": 0
+    },
+    "status": "active"
+  },
+  "aggressive_scale": {
+    "strategy_id": "aggressive_scale",
+    "dimension": "ua",
+    "parameters": {
+      "budget_growth": 0.3
+    },
+    "confidence": 0.6,
+    "performance": {
+      "wins": 0,
+      "losses": 0,
+      "reward_sum": 0,
+      "samples": 0,
+      "consecutive_failures": 0,
+      "last_outcome": 0
+    },
+    "status": "active"
+  },
+  "conservative_scale": {
+    "strategy_id": "conservative_scale",
+    "dimension": "ua",
+    "parameters": {
+      "budget_growth": 0.1
+    },
+    "confidence": 0.7,
+    "performance": {
+      "wins": 0,
+      "losses": 0,
+      "reward_sum": 0,
+      "samples": 0,
+      "consecutive_failures": 0,
+      "last_outcome": 0
+    },
+    "status": "active"
+  },
+  "creative_fatigue_guard": {
+    "strategy_id": "creative_fatigue_guard",
+    "dimension": "creative",
+    "parameters": {
+      "refresh_days": 14
+    },
+    "confidence": 0.6,
+    "performance": {
+      "wins": 0,
+      "losses": 0,
+      "reward_sum": 0,
+      "samples": 0,
+      "consecutive_failures": 0,
+      "last_outcome": 0
+    },
+    "status": "active"
+  },
+  "revenue_recovery": {
+    "strategy_id": "revenue_recovery",
+    "dimension": "unknown",
+    "parameters": {},
+    "confidence": 0.5,
+    "performance": {
+      "wins": 0,
+      "losses": 0,
+      "reward_sum": 0.0,
+      "samples": 0,
+      "consecutive_failures": 0,
+      "last_outcome": "NEUTRAL"
+    },
+    "status": "active"
+  },
+  "creative_refresh": {
+    "strategy_id": "creative_refresh",
+    "dimension": "unknown",
+    "parameters": {},
+    "confidence": 0.8,
+    "performance": {
+      "wins": 6,
+      "losses": 0,
+      "reward_sum": 6.0,
+      "samples": 6,
+      "consecutive_failures": 0,
+      "last_outcome": "SUCCESS"
+    },
+    "status": "active"
+  }
+}

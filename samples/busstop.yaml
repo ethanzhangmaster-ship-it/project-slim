@@ -1,0 +1,102 @@
+# ============================================================================
+# LaunchForge 样本配置 — BusStop（真实工程 D:\Downloads\BusStopBack\BusStop）
+# 字段值取自工程实际状态；机密/平台生成值留占位，Phase2 建好后回写。
+# ============================================================================
+
+product:
+  name: "BusStop"
+  slug: busstop
+  engine: unity
+  unity_version: "2022.3.62f1"
+  company_name: xjoy
+  bundle_id: com.xjoy.busstopjam
+  version: "1.0.0"
+  build: 1
+
+store:
+  title: "Bus Stop"
+  subtitle: "Sort & Park Puzzle"
+  description: |
+    Bus Stop is a relaxing sort-and-park puzzle. Route the buses, clear the
+    jams, and unlock new vehicles across hundreds of hand-crafted levels.
+  keywords: [puzzle, casual, bus, sort, parking, offline]
+  category: games.puzzle
+  content_rating: "4+"
+  privacy_policy_url: "https://your-domain.com/busstop/privacy.html"
+  terms_url: "https://your-domain.com/busstop/terms.html"
+  support_url: "https://your-domain.com/busstop/support.html"
+  screenshots:
+    devices: [iphone6.7, iphone6.5, ipad12.9, pixel7]
+  languages:
+    - locale: en-US
+      title: "Bus Stop"
+      description: "Sort & park the buses. Calm puzzle fun."
+    - locale: zh-CN
+      title: "公交停靠"
+      description: "整理并停靠巴士，轻松解谜。"
+
+monetization:
+  provider: levelplay
+  sdk_keys:
+    android: "<LEVELPLAY_ANDROID_APP_KEY>"   # Phase2 回写
+    ios: "<LEVELPLAY_IOS_APP_KEY>"           # Phase2 回写
+  placements:
+    banner:
+      android: "<ANDROID_BANNER_ID>"         # Phase2 回写
+      ios: "<IOS_BANNER_ID>"
+    interstitial:
+      android: "<ANDROID_INTERSTITIAL_ID>"
+      ios: "<IOS_INTERSTITIAL_ID>"
+  optimize:
+    auto_apply: false
+    report_cron: "0 9 * * *"
+    eCPM_floor_step: 0.02
+    min_fill_rate: 0.05
+
+# ---- 数据分析：Firebase + Adjust ----
+analytics:
+  providers: [Firebase, Adjust]
+  firebase_key: "<FIREBASE_APP_ID>"
+  adjust_token: "<ADJUST_TOKEN>"
+
+# ---- 远程配置（嵌套写法；config_generator 拍平成 dot-path entries，SDK 用 RemoteConfig.GetFloat("ads.reward_frequency") 读取）----
+remote_config:
+  ads:
+    reward_frequency: 3
+    interstitial_gap: 2
+  gameplay:
+    level_difficulty: 1.1
+
+iap_products:
+  - key: noads
+    android_id: com.xjoy.busstopjam.noads
+    ios_id: com.xjoy.busstopjam.noads
+    type: non_consumable
+  - key: starterpack
+    android_id: com.xjoy.busstopjam.starterpack
+    ios_id: com.xjoy.busstopjam.starterpack
+    type: non_consumable
+  - key: goldsmall
+    android_id: com.xjoy.busstopjam.goldsmall
+    ios_id: com.xjoy.busstopjam.goldsmall
+    type: consumable
+  - key: goldmed
+    android_id: com.xjoy.busstopjam.goldmed
+    ios_id: com.xjoy.busstopjam.goldmed
+    type: consumable
+  - key: goldbig
+    android_id: com.xjoy.busstopjam.goldbig
+    ios_id: com.xjoy.busstopjam.goldbig
+    type: consumable
+  - key: pupack
+    android_id: com.xjoy.busstopjam.pupack
+    ios_id: com.xjoy.busstopjam.pupack
+    type: consumable
+
+credentials:
+  applovin_api_key: "${APPLOVIN_API_KEY}"
+  appstore_p8_path: "${APPSTORE_P8_PATH}"
+  appstore_issuer: "${APPSTORE_ISSUER_ID}"
+  appstore_key_id: "${APPSTORE_KEY_ID}"
+  play_service_account_json: "${PLAY_SERVICE_ACCOUNT_JSON}"
+  fastlane_match_repo: "${FASTLANE_MATCH_REPO}"

@@ -1,0 +1,105 @@
+# 每日 CEO 决策单 · 2026-08-10
+
+> report_id：ceo-2026-08-10 ｜ 公司状态：🟢 健康 ｜ real_api_called：False
+
+## 一、今日健康概览
+
+- 公司状态：**🟢 健康**
+- 在册游戏：**12** 款 ｜ 舰队日收入：**$11,120.00** ｜ DAU：36,066 ｜ 日花费：$1,280.00 ｜ 数据置信：70%
+- 行动分布：✅ AUTO **2** ｜ 🖐 APPROVAL **3** ｜ ⛔ BLOCKED **0** ｜ 👁 OBSERVE 3
+
+## 二、今日最大机会（Top 8）
+
+| # | 游戏 | 行动 | 优先级 | 预期影响 | 置信 | 紧迫 | 模拟 |
+|---|---|---|---|---|---|---|---|
+| 1 | demo_game_004 | 恢复收入（demo_game_004） | 0.3078 | +36.0% | 90% | 95% | PASS |
+| 2 | demo_game_008 | 恢复收入（demo_game_008） | 0.2650 | +32.0% | 90% | 92% | PASS |
+| 3 | demo_game_000 | 恢复收入（demo_game_000） | 0.1280 | +20.0% | 80% | 80% | PASS |
+| 4 | demo_game_002 | 刷新创意素材（demo_game_002） | 0.1042 | +20.0% | 84% | 62% | PASS |
+| 5 | demo_game_006 | 刷新创意素材（demo_game_006） | 0.1029 | +20.0% | 83% | 62% | PASS |
+| 6 | demo_game_009 | 止损买量（demo_game_009） | 0.0915 | +31.0% | 72% | 82% | — |
+| 7 | demo_game_001 | 止损买量（demo_game_001） | 0.0561 | +19.0% | 72% | 82% | — |
+| 8 | demo_game_005 | 止损买量（demo_game_005） | 0.0443 | +15.0% | 72% | 82% | — |
+
+## 三、今日行动队列（决策 → 执行）
+
+### ✅ 已自动执行（AUTO EXECUTE）
+
+- **[cea-003] demo_game_002** — 刷新创意素材（demo_game_002）：已自动执行：刷新创意素材（demo_game_002） ｜ 预期收益 +20.0%，置信 84%，风险 30%。
+  - 责任来源：`e17.3_decision+e17.8_sim+p2.4_execution` ｜ 优先级：0.1042
+- **[cea-004] demo_game_006** — 刷新创意素材（demo_game_006）：已自动执行：刷新创意素材（demo_game_006） ｜ 预期收益 +20.0%，置信 83%，风险 30%。
+  - 责任来源：`e17.3_decision+e17.8_sim+p2.4_execution` ｜ 优先级：0.1029
+
+### 🖐 待你审批（APPROVAL REQUIRED）
+
+- **[cea-000] demo_game_004** — 恢复收入（demo_game_004）：等待 CEO 审批：恢复收入（demo_game_004） ｜ 风险 45%，置信 90%，预期收益 +36.0%。 备注：决策引擎判定需人工审批（已进审批队列）
+  - 责任来源：`e17.3_decision+p2.3_approval` ｜ 优先级：0.3078
+- **[cea-001] demo_game_008** — 恢复收入（demo_game_008）：等待 CEO 审批：恢复收入（demo_game_008） ｜ 风险 45%，置信 90%，预期收益 +32.0%。 备注：决策引擎判定需人工审批（已进审批队列）
+  - 责任来源：`e17.3_decision+p2.3_approval` ｜ 优先级：0.2650
+- **[cea-002] demo_game_000** — 恢复收入（demo_game_000）：等待 CEO 审批：恢复收入（demo_game_000） ｜ 风险 45%，置信 80%，预期收益 +20.0%。 备注：决策引擎判定需人工审批（已进审批队列）
+  - 责任来源：`e17.3_decision+p2.3_approval` ｜ 优先级：0.1280
+
+## 四、风险与注意
+
+- ℹ️ **无显著风险**：今日未发现需特别关注的风险项。
+
+## 五、执行小结
+
+- 执行 **0** ｜ 成功 **0** ｜ 失败 **0** ｜ 回滚 **0** ｜ 拦截 **0**
+- real_api_called：**False**（DRY_RUN 纪律）
+
+## 六、今日学习（经验回流）
+
+- 🧠 [network_cleanup] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重
+- 🧠 [aggressive_scale] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重
+- 🧠 [conservative_scale] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重
+- 🧠 [creative_fatigue_guard] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重
+- 🧠 [revenue_recovery] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重
+- 🧠 [creative_refresh] 历史成功率 100.0%（样本 6） → 建议：boost。历史成功率 100%，建议提高其优先级
+
+## 七、Portfolio Recommendation（跨游戏资源建议）
+
+- **编排状态**：`blocked` ｜ ⛔ 已被闸门/约束阻断
+- **摘要**：Portfolio proposal: reallocate 640.00 of 1280.00 across 12 game(s); 12 AUTO / 0 APPROVAL / 0 BLOCKED.
+- **建议**：Portfolio proposal: reallocate 640.00 of 1280.00 across 12 game(s); 12 AUTO / 0 APPROVAL / 0 BLOCKED.
+
+  10. demo_game_000: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=10, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  1. demo_game_001: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=1, portfolio_score=0.000); simulated Δ=+0.00 (current=124.00 → proposed=124.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  2. demo_game_002: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=2, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  3. demo_game_003: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=3, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  12. demo_game_004: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=12, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  4. demo_game_005: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=4, portfolio_score=0.000); simulated Δ=+0.00 (current=120.00 → proposed=120.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  5. demo_game_006: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=5, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  6. demo_game_007: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=6, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  11. demo_game_008: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=11, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  7. demo_game_009: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=7, portfolio_score=0.000); simulated Δ=+0.00 (current=136.00 → proposed=136.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  8. demo_game_010: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=8, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+  9. demo_game_011: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=9, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable
+
+Evidence chain:
+  - Simulation verdict: BLOCKED (simulation confidence=1.000).
+  - Simulation blocked by constraint(s): reserve_floor.
+  - Guard (Rule0~3): 12 AUTO / 0 APPROVAL / 0 BLOCKED.
+  - Budget conservation: Σproposed == Σbaseline — no budget created or destroyed.
+  - Discipline: proposal only — no budget changed, no execution request emitted; awaiting E17.3 Decision Review / human approval.
+- **提案闸门**：`blocked` ｜ 置信：50%
+
+| # | 游戏 | 建议动作 | 预算Δ | 三态 | 依据 |
+|---|---|---|---|---|---|
+| 10 | demo_game_000 | reduce | — | auto | recommend REDUCE (rank=10, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 1 | demo_game_001 | reduce | — | auto | recommend REDUCE (rank=1, portfolio_score=0.000); simulated Δ=+0.00 (current=124.00 → proposed=124.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 2 | demo_game_002 | reduce | — | auto | recommend REDUCE (rank=2, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 3 | demo_game_003 | reduce | — | auto | recommend REDUCE (rank=3, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 12 | demo_game_004 | reduce | — | auto | recommend REDUCE (rank=12, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 4 | demo_game_005 | reduce | — | auto | recommend REDUCE (rank=4, portfolio_score=0.000); simulated Δ=+0.00 (current=120.00 → proposed=120.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 5 | demo_game_006 | reduce | — | auto | recommend REDUCE (rank=5, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 6 | demo_game_007 | reduce | — | auto | recommend REDUCE (rank=6, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 11 | demo_game_008 | reduce | — | auto | recommend REDUCE (rank=11, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 7 | demo_game_009 | reduce | — | auto | recommend REDUCE (rank=7, portfolio_score=0.000); simulated Δ=+0.00 (current=136.00 → proposed=136.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 8 | demo_game_010 | reduce | — | auto | recommend REDUCE (rank=8, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+| 9 | demo_game_011 | reduce | — | auto | recommend REDUCE (rank=9, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable |
+
+- real_api_called：**False**（DRY_RUN 纪律：仅建议，不执行）
+
+---
+_由 LaunchForge P3.2 CEO Daily Report 生成 · 全 SIM，无真实 API 调用_

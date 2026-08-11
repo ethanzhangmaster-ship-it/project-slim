@@ -1,0 +1,19 @@
+{
+  "id": "video_007",
+  "creative_angle": "orbit_merge",
+  "source_dna": "v2601163",
+  "seed": 1007,
+  "status": "success",
+  "video_path": "outputs/P04_Video_Test_Set_001\\video_007.mp4",
+  "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_007_flux.png",
+  "prompt": "masterpiece, best quality, ultra detailed, 4K, sharp focus, top-down puzzle game view, magical items merging together, bright fusion glow explosion, match-3 cascade with sparkling effects, satisfying merge completion animation, UI elements with golden borders, items merging with bright fusion glow, puzzle pieces connecting with spark, match-3 explosion cascade, fantasy magical environment with character in center frame, particle effects filling screen, camera fast push in, tracking, 9X16 vertical format, magical, dramatic backlighting, volumetric light rays, mobile game advertisement, high quality cinematic, dynamic motion, engaging gameplay footage, colorful vibrant, vertical portrait composition, glowing particles, magical transformation flash, radiant light burst, sparkling stardust",
+  "negative_prompt": "dark forest, landscape, wide shot, scenery only, no character, text, watermark, blurry, low quality, deformed hands, extra fingers, bad anatomy, static image, freeze frame, ugly, distorted, character standing still, meaningless background",
+  "error": "",
+  "validation": {
+    "valid": true,
+    "resolution": "832x480",
+    "duration": 10.1,
+    "fps": 8.0,
+    "issues": []
+  }
+}

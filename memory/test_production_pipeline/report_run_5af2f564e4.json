@@ -1,0 +1,77 @@
+{
+  "run_id": "run_5af2f564e4",
+  "status": "success",
+  "creative_id": "c_merge_formula_6aaf47fc",
+  "template_id": "merge_formula",
+  "layout_ast_id": "ast_merge_formula_6d32d402",
+  "score": 0.7322,
+  "reject_reason": "",
+  "asset": {
+    "asset_id": "img_8e04eaf0aaf7",
+    "file_path": "memory\\test_production_pipeline\\assets\\img_8e04eaf0aaf7.png",
+    "sha256": "72785e415abcad172630158a6e29ef7e244bd2b98440e00078a074ca3bba786d",
+    "url": "http://localhost:8080/assets/img_8e04eaf0aaf7.png"
+  },
+  "ad_stack": {
+    "campaign_id": "camp_75c267670e",
+    "adset_id": "adset_cdaf08f0d1",
+    "ad_id": "ad_dcf222631b",
+    "api_calls_count": 3
+  },
+  "metrics": {
+    "impressions": 200,
+    "clicks": 20,
+    "installs": 6,
+    "purchases": 0,
+    "ctr": 0.1,
+    "cvr": 0.3,
+    "ipm": 30.0,
+    "roas": 0.0,
+    "cpc": 0.07,
+    "total_revenue": 0.0,
+    "total_cost": 1.4
+  },
+  "attribution": {
+    "method": "last_touch",
+    "click_attributed_installs": 6,
+    "view_attributed_installs": 0
+  },
+  "weight_update": {
+    "applied": true,
+    "budget_delta": {
+      "reward": 0.0,
+      "mechanism": 0.0,
+      "identity": 0.0,
+      "ui": 0.0
+    },
+    "template_delta": {
+      "merge_formula": 0.0,
+      "evolution_chain": 0.0,
+      "before_after": 0.0
+    },
+    "inference_delta": {
+      "mechanism_clarity": -0.062,
+      "reward_vividness": 0.07900000000000001,
+      "identity_projection": -0.010000000000000009,
+      "low_friction": -0.007000000000000006
+    },
+    "compiler_version_before": 1,
+    "compiler_version_after": 2
+  },
+  "steps_completed": {
+    "step1_generate": true,
+    "step2_render": true,
+    "step3_upload": true,
+    "step4_campaign": true,
+    "step5_adset": true,
+    "step6_ad": true,
+    "step7_launch": true,
+    "step8_collect_events": true,
+    "step9_attribution": true,
+    "step10_metrics": true,
+    "step11_dataset": true,
+    "step12_weight_update": true
+  },
+  "started_at": 1782884848,
+  "completed_at": 1782884850
+}

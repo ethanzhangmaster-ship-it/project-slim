@@ -56,15 +56,6 @@ class ProjectDetailCoverageBuilder:
                 creative_source_readiness_markdown=output_dir / f"creative_source_readiness_{suffix}.md",
                 creative_attribution_audit_markdown=output_dir / f"creative_attribution_audit_{suffix}.md",
                 google_creative_repair_audit_markdown=output_dir / f"google_creative_repair_audit_{suffix}.md",
-                tecdo_probe_markdown=(output_dir / f"tecdo_probe_{suffix}.md")
-                if (output_dir / f"tecdo_probe_{suffix}.md").exists()
-                else None,
-                tecdo_account_reconciliation_markdown=(output_dir / f"tecdo_account_reconciliation_{suffix}.md")
-                if (output_dir / f"tecdo_account_reconciliation_{suffix}.md").exists()
-                else None,
-                tecdo_sync_checklist_markdown=(output_dir / f"tecdo_sync_checklist_{suffix}.md")
-                if (output_dir / f"tecdo_sync_checklist_{suffix}.md").exists()
-                else None,
                 closure_status_markdown=(output_dir / f"closure_status_{suffix}.md")
                 if (output_dir / f"closure_status_{suffix}.md").exists()
                 else None,

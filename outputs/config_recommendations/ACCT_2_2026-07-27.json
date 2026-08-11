@@ -1,0 +1,969 @@
+{
+  "account": "ACCT_2",
+  "period": {
+    "start": "2026-07-18",
+    "end": "2026-07-27"
+  },
+  "generated_at": "2026-07-28",
+  "overall_blend_ecpm": 62.7,
+  "summary": {
+    "segments": 10,
+    "demote_candidates": 18,
+    "floor_suggestions": 14
+  },
+  "segments": [
+    {
+      "app": "Merge Monster: Vampire Mansion",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 142.14,
+      "segment_impressions": 3918,
+      "networks": [
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 332.78,
+          "fill_rate": 0.83,
+          "impression_share": 0.2274,
+          "revenue": 296.51,
+          "score": 276.2185,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 244.51,
+          "fill_rate": 0.9863,
+          "impression_share": 0.0184,
+          "revenue": 17.6,
+          "score": 241.1646,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 225.0,
+          "fill_rate": 0.865,
+          "impression_share": 0.0003,
+          "revenue": 0.23,
+          "score": 194.621,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 134.6,
+          "fill_rate": 0.9592,
+          "impression_share": 0.3111,
+          "revenue": 164.08,
+          "score": 129.1118,
+          "rank": 4
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 45.81,
+          "fill_rate": 0.9823,
+          "impression_share": 0.11,
+          "revenue": 19.74,
+          "score": 44.998,
+          "rank": 5
+        },
+        {
+          "network": "FACEBOOK_NETWORK",
+          "ecpm": 52.31,
+          "fill_rate": 0.6906,
+          "impression_share": 0.2134,
+          "revenue": 43.73,
+          "score": 36.1271,
+          "rank": 6
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 36.05,
+          "fill_rate": 0.9802,
+          "impression_share": 0.0546,
+          "revenue": 7.71,
+          "score": 35.3351,
+          "rank": 7
+        },
+        {
+          "network": "TIKTOK_BIDDING",
+          "ecpm": 31.22,
+          "fill_rate": 0.8292,
+          "impression_share": 0.0143,
+          "revenue": 1.75,
+          "score": 25.8841,
+          "rank": 8
+        },
+        {
+          "network": "FYBER_BIDDING",
+          "ecpm": 28.53,
+          "fill_rate": 0.8045,
+          "impression_share": 0.0385,
+          "revenue": 4.31,
+          "score": 22.9553,
+          "rank": 9
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 26.46,
+          "fill_rate": 0.4391,
+          "impression_share": 0.0115,
+          "revenue": 1.19,
+          "score": 11.6199,
+          "rank": 10
+        },
+        {
+          "network": "CHARTBOOST_NETWORK",
+          "ecpm": 20.0,
+          "fill_rate": 0.0016,
+          "impression_share": 0.0005,
+          "revenue": 0.04,
+          "score": 0.0324,
+          "rank": 11
+        }
+      ],
+      "recommended_order": [
+        "ADMOB_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING",
+        "FACEBOOK_NETWORK",
+        "VUNGLE_BIDDING",
+        "TIKTOK_BIDDING",
+        "FYBER_BIDDING",
+        "IRONSOURCE_BIDDING",
+        "CHARTBOOST_NETWORK"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "Merge Monster: Vampire Mansion",
+      "geo": "de",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 27.78,
+      "segment_impressions": 1588,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 35.86,
+          "fill_rate": 0.9997,
+          "impression_share": 0.3848,
+          "revenue": 21.91,
+          "score": 35.8516,
+          "rank": 1
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 33.87,
+          "fill_rate": 0.9622,
+          "impression_share": 0.2311,
+          "revenue": 12.43,
+          "score": 32.5921,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 28.49,
+          "fill_rate": 0.9955,
+          "impression_share": 0.0856,
+          "revenue": 3.87,
+          "score": 28.3618,
+          "rank": 3
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 17.16,
+          "fill_rate": 0.8192,
+          "impression_share": 0.194,
+          "revenue": 5.29,
+          "score": 14.0609,
+          "rank": 4
+        },
+        {
+          "network": "FACEBOOK_NETWORK",
+          "ecpm": 7.75,
+          "fill_rate": 0.3656,
+          "impression_share": 0.0239,
+          "revenue": 0.29,
+          "score": 2.8338,
+          "rank": 5
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 2.07,
+          "fill_rate": 0.9705,
+          "impression_share": 0.0605,
+          "revenue": 0.2,
+          "score": 2.0132,
+          "rank": 6
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 3.41,
+          "fill_rate": 0.201,
+          "impression_share": 0.0006,
+          "revenue": 0.0,
+          "score": 0.6862,
+          "rank": 7
+        },
+        {
+          "network": "FYBER_BIDDING",
+          "ecpm": 1.79,
+          "fill_rate": 0.2867,
+          "impression_share": 0.0069,
+          "revenue": 0.02,
+          "score": 0.512,
+          "rank": 8
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.62,
+          "fill_rate": 0.5324,
+          "impression_share": 0.0101,
+          "revenue": 0.01,
+          "score": 0.3311,
+          "rank": 9
+        },
+        {
+          "network": "CHARTBOOST_NETWORK",
+          "ecpm": 20.0,
+          "fill_rate": 0.0013,
+          "impression_share": 0.0025,
+          "revenue": 0.08,
+          "score": 0.0264,
+          "rank": 10
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "ADMOB_BIDDING",
+        "FACEBOOK_NETWORK",
+        "VUNGLE_BIDDING",
+        "IRONSOURCE_BIDDING",
+        "FYBER_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "CHARTBOOST_NETWORK"
+      ],
+      "demote_candidates": [
+        "VUNGLE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 2.07,
+          "impression_share": 0.0605,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Merge Monster: Vampire Mansion",
+      "geo": "fr",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 9.36,
+      "segment_impressions": 659,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 24.0,
+          "fill_rate": 0.9822,
+          "impression_share": 0.217,
+          "revenue": 3.43,
+          "score": 23.576,
+          "rank": 1
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 10.29,
+          "fill_rate": 0.8301,
+          "impression_share": 0.1457,
+          "revenue": 0.99,
+          "score": 8.5387,
+          "rank": 2
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 8.43,
+          "fill_rate": 0.7759,
+          "impression_share": 0.2018,
+          "revenue": 1.12,
+          "score": 6.5439,
+          "rank": 3
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 3.17,
+          "fill_rate": 0.997,
+          "impression_share": 0.1138,
+          "revenue": 0.24,
+          "score": 3.1579,
+          "rank": 4
+        },
+        {
+          "network": "FACEBOOK_NETWORK",
+          "ecpm": 3.63,
+          "fill_rate": 0.5493,
+          "impression_share": 0.0956,
+          "revenue": 0.23,
+          "score": 1.9959,
+          "rank": 5
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 1.39,
+          "fill_rate": 0.4707,
+          "impression_share": 0.0243,
+          "revenue": 0.02,
+          "score": 0.6542,
+          "rank": 6
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.61,
+          "fill_rate": 0.9762,
+          "impression_share": 0.0926,
+          "revenue": 0.04,
+          "score": 0.5937,
+          "rank": 7
+        },
+        {
+          "network": "FYBER_BIDDING",
+          "ecpm": 1.48,
+          "fill_rate": 0.2889,
+          "impression_share": 0.1032,
+          "revenue": 0.1,
+          "score": 0.4267,
+          "rank": 8
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.8,
+          "fill_rate": 0.3603,
+          "impression_share": 0.0061,
+          "revenue": 0.0,
+          "score": 0.2888,
+          "rank": 9
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING",
+        "ADMOB_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "FACEBOOK_NETWORK",
+        "IRONSOURCE_BIDDING",
+        "VUNGLE_BIDDING",
+        "FYBER_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "ADMOB_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "FACEBOOK_NETWORK",
+        "VUNGLE_BIDDING",
+        "FYBER_BIDDING"
+      ],
+      "floor_suggestions": {
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.61,
+          "impression_share": 0.0926,
+          "requires_manual_apply": true
+        },
+        "FYBER_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 1.48,
+          "impression_share": 0.1032,
+          "requires_manual_apply": true
+        },
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 3.17,
+          "impression_share": 0.1138,
+          "requires_manual_apply": true
+        },
+        "FACEBOOK_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 3.63,
+          "impression_share": 0.0956,
+          "requires_manual_apply": true
+        },
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 8.43,
+          "impression_share": 0.2018,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Hospital Fever: Super Stylist",
+      "geo": "de",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 0.47,
+      "segment_impressions": 565,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.54,
+          "fill_rate": 0.9962,
+          "impression_share": 0.6938,
+          "revenue": 0.21,
+          "score": 0.5415,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.27,
+          "fill_rate": 0.9975,
+          "impression_share": 0.3044,
+          "revenue": 0.05,
+          "score": 0.2651,
+          "rank": 2
+        },
+        {
+          "network": "CHARTBOOST_NETWORK",
+          "ecpm": 7.0,
+          "fill_rate": 0.0008,
+          "impression_share": 0.0018,
+          "revenue": 0.01,
+          "score": 0.0059,
+          "rank": 3
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "CHARTBOOST_NETWORK"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.27,
+          "impression_share": 0.3044,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.54,
+          "impression_share": 0.6938,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Merge Monster: Vampire Mansion",
+      "geo": "gb",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 69.43,
+      "segment_impressions": 532,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 161.02,
+          "fill_rate": 0.9634,
+          "impression_share": 0.3271,
+          "revenue": 28.02,
+          "score": 155.1333,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 62.94,
+          "fill_rate": 0.9939,
+          "impression_share": 0.0169,
+          "revenue": 0.57,
+          "score": 62.5583,
+          "rank": 2
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 26.5,
+          "fill_rate": 0.9732,
+          "impression_share": 0.2744,
+          "revenue": 3.87,
+          "score": 25.7913,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 19.77,
+          "fill_rate": 0.9805,
+          "impression_share": 0.0376,
+          "revenue": 0.4,
+          "score": 19.3883,
+          "rank": 4
+        },
+        {
+          "network": "FACEBOOK_NETWORK",
+          "ecpm": 25.29,
+          "fill_rate": 0.7166,
+          "impression_share": 0.1466,
+          "revenue": 1.97,
+          "score": 18.1265,
+          "rank": 5
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 20.6,
+          "fill_rate": 0.8775,
+          "impression_share": 0.1898,
+          "revenue": 2.08,
+          "score": 18.0802,
+          "rank": 6
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 7.93,
+          "fill_rate": 0.518,
+          "impression_share": 0.0075,
+          "revenue": 0.03,
+          "score": 4.1076,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "UNITY_BIDDING",
+        "VUNGLE_BIDDING",
+        "FACEBOOK_NETWORK",
+        "ADMOB_BIDDING",
+        "IRONSOURCE_BIDDING"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "Merge Monster: Vampire Mansion",
+      "geo": "ru",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 39.69,
+      "segment_impressions": 426,
+      "networks": [
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 300.19,
+          "fill_rate": 0.9984,
+          "impression_share": 0.0282,
+          "revenue": 3.6,
+          "score": 299.7037,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 55.61,
+          "fill_rate": 0.9992,
+          "impression_share": 0.507,
+          "revenue": 12.01,
+          "score": 55.5634,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 7.45,
+          "fill_rate": 0.9856,
+          "impression_share": 0.0493,
+          "revenue": 0.16,
+          "score": 7.3402,
+          "rank": 3
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 6.94,
+          "fill_rate": 0.9893,
+          "impression_share": 0.3427,
+          "revenue": 1.01,
+          "score": 6.8696,
+          "rank": 4
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 7.27,
+          "fill_rate": 0.8497,
+          "impression_share": 0.007,
+          "revenue": 0.02,
+          "score": 6.1741,
+          "rank": 5
+        },
+        {
+          "network": "FYBER_BIDDING",
+          "ecpm": 3.74,
+          "fill_rate": 0.8874,
+          "impression_share": 0.0634,
+          "revenue": 0.1,
+          "score": 3.3185,
+          "rank": 6
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 3.36,
+          "fill_rate": 0.6584,
+          "impression_share": 0.0023,
+          "revenue": 0.0,
+          "score": 2.2122,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING",
+        "UNITY_BIDDING",
+        "IRONSOURCE_BIDDING",
+        "FYBER_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "VUNGLE_BIDDING",
+        "UNITY_BIDDING",
+        "FYBER_BIDDING"
+      ],
+      "floor_suggestions": {
+        "UNITY_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 6.94,
+          "impression_share": 0.3427,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Merge Monster: Vampire Mansion",
+      "geo": "ca",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 25.53,
+      "segment_impressions": 338,
+      "networks": [
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 83.13,
+          "fill_rate": 1.0,
+          "impression_share": 0.0089,
+          "revenue": 0.25,
+          "score": 83.1277,
+          "rank": 1
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 43.14,
+          "fill_rate": 0.9729,
+          "impression_share": 0.1065,
+          "revenue": 1.55,
+          "score": 41.9753,
+          "rank": 2
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 31.83,
+          "fill_rate": 0.8301,
+          "impression_share": 0.0621,
+          "revenue": 0.67,
+          "score": 26.4199,
+          "rank": 3
+        },
+        {
+          "network": "FACEBOOK_NETWORK",
+          "ecpm": 32.96,
+          "fill_rate": 0.7228,
+          "impression_share": 0.2959,
+          "revenue": 3.3,
+          "score": 23.8273,
+          "rank": 4
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 38.03,
+          "fill_rate": 0.5501,
+          "impression_share": 0.0059,
+          "revenue": 0.08,
+          "score": 20.9237,
+          "rank": 5
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 17.66,
+          "fill_rate": 0.9972,
+          "impression_share": 0.4231,
+          "revenue": 2.53,
+          "score": 17.6104,
+          "rank": 6
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 13.71,
+          "fill_rate": 0.9777,
+          "impression_share": 0.0059,
+          "revenue": 0.03,
+          "score": 13.4074,
+          "rank": 7
+        },
+        {
+          "network": "FYBER_BIDDING",
+          "ecpm": 19.93,
+          "fill_rate": 0.5877,
+          "impression_share": 0.0148,
+          "revenue": 0.1,
+          "score": 11.711,
+          "rank": 8
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 11.43,
+          "fill_rate": 0.7716,
+          "impression_share": 0.003,
+          "revenue": 0.01,
+          "score": 8.8208,
+          "rank": 9
+        },
+        {
+          "network": "TIKTOK_BIDDING",
+          "ecpm": 3.54,
+          "fill_rate": 0.5708,
+          "impression_share": 0.068,
+          "revenue": 0.08,
+          "score": 2.0201,
+          "rank": 10
+        },
+        {
+          "network": "CHARTBOOST_NETWORK",
+          "ecpm": 20.0,
+          "fill_rate": 0.0065,
+          "impression_share": 0.0059,
+          "revenue": 0.04,
+          "score": 0.1303,
+          "rank": 11
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL_BIDDING",
+        "UNITY_BIDDING",
+        "ADMOB_BIDDING",
+        "FACEBOOK_NETWORK",
+        "IRONSOURCE_BIDDING",
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING",
+        "FYBER_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "TIKTOK_BIDDING",
+        "CHARTBOOST_NETWORK"
+      ],
+      "demote_candidates": [
+        "TIKTOK_BIDDING"
+      ],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "Hospital Fever: Super Stylist",
+      "geo": "id",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 0.63,
+      "segment_impressions": 290,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.69,
+          "fill_rate": 0.9954,
+          "impression_share": 0.3,
+          "revenue": 0.06,
+          "score": 0.6836,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.6,
+          "fill_rate": 0.9726,
+          "impression_share": 0.7,
+          "revenue": 0.12,
+          "score": 0.5874,
+          "rank": 2
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.6,
+          "impression_share": 0.7,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.69,
+          "impression_share": 0.3,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Hospital Fever: Super Stylist",
+      "geo": "fr",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 0.44,
+      "segment_impressions": 233,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.45,
+          "fill_rate": 1.0,
+          "impression_share": 0.4549,
+          "revenue": 0.05,
+          "score": 0.4454,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.37,
+          "fill_rate": 0.9573,
+          "impression_share": 0.5322,
+          "revenue": 0.05,
+          "score": 0.3586,
+          "rank": 2
+        },
+        {
+          "network": "CHARTBOOST_NETWORK",
+          "ecpm": 3.0,
+          "fill_rate": 0.0249,
+          "impression_share": 0.0129,
+          "revenue": 0.01,
+          "score": 0.0748,
+          "rank": 3
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "CHARTBOOST_NETWORK"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.37,
+          "impression_share": 0.5322,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.45,
+          "impression_share": 0.4549,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Hospital Fever: Super Stylist",
+      "geo": "qa",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 0.2,
+      "segment_impressions": 200,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.23,
+          "fill_rate": 1.0,
+          "impression_share": 0.79,
+          "revenue": 0.04,
+          "score": 0.2344,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.09,
+          "fill_rate": 0.9912,
+          "impression_share": 0.21,
+          "revenue": 0.0,
+          "score": 0.0907,
+          "rank": 2
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            5.02,
+            9.41
+          ],
+          "ecpm": 0.23,
+          "impression_share": 0.79,
+          "requires_manual_apply": true
+        }
+      }
+    }
+  ]
+}

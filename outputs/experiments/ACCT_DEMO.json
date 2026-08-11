@@ -1,0 +1,211 @@
+{
+  "account": "ACCT_DEMO",
+  "experiments": [
+    {
+      "exp_id": "a518d92ec905",
+      "account": "ACCT_DEMO",
+      "title": "Increase bid opportunity for MIN_WINNER",
+      "hypothesis": "Raising auction exposure captures the network's eCPM-implied potential; the hidden_winner signal should clear without ARPDAU regression.",
+      "action_type": "increase_bid_opportunity",
+      "target": "MIN_WINNER",
+      "source_rule": "hidden_winner",
+      "params": {
+        "expected_impact": "capturing only 2% of its eCPM-implied potential at eCPM $80.00 — raise auction exposure"
+      },
+      "expected_signal": {
+        "rule": "hidden_winner",
+        "target": "MIN_WINNER"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "PROPOSED",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "proposed A/B from daily report",
+      "last_arpdau_guardrail": "",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_DEMO",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "manual_dropin",
+        "note": "operator drop-in DAU 1,000,000 (as_of 2026-07-23)",
+        "dau": 1000000,
+        "arpdau": 0.15,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：MIN_WINNER 仅捕获其 eCPM 潜力 2% （30,000 曝光 @ eCPM $80.00，收入占比 1.6%）",
+      "variant_b": "变体(B)：提升 bidding 曝光优先级，目标捕获潜力 → ~51%，预期收入占比 → ~2.4%",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.78,
+      "metric_baseline": 0.15,
+      "ab_design": "A/B 测量：apply 前(A) vs apply 后(B) 同 DAU 下 Revenue/DAU 差分（diff-in-diff vs 账户漂移）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "4776f41bab13",
+      "account": "ACCT_DEMO",
+      "title": "Raise unified auction price floor on APPLOVIN_EXCHANGE to $2.02-$3.78",
+      "hypothesis": "Lifting the bid constraint cuts lowest-value backfill; the bid_floor signal should clear with fill-rate guarded.",
+      "action_type": "adjust_bid_constraint",
+      "target": "APPLOVIN_EXCHANGE",
+      "source_rule": "bid_floor",
+      "params": {
+        "expected_impact": "cut lowest-value backfill impressions; watch fill"
+      },
+      "expected_signal": {
+        "rule": "bid_floor",
+        "target": "APPLOVIN_EXCHANGE"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "PROPOSED",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "proposed A/B from daily report",
+      "last_arpdau_guardrail": "",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_DEMO",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "manual_dropin",
+        "note": "operator drop-in DAU 1,000,000 (as_of 2026-07-23)",
+        "dau": 1000000,
+        "arpdau": 0.15,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：APPLOVIN_EXCHANGE 占 15.1% 曝光 @ 寄生 eCPM $1.40 （< 账户 blend $25.23），低价值回填",
+      "variant_b": "变体(B)：设 price floor $2.02–$3.78 过滤低价值填充",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 7.15,
+      "metric_baseline": 0.15,
+      "ab_design": "A/B 测量：过滤前后同 DAU Revenue/DAU 差分（同时盯整体填充率不下滑）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "5e0320a2e61e",
+      "account": "ACCT_DEMO",
+      "title": "Diversify: application:app1",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "application:app1",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "PROPOSED",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "proposed A/B from daily report",
+      "last_arpdau_guardrail": "",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_DEMO",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "manual_dropin",
+        "note": "operator drop-in DAU 1,000,000 (as_of 2026-07-23)",
+        "dau": 1000000,
+        "arpdau": 0.15,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（application:app1），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": 0.15,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    },
+    {
+      "exp_id": "e8c05651c9b7",
+      "account": "ACCT_DEMO",
+      "title": "Diversify: network:GOOD_NET",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "network:GOOD_NET",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "PROPOSED",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "proposed A/B from daily report",
+      "last_arpdau_guardrail": "",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_DEMO",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "manual_dropin",
+        "note": "operator drop-in DAU 1,000,000 (as_of 2026-07-23)",
+        "dau": 1000000,
+        "arpdau": 0.15,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（network:GOOD_NET），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": 0.15,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    }
+  ]
+}

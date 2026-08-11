@@ -1,0 +1,499 @@
+{
+  "version": "V4.8",
+  "timestamp": "2026-07-08T13:49:38.906614",
+  "pass_count": 98,
+  "fail_count": 0,
+  "passed": true,
+  "results": [
+    {
+      "test": "Decision Executor Init",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Scale Up Action",
+      "status": "PASS",
+      "details": "Actions: 3"
+    },
+    {
+      "test": "All Successful",
+      "status": "PASS",
+      "details": "All actions succeeded"
+    },
+    {
+      "test": "Scale Up Details",
+      "status": "PASS",
+      "details": "Message: Scaled up budget from $500 to $700"
+    },
+    {
+      "test": "Approval Policy",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Level Evaluation",
+      "status": "PASS",
+      "details": "Level: ApprovalLevel.AUTO_WITH_LOG"
+    },
+    {
+      "test": "Approval Granted",
+      "status": "PASS",
+      "details": "Approved: True"
+    },
+    {
+      "test": "Reason Provided",
+      "status": "PASS",
+      "details": "Reason: Auto-approved with log: Level 1 action"
+    },
+    {
+      "test": "Rollback Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Rollback Executed",
+      "status": "PASS",
+      "details": "Executed: True"
+    },
+    {
+      "test": "Rollback Action",
+      "status": "PASS",
+      "details": "Action: update_budget"
+    },
+    {
+      "test": "State Reversed",
+      "status": "PASS",
+      "details": "Original: {'budget': 1000}"
+    },
+    {
+      "test": "Action History",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "ID: action_0001"
+    },
+    {
+      "test": "Summary Total",
+      "status": "PASS",
+      "details": "Total: 1"
+    },
+    {
+      "test": "Success Rate",
+      "status": "PASS",
+      "details": "Rate: 1.0"
+    },
+    {
+      "test": "Meta Executor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Campaign Created",
+      "status": "PASS",
+      "details": "ID: meta_campaign_9604"
+    },
+    {
+      "test": "Ad Set Created",
+      "status": "PASS",
+      "details": "ID: meta_adset_1120"
+    },
+    {
+      "test": "Ad Created",
+      "status": "PASS",
+      "details": "ID: meta_ad_2151"
+    },
+    {
+      "test": "Budget Updated",
+      "status": "PASS",
+      "details": "$500 \u2192 $700.0"
+    },
+    {
+      "test": "Google Executor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Google Campaign",
+      "status": "PASS",
+      "details": "ID: google_campaign_6718"
+    },
+    {
+      "test": "Google Budget Update",
+      "status": "PASS",
+      "details": "Budget: $600.0"
+    },
+    {
+      "test": "ASA Executor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "ASA Campaign",
+      "status": "PASS",
+      "details": "ID: asa_campaign_6007"
+    },
+    {
+      "test": "ASA Keywords Added",
+      "status": "PASS",
+      "details": "Added: 2"
+    },
+    {
+      "test": "TikTok Executor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "TikTok Campaign",
+      "status": "PASS",
+      "details": "ID: tiktok_campaign_6350"
+    },
+    {
+      "test": "Bid Optimizer",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Bid Increase",
+      "status": "PASS",
+      "details": "Action: increase"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.90"
+    },
+    {
+      "test": "New Bid Calculated",
+      "status": "PASS",
+      "details": "$10.00 \u2192 $12.00"
+    },
+    {
+      "test": "Campaign Builder",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Campaign ID",
+      "status": "PASS",
+      "details": "ID: campaign_0737"
+    },
+    {
+      "test": "Platform",
+      "status": "PASS",
+      "details": "Platform: meta"
+    },
+    {
+      "test": "Budget",
+      "status": "PASS",
+      "details": "Budget: $500.0"
+    },
+    {
+      "test": "Ad Sets",
+      "status": "PASS",
+      "details": "Ad Sets: 1"
+    },
+    {
+      "test": "Campaign Optimizer",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Scale Up Action",
+      "status": "PASS",
+      "details": "Action: scale_up"
+    },
+    {
+      "test": "Budget Increase",
+      "status": "PASS",
+      "details": "$500.0 \u2192 $650.0"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.88"
+    },
+    {
+      "test": "Campaign Monitor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Alert Generated",
+      "status": "PASS",
+      "details": "Alerts: 1"
+    },
+    {
+      "test": "Critical Alert",
+      "status": "PASS",
+      "details": "Severity: CRITICAL"
+    },
+    {
+      "test": "Alert Message",
+      "status": "PASS",
+      "details": "Message: Spend $350 with 0 purchases"
+    },
+    {
+      "test": "Campaign Memory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "ID: campaign_0001"
+    },
+    {
+      "test": "Winners Found",
+      "status": "PASS",
+      "details": "Winners: 1"
+    },
+    {
+      "test": "Success Rate",
+      "status": "PASS",
+      "details": "Success Rate: 0.73"
+    },
+    {
+      "test": "Asset Uploader",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Upload Success",
+      "status": "PASS",
+      "details": "Status: uploaded"
+    },
+    {
+      "test": "Asset ID",
+      "status": "PASS",
+      "details": "ID: meta_asset_2918"
+    },
+    {
+      "test": "URL Generated",
+      "status": "PASS",
+      "details": "URL: https://meta.com/assets/2918"
+    },
+    {
+      "test": "Creative Rotator",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Creatives Rotated",
+      "status": "PASS",
+      "details": "Rotated: 5"
+    },
+    {
+      "test": "Removed Creatives",
+      "status": "PASS",
+      "details": "Removed: 2"
+    },
+    {
+      "test": "Added Creatives",
+      "status": "PASS",
+      "details": "Added: 2"
+    },
+    {
+      "test": "Strategy Applied",
+      "status": "PASS",
+      "details": "Strategy: performance_based"
+    },
+    {
+      "test": "Fatigue Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fatigue Score",
+      "status": "PASS",
+      "details": "Score: 0.78"
+    },
+    {
+      "test": "Status",
+      "status": "PASS",
+      "details": "Status: fatigued"
+    },
+    {
+      "test": "Recommended Action",
+      "status": "PASS",
+      "details": "Action: rotate"
+    },
+    {
+      "test": "Blacklist Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "Blacklisted: creative_bad_001"
+    },
+    {
+      "test": "Platform",
+      "status": "PASS",
+      "details": "Platform: meta"
+    },
+    {
+      "test": "Daily Planner",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Plan ID",
+      "status": "PASS",
+      "details": "ID: daily_plan_20260708"
+    },
+    {
+      "test": "Plan Items",
+      "status": "PASS",
+      "details": "Items: 4"
+    },
+    {
+      "test": "Summary Generated",
+      "status": "PASS",
+      "details": "Summary: Today's Strategy:\n\n1. Scale 2 creative(s)\n   - cre..."
+    },
+    {
+      "test": "Prioritized",
+      "status": "PASS",
+      "details": "Sorted by priority"
+    },
+    {
+      "test": "Weekly Strategy",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Week Plan ID",
+      "status": "PASS",
+      "details": "ID: weekly_plan_20260706"
+    },
+    {
+      "test": "Objectives",
+      "status": "PASS",
+      "details": "Objectives: 3"
+    },
+    {
+      "test": "Strategies",
+      "status": "PASS",
+      "details": "Strategies: 3"
+    },
+    {
+      "test": "Budget Allocation",
+      "status": "PASS",
+      "details": "Total: 100%"
+    },
+    {
+      "test": "Opportunity Detector",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Opportunities Found",
+      "status": "PASS",
+      "details": "Opportunities: 5"
+    },
+    {
+      "test": "Impact Score",
+      "status": "PASS",
+      "details": "Impact: 0.455"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.85"
+    },
+    {
+      "test": "Priority Engine",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Priorities Calculated",
+      "status": "PASS",
+      "details": "Items: 3"
+    },
+    {
+      "test": "Sorted",
+      "status": "PASS",
+      "details": "Sorted by priority"
+    },
+    {
+      "test": "Score Calculated",
+      "status": "PASS",
+      "details": "Score: 0.86"
+    },
+    {
+      "test": "Campaign Memory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "ID: campaign_0001"
+    },
+    {
+      "test": "Success Rate",
+      "status": "PASS",
+      "details": "Rate: 0.73"
+    },
+    {
+      "test": "Platform Memory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "ID: meta"
+    },
+    {
+      "test": "Historical Success",
+      "status": "PASS",
+      "details": "Success: 0.73"
+    },
+    {
+      "test": "Recommended Platforms",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Audience Memory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "ID: US_Female_25-34"
+    },
+    {
+      "test": "Match Score",
+      "status": "PASS",
+      "details": "Score: 0.91"
+    },
+    {
+      "test": "Failure Memory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Record Added",
+      "status": "PASS",
+      "details": "ID: failure_0001"
+    },
+    {
+      "test": "Blacklisted",
+      "status": "PASS",
+      "details": "Blacklisted: True"
+    },
+    {
+      "test": "Patterns",
+      "status": "PASS",
+      "details": "Patterns: 1"
+    }
+  ]
+}

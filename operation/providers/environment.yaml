@@ -1,0 +1,27 @@
+# E15.2.3 — Provider Environment Configuration
+#
+# Controls which provider implementations are used.
+# Change "type" to switch between simulation and live APIs.
+# 
+# Available types:
+#   ads:       simulation | max | admob
+#   revenue:   simulation | max
+#   iap:       simulation | appstore | googleplay
+#   config:    simulation
+#   analytics: simulation | adjust
+
+providers:
+  ads:
+    type: simulation
+
+  revenue:
+    type: simulation
+
+  iap:
+    type: simulation
+
+  config:
+    type: simulation
+
+  analytics:
+    type: simulation

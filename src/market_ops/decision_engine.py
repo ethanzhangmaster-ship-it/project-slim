@@ -497,7 +497,7 @@ class DecisionEngineBuilder:
         summary = source_payload.get("summary") or {}
         creative_ready = bool(readiness.get("creative_analysis_ready"))
         campaign_ready = bool(readiness.get("campaign_analysis_ready"))
-        source_ready = bool(summary.get("meta_can_run_now") or summary.get("tecdo_can_run_now") or summary.get("google_can_run_now"))
+        source_ready = bool(summary.get("meta_can_run_now") or summary.get("google_can_run_now"))
         if creative_ready:
             return 0.85, "high", notes
         if campaign_ready or source_ready:

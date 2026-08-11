@@ -118,6 +118,37 @@ class FinalBandit:
         self._save_memory()
 
     # ========================================================================
+    # Policy Stabilizer Core: T(t)-modulated update (Spec §14)
+    # ========================================================================
+
+    def update_with_temperature(
+        self, gene_type: str, gene_value: str, reward: float, T: float,
+    ) -> None:
+        """T(t)-modulated Bandit update (Policy Stabilizer Core §14)
+
+        T(t) 控制学习速度:
+          T 高 → 学得快 (探索阶段)
+          T 低 → 学得慢 (收敛阶段)
+
+        delta = reward - theta
+        theta += alpha * delta * T
+        sigma = (1 - beta * T) * sigma + beta * abs(delta)
+        trials += 1
+        """
+        self._step += 1
+        key = f"{gene_type}_{gene_value}"
+        if key not in self.arms:
+            self.arms[key] = FinalArm(gene_type=gene_type, gene_value=gene_value)
+
+        arm = self.arms[key]
+        delta = reward - arm.theta
+        arm.theta += self.alpha * delta * T
+        arm.sigma = (1 - self.beta * T) * arm.sigma + self.beta * abs(delta)
+        arm.trials += 1
+
+        self._save_memory()
+
+    # ========================================================================
     # 持久化去重 (工程层, 不进入算法状态)
     # ========================================================================
 
@@ -183,6 +214,43 @@ class FinalBandit:
         probs = [e / total for e in exp_scores]
 
         # 按概率采样
+        r = random.random()
+        cum = 0.0
+        for arm, prob in zip(type_arms, probs):
+            cum += prob
+            if r <= cum:
+                return arm.gene_value
+        return type_arms[-1].gene_value
+
+    # ========================================================================
+    # Policy Stabilizer Core: T(t)-modulated sampling (Spec §14)
+    # ========================================================================
+
+    def sample_with_temperature(self, gene_type: str, T: float) -> str:
+        """T(t)-modulated action selection (Policy Stabilizer Core §14)
+
+        score_i = theta_i + T * sigma_i
+        P(select i) = softmax(score_i)
+
+        T 高 → sigma (探索) 权重高 → 广泛探索
+        T 低 → theta (收益) 权重高 → 集中 exploit
+        """
+        type_arms = [a for a in self.arms.values() if a.gene_type == gene_type]
+        if not type_arms:
+            return "unknown"
+
+        if all(a.trials == 0 for a in type_arms):
+            return random.choice(type_arms).gene_value
+
+        # score = theta + T * sigma
+        scores = [a.theta + T * a.sigma for a in type_arms]
+        max_score = max(scores)
+        # 数值稳定: softmax with temperature
+        effective_tau = max(T, 0.05)  # 防止 T→0 时除零
+        exp_scores = [math.exp((s - max_score) / effective_tau) for s in scores]
+        total = sum(exp_scores)
+        probs = [e / total for e in exp_scores]
+
         r = random.random()
         cum = 0.0
         for arm, prob in zip(type_arms, probs):

@@ -1382,13 +1382,11 @@ class FinalWeeklyDigestBuilder(CleanWeeklyDigestBuilder):
             "Facebook",
             fb_rows,
             bool(getattr(self._settings, "using_meta_creative_source", False)),
-            bool(getattr(self._settings, "using_tecdo_creative_source", False)),
         )
         result["Google素材"] = self._creative_confidence_label(
             "Google",
             google_rows,
             bool(getattr(self._settings, "using_google_creative_source", False)),
-            bool(getattr(self._settings, "using_tecdo_creative_source", False)),
         )
         return result
 
@@ -1457,7 +1455,7 @@ class FinalWeeklyDigestBuilder(CleanWeeklyDigestBuilder):
         return "低", f"跨源偏差约{gap:.1%}"
 
     @staticmethod
-    def _creative_confidence_label(channel: str, rows, source_ready: bool, tecdo_ready: bool) -> tuple[str, str]:
+    def _creative_confidence_label(channel: str, rows, source_ready: bool) -> tuple[str, str]:
         if not rows:
             return "低", f"{channel} 当前没有素材明细"
         identified = sum(1 for row in rows if str(getattr(row, "asset_id", "") or "").strip())
@@ -1480,14 +1478,6 @@ class FinalWeeklyDigestBuilder(CleanWeeklyDigestBuilder):
             if effective_rows and identified == len(rows):
                 return "高", "Adjust creative 明细已接入，且存在达到样本门槛的素材"
             return "中", "Adjust creative 明细已接入，但部分素材仍处于观察样本"
-        if channel == "Facebook" and not source_ready and tecdo_ready:
-            if identified == len(rows):
-                return "中", "TecDo 代理素材源已接入，素材标识完整，可用于方向判断"
-            return "中", "TecDo 代理素材源已接入，但仍有部分素材缺少完整标识"
-        if channel == "Google" and not source_ready and tecdo_ready:
-            if identified == len(rows):
-                return "中", "TecDo 代理素材源已接入，可用于广告层方向判断"
-            return "低", "Google 当前仍有部分素材标识缺失，只适合观察"
         if not source_ready:
             return "低", f"{channel} 当前未接 live 凭证"
         if identified == len(rows):

@@ -1,0 +1,174 @@
+{
+  "version": "V4.5.4",
+  "timestamp": "2026-07-08T10:56:38.576771",
+  "pass_count": 33,
+  "fail_count": 0,
+  "passed": true,
+  "results": [
+    {
+      "test": "State Enumeration",
+      "status": "PASS",
+      "details": "States: ['created', 'queued', 'processing', 'success', 'failed', 'retrying', 'cancelled']"
+    },
+    {
+      "test": "Valid Transition CREATED\u2192QUEUED",
+      "status": "PASS",
+      "details": "Allowed: True"
+    },
+    {
+      "test": "Invalid Transition SUCCESS\u2192PROCESSING",
+      "status": "PASS",
+      "details": "Blocked: True"
+    },
+    {
+      "test": "Transition Execution",
+      "status": "PASS",
+      "details": "Recorded: created \u2192 queued"
+    },
+    {
+      "test": "State Store Persistence",
+      "status": "PASS",
+      "details": "Records: 4"
+    },
+    {
+      "test": "Job Creation",
+      "status": "PASS",
+      "details": "Job: job_001, Priority: P0"
+    },
+    {
+      "test": "Priority Queue Ordering",
+      "status": "PASS",
+      "details": "First: p0_job (Priority P0)"
+    },
+    {
+      "test": "Retry Queue",
+      "status": "PASS",
+      "details": "Pending retries: 1"
+    },
+    {
+      "test": "Dead Letter Queue",
+      "status": "PASS",
+      "details": "Dead jobs: 1"
+    },
+    {
+      "test": "Retry Exhaustion",
+      "status": "PASS",
+      "details": "Retries: 3/3"
+    },
+    {
+      "test": "Dead Letter Queue Entry",
+      "status": "PASS",
+      "details": "DLQ size: 1"
+    },
+    {
+      "test": "Cost Estimation",
+      "status": "PASS",
+      "details": "Cost: $2.25"
+    },
+    {
+      "test": "Platform Recommendation",
+      "status": "PASS",
+      "details": "Recommended: kling"
+    },
+    {
+      "test": "Budget Check",
+      "status": "PASS",
+      "details": "Daily budget: $100.0, Cost: $2.25"
+    },
+    {
+      "test": "Cost Prediction",
+      "status": "PASS",
+      "details": "Predicted: $1.20"
+    },
+    {
+      "test": "Asset Node Creation",
+      "status": "PASS",
+      "details": "Asset: video_001, Parent: blueprint_12"
+    },
+    {
+      "test": "Lineage Trace",
+      "status": "PASS",
+      "details": "Ancestors: 2"
+    },
+    {
+      "test": "Lineage Store Persistence",
+      "status": "PASS",
+      "details": "Retrieved: video_001"
+    },
+    {
+      "test": "Visual QA Check",
+      "status": "PASS",
+      "details": "Checked: blur, artifact, flicker, frame_error, bad_generation"
+    },
+    {
+      "test": "Visual Issue Detection",
+      "status": "PASS",
+      "details": "Issues: 0"
+    },
+    {
+      "test": "Marketing QA Check",
+      "status": "PASS",
+      "details": "Dimensions: hook, product_visibility, cta, emotion"
+    },
+    {
+      "test": "QA Score Calculation",
+      "status": "PASS",
+      "details": "Visual: 98.0, Hook: 82.0, Conversion: 76.3"
+    },
+    {
+      "test": "QA Grade Assignment",
+      "status": "PASS",
+      "details": "Grade: good"
+    },
+    {
+      "test": "Failure Detection",
+      "status": "PASS",
+      "details": "Type: api_timeout"
+    },
+    {
+      "test": "Failure Classification",
+      "status": "PASS",
+      "details": "Severity: medium"
+    },
+    {
+      "test": "Auto Recovery Execution",
+      "status": "PASS",
+      "details": "Attempt: 1, Success: True"
+    },
+    {
+      "test": "Checkpoint Creation",
+      "status": "PASS",
+      "details": "Checkpoint: ckpt_0001"
+    },
+    {
+      "test": "Checkpoint Recovery Data",
+      "status": "PASS",
+      "details": "Next step: video_generating"
+    },
+    {
+      "test": "Runtime Stress Test",
+      "status": "PASS",
+      "details": "Success rate: 96.9%"
+    },
+    {
+      "test": "Throughput Test",
+      "status": "PASS",
+      "details": "Jobs/sec: 666.2"
+    },
+    {
+      "test": "Failure Injection - API Outage",
+      "status": "PASS",
+      "details": "Recovery rate: 100.0%"
+    },
+    {
+      "test": "Platform Switch Recovery",
+      "status": "PASS",
+      "details": "Platform switches: 5"
+    },
+    {
+      "test": "Failure Injection - Worker Crash",
+      "status": "PASS",
+      "details": "Recovery rate: 100.0%"
+    }
+  ]
+}

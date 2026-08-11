@@ -1,0 +1,189 @@
+{
+  "report_id": "ceo-2026-07-31",
+  "date": "2026-07-31",
+  "company_status": "healthy",
+  "real_api_called": false,
+  "health_summary": {
+    "company_status": "healthy",
+    "status_label": "🟢 健康",
+    "game_count": 12,
+    "total_revenue": 11120.0,
+    "total_dau": 36066,
+    "total_spend": 1280.0,
+    "avg_confidence": 0.6999999999999998,
+    "at_risk": [],
+    "auto_count": 2,
+    "approval_count": 3,
+    "blocked_count": 0,
+    "observed_count": 3
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "game_id": "demo_game_004",
+      "action": "恢复收入（demo_game_004）",
+      "opportunity_type": "revenue_recovery",
+      "priority_score": 0.3078,
+      "expected_value": 0.36,
+      "confidence": 0.9,
+      "urgency": 0.95,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 2,
+      "game_id": "demo_game_008",
+      "action": "恢复收入（demo_game_008）",
+      "opportunity_type": "revenue_recovery",
+      "priority_score": 0.26496,
+      "expected_value": 0.3200000000000001,
+      "confidence": 0.9,
+      "urgency": 0.9200000000000002,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 3,
+      "game_id": "demo_game_000",
+      "action": "恢复收入（demo_game_000）",
+      "opportunity_type": "revenue_recovery",
+      "priority_score": 0.128,
+      "expected_value": 0.2,
+      "confidence": 0.8,
+      "urgency": 0.8,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 4,
+      "game_id": "demo_game_002",
+      "action": "刷新创意素材（demo_game_002）",
+      "opportunity_type": "creative_refresh",
+      "priority_score": 0.10416,
+      "expected_value": 0.2,
+      "confidence": 0.84,
+      "urgency": 0.62,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 5,
+      "game_id": "demo_game_006",
+      "action": "刷新创意素材（demo_game_006）",
+      "opportunity_type": "creative_refresh",
+      "priority_score": 0.10292,
+      "expected_value": 0.2,
+      "confidence": 0.83,
+      "urgency": 0.62,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 6,
+      "game_id": "demo_game_009",
+      "action": "止损买量（demo_game_009）",
+      "opportunity_type": "ua_stop_loss",
+      "priority_score": 0.091512,
+      "expected_value": 0.31000000000000005,
+      "confidence": 0.72,
+      "urgency": 0.82,
+      "sim_gate": "—"
+    },
+    {
+      "rank": 7,
+      "game_id": "demo_game_001",
+      "action": "止损买量（demo_game_001）",
+      "opportunity_type": "ua_stop_loss",
+      "priority_score": 0.056088,
+      "expected_value": 0.18999999999999995,
+      "confidence": 0.72,
+      "urgency": 0.82,
+      "sim_gate": "—"
+    },
+    {
+      "rank": 8,
+      "game_id": "demo_game_005",
+      "action": "止损买量（demo_game_005）",
+      "opportunity_type": "ua_stop_loss",
+      "priority_score": 0.04428,
+      "expected_value": 0.15000000000000002,
+      "confidence": 0.72,
+      "urgency": 0.82,
+      "sim_gate": "—"
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "cea-000",
+      "game_id": "demo_game_004",
+      "action_type": "恢复收入（demo_game_004）",
+      "source": "e17.3_decision+p2.3_approval",
+      "priority": 0.3078,
+      "execution_mode": "approval",
+      "status": "awaiting",
+      "explanation": "等待 CEO 审批：恢复收入（demo_game_004） ｜ 风险 45%，置信 90%，预期收益 +36.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+    },
+    {
+      "action_id": "cea-001",
+      "game_id": "demo_game_008",
+      "action_type": "恢复收入（demo_game_008）",
+      "source": "e17.3_decision+p2.3_approval",
+      "priority": 0.26496,
+      "execution_mode": "approval",
+      "status": "awaiting",
+      "explanation": "等待 CEO 审批：恢复收入（demo_game_008） ｜ 风险 45%，置信 90%，预期收益 +32.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+    },
+    {
+      "action_id": "cea-002",
+      "game_id": "demo_game_000",
+      "action_type": "恢复收入（demo_game_000）",
+      "source": "e17.3_decision+p2.3_approval",
+      "priority": 0.128,
+      "execution_mode": "approval",
+      "status": "awaiting",
+      "explanation": "等待 CEO 审批：恢复收入（demo_game_000） ｜ 风险 45%，置信 80%，预期收益 +20.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+    },
+    {
+      "action_id": "cea-003",
+      "game_id": "demo_game_002",
+      "action_type": "刷新创意素材（demo_game_002）",
+      "source": "e17.3_decision+e17.8_sim+p2.4_execution",
+      "priority": 0.10416,
+      "execution_mode": "auto",
+      "status": "executed",
+      "explanation": "已自动执行：刷新创意素材（demo_game_002） ｜ 预期收益 +20.0%，置信 84%，风险 30%。"
+    },
+    {
+      "action_id": "cea-004",
+      "game_id": "demo_game_006",
+      "action_type": "刷新创意素材（demo_game_006）",
+      "source": "e17.3_decision+e17.8_sim+p2.4_execution",
+      "priority": 0.10292,
+      "execution_mode": "auto",
+      "status": "executed",
+      "explanation": "已自动执行：刷新创意素材（demo_game_006） ｜ 预期收益 +20.0%，置信 83%，风险 30%。"
+    }
+  ],
+  "risks": [
+    {
+      "level": "info",
+      "title": "无显著风险",
+      "detail": "今日未发现需特别关注的风险项。"
+    }
+  ],
+  "learning_summary": [
+    "[network_cleanup] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[aggressive_scale] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[conservative_scale] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[creative_fatigue_guard] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[revenue_recovery] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[creative_refresh] 历史成功率 100.0%（样本 2） → 建议：hold。样本不足或表现波动，暂维持现状观察"
+  ],
+  "execution_summary": {
+    "total_executions": 0,
+    "success": 0,
+    "failed": 0,
+    "rollback": 0,
+    "blocked": 0,
+    "health_level": "",
+    "warnings": [],
+    "recovered": 0,
+    "escalated": 0,
+    "real_api_called": false
+  }
+}

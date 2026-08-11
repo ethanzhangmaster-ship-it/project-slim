@@ -201,7 +201,6 @@ python -m market_ops.cli project-detail-coverage --report-date latest
 python -m market_ops.cli p04-source-checklist --report-date latest
 python -m market_ops.cli p04-verify-after-mapping --report-date latest
 python -m market_ops.cli detail-reply-checklist --report-date latest
-python -m market_ops.cli tecdo-sync-checklist --report-date latest
 python -m market_ops.cli external-blockers --report-date latest
 ```
 
@@ -211,7 +210,6 @@ These commands answer:
 - why `P04` is still outside the trusted detail chain
 - after filling `P04` links, whether `P04` has really become `trusted`
 - whether the detailed in-group reply is already locked to a real Feishu chat
-- whether TecDo is still waiting for backend sync, and exactly when to retest
 - one consolidated checklist for all remaining external blockers
 
 For `P04`, the fastest path is:
@@ -296,49 +294,6 @@ GOOGLE_ADS_CREATIVE_LOOKBACK_DAYS=7
 ```
 
 When Google Ads credentials are present, the sync flow will merge Facebook creatives and Google Ads creatives into the same normalized creative table. If neither Facebook nor Google Ads is configured, the workflow falls back to the Feishu creative sheet.
-
-If you want to test TecDo as a proxy creative source, configure:
-
-```env
-TECDO_APP_ID=your_tecdo_app_id
-TECDO_APP_SECRET=your_tecdo_app_secret
-TECDO_BASE_URL=https://open-power.tec-do.cn
-TECDO_MEDIA_ACCOUNT_IDS=123,456
-TECDO_PROBE_PLATFORMS=1,2
-TECDO_CREATIVE_LOOKBACK_DAYS=7
-```
-
-Then run:
-
-```powershell
-python -m market_ops.cli tecdo-probe --report-date latest
-python -m market_ops.cli tecdo-account-reconciliation --report-date latest --lookback-days 180
-python -m market_ops.cli creative-source-readiness --report-date latest
-```
-
-Current TecDo positioning in this project:
-
-- it is treated as a proxy ad-level creative source, not confirmed true creative-id attribution
-- the weekly report does not hard-depend on TecDo; probe failure will not block the whole report
-- if the TecDo app lacks API permission, readiness and self-check will surface the exact failure reason
-- if TecDo is authorized but the report API still returns zero rows, the system will mark it as `authorized_but_empty` rather than treating it as a usable creative source
-
-Recommended TecDo troubleshooting order:
-
-1. `python -m market_ops.cli tecdo-probe --report-date latest`
-2. `python -m market_ops.cli tecdo-account-reconciliation --report-date latest --lookback-days 180`
-3. `python -m market_ops.cli creative-source-readiness --report-date latest`
-
-Use this interpretation:
-
-- `权限失败`: go fix API permission first
-- `授权已通但当前报表无数据`: the account is real and authorized, but the OpenAPI report source is still empty for that account set
-- `可用于代理素材分析`: TecDo is returning ad-level report rows and can be used as a proxy creative source
-
-Manual follow-up files:
-
-- `tecdo_backend_reconciliation_sop.md`
-- `tecdo_backend_reconciliation_log.md`
 
 You can also control when the system is allowed to auto-replace a `复制素材` action with a concrete `素材ID`:
 

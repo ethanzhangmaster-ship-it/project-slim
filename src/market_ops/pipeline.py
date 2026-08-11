@@ -17,7 +17,6 @@ from market_ops.clients.feishu_bot import FeishuBotClient
 from market_ops.clients.feishu_sheets import FeishuSheetsClient
 from market_ops.clients.google_ads import GoogleAdsCreativeClient
 from market_ops.clients.meta_ads import MetaAdsCreativeClient
-from market_ops.clients.tecdo_report import TecDoReportCreativeClient
 from market_ops.config import Settings
 from market_ops.final_executive import FinalExecutiveReportBuilder
 from market_ops.forecast_validation import ForecastValidationReportBuilder
@@ -119,7 +118,6 @@ class DataRepository:
         api_rows: list[CreativeAssetRow] = []
         if (
             self._settings.using_meta_creative_source
-            or self._settings.using_tecdo_creative_source
             or self._settings.using_google_creative_source
         ):
             ads_rows = self.load_ads_performance()
@@ -138,21 +136,6 @@ class DataRepository:
                     default_game_name=self._settings.default_game_name,
                 )
                 api_rows.extend(meta_client.fetch_creative_rows(start_date=meta_start_date, end_date=end_date))
-            if self._settings.using_tecdo_creative_source:
-                tecdo_start_date = max(
-                    min(row.date for row in ads_rows),
-                    end_date - timedelta(days=max(self._settings.tecdo_creative_lookback_days - 1, 0)),
-                )
-                tecdo_client = TecDoReportCreativeClient(
-                    app_secret=self._settings.tecdo_app_secret or "",
-                    base_url=self._settings.tecdo_base_url,
-                    media_accounts=self._settings.tecdo_effective_media_accounts,
-                    default_game_name=self._settings.default_game_name,
-                )
-                try:
-                    api_rows.extend(tecdo_client.fetch_creative_rows(start_date=tecdo_start_date, end_date=end_date))
-                except Exception:
-                    pass
             if self._settings.using_google_creative_source:
                 google_start_date = max(
                     min(row.date for row in ads_rows),

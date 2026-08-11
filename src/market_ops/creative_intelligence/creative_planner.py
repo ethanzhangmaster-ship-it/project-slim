@@ -231,7 +231,7 @@ class CreativePlanner:
             f"3D cartoon style mobile game advertisement for {project_context}. "
             f"Key visual elements: {feature_str}. "
             f"Mysterious and magical atmosphere, medium brightness, professional Facebook ad quality. "
-            f"Mobile portrait 9:16 aspect ratio, 1080x1920 pixels, no text overlay, no watermark."
+            f"1:1 square aspect ratio, 1080x1080 pixels, no text overlay, no watermark."
         )
 
     def _extract_avoid_features(self, negative_rules: list[dict]) -> set[str]:

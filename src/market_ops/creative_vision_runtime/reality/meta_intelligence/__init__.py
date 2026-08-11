@@ -1,0 +1,118 @@
+"""E12.6 — Meta Intelligence Layer。
+
+Growth Intelligence 的决策大脑层。
+
+Modules:
+  - meta_decision:       Meta Decision Engine (E12.6.1)
+  - resource_controller: Resource Controller (E12.6.2)
+  - governance:          Safety Governor (E12.6.3)
+"""
+
+from .meta_decision import (
+    ContinueEvolutionRule,
+    DecisionContext,
+    DecisionExplainer,
+    DecisionPolicy,
+    ExperimentFailureRule,
+    FatigueRule,
+    InsufficientDataRule,
+    MetaDecision,
+    MetaDecisionEngine,
+    MetaDecisionType,
+    PopulationDegradationRule,
+    RoasGrowthRule,
+    RollbackRule,
+    get_decision_priority,
+)
+from .resource_controller import (
+    BudgetAdjustment,
+    BudgetOptimizer,
+    ExplorationPolicy as ResourceExplorationPolicy,
+    FatigueRecoveryPolicy,
+    LowPotentialPolicy,
+    PriorityAllocator,
+    ProductResourceState,
+    ResourceAllocation,
+    ResourceController,
+    ResourcePolicy,
+    ResourceRequest,
+    ResourceType,
+    WinnerScalingPolicy,
+    calculate_priority_score,
+    get_resource_label,
+    softmax_allocate,
+)
+from .governance import (
+    HighMutationPolicy,
+    InsufficientDataPolicy,
+    LargeSpendPolicy,
+    PopulationCollapsePolicy,
+    RiskDetector,
+    RiskLevel,
+    RiskReport,
+    RollbackManager,
+    RollbackRecord,
+    SafetyAction,
+    SafetyContext,
+    SafetyDecision,
+    SafetyGovernor,
+    SafetyPolicy,
+    WinnerProtectionPolicy,
+    get_risk_threshold,
+    get_safety_action_priority,
+    risk_level_from_score,
+)
+
+__all__ = [
+    # E12.6.1
+    "MetaDecisionType",
+    "DecisionContext",
+    "MetaDecision",
+    "get_decision_priority",
+    "DecisionPolicy",
+    "FatigueRule",
+    "RoasGrowthRule",
+    "ExperimentFailureRule",
+    "InsufficientDataRule",
+    "PopulationDegradationRule",
+    "ContinueEvolutionRule",
+    "RollbackRule",
+    "MetaDecisionEngine",
+    "DecisionExplainer",
+    # E12.6.2
+    "ResourceType",
+    "ResourceRequest",
+    "ResourceAllocation",
+    "ProductResourceState",
+    "BudgetAdjustment",
+    "calculate_priority_score",
+    "get_resource_label",
+    "softmax_allocate",
+    "ResourcePolicy",
+    "WinnerScalingPolicy",
+    "FatigueRecoveryPolicy",
+    "LowPotentialPolicy",
+    "ResourceExplorationPolicy",
+    "PriorityAllocator",
+    "BudgetOptimizer",
+    "ResourceController",
+    # E12.6.3
+    "SafetyAction",
+    "RiskLevel",
+    "SafetyContext",
+    "SafetyDecision",
+    "RiskReport",
+    "RollbackRecord",
+    "get_safety_action_priority",
+    "risk_level_from_score",
+    "get_risk_threshold",
+    "RiskDetector",
+    "SafetyPolicy",
+    "HighMutationPolicy",
+    "LargeSpendPolicy",
+    "InsufficientDataPolicy",
+    "WinnerProtectionPolicy",
+    "PopulationCollapsePolicy",
+    "RollbackManager",
+    "SafetyGovernor",
+]

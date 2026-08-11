@@ -1,0 +1,76 @@
+{
+  "c_merge_formula_5dccb7f9": {
+    "layout_ast_id": "ast_merge_formula_e3ee867c",
+    "template_id": "merge_formula",
+    "render_constraints": {
+      "reward": {
+        "position": "center",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Merge result C - glowing reward, L1 visual focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Item A - left side merge ingredient"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Witch character hands reaching in"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "ad_id": "",
+    "campaign_id": "",
+    "created_at": 1782883862,
+    "deployed_at": 0,
+    "status": "registered",
+    "features": {
+      "mechanism_clarity": 1.0,
+      "reward_vividness": 0.9500000000000001,
+      "identity_projection": 0.9,
+      "click_probability": 0.7322150000000001
+    },
+    "metrics": null
+  }
+}

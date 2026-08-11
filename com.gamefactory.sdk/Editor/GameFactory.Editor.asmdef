@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.Editor",
+  "rootNamespace": "GameFactory.Editor",
+  "references": ["GameFactory.Runtime", "GameFactory.Ads"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

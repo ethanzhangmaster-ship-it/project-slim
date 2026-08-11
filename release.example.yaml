@@ -1,0 +1,10 @@
+# ============================================================================
+# release.yaml — 发布配置（E13.2 P1 #7 Release Profile）
+# launchforge build 读取它，解析出 versionCode / bundle version / 图标 / 商店。
+# ============================================================================
+version: "1.0.0"
+build: 1
+environment: production             # production | staging
+platform: android                   # android | ios | both
+store: google                       # google | appstore | both
+icon: "Assets/Art/icon_production.png"

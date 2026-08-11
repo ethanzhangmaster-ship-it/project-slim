@@ -1,0 +1,2027 @@
+{
+  "account": "ACCT_1",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-29"
+  },
+  "generated_at": "2026-07-30",
+  "overall_blend_ecpm": 7.13,
+  "summary": {
+    "segments": 22,
+    "demote_candidates": 71,
+    "floor_suggestions": 44
+  },
+  "segments": [
+    {
+      "app": "bible quizzes",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.49,
+      "segment_impressions": 13144,
+      "networks": [
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.55,
+          "fill_rate": 0.8283,
+          "impression_share": 0.5423,
+          "revenue": 3.95,
+          "score": 0.4589,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.44,
+          "fill_rate": 0.9975,
+          "impression_share": 0.1162,
+          "revenue": 0.67,
+          "score": 0.437,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.29,
+          "fill_rate": 0.9309,
+          "impression_share": 0.1364,
+          "revenue": 0.52,
+          "score": 0.2702,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.33,
+          "fill_rate": 0.7635,
+          "impression_share": 0.1257,
+          "revenue": 0.54,
+          "score": 0.2513,
+          "rank": 4
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.35,
+          "fill_rate": 0.5791,
+          "impression_share": 0.0364,
+          "revenue": 0.17,
+          "score": 0.2013,
+          "rank": 5
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.38,
+          "fill_rate": 0.2002,
+          "impression_share": 0.0226,
+          "revenue": 0.11,
+          "score": 0.0769,
+          "rank": 6
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 1.59,
+          "fill_rate": 0.0087,
+          "impression_share": 0.0202,
+          "revenue": 0.42,
+          "score": 0.0139,
+          "rank": 7
+        },
+        {
+          "network": "CHARTBOOST_NETWORK",
+          "ecpm": 0.8,
+          "fill_rate": 0.0,
+          "impression_share": 0.0002,
+          "revenue": 0.0,
+          "score": 0.0,
+          "rank": 8
+        }
+      ],
+      "recommended_order": [
+        "ADMOB_BIDDING",
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "UNITY_BIDDING",
+        "ADMOB_NETWORK",
+        "CHARTBOOST_NETWORK"
+      ],
+      "demote_candidates": [
+        "ADMOB_BIDDING",
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "MINTEGRAL_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.29,
+          "impression_share": 0.1364,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.33,
+          "impression_share": 0.1257,
+          "requires_manual_apply": true
+        },
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.35,
+          "impression_share": 0.0364,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.44,
+          "impression_share": 0.1162,
+          "requires_manual_apply": true
+        },
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.55,
+          "impression_share": 0.5423,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "com.daily.leisure.feud.trivia.ios",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.59,
+      "segment_impressions": 7110,
+      "networks": [
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.63,
+          "fill_rate": 0.9392,
+          "impression_share": 0.7062,
+          "revenue": 3.17,
+          "score": 0.5928,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.53,
+          "fill_rate": 0.989,
+          "impression_share": 0.0925,
+          "revenue": 0.35,
+          "score": 0.5234,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.59,
+          "fill_rate": 0.8059,
+          "impression_share": 0.0295,
+          "revenue": 0.12,
+          "score": 0.4723,
+          "rank": 3
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 0.5,
+          "fill_rate": 0.9024,
+          "impression_share": 0.029,
+          "revenue": 0.1,
+          "score": 0.4534,
+          "rank": 4
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.42,
+          "fill_rate": 0.9941,
+          "impression_share": 0.0989,
+          "revenue": 0.3,
+          "score": 0.4216,
+          "rank": 5
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.57,
+          "fill_rate": 0.2215,
+          "impression_share": 0.0439,
+          "revenue": 0.18,
+          "score": 0.1254,
+          "rank": 6
+        }
+      ],
+      "recommended_order": [
+        "ADMOB_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "IRONSOURCE_BIDDING",
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING"
+      ],
+      "demote_candidates": [
+        "ADMOB_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.42,
+          "impression_share": 0.0989,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.53,
+          "impression_share": 0.0925,
+          "requires_manual_apply": true
+        },
+        "UNITY_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.57,
+          "impression_share": 0.0439,
+          "requires_manual_apply": true
+        },
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.63,
+          "impression_share": 0.7062,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Bible Quiz",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.11,
+      "segment_impressions": 5358,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.27,
+          "fill_rate": 0.7509,
+          "impression_share": 0.0579,
+          "revenue": 0.08,
+          "score": 0.2052,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.09,
+          "fill_rate": 0.8705,
+          "impression_share": 0.7768,
+          "revenue": 0.38,
+          "score": 0.0794,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.14,
+          "fill_rate": 0.2861,
+          "impression_share": 0.0648,
+          "revenue": 0.05,
+          "score": 0.0396,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.15,
+          "fill_rate": 0.1907,
+          "impression_share": 0.1006,
+          "revenue": 0.08,
+          "score": 0.0288,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.09,
+          "impression_share": 0.7768,
+          "requires_manual_apply": true
+        },
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.14,
+          "impression_share": 0.0648,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.15,
+          "impression_share": 0.1006,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.27,
+          "impression_share": 0.0579,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "bible quizzes",
+      "geo": "us",
+      "ad_format": "INTER",
+      "segment_blend_ecpm": 34.21,
+      "segment_impressions": 3734,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 40.39,
+          "fill_rate": 0.9961,
+          "impression_share": 0.5474,
+          "revenue": 82.55,
+          "score": 40.2297,
+          "rank": 1
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 34.19,
+          "fill_rate": 0.9849,
+          "impression_share": 0.2633,
+          "revenue": 33.61,
+          "score": 33.6728,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 31.46,
+          "fill_rate": 0.9927,
+          "impression_share": 0.0332,
+          "revenue": 3.9,
+          "score": 31.2303,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 18.21,
+          "fill_rate": 0.9659,
+          "impression_share": 0.0378,
+          "revenue": 2.57,
+          "score": 17.5903,
+          "rank": 4
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 10.74,
+          "fill_rate": 0.9321,
+          "impression_share": 0.0166,
+          "revenue": 0.67,
+          "score": 10.0105,
+          "rank": 5
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 8.21,
+          "fill_rate": 0.9745,
+          "impression_share": 0.0951,
+          "revenue": 2.91,
+          "score": 7.9999,
+          "rank": 6
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 61.0,
+          "fill_rate": 0.0023,
+          "impression_share": 0.0067,
+          "revenue": 1.53,
+          "score": 0.14,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "ADMOB_BIDDING",
+        "ADMOB_NETWORK"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "Bible Quiz",
+      "geo": "us",
+      "ad_format": "INTER",
+      "segment_blend_ecpm": 11.95,
+      "segment_impressions": 1389,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 12.61,
+          "fill_rate": 0.9934,
+          "impression_share": 0.8222,
+          "revenue": 14.4,
+          "score": 12.5257,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 10.14,
+          "fill_rate": 0.9747,
+          "impression_share": 0.0396,
+          "revenue": 0.56,
+          "score": 9.8883,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 9.0,
+          "fill_rate": 0.9976,
+          "impression_share": 0.0958,
+          "revenue": 1.2,
+          "score": 8.9828,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 7.59,
+          "fill_rate": 0.6454,
+          "impression_share": 0.0425,
+          "revenue": 0.45,
+          "score": 4.8986,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "bible quizzes",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 45.6,
+      "segment_impressions": 1163,
+      "networks": [
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 78.91,
+          "fill_rate": 0.9928,
+          "impression_share": 0.0292,
+          "revenue": 2.68,
+          "score": 78.3392,
+          "rank": 1
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 70.26,
+          "fill_rate": 0.983,
+          "impression_share": 0.1376,
+          "revenue": 11.24,
+          "score": 69.0645,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 46.68,
+          "fill_rate": 0.9963,
+          "impression_share": 0.6217,
+          "revenue": 33.75,
+          "score": 46.5109,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 45.26,
+          "fill_rate": 0.9671,
+          "impression_share": 0.0292,
+          "revenue": 1.54,
+          "score": 43.7666,
+          "rank": 4
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 17.66,
+          "fill_rate": 0.9531,
+          "impression_share": 0.1771,
+          "revenue": 3.64,
+          "score": 16.8293,
+          "rank": 5
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 20.74,
+          "fill_rate": 0.7889,
+          "impression_share": 0.0026,
+          "revenue": 0.06,
+          "score": 16.3597,
+          "rank": 6
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 40.0,
+          "fill_rate": 0.0007,
+          "impression_share": 0.0026,
+          "revenue": 0.12,
+          "score": 0.0297,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL_BIDDING",
+        "UNITY_BIDDING",
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING",
+        "ADMOB_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "ADMOB_NETWORK"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "Bible Quiz",
+      "geo": "ng",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.03,
+      "segment_impressions": 898,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.02,
+          "fill_rate": 0.7324,
+          "impression_share": 0.1013,
+          "revenue": 0.0,
+          "score": 0.0176,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.03,
+          "fill_rate": 0.4455,
+          "impression_share": 0.3296,
+          "revenue": 0.01,
+          "score": 0.0123,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.06,
+          "fill_rate": 0.1427,
+          "impression_share": 0.1414,
+          "revenue": 0.01,
+          "score": 0.0085,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.02,
+          "fill_rate": 0.4056,
+          "impression_share": 0.4276,
+          "revenue": 0.01,
+          "score": 0.0069,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.02,
+          "impression_share": 0.1013,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.02,
+          "impression_share": 0.4276,
+          "requires_manual_apply": true
+        },
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.03,
+          "impression_share": 0.3296,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.06,
+          "impression_share": 0.1414,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Bible Trivia",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.11,
+      "segment_impressions": 541,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.31,
+          "fill_rate": 0.7191,
+          "impression_share": 0.0869,
+          "revenue": 0.01,
+          "score": 0.2245,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.14,
+          "fill_rate": 0.3629,
+          "impression_share": 0.0481,
+          "revenue": 0.0,
+          "score": 0.0518,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.04,
+          "fill_rate": 0.7644,
+          "impression_share": 0.7449,
+          "revenue": 0.02,
+          "score": 0.0335,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.13,
+          "fill_rate": 0.1516,
+          "impression_share": 0.085,
+          "revenue": 0.01,
+          "score": 0.0194,
+          "rank": 4
+        },
+        {
+          "network": "FYBER_NETWORK",
+          "ecpm": 0.91,
+          "fill_rate": 0.0104,
+          "impression_share": 0.0351,
+          "revenue": 0.02,
+          "score": 0.0094,
+          "rank": 5
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "FYBER_NETWORK"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "FYBER_NETWORK"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.04,
+          "impression_share": 0.7449,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "com.daily.leisure.feud.trivia.ios",
+      "geo": "us",
+      "ad_format": "INTER",
+      "segment_blend_ecpm": 115.53,
+      "segment_impressions": 523,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 129.75,
+          "fill_rate": 0.9762,
+          "impression_share": 0.6941,
+          "revenue": 47.1,
+          "score": 126.6624,
+          "rank": 1
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 100.08,
+          "fill_rate": 0.9468,
+          "impression_share": 0.195,
+          "revenue": 10.21,
+          "score": 94.7522,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 87.54,
+          "fill_rate": 0.9947,
+          "impression_share": 0.0363,
+          "revenue": 1.66,
+          "score": 87.0758,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 43.62,
+          "fill_rate": 0.9928,
+          "impression_share": 0.0497,
+          "revenue": 1.13,
+          "score": 43.3054,
+          "rank": 4
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 34.43,
+          "fill_rate": 0.9774,
+          "impression_share": 0.0057,
+          "revenue": 0.1,
+          "score": 33.6496,
+          "rank": 5
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 21.2,
+          "fill_rate": 0.9928,
+          "impression_share": 0.0115,
+          "revenue": 0.13,
+          "score": 21.0475,
+          "rank": 6
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 22.5,
+          "fill_rate": 0.0057,
+          "impression_share": 0.0076,
+          "revenue": 0.09,
+          "score": 0.1286,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "UNITY_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "IRONSOURCE_BIDDING",
+        "ADMOB_BIDDING",
+        "ADMOB_NETWORK"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "com.daily.leisure.feud.trivia.ios",
+      "geo": "ph",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.07,
+      "segment_impressions": 425,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.11,
+          "fill_rate": 0.9415,
+          "impression_share": 0.1765,
+          "revenue": 0.01,
+          "score": 0.104,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.05,
+          "fill_rate": 0.7726,
+          "impression_share": 0.2612,
+          "revenue": 0.01,
+          "score": 0.0366,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.05,
+          "fill_rate": 0.6415,
+          "impression_share": 0.2329,
+          "revenue": 0.0,
+          "score": 0.0314,
+          "rank": 3
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.23,
+          "fill_rate": 0.1313,
+          "impression_share": 0.0871,
+          "revenue": 0.01,
+          "score": 0.0307,
+          "rank": 4
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.05,
+          "fill_rate": 0.2537,
+          "impression_share": 0.1553,
+          "revenue": 0.0,
+          "score": 0.0125,
+          "rank": 5
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 0.02,
+          "fill_rate": 0.4964,
+          "impression_share": 0.0871,
+          "revenue": 0.0,
+          "score": 0.0113,
+          "rank": 6
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "ADMOB_BIDDING",
+        "UNITY_BIDDING",
+        "IRONSOURCE_BIDDING"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "ADMOB_BIDDING",
+        "UNITY_BIDDING",
+        "IRONSOURCE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "UNITY_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.05,
+          "impression_share": 0.1553,
+          "requires_manual_apply": true
+        },
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.05,
+          "impression_share": 0.2329,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.05,
+          "impression_share": 0.2612,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.11,
+          "impression_share": 0.1765,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "bible quizzes",
+      "geo": "gb",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.28,
+      "segment_impressions": 367,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.28,
+          "fill_rate": 1.0,
+          "impression_share": 0.0708,
+          "revenue": 0.01,
+          "score": 0.2794,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.29,
+          "fill_rate": 0.8242,
+          "impression_share": 0.3488,
+          "revenue": 0.04,
+          "score": 0.2387,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.25,
+          "fill_rate": 0.822,
+          "impression_share": 0.1362,
+          "revenue": 0.01,
+          "score": 0.2046,
+          "rank": 3
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.2,
+          "fill_rate": 0.8708,
+          "impression_share": 0.0681,
+          "revenue": 0.0,
+          "score": 0.1724,
+          "rank": 4
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.29,
+          "fill_rate": 0.5127,
+          "impression_share": 0.3106,
+          "revenue": 0.03,
+          "score": 0.1492,
+          "rank": 5
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.16,
+          "fill_rate": 0.3101,
+          "impression_share": 0.0627,
+          "revenue": 0.0,
+          "score": 0.0506,
+          "rank": 6
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 2.5,
+          "fill_rate": 0.0024,
+          "impression_share": 0.0027,
+          "revenue": 0.0,
+          "score": 0.0059,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "ADMOB_BIDDING",
+        "UNITY_BIDDING",
+        "ADMOB_NETWORK"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "ADMOB_BIDDING",
+        "UNITY_BIDDING"
+      ],
+      "floor_suggestions": {
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.25,
+          "impression_share": 0.1362,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.29,
+          "impression_share": 0.3488,
+          "requires_manual_apply": true
+        },
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.29,
+          "impression_share": 0.3106,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Daily Codewords",
+      "geo": "au",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.03,
+      "segment_impressions": 343,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.07,
+          "fill_rate": 0.9677,
+          "impression_share": 0.0175,
+          "revenue": 0.0,
+          "score": 0.0652,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.03,
+          "fill_rate": 0.6077,
+          "impression_share": 0.0058,
+          "revenue": 0.0,
+          "score": 0.0179,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.58,
+          "fill_rate": 0.0192,
+          "impression_share": 0.0146,
+          "revenue": 0.0,
+          "score": 0.0111,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.02,
+          "fill_rate": 0.57,
+          "impression_share": 0.895,
+          "revenue": 0.01,
+          "score": 0.0097,
+          "rank": 4
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.07,
+          "fill_rate": 0.1101,
+          "impression_share": 0.0671,
+          "revenue": 0.0,
+          "score": 0.0079,
+          "rank": 5
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "UNITY_BIDDING"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_EXCHANGE",
+        "UNITY_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.02,
+          "impression_share": 0.895,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Bible Word Cross",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.07,
+      "segment_impressions": 332,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.1,
+          "fill_rate": 0.6582,
+          "impression_share": 0.0482,
+          "revenue": 0.0,
+          "score": 0.0691,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.25,
+          "fill_rate": 0.2296,
+          "impression_share": 0.0181,
+          "revenue": 0.0,
+          "score": 0.0569,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.05,
+          "fill_rate": 0.666,
+          "impression_share": 0.8133,
+          "revenue": 0.01,
+          "score": 0.0339,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.19,
+          "fill_rate": 0.0981,
+          "impression_share": 0.1205,
+          "revenue": 0.01,
+          "score": 0.0189,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.05,
+          "impression_share": 0.8133,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Bible Quiz",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 25.1,
+      "segment_impressions": 313,
+      "networks": [
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 30.64,
+          "fill_rate": 0.9838,
+          "impression_share": 0.0831,
+          "revenue": 0.8,
+          "score": 30.1416,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 30.63,
+          "fill_rate": 0.9739,
+          "impression_share": 0.0319,
+          "revenue": 0.31,
+          "score": 29.8303,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 24.76,
+          "fill_rate": 0.9938,
+          "impression_share": 0.853,
+          "revenue": 6.61,
+          "score": 24.6107,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 14.03,
+          "fill_rate": 0.6349,
+          "impression_share": 0.0319,
+          "revenue": 0.14,
+          "score": 8.9051,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "bible quizzes",
+      "geo": "au",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.43,
+      "segment_impressions": 304,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.39,
+          "fill_rate": 1.0,
+          "impression_share": 0.1612,
+          "revenue": 0.02,
+          "score": 0.3932,
+          "rank": 1
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.47,
+          "fill_rate": 0.67,
+          "impression_share": 0.4441,
+          "revenue": 0.06,
+          "score": 0.3146,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.4,
+          "fill_rate": 0.65,
+          "impression_share": 0.0164,
+          "revenue": 0.0,
+          "score": 0.2623,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.33,
+          "fill_rate": 0.78,
+          "impression_share": 0.1875,
+          "revenue": 0.02,
+          "score": 0.2593,
+          "rank": 4
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.18,
+          "fill_rate": 0.7775,
+          "impression_share": 0.1513,
+          "revenue": 0.01,
+          "score": 0.1379,
+          "rank": 5
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 2.14,
+          "fill_rate": 0.0084,
+          "impression_share": 0.0263,
+          "revenue": 0.02,
+          "score": 0.018,
+          "rank": 6
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.22,
+          "fill_rate": 0.0656,
+          "impression_share": 0.0132,
+          "revenue": 0.0,
+          "score": 0.0143,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "ADMOB_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING",
+        "ADMOB_NETWORK",
+        "UNITY_BIDDING"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "ADMOB_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "VUNGLE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.33,
+          "impression_share": 0.1875,
+          "requires_manual_apply": true
+        },
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.47,
+          "impression_share": 0.4441,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Bible Quiz",
+      "geo": "gb",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.06,
+      "segment_impressions": 302,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.12,
+          "fill_rate": 0.6822,
+          "impression_share": 0.0762,
+          "revenue": 0.0,
+          "score": 0.0836,
+          "rank": 1
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.1,
+          "fill_rate": 0.2174,
+          "impression_share": 0.1755,
+          "revenue": 0.01,
+          "score": 0.0225,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.1,
+          "fill_rate": 0.1678,
+          "impression_share": 0.1689,
+          "revenue": 0.01,
+          "score": 0.017,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.03,
+          "fill_rate": 0.4263,
+          "impression_share": 0.5795,
+          "revenue": 0.01,
+          "score": 0.0125,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.03,
+          "impression_share": 0.5795,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.1,
+          "impression_share": 0.1689,
+          "requires_manual_apply": true
+        },
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.1,
+          "impression_share": 0.1755,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Movie Quiz",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.13,
+      "segment_impressions": 286,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.25,
+          "fill_rate": 0.7616,
+          "impression_share": 0.1294,
+          "revenue": 0.01,
+          "score": 0.1903,
+          "rank": 1
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.21,
+          "fill_rate": 0.3455,
+          "impression_share": 0.2028,
+          "revenue": 0.01,
+          "score": 0.0731,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.16,
+          "fill_rate": 0.3921,
+          "impression_share": 0.1119,
+          "revenue": 0.01,
+          "score": 0.064,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.06,
+          "fill_rate": 0.9513,
+          "impression_share": 0.5559,
+          "revenue": 0.01,
+          "score": 0.0596,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "VUNGLE_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.06,
+          "impression_share": 0.5559,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.21,
+          "impression_share": 0.2028,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "com.daily.leisure.feud.trivia.ios",
+      "geo": "au",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.2,
+      "segment_impressions": 275,
+      "networks": [
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.29,
+          "fill_rate": 0.6069,
+          "impression_share": 0.4182,
+          "revenue": 0.03,
+          "score": 0.1769,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.17,
+          "fill_rate": 0.9956,
+          "impression_share": 0.1709,
+          "revenue": 0.01,
+          "score": 0.1689,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.13,
+          "fill_rate": 0.9862,
+          "impression_share": 0.2945,
+          "revenue": 0.01,
+          "score": 0.126,
+          "rank": 3
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.12,
+          "fill_rate": 0.7463,
+          "impression_share": 0.0182,
+          "revenue": 0.0,
+          "score": 0.089,
+          "rank": 4
+        },
+        {
+          "network": "IRONSOURCE_BIDDING",
+          "ecpm": 0.05,
+          "fill_rate": 0.9655,
+          "impression_share": 0.0764,
+          "revenue": 0.0,
+          "score": 0.0519,
+          "rank": 5
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.11,
+          "fill_rate": 0.2655,
+          "impression_share": 0.0218,
+          "revenue": 0.0,
+          "score": 0.0285,
+          "rank": 6
+        }
+      ],
+      "recommended_order": [
+        "ADMOB_BIDDING",
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "IRONSOURCE_BIDDING",
+        "UNITY_BIDDING"
+      ],
+      "demote_candidates": [
+        "ADMOB_BIDDING",
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "IRONSOURCE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.13,
+          "impression_share": 0.2945,
+          "requires_manual_apply": true
+        },
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.29,
+          "impression_share": 0.4182,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Preguntas de la Biblia",
+      "geo": "us",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.19,
+      "segment_impressions": 243,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.19,
+          "fill_rate": 0.9185,
+          "impression_share": 0.1399,
+          "revenue": 0.01,
+          "score": 0.1781,
+          "rank": 1
+        },
+        {
+          "network": "FYBER_NETWORK",
+          "ecpm": 0.75,
+          "fill_rate": 0.0643,
+          "impression_share": 0.0782,
+          "revenue": 0.01,
+          "score": 0.0484,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.21,
+          "fill_rate": 0.2207,
+          "impression_share": 0.2346,
+          "revenue": 0.01,
+          "score": 0.0461,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.1,
+          "fill_rate": 0.3809,
+          "impression_share": 0.5432,
+          "revenue": 0.01,
+          "score": 0.0373,
+          "rank": 4
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 0.7,
+          "fill_rate": 0.0004,
+          "impression_share": 0.0041,
+          "revenue": 0.0,
+          "score": 0.0002,
+          "rank": 5
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "FYBER_NETWORK",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "ADMOB_NETWORK"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "FYBER_NETWORK",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.1,
+          "impression_share": 0.5432,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.21,
+          "impression_share": 0.2346,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Quiz B?blico",
+      "geo": "br",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.03,
+      "segment_impressions": 242,
+      "networks": [
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.07,
+          "fill_rate": 0.2648,
+          "impression_share": 0.281,
+          "revenue": 0.01,
+          "score": 0.0199,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.01,
+          "fill_rate": 0.7782,
+          "impression_share": 0.4008,
+          "revenue": 0.0,
+          "score": 0.0064,
+          "rank": 2
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.01,
+          "fill_rate": 0.2087,
+          "impression_share": 0.3182,
+          "revenue": 0.0,
+          "score": 0.0016,
+          "rank": 3
+        }
+      ],
+      "recommended_order": [
+        "VUNGLE_BIDDING",
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "VUNGLE_BIDDING",
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_NETWORK": {
+          "constraint_type": "waterfall_instance_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.01,
+          "impression_share": 0.4008,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.01,
+          "impression_share": 0.3182,
+          "requires_manual_apply": true
+        },
+        "VUNGLE_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.07,
+          "impression_share": 0.281,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "bible quizzes",
+      "geo": "ca",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.4,
+      "segment_impressions": 222,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.86,
+          "fill_rate": 1.0,
+          "impression_share": 0.0676,
+          "revenue": 0.01,
+          "score": 0.8581,
+          "rank": 1
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 0.45,
+          "fill_rate": 0.6563,
+          "impression_share": 0.6126,
+          "revenue": 0.06,
+          "score": 0.2976,
+          "rank": 2
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.22,
+          "fill_rate": 0.6331,
+          "impression_share": 0.1577,
+          "revenue": 0.01,
+          "score": 0.1404,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.13,
+          "fill_rate": 0.4548,
+          "impression_share": 0.1081,
+          "revenue": 0.0,
+          "score": 0.0577,
+          "rank": 4
+        },
+        {
+          "network": "UNITY_BIDDING",
+          "ecpm": 0.54,
+          "fill_rate": 0.0836,
+          "impression_share": 0.009,
+          "revenue": 0.0,
+          "score": 0.0455,
+          "rank": 5
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.07,
+          "fill_rate": 0.3824,
+          "impression_share": 0.0405,
+          "revenue": 0.0,
+          "score": 0.0255,
+          "rank": 6
+        },
+        {
+          "network": "ADMOB_NETWORK",
+          "ecpm": 1.0,
+          "fill_rate": 0.0008,
+          "impression_share": 0.0045,
+          "revenue": 0.0,
+          "score": 0.0008,
+          "rank": 7
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "ADMOB_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "UNITY_BIDDING",
+        "MINTEGRAL_BIDDING",
+        "ADMOB_NETWORK"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "ADMOB_BIDDING",
+        "VUNGLE_BIDDING",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING"
+      ],
+      "floor_suggestions": {
+        "ADMOB_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.45,
+          "impression_share": 0.6126,
+          "requires_manual_apply": true
+        }
+      }
+    },
+    {
+      "app": "Bible Quiz",
+      "geo": "ph",
+      "ad_format": "BANNER",
+      "segment_blend_ecpm": 0.05,
+      "segment_impressions": 207,
+      "networks": [
+        {
+          "network": "APPLOVIN_NETWORK",
+          "ecpm": 0.03,
+          "fill_rate": 0.8145,
+          "impression_share": 0.2367,
+          "revenue": 0.0,
+          "score": 0.0261,
+          "rank": 1
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 0.07,
+          "fill_rate": 0.2593,
+          "impression_share": 0.285,
+          "revenue": 0.0,
+          "score": 0.0173,
+          "rank": 2
+        },
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 0.03,
+          "fill_rate": 0.4082,
+          "impression_share": 0.3961,
+          "revenue": 0.0,
+          "score": 0.0123,
+          "rank": 3
+        },
+        {
+          "network": "VUNGLE_BIDDING",
+          "ecpm": 0.11,
+          "fill_rate": 0.0697,
+          "impression_share": 0.0821,
+          "revenue": 0.0,
+          "score": 0.0073,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_NETWORK",
+        "APPLOVIN_EXCHANGE",
+        "MINTEGRAL_BIDDING",
+        "VUNGLE_BIDDING"
+      ],
+      "floor_suggestions": {
+        "MINTEGRAL_BIDDING": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.03,
+          "impression_share": 0.3961,
+          "requires_manual_apply": true
+        },
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            1.0,
+            1.07
+          ],
+          "ecpm": 0.07,
+          "impression_share": 0.285,
+          "requires_manual_apply": true
+        }
+      }
+    }
+  ]
+}

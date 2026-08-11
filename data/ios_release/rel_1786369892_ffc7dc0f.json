@@ -1,0 +1,64 @@
+{
+  "release_id": "rel_1786369892_ffc7dc0f",
+  "game_id": "game_status_test",
+  "bundle_id": "com.status.test",
+  "version": "1.0.0",
+  "build_number": 1,
+  "ipa_path": "/fake/app.ipa",
+  "started_at": "2026-08-10T21:51:32",
+  "finished_at": "2026-08-10T21:51:32",
+  "current_step": "start_phased_release",
+  "completed_steps": [
+    "upload_build",
+    "poll_build_status",
+    "select_build",
+    "submit_review"
+  ],
+  "step_results": {
+    "upload_build": {
+      "step": "upload_build",
+      "success": true,
+      "started_at": "2026-08-10T21:51:32",
+      "finished_at": "2026-08-10T21:51:32",
+      "data": {
+        "build_id": "mock_bld_1"
+      },
+      "error": ""
+    },
+    "poll_build_status": {
+      "step": "poll_build_status",
+      "success": true,
+      "started_at": "2026-08-10T21:51:32",
+      "finished_at": "2026-08-10T21:51:32",
+      "data": {
+        "build_id": "mock_bld_1",
+        "version": "1.0.0",
+        "build_number": 1,
+        "processing_state": "VALID"
+      },
+      "error": ""
+    },
+    "select_build": {
+      "step": "select_build",
+      "success": true,
+      "started_at": "2026-08-10T21:51:32",
+      "finished_at": "2026-08-10T21:51:32",
+      "data": {},
+      "error": ""
+    },
+    "submit_review": {
+      "step": "submit_review",
+      "success": true,
+      "started_at": "2026-08-10T21:51:32",
+      "finished_at": "2026-08-10T21:51:32",
+      "data": {
+        "status": "waiting_for_review"
+      },
+      "error": ""
+    }
+  },
+  "build_id": "mock_bld_1",
+  "version_id": "",
+  "phased_release_id": "",
+  "status": "submitted"
+}

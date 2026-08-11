@@ -1,0 +1,606 @@
+{
+  "winners": [
+    {
+      "creative_id": "simulated_winner_001",
+      "video_name": "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.86,
+        "cpi": 0.27,
+        "d1_roi": null,
+        "d7_roi": 0.73,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.486003"
+    },
+    {
+      "creative_id": "simulated_winner_002",
+      "video_name": "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+      "metrics": {
+        "ctr": 4.82,
+        "cpi": 0.28,
+        "d1_roi": null,
+        "d7_roi": 0.72,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.486003"
+    },
+    {
+      "creative_id": "simulated_winner_003",
+      "video_name": "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+      "metrics": {
+        "ctr": 4.82,
+        "cpi": 0.28,
+        "d1_roi": null,
+        "d7_roi": 0.72,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.486003"
+    },
+    {
+      "creative_id": "simulated_winner_004",
+      "video_name": "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+      "metrics": {
+        "ctr": 4.81,
+        "cpi": 0.28,
+        "d1_roi": null,
+        "d7_roi": 0.72,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.487096"
+    },
+    {
+      "creative_id": "simulated_winner_005",
+      "video_name": "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+      "metrics": {
+        "ctr": 4.81,
+        "cpi": 0.28,
+        "d1_roi": null,
+        "d7_roi": 0.72,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.487096"
+    },
+    {
+      "creative_id": "simulated_winner_006",
+      "video_name": "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+      "metrics": {
+        "ctr": 4.8,
+        "cpi": 0.28,
+        "d1_roi": null,
+        "d7_roi": 0.72,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.488106"
+    },
+    {
+      "creative_id": "simulated_winner_007",
+      "video_name": "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+      "metrics": {
+        "ctr": 4.78,
+        "cpi": 0.28,
+        "d1_roi": null,
+        "d7_roi": 0.72,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "merge",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.488612"
+    },
+    {
+      "creative_id": "simulated_winner_008",
+      "video_name": "P4-v2601506-mg-2d-juesezhanshi-en-43s-9X16",
+      "metrics": {
+        "ctr": 4.77,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.488612"
+    },
+    {
+      "creative_id": "simulated_winner_009",
+      "video_name": "P4-v2601269-mg-2d-juqing-en-45s-1X1",
+      "metrics": {
+        "ctr": 4.75,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.489131"
+    },
+    {
+      "creative_id": "simulated_winner_010",
+      "video_name": "P4-v2601202-mg-2d-juesezhanshi-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.75,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.489642"
+    },
+    {
+      "creative_id": "simulated_winner_011",
+      "video_name": "P4-v2601575-mg-2d-juesezhanshi-en-18s-9X16",
+      "metrics": {
+        "ctr": 4.75,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.489642"
+    },
+    {
+      "creative_id": "simulated_winner_012",
+      "video_name": "P4-v2601323-mg-2d-wenzigundong-en-38s-1X1",
+      "metrics": {
+        "ctr": 4.74,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.490154"
+    },
+    {
+      "creative_id": "simulated_winner_013",
+      "video_name": "P4-v2601571-mg-2d-juesezhanshi-en-40s-9X16",
+      "metrics": {
+        "ctr": 4.74,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.490154"
+    },
+    {
+      "creative_id": "simulated_winner_014",
+      "video_name": "P4-v2601587-mg-2d-juesezhanshi-en-44s-9X16",
+      "metrics": {
+        "ctr": 4.74,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.490154"
+    },
+    {
+      "creative_id": "simulated_winner_015",
+      "video_name": "P4-v2601237-mg-2d-changjingzhanshi-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.73,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.491702"
+    },
+    {
+      "creative_id": "simulated_winner_016",
+      "video_name": "P4-v2601246-mg-2d-juqing-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.73,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.491702"
+    },
+    {
+      "creative_id": "simulated_winner_017",
+      "video_name": "P4-v2601111-mg-2d-kaitou-en-36s-1X1",
+      "metrics": {
+        "ctr": 4.73,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "shock",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.492708"
+    },
+    {
+      "creative_id": "simulated_winner_018",
+      "video_name": "P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16",
+      "metrics": {
+        "ctr": 4.73,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.493213"
+    },
+    {
+      "creative_id": "simulated_winner_019",
+      "video_name": "P4-v2601285-mg-2d-juqing-en-39s-1X1",
+      "metrics": {
+        "ctr": 4.72,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.493726"
+    },
+    {
+      "creative_id": "simulated_winner_020",
+      "video_name": "P4-v2601451-mg-2d-juesezhanshi-en-46s-9X16",
+      "metrics": {
+        "ctr": 4.72,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.493726"
+    },
+    {
+      "creative_id": "simulated_winner_021",
+      "video_name": "P4-v2601288-mg-2d-juesezhanshi-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.71,
+        "cpi": 0.29,
+        "d1_roi": null,
+        "d7_roi": 0.71,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.494732"
+    },
+    {
+      "creative_id": "simulated_winner_022",
+      "video_name": "P4-v2601255-mg-2d-juqing-en-39s-1X1",
+      "metrics": {
+        "ctr": 4.7,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.494732"
+    },
+    {
+      "creative_id": "simulated_winner_023",
+      "video_name": "P4-v2601060-mg-2d-wanfashipin-en-40s-1X1",
+      "metrics": {
+        "ctr": 4.69,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "merge",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.497219"
+    },
+    {
+      "creative_id": "simulated_winner_024",
+      "video_name": "P4-v2601549-mg-2d-juesezhanshi-en-43s-9X16",
+      "metrics": {
+        "ctr": 4.69,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.497730"
+    },
+    {
+      "creative_id": "simulated_winner_025",
+      "video_name": "P4-v2601222-mg-2d-juesezhanshi-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.69,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.498241"
+    },
+    {
+      "creative_id": "simulated_winner_026",
+      "video_name": "P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16",
+      "metrics": {
+        "ctr": 4.67,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.498241"
+    },
+    {
+      "creative_id": "simulated_winner_027",
+      "video_name": "P4-v2601487-mg-2d-juesezhanshi-en-47s-9X16",
+      "metrics": {
+        "ctr": 4.67,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.499245"
+    },
+    {
+      "creative_id": "simulated_winner_028",
+      "video_name": "P4-v2601136-mg-2d-juqing-en-43s-1X1",
+      "metrics": {
+        "ctr": 4.67,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.499749"
+    },
+    {
+      "creative_id": "simulated_winner_029",
+      "video_name": "P4-v2601279-mg-2d-juesezhanshi-en-48s-1X1",
+      "metrics": {
+        "ctr": 4.67,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.500754"
+    },
+    {
+      "creative_id": "simulated_winner_030",
+      "video_name": "P4-v2601164-mg-2d-juesezhanshi-en-45s-1X1",
+      "metrics": {
+        "ctr": 4.66,
+        "cpi": 0.3,
+        "d1_roi": null,
+        "d7_roi": 0.7,
+        "d30_roi": null,
+        "spend": 0,
+        "impressions": 0
+      },
+      "dna": {
+        "hook_type": "general",
+        "subject": "character",
+        "action": "showcase",
+        "emotion": "excitement"
+      },
+      "timestamp": "2026-07-13T13:50:27.500754"
+    }
+  ],
+  "updated_at": "2026-07-13T13:50:27.500754",
+  "total": 30
+}

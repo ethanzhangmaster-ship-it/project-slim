@@ -1,0 +1,82 @@
+{
+  "account": "TEST_ACCT",
+  "period": {
+    "start": "2026-07-14",
+    "end": "2026-07-23"
+  },
+  "generated_at": "2026-07-24",
+  "overall_blend_ecpm": 98.19,
+  "summary": {
+    "segments": 1,
+    "demote_candidates": 1,
+    "floor_suggestions": 1
+  },
+  "segments": [
+    {
+      "app": "GameA",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 97.32,
+      "segment_impressions": 1460,
+      "networks": [
+        {
+          "network": "MINTEGRAL",
+          "ecpm": 283.33,
+          "fill_rate": 0.9202,
+          "impression_share": 0.0411,
+          "revenue": 17.0,
+          "score": 260.7362,
+          "rank": 1
+        },
+        {
+          "network": "ADMOB_BIDDING",
+          "ecpm": 177.14,
+          "fill_rate": 0.5556,
+          "impression_share": 0.4795,
+          "revenue": 124.0,
+          "score": 98.4127,
+          "rank": 2
+        },
+        {
+          "network": "CHARTBOOST",
+          "ecpm": 10.0,
+          "fill_rate": 0.5202,
+          "impression_share": 0.0068,
+          "revenue": 0.1,
+          "score": 5.2023,
+          "rank": 3
+        },
+        {
+          "network": "APPLOVIN_EXCHANGE",
+          "ecpm": 1.42,
+          "fill_rate": 0.5658,
+          "impression_share": 0.4726,
+          "revenue": 0.98,
+          "score": 0.8036,
+          "rank": 4
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL",
+        "ADMOB_BIDDING",
+        "CHARTBOOST",
+        "APPLOVIN_EXCHANGE"
+      ],
+      "demote_candidates": [
+        "APPLOVIN_EXCHANGE"
+      ],
+      "floor_suggestions": {
+        "APPLOVIN_EXCHANGE": {
+          "constraint_type": "unified_auction_price_floor",
+          "recommended_floor_range": [
+            7.85,
+            14.73
+          ],
+          "ecpm": 1.42,
+          "impression_share": 0.4726,
+          "requires_manual_apply": true
+        }
+      }
+    }
+  ]
+}

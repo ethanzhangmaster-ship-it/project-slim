@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "campaign_id": "tt_campaign_0001",
+      "campaign_name": "P04_TikTok_Push_1",
+      "country": "JP",
+      "date": "2026-06-21"
+    },
+    {
+      "campaign_id": "tt_campaign_0002",
+      "campaign_name": "P04_TikTok_Push_2",
+      "country": "US",
+      "date": "2026-07-12"
+    },
+    {
+      "campaign_id": "tt_campaign_0003",
+      "campaign_name": "P04_TikTok_Push_3",
+      "country": "TH",
+      "date": "2026-06-27"
+    },
+    {
+      "campaign_id": "tt_campaign_0004",
+      "campaign_name": "P04_TikTok_Push_4",
+      "country": "JP",
+      "date": "2026-06-25"
+    },
+    {
+      "campaign_id": "tt_campaign_0005",
+      "campaign_name": "P04_TikTok_Push_5",
+      "country": "US",
+      "date": "2026-06-14"
+    },
+    {
+      "campaign_id": "tt_campaign_0006",
+      "campaign_name": "P04_TikTok_Push_6",
+      "country": "TH",
+      "date": "2026-06-16"
+    },
+    {
+      "campaign_id": "tt_campaign_0007",
+      "campaign_name": "P04_TikTok_Push_7",
+      "country": "CN",
+      "date": "2026-06-28"
+    },
+    {
+      "campaign_id": "tt_campaign_0008",
+      "campaign_name": "P04_TikTok_Push_8",
+      "country": "US",
+      "date": "2026-07-08"
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.478862",
+  "source": "tiktok",
+  "is_mocked": true
+}

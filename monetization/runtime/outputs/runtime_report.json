@@ -1,0 +1,22 @@
+{
+  "soak_cycles": 1000,
+  "games": 10,
+  "degraded_during_clean_soak": 0,
+  "total_events": 2000,
+  "total_alerts": 12,
+  "critical_alerts": 7,
+  "case1": {
+    "game_00_status": "running",
+    "restart_attempts": 1
+  },
+  "case2": {
+    "game_01_recovered": 558
+  },
+  "case3": {
+    "game_02_disabled": true
+  },
+  "case4": {
+    "game_03_status": "degraded",
+    "others_unaffected": true
+  }
+}

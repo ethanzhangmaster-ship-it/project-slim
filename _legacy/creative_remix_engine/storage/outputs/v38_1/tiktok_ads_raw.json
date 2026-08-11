@@ -1,0 +1,1367 @@
+{
+  "data": [
+    {
+      "ad_id": "tt_ad_000001",
+      "creative_id": "tt_dragon_transformation_001",
+      "video_id": "tt_video_000001",
+      "thumbnail": "tt_thumb_000001.jpg",
+      "spend": 312.8,
+      "impressions": 74198,
+      "clicks": 3517,
+      "installs": 653,
+      "purchase": 33,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000002",
+      "creative_id": "tt_dragon_transformation_002",
+      "video_id": "tt_video_000002",
+      "thumbnail": "tt_thumb_000002.jpg",
+      "spend": 67.96,
+      "impressions": 50765,
+      "clicks": 1720,
+      "installs": 334,
+      "purchase": 17,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000003",
+      "creative_id": "tt_monster_transformation_003",
+      "video_id": "tt_video_000003",
+      "thumbnail": "tt_thumb_000003.jpg",
+      "spend": 595.68,
+      "impressions": 141828,
+      "clicks": 9833,
+      "installs": 2031,
+      "purchase": 96,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000004",
+      "creative_id": "tt_monster_shock_004",
+      "video_id": "tt_video_000004",
+      "thumbnail": "tt_thumb_000004.jpg",
+      "spend": 107.37,
+      "impressions": 69672,
+      "clicks": 3979,
+      "installs": 328,
+      "purchase": 34,
+      "date": "2026-06-20",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000005",
+      "creative_id": "tt_hero_shock_005",
+      "video_id": "tt_video_000005",
+      "thumbnail": "tt_thumb_000005.jpg",
+      "spend": 170.4,
+      "impressions": 71013,
+      "clicks": 2342,
+      "installs": 384,
+      "purchase": 10,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000006",
+      "creative_id": "tt_dragon_urgency_006",
+      "video_id": "tt_video_000006",
+      "thumbnail": "tt_thumb_000006.jpg",
+      "spend": 139.46,
+      "impressions": 52283,
+      "clicks": 2555,
+      "installs": 485,
+      "purchase": 27,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000007",
+      "creative_id": "tt_dragon_transformation_007",
+      "video_id": "tt_video_000007",
+      "thumbnail": "tt_thumb_000007.jpg",
+      "spend": 168.87,
+      "impressions": 143063,
+      "clicks": 3734,
+      "installs": 485,
+      "purchase": 55,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000008",
+      "creative_id": "tt_dragon_challenge_008",
+      "video_id": "tt_video_000008",
+      "thumbnail": "tt_thumb_000008.jpg",
+      "spend": 93.34,
+      "impressions": 86974,
+      "clicks": 2970,
+      "installs": 297,
+      "purchase": 11,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000009",
+      "creative_id": "tt_monster_curiosity_009",
+      "video_id": "tt_video_000009",
+      "thumbnail": "tt_thumb_000009.jpg",
+      "spend": 134.4,
+      "impressions": 96461,
+      "clicks": 2923,
+      "installs": 445,
+      "purchase": 49,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000010",
+      "creative_id": "tt_dragon_transformation_010",
+      "video_id": "tt_video_000010",
+      "thumbnail": "tt_thumb_000010.jpg",
+      "spend": 213.48,
+      "impressions": 92359,
+      "clicks": 2799,
+      "installs": 434,
+      "purchase": 50,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000011",
+      "creative_id": "tt_witch_transformation_011",
+      "video_id": "tt_video_000011",
+      "thumbnail": "tt_thumb_000011.jpg",
+      "spend": 60.26,
+      "impressions": 15221,
+      "clicks": 1052,
+      "installs": 235,
+      "purchase": 17,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000012",
+      "creative_id": "tt_witch_curiosity_012",
+      "video_id": "tt_video_000012",
+      "thumbnail": "tt_thumb_000012.jpg",
+      "spend": 479.55,
+      "impressions": 147181,
+      "clicks": 9820,
+      "installs": 2072,
+      "purchase": 48,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000013",
+      "creative_id": "tt_hero_transformation_013",
+      "video_id": "tt_video_000013",
+      "thumbnail": "tt_thumb_000013.jpg",
+      "spend": 296.31,
+      "impressions": 96623,
+      "clicks": 3936,
+      "installs": 518,
+      "purchase": 59,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000014",
+      "creative_id": "tt_monster_curiosity_014",
+      "video_id": "tt_video_000014",
+      "thumbnail": "tt_thumb_000014.jpg",
+      "spend": 246.86,
+      "impressions": 111016,
+      "clicks": 5789,
+      "installs": 546,
+      "purchase": 41,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000015",
+      "creative_id": "tt_dragon_transformation_015",
+      "video_id": "tt_video_000015",
+      "thumbnail": "tt_thumb_000015.jpg",
+      "spend": 79.27,
+      "impressions": 29246,
+      "clicks": 980,
+      "installs": 153,
+      "purchase": 11,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000016",
+      "creative_id": "tt_dragon_shock_016",
+      "video_id": "tt_video_000016",
+      "thumbnail": "tt_thumb_000016.jpg",
+      "spend": 29.6,
+      "impressions": 18048,
+      "clicks": 841,
+      "installs": 116,
+      "purchase": 6,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000017",
+      "creative_id": "tt_witch_transformation_017",
+      "video_id": "tt_video_000017",
+      "thumbnail": "tt_thumb_000017.jpg",
+      "spend": 165.03,
+      "impressions": 61063,
+      "clicks": 2700,
+      "installs": 317,
+      "purchase": 34,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000018",
+      "creative_id": "tt_dragon_transformation_018",
+      "video_id": "tt_video_000018",
+      "thumbnail": "tt_thumb_000018.jpg",
+      "spend": 398.86,
+      "impressions": 110721,
+      "clicks": 6044,
+      "installs": 1098,
+      "purchase": 70,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000019",
+      "creative_id": "tt_monster_transformation_019",
+      "video_id": "tt_video_000019",
+      "thumbnail": "tt_thumb_000019.jpg",
+      "spend": 92.63,
+      "impressions": 29456,
+      "clicks": 1824,
+      "installs": 193,
+      "purchase": 22,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000020",
+      "creative_id": "tt_dragon_curiosity_020",
+      "video_id": "tt_video_000020",
+      "thumbnail": "tt_thumb_000020.jpg",
+      "spend": 498.24,
+      "impressions": 141619,
+      "clicks": 9703,
+      "installs": 2361,
+      "purchase": 150,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000021",
+      "creative_id": "tt_dragon_urgency_021",
+      "video_id": "tt_video_000021",
+      "thumbnail": "tt_thumb_000021.jpg",
+      "spend": 132.88,
+      "impressions": 51907,
+      "clicks": 2813,
+      "installs": 315,
+      "purchase": 18,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000022",
+      "creative_id": "tt_dragon_curiosity_022",
+      "video_id": "tt_video_000022",
+      "thumbnail": "tt_thumb_000022.jpg",
+      "spend": 373.38,
+      "impressions": 100597,
+      "clicks": 6468,
+      "installs": 766,
+      "purchase": 60,
+      "date": "2026-06-26",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000023",
+      "creative_id": "tt_monster_curiosity_023",
+      "video_id": "tt_video_000023",
+      "thumbnail": "tt_thumb_000023.jpg",
+      "spend": 85.24,
+      "impressions": 29274,
+      "clicks": 1766,
+      "installs": 198,
+      "purchase": 7,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000024",
+      "creative_id": "tt_witch_urgency_024",
+      "video_id": "tt_video_000024",
+      "thumbnail": "tt_thumb_000024.jpg",
+      "spend": 183.73,
+      "impressions": 55389,
+      "clicks": 3861,
+      "installs": 706,
+      "purchase": 21,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000025",
+      "creative_id": "tt_hero_shock_025",
+      "video_id": "tt_video_000025",
+      "thumbnail": "tt_thumb_000025.jpg",
+      "spend": 93.79,
+      "impressions": 33274,
+      "clicks": 900,
+      "installs": 162,
+      "purchase": 8,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000026",
+      "creative_id": "tt_monster_curiosity_026",
+      "video_id": "tt_video_000026",
+      "thumbnail": "tt_thumb_000026.jpg",
+      "spend": 206.68,
+      "impressions": 96720,
+      "clicks": 3798,
+      "installs": 648,
+      "purchase": 26,
+      "date": "2026-06-28",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000027",
+      "creative_id": "tt_dragon_shock_027",
+      "video_id": "tt_video_000027",
+      "thumbnail": "tt_thumb_000027.jpg",
+      "spend": 197.63,
+      "impressions": 68149,
+      "clicks": 3327,
+      "installs": 535,
+      "purchase": 38,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000028",
+      "creative_id": "tt_witch_curiosity_028",
+      "video_id": "tt_video_000028",
+      "thumbnail": "tt_thumb_000028.jpg",
+      "spend": 452.1,
+      "impressions": 103698,
+      "clicks": 6531,
+      "installs": 1388,
+      "purchase": 157,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000029",
+      "creative_id": "tt_dragon_transformation_029",
+      "video_id": "tt_video_000029",
+      "thumbnail": "tt_thumb_000029.jpg",
+      "spend": 735.21,
+      "impressions": 123464,
+      "clicks": 7407,
+      "installs": 1684,
+      "purchase": 109,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000030",
+      "creative_id": "tt_hero_transformation_030",
+      "video_id": "tt_video_000030",
+      "thumbnail": "tt_thumb_000030.jpg",
+      "spend": 188.27,
+      "impressions": 126526,
+      "clicks": 4034,
+      "installs": 433,
+      "purchase": 33,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000031",
+      "creative_id": "tt_witch_transformation_031",
+      "video_id": "tt_video_000031",
+      "thumbnail": "tt_thumb_000031.jpg",
+      "spend": 440.32,
+      "impressions": 132028,
+      "clicks": 8967,
+      "installs": 941,
+      "purchase": 88,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000032",
+      "creative_id": "tt_witch_curiosity_032",
+      "video_id": "tt_video_000032",
+      "thumbnail": "tt_thumb_000032.jpg",
+      "spend": 220.65,
+      "impressions": 121205,
+      "clicks": 4700,
+      "installs": 627,
+      "purchase": 73,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000033",
+      "creative_id": "tt_monster_challenge_033",
+      "video_id": "tt_video_000033",
+      "thumbnail": "tt_thumb_000033.jpg",
+      "spend": 361.84,
+      "impressions": 138116,
+      "clicks": 5896,
+      "installs": 1076,
+      "purchase": 28,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000034",
+      "creative_id": "tt_dragon_shock_034",
+      "video_id": "tt_video_000034",
+      "thumbnail": "tt_thumb_000034.jpg",
+      "spend": 140.7,
+      "impressions": 86399,
+      "clicks": 2788,
+      "installs": 500,
+      "purchase": 47,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000035",
+      "creative_id": "tt_monster_transformation_035",
+      "video_id": "tt_video_000035",
+      "thumbnail": "tt_thumb_000035.jpg",
+      "spend": 178.4,
+      "impressions": 103212,
+      "clicks": 3075,
+      "installs": 755,
+      "purchase": 36,
+      "date": "2026-06-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000036",
+      "creative_id": "tt_witch_urgency_036",
+      "video_id": "tt_video_000036",
+      "thumbnail": "tt_thumb_000036.jpg",
+      "spend": 312.76,
+      "impressions": 74355,
+      "clicks": 5161,
+      "installs": 822,
+      "purchase": 93,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000037",
+      "creative_id": "tt_witch_shock_037",
+      "video_id": "tt_video_000037",
+      "thumbnail": "tt_thumb_000037.jpg",
+      "spend": 385.94,
+      "impressions": 146008,
+      "clicks": 4332,
+      "installs": 952,
+      "purchase": 30,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "shock",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000038",
+      "creative_id": "tt_monster_challenge_038",
+      "video_id": "tt_video_000038",
+      "thumbnail": "tt_thumb_000038.jpg",
+      "spend": 150.64,
+      "impressions": 110042,
+      "clicks": 4384,
+      "installs": 421,
+      "purchase": 10,
+      "date": "2026-06-30",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000039",
+      "creative_id": "tt_hero_curiosity_039",
+      "video_id": "tt_video_000039",
+      "thumbnail": "tt_thumb_000039.jpg",
+      "spend": 567.62,
+      "impressions": 118206,
+      "clicks": 5767,
+      "installs": 1386,
+      "purchase": 129,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000040",
+      "creative_id": "tt_hero_urgency_040",
+      "video_id": "tt_video_000040",
+      "thumbnail": "tt_thumb_000040.jpg",
+      "spend": 81.51,
+      "impressions": 19675,
+      "clicks": 1017,
+      "installs": 141,
+      "purchase": 5,
+      "date": "2026-06-20",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000041",
+      "creative_id": "tt_monster_shock_041",
+      "video_id": "tt_video_000041",
+      "thumbnail": "tt_thumb_000041.jpg",
+      "spend": 627.58,
+      "impressions": 93994,
+      "clicks": 6426,
+      "installs": 1055,
+      "purchase": 47,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000042",
+      "creative_id": "tt_witch_curiosity_042",
+      "video_id": "tt_video_000042",
+      "thumbnail": "tt_thumb_000042.jpg",
+      "spend": 105.65,
+      "impressions": 58296,
+      "clicks": 2692,
+      "installs": 433,
+      "purchase": 12,
+      "date": "2026-07-10",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000043",
+      "creative_id": "tt_monster_shock_043",
+      "video_id": "tt_video_000043",
+      "thumbnail": "tt_thumb_000043.jpg",
+      "spend": 478.94,
+      "impressions": 131499,
+      "clicks": 7822,
+      "installs": 1390,
+      "purchase": 159,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000044",
+      "creative_id": "tt_monster_curiosity_044",
+      "video_id": "tt_video_000044",
+      "thumbnail": "tt_thumb_000044.jpg",
+      "spend": 415.58,
+      "impressions": 125540,
+      "clicks": 7038,
+      "installs": 909,
+      "purchase": 45,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000045",
+      "creative_id": "tt_monster_transformation_045",
+      "video_id": "tt_video_000045",
+      "thumbnail": "tt_thumb_000045.jpg",
+      "spend": 585.94,
+      "impressions": 137130,
+      "clicks": 5218,
+      "installs": 1208,
+      "purchase": 75,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000046",
+      "creative_id": "tt_hero_shock_046",
+      "video_id": "tt_video_000046",
+      "thumbnail": "tt_thumb_000046.jpg",
+      "spend": 302.37,
+      "impressions": 71151,
+      "clicks": 4140,
+      "installs": 506,
+      "purchase": 15,
+      "date": "2026-06-29",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000047",
+      "creative_id": "tt_monster_transformation_047",
+      "video_id": "tt_video_000047",
+      "thumbnail": "tt_thumb_000047.jpg",
+      "spend": 411.34,
+      "impressions": 114230,
+      "clicks": 4016,
+      "installs": 946,
+      "purchase": 20,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000048",
+      "creative_id": "tt_dragon_curiosity_048",
+      "video_id": "tt_video_000048",
+      "thumbnail": "tt_thumb_000048.jpg",
+      "spend": 47.38,
+      "impressions": 10634,
+      "clicks": 559,
+      "installs": 82,
+      "purchase": 6,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000049",
+      "creative_id": "tt_witch_challenge_049",
+      "video_id": "tt_video_000049",
+      "thumbnail": "tt_thumb_000049.jpg",
+      "spend": 54.2,
+      "impressions": 16005,
+      "clicks": 703,
+      "installs": 154,
+      "purchase": 6,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000050",
+      "creative_id": "tt_witch_shock_050",
+      "video_id": "tt_video_000050",
+      "thumbnail": "tt_thumb_000050.jpg",
+      "spend": 130.46,
+      "impressions": 76242,
+      "clicks": 3395,
+      "installs": 490,
+      "purchase": 43,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "shock",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000051",
+      "creative_id": "tt_dragon_challenge_051",
+      "video_id": "tt_video_000051",
+      "thumbnail": "tt_thumb_000051.jpg",
+      "spend": 46.26,
+      "impressions": 13578,
+      "clicks": 863,
+      "installs": 85,
+      "purchase": 2,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000052",
+      "creative_id": "tt_witch_shock_052",
+      "video_id": "tt_video_000052",
+      "thumbnail": "tt_thumb_000052.jpg",
+      "spend": 230.02,
+      "impressions": 71942,
+      "clicks": 2376,
+      "installs": 520,
+      "purchase": 50,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "shock",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000053",
+      "creative_id": "tt_hero_challenge_053",
+      "video_id": "tt_video_000053",
+      "thumbnail": "tt_thumb_000053.jpg",
+      "spend": 215.85,
+      "impressions": 74386,
+      "clicks": 4187,
+      "installs": 968,
+      "purchase": 75,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "challenge",
+        "subject": "hero",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000054",
+      "creative_id": "tt_dragon_urgency_054",
+      "video_id": "tt_video_000054",
+      "thumbnail": "tt_thumb_000054.jpg",
+      "spend": 166.22,
+      "impressions": 88173,
+      "clicks": 5526,
+      "installs": 468,
+      "purchase": 26,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000055",
+      "creative_id": "tt_witch_curiosity_055",
+      "video_id": "tt_video_000055",
+      "thumbnail": "tt_thumb_000055.jpg",
+      "spend": 108.98,
+      "impressions": 91606,
+      "clicks": 3387,
+      "installs": 324,
+      "purchase": 38,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000056",
+      "creative_id": "tt_monster_shock_056",
+      "video_id": "tt_video_000056",
+      "thumbnail": "tt_thumb_000056.jpg",
+      "spend": 659.39,
+      "impressions": 126870,
+      "clicks": 8444,
+      "installs": 1245,
+      "purchase": 47,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000057",
+      "creative_id": "tt_monster_challenge_057",
+      "video_id": "tt_video_000057",
+      "thumbnail": "tt_thumb_000057.jpg",
+      "spend": 33.3,
+      "impressions": 14529,
+      "clicks": 885,
+      "installs": 137,
+      "purchase": 10,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000058",
+      "creative_id": "tt_witch_challenge_058",
+      "video_id": "tt_video_000058",
+      "thumbnail": "tt_thumb_000058.jpg",
+      "spend": 337.55,
+      "impressions": 144258,
+      "clicks": 8055,
+      "installs": 889,
+      "purchase": 63,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000059",
+      "creative_id": "tt_witch_curiosity_059",
+      "video_id": "tt_video_000059",
+      "thumbnail": "tt_thumb_000059.jpg",
+      "spend": 35.14,
+      "impressions": 25753,
+      "clicks": 1452,
+      "installs": 162,
+      "purchase": 5,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000060",
+      "creative_id": "tt_dragon_shock_060",
+      "video_id": "tt_video_000060",
+      "thumbnail": "tt_thumb_000060.jpg",
+      "spend": 58.63,
+      "impressions": 19520,
+      "clicks": 1170,
+      "installs": 143,
+      "purchase": 13,
+      "date": "2026-06-20",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000061",
+      "creative_id": "tt_witch_transformation_061",
+      "video_id": "tt_video_000061",
+      "thumbnail": "tt_thumb_000061.jpg",
+      "spend": 91.02,
+      "impressions": 100802,
+      "clicks": 2553,
+      "installs": 416,
+      "purchase": 10,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000062",
+      "creative_id": "tt_hero_transformation_062",
+      "video_id": "tt_video_000062",
+      "thumbnail": "tt_thumb_000062.jpg",
+      "spend": 240.27,
+      "impressions": 137481,
+      "clicks": 8357,
+      "installs": 710,
+      "purchase": 46,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000063",
+      "creative_id": "tt_monster_urgency_063",
+      "video_id": "tt_video_000063",
+      "thumbnail": "tt_thumb_000063.jpg",
+      "spend": 120.61,
+      "impressions": 44210,
+      "clicks": 3050,
+      "installs": 478,
+      "purchase": 56,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "urgency",
+        "subject": "monster",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000064",
+      "creative_id": "tt_witch_transformation_064",
+      "video_id": "tt_video_000064",
+      "thumbnail": "tt_thumb_000064.jpg",
+      "spend": 295.43,
+      "impressions": 94331,
+      "clicks": 4576,
+      "installs": 982,
+      "purchase": 94,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000065",
+      "creative_id": "tt_witch_curiosity_065",
+      "video_id": "tt_video_000065",
+      "thumbnail": "tt_thumb_000065.jpg",
+      "spend": 144.29,
+      "impressions": 130781,
+      "clicks": 5182,
+      "installs": 488,
+      "purchase": 38,
+      "date": "2026-07-10",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000066",
+      "creative_id": "tt_dragon_shock_066",
+      "video_id": "tt_video_000066",
+      "thumbnail": "tt_thumb_000066.jpg",
+      "spend": 22.59,
+      "impressions": 15033,
+      "clicks": 413,
+      "installs": 53,
+      "purchase": 5,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000067",
+      "creative_id": "tt_hero_curiosity_067",
+      "video_id": "tt_video_000067",
+      "thumbnail": "tt_thumb_000067.jpg",
+      "spend": 637.25,
+      "impressions": 103367,
+      "clicks": 5717,
+      "installs": 1405,
+      "purchase": 129,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000068",
+      "creative_id": "tt_monster_shock_068",
+      "video_id": "tt_video_000068",
+      "thumbnail": "tt_thumb_000068.jpg",
+      "spend": 139.18,
+      "impressions": 74905,
+      "clicks": 4354,
+      "installs": 570,
+      "purchase": 29,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000069",
+      "creative_id": "tt_monster_shock_069",
+      "video_id": "tt_video_000069",
+      "thumbnail": "tt_thumb_000069.jpg",
+      "spend": 215.98,
+      "impressions": 88868,
+      "clicks": 2570,
+      "installs": 424,
+      "purchase": 40,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000070",
+      "creative_id": "tt_hero_transformation_070",
+      "video_id": "tt_video_000070",
+      "thumbnail": "tt_thumb_000070.jpg",
+      "spend": 209.41,
+      "impressions": 116874,
+      "clicks": 3104,
+      "installs": 757,
+      "purchase": 67,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000071",
+      "creative_id": "tt_hero_urgency_071",
+      "video_id": "tt_video_000071",
+      "thumbnail": "tt_thumb_000071.jpg",
+      "spend": 65.48,
+      "impressions": 32939,
+      "clicks": 1089,
+      "installs": 251,
+      "purchase": 22,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000072",
+      "creative_id": "tt_hero_shock_072",
+      "video_id": "tt_video_000072",
+      "thumbnail": "tt_thumb_000072.jpg",
+      "spend": 294.3,
+      "impressions": 129217,
+      "clicks": 8112,
+      "installs": 711,
+      "purchase": 65,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000073",
+      "creative_id": "tt_monster_shock_073",
+      "video_id": "tt_video_000073",
+      "thumbnail": "tt_thumb_000073.jpg",
+      "spend": 493.91,
+      "impressions": 148402,
+      "clicks": 7084,
+      "installs": 887,
+      "purchase": 24,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000074",
+      "creative_id": "tt_witch_curiosity_074",
+      "video_id": "tt_video_000074",
+      "thumbnail": "tt_thumb_000074.jpg",
+      "spend": 629.25,
+      "impressions": 132965,
+      "clicks": 6641,
+      "installs": 1498,
+      "purchase": 50,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000075",
+      "creative_id": "tt_dragon_challenge_075",
+      "video_id": "tt_video_000075",
+      "thumbnail": "tt_thumb_000075.jpg",
+      "spend": 100.75,
+      "impressions": 36554,
+      "clicks": 1174,
+      "installs": 249,
+      "purchase": 19,
+      "date": "2026-07-07",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000076",
+      "creative_id": "tt_monster_challenge_076",
+      "video_id": "tt_video_000076",
+      "thumbnail": "tt_thumb_000076.jpg",
+      "spend": 119.56,
+      "impressions": 63509,
+      "clicks": 1658,
+      "installs": 339,
+      "purchase": 30,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000077",
+      "creative_id": "tt_hero_shock_077",
+      "video_id": "tt_video_000077",
+      "thumbnail": "tt_thumb_000077.jpg",
+      "spend": 889.35,
+      "impressions": 149127,
+      "clicks": 10142,
+      "installs": 1503,
+      "purchase": 70,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "unlock"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000078",
+      "creative_id": "tt_dragon_shock_078",
+      "video_id": "tt_video_000078",
+      "thumbnail": "tt_thumb_000078.jpg",
+      "spend": 443.87,
+      "impressions": 126444,
+      "clicks": 6531,
+      "installs": 789,
+      "purchase": 83,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000079",
+      "creative_id": "tt_dragon_challenge_079",
+      "video_id": "tt_video_000079",
+      "thumbnail": "tt_thumb_000079.jpg",
+      "spend": 244.39,
+      "impressions": 95497,
+      "clicks": 4704,
+      "installs": 454,
+      "purchase": 35,
+      "date": "2026-06-22",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "tt_ad_000080",
+      "creative_id": "tt_dragon_urgency_080",
+      "video_id": "tt_video_000080",
+      "thumbnail": "tt_thumb_000080.jpg",
+      "spend": 124.96,
+      "impressions": 36191,
+      "clicks": 2282,
+      "installs": 399,
+      "purchase": 15,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.480371",
+  "source": "tiktok",
+  "is_mocked": true
+}

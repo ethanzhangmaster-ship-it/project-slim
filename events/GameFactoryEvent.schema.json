@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GameFactoryEvent",
+  "description": "Canonical monetization / gameplay event contract (E13.2.7). The serialized shape produced by GameFactoryEvent.ToDictionary() in com.gamefactory.sdk. Consumed by the Reality Dataset (E13.3) and any future backend. Field names are stable by design.",
+  "type": "object",
+  "required": ["event", "game", "platform", "timestamp_ms"],
+  "properties": {
+    "event": {
+      "type": "string",
+      "enum": [
+        "install", "session_start",
+        "level_start", "level_complete",
+        "ad_request", "ad_show", "ad_complete",
+        "ad_revenue", "purchase"
+      ]
+    },
+    "game": { "type": ["string", "null"] },
+    "platform": { "type": ["string", "null"], "enum": ["android", "ios", "unknown", null] },
+    "country": { "type": ["string", "null"] },
+    "user_id": { "type": ["string", "null"] },
+    "session_id": { "type": ["string", "null"] },
+    "timestamp_ms": { "type": "integer" },
+    "timestamp": { "type": "string" },
+
+    "ad_format": { "type": "string" },
+    "network": { "type": "string" },
+    "placement": { "type": "string" },
+    "ad_unit": { "type": "string" },
+    "revenue": { "type": "number" },
+    "ecpm": { "type": "number" },
+    "latency": { "type": "integer" },
+    "completed": { "type": "boolean" },
+
+    "level": { "type": "integer" },
+    "score": { "type": "number" },
+
+    "product_id": { "type": "string" },
+    "price": { "type": "number" },
+    "currency": { "type": "string" }
+  },
+  "additionalProperties": true
+}

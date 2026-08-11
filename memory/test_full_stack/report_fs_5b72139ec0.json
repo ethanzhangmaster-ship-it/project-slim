@@ -1,0 +1,77 @@
+{
+  "run_id": "fs_5b72139ec0",
+  "status": "success",
+  "creative": {
+    "creative_id": "c_evolution_chain_a0c70540",
+    "template_id": "evolution_chain",
+    "layout_ast_id": "ast_evolution_chain_09216a38",
+    "inference_score": 0.7322
+  },
+  "asset": {
+    "asset_id": "img_d0768800e7b6",
+    "type": "image",
+    "path": "memory\\test_full_stack\\assets\\img_d0768800e7b6.png",
+    "url": "http://localhost:8080/assets/img_d0768800e7b6.png",
+    "hash": "744f39fab282afce..."
+  },
+  "ad_stack": {
+    "platform": "meta",
+    "campaign_id": "meta_camp_542ef21d55",
+    "adset_id": "meta_adset_123a6a22be",
+    "ad_id": "meta_ad_5a06e192bb",
+    "api_calls_count": 3
+  },
+  "events": {
+    "events_count": 569,
+    "impressions": 500,
+    "clicks": 50,
+    "installs": 15,
+    "purchases": 4
+  },
+  "metrics": {
+    "ctr": 0.1,
+    "cvr": 0.3,
+    "ipm": 30.0,
+    "roas": 39.96,
+    "cpc": 0.02,
+    "ltv": 2.664,
+    "total_revenue": 39.96,
+    "total_cost": 1.0
+  },
+  "attribution": {
+    "model": "last_click"
+  },
+  "budget_decision": {
+    "type": "scale",
+    "current": 50.0,
+    "new": 75.0,
+    "delta_percent": 0.5,
+    "reason": "ROAS 39.96 >= 1.5, scale"
+  },
+  "learning": {
+    "weight_update_applied": false,
+    "compiler_version_before": 1,
+    "compiler_version_after": 1
+  },
+  "steps_completed": {
+    "step1_generate": true,
+    "step2_render": true,
+    "step3_upload": true,
+    "step4_campaign": true,
+    "step5_adset": true,
+    "step6_ad": true,
+    "step7_launch": true,
+    "step8_events": true,
+    "step9_attribution": true,
+    "step10_metrics": true,
+    "step11_budget": true,
+    "step12_dataset": true,
+    "step13_weight": true
+  },
+  "timing": {
+    "started_at": 1782885841,
+    "completed_at": 1782885841,
+    "duration_sec": 0
+  },
+  "error": ""
+}

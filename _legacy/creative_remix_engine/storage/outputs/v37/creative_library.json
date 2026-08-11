@@ -1,0 +1,256 @@
+{
+  "version": "V3.7",
+  "total_assets": 599,
+  "quality_distribution": {
+    "S": 487,
+    "A": 88,
+    "B": 21,
+    "C": 3
+  },
+  "hook_library": {
+    "total": 594,
+    "top_10": [
+      "P4-v2601467-mg-2d-juesezhanshi-en-18s-9X16",
+      "P4-v2601468-mg-2d-juesezhanshi-en-48s-9X16",
+      "P4-v2601295-mg-2d-juqing-en-10s-1X1",
+      "P4-v2601460-mg-2d-juesezhanshi-en-46s-9X16",
+      "P4-v2601576-mg-2d-juesezhanshi-en-46s-9X16",
+      "P4-v2601446-mg-2d-juesezhanshi-en-18s-9X16",
+      "P4-v2601182-mg-2d-juqing-en-48s-1X1",
+      "P4-v2601478-mg-2d-juesezhanshi-en-44s-9X16",
+      "P4-v2601336-mg-2d-juqing-en-17s-9X16",
+      "P4-v2601152-mg-2d-juqing-en-51s-1X1"
+    ]
+  },
+  "gameplay_library": {
+    "total": 590,
+    "top_10": [
+      "P4-v2601005-mg-2d-kaitou-en-5s-9X16",
+      "P4-v2601006-mg-2d-wanfashipin-en-30s-1X1",
+      "P4-v2601007-mg-2d-wanfashipin-en-30s-1X1",
+      "P4-v2601008-mg-2d-wanfashipin-en-30s-1X1",
+      "P4-v2601009-mg-2d-wanfashipin-en-30s-9X16",
+      "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16",
+      "P4-v2601011-mg-2d-wanfashipin-en-30s-9X16",
+      "P4-v2601019-mg-2d-wanfashipin-en-30s-1X1",
+      "P4-v2601020-mg-2d-kaitou-en-10s-9X16",
+      "P4-v2601021-mg-2d-kaitou-en-10s-9X16"
+    ]
+  },
+  "creative_archetypes": [
+    {
+      "cluster_id": 5,
+      "size": 473,
+      "avg_scores": {
+        "ad_value": 64.9,
+        "hook": 69.4,
+        "gameplay": 30.0,
+        "reward": 42.2,
+        "motion": 99.7,
+        "impact": 66.5
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601067-mg-2d-juqing-en-14s-9X16",
+        "P4-v2601068-mg-2d-juqing-en-40s-9X16",
+        "P4-v2601069-mg-2d-juqing-en-15s-1X1",
+        "P4-v2601070-mg-2d-juqing-en-45s-1X1",
+        "P4-v2601071-mg-2d-juqing-en-15s-1X1"
+      ],
+      "performance_tier": "HIGH"
+    },
+    {
+      "cluster_id": 2,
+      "size": 51,
+      "avg_scores": {
+        "ad_value": 64.2,
+        "hook": 66.7,
+        "gameplay": 30.0,
+        "reward": 46.0,
+        "motion": 99.0,
+        "impact": 64.3
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601006-mg-2d-wanfashipin-en-30s-1X1",
+        "P4-v2601007-mg-2d-wanfashipin-en-30s-1X1",
+        "P4-v2601008-mg-2d-wanfashipin-en-30s-1X1",
+        "P4-v2601009-mg-2d-wanfashipin-en-30s-9X16",
+        "P4-v2601010-mg-2d-wanfashipin-en-30s-9X16"
+      ],
+      "performance_tier": "HIGH"
+    },
+    {
+      "cluster_id": 1,
+      "size": 10,
+      "avg_scores": {
+        "ad_value": 61.9,
+        "hook": 64.9,
+        "gameplay": 30.0,
+        "reward": 43.9,
+        "motion": 93.6,
+        "impact": 63.8
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601005-mg-2d-kaitou-en-5s-9X16",
+        "P4-v2601020-mg-2d-kaitou-en-10s-9X16",
+        "P4-v2601021-mg-2d-kaitou-en-10s-9X16",
+        "P4-v2601062-mg-2d-kaitou-en-14s-1X1",
+        "P4-v2601109-mg-2d-kaitou-en-30s-1X1"
+      ],
+      "performance_tier": "HIGH"
+    },
+    {
+      "cluster_id": 4,
+      "size": 39,
+      "avg_scores": {
+        "ad_value": 56.8,
+        "hook": 65.0,
+        "gameplay": 30.0,
+        "reward": 46.6,
+        "motion": 70.2,
+        "impact": 70.3
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601052-mg-2d-wenzigundong-en-52s-1X1",
+        "P4-v2601054-mg-2d-wenzigundong-en-27s-9X16",
+        "P4-v2601055-mg-2d-wenzigundong-en-38s-9X16",
+        "P4-v2601061-mg-2d-juesezhanshi-en-17s-1X1",
+        "P4-v2601066-mg-2d-juqing-en-40s-1X1"
+      ],
+      "performance_tier": "HIGH"
+    },
+    {
+      "cluster_id": 6,
+      "size": 4,
+      "avg_scores": {
+        "ad_value": 46.2,
+        "hook": 48.2,
+        "gameplay": 30.0,
+        "reward": 33.8,
+        "motion": 61.6,
+        "impact": 56.5
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601099-mg-2d-juqing-en-15s-1X1",
+        "P4-v2601247-mg-2d-juqing-en-10s-1X1",
+        "P4-v2601417-mg-2d-wenzigundong-en-59s-1X1",
+        "P4-v2601594-mg-2d-juesezhanshi-en-15s-16X9"
+      ],
+      "performance_tier": "MEDIUM"
+    },
+    {
+      "cluster_id": 0,
+      "size": 18,
+      "avg_scores": {
+        "ad_value": 45.1,
+        "hook": 56.0,
+        "gameplay": 30.0,
+        "reward": 46.1,
+        "motion": 37.6,
+        "impact": 62.8
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601002-mg-2d-kaitou-en-5s-1X1",
+        "P4-v2601003-mg-2d-kaitou-en-5s-1X1",
+        "P4-v2601012-mg-2d-kaitou-en-5s-1X1",
+        "P4-v2601013-mg-2d-kaitou-en-5s-1X1",
+        "P4-v2601014-mg-2d-kaitou-en-5s-1X"
+      ],
+      "performance_tier": "MEDIUM"
+    },
+    {
+      "cluster_id": 3,
+      "size": 4,
+      "avg_scores": {
+        "ad_value": 25.8,
+        "hook": 30.9,
+        "gameplay": 30.2,
+        "reward": 23.2,
+        "motion": 11.1,
+        "impact": 53.2
+      },
+      "dominant_dna": {
+        "dominant_subjects": [],
+        "dominant_actions": [],
+        "dominant_emotions": []
+      },
+      "top_videos": [
+        "P4-v2601022-mg-2d-wenzigundong-en-35s-1X1",
+        "P4-v2601053-mg-2d-wenzigundong-en-35s-1X1",
+        "P4-v2601065-mg-2d-juqing-en-11s-1X1",
+        "宣传视频"
+      ],
+      "performance_tier": "LOW"
+    }
+  ],
+  "dna_schema": {
+    "role": [
+      "hook",
+      "gameplay",
+      "reward",
+      "problem",
+      "cta"
+    ],
+    "subject": [
+      "dragon",
+      "witch",
+      "castle",
+      "hero",
+      "npc",
+      "creature"
+    ],
+    "action": [
+      "merge",
+      "upgrade",
+      "drag",
+      "unlock",
+      "battle",
+      "collect"
+    ],
+    "emotion": [
+      "surprise",
+      "curiosity",
+      "excitement",
+      "achievement",
+      "urgency",
+      "satisfaction"
+    ],
+    "scene": [
+      "battle",
+      "magic",
+      "treasure",
+      "forest",
+      "dungeon",
+      "sky"
+    ]
+  }
+}

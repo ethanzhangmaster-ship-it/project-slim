@@ -1,0 +1,677 @@
+{
+  "version": "3.2",
+  "game": "P04",
+  "total_generated": 60,
+  "after_dedup": 10,
+  "assembled": 10,
+  "ml_model_ready": true,
+  "recipes": [
+    {
+      "recipe_id": "remix_9X16_001_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_001",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601523",
+          "start": 10,
+          "duration": 1.8,
+          "material_score": 70.5,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601010",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 35.29,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 51.42,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601375",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 49.31,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_002_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_002",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 51.42,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601452",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 34.8,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 45.08,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601531",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 29.66,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_004_v003",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "castle_collapse_upgrade_reveal_cta_download",
+      "parent_id": "remix_9X16_004",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 44.98,
+          "mutation_type": "castle_collapse"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601441",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 34.34,
+          "mutation_type": "upgrade_reveal"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 43.77,
+          "mutation_type": "cta_download"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601054",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 29.06,
+          "mutation_type": "cta_download"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_005_v003",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "castle_collapse_upgrade_reveal_cta_download",
+      "parent_id": "remix_9X16_005",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 43.77,
+          "mutation_type": "castle_collapse"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601011",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 34.25,
+          "mutation_type": "upgrade_reveal"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 41.89,
+          "mutation_type": "cta_download"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601525",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 29.01,
+          "mutation_type": "cta_download"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_006_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_006",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601410",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 41.95,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601009",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 41.89,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601528",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_007_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_007",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 41.89,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601440",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 41.01,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601403",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_008_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_008",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 41.01,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601470",
+          "start": 2.0,
+          "duration": 4.5,
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 2.7,
+          "material_score": 40.96,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601529",
+          "start": 2.0,
+          "duration": 1.8,
+          "material_score": 29.0,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_003",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "hook_rescue",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 2,
+          "material_score": 45.08,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601469",
+          "start": 2.0,
+          "duration": 5.0,
+          "material_score": 34.8,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 3,
+          "material_score": 44.98,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601359",
+          "start": 2.0,
+          "duration": 2,
+          "material_score": 29.11,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_009",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "reward_character",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 2,
+          "material_score": 40.96,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601043",
+          "start": 2.0,
+          "duration": 5.0,
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 3,
+          "material_score": 40.12,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601055",
+          "start": 2.0,
+          "duration": 2,
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_010",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "hook_dragon",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 2,
+          "material_score": 40.12,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601483",
+          "start": 2.0,
+          "duration": 5.0,
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601519",
+          "start": 2.0,
+          "duration": 3,
+          "material_score": 39.9,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601530",
+          "start": 2.0,
+          "duration": 2,
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    }
+  ],
+  "predictions": [
+    {
+      "creative_id": "remix_9X16_001_v001",
+      "hook_score": 70.5,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 18.41,
+      "fatigue_risk": 0.0,
+      "overall_score": 88.6,
+      "recommendation": "TEST",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_002_v001",
+      "hook_score": 51.4,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_004_v003",
+      "hook_score": 45.0,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_005_v003",
+      "hook_score": 43.8,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_006_v001",
+      "hook_score": 42.0,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_007_v001",
+      "hook_score": 41.9,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_008_v002",
+      "hook_score": 41.0,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_003",
+      "hook_score": 45.1,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_009",
+      "hook_score": 41.0,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_010",
+      "hook_score": 40.1,
+      "ctr_score": 0,
+      "purchase_score": 0,
+      "expected_ctr": 0,
+      "expected_cvr": 0,
+      "expected_roas": 3.61,
+      "fatigue_risk": 0.0,
+      "overall_score": 29.4,
+      "recommendation": "SKIP",
+      "confidence": 0.85
+    }
+  ],
+  "qa_results": [
+    {
+      "creative_id": "remix_9X16_001_v001",
+      "passed": true,
+      "quality_score": 100,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_002_v001",
+      "passed": true,
+      "quality_score": 100,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_004_v003",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_005_v003",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_006_v001",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_007_v001",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_008_v002",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_003",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_009",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    },
+    {
+      "creative_id": "remix_9X16_010",
+      "passed": true,
+      "quality_score": 90,
+      "issues": []
+    }
+  ],
+  "test_plan": {
+    "game": "P04",
+    "total_creatives": 1,
+    "test_duration_days": 3,
+    "total_budget": 300.0,
+    "campaigns": [
+      {
+        "name": "Campaign_A_High_Potential",
+        "budget_per_day": 60.0,
+        "creatives": [
+          "remix_9X16_001_v001"
+        ],
+        "expected_roas_range": "18.41 - 18.41",
+        "strategy": "优先放量"
+      }
+    ],
+    "daily_metrics": [
+      "spend",
+      "impressions",
+      "clicks",
+      "ctr",
+      "installs",
+      "cvr",
+      "purchase",
+      "revenue",
+      "roas"
+    ],
+    "stop_rules": {
+      "roas_below_0.5_for_2_days": "暂停",
+      "ctr_below_0.01_for_1_day": "暂停",
+      "roas_above_2.0": "立即加预算 50%"
+    }
+  }
+}

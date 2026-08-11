@@ -1,0 +1,78 @@
+{
+  "date": "2026-07-26",
+  "window": {
+    "start": "2026-07-16",
+    "end": "2026-07-25"
+  },
+  "accounts_total": 3,
+  "ok": 3,
+  "fail": 0,
+  "results": [
+    {
+      "account": "ACCT_1",
+      "status": "OK",
+      "seconds": 140.9,
+      "rows": 74379,
+      "health": 75,
+      "opportunity": 72,
+      "risk": 30,
+      "revenue": 409.2,
+      "blended_ecpm": 8.64,
+      "actions": 8,
+      "early_warnings": 4,
+      "config_segments": 21,
+      "notified": true,
+      "notify_error": null,
+      "paths": {
+        "markdown": "outputs/monetization_reports\\ACCT_1_2026-07-26.md",
+        "json": "outputs/monetization_reports\\ACCT_1_2026-07-26.json",
+        "config_markdown": "outputs/config_recommendations\\ACCT_1_2026-07-25.md",
+        "config_json": "outputs/config_recommendations\\ACCT_1_2026-07-25.json"
+      }
+    },
+    {
+      "account": "ACCT_2",
+      "status": "OK",
+      "seconds": 90.9,
+      "rows": 11312,
+      "health": 71,
+      "opportunity": 35,
+      "risk": 54,
+      "revenue": 771.14,
+      "blended_ecpm": 62.32,
+      "actions": 9,
+      "early_warnings": 0,
+      "config_segments": 11,
+      "notified": true,
+      "notify_error": null,
+      "paths": {
+        "markdown": "outputs/monetization_reports\\ACCT_2_2026-07-26.md",
+        "json": "outputs/monetization_reports\\ACCT_2_2026-07-26.json",
+        "config_markdown": "outputs/config_recommendations\\ACCT_2_2026-07-25.md",
+        "config_json": "outputs/config_recommendations\\ACCT_2_2026-07-25.json"
+      }
+    },
+    {
+      "account": "ACCT_3",
+      "status": "OK",
+      "seconds": 92.1,
+      "rows": 6207,
+      "health": 86,
+      "opportunity": 18,
+      "risk": 17,
+      "revenue": 68.36,
+      "blended_ecpm": 43.71,
+      "actions": 2,
+      "early_warnings": 0,
+      "config_segments": 1,
+      "notified": true,
+      "notify_error": null,
+      "paths": {
+        "markdown": "outputs/monetization_reports\\ACCT_3_2026-07-26.md",
+        "json": "outputs/monetization_reports\\ACCT_3_2026-07-26.json",
+        "config_markdown": "outputs/config_recommendations\\ACCT_3_2026-07-25.md",
+        "config_json": "outputs/config_recommendations\\ACCT_3_2026-07-25.json"
+      }
+    }
+  ]
+}

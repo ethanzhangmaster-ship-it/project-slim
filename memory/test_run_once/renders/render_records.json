@@ -1,0 +1,85 @@
+{
+  "render_66b6cee2": {
+    "render_id": "render_66b6cee2",
+    "creative_id": "c_merge_formula_9c3d102c",
+    "template_id": "merge_formula",
+    "layout_ast_id": "ast_merge_formula_f07690fd",
+    "image_path": "memory\\test_run_once\\renders\\render_66b6cee2.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "center",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Merge result C - glowing reward, L1 visual focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Item A - left side merge ingredient"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Witch character hands reaching in"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "merge_formula",
+        "prompt": "mobile game advertisement, 3D cartoon style, Pixar quality, magical glowing merge result, sparkling, center of attention, largest element, positioned prominently in center, largest element in composition, moderate glow effect, two items merging with plus sign and equals sign, magical sparkles, mechanism clearly visible and readable, structured like game UI elements, witch character hands reaching in from sides, secondary element, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "magical glowing merge result, sparkling, center of attention, largest element, positioned prominently in center, largest element in composition, moderate glow effect",
+        "mechanism_visual": "two items merging with plus sign and equals sign, magical sparkles, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "witch character hands reaching in from sides, secondary element, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782883861,
+    "completed_at": 1782883861
+  }
+}

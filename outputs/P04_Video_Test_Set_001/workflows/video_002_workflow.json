@@ -1,0 +1,129 @@
+{
+  "1": {
+    "inputs": {
+      "unet_name": "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "class_type": "UNETLoader"
+  },
+  "2": {
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader"
+  },
+  "3": {
+    "inputs": {
+      "vae_name": "wan_2.1_vae.safetensors"
+    },
+    "class_type": "VAELoader"
+  },
+  "4": {
+    "inputs": {
+      "text": "masterpiece, best quality, ultra detailed, 4K, sharp focus, gorgeous witch character close-up, dazzling magical transformation sequence, brilliant bright magical glowing particles swirling around body, radiant light burst, elegant flowing dress transforming into legendary armor, sparkling gemstone staff, intense magical aura, magical transformation sequence, character evolution with glowing particles, legendary skin reveal with radiant light, fantasy magical environment with character in center frame, particle effects filling screen, camera fast push in, orbit, 9X16 vertical format, warm golden, dramatic backlighting, volumetric light rays, mobile game advertisement, high quality cinematic, dynamic motion, engaging gameplay footage, colorful vibrant, vertical portrait composition, glowing particles, magical transformation flash, radiant light burst, sparkling stardust",
+      "clip": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "5": {
+    "inputs": {
+      "text": "dark forest, landscape, wide shot, scenery only, no character, text, watermark, blurry, low quality, deformed hands, extra fingers, bad anatomy, static image, freeze frame, ugly, distorted, character standing still, meaningless background",
+      "clip": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "6": {
+    "inputs": {
+      "image": "video_002_flux.png"
+    },
+    "class_type": "LoadImage"
+  },
+  "7": {
+    "inputs": {
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ],
+      "width": 576,
+      "height": 1024,
+      "length": 81,
+      "batch_size": 1,
+      "start_image": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "WanImageToVideo"
+  },
+  "8": {
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 1002,
+      "steps": 30,
+      "cfg": 6.0,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "positive": [
+        "7",
+        0
+      ],
+      "negative": [
+        "7",
+        1
+      ],
+      "latent_image": [
+        "7",
+        2
+      ],
+      "denoise": 1.0
+    },
+    "class_type": "KSampler"
+  },
+  "9": {
+    "inputs": {
+      "samples": [
+        "8",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "VAEDecode"
+  },
+  "10": {
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ],
+      "frame_rate": 8,
+      "loop_count": 0,
+      "filename_prefix": "VD-DB1E0115",
+      "format": "video/h264-mp4",
+      "pingpong": false,
+      "save_output": true
+    },
+    "class_type": "VHS_VideoCombine"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "task_id": "P04_Video_Test_Set_001",
+  "generated_at": "2026-07-11T01:30:00.039438",
+  "total": 10,
+  "success": 10,
+  "failed": 0,
+  "videos": [
+    {
+      "id": "video_001",
+      "creative_angle": "dragon_attack",
+      "status": "success",
+      "source_dna": "v2601523",
+      "seed": 1001,
+      "video_path": "outputs/P04_Video_Test_Set_001/video_001.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_001_flux.png"
+    },
+    {
+      "id": "video_002",
+      "creative_angle": "witch_transformation",
+      "status": "success",
+      "source_dna": "v2601523",
+      "seed": 1002,
+      "video_path": "outputs/P04_Video_Test_Set_001/video_002.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_002_flux.png"
+    },
+    {
+      "id": "video_003",
+      "creative_angle": "merge_gameplay",
+      "status": "success",
+      "source_dna": "v2601163",
+      "seed": 1003,
+      "video_path": "outputs/P04_Video_Test_Set_001\\video_003.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_003_flux.png"
+    },
+    {
+      "id": "video_004",
+      "creative_angle": "before_after_upgrade",
+      "status": "success",
+      "source_dna": "v2601163",
+      "seed": 1004,
+      "video_path": "outputs/P04_Video_Test_Set_001/video_004.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_004_flux.png"
+    },
+    {
+      "id": "video_005",
+      "creative_angle": "reward_fantasy",
+      "status": "success",
+      "source_dna": "v2601523",
+      "seed": 1005,
+      "video_path": "outputs/P04_Video_Test_Set_001\\video_005.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_005_flux.png"
+    },
+    {
+      "id": "video_006",
+      "creative_angle": "fast_push_transform",
+      "status": "success",
+      "source_dna": "v2601523",
+      "seed": 1006,
+      "video_path": "outputs/P04_Video_Test_Set_001/video_006.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_006_flux.png"
+    },
+    {
+      "id": "video_007",
+      "creative_angle": "orbit_merge",
+      "status": "success",
+      "source_dna": "v2601163",
+      "seed": 1007,
+      "video_path": "outputs/P04_Video_Test_Set_001\\video_007.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_007_flux.png"
+    },
+    {
+      "id": "video_008",
+      "creative_angle": "tracking_upgrade",
+      "status": "success",
+      "source_dna": "v2601163",
+      "seed": 1008,
+      "video_path": "outputs/P04_Video_Test_Set_001\\video_008.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_008_flux.png"
+    },
+    {
+      "id": "video_009",
+      "creative_angle": "golden_explosion",
+      "status": "success",
+      "source_dna": "v2601523",
+      "seed": 1009,
+      "video_path": "outputs/P04_Video_Test_Set_001\\video_009.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_009_flux.png"
+    },
+    {
+      "id": "video_010",
+      "creative_angle": "magical_reward",
+      "status": "success",
+      "source_dna": "v2601523",
+      "seed": 1010,
+      "video_path": "outputs/P04_Video_Test_Set_001\\video_010.mp4",
+      "flux_path": "outputs/P04_Video_Test_Set_001\\frames\\video_010_flux.png"
+    }
+  ]
+}

@@ -155,7 +155,7 @@ class CreativeImageGenerator:
         project: str = "",
         hook_type: str = "unknown",
         negative_prompt: str = "",
-        size: str = "1024x1792",
+        size: str = "1024x1024",
     ) -> GeneratedImage:
         """Generate a single image from one prompt string."""
         prompt_dict = {

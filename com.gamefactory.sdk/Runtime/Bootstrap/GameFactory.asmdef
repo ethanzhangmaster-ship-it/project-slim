@@ -1,0 +1,21 @@
+{
+  "name": "GameFactory",
+  "rootNamespace": "GameFactory",
+  "references": [
+    "GameFactory.Runtime",
+    "GameFactory.Ads",
+    "GameFactory.Analytics",
+    "GameFactory.RemoteConfig",
+    "GameFactory.IAP",
+    "GameFactory.User"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

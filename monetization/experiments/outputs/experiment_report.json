@@ -1,0 +1,518 @@
+{
+  "module": "E13.4.2 Monetization Experiment Engine",
+  "experiment_count": 6,
+  "experiments": [
+    {
+      "experiment_id": "exp_6c355874",
+      "name": "Bid Floor Sweep",
+      "success_metric": "revenue",
+      "target_segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "reward",
+        "network": "applovin"
+      },
+      "winner": {
+        "variant": "B_floor+40%",
+        "strategy_type": "bid_floor_adjust",
+        "value": 204.2676
+      },
+      "baseline_value": 199.98,
+      "lift_pct": 2.1440144014401428,
+      "conclusion": "Winner: B_floor+40% (bid_floor_adjust) with 204.268 revenue (+2.1% vs baseline). Adopt 'B_floor+40%' (bid_floor_adjust) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+      "learning_signal": {
+        "winner_strategy_type": "bid_floor_adjust",
+        "winner_variant": "B_floor+40%",
+        "winner_lift_pct": 2.144,
+        "measured_vs_predicted_bias": -0.209,
+        "bias_interpretation": "Simulator OVER-predicts revenue (actuals fall short).",
+        "per_treatment": {
+          "v_3d9ec934": {
+            "variant": "B_floor+20%",
+            "strategy_type": "bid_floor_adjust",
+            "predicted_revenue_delta": 1.336,
+            "measured_revenue_delta": 0.303,
+            "measured_retention_delta": 0.068
+          },
+          "v_27e527f9": {
+            "variant": "B_floor+40%",
+            "strategy_type": "bid_floor_adjust",
+            "predicted_revenue_delta": 2.144,
+            "measured_revenue_delta": 2.76,
+            "measured_retention_delta": -0.25
+          }
+        },
+        "recommendation": "Adopt 'B_floor+40%' (bid_floor_adjust) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+        "confidence": 0.714
+      },
+      "comparison": [
+        {
+          "variant_id": "v_39147205",
+          "name": "A_baseline",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 199.98,
+          "confidence": 1.0
+        },
+        {
+          "variant_id": "v_27e527f9",
+          "name": "B_floor+40%",
+          "strategy_type": "bid_floor_up",
+          "is_baseline": false,
+          "revenue_delta_pct": 2.144,
+          "ecpm_delta_pct": 12.0,
+          "fill_delta_pct": -8.8,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 204.2676,
+          "confidence": 0.714
+        },
+        {
+          "variant_id": "v_3d9ec934",
+          "name": "B_floor+20%",
+          "strategy_type": "bid_floor_up",
+          "is_baseline": false,
+          "revenue_delta_pct": 1.336,
+          "ecpm_delta_pct": 6.0,
+          "fill_delta_pct": -4.4,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 202.6517,
+          "confidence": 0.782
+        }
+      ]
+    },
+    {
+      "experiment_id": "exp_7c2ec0b1",
+      "name": "Waterfall Priority Sweep",
+      "success_metric": "revenue",
+      "target_segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "reward",
+        "network": "applovin"
+      },
+      "winner": {
+        "variant": "B_wf_applovin+25",
+        "strategy_type": "waterfall_change",
+        "value": 203.3297
+      },
+      "baseline_value": 199.98,
+      "lift_pct": 1.6750175017501816,
+      "conclusion": "Winner: B_wf_applovin+25 (waterfall_change) with 203.330 revenue (+1.7% vs baseline). Adopt 'B_wf_applovin+25' (waterfall_change) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+      "learning_signal": {
+        "winner_strategy_type": "waterfall_change",
+        "winner_variant": "B_wf_applovin+25",
+        "winner_lift_pct": 1.675,
+        "measured_vs_predicted_bias": -0.686,
+        "bias_interpretation": "Simulator OVER-predicts revenue (actuals fall short).",
+        "per_treatment": {
+          "v_016c8073": {
+            "variant": "B_wf_mintegral+20",
+            "strategy_type": "waterfall_change",
+            "predicted_revenue_delta": 1.352,
+            "measured_revenue_delta": 1.496,
+            "measured_retention_delta": 0.304
+          },
+          "v_3440e8bc": {
+            "variant": "B_wf_applovin+25",
+            "strategy_type": "waterfall_change",
+            "predicted_revenue_delta": 1.675,
+            "measured_revenue_delta": 0.16,
+            "measured_retention_delta": 0.257
+          }
+        },
+        "recommendation": "Adopt 'B_wf_applovin+25' (waterfall_change) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+        "confidence": 0.675
+      },
+      "comparison": [
+        {
+          "variant_id": "v_edbee578",
+          "name": "A_baseline",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 199.98,
+          "confidence": 1.0
+        },
+        {
+          "variant_id": "v_3440e8bc",
+          "name": "B_wf_applovin+25",
+          "strategy_type": "waterfall_promote",
+          "is_baseline": false,
+          "revenue_delta_pct": 1.675,
+          "ecpm_delta_pct": 3.75,
+          "fill_delta_pct": -2.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 203.3297,
+          "confidence": 0.675
+        },
+        {
+          "variant_id": "v_016c8073",
+          "name": "B_wf_mintegral+20",
+          "strategy_type": "waterfall_promote",
+          "is_baseline": false,
+          "revenue_delta_pct": 1.352,
+          "ecpm_delta_pct": 3.0,
+          "fill_delta_pct": -1.6,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 202.6837,
+          "confidence": 0.69
+        }
+      ]
+    },
+    {
+      "experiment_id": "exp_ba8aa1f2",
+      "name": "Ad Frequency Test",
+      "success_metric": "retention",
+      "target_segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "reward",
+        "network": "applovin"
+      },
+      "winner": {
+        "variant": "B_freq4(down)",
+        "strategy_type": "frequency_down",
+        "value": 42.672
+      },
+      "baseline_value": 42.0,
+      "lift_pct": 1.599999999999993,
+      "conclusion": "Winner: B_freq4(down) (frequency_down) with 42.672 retention (+1.6% vs baseline). Adopt 'B_freq4(down)' (frequency_down) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+      "learning_signal": {
+        "winner_strategy_type": "frequency_down",
+        "winner_variant": "B_freq4(down)",
+        "winner_lift_pct": 1.6,
+        "measured_vs_predicted_bias": -0.137,
+        "bias_interpretation": "Simulator OVER-predicts revenue (actuals fall short).",
+        "per_treatment": {
+          "v_9ce1892a": {
+            "variant": "B_freq4(down)",
+            "strategy_type": "frequency_down",
+            "predicted_revenue_delta": -9.55,
+            "measured_revenue_delta": -7.4,
+            "measured_retention_delta": 1.218
+          },
+          "v_6c4e7cb5": {
+            "variant": "B_freq6(up)",
+            "strategy_type": "frequency_adjust",
+            "predicted_revenue_delta": 9.45,
+            "measured_revenue_delta": 7.026,
+            "measured_retention_delta": -1.301
+          }
+        },
+        "recommendation": "Adopt 'B_freq4(down)' (frequency_down) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+        "confidence": 0.595
+      },
+      "comparison": [
+        {
+          "variant_id": "v_f9b848ae",
+          "name": "A_baseline",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 42.0,
+          "confidence": 1.0
+        },
+        {
+          "variant_id": "v_9ce1892a",
+          "name": "B_freq4(down)",
+          "strategy_type": "freq_down",
+          "is_baseline": false,
+          "revenue_delta_pct": -9.55,
+          "ecpm_delta_pct": 0.5,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 1.6,
+          "success_metric_value": 42.672,
+          "confidence": 0.595
+        },
+        {
+          "variant_id": "v_6c4e7cb5",
+          "name": "B_freq6(up)",
+          "strategy_type": "freq_up",
+          "is_baseline": false,
+          "revenue_delta_pct": 9.45,
+          "ecpm_delta_pct": -0.5,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": -1.6,
+          "success_metric_value": 41.328,
+          "confidence": 0.557
+        }
+      ]
+    },
+    {
+      "experiment_id": "exp_3b8383b5",
+      "name": "Exp: bid_floor_adjust on US_android_reward_applovin",
+      "success_metric": "revenue",
+      "target_segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "reward",
+        "network": "applovin"
+      },
+      "winner": {
+        "variant": "B_bid_floor_adjust",
+        "strategy_type": "bid_floor_adjust",
+        "value": 304.008
+      },
+      "baseline_value": 300.0,
+      "lift_pct": 1.3359999999999939,
+      "conclusion": "Winner: B_bid_floor_adjust (bid_floor_adjust) with 304.008 revenue (+1.3% vs baseline). Adopt 'B_bid_floor_adjust' (bid_floor_adjust) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+      "learning_signal": {
+        "winner_strategy_type": "bid_floor_adjust",
+        "winner_variant": "B_bid_floor_adjust",
+        "winner_lift_pct": 1.336,
+        "measured_vs_predicted_bias": -0.044,
+        "bias_interpretation": "Simulator well-calibrated on experiment evidence.",
+        "per_treatment": {
+          "v_390fc4b3": {
+            "variant": "B_bid_floor_adjust",
+            "strategy_type": "bid_floor_adjust",
+            "predicted_revenue_delta": 1.336,
+            "measured_revenue_delta": 1.292,
+            "measured_retention_delta": -0.403
+          }
+        },
+        "recommendation": "Adopt 'B_bid_floor_adjust' (bid_floor_adjust) for US_android_reward_applovin; promote it for A/B-confirmed lift before any production rollout.",
+        "confidence": 0.782
+      },
+      "comparison": [
+        {
+          "variant_id": "v_3d782509",
+          "name": "A_baseline",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 300.0,
+          "confidence": 1.0
+        },
+        {
+          "variant_id": "v_390fc4b3",
+          "name": "B_bid_floor_adjust",
+          "strategy_type": "bid_floor_up",
+          "is_baseline": false,
+          "revenue_delta_pct": 1.336,
+          "ecpm_delta_pct": 6.0,
+          "fill_delta_pct": -4.4,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 304.008,
+          "confidence": 0.782
+        }
+      ]
+    },
+    {
+      "experiment_id": "exp_a303779f",
+      "name": "Exp: backup_network on US_android_interstitial_applovin",
+      "success_metric": "revenue",
+      "target_segment": {
+        "country": "US",
+        "platform": "android",
+        "ad_format": "interstitial",
+        "network": "applovin"
+      },
+      "winner": {
+        "variant": "B_backup_network",
+        "strategy_type": "backup_network",
+        "value": 306.6825
+      },
+      "baseline_value": 300.0,
+      "lift_pct": 2.2275000000000014,
+      "conclusion": "Winner: B_backup_network (backup_network) with 306.683 revenue (+2.2% vs baseline). Adopt 'B_backup_network' (backup_network) for US_android_interstitial_applovin; promote it for A/B-confirmed lift before any production rollout.",
+      "learning_signal": {
+        "winner_strategy_type": "backup_network",
+        "winner_variant": "B_backup_network",
+        "winner_lift_pct": 2.228,
+        "measured_vs_predicted_bias": 0.065,
+        "bias_interpretation": "Simulator UNDER-predicts revenue (actuals beat forecast).",
+        "per_treatment": {
+          "v_d180bdd4": {
+            "variant": "B_backup_network",
+            "strategy_type": "backup_network",
+            "predicted_revenue_delta": 2.228,
+            "measured_revenue_delta": 2.293,
+            "measured_retention_delta": -0.121
+          }
+        },
+        "recommendation": "Adopt 'B_backup_network' (backup_network) for US_android_interstitial_applovin; promote it for A/B-confirmed lift before any production rollout.",
+        "confidence": 0.658
+      },
+      "comparison": [
+        {
+          "variant_id": "v_58785455",
+          "name": "A_baseline",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 300.0,
+          "confidence": 1.0
+        },
+        {
+          "variant_id": "v_d180bdd4",
+          "name": "B_backup_network",
+          "strategy_type": "fill_recovery",
+          "is_baseline": false,
+          "revenue_delta_pct": 2.228,
+          "ecpm_delta_pct": -0.75,
+          "fill_delta_pct": 3.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 306.6825,
+          "confidence": 0.658
+        }
+      ]
+    },
+    {
+      "experiment_id": "exp_751f9312",
+      "name": "Exp: no_action on US_android",
+      "success_metric": "revenue",
+      "target_segment": {
+        "country": "US",
+        "platform": "android"
+      },
+      "winner": {
+        "variant": "A_baseline",
+        "strategy_type": "baseline",
+        "value": 300.0
+      },
+      "baseline_value": 300.0,
+      "lift_pct": 0.0,
+      "conclusion": "Winner: A_baseline (baseline) with 300.000 revenue (+0.0% vs baseline). Adopt 'A_baseline' (baseline) for US_android; promote it for A/B-confirmed lift before any production rollout.",
+      "learning_signal": {
+        "winner_strategy_type": "baseline",
+        "winner_variant": "A_baseline",
+        "winner_lift_pct": 0.0,
+        "measured_vs_predicted_bias": -0.832,
+        "bias_interpretation": "Simulator OVER-predicts revenue (actuals fall short).",
+        "per_treatment": {
+          "v_092c7904": {
+            "variant": "B_no_action",
+            "strategy_type": "no_action",
+            "predicted_revenue_delta": 0.0,
+            "measured_revenue_delta": -0.832,
+            "measured_retention_delta": 0.316
+          }
+        },
+        "recommendation": "Adopt 'A_baseline' (baseline) for US_android; promote it for A/B-confirmed lift before any production rollout.",
+        "confidence": 1.0
+      },
+      "comparison": [
+        {
+          "variant_id": "v_60975424",
+          "name": "A_baseline",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 300.0,
+          "confidence": 1.0
+        },
+        {
+          "variant_id": "v_092c7904",
+          "name": "B_no_action",
+          "strategy_type": "none",
+          "is_baseline": true,
+          "revenue_delta_pct": 0.0,
+          "ecpm_delta_pct": 0.0,
+          "fill_delta_pct": 0.0,
+          "retention_delta_pct": 0.0,
+          "success_metric_value": 300.0,
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "mean_measured_vs_predicted_bias": -0.307,
+    "winners": [
+      {
+        "strategy_type": "bid_floor_adjust",
+        "lift_pct": 2.144
+      },
+      {
+        "strategy_type": "waterfall_change",
+        "lift_pct": 1.675
+      },
+      {
+        "strategy_type": "frequency_down",
+        "lift_pct": 1.6
+      },
+      {
+        "strategy_type": "bid_floor_adjust",
+        "lift_pct": 1.336
+      },
+      {
+        "strategy_type": "backup_network",
+        "lift_pct": 2.228
+      },
+      {
+        "strategy_type": "baseline",
+        "lift_pct": 0.0
+      }
+    ]
+  },
+  "memory_feed": {
+    "records_total": 6,
+    "closed_loop_samples": 3,
+    "strategy_performance": {
+      "backup_network": {
+        "label": "backup_network",
+        "total_decisions": 2,
+        "executed": 1,
+        "closed_loop": 1,
+        "successes": 1,
+        "success_rate": 0.6667,
+        "avg_predicted_revenue_delta": 2.228,
+        "avg_actual_revenue_delta": 2.293,
+        "avg_abs_prediction_error": 0.065,
+        "avg_bias": 0.065
+      },
+      "bid_floor_adjust": {
+        "label": "bid_floor_adjust",
+        "total_decisions": 2,
+        "executed": 1,
+        "closed_loop": 1,
+        "successes": 1,
+        "success_rate": 0.6667,
+        "avg_predicted_revenue_delta": 1.336,
+        "avg_actual_revenue_delta": 1.292,
+        "avg_abs_prediction_error": 0.044,
+        "avg_bias": -0.044
+      },
+      "no_action": {
+        "label": "no_action",
+        "total_decisions": 2,
+        "executed": 1,
+        "closed_loop": 1,
+        "successes": 0,
+        "success_rate": 0.3333,
+        "avg_predicted_revenue_delta": 0.0,
+        "avg_actual_revenue_delta": -0.832,
+        "avg_abs_prediction_error": 0.832,
+        "avg_bias": -0.832
+      }
+    }
+  },
+  "constraints": {
+    "simulation_only": true,
+    "real_ad_platform_called": false,
+    "executes_config_changes": false,
+    "store_backend": "jsonl_file",
+    "acceptance_experiments": 3,
+    "real_pipeline_experiments": 3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "account": "ACCT_TEST",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-29"
+  },
+  "generated_at": "2026-07-30",
+  "overall_blend_ecpm": 24.44,
+  "summary": {
+    "segments": 2,
+    "demote_candidates": 0,
+    "floor_suggestions": 0
+  },
+  "segments": [
+    {
+      "app": "GameA",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 25.0,
+      "segment_impressions": 1600,
+      "networks": [
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 25.0,
+          "fill_rate": 0.6818,
+          "impression_share": 1.0,
+          "revenue": 40.0,
+          "score": 17.0455,
+          "rank": 1
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL_BIDDING"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    },
+    {
+      "app": "GameB",
+      "geo": "us",
+      "ad_format": "REWARD",
+      "segment_blend_ecpm": 20.0,
+      "segment_impressions": 200,
+      "networks": [
+        {
+          "network": "MINTEGRAL_BIDDING",
+          "ecpm": 20.0,
+          "fill_rate": 0.2,
+          "impression_share": 1.0,
+          "revenue": 4.0,
+          "score": 4.0,
+          "rank": 1
+        }
+      ],
+      "recommended_order": [
+        "MINTEGRAL_BIDDING"
+      ],
+      "demote_candidates": [],
+      "floor_suggestions": {}
+    }
+  ]
+}

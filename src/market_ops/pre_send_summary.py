@@ -70,9 +70,6 @@ class PreSendSummaryBuilder:
                     ((self_check_payload.get("google_creative_repair_audit") or {}).get("summary_path"))
                     or output_dir / f"google_creative_repair_audit_{suffix}.md"
                 ),
-                tecdo_probe_markdown=(output_dir / f"tecdo_probe_{suffix}.md") if (output_dir / f"tecdo_probe_{suffix}.md").exists() else None,
-                tecdo_account_reconciliation_markdown=output_dir / f"tecdo_account_reconciliation_{suffix}.md",
-                tecdo_sync_checklist_markdown=(output_dir / f"tecdo_sync_checklist_{suffix}.md") if (output_dir / f"tecdo_sync_checklist_{suffix}.md").exists() else None,
                 closure_status_markdown=output_dir / f"closure_status_{suffix}.md",
                 project_detail_coverage_markdown=output_dir / f"project_detail_coverage_{suffix}.md",
                 p04_source_checklist_markdown=output_dir / f"p04_source_checklist_{suffix}.md",
@@ -271,12 +268,8 @@ class PreSendSummaryBuilder:
 
         creative_source = self_check_payload.get("creative_source_readiness") or {}
         creative_summary = creative_source.get("summary") or {}
-        if creative_summary.get("tecdo_is_formal_source"):
-            warnings.append("TecDo 代理素材源已进入当前周报链路；素材层可做广告层代理分析，但还不等同于原生 creative id 归因。")
-        elif creative_summary.get("google_resolver_ready"):
+        if creative_summary.get("google_resolver_ready"):
             warnings.append("Google 素材修复链路已接入周报链路；当前仍先按修复候选清单呈现。")
-        if creative_summary.get("tecdo_probe_has_rows") is False:
-            warnings.append("TecDo 当前已授权，但报表接口仍在等待服务商完成数据同步；这不是代码或权限报错，待同步完成后再复测。")
         if not warnings and audit_payload.get("passed"):
             warnings.append("当前没有门禁阻断项。")
         return warnings

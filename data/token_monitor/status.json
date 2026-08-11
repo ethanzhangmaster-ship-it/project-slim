@@ -1,0 +1,14 @@
+{
+  "api_test_token": {
+    "token_id": "api_test_token",
+    "token_type": "custom",
+    "is_valid": true,
+    "expires_at": 1786848134.5083697,
+    "checked_at": "2026-08-11T02:42:14.510368+00:00",
+    "source": "api_register",
+    "error": "",
+    "scopes": [],
+    "app_id": "",
+    "token_preview": ""
+  }
+}

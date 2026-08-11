@@ -6,7 +6,6 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from market_ops.clients.tecdo_report import TecDoReportCreativeClient
 from market_ops.config import Settings
 
 
@@ -46,9 +45,8 @@ class CreativeSourceReadinessBuilder:
         json_path = active_output_dir / f"creative_source_readiness_{suffix}.json"
 
         meta = self._meta_readiness()
-        tecdo = self._tecdo_readiness(report_date)
         google = self._google_readiness()
-        payload = self._build_payload(report_date=report_date, meta=meta, tecdo=tecdo, google=google)
+        payload = self._build_payload(report_date=report_date, meta=meta, google=google)
 
         json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         summary_path.write_text(self._render_markdown(payload), encoding="utf-8")
@@ -120,121 +118,6 @@ class CreativeSourceReadinessBuilder:
                 "代码链路已存在，补齐凭证后可切换到 Facebook 官方素材接口。",
                 "当前环境还没有启用 Facebook 官方素材接口。",
             ],
-        )
-
-    def _tecdo_readiness(self, report_date: date) -> ProviderReadiness:
-        client_path = Path("src/market_ops/clients/tecdo_report.py")
-        client_code_present = client_path.exists()
-        dependency_ready = self._import_ready("requests")
-        missing_env: list[str] = []
-        if not self._settings.tecdo_app_secret:
-            missing_env.append("TECDO_APP_SECRET")
-        if not self._settings.tecdo_effective_media_accounts:
-            missing_env.append("TECDO_MEDIA_ACCOUNTS_JSON or TECDO_MEDIA_ACCOUNT_IDS")
-        env_ready = not missing_env
-        gaps = [
-            "TecDo report-query 当前只到广告层，不是真正的素材 ID / 素材名称层。",
-            "TecDo 当前维度里还没有国家字段。",
-            "TecDo 当前指标里还没有 ROAS / revenue_value。",
-        ]
-        notes = [
-            "TecDo 当前更适合做 adId / adName 代理素材分析。",
-            "它适合广告层代理分析，不适合真正的素材 ID 归因。",
-        ]
-        probe_status = "not_run"
-        probe_message = ""
-        probe_http_status = 0
-        probe_code = ""
-        probe_accounts = self._tecdo_probe_accounts()
-        probe_has_rows: bool | None = None
-        probe_rows = 0
-        can_run_now = client_code_present and dependency_ready and env_ready
-
-        if can_run_now and probe_accounts:
-            client = TecDoReportCreativeClient(
-                app_secret=self._settings.tecdo_app_secret or "",
-                base_url=self._settings.tecdo_base_url,
-                media_accounts=probe_accounts,
-                default_game_name=self._settings.default_game_name,
-            )
-            try:
-                result = client.probe_access(
-                    media_accounts=probe_accounts,
-                    start_date=report_date,
-                    end_date=report_date,
-                )
-                probe_http_status = int(result.get("http_status") or 0)
-                probe_code = str(result.get("code") or "")
-                probe_message = str(result.get("message") or "")
-                probe_rows = int(result.get("rows") or 0)
-                probe_has_rows = probe_rows > 0
-                if result.get("ok"):
-                    probe_status = "ok"
-                    if not probe_has_rows:
-                        probe_status = "sync_pending"
-                        gaps.insert(0, "TecDo 实时探针已授权可调用，但报表侧仍在等待服务商后台完成同步。")
-                        notes.insert(0, "当前 TecDo 凭证有效，接口方向也正确；现在卡在服务商后台同步，不是代码或权限报错。")
-                else:
-                    probe_status = "failed"
-                    can_run_now = False
-                    if probe_message:
-                        gaps.insert(0, f"TecDo 实时探针失败：{probe_message}")
-            except Exception as exc:
-                probe_status = "exception"
-                probe_message = str(exc)
-                can_run_now = False
-                gaps.insert(0, f"TecDo 实时探针异常：{exc}")
-        elif can_run_now and not probe_accounts:
-            can_run_now = False
-            gaps.insert(0, "TecDo 实时探针当前没有可测试的账户。")
-
-        return ProviderReadiness(
-            provider="TecDo",
-            client_code_present=client_code_present,
-            dependency_ready=dependency_ready,
-            env_ready=env_ready,
-            can_run_now=can_run_now,
-            missing_env=missing_env,
-            requested_fields=[
-                "campaignId",
-                "adsetId",
-                "adId",
-                "campaignName",
-                "adsetName",
-                "adName",
-                "spend",
-                "impressions",
-                "clicks",
-                "installs",
-            ],
-            output_fields=[
-                "asset_id(proxy=adId)",
-                "creative_name(proxy=adName)",
-                "game",
-                "country=All",
-                "channel",
-                "campaign",
-                "campaign_id",
-                "adgroup",
-                "adgroup_id",
-                "ad_id",
-                "ad_name",
-                "source_name",
-                "source_id",
-                "ctr",
-                "cvr",
-                "spend",
-                "installs",
-            ],
-            gaps=gaps,
-            notes=notes,
-            probe_status=probe_status,
-            probe_message=probe_message,
-            probe_http_status=probe_http_status,
-            probe_code=probe_code,
-            probe_accounts=probe_accounts,
-            probe_has_rows=probe_has_rows,
-            probe_rows=probe_rows,
         )
 
     def _google_readiness(self) -> ProviderReadiness:
@@ -312,63 +195,28 @@ class CreativeSourceReadinessBuilder:
             ],
         )
 
-    def _tecdo_probe_accounts(self) -> list[dict[str, Any]]:
-        if self._settings.tecdo_effective_media_accounts and self._settings.tecdo_app_secret:
-            try:
-                client = TecDoReportCreativeClient(
-                    app_secret=self._settings.tecdo_app_secret or "",
-                    base_url=self._settings.tecdo_base_url,
-                    media_accounts=self._settings.tecdo_effective_media_accounts,
-                    default_game_name=self._settings.default_game_name,
-                )
-                resolved_accounts = client._resolved_media_accounts()
-                if resolved_accounts:
-                    return list(resolved_accounts[:10])
-            except Exception:
-                pass
-        if self._settings.tecdo_effective_media_accounts:
-            return list(self._settings.tecdo_effective_media_accounts[:10])
-        return []
-
-    def _build_payload(self, report_date: date, meta: ProviderReadiness, tecdo: ProviderReadiness, google: ProviderReadiness) -> dict[str, Any]:
+    def _build_payload(self, report_date: date, meta: ProviderReadiness, google: ProviderReadiness) -> dict[str, Any]:
         blockers: list[str] = []
-        tecdo_ready = tecdo.can_run_now and tecdo.probe_has_rows is True
-        if not meta.can_run_now and not tecdo_ready:
+        if not meta.can_run_now:
             blockers.append("Facebook 官方素材接口当前不可运行。")
-        if not tecdo.can_run_now:
-            blockers.append("TecDo 代理素材源当前不可运行。")
-        if not google.can_run_now and not tecdo_ready:
+        if not google.can_run_now:
             blockers.append("Google 官方素材接口当前不可运行。")
         return {
             "report_date": report_date.isoformat(),
             "passed": True,
             "summary": {
                 "meta_can_run_now": meta.can_run_now,
-                "tecdo_can_run_now": tecdo.can_run_now,
                 "google_can_run_now": google.can_run_now,
                 "google_resolver_ready": True,
                 "meta_missing_env": list(meta.missing_env),
-                "tecdo_missing_env": list(tecdo.missing_env) or ([tecdo.probe_message] if tecdo.probe_message else []),
-                "tecdo_probe_status": tecdo.probe_status,
-                "tecdo_probe_message": tecdo.probe_message,
-                "tecdo_probe_has_rows": tecdo.probe_has_rows,
-                "tecdo_probe_rows": tecdo.probe_rows,
-                "tecdo_is_formal_source": tecdo_ready,
-                "tecdo_business_status": (
-                    "已授权，等待服务商同步报表数据"
-                    if tecdo.can_run_now and tecdo.probe_has_rows is False
-                    else ("已作为当前代理素材主来源" if tecdo_ready else ("可用于代理素材分析" if tecdo.can_run_now else "当前不可用"))
-                ),
                 "google_missing_env": list(google.missing_env),
             },
             "blockers": blockers,
             "providers": {
                 "meta": asdict(meta),
-                "tecdo": asdict(tecdo),
                 "google_ads": asdict(google),
             },
             "next_actions": [
-                "如果 TecDo 状态是“已授权，等待服务商同步报表数据”，先等服务商完成 report/query 同步，再重新验证是否出数。",
                 "如果要把 Facebook / Google 的代理广告层分析升级成原生 creative id 归因，再补官方接口凭证。",
                 "如果要把 Google 占位素材升级成真正的素材标识，补齐 Google Ads 凭证。",
                 "如果后续需要更细的 Google 广告 / 素材映射，再扩展 ad_id / ad_name 联表。",
@@ -377,16 +225,14 @@ class CreativeSourceReadinessBuilder:
 
     def _render_markdown(self, payload: dict[str, Any]) -> str:
         meta = payload["providers"]["meta"]
-        tecdo = payload["providers"]["tecdo"]
         google = payload["providers"]["google_ads"]
         lines = [
             f"# 素材源准备度 | {payload['report_date']}",
             "",
             "## 结论",
             "",
-            f"- Facebook 素材源：{'已具备运行条件' if meta['can_run_now'] else ('当前由 TecDo 代理素材源承接' if payload.get('summary', {}).get('tecdo_is_formal_source') else '当前不可用')}",
-            f"- TecDo 素材源：{payload.get('summary', {}).get('tecdo_business_status', '当前不可用')}",
-            f"- Google 素材源：{'已具备运行条件' if google['can_run_now'] else ('当前由 TecDo 代理素材源承接' if payload.get('summary', {}).get('tecdo_is_formal_source') else '当前不可用')}",
+            f"- Facebook 素材源：{'已具备运行条件' if meta['can_run_now'] else '当前不可用'}",
+            f"- Google 素材源：{'已具备运行条件' if google['can_run_now'] else '当前不可用'}",
             f"- Google 素材修复链路：{'已接入' if payload.get('summary', {}).get('google_resolver_ready') else '未接入'}",
         ]
         for blocker in payload.get("blockers") or []:
@@ -394,8 +240,6 @@ class CreativeSourceReadinessBuilder:
 
         lines.extend(["", "## Facebook", ""])
         lines.extend(self._provider_lines(meta))
-        lines.extend(["", "## TecDo", ""])
-        lines.extend(self._provider_lines(tecdo))
         lines.extend(["", "## Google Ads", ""])
         lines.extend(self._provider_lines(google))
 

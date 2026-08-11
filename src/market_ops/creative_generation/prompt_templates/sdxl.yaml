@@ -1,0 +1,37 @@
+# SDXL Model Template — Phase 3.0
+# Prompt structure optimized for Stable Diffusion XL.
+
+model: sdxl
+version: "1.0"
+
+# Prompt structure: tag-based with weights
+prompt_structure:
+  style: "weighted_tags"
+  weight_format: "parentheses"
+  max_tokens: 300
+
+# Prompt template
+template: >
+  (mobile game advertisement:1.2),
+  ({character}:1.1), (holding {reward}:1.1),
+  ({gameplay} gameplay:1.0),
+  ({camera}:1.0), ({lighting} lighting:1.0),
+  ({palette} color palette:1.0),
+  ({style} style:1.0),
+  (high quality:1.2), (clean composition:1.1),
+  {aspect_ratio}
+
+# Default parameters
+defaults:
+  aspect_ratio: "9:16"
+  cfg_scale: 7.0
+  steps: 30
+  sampler: "DPM++ 2M Karras"
+
+# Supported aspect ratios
+aspect_ratios:
+  - "1:1"
+  - "9:16"
+  - "16:9"
+  - "4:5"
+  - "3:2"

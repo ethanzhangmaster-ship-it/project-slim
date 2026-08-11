@@ -1,0 +1,19 @@
+{
+  "_comment": "Closed Loop Runner 配置 — 替换为真实值后使用 --live 模式",
+  "ad_account_id": "act_000000000000000",
+  "access_token": "YOUR_FACEBOOK_ACCESS_TOKEN",
+  "adset_mapping": {
+    "game:P04": "YOUR_P04_ADSET_ID",
+    "game:P07": "YOUR_P07_ADSET_ID"
+  },
+  "T0": 1.0,
+  "T_min": 0.1,
+  "k": 0.03,
+  "ema_alpha": 0.3,
+  "interval_hours": 6,
+  "total_budget": 1000,
+  "max_iterations": 0,
+  "page_id": "",
+  "call_to_action": "INSTALL_MOBILE_APP",
+  "app_link": ""
+}

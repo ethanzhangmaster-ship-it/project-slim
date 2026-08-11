@@ -1,0 +1,26 @@
+{
+  "layer": "E13.2.7 Monetization Data Pipeline",
+  "schema_version": "1.0",
+  "schema_file": "GameFactoryEvent.schema.json",
+  "python_side": "PASS",
+  "events_validated": [
+    "ad_complete",
+    "ad_request",
+    "ad_revenue",
+    "ad_show",
+    "install",
+    "level_complete",
+    "level_start",
+    "purchase",
+    "session_start"
+  ],
+  "event_count": 9,
+  "schema_required_fields_ok": true,
+  "buffer_roundtrip": "PASS",
+  "backend_connected": false,
+  "runtime_unity": "PENDING_USER_UNITY",
+  "notes": "C# not compiled on this machine (no Unity). Validate in Unity via GameFactoryDemo > MonetizationTest.",
+  "errors": [],
+  "roundtrip_error": null,
+  "generated_at": "2026-07-23T04:24:15.349115+00:00"
+}

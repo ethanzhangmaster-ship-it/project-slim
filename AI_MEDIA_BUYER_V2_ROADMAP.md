@@ -191,7 +191,7 @@ Optimization Engine（老品/成熟项目）
 
 | 新层级 | 当前可复用模块 | 说明 |
 | --- | --- | --- |
-| 数据层 | `pipeline.py`, `sheet_sync.py`, `clients/` | 已有 Feishu / Adjust / TecDo / CSV 输入 |
+| 数据层 | `pipeline.py`, `sheet_sync.py`, `clients/` | 已有 Feishu / Adjust / CSV 输入 |
 | 归因清洗层 | `creative_attribution_audit.py`, `google_creative_resolver.py`, `creative_source_readiness.py` | 已具备代理素材层分析基础 |
 | 阶段识别层 | 新增 | 自动识别 Discovery / Validation / Scaling，不让新品误入老品 ROI 规则 |
 | Discovery Engine | 新增 | 用信号、探索、学习和预测驱动新品冷启动 |

@@ -1,0 +1,1807 @@
+{
+  "data": [
+    {
+      "ad_id": "ad_000001",
+      "creative_id": "dragon_shock_unlock_001",
+      "video_id": "video_000001",
+      "thumbnail": "thumb_000001.jpg",
+      "spend": 61.07,
+      "impressions": 39842,
+      "clicks": 1173,
+      "installs": 114,
+      "purchase": 8,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "unlock",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000002",
+      "creative_id": "dragon_curiosity_merge_002",
+      "video_id": "video_000002",
+      "thumbnail": "thumb_000002.jpg",
+      "spend": 342.82,
+      "impressions": 129039,
+      "clicks": 4355,
+      "installs": 1028,
+      "purchase": 150,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000003",
+      "creative_id": "monster_curiosity_upgrade_003",
+      "video_id": "video_000003",
+      "thumbnail": "thumb_000003.jpg",
+      "spend": 42.1,
+      "impressions": 30461,
+      "clicks": 898,
+      "installs": 94,
+      "purchase": 5,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000004",
+      "creative_id": "monster_challenge_merge_004",
+      "video_id": "video_000004",
+      "thumbnail": "thumb_000004.jpg",
+      "spend": 169.13,
+      "impressions": 129136,
+      "clicks": 4493,
+      "installs": 359,
+      "purchase": 38,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "merge",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000005",
+      "creative_id": "hero_curiosity_battle_005",
+      "video_id": "video_000005",
+      "thumbnail": "thumb_000005.jpg",
+      "spend": 525.2,
+      "impressions": 85775,
+      "clicks": 2665,
+      "installs": 1213,
+      "purchase": 94,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000006",
+      "creative_id": "dragon_shock_battle_006",
+      "video_id": "video_000006",
+      "thumbnail": "thumb_000006.jpg",
+      "spend": 30.86,
+      "impressions": 16322,
+      "clicks": 530,
+      "installs": 47,
+      "purchase": 4,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000007",
+      "creative_id": "witch_urgency_battle_007",
+      "video_id": "video_000007",
+      "thumbnail": "thumb_000007.jpg",
+      "spend": 136.38,
+      "impressions": 44223,
+      "clicks": 1541,
+      "installs": 326,
+      "purchase": 12,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000008",
+      "creative_id": "dragon_transformation_battle_008",
+      "video_id": "video_000008",
+      "thumbnail": "thumb_000008.jpg",
+      "spend": 115.82,
+      "impressions": 22841,
+      "clicks": 1344,
+      "installs": 182,
+      "purchase": 7,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "battle",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000009",
+      "creative_id": "witch_challenge_showcase_009",
+      "video_id": "video_000009",
+      "thumbnail": "thumb_000009.jpg",
+      "spend": 412.01,
+      "impressions": 67157,
+      "clicks": 2750,
+      "installs": 537,
+      "purchase": 65,
+      "date": "2026-06-29",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "showcase",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000010",
+      "creative_id": "witch_curiosity_showcase_010",
+      "video_id": "video_000010",
+      "thumbnail": "thumb_000010.jpg",
+      "spend": 25.95,
+      "impressions": 11462,
+      "clicks": 390,
+      "installs": 54,
+      "purchase": 2,
+      "date": "2026-06-29",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "showcase",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000011",
+      "creative_id": "dragon_urgency_unlock_011",
+      "video_id": "video_000011",
+      "thumbnail": "thumb_000011.jpg",
+      "spend": 282.88,
+      "impressions": 99989,
+      "clicks": 3384,
+      "installs": 414,
+      "purchase": 59,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "unlock",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000012",
+      "creative_id": "dragon_shock_merge_012",
+      "video_id": "video_000012",
+      "thumbnail": "thumb_000012.jpg",
+      "spend": 44.74,
+      "impressions": 42166,
+      "clicks": 1014,
+      "installs": 161,
+      "purchase": 5,
+      "date": "2026-06-13",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000013",
+      "creative_id": "castle_curiosity_upgrade_013",
+      "video_id": "video_000013",
+      "thumbnail": "thumb_000013.jpg",
+      "spend": 442.41,
+      "impressions": 132723,
+      "clicks": 4601,
+      "installs": 1423,
+      "purchase": 204,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000014",
+      "creative_id": "hero_transformation_unlock_014",
+      "video_id": "video_000014",
+      "thumbnail": "thumb_000014.jpg",
+      "spend": 464.73,
+      "impressions": 70208,
+      "clicks": 2337,
+      "installs": 599,
+      "purchase": 80,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000015",
+      "creative_id": "dragon_curiosity_unlock_015",
+      "video_id": "video_000015",
+      "thumbnail": "thumb_000015.jpg",
+      "spend": 500.77,
+      "impressions": 115734,
+      "clicks": 2967,
+      "installs": 1407,
+      "purchase": 94,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000016",
+      "creative_id": "hero_urgency_merge_016",
+      "video_id": "video_000016",
+      "thumbnail": "thumb_000016.jpg",
+      "spend": 396.93,
+      "impressions": 131666,
+      "clicks": 3823,
+      "installs": 537,
+      "purchase": 30,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "merge",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000017",
+      "creative_id": "castle_shock_battle_017",
+      "video_id": "video_000017",
+      "thumbnail": "thumb_000017.jpg",
+      "spend": 795.98,
+      "impressions": 174724,
+      "clicks": 4422,
+      "installs": 1815,
+      "purchase": 170,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000018",
+      "creative_id": "hero_shock_battle_018",
+      "video_id": "video_000018",
+      "thumbnail": "thumb_000018.jpg",
+      "spend": 38.32,
+      "impressions": 23834,
+      "clicks": 773,
+      "installs": 127,
+      "purchase": 10,
+      "date": "2026-07-10",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000019",
+      "creative_id": "witch_transformation_battle_019",
+      "video_id": "video_000019",
+      "thumbnail": "thumb_000019.jpg",
+      "spend": 115.52,
+      "impressions": 46637,
+      "clicks": 1370,
+      "installs": 225,
+      "purchase": 21,
+      "date": "2026-06-26",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000020",
+      "creative_id": "monster_shock_battle_020",
+      "video_id": "video_000020",
+      "thumbnail": "thumb_000020.jpg",
+      "spend": 360.51,
+      "impressions": 60882,
+      "clicks": 1801,
+      "installs": 702,
+      "purchase": 23,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "battle",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000021",
+      "creative_id": "hero_shock_merge_021",
+      "video_id": "video_000021",
+      "thumbnail": "thumb_000021.jpg",
+      "spend": 45.83,
+      "impressions": 10305,
+      "clicks": 292,
+      "installs": 76,
+      "purchase": 3,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000022",
+      "creative_id": "witch_challenge_battle_022",
+      "video_id": "video_000022",
+      "thumbnail": "thumb_000022.jpg",
+      "spend": 200.43,
+      "impressions": 83695,
+      "clicks": 3127,
+      "installs": 438,
+      "purchase": 52,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000023",
+      "creative_id": "dragon_urgency_showcase_023",
+      "video_id": "video_000023",
+      "thumbnail": "thumb_000023.jpg",
+      "spend": 672.26,
+      "impressions": 177100,
+      "clicks": 5915,
+      "installs": 897,
+      "purchase": 120,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "showcase",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000024",
+      "creative_id": "dragon_urgency_battle_024",
+      "video_id": "video_000024",
+      "thumbnail": "thumb_000024.jpg",
+      "spend": 51.77,
+      "impressions": 18574,
+      "clicks": 610,
+      "installs": 144,
+      "purchase": 12,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "battle",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000025",
+      "creative_id": "witch_transformation_upgrade_025",
+      "video_id": "video_000025",
+      "thumbnail": "thumb_000025.jpg",
+      "spend": 538.27,
+      "impressions": 125164,
+      "clicks": 3590,
+      "installs": 845,
+      "purchase": 80,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000026",
+      "creative_id": "hero_shock_unlock_026",
+      "video_id": "video_000026",
+      "thumbnail": "thumb_000026.jpg",
+      "spend": 235.01,
+      "impressions": 152598,
+      "clicks": 4254,
+      "installs": 592,
+      "purchase": 73,
+      "date": "2026-06-13",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000027",
+      "creative_id": "hero_shock_showcase_027",
+      "video_id": "video_000027",
+      "thumbnail": "thumb_000027.jpg",
+      "spend": 173.74,
+      "impressions": 87009,
+      "clicks": 2425,
+      "installs": 322,
+      "purchase": 35,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "showcase",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000028",
+      "creative_id": "witch_urgency_unlock_028",
+      "video_id": "video_000028",
+      "thumbnail": "thumb_000028.jpg",
+      "spend": 472.27,
+      "impressions": 173675,
+      "clicks": 4886,
+      "installs": 1757,
+      "purchase": 210,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000029",
+      "creative_id": "castle_curiosity_battle_029",
+      "video_id": "video_000029",
+      "thumbnail": "thumb_000029.jpg",
+      "spend": 55.72,
+      "impressions": 59244,
+      "clicks": 1927,
+      "installs": 193,
+      "purchase": 23,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000030",
+      "creative_id": "witch_transformation_merge_030",
+      "video_id": "video_000030",
+      "thumbnail": "thumb_000030.jpg",
+      "spend": 69.87,
+      "impressions": 92882,
+      "clicks": 2494,
+      "installs": 245,
+      "purchase": 15,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000031",
+      "creative_id": "dragon_shock_merge_031",
+      "video_id": "video_000031",
+      "thumbnail": "thumb_000031.jpg",
+      "spend": 97.77,
+      "impressions": 19517,
+      "clicks": 470,
+      "installs": 141,
+      "purchase": 10,
+      "date": "2026-06-22",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000032",
+      "creative_id": "witch_urgency_showcase_032",
+      "video_id": "video_000032",
+      "thumbnail": "thumb_000032.jpg",
+      "spend": 443.87,
+      "impressions": 139567,
+      "clicks": 3688,
+      "installs": 1256,
+      "purchase": 162,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "showcase",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000033",
+      "creative_id": "castle_urgency_battle_033",
+      "video_id": "video_000033",
+      "thumbnail": "thumb_000033.jpg",
+      "spend": 544.18,
+      "impressions": 174193,
+      "clicks": 4950,
+      "installs": 945,
+      "purchase": 42,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000034",
+      "creative_id": "monster_shock_merge_034",
+      "video_id": "video_000034",
+      "thumbnail": "thumb_000034.jpg",
+      "spend": 80.58,
+      "impressions": 35841,
+      "clicks": 1039,
+      "installs": 262,
+      "purchase": 12,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000035",
+      "creative_id": "monster_shock_showcase_035",
+      "video_id": "video_000035",
+      "thumbnail": "thumb_000035.jpg",
+      "spend": 508.9,
+      "impressions": 70265,
+      "clicks": 2156,
+      "installs": 790,
+      "purchase": 59,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "showcase",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000036",
+      "creative_id": "hero_curiosity_unlock_036",
+      "video_id": "video_000036",
+      "thumbnail": "thumb_000036.jpg",
+      "spend": 680.68,
+      "impressions": 175757,
+      "clicks": 4398,
+      "installs": 1653,
+      "purchase": 78,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000037",
+      "creative_id": "castle_shock_unlock_037",
+      "video_id": "video_000037",
+      "thumbnail": "thumb_000037.jpg",
+      "spend": 154.34,
+      "impressions": 47250,
+      "clicks": 1587,
+      "installs": 556,
+      "purchase": 72,
+      "date": "2026-06-13",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000038",
+      "creative_id": "hero_transformation_battle_038",
+      "video_id": "video_000038",
+      "thumbnail": "thumb_000038.jpg",
+      "spend": 307.97,
+      "impressions": 72422,
+      "clicks": 1992,
+      "installs": 1176,
+      "purchase": 46,
+      "date": "2026-07-10",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000039",
+      "creative_id": "monster_transformation_merge_039",
+      "video_id": "video_000039",
+      "thumbnail": "thumb_000039.jpg",
+      "spend": 531.28,
+      "impressions": 175082,
+      "clicks": 5154,
+      "installs": 905,
+      "purchase": 98,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "merge",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000040",
+      "creative_id": "dragon_urgency_merge_040",
+      "video_id": "video_000040",
+      "thumbnail": "thumb_000040.jpg",
+      "spend": 371.75,
+      "impressions": 52925,
+      "clicks": 1811,
+      "installs": 519,
+      "purchase": 13,
+      "date": "2026-06-22",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000041",
+      "creative_id": "monster_challenge_battle_041",
+      "video_id": "video_000041",
+      "thumbnail": "thumb_000041.jpg",
+      "spend": 159.18,
+      "impressions": 39858,
+      "clicks": 1698,
+      "installs": 306,
+      "purchase": 28,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000042",
+      "creative_id": "castle_curiosity_upgrade_042",
+      "video_id": "video_000042",
+      "thumbnail": "thumb_000042.jpg",
+      "spend": 413.61,
+      "impressions": 74020,
+      "clicks": 2134,
+      "installs": 692,
+      "purchase": 48,
+      "date": "2026-06-26",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000043",
+      "creative_id": "dragon_shock_merge_043",
+      "video_id": "video_000043",
+      "thumbnail": "thumb_000043.jpg",
+      "spend": 149.87,
+      "impressions": 146835,
+      "clicks": 3850,
+      "installs": 439,
+      "purchase": 18,
+      "date": "2026-06-30",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000044",
+      "creative_id": "witch_curiosity_unlock_044",
+      "video_id": "video_000044",
+      "thumbnail": "thumb_000044.jpg",
+      "spend": 333.43,
+      "impressions": 125585,
+      "clicks": 3909,
+      "installs": 420,
+      "purchase": 31,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "unlock",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000045",
+      "creative_id": "hero_shock_unlock_045",
+      "video_id": "video_000045",
+      "thumbnail": "thumb_000045.jpg",
+      "spend": 974.39,
+      "impressions": 158124,
+      "clicks": 5215,
+      "installs": 1551,
+      "purchase": 230,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000046",
+      "creative_id": "monster_challenge_battle_046",
+      "video_id": "video_000046",
+      "thumbnail": "thumb_000046.jpg",
+      "spend": 665.49,
+      "impressions": 129288,
+      "clicks": 5258,
+      "installs": 1780,
+      "purchase": 237,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "battle",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000047",
+      "creative_id": "dragon_curiosity_battle_047",
+      "video_id": "video_000047",
+      "thumbnail": "thumb_000047.jpg",
+      "spend": 120.27,
+      "impressions": 81771,
+      "clicks": 2762,
+      "installs": 226,
+      "purchase": 22,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000048",
+      "creative_id": "monster_transformation_showcase_048",
+      "video_id": "video_000048",
+      "thumbnail": "thumb_000048.jpg",
+      "spend": 301.36,
+      "impressions": 109220,
+      "clicks": 2725,
+      "installs": 406,
+      "purchase": 9,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "showcase",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000049",
+      "creative_id": "dragon_transformation_merge_049",
+      "video_id": "video_000049",
+      "thumbnail": "thumb_000049.jpg",
+      "spend": 1251.65,
+      "impressions": 164015,
+      "clicks": 7000,
+      "installs": 1877,
+      "purchase": 106,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000050",
+      "creative_id": "castle_curiosity_battle_050",
+      "video_id": "video_000050",
+      "thumbnail": "thumb_000050.jpg",
+      "spend": 266.21,
+      "impressions": 166563,
+      "clicks": 5361,
+      "installs": 873,
+      "purchase": 17,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000051",
+      "creative_id": "castle_urgency_unlock_051",
+      "video_id": "video_000051",
+      "thumbnail": "thumb_000051.jpg",
+      "spend": 723.54,
+      "impressions": 192335,
+      "clicks": 5080,
+      "installs": 1640,
+      "purchase": 101,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000052",
+      "creative_id": "witch_urgency_battle_052",
+      "video_id": "video_000052",
+      "thumbnail": "thumb_000052.jpg",
+      "spend": 354.53,
+      "impressions": 92735,
+      "clicks": 3213,
+      "installs": 503,
+      "purchase": 58,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000053",
+      "creative_id": "dragon_shock_upgrade_053",
+      "video_id": "video_000053",
+      "thumbnail": "thumb_000053.jpg",
+      "spend": 481.74,
+      "impressions": 168576,
+      "clicks": 5620,
+      "installs": 947,
+      "purchase": 67,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000054",
+      "creative_id": "castle_shock_unlock_054",
+      "video_id": "video_000054",
+      "thumbnail": "thumb_000054.jpg",
+      "spend": 101.17,
+      "impressions": 11696,
+      "clicks": 382,
+      "installs": 173,
+      "purchase": 21,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "unlock",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000055",
+      "creative_id": "castle_curiosity_unlock_055",
+      "video_id": "video_000055",
+      "thumbnail": "thumb_000055.jpg",
+      "spend": 369.62,
+      "impressions": 117687,
+      "clicks": 2858,
+      "installs": 864,
+      "purchase": 76,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000056",
+      "creative_id": "castle_shock_battle_056",
+      "video_id": "video_000056",
+      "thumbnail": "thumb_000056.jpg",
+      "spend": 622.62,
+      "impressions": 135595,
+      "clicks": 3425,
+      "installs": 789,
+      "purchase": 114,
+      "date": "2026-07-07",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000057",
+      "creative_id": "castle_curiosity_upgrade_057",
+      "video_id": "video_000057",
+      "thumbnail": "thumb_000057.jpg",
+      "spend": 687.8,
+      "impressions": 119536,
+      "clicks": 3797,
+      "installs": 876,
+      "purchase": 23,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000058",
+      "creative_id": "witch_transformation_battle_058",
+      "video_id": "video_000058",
+      "thumbnail": "thumb_000058.jpg",
+      "spend": 220.74,
+      "impressions": 70394,
+      "clicks": 1744,
+      "installs": 277,
+      "purchase": 23,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000059",
+      "creative_id": "witch_challenge_merge_059",
+      "video_id": "video_000059",
+      "thumbnail": "thumb_000059.jpg",
+      "spend": 222.43,
+      "impressions": 40863,
+      "clicks": 1542,
+      "installs": 341,
+      "purchase": 48,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000060",
+      "creative_id": "castle_curiosity_upgrade_060",
+      "video_id": "video_000060",
+      "thumbnail": "thumb_000060.jpg",
+      "spend": 58.76,
+      "impressions": 16231,
+      "clicks": 463,
+      "installs": 123,
+      "purchase": 13,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000061",
+      "creative_id": "hero_shock_merge_061",
+      "video_id": "video_000061",
+      "thumbnail": "thumb_000061.jpg",
+      "spend": 673.48,
+      "impressions": 161492,
+      "clicks": 5358,
+      "installs": 978,
+      "purchase": 80,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "shock",
+        "subject": "hero",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000062",
+      "creative_id": "witch_curiosity_upgrade_062",
+      "video_id": "video_000062",
+      "thumbnail": "thumb_000062.jpg",
+      "spend": 761.78,
+      "impressions": 181182,
+      "clicks": 4912,
+      "installs": 1357,
+      "purchase": 41,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000063",
+      "creative_id": "dragon_challenge_merge_063",
+      "video_id": "video_000063",
+      "thumbnail": "thumb_000063.jpg",
+      "spend": 556.68,
+      "impressions": 66327,
+      "clicks": 2129,
+      "installs": 1086,
+      "purchase": 93,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000064",
+      "creative_id": "castle_transformation_merge_064",
+      "video_id": "video_000064",
+      "thumbnail": "thumb_000064.jpg",
+      "spend": 313.91,
+      "impressions": 51426,
+      "clicks": 1427,
+      "installs": 536,
+      "purchase": 34,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "transformation",
+        "subject": "castle",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000065",
+      "creative_id": "dragon_challenge_upgrade_065",
+      "video_id": "video_000065",
+      "thumbnail": "thumb_000065.jpg",
+      "spend": 304.42,
+      "impressions": 120892,
+      "clicks": 4642,
+      "installs": 958,
+      "purchase": 113,
+      "date": "2026-06-20",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "upgrade",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000066",
+      "creative_id": "hero_transformation_unlock_066",
+      "video_id": "video_000066",
+      "thumbnail": "thumb_000066.jpg",
+      "spend": 1129.28,
+      "impressions": 150447,
+      "clicks": 4165,
+      "installs": 1479,
+      "purchase": 70,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000067",
+      "creative_id": "monster_transformation_upgrade_067",
+      "video_id": "video_000067",
+      "thumbnail": "thumb_000067.jpg",
+      "spend": 433.24,
+      "impressions": 198812,
+      "clicks": 5098,
+      "installs": 1434,
+      "purchase": 178,
+      "date": "2026-06-20",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000068",
+      "creative_id": "witch_curiosity_merge_068",
+      "video_id": "video_000068",
+      "thumbnail": "thumb_000068.jpg",
+      "spend": 234.12,
+      "impressions": 136192,
+      "clicks": 4594,
+      "installs": 507,
+      "purchase": 18,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000069",
+      "creative_id": "dragon_shock_battle_069",
+      "video_id": "video_000069",
+      "thumbnail": "thumb_000069.jpg",
+      "spend": 207.73,
+      "impressions": 49837,
+      "clicks": 1505,
+      "installs": 392,
+      "purchase": 11,
+      "date": "2026-06-22",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "battle",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000070",
+      "creative_id": "monster_curiosity_battle_070",
+      "video_id": "video_000070",
+      "thumbnail": "thumb_000070.jpg",
+      "spend": 365.89,
+      "impressions": 77411,
+      "clicks": 2690,
+      "installs": 587,
+      "purchase": 13,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "monster",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000071",
+      "creative_id": "castle_curiosity_unlock_071",
+      "video_id": "video_000071",
+      "thumbnail": "thumb_000071.jpg",
+      "spend": 1826.84,
+      "impressions": 198092,
+      "clicks": 6594,
+      "installs": 2362,
+      "purchase": 140,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000072",
+      "creative_id": "witch_challenge_unlock_072",
+      "video_id": "video_000072",
+      "thumbnail": "thumb_000072.jpg",
+      "spend": 89.81,
+      "impressions": 38036,
+      "clicks": 1432,
+      "installs": 175,
+      "purchase": 14,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000073",
+      "creative_id": "hero_urgency_showcase_073",
+      "video_id": "video_000073",
+      "thumbnail": "thumb_000073.jpg",
+      "spend": 503.45,
+      "impressions": 156482,
+      "clicks": 5254,
+      "installs": 789,
+      "purchase": 26,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "showcase",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000074",
+      "creative_id": "witch_curiosity_unlock_074",
+      "video_id": "video_000074",
+      "thumbnail": "thumb_000074.jpg",
+      "spend": 23.87,
+      "impressions": 10887,
+      "clicks": 366,
+      "installs": 88,
+      "purchase": 10,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000075",
+      "creative_id": "witch_transformation_upgrade_075",
+      "video_id": "video_000075",
+      "thumbnail": "thumb_000075.jpg",
+      "spend": 270.79,
+      "impressions": 62985,
+      "clicks": 2261,
+      "installs": 980,
+      "purchase": 109,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000076",
+      "creative_id": "hero_urgency_showcase_076",
+      "video_id": "video_000076",
+      "thumbnail": "thumb_000076.jpg",
+      "spend": 1150.92,
+      "impressions": 141794,
+      "clicks": 4529,
+      "installs": 2214,
+      "purchase": 239,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "showcase",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000077",
+      "creative_id": "witch_transformation_battle_077",
+      "video_id": "video_000077",
+      "thumbnail": "thumb_000077.jpg",
+      "spend": 522.59,
+      "impressions": 110880,
+      "clicks": 3484,
+      "installs": 1081,
+      "purchase": 31,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000078",
+      "creative_id": "monster_transformation_merge_078",
+      "video_id": "video_000078",
+      "thumbnail": "thumb_000078.jpg",
+      "spend": 549.1,
+      "impressions": 97442,
+      "clicks": 3346,
+      "installs": 700,
+      "purchase": 26,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000079",
+      "creative_id": "hero_urgency_unlock_079",
+      "video_id": "video_000079",
+      "thumbnail": "thumb_000079.jpg",
+      "spend": 243.13,
+      "impressions": 51109,
+      "clicks": 1463,
+      "installs": 663,
+      "purchase": 33,
+      "date": "2026-07-10",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000080",
+      "creative_id": "witch_shock_merge_080",
+      "video_id": "video_000080",
+      "thumbnail": "thumb_000080.jpg",
+      "spend": 377.89,
+      "impressions": 131151,
+      "clicks": 4323,
+      "installs": 927,
+      "purchase": 84,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "shock",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000081",
+      "creative_id": "castle_challenge_unlock_081",
+      "video_id": "video_000081",
+      "thumbnail": "thumb_000081.jpg",
+      "spend": 51.42,
+      "impressions": 47040,
+      "clicks": 1837,
+      "installs": 178,
+      "purchase": 16,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "challenge",
+        "subject": "castle",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000082",
+      "creative_id": "monster_transformation_upgrade_082",
+      "video_id": "video_000082",
+      "thumbnail": "thumb_000082.jpg",
+      "spend": 151.61,
+      "impressions": 85895,
+      "clicks": 2858,
+      "installs": 418,
+      "purchase": 42,
+      "date": "2026-07-09",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000083",
+      "creative_id": "castle_curiosity_upgrade_083",
+      "video_id": "video_000083",
+      "thumbnail": "thumb_000083.jpg",
+      "spend": 453.06,
+      "impressions": 94265,
+      "clicks": 2294,
+      "installs": 623,
+      "purchase": 22,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000084",
+      "creative_id": "monster_transformation_upgrade_084",
+      "video_id": "video_000084",
+      "thumbnail": "thumb_000084.jpg",
+      "spend": 598.4,
+      "impressions": 193389,
+      "clicks": 4866,
+      "installs": 825,
+      "purchase": 44,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000085",
+      "creative_id": "hero_urgency_upgrade_085",
+      "video_id": "video_000085",
+      "thumbnail": "thumb_000085.jpg",
+      "spend": 348.6,
+      "impressions": 115522,
+      "clicks": 3319,
+      "installs": 656,
+      "purchase": 88,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000086",
+      "creative_id": "witch_urgency_upgrade_086",
+      "video_id": "video_000086",
+      "thumbnail": "thumb_000086.jpg",
+      "spend": 528.89,
+      "impressions": 183517,
+      "clicks": 5732,
+      "installs": 1019,
+      "purchase": 69,
+      "date": "2026-06-22",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "upgrade",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000087",
+      "creative_id": "castle_shock_merge_087",
+      "video_id": "video_000087",
+      "thumbnail": "thumb_000087.jpg",
+      "spend": 332.41,
+      "impressions": 187846,
+      "clicks": 5544,
+      "installs": 519,
+      "purchase": 16,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000088",
+      "creative_id": "castle_transformation_merge_088",
+      "video_id": "video_000088",
+      "thumbnail": "thumb_000088.jpg",
+      "spend": 1009.77,
+      "impressions": 176870,
+      "clicks": 4461,
+      "installs": 1622,
+      "purchase": 140,
+      "date": "2026-06-28",
+      "dna": {
+        "hook": "transformation",
+        "subject": "castle",
+        "gameplay": "merge",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000089",
+      "creative_id": "castle_urgency_battle_089",
+      "video_id": "video_000089",
+      "thumbnail": "thumb_000089.jpg",
+      "spend": 336.51,
+      "impressions": 97567,
+      "clicks": 3459,
+      "installs": 1304,
+      "purchase": 76,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000090",
+      "creative_id": "dragon_challenge_showcase_090",
+      "video_id": "video_000090",
+      "thumbnail": "thumb_000090.jpg",
+      "spend": 379.67,
+      "impressions": 102083,
+      "clicks": 3983,
+      "installs": 625,
+      "purchase": 45,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "showcase",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000091",
+      "creative_id": "dragon_shock_unlock_091",
+      "video_id": "video_000091",
+      "thumbnail": "thumb_000091.jpg",
+      "spend": 1049.45,
+      "impressions": 194126,
+      "clicks": 4897,
+      "installs": 1384,
+      "purchase": 35,
+      "date": "2026-07-07",
+      "dna": {
+        "hook": "shock",
+        "subject": "dragon",
+        "gameplay": "unlock",
+        "reward": "evolution"
+      }
+    },
+    {
+      "ad_id": "ad_000092",
+      "creative_id": "castle_challenge_battle_092",
+      "video_id": "video_000092",
+      "thumbnail": "thumb_000092.jpg",
+      "spend": 95.21,
+      "impressions": 30049,
+      "clicks": 1120,
+      "installs": 240,
+      "purchase": 8,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "challenge",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000093",
+      "creative_id": "hero_transformation_unlock_093",
+      "video_id": "video_000093",
+      "thumbnail": "thumb_000093.jpg",
+      "spend": 407.56,
+      "impressions": 97039,
+      "clicks": 2945,
+      "installs": 863,
+      "purchase": 125,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "unlock",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000094",
+      "creative_id": "dragon_transformation_showcase_094",
+      "video_id": "video_000094",
+      "thumbnail": "thumb_000094.jpg",
+      "spend": 1031.91,
+      "impressions": 148847,
+      "clicks": 7316,
+      "installs": 1387,
+      "purchase": 186,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "showcase",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000095",
+      "creative_id": "dragon_challenge_battle_095",
+      "video_id": "video_000095",
+      "thumbnail": "thumb_000095.jpg",
+      "spend": 448.18,
+      "impressions": 117335,
+      "clicks": 4724,
+      "installs": 578,
+      "purchase": 54,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "battle",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000096",
+      "creative_id": "monster_shock_upgrade_096",
+      "video_id": "video_000096",
+      "thumbnail": "thumb_000096.jpg",
+      "spend": 606.97,
+      "impressions": 182637,
+      "clicks": 5245,
+      "installs": 1790,
+      "purchase": 173,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000097",
+      "creative_id": "witch_urgency_merge_097",
+      "video_id": "video_000097",
+      "thumbnail": "thumb_000097.jpg",
+      "spend": 181.37,
+      "impressions": 49924,
+      "clicks": 1512,
+      "installs": 275,
+      "purchase": 14,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "new_character"
+      }
+    },
+    {
+      "ad_id": "ad_000098",
+      "creative_id": "witch_transformation_merge_098",
+      "video_id": "video_000098",
+      "thumbnail": "thumb_000098.jpg",
+      "spend": 343.93,
+      "impressions": 117302,
+      "clicks": 3924,
+      "installs": 817,
+      "purchase": 44,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "ad_id": "ad_000099",
+      "creative_id": "castle_urgency_upgrade_099",
+      "video_id": "video_000099",
+      "thumbnail": "thumb_000099.jpg",
+      "spend": 355.58,
+      "impressions": 198563,
+      "clicks": 6796,
+      "installs": 1307,
+      "purchase": 158,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "ad_id": "ad_000100",
+      "creative_id": "castle_curiosity_showcase_100",
+      "video_id": "video_000100",
+      "thumbnail": "thumb_000100.jpg",
+      "spend": 848.38,
+      "impressions": 174628,
+      "clicks": 5701,
+      "installs": 1426,
+      "purchase": 39,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "showcase",
+        "reward": "evolution"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.465801",
+  "source": "facebook",
+  "is_mocked": true
+}

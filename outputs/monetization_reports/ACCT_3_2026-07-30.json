@@ -1,0 +1,826 @@
+{
+  "account": "ACCT_3",
+  "date": "2026-07-30",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-29"
+  },
+  "totals": {
+    "revenue": 74.58,
+    "impressions": 1692,
+    "attempts": 43881,
+    "blended_ecpm": 44.08,
+    "waterfall_depth": 25.9
+  },
+  "health": {
+    "score": 87,
+    "grade": "B"
+  },
+  "opportunity": {
+    "score": 17,
+    "grade": "LOW"
+  },
+  "risk": {
+    "score": 15,
+    "grade": "LOW"
+  },
+  "scores": {
+    "health": {
+      "kind": "health",
+      "score": 87,
+      "grade": "B",
+      "headline": "Health 87/100 (B) — current monetization efficiency; low health reflects state, not lost cause",
+      "dimensions": [
+        {
+          "name": "ecpm_efficiency",
+          "value": 97.5,
+          "weight": 0.25,
+          "detail": "2% of impressions from parasite backfill (eCPM < 15% blend)"
+        },
+        {
+          "name": "demand_quality",
+          "value": 100.0,
+          "weight": 0.15,
+          "detail": "fill rate 60.6% (responses/attempts)"
+        },
+        {
+          "name": "waterfall_efficiency",
+          "value": 60.2,
+          "weight": 0.2,
+          "detail": "depth 25.9 attempts/impression"
+        },
+        {
+          "name": "network_health",
+          "value": 87.1,
+          "weight": 0.25,
+          "detail": "13% of requests on zombie networks (5,679 att)"
+        },
+        {
+          "name": "revenue_stability",
+          "value": 93.9,
+          "weight": 0.15,
+          "detail": "top app = 53% of revenue"
+        }
+      ],
+      "metrics": {
+        "dilution": 0.0248,
+        "waterfall_depth": 25.9,
+        "zombie_request_share": 0.1294,
+        "top_app_share": 0.5306
+      }
+    },
+    "opportunity": {
+      "kind": "opportunity",
+      "score": 17,
+      "grade": "LOW",
+      "headline": "Opportunity 17/100 (LOW) — ~$2 in-app upside identified",
+      "dimensions": [
+        {
+          "name": "value_recapture",
+          "value": 6.1,
+          "weight": 0.4,
+          "detail": "~$2 recoverable (2% of $75)"
+        },
+        {
+          "name": "structural_headroom",
+          "value": 41.5,
+          "weight": 0.35,
+          "detail": "13% zombie requests, depth 25.9 — cleanup headroom"
+        },
+        {
+          "name": "demand_upside",
+          "value": 0.0,
+          "weight": 0.25,
+          "detail": "0 actionable demand levers"
+        }
+      ],
+      "metrics": {
+        "recoverable_usd": 1.82,
+        "recapture_pct": 0.0244,
+        "parasite_recapture_usd": 1.82,
+        "hidden_winner_uplift_usd": 0.0
+      }
+    },
+    "risk": {
+      "kind": "risk",
+      "score": 15,
+      "grade": "LOW",
+      "headline": "Risk 15/100 (LOW) — app 53% / net 68% / geo 46% concentration",
+      "dimensions": [
+        {
+          "name": "app_concentration",
+          "value": 6.1,
+          "weight": 0.45,
+          "detail": "top app = 53% of revenue"
+        },
+        {
+          "name": "network_concentration",
+          "value": 35.4,
+          "weight": 0.35,
+          "detail": "top network = 68% of revenue"
+        },
+        {
+          "name": "geo_concentration",
+          "value": 0.0,
+          "weight": 0.2,
+          "detail": "top country = 46% of revenue (UA scope)"
+        }
+      ],
+      "metrics": {
+        "top_app_share": 0.5306,
+        "top_network_share": 0.6768,
+        "top_country_share": 0.4599
+      }
+    }
+  },
+  "signals": [
+    {
+      "rule": "zombie_network",
+      "severity": "warning",
+      "action": "quarantine_network",
+      "target": "CHARTBOOST_BIDDING",
+      "confidence": 0.7,
+      "reason": "3,433 requests / $0.00 this window looks like a zombie, BUT protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za). Monitor 7 days before disabling.",
+      "metrics": {
+        "attempts": 3433,
+        "impressions": 0,
+        "revenue": 0.0,
+        "show_rate": 0.0,
+        "history_revenue": 0.0,
+        "unique_geos": [
+          "ar",
+          "au",
+          "az",
+          "bb",
+          "bd",
+          "bo",
+          "br",
+          "ca",
+          "cd",
+          "ci",
+          "cl",
+          "co",
+          "de",
+          "dk",
+          "do",
+          "dz",
+          "ec",
+          "es",
+          "fr",
+          "gb",
+          "gd",
+          "gf",
+          "gh",
+          "gq",
+          "gr",
+          "gy",
+          "hk",
+          "ht",
+          "hu",
+          "id",
+          "in",
+          "iq",
+          "it",
+          "jm",
+          "kr",
+          "kw",
+          "lt",
+          "ly",
+          "mx",
+          "my",
+          "nr",
+          "nz",
+          "pa",
+          "ph",
+          "pk",
+          "pl",
+          "pr",
+          "pt",
+          "re",
+          "ro",
+          "ru",
+          "se",
+          "sg",
+          "sl",
+          "sr",
+          "th",
+          "tn",
+          "tw",
+          "us",
+          "uz",
+          "za"
+        ],
+        "protection": "sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "zombie_network",
+      "severity": "warning",
+      "action": "quarantine_network",
+      "target": "IRONSOURCE_BIDDING",
+      "confidence": 0.7,
+      "reason": "2,246 requests / $0.00 this window looks like a zombie, BUT protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, pe, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za). Monitor 7 days before disabling.",
+      "metrics": {
+        "attempts": 2246,
+        "impressions": 0,
+        "revenue": 0.0,
+        "show_rate": 0.0,
+        "history_revenue": 0.01,
+        "unique_geos": [
+          "ar",
+          "au",
+          "az",
+          "bb",
+          "bd",
+          "bo",
+          "br",
+          "ca",
+          "cd",
+          "ci",
+          "cl",
+          "co",
+          "de",
+          "dk",
+          "do",
+          "dz",
+          "ec",
+          "es",
+          "fr",
+          "gb",
+          "gd",
+          "gf",
+          "gh",
+          "gq",
+          "gr",
+          "gy",
+          "hk",
+          "ht",
+          "hu",
+          "id",
+          "in",
+          "iq",
+          "it",
+          "jm",
+          "kr",
+          "kw",
+          "lt",
+          "ly",
+          "mx",
+          "my",
+          "nr",
+          "nz",
+          "pa",
+          "pe",
+          "ph",
+          "pk",
+          "pl",
+          "pr",
+          "pt",
+          "re",
+          "ro",
+          "ru",
+          "se",
+          "sg",
+          "sl",
+          "sr",
+          "th",
+          "tn",
+          "tw",
+          "us",
+          "uz",
+          "za"
+        ],
+        "protection": "sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, pe, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "reduce_waterfall_depth",
+      "target": "ACCOUNT",
+      "confidence": 0.9,
+      "reason": "Waterfall depth 25.9 attempts/impression (waste 96.1%) — trim non-producing networks",
+      "metrics": {
+        "depth": 25.9,
+        "waste": 0.9614,
+        "attempts": 43881,
+        "impressions": 1692
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "review_segment",
+      "target": "network:IRONSOURCE_BIDDING",
+      "confidence": 0.8,
+      "reason": "network 'IRONSOURCE_BIDDING' waste 100.00% (2,246 att, 0 imp, $0.00)",
+      "metrics": {
+        "dimension": "network",
+        "waste": 1.0,
+        "attempts": 2246,
+        "impressions": 0,
+        "revenue": 0.0
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "review_segment",
+      "target": "network:CHARTBOOST_BIDDING",
+      "confidence": 0.8,
+      "reason": "network 'CHARTBOOST_BIDDING' waste 100.00% (3,433 att, 0 imp, $0.00)",
+      "metrics": {
+        "dimension": "network",
+        "waste": 1.0,
+        "attempts": 3433,
+        "impressions": 0,
+        "revenue": 0.0
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "review_segment",
+      "target": "network:FYBER_NETWORK",
+      "confidence": 0.8,
+      "reason": "network 'FYBER_NETWORK' waste 99.55% (6,043 att, 27 imp, $0.59)",
+      "metrics": {
+        "dimension": "network",
+        "waste": 0.9955,
+        "attempts": 6043,
+        "impressions": 27,
+        "revenue": 0.59
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "revenue_concentration",
+      "severity": "warning",
+      "action": "diversify",
+      "target": "network:ADMOB_BIDDING",
+      "confidence": 0.95,
+      "reason": "One network contributes 68% of revenue ('ADMOB_BIDDING' $50.47 of $74.58) — risk MEDIUM",
+      "metrics": {
+        "risk": "MEDIUM",
+        "dimension": "network",
+        "top": "ADMOB_BIDDING",
+        "share": 0.6768,
+        "top_revenue": 50.47,
+        "total_revenue": 74.58,
+        "scope": "in-app monetization scope"
+      },
+      "requires_manual_apply": true
+    }
+  ],
+  "actions": [
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch CHARTBOOST_BIDDING (7d)",
+      "action": "quarantine_network",
+      "target": "CHARTBOOST_BIDDING",
+      "expected_impact": "looks zombie but protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch IRONSOURCE_BIDDING (7d)",
+      "action": "quarantine_network",
+      "target": "IRONSOURCE_BIDDING",
+      "expected_impact": "looks zombie but protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, pe, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true
+    }
+  ],
+  "validated_actions": [
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch CHARTBOOST_BIDDING (7d)",
+      "action": "quarantine_network",
+      "target": "CHARTBOOST_BIDDING",
+      "expected_impact": "looks zombie but protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.28,
+      "factors": {
+        "confidence": 0.7,
+        "impact": 0.4,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch IRONSOURCE_BIDDING (7d)",
+      "action": "quarantine_network",
+      "target": "IRONSOURCE_BIDDING",
+      "expected_impact": "looks zombie but protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, pe, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.28,
+      "factors": {
+        "confidence": 0.7,
+        "impact": 0.4,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    }
+  ],
+  "user_metrics": {
+    "account": "ACCT_3",
+    "period": {
+      "start": "2026-07-20",
+      "end": "2026-07-29"
+    },
+    "available": true,
+    "source": "adjust",
+    "note": "Adjust avg_dau per-app over 4 app(s)",
+    "dau": 33,
+    "arpdau": 2.25993,
+    "ads_per_user": 0.0,
+    "rewarded_per_user": 0.0,
+    "interstitial_per_user": 0.0,
+    "app_dau": {
+      "Be A Master Chef": 31.8,
+      "Stella's Salon: Drama Makeover": 0.6,
+      "Be a Super Model: Merge & Slay": 0.3,
+      "Drama Hospital: Doctor ASMR": 0.2
+    }
+  },
+  "experiments": [
+    {
+      "exp_id": "ac13642b33f6",
+      "account": "ACCT_3",
+      "title": "Disable CHARTBOOST_BIDDING",
+      "hypothesis": "Removing the zombie frees waterfall slots for higher-eCPM networks; the zombie_network signal clears (network exits the report).",
+      "action_type": "disable_network",
+      "target": "CHARTBOOST_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "free 1,099 requests (revenue loss < $0.00)"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "signal still firing (6/14d); user guardrail pass — keep watching",
+      "last_arpdau_guardrail": "pass",
+      "last_arpdau_delta_pct": 251.25351652963212,
+      "baseline_user_metrics": {
+        "account": "ACCT_3",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "adjust",
+        "note": "Adjust avg_dau summed over 4 app(s)",
+        "dau": 34,
+        "arpdau": 0.64339,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST_BIDDING 消耗 1,099 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.07,
+      "metric_baseline": 0.6433882941176471,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "ed8a9e7312ef",
+      "account": "ACCT_3",
+      "title": "Quarantine & watch CHARTBOOST_BIDDING (7d)",
+      "hypothesis": "If the protected network is truly zombie, 7d isolation confirms it; the zombie_network signal clears on disable.",
+      "action_type": "quarantine_network",
+      "target": "CHARTBOOST_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "looks zombie but protected (sole filler in ar, au, bb, bd, bg, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, ee, es, fr, gb, gd, gf, gh, gq, gy, hk, ht, hu, id, in, iq, it, jm, kh, kr, kw, lt, ly, mx, my, nc, nr, nz, pa, ph, pk, pl, pr, re, ro, ru, se, sg, sl, sr, th, tr, tw, us, uz, vc, wf, za) — confirm 7d before disabling"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "signal still firing (6/14d); user guardrail pass — keep watching",
+      "last_arpdau_guardrail": "pass",
+      "last_arpdau_delta_pct": 32.09553257775467,
+      "baseline_user_metrics": {
+        "account": "ACCT_3",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "adjust",
+        "note": "Adjust avg_dau summed over 4 app(s)",
+        "dau": 34,
+        "arpdau": 1.71083,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST_BIDDING 消耗 3,337 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：隔离观察 7 天后禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.12,
+      "metric_baseline": 1.7108263529411756,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "d304fbdc8031",
+      "account": "ACCT_3",
+      "title": "Quarantine & watch IRONSOURCE_BIDDING (7d)",
+      "hypothesis": "If the protected network is truly zombie, 7d isolation confirms it; the zombie_network signal clears on disable.",
+      "action_type": "quarantine_network",
+      "target": "IRONSOURCE_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "looks zombie but protected (sole filler in ar, au, bb, bd, bg, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, ee, es, fr, gb, gd, gf, gh, gq, gy, hk, ht, hu, id, in, iq, it, jm, kh, kr, kw, lt, ly, mx, my, nc, nr, nz, pa, pe, ph, pk, pl, pr, re, ro, ru, se, sg, sl, sr, th, tr, tw, us, uz, vc, wf, za) — confirm 7d before disabling"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "IRONSOURCE_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "signal still firing (6/14d); user guardrail pass — keep watching",
+      "last_arpdau_guardrail": "pass",
+      "last_arpdau_delta_pct": 32.09553257775467,
+      "baseline_user_metrics": {
+        "account": "ACCT_3",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "adjust",
+        "note": "Adjust avg_dau summed over 4 app(s)",
+        "dau": 34,
+        "arpdau": 1.71083,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：IRONSOURCE_BIDDING 消耗 2,113 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：隔离观察 7 天后禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.71,
+      "metric_baseline": 1.7108263529411756,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    }
+  ],
+  "config_recommendations": [
+    {
+      "account": "ACCT_3",
+      "period": {
+        "start": "2026-07-20",
+        "end": "2026-07-29"
+      },
+      "generated_at": "2026-07-30",
+      "overall_blend_ecpm": 44.08,
+      "summary": {
+        "segments": 1,
+        "demote_candidates": 0,
+        "floor_suggestions": 0
+      },
+      "segments": [
+        {
+          "app": "Be A Master Chef",
+          "geo": "us",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 30.73,
+          "segment_impressions": 246,
+          "networks": [
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 117.27,
+              "fill_rate": 0.9855,
+              "impression_share": 0.0366,
+              "revenue": 1.06,
+              "score": 115.5675,
+              "rank": 1
+            },
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 63.36,
+              "fill_rate": 0.991,
+              "impression_share": 0.126,
+              "revenue": 1.96,
+              "score": 62.7861,
+              "rank": 2
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 40.13,
+              "fill_rate": 0.9744,
+              "impression_share": 0.0325,
+              "revenue": 0.32,
+              "score": 39.1081,
+              "rank": 3
+            },
+            {
+              "network": "ADMOB_BIDDING",
+              "ecpm": 34.01,
+              "fill_rate": 0.7774,
+              "impression_share": 0.2114,
+              "revenue": 1.77,
+              "score": 26.4416,
+              "rank": 4
+            },
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 24.58,
+              "fill_rate": 0.9954,
+              "impression_share": 0.0813,
+              "revenue": 0.49,
+              "score": 24.4702,
+              "rank": 5
+            },
+            {
+              "network": "TIKTOK_BIDDING",
+              "ecpm": 14.18,
+              "fill_rate": 0.9136,
+              "impression_share": 0.0976,
+              "revenue": 0.34,
+              "score": 12.9533,
+              "rank": 6
+            },
+            {
+              "network": "FACEBOOK_NETWORK",
+              "ecpm": 15.27,
+              "fill_rate": 0.8286,
+              "impression_share": 0.3455,
+              "revenue": 1.3,
+              "score": 12.6563,
+              "rank": 7
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 4.64,
+              "fill_rate": 0.8554,
+              "impression_share": 0.0122,
+              "revenue": 0.01,
+              "score": 3.966,
+              "rank": 8
+            },
+            {
+              "network": "FYBER_NETWORK",
+              "ecpm": 21.86,
+              "fill_rate": 0.0134,
+              "impression_share": 0.0569,
+              "revenue": 0.31,
+              "score": 0.2919,
+              "rank": 9
+            }
+          ],
+          "recommended_order": [
+            "UNITY_BIDDING",
+            "APPLOVIN_NETWORK",
+            "VUNGLE_BIDDING",
+            "ADMOB_BIDDING",
+            "MINTEGRAL_BIDDING",
+            "TIKTOK_BIDDING",
+            "FACEBOOK_NETWORK",
+            "APPLOVIN_EXCHANGE",
+            "FYBER_NETWORK"
+          ],
+          "demote_candidates": [],
+          "floor_suggestions": {}
+        }
+      ]
+    }
+  ],
+  "ecpm_forecasts": [
+    {
+      "account": "ACCT_3",
+      "period": {
+        "start": "2026-07-20",
+        "end": "2026-07-29"
+      },
+      "generated_at": "2026-07-30",
+      "summary": {
+        "total": 0,
+        "up": 0,
+        "down": 0,
+        "flat": 0,
+        "early_warning": 0
+      },
+      "forecasts": []
+    }
+  ],
+  "growth_report": {
+    "account": "ACCT_3",
+    "date": "2026-07-30",
+    "dau": 33,
+    "dau_pending": false,
+    "iia_revenue": 74.58,
+    "revenue_per_dau": 2.2599,
+    "prior_revenue": 75.19,
+    "prior_revenue_per_dau": 2.2785,
+    "growth_pct": -0.81,
+    "blended_ecpm": 44.08,
+    "impressions": 1692,
+    "health_score": 87,
+    "health_grade": "B",
+    "actions": [],
+    "total_winner_lift_per_day": 0.0,
+    "ai_attributed_lift_pct": 0.0,
+    "experiments": {
+      "running": 0,
+      "winning": 0,
+      "rolled_back": 0,
+      "memorized": 0
+    },
+    "ab_portfolio": {
+      "total": 3,
+      "revenue_experiments": 3,
+      "risk_hedges": 0,
+      "expected_lift_sum_pct": 2.9
+    }
+  },
+  "auto_executor": {
+    "auto": [],
+    "approval": [
+      {
+        "action": "quarantine_network",
+        "target": "CHARTBOOST_BIDDING",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → CHARTBOOST_BIDDING → 先降权/隔离观察 7 天，确认僵尸后再禁用",
+        "expected_impact": "looks zombie but protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za) — confirm 7d before disabling",
+        "confidence": 0.7,
+        "requires_human_apply": true
+      },
+      {
+        "action": "quarantine_network",
+        "target": "IRONSOURCE_BIDDING",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → IRONSOURCE_BIDDING → 先降权/隔离观察 7 天，确认僵尸后再禁用",
+        "expected_impact": "looks zombie but protected (sole filler in ar, au, az, bb, bd, bo, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, es, fr, gb, gd, gf, gh, gq, gr, gy, hk, ht, hu, id, in, iq, it, jm, kr, kw, lt, ly, mx, my, nr, nz, pa, pe, ph, pk, pl, pr, pt, re, ro, ru, se, sg, sl, sr, th, tn, tw, us, uz, za) — confirm 7d before disabling",
+        "confidence": 0.7,
+        "requires_human_apply": true
+      }
+    ],
+    "observe": [],
+    "counts": {
+      "auto": 0,
+      "approval": 2,
+      "observe": 0
+    },
+    "markdown": "🤖 **Auto-Executor（决策自动 + 人工落子）**\n自动批准 0 · 需审批 2 · 仅观察 0　|　所有落子均由人在 MAX 后台执行（API 禁写）\n\n⚠️ **需人工审批**：\n  • CHARTBOOST_BIDDING [quarantine_network] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子\n  • IRONSOURCE_BIDDING [quarantine_network] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子"
+  },
+  "risks": []
+}

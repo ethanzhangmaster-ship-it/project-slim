@@ -1,0 +1,2 @@
+{"event": "new", "date": "2026-07-24", "action_id": "41a4c13d27f0", "priority": "P2", "action": "quarantine_network", "target": "CHARTBOOST_BIDDING", "title": "Quarantine & watch CHARTBOOST_BIDDING (7d)", "source_rule": "zombie_network"}
+{"event": "new", "date": "2026-07-24", "action_id": "07ddc3cd1a37", "priority": "P2", "action": "quarantine_network", "target": "IRONSOURCE_BIDDING", "title": "Quarantine & watch IRONSOURCE_BIDDING (7d)", "source_rule": "zombie_network"}

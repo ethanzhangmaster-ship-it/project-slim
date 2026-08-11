@@ -1,0 +1,51 @@
+# =============================================================================
+# EP0.11.6 — requirements/lock.txt  (deterministic dependency lock)
+# =============================================================================
+# Purpose:
+#   Pin the EXACT resolved versions of every direct + transitive dependency so a
+#   fresh `pip install -r requirements/lock.txt` on 2026-07 / 2026-08 produces
+#   the same environment that passed CI. This blocks "works today, broken in 3
+#   months" drift caused by floating `>=` ranges in base.txt / dev.txt.
+#
+# How it was generated:
+#   Resolved from requirements/base.txt + requirements/dev.txt into a clean
+#   Python 3.11 venv (envs/ci311). The pure-Python packages here are also
+#   compatible with Python 3.12/3.13 used by the CI matrix.
+#
+# How to update (when you intentionally bump a dependency):
+#   1. Edit requirements/base.txt or requirements/dev.txt (keep `>=` ranges).
+#   2. Re-resolve in a clean venv:
+#        python -m venv .venv && .venv/Scripts/python -m pip install -r requirements/base.txt -r requirements/dev.txt
+#        .venv/Scripts/python -m pip freeze > requirements/lock.txt
+#   3. Re-run the full test suite + security scan before committing.
+#
+# NOTE: CI installs requirements/base.txt + requirements/dev.txt (ranges) for
+#       the smoke test, then this lock is the source of truth for reproducible
+#       production builds. To lock production builds, install -r requirements/lock.txt.
+# =============================================================================
+
+# --- direct: base.txt ---
+cryptography==49.0.0
+jsonschema==4.26.0
+PyJWT==2.13.0
+PyYAML==6.0.3
+requests==2.34.2
+
+# --- direct: dev.txt ---
+pytest==9.1.1
+pytest-cov==7.1.0
+
+# --- transitive (resolved) ---
+attrs==26.1.0
+cffi==2.1.0
+certifi==2026.7.22
+charset-normalizer==3.4.9
+colorama==0.4.6
+idna==3.18
+iniconfig==2.3.0
+jsonschema-specifications==2025.9.1
+packaging==26.2
+pluggy==1.6.0
+referencing==0.37.0
+rpds-py==2026.6.3
+urllib3==2.7.0

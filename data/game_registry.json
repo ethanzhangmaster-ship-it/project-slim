@@ -1,0 +1,762 @@
+{
+  "_note": "P1.4 真实游戏注册表。token 仅以 secret_ref 字符串保存，绝不内联密钥；真实解析由各源运行时从 credentials/live_accounts.json 读取。",
+  "games": [
+    {
+      "game_id": "2022Fruit & veg Quiz",
+      "display_name": "2022Fruit & veg Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bibbia Quiz",
+      "display_name": "Bibbia Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bible Feud Trivia",
+      "display_name": "Bible Feud Trivia",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bible Quiz",
+      "display_name": "Bible Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bible Trivia",
+      "display_name": "Bible Trivia",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bible Trivia Master",
+      "display_name": "Bible Trivia Master",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bible Word Cross",
+      "display_name": "Bible Word Cross",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Bible Word Trivia",
+      "display_name": "Bible Word Trivia",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Daily Bible Quiz",
+      "display_name": "Daily Bible Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Daily Codewords",
+      "display_name": "Daily Codewords",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Estrela Bíblica",
+      "display_name": "Estrela Bíblica",
+      "package_name": "",
+      "genre": "casual",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Estrella Bíblica",
+      "display_name": "Estrella Bíblica",
+      "package_name": "",
+      "genre": "casual",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Fill In Crossword Puzzles",
+      "display_name": "Fill In Crossword Puzzles",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Food Trivia Master",
+      "display_name": "Food Trivia Master",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Geography Quiz",
+      "display_name": "Geography Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Grammar Fun Quizzes",
+      "display_name": "Grammar Fun Quizzes",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Islamic Quiz",
+      "display_name": "Islamic Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Leisure Feud Trivia",
+      "display_name": "Leisure Feud Trivia",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Math Quiz",
+      "display_name": "Math Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Millionaire Quiz",
+      "display_name": "Millionaire Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Movie Quiz",
+      "display_name": "Movie Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Movie Talent",
+      "display_name": "Movie Talent",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Movie Trivia Master",
+      "display_name": "Movie Trivia Master",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "NEWFood Quiz",
+      "display_name": "NEWFood Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Preguntas de la Biblia",
+      "display_name": "Preguntas de la Biblia",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Quiz B?blico",
+      "display_name": "Quiz B?blico",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Quiz Biblique",
+      "display_name": "Quiz Biblique",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Quiz Master",
+      "display_name": "Quiz Master",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Spelling Trivia Master",
+      "display_name": "Spelling Trivia Master",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Spelling?Master - Tricky?Word?Spelling?Game",
+      "display_name": "Spelling?Master - Tricky?Word?Spelling?Game",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Toy Quiz-EN",
+      "display_name": "Toy Quiz-EN",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Word Tile Master",
+      "display_name": "Word Tile Master",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Wrestling Quiz",
+      "display_name": "Wrestling Quiz",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Wrestling Trivia",
+      "display_name": "Wrestling Trivia",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "adivinar palabras desafío",
+      "display_name": "adivinar palabras desafío",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "bible quizzes",
+      "display_name": "bible quizzes",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.bibleverse.collect.ios",
+      "display_name": "com.bibleverse.collect.ios",
+      "package_name": "com.bibleverse.collect.ios",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.bibleword.encryption.challenge.trivia",
+      "display_name": "com.bibleword.encryption.challenge.trivia",
+      "package_name": "com.bibleword.encryption.challenge.trivia",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.born2play.biblequiz",
+      "display_name": "com.born2play.biblequiz",
+      "package_name": "com.born2play.biblequiz",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.daily.leisure.feud.trivia.ios",
+      "display_name": "com.daily.leisure.feud.trivia.ios",
+      "package_name": "com.daily.leisure.feud.trivia.ios",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.movie.trivia.quiz.fun.test.ios",
+      "display_name": "com.movie.trivia.quiz.fun.test.ios",
+      "package_name": "com.movie.trivia.quiz.fun.test.ios",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.quiz.master.trivia.ios",
+      "display_name": "com.quiz.master.trivia.ios",
+      "package_name": "com.quiz.master.trivia.ios",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "com.travel.quiz.trivia",
+      "display_name": "com.travel.quiz.trivia",
+      "package_name": "com.travel.quiz.trivia",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "مسابقة الإسلامي",
+      "display_name": "مسابقة الإسلامي",
+      "package_name": "",
+      "genre": "puzzle",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_1"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_1"
+    },
+    {
+      "game_id": "Drama Hospital: ASMR Care",
+      "display_name": "Drama Hospital: ASMR Care",
+      "package_name": "",
+      "genre": "simulation",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "Gossip Hospital",
+      "display_name": "Gossip Hospital",
+      "package_name": "",
+      "genre": "simulation",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "Hospital Fever: Super Stylist",
+      "display_name": "Hospital Fever: Super Stylist",
+      "package_name": "",
+      "genre": "simulation",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "Merge Legend-Atlantis Mermaid",
+      "display_name": "Merge Legend-Atlantis Mermaid",
+      "package_name": "",
+      "genre": "merge",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "Merge Monster: Vampire Mansion",
+      "display_name": "Merge Monster: Vampire Mansion",
+      "package_name": "",
+      "genre": "merge",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "com.lilijoy.monster",
+      "display_name": "com.lilijoy.monster",
+      "package_name": "com.lilijoy.monster",
+      "genre": "merge",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "merge legend",
+      "display_name": "merge legend",
+      "package_name": "",
+      "genre": "merge",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2"
+    },
+    {
+      "game_id": "merge witches",
+      "display_name": "merge witches",
+      "package_name": "com.born2play.mergewitches",
+      "genre": "merge",
+      "platform": "android",
+      "max_apps": [
+        "ACCT_2"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_2",
+      "country": "US",
+      "meta_app_id": "meta_app_mergewitches",
+      "adjust_app_token": "live_accounts:apps:merge_witches:token"
+    },
+    {
+      "game_id": "Be A Master Chef",
+      "display_name": "Be A Master Chef",
+      "package_name": "",
+      "genre": "simulation",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_3"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_3"
+    },
+    {
+      "game_id": "Be a Super Model: Merge & Slay",
+      "display_name": "Be a Super Model: Merge & Slay",
+      "package_name": "",
+      "genre": "merge",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_3"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_3"
+    },
+    {
+      "game_id": "Drama Hospital: Doctor ASMR",
+      "display_name": "Drama Hospital: Doctor ASMR",
+      "package_name": "",
+      "genre": "simulation",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_3"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_3"
+    },
+    {
+      "game_id": "Stella's Salon: Drama Makeover",
+      "display_name": "Stella's Salon: Drama Makeover",
+      "package_name": "",
+      "genre": "simulation",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_3"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_3"
+    },
+    {
+      "game_id": "GameA",
+      "display_name": "GameA",
+      "package_name": "",
+      "genre": "",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_TEST"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_TEST"
+    },
+    {
+      "game_id": "GameB",
+      "display_name": "GameB",
+      "package_name": "",
+      "genre": "",
+      "platform": "unknown",
+      "max_apps": [
+        "ACCT_TEST"
+      ],
+      "adjust_app_token_ref": "",
+      "meta_campaign_ids": [],
+      "max_account": "ACCT_TEST"
+    }
+  ]
+}

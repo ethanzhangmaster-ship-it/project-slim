@@ -1,0 +1,57 @@
+[
+  {
+    "id": "b482d3be",
+    "type": "ecpm_drop",
+    "severity": "high",
+    "segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "reward",
+      "network": "applovin"
+    },
+    "metric": "ecpm",
+    "detail": {
+      "prev_ecpm": 32.0,
+      "cur_ecpm": 20.0,
+      "drop_pct": 37.5
+    },
+    "recommendation": "Review waterfall priority and bidding for this segment; check if a top network lost fill or a bid floor moved.",
+    "detected_at": "2026-07-23T04:40:52.097505+00:00"
+  },
+  {
+    "id": "d32a7b13",
+    "type": "fill_drop",
+    "severity": "medium",
+    "segment": {
+      "country": "US",
+      "platform": "android",
+      "ad_format": "interstitial",
+      "network": "applovin"
+    },
+    "metric": "fill_rate",
+    "detail": {
+      "prev_fill": 0.7941,
+      "cur_fill": 0.5349,
+      "drop_pct": 32.6
+    },
+    "recommendation": "Check mediation: a network may be timing out or a bid floor is too high; consider enabling backup networks.",
+    "detected_at": "2026-07-23T04:40:52.097526+00:00"
+  },
+  {
+    "id": "af271f54",
+    "type": "ad_frequency_issue",
+    "severity": "high",
+    "segment": {
+      "country": "US",
+      "platform": "android"
+    },
+    "metric": "ads_per_dau_vs_d1_retention",
+    "detail": {
+      "ads_per_dau_ratio": 1.694,
+      "d1_retention_ratio": 0.745,
+      "interpretation": "Ad load increased while D1 retention dropped."
+    },
+    "recommendation": "Reduce ad frequency (e.g. raise remote_config ads.reward_frequency interval) and re-measure retention.",
+    "detected_at": "2026-07-23T04:40:52.097551+00:00"
+  }
+]

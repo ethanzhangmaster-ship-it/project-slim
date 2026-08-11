@@ -52,9 +52,6 @@ def write_preview_overview(
     google_creative_repair_audit_markdown: Path | None = None,
     google_revenue_attribution_audit_markdown: Path | None = None,
     send_payload_consistency_markdown: Path | None = None,
-    tecdo_probe_markdown: Path | None = None,
-    tecdo_account_reconciliation_markdown: Path | None = None,
-    tecdo_sync_checklist_markdown: Path | None = None,
     closure_status_markdown: Path | None = None,
     project_detail_coverage_markdown: Path | None = None,
     p04_source_checklist_markdown: Path | None = None,
@@ -78,9 +75,6 @@ def write_preview_overview(
     google_creative_repair_audit_markdown = _existing(google_creative_repair_audit_markdown)
     google_revenue_attribution_audit_markdown = _existing(google_revenue_attribution_audit_markdown)
     send_payload_consistency_markdown = _existing(send_payload_consistency_markdown)
-    tecdo_probe_markdown = _existing(tecdo_probe_markdown)
-    tecdo_account_reconciliation_markdown = _existing(tecdo_account_reconciliation_markdown)
-    tecdo_sync_checklist_markdown = _existing(tecdo_sync_checklist_markdown)
     closure_status_markdown = _existing(closure_status_markdown)
     project_detail_coverage_markdown = _existing(project_detail_coverage_markdown)
     p04_source_checklist_markdown = _existing(p04_source_checklist_markdown)
@@ -112,9 +106,6 @@ def write_preview_overview(
     optional_sequence: list[tuple[str, Path | None]] = [
         ("如需确认素材 API 就绪度", creative_source_readiness_markdown),
         ("如需先确认数据质量和可决策性", data_quality_audit_markdown),
-        ("如需确认 TecDo 账户权限", tecdo_probe_markdown),
-        ("如需确认 TecDo 账户核对表", tecdo_account_reconciliation_markdown),
-        ("如需确认 TecDo 同步清单", tecdo_sync_checklist_markdown),
         ("如需确认创意归因覆盖", creative_attribution_audit_markdown),
         ("如需确认 Google 素材修复清单", google_creative_repair_audit_markdown),
         ("如需确认 Google 收入归因异常", google_revenue_attribution_audit_markdown),
@@ -157,9 +148,6 @@ def write_preview_overview(
             f"- 周报健康检查：{health_check_markdown}" if health_check_markdown is not None else "- 周报健康检查：未生成",
             f"- 素材 API 就绪度：{creative_source_readiness_markdown}" if creative_source_readiness_markdown is not None else "- 素材 API 就绪度：未生成",
             f"- 数据质量审计：{data_quality_audit_markdown}" if data_quality_audit_markdown is not None else "- 数据质量审计：未生成",
-            f"- TecDo 账户探针：{tecdo_probe_markdown}" if tecdo_probe_markdown is not None else "- TecDo 账户探针：未生成",
-            f"- TecDo 账户核对表：{tecdo_account_reconciliation_markdown}" if tecdo_account_reconciliation_markdown is not None else "- TecDo 账户核对表：未生成",
-            f"- TecDo 同步清单：{tecdo_sync_checklist_markdown}" if tecdo_sync_checklist_markdown is not None else "- TecDo 同步清单：未生成",
             f"- 创意归因审计：{creative_attribution_audit_markdown}" if creative_attribution_audit_markdown is not None else "- 创意归因审计：未生成",
             f"- Google 素材修复清单：{google_creative_repair_audit_markdown}" if google_creative_repair_audit_markdown is not None else "- Google 素材修复清单：未生成",
             f"- Google 收入归因异常审计：{google_revenue_attribution_audit_markdown}" if google_revenue_attribution_audit_markdown is not None else "- Google 收入归因异常审计：未生成",
@@ -169,7 +157,6 @@ def write_preview_overview(
             f"- 项目明细覆盖审计：{project_detail_coverage_markdown}" if project_detail_coverage_markdown is not None else "- 项目明细覆盖审计：未生成",
             f"- P04 来源核对清单：{p04_source_checklist_markdown}" if p04_source_checklist_markdown is not None else "- P04 来源核对清单：未生成",
             f"- 详细版回复核对清单：{detail_reply_checklist_markdown}" if detail_reply_checklist_markdown is not None else "- 详细版回复核对清单：未生成",
-            "- 当前状态：TecDo 已作为当前代理素材主来源，Meta/Google 官方素材接口凭证属于增强项，不是当前周报主链路阻塞项。",
             "",
             "说明：这些文件只用于本地核对，不会直接触发飞书发送。",
         ]

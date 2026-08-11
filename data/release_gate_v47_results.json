@@ -1,0 +1,524 @@
+{
+  "version": "V4.7",
+  "timestamp": "2026-07-08T12:08:47.766107",
+  "pass_count": 103,
+  "fail_count": 0,
+  "passed": true,
+  "results": [
+    {
+      "test": "Attribution Engine Init",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Quality Score",
+      "status": "PASS",
+      "details": "Score: 0.68"
+    },
+    {
+      "test": "Revenue Contribution",
+      "status": "PASS",
+      "details": "Revenue: 2300"
+    },
+    {
+      "test": "Incremental Lift",
+      "status": "PASS",
+      "details": "Lift: 0.30"
+    },
+    {
+      "test": "Winner Probability",
+      "status": "PASS",
+      "details": "Probability: 0.60"
+    },
+    {
+      "test": "ROI Calculation",
+      "status": "PASS",
+      "details": "ROI: 4.60"
+    },
+    {
+      "test": "Cohort Analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "D1 Retention",
+      "status": "PASS",
+      "details": "D1: 36.50"
+    },
+    {
+      "test": "D7 Retention",
+      "status": "PASS",
+      "details": "D7: 18.90"
+    },
+    {
+      "test": "LTV",
+      "status": "PASS",
+      "details": "LTV: 0.88"
+    },
+    {
+      "test": "Cohort Quality",
+      "status": "PASS",
+      "details": "Quality: 0.78"
+    },
+    {
+      "test": "Trend Detection",
+      "status": "PASS",
+      "details": "Trend: stable"
+    },
+    {
+      "test": "Revenue Mapping",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Total Revenue",
+      "status": "PASS",
+      "details": "Total: 5000"
+    },
+    {
+      "test": "Attributable Revenue",
+      "status": "PASS",
+      "details": "Attributable: 2975.00"
+    },
+    {
+      "test": "Cannibalization Rate",
+      "status": "PASS",
+      "details": "Cannibalization: 0.09"
+    },
+    {
+      "test": "ROI",
+      "status": "PASS",
+      "details": "ROI: 2.48"
+    },
+    {
+      "test": "Incremental Lift",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Lift Value",
+      "status": "PASS",
+      "details": "Lift: 0.31"
+    },
+    {
+      "test": "Baseline Revenue",
+      "status": "PASS",
+      "details": "Baseline: 1750"
+    },
+    {
+      "test": "Incremental Revenue",
+      "status": "PASS",
+      "details": "Incremental: 550"
+    },
+    {
+      "test": "Significance",
+      "status": "PASS",
+      "details": "Significance: 0.63"
+    },
+    {
+      "test": "Audience Cluster",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Cluster Count",
+      "status": "PASS",
+      "details": "Clusters: 3"
+    },
+    {
+      "test": "Cluster Characteristics",
+      "status": "PASS",
+      "details": "Chars: 5"
+    },
+    {
+      "test": "Cluster Size",
+      "status": "PASS",
+      "details": "Size: 3"
+    },
+    {
+      "test": "User Embedding",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Embedding Dimension",
+      "status": "PASS",
+      "details": "Dim: 5"
+    },
+    {
+      "test": "Profile",
+      "status": "PASS",
+      "details": "Profile keys: ['country', 'os', 'gender', 'age_range', 'game_genre']"
+    },
+    {
+      "test": "Creative Audience Match",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Match Score",
+      "status": "PASS",
+      "details": "Score: 0.60"
+    },
+    {
+      "test": "Recommended Platform",
+      "status": "PASS",
+      "details": "Platform: Meta"
+    },
+    {
+      "test": "Recommended Audience",
+      "status": "PASS",
+      "details": "Audience: US Female 30-44"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.66"
+    },
+    {
+      "test": "Segment Memory",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Segment ID",
+      "status": "PASS",
+      "details": "ID: segment_0001"
+    },
+    {
+      "test": "Match Score",
+      "status": "PASS",
+      "details": "Score: 0.91"
+    },
+    {
+      "test": "Performance Data",
+      "status": "PASS",
+      "details": "Metrics: 3"
+    },
+    {
+      "test": "Budget Optimizer",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Budget Increase",
+      "status": "PASS",
+      "details": "$200 \u2192 $400"
+    },
+    {
+      "test": "Change Percent",
+      "status": "PASS",
+      "details": "100%"
+    },
+    {
+      "test": "Reason",
+      "status": "PASS",
+      "details": "Reason: ROAS exceeds target by 50% - doubling budget"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.92"
+    },
+    {
+      "test": "Allocation Engine",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Allocation Count",
+      "status": "PASS",
+      "details": "Allocations: 4"
+    },
+    {
+      "test": "Top Priority",
+      "status": "PASS",
+      "details": "Priority: 1"
+    },
+    {
+      "test": "Total Allocation",
+      "status": "PASS",
+      "details": "Total: $713"
+    },
+    {
+      "test": "Scaling Policy",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Scale Up Action",
+      "status": "PASS",
+      "details": "Action: scale_up_1.5x"
+    },
+    {
+      "test": "New Budget",
+      "status": "PASS",
+      "details": "$200 \u2192 $300"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.88"
+    },
+    {
+      "test": "Kill Rule",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Should Kill",
+      "status": "PASS",
+      "details": "Should Kill: True"
+    },
+    {
+      "test": "Reason",
+      "status": "PASS",
+      "details": "Reason: Spend $300 with 0 purchases"
+    },
+    {
+      "test": "Metrics",
+      "status": "PASS",
+      "details": "Metrics: 5"
+    },
+    {
+      "test": "A/B Test Manager",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Winner Identified",
+      "status": "PASS",
+      "details": "Winner: B"
+    },
+    {
+      "test": "Probabilities",
+      "status": "PASS",
+      "details": "Variants: 3"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.44"
+    },
+    {
+      "test": "Bayesian Optimizer",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Recommendation",
+      "status": "PASS",
+      "details": "Recommended: B"
+    },
+    {
+      "test": "Test Scheduler",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Test ID",
+      "status": "PASS",
+      "details": "ID: test_0001"
+    },
+    {
+      "test": "Status",
+      "status": "PASS",
+      "details": "Status: scheduled"
+    },
+    {
+      "test": "Variants",
+      "status": "PASS",
+      "details": "Variants: 3"
+    },
+    {
+      "test": "Budget",
+      "status": "PASS",
+      "details": "Budget: $1500"
+    },
+    {
+      "test": "Stopping Rule",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Winner",
+      "status": "PASS",
+      "details": "Winner: B"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.74"
+    },
+    {
+      "test": "ASO Analyzer",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Overall Score",
+      "status": "PASS",
+      "details": "Score: 0.91"
+    },
+    {
+      "test": "Title Score",
+      "status": "PASS",
+      "details": "Title: 1.00"
+    },
+    {
+      "test": "Keyword Score",
+      "status": "PASS",
+      "details": "Keyword: 1.00"
+    },
+    {
+      "test": "Description Score",
+      "status": "PASS",
+      "details": "Description: 0.70"
+    },
+    {
+      "test": "Screenshot DNA",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Visuals",
+      "status": "PASS",
+      "details": "Visuals: 3"
+    },
+    {
+      "test": "Colors",
+      "status": "PASS",
+      "details": "Colors: 3"
+    },
+    {
+      "test": "Themes",
+      "status": "PASS",
+      "details": "Themes: 3"
+    },
+    {
+      "test": "Keyword Match",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Match Score",
+      "status": "PASS",
+      "details": "Score: 0.00"
+    },
+    {
+      "test": "Missing Keywords",
+      "status": "PASS",
+      "details": "Missing: 4"
+    },
+    {
+      "test": "Creative Store Alignment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Alignment Score",
+      "status": "PASS",
+      "details": "Score: 0.17"
+    },
+    {
+      "test": "Mismatch Detected",
+      "status": "PASS",
+      "details": "Mismatch: True"
+    },
+    {
+      "test": "CVR Loss",
+      "status": "PASS",
+      "details": "CVR Loss: 0.35"
+    },
+    {
+      "test": "Recommendations",
+      "status": "PASS",
+      "details": "Recs: 3"
+    },
+    {
+      "test": "Decision Agent",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Decisions Count",
+      "status": "PASS",
+      "details": "Decisions: 3"
+    },
+    {
+      "test": "Decision Type",
+      "status": "PASS",
+      "details": "Type: scale"
+    },
+    {
+      "test": "Decision Action",
+      "status": "PASS",
+      "details": "Action: increase_budget"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.92"
+    },
+    {
+      "test": "Planner",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Plan ID",
+      "status": "PASS",
+      "details": "ID: plan_0001"
+    },
+    {
+      "test": "Steps Count",
+      "status": "PASS",
+      "details": "Steps: 8"
+    },
+    {
+      "test": "Status",
+      "status": "PASS",
+      "details": "Status: active"
+    },
+    {
+      "test": "Executor",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Execution Steps",
+      "status": "PASS",
+      "details": "Steps: 8"
+    },
+    {
+      "test": "All Success",
+      "status": "PASS",
+      "details": "All steps succeeded"
+    },
+    {
+      "test": "Reflection",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Successes",
+      "status": "PASS",
+      "details": "Successes: 8"
+    },
+    {
+      "test": "Insights",
+      "status": "PASS",
+      "details": "Insights: 3"
+    },
+    {
+      "test": "Improvements",
+      "status": "PASS",
+      "details": "Improvements: 1"
+    },
+    {
+      "test": "Overall Score",
+      "status": "PASS",
+      "details": "Score: 0.95"
+    }
+  ]
+}

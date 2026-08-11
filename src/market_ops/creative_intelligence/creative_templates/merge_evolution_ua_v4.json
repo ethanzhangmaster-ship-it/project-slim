@@ -1,0 +1,116 @@
+{
+  "template_id": "merge_evolution_ua_v4",
+  "template_name": "UA Fixed Layout V4 — Merge Evolution",
+  "version": "v4",
+  "description": "Fixed UA structure: HOOK(15%) → GAMEPLAY(45%) → PROGRESSION(20%) → CHARACTER(15%) → CTA(5%)",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "background",
+      "position": "full",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0,
+      "z_index": 0,
+      "content": "background_gradient",
+      "generator": "canvas",
+      "feather_radius": 0,
+      "align": "center"
+    },
+    {
+      "name": "hook_banner",
+      "position": "top",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 0.15,
+      "z_index": 10,
+      "content": "hook_text",
+      "generator": "text_overlay_v32",
+      "feather_radius": 0,
+      "align": "center",
+      "text": "",
+      "style": "impact_gold"
+    },
+    {
+      "name": "gameplay",
+      "position": "center_upper",
+      "x": 0.05,
+      "y": 0.15,
+      "width": 0.90,
+      "height": 0.45,
+      "z_index": 1,
+      "content": "gameplay_screenshot",
+      "generator": "gameplay_asset_v12",
+      "feather_radius": 0,
+      "align": "center",
+      "crop_strategy": "fit_center"
+    },
+    {
+      "name": "progression",
+      "position": "center_lower",
+      "x": 0.05,
+      "y": 0.60,
+      "width": 0.90,
+      "height": 0.20,
+      "z_index": 5,
+      "content": "progression_arrows",
+      "generator": "progression_v4",
+      "feather_radius": 0,
+      "align": "center"
+    },
+    {
+      "name": "character",
+      "position": "bottom_right",
+      "x": 0.65,
+      "y": 0.65,
+      "width": 0.35,
+      "height": 0.35,
+      "z_index": 8,
+      "content": "character_anchor",
+      "generator": "character_v2",
+      "feather_radius": 20,
+      "align": "bottom_right",
+      "crop_strategy": "crop_bottom"
+    },
+    {
+      "name": "cta",
+      "position": "bottom_right",
+      "x": 0.70,
+      "y": 0.92,
+      "width": 0.28,
+      "height": 0.08,
+      "z_index": 15,
+      "content": "cta_button",
+      "generator": "cta_v3",
+      "feather_radius": 0,
+      "align": "right",
+      "text": "PLAY NOW",
+      "style": "glow_pulse"
+    }
+  ],
+  "gameplay_config": {
+    "game_type": "merge_witches",
+    "progression": "egg_to_dragon",
+    "style": "3d_mobile_game_ui",
+    "num_candidates": 3,
+    "quality_threshold": 80
+  },
+  "character_config": {
+    "max_width_ratio": 0.35,
+    "max_height_ratio": 0.45,
+    "position": "bottom_right",
+    "style": "transparent_bg",
+    "prompt_style": "small_supporting_character"
+  },
+  "generation_config": {
+    "canvas_size": "1080x1080",
+    "output_format": "png",
+    "quality": 95
+  }
+}

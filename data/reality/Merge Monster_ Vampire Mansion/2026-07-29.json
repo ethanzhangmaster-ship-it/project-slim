@@ -1,0 +1,52 @@
+{
+  "game_id": "Merge Monster: Vampire Mansion",
+  "as_of": "2026-07-29",
+  "saved_at": "2026-07-30T01:24:05.510069+00:00",
+  "snapshot": {
+    "game_id": "Merge Monster: Vampire Mansion",
+    "timestamp": "2026-07-29",
+    "revenue": {
+      "daily_revenue": 74.5,
+      "payer_count": 0,
+      "arpdau": 0.1898,
+      "ltv": 0.0,
+      "impressions": 8838,
+      "requests": 245785,
+      "ecpm": 84.3,
+      "rewarded_video_revenue": 74.5,
+      "network_distribution": {
+        "VUNGLE_BIDDING": 0.0128,
+        "UNITY_BIDDING": 0.0681,
+        "TIKTOK_BIDDING": 0.003,
+        "MINTEGRAL_BIDDING": 0.0424,
+        "IRONSOURCE_BIDDING": 0.0018,
+        "FYBER_BIDDING": 0.0064,
+        "ADMOB_BIDDING": 0.4246,
+        "FACEBOOK_NETWORK": 0.0678,
+        "CHARTBOOST_NETWORK": 0.0002,
+        "APPLOVIN_NETWORK": 0.3726,
+        "APPLOVIN_EXCHANGE": 0.0003
+      }
+    },
+    "acquisition": null,
+    "aso": null,
+    "creative": null,
+    "product": {
+      "dau": 392,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": null
+    },
+    "confidence": 0.4,
+    "sources": [
+      "registry",
+      "max_live"
+    ],
+    "real_confidence": 0.4,
+    "real_domains": [
+      "product",
+      "revenue"
+    ],
+    "attribution": null
+  }
+}

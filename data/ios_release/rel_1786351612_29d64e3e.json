@@ -1,0 +1,61 @@
+{
+  "release_id": "rel_1786351612_29d64e3e",
+  "game_id": "game_api_test",
+  "bundle_id": "com.api.test",
+  "version": "1.0.0",
+  "build_number": 1,
+  "ipa_path": "/fake/app.ipa",
+  "started_at": "2026-08-10T16:46:52",
+  "finished_at": "",
+  "current_step": "submit_review",
+  "completed_steps": [
+    "upload_build",
+    "poll_build_status",
+    "select_build"
+  ],
+  "step_results": {
+    "upload_build": {
+      "step": "upload_build",
+      "success": true,
+      "started_at": "2026-08-10T16:46:52",
+      "finished_at": "2026-08-10T16:46:52",
+      "data": {
+        "build_id": ""
+      },
+      "error": ""
+    },
+    "poll_build_status": {
+      "step": "poll_build_status",
+      "success": true,
+      "started_at": "2026-08-10T16:46:52",
+      "finished_at": "2026-08-10T16:46:52",
+      "data": {
+        "build_id": "mock_bld_1",
+        "version": "1.0.0",
+        "build_number": 1,
+        "processing_state": "VALID"
+      },
+      "error": ""
+    },
+    "select_build": {
+      "step": "select_build",
+      "success": true,
+      "started_at": "2026-08-10T16:46:52",
+      "finished_at": "2026-08-10T16:46:52",
+      "data": {},
+      "error": ""
+    },
+    "submit_review": {
+      "step": "submit_review",
+      "success": false,
+      "started_at": "2026-08-10T16:46:52",
+      "finished_at": "2026-08-10T16:46:52",
+      "data": {},
+      "error": "exception: MockAppStoreClient.submit_review() takes 2 positional arguments but 3 were given"
+    }
+  },
+  "build_id": "",
+  "version_id": "",
+  "phased_release_id": "",
+  "status": "failed"
+}

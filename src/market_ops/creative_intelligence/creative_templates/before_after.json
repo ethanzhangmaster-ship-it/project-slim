@@ -1,0 +1,89 @@
+{
+  "template_id": "before_after",
+  "template_name": "Before → After Split Comparison",
+  "version": "1.0",
+  "description": "Split screen: left = before (weak), right = after (powerful), with arrow transition",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "hook_area",
+      "position": "top",
+      "x": 0,
+      "y": 0,
+      "width": 1.0,
+      "height": 0.12,
+      "z_index": 10,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "before_area",
+      "position": "left_half",
+      "x": 0.03,
+      "y": 0.18,
+      "width": 0.42,
+      "height": 0.55,
+      "z_index": 20,
+      "content": "character_render",
+      "label": "BEFORE",
+      "label_color": [180, 180, 220],
+      "label_style": "dim"
+    },
+    {
+      "name": "transition_arrow",
+      "position": "center",
+      "x": 0.42,
+      "y": 0.35,
+      "width": 0.16,
+      "height": 0.20,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["large_arrow", "glow_line"]
+    },
+    {
+      "name": "after_area",
+      "position": "right_half",
+      "x": 0.55,
+      "y": 0.18,
+      "width": 0.42,
+      "height": 0.55,
+      "z_index": 20,
+      "content": "character_render",
+      "label": "AFTER",
+      "label_color": [255, 215, 0],
+      "label_style": "glowing"
+    },
+    {
+      "name": "gameplay_hint",
+      "position": "bottom_center",
+      "x": 0.25,
+      "y": 0.76,
+      "width": 0.50,
+      "height": 0.10,
+      "z_index": 15,
+      "content": "gameplay_hint",
+      "components": ["merge_action_hint", "level_up_indicator"]
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0,
+      "y": 0.88,
+      "width": 1.0,
+      "height": 0.12,
+      "z_index": 30,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "before_after_config": {
+    "before_character": "egg_lv1",
+    "after_character": "dragon_lv3",
+    "arrow_style": "golden_glow",
+    "show_level_labels": true
+  }
+}

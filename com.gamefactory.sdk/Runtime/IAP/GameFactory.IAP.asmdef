@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.IAP",
+  "rootNamespace": "GameFactory.IAP",
+  "references": ["GameFactory.Runtime"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

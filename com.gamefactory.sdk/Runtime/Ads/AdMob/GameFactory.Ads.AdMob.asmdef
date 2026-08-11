@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.Ads.AdMob",
+  "rootNamespace": "GameFactory.Ads",
+  "references": ["GameFactory.Ads", "GameFactory.Analytics"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": ["GOOGLE_MOBILE_ADS"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

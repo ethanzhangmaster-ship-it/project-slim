@@ -118,7 +118,6 @@ class HealthCheckReportBuilder:
                 "project_detail_coverage_path": str(output_dir / f"project_detail_coverage_{suffix}.md"),
                 "p04_source_checklist_path": str(output_dir / f"p04_source_checklist_{suffix}.md"),
                 "detail_reply_checklist_path": str(output_dir / f"detail_reply_checklist_{suffix}.md"),
-                "tecdo_sync_checklist_path": str(output_dir / f"tecdo_sync_checklist_{suffix}.md"),
             },
         }
 
@@ -209,9 +208,6 @@ class HealthCheckReportBuilder:
             google_creative_repair_audit_markdown=output_dir / f"google_creative_repair_audit_{suffix}.md",
             google_revenue_attribution_audit_markdown=(output_dir / f"google_revenue_attribution_audit_{suffix}.md") if (output_dir / f"google_revenue_attribution_audit_{suffix}.md").exists() else None,
             send_payload_consistency_markdown=(output_dir / f"send_payload_consistency_{suffix}.md") if (output_dir / f"send_payload_consistency_{suffix}.md").exists() else None,
-            tecdo_probe_markdown=(output_dir / f"tecdo_probe_{suffix}.md") if (output_dir / f"tecdo_probe_{suffix}.md").exists() else None,
-            tecdo_account_reconciliation_markdown=(output_dir / f"tecdo_account_reconciliation_{suffix}.md") if (output_dir / f"tecdo_account_reconciliation_{suffix}.md").exists() else None,
-            tecdo_sync_checklist_markdown=(output_dir / f"tecdo_sync_checklist_{suffix}.md") if (output_dir / f"tecdo_sync_checklist_{suffix}.md").exists() else None,
             closure_status_markdown=(output_dir / f"closure_status_{suffix}.md") if (output_dir / f"closure_status_{suffix}.md").exists() else None,
             project_detail_coverage_markdown=(output_dir / f"project_detail_coverage_{suffix}.md") if (output_dir / f"project_detail_coverage_{suffix}.md").exists() else None,
             p04_source_checklist_markdown=(output_dir / f"p04_source_checklist_{suffix}.md") if (output_dir / f"p04_source_checklist_{suffix}.md").exists() else None,
@@ -259,7 +255,6 @@ class HealthCheckReportBuilder:
             f"- 项目明细覆盖：{payload['closure_artifacts']['project_detail_coverage_path']}",
             f"- P04 来源核对：{payload['closure_artifacts']['p04_source_checklist_path']}",
             f"- 详细版回复清单：{payload['closure_artifacts']['detail_reply_checklist_path']}",
-            f"- TecDo 同步清单：{payload['closure_artifacts']['tecdo_sync_checklist_path']}",
             "",
             "## 群内详细版",
             "",

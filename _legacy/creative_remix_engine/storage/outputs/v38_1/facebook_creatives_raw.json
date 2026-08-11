@@ -1,0 +1,387 @@
+{
+  "data": [
+    {
+      "creative_id": "creative_witch_challenge_upgrade_000",
+      "video_name": "witch_challenge_upgrade_15s",
+      "spend": 980.79,
+      "impressions": 263715,
+      "clicks": 11281,
+      "installs": 2000,
+      "purchase": 111,
+      "d7_revenue": 715.13,
+      "d30_revenue": 959.18,
+      "date_start": "2026-06-20",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_curiosity_upgrade_001",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "spend": 940.1,
+      "impressions": 303395,
+      "clicks": 9958,
+      "installs": 1621,
+      "purchase": 218,
+      "d7_revenue": 852.2,
+      "d30_revenue": 1505.73,
+      "date_start": "2026-06-21",
+      "date_end": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "creative_id": "creative_castle_shock_upgrade_002",
+      "video_name": "castle_shock_upgrade_15s",
+      "spend": 732.79,
+      "impressions": 190806,
+      "clicks": 10582,
+      "installs": 2043,
+      "purchase": 147,
+      "d7_revenue": 526.04,
+      "d30_revenue": 1350.07,
+      "date_start": "2026-06-18",
+      "date_end": "2026-07-08",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_castle_curiosity_showcase_003",
+      "video_name": "castle_curiosity_showcase_15s",
+      "spend": 1504.63,
+      "impressions": 290850,
+      "clicks": 13708,
+      "installs": 2727,
+      "purchase": 245,
+      "d7_revenue": 1771.22,
+      "d30_revenue": 1977.15,
+      "date_start": "2026-06-13",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "showcase",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_challenge_upgrade_004",
+      "video_name": "dragon_challenge_upgrade_15s",
+      "spend": 658.19,
+      "impressions": 253534,
+      "clicks": 8021,
+      "installs": 1970,
+      "purchase": 163,
+      "d7_revenue": 327.58,
+      "d30_revenue": 1007.38,
+      "date_start": "2026-07-02",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "upgrade",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_witch_transformation_merge_005",
+      "video_name": "witch_transformation_merge_15s",
+      "spend": 1690.55,
+      "impressions": 422020,
+      "clicks": 19699,
+      "installs": 3156,
+      "purchase": 346,
+      "d7_revenue": 1849.36,
+      "d30_revenue": 1241.64,
+      "date_start": "2026-06-16",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "magic"
+      }
+    },
+    {
+      "creative_id": "creative_monster_challenge_battle_006",
+      "video_name": "monster_challenge_battle_15s",
+      "spend": 424.47,
+      "impressions": 94316,
+      "clicks": 5040,
+      "installs": 925,
+      "purchase": 59,
+      "d7_revenue": 221.75,
+      "d30_revenue": 805.42,
+      "date_start": "2026-06-25",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "challenge",
+        "subject": "monster",
+        "gameplay": "battle",
+        "reward": "magic"
+      }
+    },
+    {
+      "creative_id": "creative_monster_transformation_unlock_007",
+      "video_name": "monster_transformation_unlock_15s",
+      "spend": 740.62,
+      "impressions": 222866,
+      "clicks": 9207,
+      "installs": 1450,
+      "purchase": 94,
+      "d7_revenue": 345.03,
+      "d30_revenue": 788.32,
+      "date_start": "2026-06-22",
+      "date_end": "2026-07-10",
+      "dna": {
+        "hook": "transformation",
+        "subject": "monster",
+        "gameplay": "unlock",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_monster_shock_battle_008",
+      "video_name": "monster_shock_battle_15s",
+      "spend": 702.47,
+      "impressions": 198140,
+      "clicks": 10274,
+      "installs": 1611,
+      "purchase": 175,
+      "d7_revenue": 238.4,
+      "d30_revenue": 826.35,
+      "date_start": "2026-06-20",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "shock",
+        "subject": "monster",
+        "gameplay": "battle",
+        "reward": "evolution"
+      }
+    },
+    {
+      "creative_id": "creative_castle_urgency_battle_009",
+      "video_name": "castle_urgency_battle_15s",
+      "spend": 725.48,
+      "impressions": 189751,
+      "clicks": 9638,
+      "installs": 1504,
+      "purchase": 103,
+      "d7_revenue": 839.07,
+      "d30_revenue": 470.92,
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "battle",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_castle_shock_upgrade_010",
+      "video_name": "castle_shock_upgrade_15s",
+      "spend": 505.65,
+      "impressions": 155927,
+      "clicks": 5596,
+      "installs": 1376,
+      "purchase": 183,
+      "d7_revenue": 366.72,
+      "d30_revenue": 475.01,
+      "date_start": "2026-06-25",
+      "date_end": "2026-07-07",
+      "dna": {
+        "hook": "shock",
+        "subject": "castle",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_challenge_merge_011",
+      "video_name": "dragon_challenge_merge_15s",
+      "spend": 2271.0,
+      "impressions": 360447,
+      "clicks": 18466,
+      "installs": 3954,
+      "purchase": 549,
+      "d7_revenue": 1807.08,
+      "d30_revenue": 4242.55,
+      "date_start": "2026-06-17",
+      "date_end": "2026-07-13",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "merge",
+        "reward": "evolution"
+      }
+    },
+    {
+      "creative_id": "creative_witch_curiosity_showcase_012",
+      "video_name": "witch_curiosity_showcase_15s",
+      "spend": 1918.7,
+      "impressions": 511756,
+      "clicks": 26959,
+      "installs": 4885,
+      "purchase": 710,
+      "d7_revenue": 858.29,
+      "d30_revenue": 3967.17,
+      "date_start": "2026-06-26",
+      "date_end": "2026-07-11",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "showcase",
+        "reward": "magic"
+      }
+    },
+    {
+      "creative_id": "creative_witch_challenge_merge_013",
+      "video_name": "witch_challenge_merge_15s",
+      "spend": 2175.21,
+      "impressions": 486994,
+      "clicks": 18069,
+      "installs": 4076,
+      "purchase": 432,
+      "d7_revenue": 2180.25,
+      "d30_revenue": 2403.4,
+      "date_start": "2026-07-02",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_witch_shock_battle_014",
+      "video_name": "witch_shock_battle_15s",
+      "spend": 1872.23,
+      "impressions": 363505,
+      "clicks": 20895,
+      "installs": 4146,
+      "purchase": 418,
+      "d7_revenue": 2000.52,
+      "d30_revenue": 2216.13,
+      "date_start": "2026-06-29",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "shock",
+        "subject": "witch",
+        "gameplay": "battle",
+        "reward": "evolution"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_curiosity_upgrade_015",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "spend": 951.61,
+      "impressions": 316847,
+      "clicks": 12004,
+      "installs": 2335,
+      "purchase": 255,
+      "d7_revenue": 685.83,
+      "d30_revenue": 1177.83,
+      "date_start": "2026-06-25",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "creative_id": "creative_hero_curiosity_upgrade_016",
+      "video_name": "hero_curiosity_upgrade_15s",
+      "spend": 705.75,
+      "impressions": 180456,
+      "clicks": 5794,
+      "installs": 1290,
+      "purchase": 115,
+      "d7_revenue": 799.33,
+      "d30_revenue": 968.74,
+      "date_start": "2026-06-15",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "upgrade",
+        "reward": "magic"
+      }
+    },
+    {
+      "creative_id": "creative_dragon_curiosity_upgrade_017",
+      "video_name": "dragon_curiosity_upgrade_15s",
+      "spend": 839.49,
+      "impressions": 205085,
+      "clicks": 10135,
+      "installs": 2321,
+      "purchase": 171,
+      "d7_revenue": 414.59,
+      "d30_revenue": 1109.37,
+      "date_start": "2026-07-05",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade",
+        "reward": "evolution"
+      }
+    },
+    {
+      "creative_id": "creative_monster_urgency_merge_018",
+      "video_name": "monster_urgency_merge_15s",
+      "spend": 211.49,
+      "impressions": 82844,
+      "clicks": 2539,
+      "installs": 507,
+      "purchase": 39,
+      "d7_revenue": 183.47,
+      "d30_revenue": 320.16,
+      "date_start": "2026-06-17",
+      "date_end": "2026-07-12",
+      "dna": {
+        "hook": "urgency",
+        "subject": "monster",
+        "gameplay": "merge",
+        "reward": "treasure"
+      }
+    },
+    {
+      "creative_id": "creative_hero_curiosity_merge_019",
+      "video_name": "hero_curiosity_merge_15s",
+      "spend": 1217.71,
+      "impressions": 372220,
+      "clicks": 15361,
+      "installs": 3328,
+      "purchase": 466,
+      "d7_revenue": 1314.02,
+      "d30_revenue": 1044.57,
+      "date_start": "2026-06-16",
+      "date_end": "2026-07-09",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "merge",
+        "reward": "evolution"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.466841",
+  "source": "facebook",
+  "is_mocked": true
+}

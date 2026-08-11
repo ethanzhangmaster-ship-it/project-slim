@@ -1,0 +1,304 @@
+{
+  "version": "V4.6",
+  "timestamp": "2026-07-08T11:53:58.975074",
+  "pass_count": 59,
+  "fail_count": 0,
+  "passed": true,
+  "results": [
+    {
+      "test": "Winner Pattern Discovery",
+      "status": "PASS",
+      "details": "Patterns: 1"
+    },
+    {
+      "test": "Pattern ID",
+      "status": "PASS",
+      "details": "ID: pattern_001"
+    },
+    {
+      "test": "Confidence Score",
+      "status": "PASS",
+      "details": "Confidence: 1.00"
+    },
+    {
+      "test": "DNA Hook",
+      "status": "PASS",
+      "details": "Hook: fast_action"
+    },
+    {
+      "test": "DNA Camera",
+      "status": "PASS",
+      "details": "Camera: close_up"
+    },
+    {
+      "test": "Feature Importance",
+      "status": "PASS",
+      "details": "Importance: 0.85"
+    },
+    {
+      "test": "All Features Analysis",
+      "status": "PASS",
+      "details": "Features: 5"
+    },
+    {
+      "test": "Top Features",
+      "status": "PASS",
+      "details": "Top: 2"
+    },
+    {
+      "test": "Winner Probability",
+      "status": "PASS",
+      "details": "Probability: 0.10"
+    },
+    {
+      "test": "Confidence Score",
+      "status": "PASS",
+      "details": "Confidence: 0.71"
+    },
+    {
+      "test": "Pattern ID",
+      "status": "PASS",
+      "details": "ID: pattern_A"
+    },
+    {
+      "test": "Sample Size",
+      "status": "PASS",
+      "details": "Sample: 50"
+    },
+    {
+      "test": "Performance Gap",
+      "status": "PASS",
+      "details": "Gap: 0.42"
+    },
+    {
+      "test": "Calculation Accuracy",
+      "status": "PASS",
+      "details": "Expected: 0.71"
+    },
+    {
+      "test": "Mutation Result",
+      "status": "PASS",
+      "details": "Parent: pattern_001"
+    },
+    {
+      "test": "Variant Count",
+      "status": "PASS",
+      "details": "Variants: 5"
+    },
+    {
+      "test": "Variant ID",
+      "status": "PASS",
+      "details": "ID: variant_0001"
+    },
+    {
+      "test": "Blueprint Mutator",
+      "status": "PASS",
+      "details": "Mutated: 4"
+    },
+    {
+      "test": "Mutation Options",
+      "status": "PASS",
+      "details": "Options: 12"
+    },
+    {
+      "test": "Fitness Score",
+      "status": "PASS",
+      "details": "Score: 46.88"
+    },
+    {
+      "test": "Creative ID",
+      "status": "PASS",
+      "details": "ID: creative_001"
+    },
+    {
+      "test": "CTR Component",
+      "status": "PASS",
+      "details": "CTR: 14.50"
+    },
+    {
+      "test": "Purchase Component",
+      "status": "PASS",
+      "details": "Purchase: 12.30"
+    },
+    {
+      "test": "ROAS Component",
+      "status": "PASS",
+      "details": "ROAS: 18.00"
+    },
+    {
+      "test": "Ranking",
+      "status": "PASS",
+      "details": "Rank 1: c001"
+    },
+    {
+      "test": "Evolution Results",
+      "status": "PASS",
+      "details": "Generations: 3"
+    },
+    {
+      "test": "Generation 1",
+      "status": "PASS",
+      "details": "Gen: 1"
+    },
+    {
+      "test": "Survival Rate",
+      "status": "PASS",
+      "details": "Survived: 1"
+    },
+    {
+      "test": "Best Fitness",
+      "status": "PASS",
+      "details": "Best: 46.88"
+    },
+    {
+      "test": "Generation Manager",
+      "status": "PASS",
+      "details": "Gen: 1"
+    },
+    {
+      "test": "Lineage",
+      "status": "PASS",
+      "details": "Lineage tracked"
+    },
+    {
+      "test": "Performance Data",
+      "status": "PASS",
+      "details": "ID: creative_001"
+    },
+    {
+      "test": "CTR Calculation",
+      "status": "PASS",
+      "details": "CTR: 5.80%"
+    },
+    {
+      "test": "IPM Calculation",
+      "status": "PASS",
+      "details": "IPM: 16.60"
+    },
+    {
+      "test": "ROAS Calculation",
+      "status": "PASS",
+      "details": "ROAS: 2.10"
+    },
+    {
+      "test": "Feedback Result",
+      "status": "PASS",
+      "details": "ID: creative_001"
+    },
+    {
+      "test": "Reward Score",
+      "status": "PASS",
+      "details": "Reward: 0.87"
+    },
+    {
+      "test": "Reward Score",
+      "status": "PASS",
+      "details": "Reward: 0.80"
+    },
+    {
+      "test": "Creative ID",
+      "status": "PASS",
+      "details": "ID: creative_A"
+    },
+    {
+      "test": "ROAS Component",
+      "status": "PASS",
+      "details": "ROAS: 0.40"
+    },
+    {
+      "test": "Purchase Component",
+      "status": "PASS",
+      "details": "Purchase: 0.30"
+    },
+    {
+      "test": "Demo Calculation",
+      "status": "PASS",
+      "details": "Demo Reward: 0.80"
+    },
+    {
+      "test": "Strategy Saved",
+      "status": "PASS",
+      "details": "ID: strategy_0001"
+    },
+    {
+      "test": "Context",
+      "status": "PASS",
+      "details": "Context: US iOS Puzzle"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.94"
+    },
+    {
+      "test": "Winner DNA",
+      "status": "PASS",
+      "details": "DNA keys: ['hook', 'camera', 'lighting', 'emotion']"
+    },
+    {
+      "test": "Strategy Retrieval",
+      "status": "PASS",
+      "details": "Retrieved successfully"
+    },
+    {
+      "test": "Top Strategies",
+      "status": "PASS",
+      "details": "Top: 1"
+    },
+    {
+      "test": "Failure Recorded",
+      "status": "PASS",
+      "details": "ID: loser_0001"
+    },
+    {
+      "test": "Pattern",
+      "status": "PASS",
+      "details": "Pattern: slow_intro"
+    },
+    {
+      "test": "Failure Reason",
+      "status": "PASS",
+      "details": "Reason: low CTR"
+    },
+    {
+      "test": "Confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.88"
+    },
+    {
+      "test": "Forbidden Check",
+      "status": "PASS",
+      "details": "Pattern is forbidden"
+    },
+    {
+      "test": "Forbidden Patterns",
+      "status": "PASS",
+      "details": "Forbidden: 1"
+    },
+    {
+      "test": "Context Saved",
+      "status": "PASS",
+      "details": "ID: ctx_0001"
+    },
+    {
+      "test": "Country",
+      "status": "PASS",
+      "details": "Country: US"
+    },
+    {
+      "test": "OS",
+      "status": "PASS",
+      "details": "OS: iOS"
+    },
+    {
+      "test": "Context Query",
+      "status": "PASS",
+      "details": "Results: 1"
+    },
+    {
+      "test": "Winner DNA for Context",
+      "status": "PASS",
+      "details": "Winner DNA: {'hook': 'reward_reveal', 'camera': 'close_up'}"
+    }
+  ]
+}

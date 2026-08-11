@@ -1,0 +1,2302 @@
+{
+  "account": "ACCT_2",
+  "date": "2026-07-30",
+  "period": {
+    "start": "2026-07-20",
+    "end": "2026-07-29"
+  },
+  "totals": {
+    "revenue": 711.67,
+    "impressions": 11629,
+    "attempts": 311043,
+    "blended_ecpm": 61.2,
+    "waterfall_depth": 26.7
+  },
+  "health": {
+    "score": 71,
+    "grade": "C"
+  },
+  "opportunity": {
+    "score": 49,
+    "grade": "MEDIUM"
+  },
+  "risk": {
+    "score": 54,
+    "grade": "MEDIUM"
+  },
+  "scores": {
+    "health": {
+      "kind": "health",
+      "score": 71,
+      "grade": "C",
+      "headline": "Health 71/100 (C) — current monetization efficiency; low health reflects state, not lost cause",
+      "dimensions": [
+        {
+          "name": "ecpm_efficiency",
+          "value": 88.9,
+          "weight": 0.25,
+          "detail": "11% of impressions from parasite backfill (eCPM < 15% blend)"
+        },
+        {
+          "name": "demand_quality",
+          "value": 100.0,
+          "weight": 0.15,
+          "detail": "fill rate 61.3% (responses/attempts)"
+        },
+        {
+          "name": "waterfall_efficiency",
+          "value": 58.1,
+          "weight": 0.2,
+          "detail": "depth 26.7 attempts/impression"
+        },
+        {
+          "name": "network_health",
+          "value": 86.4,
+          "weight": 0.25,
+          "detail": "14% of requests on zombie networks (42,289 att)"
+        },
+        {
+          "name": "revenue_stability",
+          "value": 1.5,
+          "weight": 0.15,
+          "detail": "top app = 99% of revenue"
+        }
+      ],
+      "metrics": {
+        "dilution": 0.1108,
+        "waterfall_depth": 26.7,
+        "zombie_request_share": 0.136,
+        "top_app_share": 0.9923
+      }
+    },
+    "opportunity": {
+      "kind": "opportunity",
+      "score": 49,
+      "grade": "MEDIUM",
+      "headline": "Opportunity 49/100 (MEDIUM) — ~$109 in-app upside identified",
+      "dimensions": [
+        {
+          "name": "value_recapture",
+          "value": 38.1,
+          "weight": 0.4,
+          "detail": "~$109 recoverable (15% of $712)"
+        },
+        {
+          "name": "structural_headroom",
+          "value": 43.6,
+          "weight": 0.35,
+          "detail": "14% zombie requests, depth 26.7 — cleanup headroom"
+        },
+        {
+          "name": "demand_upside",
+          "value": 72.0,
+          "weight": 0.25,
+          "detail": "2 actionable demand levers, best hidden eCPM $83"
+        }
+      ],
+      "metrics": {
+        "recoverable_usd": 108.57,
+        "recapture_pct": 0.1526,
+        "parasite_recapture_usd": 77.17,
+        "hidden_winner_uplift_usd": 31.41
+      }
+    },
+    "risk": {
+      "kind": "risk",
+      "score": 54,
+      "grade": "MEDIUM",
+      "headline": "Risk 54/100 (MEDIUM) — app 99% / net 42% / geo 75% concentration",
+      "dimensions": [
+        {
+          "name": "app_concentration",
+          "value": 98.5,
+          "weight": 0.45,
+          "detail": "top app = 99% of revenue"
+        },
+        {
+          "name": "network_concentration",
+          "value": 0.0,
+          "weight": 0.35,
+          "detail": "top network = 42% of revenue"
+        },
+        {
+          "name": "geo_concentration",
+          "value": 49.3,
+          "weight": 0.2,
+          "detail": "top country = 75% of revenue (UA scope)"
+        }
+      ],
+      "metrics": {
+        "top_app_share": 0.9923,
+        "top_network_share": 0.418,
+        "top_country_share": 0.7464
+      }
+    }
+  },
+  "signals": [
+    {
+      "rule": "zombie_network",
+      "severity": "warning",
+      "action": "quarantine_network",
+      "target": "CHARTBOOST_NETWORK",
+      "confidence": 0.7,
+      "reason": "37,644 requests / $0.16 this window looks like a zombie, BUT protected (sole filler in ae, af, al, am, ao, ar, at, au, az, bb, bd, be, bg, br, by, ca, ch, cl, cn, co, cy, cz, de, dk, do, dz, ec, eg, es, et, fi, fj, fr, gb, gd, ge, gn, gr, gt, gy, hk, hn, hr, hu, id, ie, il, im, in, iq, is, it, jo, jp, ke, kg, kh, kr, kz, la, lb, lk, lt, lu, lv, ly, ma, mg, ml, mm, mu, mx, my, na, ng, nl, no, np, nz, pe, ph, pk, pl, pr, pt, py, qa, re, ro, rs, ru, sa, sc, sd, se, sg, sv, th, tn, tr, tt, tw, tz, ua, ug, us, uy, uz, ve, vn, za). Monitor 7 days before disabling.",
+      "metrics": {
+        "attempts": 37644,
+        "impressions": 16,
+        "revenue": 0.16,
+        "show_rate": 0.0004,
+        "history_revenue": 1.07,
+        "unique_geos": [
+          "ae",
+          "af",
+          "al",
+          "am",
+          "ao",
+          "ar",
+          "at",
+          "au",
+          "az",
+          "bb",
+          "bd",
+          "be",
+          "bg",
+          "br",
+          "by",
+          "ca",
+          "ch",
+          "cl",
+          "cn",
+          "co",
+          "cy",
+          "cz",
+          "de",
+          "dk",
+          "do",
+          "dz",
+          "ec",
+          "eg",
+          "es",
+          "et",
+          "fi",
+          "fj",
+          "fr",
+          "gb",
+          "gd",
+          "ge",
+          "gn",
+          "gr",
+          "gt",
+          "gy",
+          "hk",
+          "hn",
+          "hr",
+          "hu",
+          "id",
+          "ie",
+          "il",
+          "im",
+          "in",
+          "iq",
+          "is",
+          "it",
+          "jo",
+          "jp",
+          "ke",
+          "kg",
+          "kh",
+          "kr",
+          "kz",
+          "la",
+          "lb",
+          "lk",
+          "lt",
+          "lu",
+          "lv",
+          "ly",
+          "ma",
+          "mg",
+          "ml",
+          "mm",
+          "mu",
+          "mx",
+          "my",
+          "na",
+          "ng",
+          "nl",
+          "no",
+          "np",
+          "nz",
+          "pe",
+          "ph",
+          "pk",
+          "pl",
+          "pr",
+          "pt",
+          "py",
+          "qa",
+          "re",
+          "ro",
+          "rs",
+          "ru",
+          "sa",
+          "sc",
+          "sd",
+          "se",
+          "sg",
+          "sv",
+          "th",
+          "tn",
+          "tr",
+          "tt",
+          "tw",
+          "tz",
+          "ua",
+          "ug",
+          "us",
+          "uy",
+          "uz",
+          "ve",
+          "vn",
+          "za"
+        ],
+        "protection": "sole filler in ae, af, al, am, ao, ar, at, au, az, bb, bd, be, bg, br, by, ca, ch, cl, cn, co, cy, cz, de, dk, do, dz, ec, eg, es, et, fi, fj, fr, gb, gd, ge, gn, gr, gt, gy, hk, hn, hr, hu, id, ie, il, im, in, iq, is, it, jo, jp, ke, kg, kh, kr, kz, la, lb, lk, lt, lu, lv, ly, ma, mg, ml, mm, mu, mx, my, na, ng, nl, no, np, nz, pe, ph, pk, pl, pr, pt, py, qa, re, ro, rs, ru, sa, sc, sd, se, sg, sv, th, tn, tr, tt, tw, tz, ua, ug, us, uy, uz, ve, vn, za"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "zombie_network",
+      "severity": "warning",
+      "action": "quarantine_network",
+      "target": "INMOBI_BIDDING",
+      "confidence": 0.7,
+      "reason": "4,645 requests / $0.00 this window looks like a zombie, BUT protected (sole filler in ae, au, br, ca, ch, co, de, es, fi, fr, gb, hk, id, il, it, jp, kz, la, mx, my, nl, ph, pl, sc, sg, th, tr, tw, ua, us, vn). Monitor 7 days before disabling.",
+      "metrics": {
+        "attempts": 4645,
+        "impressions": 0,
+        "revenue": 0.0,
+        "show_rate": 0.0,
+        "history_revenue": 0.0,
+        "unique_geos": [
+          "ae",
+          "au",
+          "br",
+          "ca",
+          "ch",
+          "co",
+          "de",
+          "es",
+          "fi",
+          "fr",
+          "gb",
+          "hk",
+          "id",
+          "il",
+          "it",
+          "jp",
+          "kz",
+          "la",
+          "mx",
+          "my",
+          "nl",
+          "ph",
+          "pl",
+          "sc",
+          "sg",
+          "th",
+          "tr",
+          "tw",
+          "ua",
+          "us",
+          "vn"
+        ],
+        "protection": "sole filler in ae, au, br, ca, ch, co, de, es, fi, fr, gb, hk, id, il, it, jp, kz, la, mx, my, nl, ph, pl, sc, sg, th, tr, tw, ua, us, vn"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "hidden_winner",
+      "severity": "warning",
+      "action": "increase_bid_opportunity",
+      "target": "MINTEGRAL_BIDDING",
+      "confidence": 0.95,
+      "reason": "eCPM $83.09 is 1.4x account blend ($61.20) but impression share only 3.3% — capturing 25% of its eCPM-implied revenue potential",
+      "metrics": {
+        "ecpm": 83.09,
+        "blended_ecpm": 61.2,
+        "impressions": 378,
+        "impression_share": 0.0325,
+        "attempts": 28170,
+        "revenue_share": 0.0441,
+        "ecpm_potential_share": 0.1792,
+        "revenue_capture_rate": 0.246,
+        "issue": "high_value_low_volume"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "reduce_waterfall_depth",
+      "target": "ACCOUNT",
+      "confidence": 0.9,
+      "reason": "Waterfall depth 26.7 attempts/impression (waste 96.3%) — trim non-producing networks",
+      "metrics": {
+        "depth": 26.7,
+        "waste": 0.9626,
+        "attempts": 311043,
+        "impressions": 11629
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "review_segment",
+      "target": "network:CHARTBOOST_NETWORK",
+      "confidence": 0.8,
+      "reason": "network 'CHARTBOOST_NETWORK' waste 99.96% (37,644 att, 16 imp, $0.16)",
+      "metrics": {
+        "dimension": "network",
+        "waste": 0.9996,
+        "attempts": 37644,
+        "impressions": 16,
+        "revenue": 0.16
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "review_segment",
+      "target": "network:INMOBI_BIDDING",
+      "confidence": 0.8,
+      "reason": "network 'INMOBI_BIDDING' waste 100.00% (4,645 att, 0 imp, $0.00)",
+      "metrics": {
+        "dimension": "network",
+        "waste": 1.0,
+        "attempts": 4645,
+        "impressions": 0,
+        "revenue": 0.0
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "bid_floor",
+      "severity": "warning",
+      "action": "adjust_bid_constraint",
+      "target": "APPLOVIN_EXCHANGE",
+      "confidence": 0.85,
+      "reason": "eCPM $1.33 is only 2% of blend ($61.20) while taking 11.1% of impressions — raise its unified-auction price floor (bid filtering) to filter low-value fill",
+      "metrics": {
+        "type": "recommendation",
+        "constraint_type": "unified_auction_price_floor",
+        "current_floor": "unknown (API cannot read expanded-targeting waterfalls)",
+        "recommended_min_floor": 6.12,
+        "recommended_floor_range": [
+          4.9,
+          9.18
+        ],
+        "ecpm": 1.33,
+        "impression_share": 0.1108,
+        "watch": "monitor overall fill rate after applying"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "revenue_concentration",
+      "severity": "critical",
+      "action": "diversify",
+      "target": "application:Merge Monster: Vampire Mansion",
+      "confidence": 0.95,
+      "reason": "One app contributes 99% of revenue ('Merge Monster: Vampire Mansion' $706.21 of $711.67) — risk HIGH",
+      "metrics": {
+        "risk": "HIGH",
+        "dimension": "application",
+        "top": "Merge Monster: Vampire Mansion",
+        "share": 0.9923,
+        "top_revenue": 706.21,
+        "total_revenue": 711.67,
+        "scope": "portfolio scope"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "revenue_concentration",
+      "severity": "warning",
+      "action": "monitor",
+      "target": "country:us",
+      "confidence": 0.95,
+      "reason": "One country contributes 75% of revenue ('us' $531.18 of $711.67) — audience risk MEDIUM; hand to Growth OS, monitor here",
+      "metrics": {
+        "risk": "MEDIUM",
+        "dimension": "country",
+        "top": "us",
+        "share": 0.7464,
+        "top_revenue": 531.18,
+        "total_revenue": 711.67,
+        "scope": "geo concentration is UA/Growth OS scope — monitor only; do NOT diversify country from the monetization system"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "geo_opportunity",
+      "severity": "info",
+      "action": "handoff_ua",
+      "target": "dk",
+      "confidence": 0.9,
+      "reason": "geo 'dk' eCPM $169.22 (2.8x blend) with only 4.1% revenue share — surface as UA target, hand to Growth OS (not a monetization action)",
+      "metrics": {
+        "ecpm": 169.22,
+        "impressions": 172,
+        "revenue": 29.11,
+        "revenue_share": 0.0409,
+        "note": "UA execution is Growth OS scope — informational only"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "geo_opportunity",
+      "severity": "info",
+      "action": "handoff_ua",
+      "target": "ch",
+      "confidence": 0.6,
+      "reason": "geo 'ch' eCPM $144.94 (2.4x blend) with only 0.4% revenue share — surface as UA target, hand to Growth OS (not a monetization action)",
+      "metrics": {
+        "ecpm": 144.94,
+        "impressions": 21,
+        "revenue": 3.04,
+        "revenue_share": 0.0043,
+        "note": "UA execution is Growth OS scope — informational only"
+      },
+      "requires_manual_apply": true
+    }
+  ],
+  "actions": [
+    {
+      "priority": "P1",
+      "title": "Increase bid opportunity for MINTEGRAL_BIDDING",
+      "action": "increase_bid_opportunity",
+      "target": "MINTEGRAL_BIDDING",
+      "expected_impact": "capturing only 25% of its eCPM-implied potential at eCPM $83.09 — raise auction exposure",
+      "source_rule": "hidden_winner",
+      "confidence": 0.95,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P2",
+      "title": "Raise unified auction price floor on APPLOVIN_EXCHANGE to $4.90-$9.18",
+      "action": "adjust_bid_constraint",
+      "target": "APPLOVIN_EXCHANGE",
+      "expected_impact": "cut lowest-value backfill impressions; watch fill",
+      "source_rule": "bid_floor",
+      "confidence": 0.85,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch CHARTBOOST_NETWORK (7d)",
+      "action": "quarantine_network",
+      "target": "CHARTBOOST_NETWORK",
+      "expected_impact": "looks zombie but protected (sole filler in ae, af, al, am, ao, ar, at, au, az, bb, bd, be, bg, br, by, ca, ch, cl, cn, co, cy, cz, de, dk, do, dz, ec, eg, es, et, fi, fj, fr, gb, gd, ge, gn, gr, gt, gy, hk, hn, hr, hu, id, ie, il, im, in, iq, is, it, jo, jp, ke, kg, kh, kr, kz, la, lb, lk, lt, lu, lv, ly, ma, mg, ml, mm, mu, mx, my, na, ng, nl, no, np, nz, pe, ph, pk, pl, pr, pt, py, qa, re, ro, rs, ru, sa, sc, sd, se, sg, sv, th, tn, tr, tt, tw, tz, ua, ug, us, uy, uz, ve, vn, za) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch INMOBI_BIDDING (7d)",
+      "action": "quarantine_network",
+      "target": "INMOBI_BIDDING",
+      "expected_impact": "looks zombie but protected (sole filler in ae, au, br, ca, ch, co, de, es, fi, fr, gb, hk, id, il, it, jp, kz, la, mx, my, nl, ph, pl, sc, sg, th, tr, tw, ua, us, vn) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P3",
+      "title": "Diversify: application:Merge Monster: Vampire Mansion",
+      "action": "diversify",
+      "target": "application:Merge Monster: Vampire Mansion",
+      "expected_impact": "reduce single-point-of-failure revenue risk",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P3",
+      "title": "UA opportunity: geo dk",
+      "action": "handoff_ua",
+      "target": "dk",
+      "expected_impact": "eCPM $169.22 — hand to Growth OS (not a monetization action)",
+      "source_rule": "geo_opportunity",
+      "confidence": 0.9,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P3",
+      "title": "UA opportunity: geo ch",
+      "action": "handoff_ua",
+      "target": "ch",
+      "expected_impact": "eCPM $144.94 — hand to Growth OS (not a monetization action)",
+      "source_rule": "geo_opportunity",
+      "confidence": 0.6,
+      "requires_manual_apply": true
+    }
+  ],
+  "validated_actions": [
+    {
+      "priority": "P1",
+      "title": "Increase bid opportunity for MINTEGRAL_BIDDING",
+      "action": "increase_bid_opportunity",
+      "target": "MINTEGRAL_BIDDING",
+      "expected_impact": "capturing only 25% of its eCPM-implied potential at eCPM $83.09 — raise auction exposure",
+      "source_rule": "hidden_winner",
+      "confidence": 0.95,
+      "requires_manual_apply": true,
+      "layer": "experiment",
+      "value_score": 0.479,
+      "factors": {
+        "confidence": 0.95,
+        "impact": 0.8,
+        "safety": 0.7,
+        "reversibility": 0.9
+      },
+      "rationale": "real revenue/fill impact — validate with a controlled A/B before rollout"
+    },
+    {
+      "priority": "P2",
+      "title": "Raise unified auction price floor on APPLOVIN_EXCHANGE to $4.90-$9.18",
+      "action": "adjust_bid_constraint",
+      "target": "APPLOVIN_EXCHANGE",
+      "expected_impact": "cut lowest-value backfill impressions; watch fill",
+      "source_rule": "bid_floor",
+      "confidence": 0.85,
+      "requires_manual_apply": true,
+      "layer": "experiment",
+      "value_score": 0.275,
+      "factors": {
+        "confidence": 0.85,
+        "impact": 0.6,
+        "safety": 0.6,
+        "reversibility": 0.9
+      },
+      "rationale": "real revenue/fill impact — validate with a controlled A/B before rollout"
+    },
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch CHARTBOOST_NETWORK (7d)",
+      "action": "quarantine_network",
+      "target": "CHARTBOOST_NETWORK",
+      "expected_impact": "looks zombie but protected (sole filler in ae, af, al, am, ao, ar, at, au, az, bb, bd, be, bg, br, by, ca, ch, cl, cn, co, cy, cz, de, dk, do, dz, ec, eg, es, et, fi, fj, fr, gb, gd, ge, gn, gr, gt, gy, hk, hn, hr, hu, id, ie, il, im, in, iq, is, it, jo, jp, ke, kg, kh, kr, kz, la, lb, lk, lt, lu, lv, ly, ma, mg, ml, mm, mu, mx, my, na, ng, nl, no, np, nz, pe, ph, pk, pl, pr, pt, py, qa, re, ro, rs, ru, sa, sc, sd, se, sg, sv, th, tn, tr, tt, tw, tz, ua, ug, us, uy, uz, ve, vn, za) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.28,
+      "factors": {
+        "confidence": 0.7,
+        "impact": 0.4,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P2",
+      "title": "Quarantine & watch INMOBI_BIDDING (7d)",
+      "action": "quarantine_network",
+      "target": "INMOBI_BIDDING",
+      "expected_impact": "looks zombie but protected (sole filler in ae, au, br, ca, ch, co, de, es, fi, fr, gb, hk, id, il, it, jp, kz, la, mx, my, nl, ph, pl, sc, sg, th, tr, tw, ua, us, vn) — confirm 7d before disabling",
+      "source_rule": "zombie_network",
+      "confidence": 0.7,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.28,
+      "factors": {
+        "confidence": 0.7,
+        "impact": 0.4,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P3",
+      "title": "UA opportunity: geo dk",
+      "action": "handoff_ua",
+      "target": "dk",
+      "expected_impact": "eCPM $169.22 — hand to Growth OS (not a monetization action)",
+      "source_rule": "geo_opportunity",
+      "confidence": 0.9,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.27,
+      "factors": {
+        "confidence": 0.9,
+        "impact": 0.3,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P3",
+      "title": "Diversify: application:Merge Monster: Vampire Mansion",
+      "action": "diversify",
+      "target": "application:Merge Monster: Vampire Mansion",
+      "expected_impact": "reduce single-point-of-failure revenue risk",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.237,
+      "factors": {
+        "confidence": 0.95,
+        "impact": 0.5,
+        "safety": 1.0,
+        "reversibility": 0.5
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P3",
+      "title": "UA opportunity: geo ch",
+      "action": "handoff_ua",
+      "target": "ch",
+      "expected_impact": "eCPM $144.94 — hand to Growth OS (not a monetization action)",
+      "source_rule": "geo_opportunity",
+      "confidence": 0.6,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.18,
+      "factors": {
+        "confidence": 0.6,
+        "impact": 0.3,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    }
+  ],
+  "user_metrics": {
+    "account": "ACCT_2",
+    "period": {
+      "start": "2026-07-20",
+      "end": "2026-07-29"
+    },
+    "available": true,
+    "source": "adjust",
+    "note": "Adjust avg_dau per-app over 6 app(s)",
+    "dau": 6025,
+    "arpdau": 0.11812,
+    "ads_per_user": 0.0,
+    "rewarded_per_user": 0.0,
+    "interstitial_per_user": 0.0,
+    "app_dau": {
+      "merge witches": 3916.2,
+      "Merge Legend-Atlantis Mermaid": 1548.5,
+      "Merge Monster: Vampire Mansion": 392.6,
+      "merge legend": 84.0,
+      "Gossip Hospital": 63.2,
+      "Hospital Fever: Super Stylist": 20.3
+    }
+  },
+  "experiments": [
+    {
+      "exp_id": "c439bc9460ab",
+      "account": "ACCT_2",
+      "title": "Disable CHARTBOOST_NETWORK",
+      "hypothesis": "Removing the zombie frees waterfall slots for higher-eCPM networks; the zombie_network signal clears (network exits the report).",
+      "action_type": "disable_network",
+      "target": "CHARTBOOST_NETWORK",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "free 17,261 requests (revenue loss < $0.16)"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST_NETWORK"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST_NETWORK 消耗 17,261 请求仅产生 $0.16（僵尸）",
+      "variant_b": "变体(B)：禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.73,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "bea9d48d491a",
+      "account": "ACCT_2",
+      "title": "Disable IRONSOURCE_BIDDING",
+      "hypothesis": "Removing the zombie frees waterfall slots for higher-eCPM networks; the zombie_network signal clears (network exits the report).",
+      "action_type": "disable_network",
+      "target": "IRONSOURCE_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "free 12,361 requests (revenue loss < $0.99)"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "IRONSOURCE_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：IRONSOURCE_BIDDING 消耗 12,361 请求仅产生 $0.99（僵尸）",
+      "variant_b": "变体(B)：禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.24,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "019b7714408a",
+      "account": "ACCT_2",
+      "title": "Disable INMOBI_BIDDING",
+      "hypothesis": "Removing the zombie frees waterfall slots for higher-eCPM networks; the zombie_network signal clears (network exits the report).",
+      "action_type": "disable_network",
+      "target": "INMOBI_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "free 1,608 requests (revenue loss < $0.00)"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "INMOBI_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：INMOBI_BIDDING 消耗 1,608 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.16,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "23e134678256",
+      "account": "ACCT_2",
+      "title": "Increase bid opportunity for MINTEGRAL_BIDDING",
+      "hypothesis": "Raising auction exposure captures the network's eCPM-implied potential; the hidden_winner signal should clear without ARPDAU regression.",
+      "action_type": "increase_bid_opportunity",
+      "target": "MINTEGRAL_BIDDING",
+      "source_rule": "hidden_winner",
+      "params": {
+        "expected_impact": "capturing only 37% of its eCPM-implied potential at eCPM $82.28 — raise auction exposure"
+      },
+      "expected_signal": {
+        "rule": "hidden_winner",
+        "target": "MINTEGRAL_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：MINTEGRAL_BIDDING 仅捕获其 eCPM 潜力 37% （208 曝光 @ eCPM $82.28，收入占比 6.0%）",
+      "variant_b": "变体(B)：提升 bidding 曝光优先级，目标捕获潜力 → ~68%，预期收入占比 → ~7.9%",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.9,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：apply 前(A) vs apply 后(B) 同 DAU 下 Revenue/DAU 差分（diff-in-diff vs 账户漂移）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "278aa31df4f1",
+      "account": "ACCT_2",
+      "title": "Raise unified auction price floor on APPLOVIN_EXCHANGE to $4.58-$8.58",
+      "hypothesis": "Lifting the bid constraint cuts lowest-value backfill; the bid_floor signal should clear with fill-rate guarded.",
+      "action_type": "adjust_bid_constraint",
+      "target": "APPLOVIN_EXCHANGE",
+      "source_rule": "bid_floor",
+      "params": {
+        "expected_impact": "cut lowest-value backfill impressions; watch fill"
+      },
+      "expected_signal": {
+        "rule": "bid_floor",
+        "target": "APPLOVIN_EXCHANGE"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：APPLOVIN_EXCHANGE 占 13.9% 曝光 @ 寄生 eCPM $1.41 （< 账户 blend $57.21），低价值回填",
+      "variant_b": "变体(B)：设 price floor $4.58–$8.58 过滤低价值填充",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 6.78,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：过滤前后同 DAU Revenue/DAU 差分（同时盯整体填充率不下滑）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "73782f70ee6f",
+      "account": "ACCT_2",
+      "title": "Diversify: application:Merge Monster: Vampire Mansion",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "application:Merge Monster: Vampire Mansion",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "risk-hedge experiment (no revenue signal to clear): user guardrail pending — keep watching, archive when hedge goal met",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（application:Merge Monster: Vampire Mansion），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    },
+    {
+      "exp_id": "987f1cc287bd",
+      "account": "ACCT_2",
+      "title": "Quarantine & watch CHARTBOOST_NETWORK (7d)",
+      "hypothesis": "If the protected network is truly zombie, 7d isolation confirms it; the zombie_network signal clears on disable.",
+      "action_type": "quarantine_network",
+      "target": "CHARTBOOST_NETWORK",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "looks zombie but protected (sole filler in ae, af, al, ao, ar, at, au, az, ba, bd, be, bg, bj, bo, br, bw, by, ca, ch, cl, cn, co, cy, cz, de, dk, dz, ec, eg, es, et, fi, fr, gb, gd, ge, gr, gt, gy, hk, hn, hr, hu, id, ie, il, im, in, iq, is, it, jo, jp, ke, kg, kh, kr, kz, la, lb, lt, lu, lv, ly, ma, ml, mm, mx, my, na, ng, nl, no, np, nz, pe, ph, pk, pl, pr, ps, pt, py, qa, re, ro, rs, ru, sa, sc, sd, se, sg, sv, th, tn, tr, tt, tw, ua, ug, us, uy, uz, ve, vn, za) — confirm 7d before disabling"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST_NETWORK"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST_NETWORK 消耗 41,019 请求仅产生 $0.35（僵尸）",
+      "variant_b": "变体(B)：隔离观察 7 天后禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.62,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "8f49abfb6e3b",
+      "account": "ACCT_2",
+      "title": "Quarantine & watch INMOBI_BIDDING (7d)",
+      "hypothesis": "If the protected network is truly zombie, 7d isolation confirms it; the zombie_network signal clears on disable.",
+      "action_type": "quarantine_network",
+      "target": "INMOBI_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "looks zombie but protected (sole filler in ae, au, br, ca, ch, co, de, eg, es, fi, fr, gb, hk, id, il, it, jp, kz, la, mx, my, nl, ph, pl, ro, sc, sg, th, tr, tw, ua, us, vn) — confirm 7d before disabling"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "INMOBI_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_2",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (manual_dropin, adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：INMOBI_BIDDING 消耗 4,771 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：隔离观察 7 天后禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.19,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    }
+  ],
+  "config_recommendations": [
+    {
+      "account": "ACCT_2",
+      "period": {
+        "start": "2026-07-20",
+        "end": "2026-07-29"
+      },
+      "generated_at": "2026-07-30",
+      "overall_blend_ecpm": 61.2,
+      "summary": {
+        "segments": 9,
+        "demote_candidates": 16,
+        "floor_suggestions": 13
+      },
+      "segments": [
+        {
+          "app": "Merge Monster: Vampire Mansion",
+          "geo": "us",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 140.85,
+          "segment_impressions": 3751,
+          "networks": [
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 316.15,
+              "fill_rate": 0.9884,
+              "impression_share": 0.0147,
+              "revenue": 17.39,
+              "score": 312.479,
+              "rank": 1
+            },
+            {
+              "network": "ADMOB_BIDDING",
+              "ecpm": 313.53,
+              "fill_rate": 0.8286,
+              "impression_share": 0.2357,
+              "revenue": 277.16,
+              "score": 259.7996,
+              "rank": 2
+            },
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 136.08,
+              "fill_rate": 0.96,
+              "impression_share": 0.309,
+              "revenue": 157.72,
+              "score": 130.6322,
+              "rank": 3
+            },
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 46.54,
+              "fill_rate": 0.9852,
+              "impression_share": 0.1093,
+              "revenue": 19.08,
+              "score": 45.8519,
+              "rank": 4
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 39.36,
+              "fill_rate": 0.9799,
+              "impression_share": 0.056,
+              "revenue": 8.26,
+              "score": 38.5667,
+              "rank": 5
+            },
+            {
+              "network": "FACEBOOK_NETWORK",
+              "ecpm": 54.22,
+              "fill_rate": 0.7004,
+              "impression_share": 0.2141,
+              "revenue": 43.54,
+              "score": 37.9781,
+              "rank": 6
+            },
+            {
+              "network": "TIKTOK_BIDDING",
+              "ecpm": 23.78,
+              "fill_rate": 0.8265,
+              "impression_share": 0.0117,
+              "revenue": 1.05,
+              "score": 19.6576,
+              "rank": 7
+            },
+            {
+              "network": "FYBER_BIDDING",
+              "ecpm": 19.36,
+              "fill_rate": 0.7996,
+              "impression_share": 0.0397,
+              "revenue": 2.89,
+              "score": 15.4825,
+              "rank": 8
+            },
+            {
+              "network": "IRONSOURCE_BIDDING",
+              "ecpm": 33.13,
+              "fill_rate": 0.4253,
+              "impression_share": 0.0099,
+              "revenue": 1.23,
+              "score": 14.089,
+              "rank": 9
+            }
+          ],
+          "recommended_order": [
+            "MINTEGRAL_BIDDING",
+            "ADMOB_BIDDING",
+            "APPLOVIN_NETWORK",
+            "UNITY_BIDDING",
+            "VUNGLE_BIDDING",
+            "FACEBOOK_NETWORK",
+            "TIKTOK_BIDDING",
+            "FYBER_BIDDING",
+            "IRONSOURCE_BIDDING"
+          ],
+          "demote_candidates": [],
+          "floor_suggestions": {}
+        },
+        {
+          "app": "Merge Monster: Vampire Mansion",
+          "geo": "de",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 27.83,
+          "segment_impressions": 1570,
+          "networks": [
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 37.15,
+              "fill_rate": 0.9995,
+              "impression_share": 0.3682,
+              "revenue": 21.47,
+              "score": 37.1302,
+              "rank": 1
+            },
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 30.42,
+              "fill_rate": 0.9622,
+              "impression_share": 0.2223,
+              "revenue": 10.62,
+              "score": 29.2652,
+              "rank": 2
+            },
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 28.95,
+              "fill_rate": 0.9945,
+              "impression_share": 0.0873,
+              "revenue": 3.97,
+              "score": 28.7897,
+              "rank": 3
+            },
+            {
+              "network": "ADMOB_BIDDING",
+              "ecpm": 19.7,
+              "fill_rate": 0.8314,
+              "impression_share": 0.2312,
+              "revenue": 7.15,
+              "score": 16.3816,
+              "rank": 4
+            },
+            {
+              "network": "FACEBOOK_NETWORK",
+              "ecpm": 7.05,
+              "fill_rate": 0.3602,
+              "impression_share": 0.0172,
+              "revenue": 0.19,
+              "score": 2.5386,
+              "rank": 5
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 2.38,
+              "fill_rate": 0.9755,
+              "impression_share": 0.0567,
+              "revenue": 0.21,
+              "score": 2.3204,
+              "rank": 6
+            },
+            {
+              "network": "FYBER_BIDDING",
+              "ecpm": 3.0,
+              "fill_rate": 0.264,
+              "impression_share": 0.0032,
+              "revenue": 0.01,
+              "score": 0.7908,
+              "rank": 7
+            },
+            {
+              "network": "IRONSOURCE_BIDDING",
+              "ecpm": 3.41,
+              "fill_rate": 0.2097,
+              "impression_share": 0.0006,
+              "revenue": 0.0,
+              "score": 0.7158,
+              "rank": 8
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 0.59,
+              "fill_rate": 0.6363,
+              "impression_share": 0.0115,
+              "revenue": 0.01,
+              "score": 0.3773,
+              "rank": 9
+            },
+            {
+              "network": "CHARTBOOST_NETWORK",
+              "ecpm": 20.0,
+              "fill_rate": 0.0007,
+              "impression_share": 0.0019,
+              "revenue": 0.06,
+              "score": 0.0132,
+              "rank": 10
+            }
+          ],
+          "recommended_order": [
+            "APPLOVIN_NETWORK",
+            "UNITY_BIDDING",
+            "MINTEGRAL_BIDDING",
+            "ADMOB_BIDDING",
+            "FACEBOOK_NETWORK",
+            "VUNGLE_BIDDING",
+            "FYBER_BIDDING",
+            "IRONSOURCE_BIDDING",
+            "APPLOVIN_EXCHANGE",
+            "CHARTBOOST_NETWORK"
+          ],
+          "demote_candidates": [
+            "VUNGLE_BIDDING"
+          ],
+          "floor_suggestions": {
+            "VUNGLE_BIDDING": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 2.38,
+              "impression_share": 0.0567,
+              "requires_manual_apply": true
+            }
+          }
+        },
+        {
+          "app": "Merge Monster: Vampire Mansion",
+          "geo": "fr",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 13.24,
+          "segment_impressions": 617,
+          "networks": [
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 42.66,
+              "fill_rate": 0.975,
+              "impression_share": 0.2107,
+              "revenue": 5.55,
+              "score": 41.5952,
+              "rank": 1
+            },
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 11.53,
+              "fill_rate": 0.8167,
+              "impression_share": 0.1524,
+              "revenue": 1.08,
+              "score": 9.4149,
+              "rank": 2
+            },
+            {
+              "network": "ADMOB_BIDDING",
+              "ecpm": 7.41,
+              "fill_rate": 0.7896,
+              "impression_share": 0.2123,
+              "revenue": 0.97,
+              "score": 5.85,
+              "rank": 3
+            },
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 2.72,
+              "fill_rate": 0.9969,
+              "impression_share": 0.1086,
+              "revenue": 0.18,
+              "score": 2.7153,
+              "rank": 4
+            },
+            {
+              "network": "FACEBOOK_NETWORK",
+              "ecpm": 3.83,
+              "fill_rate": 0.5307,
+              "impression_share": 0.1021,
+              "revenue": 0.24,
+              "score": 2.034,
+              "rank": 5
+            },
+            {
+              "network": "IRONSOURCE_BIDDING",
+              "ecpm": 1.96,
+              "fill_rate": 0.4624,
+              "impression_share": 0.0146,
+              "revenue": 0.02,
+              "score": 0.9075,
+              "rank": 6
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 0.53,
+              "fill_rate": 0.9863,
+              "impression_share": 0.0908,
+              "revenue": 0.03,
+              "score": 0.5241,
+              "rank": 7
+            },
+            {
+              "network": "FYBER_BIDDING",
+              "ecpm": 1.52,
+              "fill_rate": 0.3058,
+              "impression_share": 0.1021,
+              "revenue": 0.1,
+              "score": 0.4633,
+              "rank": 8
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 0.8,
+              "fill_rate": 0.4021,
+              "impression_share": 0.0065,
+              "revenue": 0.0,
+              "score": 0.3223,
+              "rank": 9
+            }
+          ],
+          "recommended_order": [
+            "APPLOVIN_NETWORK",
+            "UNITY_BIDDING",
+            "ADMOB_BIDDING",
+            "MINTEGRAL_BIDDING",
+            "FACEBOOK_NETWORK",
+            "IRONSOURCE_BIDDING",
+            "VUNGLE_BIDDING",
+            "FYBER_BIDDING",
+            "APPLOVIN_EXCHANGE"
+          ],
+          "demote_candidates": [
+            "ADMOB_BIDDING",
+            "MINTEGRAL_BIDDING",
+            "FACEBOOK_NETWORK",
+            "VUNGLE_BIDDING",
+            "FYBER_BIDDING"
+          ],
+          "floor_suggestions": {
+            "VUNGLE_BIDDING": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.53,
+              "impression_share": 0.0908,
+              "requires_manual_apply": true
+            },
+            "FYBER_BIDDING": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 1.52,
+              "impression_share": 0.1021,
+              "requires_manual_apply": true
+            },
+            "MINTEGRAL_BIDDING": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 2.72,
+              "impression_share": 0.1086,
+              "requires_manual_apply": true
+            },
+            "FACEBOOK_NETWORK": {
+              "constraint_type": "waterfall_instance_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 3.83,
+              "impression_share": 0.1021,
+              "requires_manual_apply": true
+            },
+            "ADMOB_BIDDING": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 7.41,
+              "impression_share": 0.2123,
+              "requires_manual_apply": true
+            }
+          }
+        },
+        {
+          "app": "Merge Monster: Vampire Mansion",
+          "geo": "gb",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 67.2,
+          "segment_impressions": 526,
+          "networks": [
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 144.2,
+              "fill_rate": 0.9697,
+              "impression_share": 0.3251,
+              "revenue": 24.66,
+              "score": 139.8369,
+              "rank": 1
+            },
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 79.82,
+              "fill_rate": 0.9958,
+              "impression_share": 0.0133,
+              "revenue": 0.56,
+              "score": 79.4845,
+              "rank": 2
+            },
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 30.67,
+              "fill_rate": 0.972,
+              "impression_share": 0.2548,
+              "revenue": 4.11,
+              "score": 29.8065,
+              "rank": 3
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 26.91,
+              "fill_rate": 0.978,
+              "impression_share": 0.0304,
+              "revenue": 0.43,
+              "score": 26.3149,
+              "rank": 4
+            },
+            {
+              "network": "FACEBOOK_NETWORK",
+              "ecpm": 31.14,
+              "fill_rate": 0.7484,
+              "impression_share": 0.1958,
+              "revenue": 3.21,
+              "score": 23.3041,
+              "rank": 5
+            },
+            {
+              "network": "ADMOB_BIDDING",
+              "ecpm": 25.86,
+              "fill_rate": 0.8754,
+              "impression_share": 0.173,
+              "revenue": 2.35,
+              "score": 22.6385,
+              "rank": 6
+            },
+            {
+              "network": "IRONSOURCE_BIDDING",
+              "ecpm": 7.93,
+              "fill_rate": 0.4718,
+              "impression_share": 0.0076,
+              "revenue": 0.03,
+              "score": 3.7415,
+              "rank": 7
+            }
+          ],
+          "recommended_order": [
+            "APPLOVIN_NETWORK",
+            "MINTEGRAL_BIDDING",
+            "UNITY_BIDDING",
+            "VUNGLE_BIDDING",
+            "FACEBOOK_NETWORK",
+            "ADMOB_BIDDING",
+            "IRONSOURCE_BIDDING"
+          ],
+          "demote_candidates": [],
+          "floor_suggestions": {}
+        },
+        {
+          "app": "Hospital Fever: Super Stylist",
+          "geo": "de",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 0.45,
+          "segment_impressions": 503,
+          "networks": [
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 0.55,
+              "fill_rate": 0.9958,
+              "impression_share": 0.668,
+              "revenue": 0.19,
+              "score": 0.5509,
+              "rank": 1
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 0.24,
+              "fill_rate": 0.9958,
+              "impression_share": 0.332,
+              "revenue": 0.04,
+              "score": 0.2431,
+              "rank": 2
+            }
+          ],
+          "recommended_order": [
+            "APPLOVIN_NETWORK",
+            "APPLOVIN_EXCHANGE"
+          ],
+          "demote_candidates": [
+            "APPLOVIN_NETWORK",
+            "APPLOVIN_EXCHANGE"
+          ],
+          "floor_suggestions": {
+            "APPLOVIN_EXCHANGE": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.24,
+              "impression_share": 0.332,
+              "requires_manual_apply": true
+            },
+            "APPLOVIN_NETWORK": {
+              "constraint_type": "waterfall_instance_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.55,
+              "impression_share": 0.668,
+              "requires_manual_apply": true
+            }
+          }
+        },
+        {
+          "app": "Merge Monster: Vampire Mansion",
+          "geo": "ru",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 45.09,
+          "segment_impressions": 402,
+          "networks": [
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 381.38,
+              "fill_rate": 0.9976,
+              "impression_share": 0.0299,
+              "revenue": 4.58,
+              "score": 380.4599,
+              "rank": 1
+            },
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 53.73,
+              "fill_rate": 0.9992,
+              "impression_share": 0.5697,
+              "revenue": 12.3,
+              "score": 53.6878,
+              "rank": 2
+            },
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 9.01,
+              "fill_rate": 0.9902,
+              "impression_share": 0.2811,
+              "revenue": 1.02,
+              "score": 8.9186,
+              "rank": 3
+            },
+            {
+              "network": "IRONSOURCE_BIDDING",
+              "ecpm": 9.4,
+              "fill_rate": 0.849,
+              "impression_share": 0.005,
+              "revenue": 0.02,
+              "score": 7.9831,
+              "rank": 4
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 7.5,
+              "fill_rate": 0.9952,
+              "impression_share": 0.0498,
+              "revenue": 0.15,
+              "score": 7.4685,
+              "rank": 5
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 3.36,
+              "fill_rate": 0.6088,
+              "impression_share": 0.0025,
+              "revenue": 0.0,
+              "score": 2.0457,
+              "rank": 6
+            },
+            {
+              "network": "FYBER_BIDDING",
+              "ecpm": 2.2,
+              "fill_rate": 0.8948,
+              "impression_share": 0.0622,
+              "revenue": 0.05,
+              "score": 1.965,
+              "rank": 7
+            }
+          ],
+          "recommended_order": [
+            "MINTEGRAL_BIDDING",
+            "APPLOVIN_NETWORK",
+            "UNITY_BIDDING",
+            "IRONSOURCE_BIDDING",
+            "VUNGLE_BIDDING",
+            "APPLOVIN_EXCHANGE",
+            "FYBER_BIDDING"
+          ],
+          "demote_candidates": [
+            "UNITY_BIDDING",
+            "VUNGLE_BIDDING",
+            "FYBER_BIDDING"
+          ],
+          "floor_suggestions": {
+            "UNITY_BIDDING": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 9.01,
+              "impression_share": 0.2811,
+              "requires_manual_apply": true
+            }
+          }
+        },
+        {
+          "app": "Merge Monster: Vampire Mansion",
+          "geo": "ca",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 23.93,
+          "segment_impressions": 356,
+          "networks": [
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 83.46,
+              "fill_rate": 0.9973,
+              "impression_share": 0.0112,
+              "revenue": 0.33,
+              "score": 83.2389,
+              "rank": 1
+            },
+            {
+              "network": "UNITY_BIDDING",
+              "ecpm": 38.77,
+              "fill_rate": 0.9926,
+              "impression_share": 0.1152,
+              "revenue": 1.59,
+              "score": 38.4838,
+              "rank": 2
+            },
+            {
+              "network": "ADMOB_BIDDING",
+              "ecpm": 31.33,
+              "fill_rate": 0.7842,
+              "impression_share": 0.0674,
+              "revenue": 0.75,
+              "score": 24.5712,
+              "rank": 3
+            },
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 20.98,
+              "fill_rate": 0.9987,
+              "impression_share": 0.3118,
+              "revenue": 2.33,
+              "score": 20.9485,
+              "rank": 4
+            },
+            {
+              "network": "IRONSOURCE_BIDDING",
+              "ecpm": 38.03,
+              "fill_rate": 0.5395,
+              "impression_share": 0.0056,
+              "revenue": 0.08,
+              "score": 20.5181,
+              "rank": 5
+            },
+            {
+              "network": "FACEBOOK_NETWORK",
+              "ecpm": 22.81,
+              "fill_rate": 0.8197,
+              "impression_share": 0.3652,
+              "revenue": 2.97,
+              "score": 18.6977,
+              "rank": 6
+            },
+            {
+              "network": "VUNGLE_BIDDING",
+              "ecpm": 15.85,
+              "fill_rate": 0.9776,
+              "impression_share": 0.0169,
+              "revenue": 0.1,
+              "score": 15.4989,
+              "rank": 7
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 16.1,
+              "fill_rate": 0.6961,
+              "impression_share": 0.0169,
+              "revenue": 0.1,
+              "score": 11.2047,
+              "rank": 8
+            },
+            {
+              "network": "FYBER_BIDDING",
+              "ecpm": 16.91,
+              "fill_rate": 0.5697,
+              "impression_share": 0.0225,
+              "revenue": 0.14,
+              "score": 9.6364,
+              "rank": 9
+            },
+            {
+              "network": "TIKTOK_BIDDING",
+              "ecpm": 4.21,
+              "fill_rate": 0.6008,
+              "impression_share": 0.059,
+              "revenue": 0.09,
+              "score": 2.5273,
+              "rank": 10
+            },
+            {
+              "network": "CHARTBOOST_NETWORK",
+              "ecpm": 20.0,
+              "fill_rate": 0.007,
+              "impression_share": 0.0084,
+              "revenue": 0.06,
+              "score": 0.1399,
+              "rank": 11
+            }
+          ],
+          "recommended_order": [
+            "MINTEGRAL_BIDDING",
+            "UNITY_BIDDING",
+            "ADMOB_BIDDING",
+            "APPLOVIN_NETWORK",
+            "IRONSOURCE_BIDDING",
+            "FACEBOOK_NETWORK",
+            "VUNGLE_BIDDING",
+            "APPLOVIN_EXCHANGE",
+            "FYBER_BIDDING",
+            "TIKTOK_BIDDING",
+            "CHARTBOOST_NETWORK"
+          ],
+          "demote_candidates": [
+            "TIKTOK_BIDDING"
+          ],
+          "floor_suggestions": {}
+        },
+        {
+          "app": "Hospital Fever: Super Stylist",
+          "geo": "id",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 0.71,
+          "segment_impressions": 264,
+          "networks": [
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 0.97,
+              "fill_rate": 0.9951,
+              "impression_share": 0.2992,
+              "revenue": 0.08,
+              "score": 0.966,
+              "rank": 1
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 0.59,
+              "fill_rate": 0.9731,
+              "impression_share": 0.7008,
+              "revenue": 0.11,
+              "score": 0.5769,
+              "rank": 2
+            }
+          ],
+          "recommended_order": [
+            "APPLOVIN_NETWORK",
+            "APPLOVIN_EXCHANGE"
+          ],
+          "demote_candidates": [
+            "APPLOVIN_NETWORK",
+            "APPLOVIN_EXCHANGE"
+          ],
+          "floor_suggestions": {
+            "APPLOVIN_EXCHANGE": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.59,
+              "impression_share": 0.7008,
+              "requires_manual_apply": true
+            },
+            "APPLOVIN_NETWORK": {
+              "constraint_type": "waterfall_instance_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.97,
+              "impression_share": 0.2992,
+              "requires_manual_apply": true
+            }
+          }
+        },
+        {
+          "app": "Hospital Fever: Super Stylist",
+          "geo": "fr",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 0.45,
+          "segment_impressions": 241,
+          "networks": [
+            {
+              "network": "APPLOVIN_NETWORK",
+              "ecpm": 0.48,
+              "fill_rate": 0.9974,
+              "impression_share": 0.4979,
+              "revenue": 0.06,
+              "score": 0.4809,
+              "rank": 1
+            },
+            {
+              "network": "APPLOVIN_EXCHANGE",
+              "ecpm": 0.35,
+              "fill_rate": 0.9591,
+              "impression_share": 0.4896,
+              "revenue": 0.04,
+              "score": 0.3319,
+              "rank": 2
+            },
+            {
+              "network": "CHARTBOOST_NETWORK",
+              "ecpm": 3.0,
+              "fill_rate": 0.0202,
+              "impression_share": 0.0124,
+              "revenue": 0.01,
+              "score": 0.0607,
+              "rank": 3
+            }
+          ],
+          "recommended_order": [
+            "APPLOVIN_NETWORK",
+            "APPLOVIN_EXCHANGE",
+            "CHARTBOOST_NETWORK"
+          ],
+          "demote_candidates": [
+            "APPLOVIN_NETWORK",
+            "APPLOVIN_EXCHANGE"
+          ],
+          "floor_suggestions": {
+            "APPLOVIN_EXCHANGE": {
+              "constraint_type": "unified_auction_price_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.35,
+              "impression_share": 0.4896,
+              "requires_manual_apply": true
+            },
+            "APPLOVIN_NETWORK": {
+              "constraint_type": "waterfall_instance_floor",
+              "recommended_floor_range": [
+                4.9,
+                9.18
+              ],
+              "ecpm": 0.48,
+              "impression_share": 0.4979,
+              "requires_manual_apply": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "ecpm_forecasts": [
+    {
+      "account": "ACCT_2",
+      "period": {
+        "start": "2026-07-20",
+        "end": "2026-07-29"
+      },
+      "generated_at": "2026-07-30",
+      "summary": {
+        "total": 8,
+        "up": 0,
+        "down": 2,
+        "flat": 6,
+        "early_warning": 2
+      },
+      "forecasts": [
+        {
+          "segment": "Merge Monster: Vampire Mansion · us · REWARD · APPLOVIN_NETWORK",
+          "network": "APPLOVIN_NETWORK",
+          "n_days": 10,
+          "historical_mean": 131.38,
+          "last_ecpm": 142.78,
+          "predicted_ecpm": 117.15,
+          "lower": 12.48,
+          "upper": 221.82,
+          "trend": "FLAT",
+          "slope": -2.5858,
+          "r2": 0.024,
+          "confidence": "LOW",
+          "total_impressions": 1159,
+          "last_impressions": 87,
+          "early_warning": false,
+          "note": "n=10d, slope -2.586/d, R²=0.02, band ±$104.67"
+        },
+        {
+          "segment": "Merge Monster: Vampire Mansion · us · REWARD · ADMOB_BIDDING",
+          "network": "ADMOB_BIDDING",
+          "n_days": 10,
+          "historical_mean": 310.45,
+          "last_ecpm": 291.6,
+          "predicted_ecpm": 234.33,
+          "lower": 14.59,
+          "upper": 454.07,
+          "trend": "FLAT",
+          "slope": -13.8409,
+          "r2": 0.136,
+          "confidence": "LOW",
+          "total_impressions": 884,
+          "last_impressions": 94,
+          "early_warning": false,
+          "note": "n=10d, slope -13.841/d, R²=0.14, band ±$219.74"
+        },
+        {
+          "segment": "Merge Monster: Vampire Mansion · us · REWARD · FACEBOOK_NETWORK",
+          "network": "FACEBOOK_NETWORK",
+          "n_days": 10,
+          "historical_mean": 51.96,
+          "last_ecpm": 78.37,
+          "predicted_ecpm": 52.99,
+          "lower": 6.2,
+          "upper": 99.78,
+          "trend": "FLAT",
+          "slope": 0.1879,
+          "r2": 0.001,
+          "confidence": "LOW",
+          "total_impressions": 803,
+          "last_impressions": 71,
+          "early_warning": false,
+          "note": "n=10d, slope +0.188/d, R²=0.00, band ±$46.79"
+        },
+        {
+          "segment": "Merge Monster: Vampire Mansion · de · REWARD · APPLOVIN_NETWORK",
+          "network": "APPLOVIN_NETWORK",
+          "n_days": 10,
+          "historical_mean": 40.25,
+          "last_ecpm": 52.81,
+          "predicted_ecpm": 63.56,
+          "lower": 16.97,
+          "upper": 110.14,
+          "trend": "FLAT",
+          "slope": 4.2377,
+          "r2": 0.247,
+          "confidence": "LOW",
+          "total_impressions": 578,
+          "last_impressions": 31,
+          "early_warning": false,
+          "note": "n=10d, slope +4.238/d, R²=0.25, band ±$46.59"
+        },
+        {
+          "segment": "Merge Monster: Vampire Mansion · us · REWARD · UNITY_BIDDING",
+          "network": "UNITY_BIDDING",
+          "n_days": 10,
+          "historical_mean": 46.85,
+          "last_ecpm": 40.82,
+          "predicted_ecpm": 23.31,
+          "lower": 0.0,
+          "upper": 57.46,
+          "trend": "DOWN",
+          "slope": -4.2796,
+          "r2": 0.384,
+          "confidence": "MEDIUM",
+          "total_impressions": 410,
+          "last_impressions": 38,
+          "early_warning": true,
+          "note": "n=10d, slope -4.280/d, R²=0.38, band ±$34.15"
+        },
+        {
+          "segment": "Merge Monster: Vampire Mansion · de · REWARD · UNITY_BIDDING",
+          "network": "UNITY_BIDDING",
+          "n_days": 6,
+          "historical_mean": 26.62,
+          "last_ecpm": 24.27,
+          "predicted_ecpm": 15.4,
+          "lower": 2.57,
+          "upper": 28.24,
+          "trend": "DOWN",
+          "slope": -3.2063,
+          "r2": 0.512,
+          "confidence": "MEDIUM",
+          "total_impressions": 246,
+          "last_impressions": 44,
+          "early_warning": true,
+          "note": "n=6d, slope -3.206/d, R²=0.51, band ±$12.83"
+        },
+        {
+          "segment": "Hospital Fever: Super Stylist · de · REWARD · APPLOVIN_NETWORK",
+          "network": "APPLOVIN_NETWORK",
+          "n_days": 6,
+          "historical_mean": 0.58,
+          "last_ecpm": 0.49,
+          "predicted_ecpm": 0.59,
+          "lower": 0.35,
+          "upper": 0.83,
+          "trend": "FLAT",
+          "slope": 0.0006,
+          "r2": 0.0,
+          "confidence": "LOW",
+          "total_impressions": 244,
+          "last_impressions": 33,
+          "early_warning": false,
+          "note": "n=6d, slope +0.001/d, R²=0.00, band ±$0.24"
+        },
+        {
+          "segment": "Merge Monster: Vampire Mansion · de · REWARD · ADMOB_BIDDING",
+          "network": "ADMOB_BIDDING",
+          "n_days": 5,
+          "historical_mean": 21.03,
+          "last_ecpm": 26.99,
+          "predicted_ecpm": 13.05,
+          "lower": 0.0,
+          "upper": 49.79,
+          "trend": "FLAT",
+          "slope": -2.6595,
+          "r2": 0.063,
+          "confidence": "LOW",
+          "total_impressions": 239,
+          "last_impressions": 66,
+          "early_warning": false,
+          "note": "n=5d, slope -2.659/d, R²=0.06, band ±$36.74"
+        }
+      ]
+    }
+  ],
+  "growth_report": {
+    "account": "ACCT_2",
+    "date": "2026-07-30",
+    "dau": 6025,
+    "dau_pending": false,
+    "iia_revenue": 711.67,
+    "revenue_per_dau": 0.1181,
+    "prior_revenue": 750.37,
+    "prior_revenue_per_dau": 0.1245,
+    "growth_pct": -5.16,
+    "blended_ecpm": 61.2,
+    "impressions": 11629,
+    "health_score": 71,
+    "health_grade": "C",
+    "actions": [],
+    "total_winner_lift_per_day": 0.0,
+    "ai_attributed_lift_pct": 0.0,
+    "experiments": {
+      "running": 0,
+      "winning": 0,
+      "rolled_back": 0,
+      "memorized": 0
+    },
+    "ab_portfolio": {
+      "total": 8,
+      "revenue_experiments": 7,
+      "risk_hedges": 1,
+      "expected_lift_sum_pct": 13.62
+    }
+  },
+  "auto_executor": {
+    "auto": [
+      {
+        "action": "increase_bid_opportunity",
+        "target": "MINTEGRAL_BIDDING",
+        "tier": "AUTO",
+        "reason": "低风险、可逆：AI 自动批准，由人在 MAX 后台一键落子",
+        "apply_instruction": "MAX 后台 → MINTEGRAL_BIDDING → 提升 bidding 曝光优先级（提高 bid / 展示权重），捕获其高 eCPM 潜力",
+        "expected_impact": "capturing only 25% of its eCPM-implied potential at eCPM $83.09 — raise auction exposure",
+        "confidence": 0.95,
+        "requires_human_apply": true
+      },
+      {
+        "action": "adjust_bid_constraint",
+        "target": "APPLOVIN_EXCHANGE",
+        "tier": "AUTO",
+        "reason": "小幅底价调整、可逆：AI 自动批准，由人在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → APPLOVIN_EXCHANGE → 设置统一竞价 price floor 范围 $4.90–$9.18（过滤低价值回填，盯填充率）",
+        "expected_impact": "cut lowest-value backfill impressions; watch fill",
+        "confidence": 0.85,
+        "requires_human_apply": true
+      }
+    ],
+    "approval": [
+      {
+        "action": "quarantine_network",
+        "target": "CHARTBOOST_NETWORK",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → CHARTBOOST_NETWORK → 先降权/隔离观察 7 天，确认僵尸后再禁用",
+        "expected_impact": "looks zombie but protected (sole filler in ae, af, al, am, ao, ar, at, au, az, bb, bd, be, bg, br, by, ca, ch, cl, cn, co, cy, cz, de, dk, do, dz, ec, eg, es, et, fi, fj, fr, gb, gd, ge, gn, gr, gt, gy, hk, hn, hr, hu, id, ie, il, im, in, iq, is, it, jo, jp, ke, kg, kh, kr, kz, la, lb, lk, lt, lu, lv, ly, ma, mg, ml, mm, mu, mx, my, na, ng, nl, no, np, nz, pe, ph, pk, pl, pr, pt, py, qa, re, ro, rs, ru, sa, sc, sd, se, sg, sv, th, tn, tr, tt, tw, tz, ua, ug, us, uy, uz, ve, vn, za) — confirm 7d before disabling",
+        "confidence": 0.7,
+        "requires_human_apply": true
+      },
+      {
+        "action": "quarantine_network",
+        "target": "INMOBI_BIDDING",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → INMOBI_BIDDING → 先降权/隔离观察 7 天，确认僵尸后再禁用",
+        "expected_impact": "looks zombie but protected (sole filler in ae, au, br, ca, ch, co, de, es, fi, fr, gb, hk, id, il, it, jp, kz, la, mx, my, nl, ph, pl, sc, sg, th, tr, tw, ua, us, vn) — confirm 7d before disabling",
+        "confidence": 0.7,
+        "requires_human_apply": true
+      },
+      {
+        "action": "diversify",
+        "target": "application:Merge Monster: Vampire Mansion",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → 评估并引入候选网络以分散收入单点风险（需人工评估）",
+        "expected_impact": "reduce single-point-of-failure revenue risk",
+        "confidence": 0.95,
+        "requires_human_apply": true
+      }
+    ],
+    "observe": [
+      {
+        "action": "handoff_ua",
+        "target": "dk",
+        "tier": "OBSERVE",
+        "reason": "仅观察，不需执行",
+        "apply_instruction": "移交 Growth OS（UA 买量范畴），本系统不操作",
+        "expected_impact": "eCPM $169.22 — hand to Growth OS (not a monetization action)",
+        "confidence": 0.9,
+        "requires_human_apply": true
+      },
+      {
+        "action": "handoff_ua",
+        "target": "ch",
+        "tier": "OBSERVE",
+        "reason": "仅观察，不需执行",
+        "apply_instruction": "移交 Growth OS（UA 买量范畴），本系统不操作",
+        "expected_impact": "eCPM $144.94 — hand to Growth OS (not a monetization action)",
+        "confidence": 0.6,
+        "requires_human_apply": true
+      }
+    ],
+    "counts": {
+      "auto": 2,
+      "approval": 3,
+      "observe": 2
+    },
+    "markdown": "🤖 **Auto-Executor（决策自动 + 人工落子）**\n自动批准 2 · 需审批 3 · 仅观察 2　|　所有落子均由人在 MAX 后台执行（API 禁写）\n\n✅ **自动批准（人后台一键落子）**：\n  • MINTEGRAL_BIDDING — MAX 后台 → MINTEGRAL_BIDDING → 提升 bidding 曝光优先级（提高 bid / 展示权重），捕获其高 eCPM 潜力\n  • APPLOVIN_EXCHANGE — MAX 后台 → APPLOVIN_EXCHANGE → 设置统一竞价 price floor 范围 $4.90–$9.18（过滤低价值回填，盯填充率）\n\n⚠️ **需人工审批**：\n  • CHARTBOOST_NETWORK [quarantine_network] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子\n  • INMOBI_BIDDING [quarantine_network] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子\n  • application:Merge Monster: Vampire Mansion [diversify] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子\n\n👁 **仅观察**：\n  • dk [handoff_ua]\n  • ch [handoff_ua]"
+  },
+  "risks": [
+    "One app contributes 99% of revenue ('Merge Monster: Vampire Mansion' $706.21 of $711.67) — risk HIGH"
+  ]
+}

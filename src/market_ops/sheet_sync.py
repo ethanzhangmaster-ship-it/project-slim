@@ -12,7 +12,6 @@ from market_ops.clients.adjust import AdjustClient
 from market_ops.clients.feishu_sheets import FeishuSheetsClient
 from market_ops.clients.google_ads import GoogleAdsCreativeClient
 from market_ops.clients.meta_ads import MetaAdsCreativeClient
-from market_ops.clients.tecdo_report import TecDoReportCreativeClient
 from market_ops.config import Settings
 from market_ops.models import AdsPerformanceRow, CreativeAssetRow, RevenueRow
 
@@ -67,6 +66,17 @@ class FeishuSheetsSyncService:
                     roi_url=source.get("roi_url") or source["daily_url"],
                 )
             )
+
+        if self._settings.using_meta_creative_source:
+            meta_client = MetaAdsCreativeClient(
+                access_token=self._settings.meta_access_token or "",
+                ad_account_id=self._settings.meta_ad_account_id or "",
+                api_version=self._settings.meta_api_version,
+                default_game_name=self._settings.default_game_name,
+            )
+            end_date = date.today()
+            start_date = end_date - timedelta(days=max(self._settings.meta_creative_lookback_days - 1, 0))
+            rows.extend(meta_client.fetch_performance_rows(start_date=start_date, end_date=end_date))
 
         deduped = {
             (row.date, row.game, row.country, row.channel, row.ad_id, row.creative_id): row
@@ -149,22 +159,6 @@ class FeishuSheetsSyncService:
                 end_date - timedelta(days=max(self._settings.meta_creative_lookback_days - 1, 0)),
             )
             rows.extend(meta_client.fetch_creative_rows(start_date=meta_start_date, end_date=end_date))
-
-        if self._settings.using_tecdo_creative_source:
-            tecdo_client = TecDoReportCreativeClient(
-                app_secret=self._settings.tecdo_app_secret or "",
-                base_url=self._settings.tecdo_base_url,
-                media_accounts=self._settings.tecdo_effective_media_accounts,
-                default_game_name=self._settings.default_game_name,
-            )
-            tecdo_start_date = max(
-                min_ads_date,
-                end_date - timedelta(days=max(self._settings.tecdo_creative_lookback_days - 1, 0)),
-            )
-            try:
-                rows.extend(tecdo_client.fetch_creative_rows(start_date=tecdo_start_date, end_date=end_date))
-            except Exception:
-                pass
 
         if self._settings.using_google_creative_source:
             google_client = GoogleAdsCreativeClient(

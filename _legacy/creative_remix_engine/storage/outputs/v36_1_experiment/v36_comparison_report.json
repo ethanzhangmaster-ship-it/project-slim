@@ -1,0 +1,302 @@
+{
+  "experiment": "V3.6 Ranking Driven Video Generation Validation",
+  "generated_at": "2026-07-13T12:04:47.198471",
+  "total_pairs": 10,
+  "summary": {
+    "total_pairs": 10,
+    "baseline_avg": {
+      "hook": 9.9,
+      "retention": 8.4,
+      "gameplay": 54.9,
+      "reward": 50.9,
+      "overall": 33.6
+    },
+    "ranking_avg": {
+      "hook": 10.6,
+      "retention": 10.3,
+      "gameplay": 54.2,
+      "reward": 50.2,
+      "overall": 32.4
+    },
+    "hook_improvement_pct": 7.1,
+    "retention_improvement_pct": 22.6,
+    "gameplay_improvement_pct": -1.3,
+    "reward_improvement_pct": -1.4,
+    "overall_improvement_pct": -3.6
+  },
+  "pair_details": [
+    {
+      "pair_id": 1,
+      "story_type": "evolution",
+      "baseline": {
+        "hook": 29.1,
+        "retention": 10.8,
+        "gameplay": 53.5,
+        "reward": 52.5,
+        "overall": 38.0
+      },
+      "ranking": {
+        "hook": 37.5,
+        "retention": 17.8,
+        "gameplay": 61.8,
+        "reward": 56.0,
+        "overall": 42.5
+      },
+      "improvement": {
+        "hook": 8.4,
+        "retention": 7.0,
+        "gameplay": 8.3,
+        "reward": 3.5,
+        "overall": 4.5
+      }
+    },
+    {
+      "pair_id": 2,
+      "story_type": "rescue",
+      "baseline": {
+        "hook": 2.8,
+        "retention": 8.9,
+        "gameplay": 52.5,
+        "reward": 52.3,
+        "overall": 32.2
+      },
+      "ranking": {
+        "hook": 2.8,
+        "retention": 9.8,
+        "gameplay": 52.7,
+        "reward": 51.7,
+        "overall": 30.6
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 0.9,
+        "gameplay": 0.2,
+        "reward": -0.6,
+        "overall": -1.6
+      }
+    },
+    {
+      "pair_id": 3,
+      "story_type": "challenge",
+      "baseline": {
+        "hook": 6.8,
+        "retention": 6.8,
+        "gameplay": 57.0,
+        "reward": 57.6,
+        "overall": 33.5
+      },
+      "ranking": {
+        "hook": 6.8,
+        "retention": 7.5,
+        "gameplay": 52.7,
+        "reward": 52.2,
+        "overall": 31.0
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 0.7,
+        "gameplay": -4.3,
+        "reward": -5.4,
+        "overall": -2.5
+      }
+    },
+    {
+      "pair_id": 4,
+      "story_type": "revenge",
+      "baseline": {
+        "hook": 2.9,
+        "retention": 5.7,
+        "gameplay": 51.5,
+        "reward": 42.7,
+        "overall": 28.9
+      },
+      "ranking": {
+        "hook": 2.9,
+        "retention": 6.6,
+        "gameplay": 52.0,
+        "reward": 42.8,
+        "overall": 28.1
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 0.9,
+        "gameplay": 0.5,
+        "reward": 0.1,
+        "overall": -0.8
+      }
+    },
+    {
+      "pair_id": 5,
+      "story_type": "impossible_level",
+      "baseline": {
+        "hook": 3.0,
+        "retention": 8.4,
+        "gameplay": 55.0,
+        "reward": 49.9,
+        "overall": 35.0
+      },
+      "ranking": {
+        "hook": 3.0,
+        "retention": 9.8,
+        "gameplay": 51.8,
+        "reward": 48.2,
+        "overall": 29.8
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 1.4,
+        "gameplay": -3.2,
+        "reward": -1.7,
+        "overall": -5.2
+      }
+    },
+    {
+      "pair_id": 6,
+      "story_type": "evolution",
+      "baseline": {
+        "hook": 39.0,
+        "retention": 12.1,
+        "gameplay": 60.2,
+        "reward": 46.8,
+        "overall": 37.8
+      },
+      "ranking": {
+        "hook": 37.5,
+        "retention": 17.8,
+        "gameplay": 61.8,
+        "reward": 56.0,
+        "overall": 42.5
+      },
+      "improvement": {
+        "hook": -1.5,
+        "retention": 5.7,
+        "gameplay": 1.6,
+        "reward": 9.2,
+        "overall": 4.7
+      }
+    },
+    {
+      "pair_id": 7,
+      "story_type": "rescue",
+      "baseline": {
+        "hook": 2.8,
+        "retention": 8.9,
+        "gameplay": 53.7,
+        "reward": 54.3,
+        "overall": 33.6
+      },
+      "ranking": {
+        "hook": 2.8,
+        "retention": 9.8,
+        "gameplay": 52.7,
+        "reward": 51.7,
+        "overall": 30.6
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 0.9,
+        "gameplay": -1.0,
+        "reward": -2.6,
+        "overall": -3.0
+      }
+    },
+    {
+      "pair_id": 8,
+      "story_type": "challenge",
+      "baseline": {
+        "hook": 6.8,
+        "retention": 6.5,
+        "gameplay": 52.5,
+        "reward": 57.0,
+        "overall": 32.2
+      },
+      "ranking": {
+        "hook": 6.8,
+        "retention": 7.5,
+        "gameplay": 52.7,
+        "reward": 52.2,
+        "overall": 31.0
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 1.0,
+        "gameplay": 0.2,
+        "reward": -4.8,
+        "overall": -1.2
+      }
+    },
+    {
+      "pair_id": 9,
+      "story_type": "revenge",
+      "baseline": {
+        "hook": 2.9,
+        "retention": 6.2,
+        "gameplay": 55.5,
+        "reward": 52.4,
+        "overall": 31.7
+      },
+      "ranking": {
+        "hook": 2.9,
+        "retention": 6.6,
+        "gameplay": 52.0,
+        "reward": 42.8,
+        "overall": 28.1
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 0.4,
+        "gameplay": -3.5,
+        "reward": -9.6,
+        "overall": -3.6
+      }
+    },
+    {
+      "pair_id": 10,
+      "story_type": "impossible_level",
+      "baseline": {
+        "hook": 3.0,
+        "retention": 9.6,
+        "gameplay": 58.0,
+        "reward": 43.4,
+        "overall": 32.7
+      },
+      "ranking": {
+        "hook": 3.0,
+        "retention": 9.8,
+        "gameplay": 51.8,
+        "reward": 48.2,
+        "overall": 29.8
+      },
+      "improvement": {
+        "hook": 0.0,
+        "retention": 0.2,
+        "gameplay": -6.2,
+        "reward": 4.8,
+        "overall": -2.9
+      }
+    }
+  ],
+  "top3_winners": [
+    {
+      "rank": 1,
+      "pair_id": 6,
+      "story_type": "evolution",
+      "overall_score": 42.5,
+      "improvement_over_baseline": 4.7
+    },
+    {
+      "rank": 2,
+      "pair_id": 1,
+      "story_type": "evolution",
+      "overall_score": 42.5,
+      "improvement_over_baseline": 4.5
+    },
+    {
+      "rank": 3,
+      "pair_id": 4,
+      "story_type": "revenge",
+      "overall_score": 28.1,
+      "improvement_over_baseline": -0.8
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "decision_id": "e216bbb4",
+    "opportunity_id": "b482d3be",
+    "action_type": "change_waterfall",
+    "target": "US_android_reward_applovin",
+    "mutation": {
+      "move": "mintegral",
+      "below": "admob",
+      "note": "Re-prioritise waterfall; promote a healthy network above the underperforming one for this segment."
+    },
+    "rationale": "ecpm_drop on US_android_reward_applovin (37.5% drop). Re-prioritise waterfall before bidding changes.",
+    "status": "proposed",
+    "created_at": "2026-07-23T04:40:52.097574+00:00"
+  },
+  {
+    "decision_id": "454b9143",
+    "opportunity_id": "d32a7b13",
+    "action_type": "review_bidding",
+    "target": "US_android_interstitial_applovin",
+    "mutation": {
+      "increase_bid_floor": false,
+      "check_mediation_timeout": true,
+      "enable_backup_networks": true
+    },
+    "rationale": "fill_rate dropped 32.6% on US_android_interstitial_applovin. Likely a mediation timeout / over-tight bid floor.",
+    "status": "proposed",
+    "created_at": "2026-07-23T04:40:52.097584+00:00"
+  },
+  {
+    "decision_id": "f7716b80",
+    "opportunity_id": "af271f54",
+    "action_type": "adjust_ad_frequency",
+    "target": "US_android",
+    "mutation": {
+      "remote_config": {
+        "ads.reward_frequency": "increase_interval_by_1"
+      },
+      "rollout": "canary_10pct"
+    },
+    "rationale": "Ad load rose while D1 retention fell on US_android. Reduce ad frequency via RemoteConfig and re-measure.",
+    "status": "proposed",
+    "created_at": "2026-07-23T04:40:52.097592+00:00"
+  }
+]

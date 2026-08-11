@@ -307,8 +307,16 @@ class P04CreativeLoop:
         return images
     
     def _score_images(self, images: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """使用Lovart评分（LovartClient 没有 score_image 方法，改用 evaluate_image）"""
-        scores = []
+        """使用Lovart评分，保存原始响应以便审计。
+
+        修复点：
+        1. 保存 Lovart 原始 assistant_text/summary 到 raw_response
+        2. 缺维度时不静默填 0，标记 dimensions_missing
+        3. 只对存在的维度求 overall
+        """
+        scores: List[Dict[str, Any]] = []
+        dims = ["visual_quality", "brand_alignment", "hook_clarity",
+                "ad_suitability", "originality"]
 
         for img_data in images:
             try:
@@ -319,26 +327,53 @@ class P04CreativeLoop:
                     hook_type=img_data.get("mutation_type", ""),
                 )
 
-                if result and "error" not in result:
-                    dims = ["visual_quality", "brand_alignment", "hook_clarity",
-                            "ad_suitability", "originality"]
-                    vals = [float(result.get(d, 0) or 0) for d in dims]
-                    overall = sum(vals) / len(vals) if vals else 0.0
-
-                    score_data = {
-                        "image_path": img_data["image_path"],
-                        "visual_quality": vals[0],
-                        "hook_clarity": vals[2],
-                        "brand_alignment": vals[1],
-                        "originality": vals[4],
-                        "ad_suitability": vals[3],
-                        "overall": overall,
-                    }
-                    scores.append(score_data)
-                    print(f"        Score: {overall:.2f} - {img_data['hook_text']}")
-                else:
+                if not result or "error" in result:
                     err = result.get("error", "unknown") if result else "None"
                     print(f"        No score returned: {err[:80]}")
+                    continue
+
+                # 收集维度值；缺失的不静默填 0
+                present: Dict[str, float] = {}
+                missing: List[str] = []
+                for d in dims:
+                    raw = result.get(d)
+                    if raw is None:
+                        missing.append(d)
+                        continue
+                    try:
+                        present[d] = float(raw)
+                    except (TypeError, ValueError):
+                        missing.append(d)
+
+                overall = sum(present.values()) / len(present) if present else 0.0
+
+                # 保留原始响应文本，方便审计；优先用 summary，否则序列化整个 result
+                raw_text = result.get("summary") or ""
+                if not raw_text:
+                    raw_text = json.dumps(result, ensure_ascii=False)
+                raw_text = raw_text[:2000]
+
+                score_data = {
+                    "image_path": img_data["image_path"],
+                    "hook_text": img_data.get("hook_text", ""),
+                    # 数值维度（缺失的为 None，不静默填 0）
+                    "visual_quality": present.get("visual_quality"),
+                    "brand_alignment": present.get("brand_alignment"),
+                    "hook_clarity": present.get("hook_clarity"),
+                    "ad_suitability": present.get("ad_suitability"),
+                    "originality": present.get("originality"),
+                    "overall": overall,
+                    # 审计字段
+                    "dimensions_present": len(present),
+                    "dimensions_missing": missing,
+                    "strengths": list(result.get("strengths", []))[:5],
+                    "improvements": list(result.get("improvements", []))[:5],
+                    "raw_response": raw_text,
+                }
+                scores.append(score_data)
+
+                miss_tag = f" missing={missing}" if missing else ""
+                print(f"        Score: {overall:.2f} - {img_data.get('hook_text', '')}{miss_tag}")
 
             except Exception as e:
                 print(f"        Score error: {str(e)[:80]}")
@@ -354,14 +389,36 @@ class P04CreativeLoop:
             json.dump(result, f, indent=2, ensure_ascii=False)
     
     def _create_summary(self, run_id: str, results: List[Dict], images: List[Dict]) -> Dict[str, Any]:
-        """创建汇总"""
-        all_scores = []
+        """创建汇总，含跨图评分合理性校验。"""
+        all_scores: List[Dict[str, Any]] = []
         for r in results:
             all_scores.extend(r.get("scores", []))
-        
+
         top_score = max([s.get("overall", 0) for s in all_scores]) if all_scores else 0.0
         avg_score = sum([s.get("overall", 0) for s in all_scores]) / len(all_scores) if all_scores else 0.0
-        
+
+        # 跨图合理性校验：某维度在 3+ 张图上完全相同 → 可疑（可能是模板化评分或 fallback 抓数字）
+        dims = ["visual_quality", "brand_alignment", "hook_clarity",
+                "ad_suitability", "originality"]
+        suspicious_dims: List[Dict[str, Any]] = []
+        for d in dims:
+            vals = [s.get(d) for s in all_scores if s.get(d) is not None]
+            if len(vals) >= 3 and len(set(vals)) == 1:
+                suspicious_dims.append({"dimension": d, "value": vals[0], "count": len(vals)})
+
+        score_suspicious = len(suspicious_dims) > 0
+        score_audit = {
+            "total_scored": len(all_scores),
+            "suspicious": score_suspicious,
+            "suspicious_dimensions": suspicious_dims,
+            "note": (
+                "suspicious=true 表示某维度在 3+ 张图上分数完全一致，"
+                "可能是 Lovart 返回了模板化评分，或 _parse_eval_text 走了正则 fallback。"
+                "请检查 raw_response 字段确认。"
+                if score_suspicious else ""
+            ),
+        }
+
         return {
             "run_id": run_id,
             "project": self.PROJECT_NAME,
@@ -370,6 +427,7 @@ class P04CreativeLoop:
             "total_images_generated": len(images),
             "top_score": top_score,
             "avg_score": avg_score,
+            "score_audit": score_audit,
             "winners": results,
             "image_paths": [i.get("image_path") for i in images if i.get("image_path")],
         }

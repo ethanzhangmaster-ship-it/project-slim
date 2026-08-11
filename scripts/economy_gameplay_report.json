@@ -1,0 +1,365 @@
+{
+  "report_generated_at": "2026-08-06T09:42:43.513079",
+  "project_id": 102,
+  "economy": {
+    "project_id": 102,
+    "period_start": "2026-07-07",
+    "period_end": "2026-08-06",
+    "resources": [
+      {
+        "resource_name": "coins",
+        "total_source": 510000,
+        "total_sink": 420000,
+        "net_balance": 90000,
+        "inflation_rate": 0.2143,
+        "status": "inflation",
+        "top_sources": [
+          [
+            "关卡奖励",
+            200000
+          ],
+          [
+            "任务",
+            150000
+          ],
+          [
+            "活动",
+            100000
+          ]
+        ],
+        "top_sinks": [
+          [
+            "升级",
+            180000
+          ],
+          [
+            "合成",
+            150000
+          ],
+          [
+            "购买",
+            80000
+          ]
+        ]
+      },
+      {
+        "resource_name": "gems",
+        "total_source": 75000,
+        "total_sink": 95000,
+        "net_balance": -20000,
+        "inflation_rate": -0.2105,
+        "status": "deflation",
+        "top_sources": [
+          [
+            "成就",
+            30000
+          ],
+          [
+            "每日登录",
+            25000
+          ],
+          [
+            "活动",
+            20000
+          ]
+        ],
+        "top_sinks": [
+          [
+            "抽卡",
+            45000
+          ],
+          [
+            "商店",
+            30000
+          ],
+          [
+            "体力补充",
+            15000
+          ]
+        ]
+      },
+      {
+        "resource_name": "energy",
+        "total_source": 200000,
+        "total_sink": 195000,
+        "net_balance": 5000,
+        "inflation_rate": 0.0256,
+        "status": "balanced",
+        "top_sources": [
+          [
+            "自然恢复",
+            120000
+          ],
+          [
+            "广告",
+            50000
+          ],
+          [
+            "好友赠送",
+            25000
+          ]
+        ],
+        "top_sinks": [
+          [
+            "关卡",
+            150000
+          ],
+          [
+            "活动",
+            30000
+          ],
+          [
+            "挑战",
+            12000
+          ]
+        ]
+      },
+      {
+        "resource_name": "materials",
+        "total_source": 300000,
+        "total_sink": 180000,
+        "net_balance": 120000,
+        "inflation_rate": 0.6667,
+        "status": "inflation",
+        "top_sources": [
+          [
+            "采集",
+            150000
+          ],
+          [
+            "关卡掉落",
+            100000
+          ],
+          [
+            "活动",
+            40000
+          ]
+        ],
+        "top_sinks": [
+          [
+            "合成",
+            100000
+          ],
+          [
+            "升级",
+            50000
+          ],
+          [
+            "交易",
+            25000
+          ]
+        ]
+      }
+    ],
+    "overall_status": "balanced",
+    "avg_inflation_rate": 0.174,
+    "imbalanced_resources": [
+      "coins",
+      "gems",
+      "materials"
+    ],
+    "inflation_resources": [
+      "coins",
+      "materials"
+    ],
+    "deflation_resources": [
+      "gems"
+    ],
+    "payer_resource_ratio": 2.5,
+    "resource_hoarder_count": 350,
+    "resource_starved_count": 1200,
+    "insights": [
+      "经济基本平衡（通胀率 17%）",
+      "'coins' 通胀严重（+21%），建议增加消耗途径（如限时商店、高级合成）",
+      "'materials' 通胀严重（+67%），建议增加消耗途径（如限时商店、高级合成）",
+      "'gems' 通缩（-21%），建议增加产出途径或降低消耗门槛",
+      "350 个资源囤积者，建议设计高价值消耗点回收资源"
+    ]
+  },
+  "gameplay": {
+    "project_id": 102,
+    "period_start": "2026-07-07",
+    "period_end": "2026-08-06",
+    "total_players": 12000,
+    "avg_session_len": 420.0,
+    "avg_sessions_per_user": 8.5,
+    "levels": [
+      {
+        "level_id": "level_1",
+        "attempts": 10000,
+        "passes": 9800,
+        "pass_rate": 0.98,
+        "avg_attempts": 1.1,
+        "churn_rate": 0.02,
+        "avg_duration_s": 60,
+        "status": "too_easy"
+      },
+      {
+        "level_id": "level_2",
+        "attempts": 9500,
+        "passes": 8800,
+        "pass_rate": 0.9263,
+        "avg_attempts": 1.3,
+        "churn_rate": 0.04,
+        "avg_duration_s": 75,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_3",
+        "attempts": 8800,
+        "passes": 7400,
+        "pass_rate": 0.8409,
+        "avg_attempts": 1.6,
+        "churn_rate": 0.06,
+        "avg_duration_s": 90,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_4",
+        "attempts": 7400,
+        "passes": 5900,
+        "pass_rate": 0.7973,
+        "avg_attempts": 1.9,
+        "churn_rate": 0.08,
+        "avg_duration_s": 105,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_5",
+        "attempts": 5900,
+        "passes": 4100,
+        "pass_rate": 0.6949,
+        "avg_attempts": 2.3,
+        "churn_rate": 0.1,
+        "avg_duration_s": 130,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_6",
+        "attempts": 4100,
+        "passes": 700,
+        "pass_rate": 0.1707,
+        "avg_attempts": 3.5,
+        "churn_rate": 0.18,
+        "avg_duration_s": 180,
+        "status": "choke_point"
+      },
+      {
+        "level_id": "level_7",
+        "attempts": 680,
+        "passes": 550,
+        "pass_rate": 0.8088,
+        "avg_attempts": 2.1,
+        "churn_rate": 0.12,
+        "avg_duration_s": 150,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_8",
+        "attempts": 550,
+        "passes": 460,
+        "pass_rate": 0.8364,
+        "avg_attempts": 1.8,
+        "churn_rate": 0.09,
+        "avg_duration_s": 140,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_9",
+        "attempts": 460,
+        "passes": 390,
+        "pass_rate": 0.8478,
+        "avg_attempts": 1.7,
+        "churn_rate": 0.07,
+        "avg_duration_s": 135,
+        "status": "healthy"
+      },
+      {
+        "level_id": "level_10",
+        "attempts": 390,
+        "passes": 370,
+        "pass_rate": 0.9487,
+        "avg_attempts": 1.2,
+        "churn_rate": 0.03,
+        "avg_duration_s": 110,
+        "status": "healthy"
+      }
+    ],
+    "modes": [
+      {
+        "mode_name": "经典消除",
+        "participants": 11000,
+        "sessions": 85000,
+        "avg_sessions": 7.7,
+        "avg_duration_s": 380,
+        "retention_lift": 0.0
+      },
+      {
+        "mode_name": "限时挑战",
+        "participants": 6500,
+        "sessions": 28000,
+        "avg_sessions": 4.3,
+        "avg_duration_s": 220,
+        "retention_lift": 0.12
+      },
+      {
+        "mode_name": "多人对战",
+        "participants": 3200,
+        "sessions": 15000,
+        "avg_sessions": 4.7,
+        "avg_duration_s": 290,
+        "retention_lift": 0.18
+      },
+      {
+        "mode_name": "每日解谜",
+        "participants": 8800,
+        "sessions": 60000,
+        "avg_sessions": 6.8,
+        "avg_duration_s": 180,
+        "retention_lift": 0.08
+      }
+    ],
+    "choke_points": [
+      "level_6"
+    ],
+    "churn_levels": [
+      "level_6"
+    ],
+    "popular_modes": [
+      "经典消除",
+      "每日解谜",
+      "限时挑战"
+    ],
+    "difficulty_curve": "healthy",
+    "top_actions": [
+      [
+        "move",
+        1200000
+      ],
+      [
+        "match",
+        850000
+      ],
+      [
+        "use_item",
+        230000
+      ],
+      [
+        "hint",
+        120000
+      ],
+      [
+        "undo",
+        80000
+      ]
+    ],
+    "insights": [
+      "难度曲线基本健康",
+      "关卡 'level_6' 是卡点（通过率 17%），建议降低难度或提供引导",
+      "关卡 'level_6' 流失率高，建议检查是否存在 bug 或难度突变",
+      "最受欢迎玩法: 经典消除, 每日解谜, 限时挑战",
+      "玩法 '限时挑战' 留存提升 12%，建议在新手期引导参与",
+      "玩法 '多人对战' 留存提升 18%，建议在新手期引导参与"
+    ]
+  }
+}

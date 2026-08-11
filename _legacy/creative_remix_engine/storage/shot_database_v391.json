@@ -1,0 +1,538 @@
+{
+  "version": "V3.9.1",
+  "shots": {
+    "winner_01_evolution_shot_001": {
+      "type": "VisualDNA",
+      "shot_id": "winner_01_evolution_shot_001",
+      "source_video": "winner_01_evolution",
+      "subjects": [
+        "character",
+        "nature",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "satisfaction"
+      ],
+      "scene": "forest",
+      "camera": "dynamic",
+      "visual_hook": false,
+      "hook_strength": 27.9,
+      "motion_level": "medium",
+      "brightness": 51.7,
+      "color_vibrancy": 47.2,
+      "composition_score": 85,
+      "visual_quality": 57,
+      "performance_score": 57,
+      "duration": 2.4,
+      "frame_count": 11,
+      "dominant_color": "#64463C",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_01_evolution_shot_002": {
+      "type": "VisualDNA",
+      "shot_id": "winner_01_evolution_shot_002",
+      "source_video": "winner_01_evolution",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "danger",
+        "satisfaction"
+      ],
+      "scene": "unknown",
+      "camera": "static",
+      "visual_hook": false,
+      "hook_strength": 40.0,
+      "motion_level": "low",
+      "brightness": 1.4,
+      "color_vibrancy": 25.1,
+      "composition_score": 50,
+      "visual_quality": 29,
+      "performance_score": 29,
+      "duration": 2.1,
+      "frame_count": 11,
+      "dominant_color": "#030202",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_01_evolution_shot_003": {
+      "type": "VisualDNA",
+      "shot_id": "winner_01_evolution_shot_003",
+      "source_video": "winner_01_evolution",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "excitement"
+      ],
+      "scene": "unknown",
+      "camera": "static",
+      "visual_hook": false,
+      "hook_strength": 2.6,
+      "motion_level": "low",
+      "brightness": 24.4,
+      "color_vibrancy": 9.8,
+      "composition_score": 50,
+      "visual_quality": 14,
+      "performance_score": 14,
+      "duration": 7.0,
+      "frame_count": 10,
+      "dominant_color": "#3E3E3E",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_01_evolution_shot_004": {
+      "type": "VisualDNA",
+      "shot_id": "winner_01_evolution_shot_004",
+      "source_video": "winner_01_evolution",
+      "subjects": [
+        "character",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "satisfaction"
+      ],
+      "scene": "sky",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 5.1,
+      "motion_level": "low",
+      "brightness": 90.1,
+      "color_vibrancy": 47.6,
+      "composition_score": 50,
+      "visual_quality": 36,
+      "performance_score": 36,
+      "duration": 1.9,
+      "frame_count": 12,
+      "dominant_color": "#F0EBFD",
+      "text_detected": true,
+      "ui_elements": true,
+      "logo_detected": false
+    },
+    "winner_01_evolution_shot_005": {
+      "type": "VisualDNA",
+      "shot_id": "winner_01_evolution_shot_005",
+      "source_video": "winner_01_evolution",
+      "subjects": [
+        "character"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "danger"
+      ],
+      "scene": "unknown",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 11.9,
+      "motion_level": "low",
+      "brightness": 5.2,
+      "color_vibrancy": 28.1,
+      "composition_score": 50,
+      "visual_quality": 30,
+      "performance_score": 30,
+      "duration": 0.5,
+      "frame_count": 15,
+      "dominant_color": "#070306",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_01_evolution_shot_006": {
+      "type": "VisualDNA",
+      "shot_id": "winner_01_evolution_shot_006",
+      "source_video": "winner_01_evolution",
+      "subjects": [
+        "character",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [],
+      "scene": "sky",
+      "camera": "dynamic",
+      "visual_hook": false,
+      "hook_strength": 34.1,
+      "motion_level": "medium",
+      "brightness": 35.6,
+      "color_vibrancy": 41.4,
+      "composition_score": 65,
+      "visual_quality": 49,
+      "performance_score": 49,
+      "duration": 1.0,
+      "frame_count": 10,
+      "dominant_color": "#2A1325",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_02_evolution_shot_001": {
+      "type": "VisualDNA",
+      "shot_id": "winner_02_evolution_shot_001",
+      "source_video": "winner_02_evolution",
+      "subjects": [
+        "character",
+        "nature",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "satisfaction"
+      ],
+      "scene": "forest",
+      "camera": "dynamic",
+      "visual_hook": false,
+      "hook_strength": 27.9,
+      "motion_level": "medium",
+      "brightness": 51.7,
+      "color_vibrancy": 47.2,
+      "composition_score": 85,
+      "visual_quality": 57,
+      "performance_score": 57,
+      "duration": 2.4,
+      "frame_count": 11,
+      "dominant_color": "#64463C",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_02_evolution_shot_002": {
+      "type": "VisualDNA",
+      "shot_id": "winner_02_evolution_shot_002",
+      "source_video": "winner_02_evolution",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "danger",
+        "satisfaction"
+      ],
+      "scene": "unknown",
+      "camera": "static",
+      "visual_hook": false,
+      "hook_strength": 40.0,
+      "motion_level": "low",
+      "brightness": 1.4,
+      "color_vibrancy": 25.1,
+      "composition_score": 50,
+      "visual_quality": 29,
+      "performance_score": 29,
+      "duration": 2.1,
+      "frame_count": 11,
+      "dominant_color": "#030202",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_02_evolution_shot_003": {
+      "type": "VisualDNA",
+      "shot_id": "winner_02_evolution_shot_003",
+      "source_video": "winner_02_evolution",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "excitement"
+      ],
+      "scene": "unknown",
+      "camera": "static",
+      "visual_hook": false,
+      "hook_strength": 2.6,
+      "motion_level": "low",
+      "brightness": 24.4,
+      "color_vibrancy": 9.8,
+      "composition_score": 50,
+      "visual_quality": 14,
+      "performance_score": 14,
+      "duration": 7.0,
+      "frame_count": 10,
+      "dominant_color": "#3E3E3E",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_02_evolution_shot_004": {
+      "type": "VisualDNA",
+      "shot_id": "winner_02_evolution_shot_004",
+      "source_video": "winner_02_evolution",
+      "subjects": [
+        "character",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "satisfaction"
+      ],
+      "scene": "sky",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 5.1,
+      "motion_level": "low",
+      "brightness": 90.1,
+      "color_vibrancy": 47.6,
+      "composition_score": 50,
+      "visual_quality": 36,
+      "performance_score": 36,
+      "duration": 1.9,
+      "frame_count": 12,
+      "dominant_color": "#EFFBFD",
+      "text_detected": true,
+      "ui_elements": true,
+      "logo_detected": false
+    },
+    "winner_02_evolution_shot_005": {
+      "type": "VisualDNA",
+      "shot_id": "winner_02_evolution_shot_005",
+      "source_video": "winner_02_evolution",
+      "subjects": [
+        "character"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "danger"
+      ],
+      "scene": "unknown",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 11.9,
+      "motion_level": "low",
+      "brightness": 5.2,
+      "color_vibrancy": 28.1,
+      "composition_score": 50,
+      "visual_quality": 30,
+      "performance_score": 30,
+      "duration": 0.5,
+      "frame_count": 15,
+      "dominant_color": "#0F0A0D",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_02_evolution_shot_006": {
+      "type": "VisualDNA",
+      "shot_id": "winner_02_evolution_shot_006",
+      "source_video": "winner_02_evolution",
+      "subjects": [
+        "character",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [],
+      "scene": "sky",
+      "camera": "dynamic",
+      "visual_hook": false,
+      "hook_strength": 34.1,
+      "motion_level": "medium",
+      "brightness": 35.6,
+      "color_vibrancy": 41.4,
+      "composition_score": 65,
+      "visual_quality": 49,
+      "performance_score": 49,
+      "duration": 1.0,
+      "frame_count": 10,
+      "dominant_color": "#2B1325",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_03_challenge_shot_001": {
+      "type": "VisualDNA",
+      "shot_id": "winner_03_challenge_shot_001",
+      "source_video": "winner_03_challenge",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "excitement",
+        "danger"
+      ],
+      "scene": "unknown",
+      "camera": "static",
+      "visual_hook": false,
+      "hook_strength": 20.0,
+      "motion_level": "low",
+      "brightness": 0.0,
+      "color_vibrancy": 0.0,
+      "composition_score": 50,
+      "visual_quality": 11,
+      "performance_score": 11,
+      "duration": 2.6,
+      "frame_count": 12,
+      "dominant_color": "#000000",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_03_challenge_shot_002": {
+      "type": "VisualDNA",
+      "shot_id": "winner_03_challenge_shot_002",
+      "source_video": "winner_03_challenge",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "excitement"
+      ],
+      "scene": "unknown",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 40.6,
+      "motion_level": "low",
+      "brightness": 24.4,
+      "color_vibrancy": 9.7,
+      "composition_score": 50,
+      "visual_quality": 21,
+      "performance_score": 21,
+      "duration": 8.4,
+      "frame_count": 11,
+      "dominant_color": "#3F3F3F",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_03_challenge_shot_003": {
+      "type": "VisualDNA",
+      "shot_id": "winner_03_challenge_shot_003",
+      "source_video": "winner_03_challenge",
+      "subjects": [
+        "character",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "satisfaction"
+      ],
+      "scene": "sky",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 3.9,
+      "motion_level": "low",
+      "brightness": 90.4,
+      "color_vibrancy": 47.6,
+      "composition_score": 50,
+      "visual_quality": 31,
+      "performance_score": 31,
+      "duration": 2.4,
+      "frame_count": 11,
+      "dominant_color": "#EFFBFE",
+      "text_detected": true,
+      "ui_elements": true,
+      "logo_detected": false
+    },
+    "winner_03_challenge_shot_004": {
+      "type": "VisualDNA",
+      "shot_id": "winner_03_challenge_shot_004",
+      "source_video": "winner_03_challenge",
+      "subjects": [],
+      "actions": [
+        "static"
+      ],
+      "emotions": [
+        "danger"
+      ],
+      "scene": "unknown",
+      "camera": "slow_pan",
+      "visual_hook": false,
+      "hook_strength": 11.3,
+      "motion_level": "low",
+      "brightness": 5.2,
+      "color_vibrancy": 28.1,
+      "composition_score": 50,
+      "visual_quality": 29,
+      "performance_score": 29,
+      "duration": 0.5,
+      "frame_count": 15,
+      "dominant_color": "#0F0A0D",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    },
+    "winner_03_challenge_shot_005": {
+      "type": "VisualDNA",
+      "shot_id": "winner_03_challenge_shot_005",
+      "source_video": "winner_03_challenge",
+      "subjects": [
+        "character",
+        "sky"
+      ],
+      "actions": [
+        "static"
+      ],
+      "emotions": [],
+      "scene": "sky",
+      "camera": "dynamic",
+      "visual_hook": false,
+      "hook_strength": 33.7,
+      "motion_level": "medium",
+      "brightness": 35.6,
+      "color_vibrancy": 41.4,
+      "composition_score": 50,
+      "visual_quality": 47,
+      "performance_score": 47,
+      "duration": 1.0,
+      "frame_count": 10,
+      "dominant_color": "#2B1325",
+      "text_detected": true,
+      "ui_elements": false,
+      "logo_detected": false
+    }
+  },
+  "stats": {
+    "total": 17,
+    "version": "V3.9.1",
+    "dna_type_distribution": {
+      "ShotDNA": 0,
+      "VisualDNA": 17
+    },
+    "avg_visual_score": 33.5,
+    "avg_performance_score": 33.5,
+    "avg_hook_strength": 20.7,
+    "visual_hook_ratio": 0.0,
+    "role_distribution": {
+      "unknown": 17
+    },
+    "subject_distribution": {
+      "character": 10,
+      "nature": 2,
+      "sky": 8
+    },
+    "scene_distribution": {
+      "forest": 2,
+      "unknown": 9,
+      "sky": 6
+    },
+    "motion_level_distribution": {
+      "medium": 5,
+      "low": 12
+    }
+  },
+  "timestamp": "2026-07-13T16:23:29.073327"
+}

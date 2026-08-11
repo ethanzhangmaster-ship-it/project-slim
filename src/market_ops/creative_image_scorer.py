@@ -499,7 +499,7 @@ class CreativeImageScorer:
 
         # Boost scores for prompts with good keywords
         prompt_lower = prompt.lower()
-        if any(w in prompt_lower for w in ("portrait 9:16", "mobile", "ad creative")):
+        if any(w in prompt_lower for w in ("1:1 square", "1080x1080", "mobile", "ad creative")):
             ads = min(10, ads + 0.5)
         if any(w in prompt_lower for w in ("dark", "gothic", "purple", "magic")):
             if "witch" in project.lower():

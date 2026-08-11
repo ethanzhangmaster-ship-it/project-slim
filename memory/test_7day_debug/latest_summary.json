@@ -1,0 +1,16 @@
+{
+  "run_id": "aeo7_305aa489a6",
+  "total_spend": 0.0,
+  "total_impressions": 0,
+  "total_clicks": 0,
+  "total_installs": 0,
+  "total_purchases": 0,
+  "ctr": 0.0,
+  "cvr": 0.0,
+  "roas": 0.0,
+  "best_creative": "",
+  "worst_creative": "",
+  "budget_curve": [],
+  "learning_delta": {},
+  "status": "error"
+}

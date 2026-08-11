@@ -1,0 +1,2742 @@
+[
+  {
+    "creative_id": "creative_mut_001",
+    "predicted_score": 77.5,
+    "quality_score": 84.2,
+    "ad_value": 80.85,
+    "plan": {
+      "plan_id": "plan_creative_mut_001",
+      "creative_id": "creative_mut_001",
+      "name": "Character_Attack_hook_gameplay_reward_ending_mut_swap_hook_1_creative_mut_001",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "rescue_ad_shot_001",
+          "source_video": "rescue_ad",
+          "start_time": 0,
+          "end_time": 3.0,
+          "duration": 3.0,
+          "dna": {
+            "shot_id": "rescue_ad_shot_001",
+            "source_video": "rescue_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "rescue",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 90,
+            "performance_score": 88,
+            "duration": 7.988466628252086,
+            "start_time": 0,
+            "end_time": 7.988466628252086,
+            "tags": [
+              "character",
+              "rescue",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing rescue with surprise emotion"
+          },
+          "match_score": 0.732
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 19.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending_mut_swap_hook_1",
+      "predicted_score": 0.775,
+      "mutation_strategy": "swap_hook"
+    }
+  },
+  {
+    "creative_id": "creative_mut_002",
+    "predicted_score": 78.7,
+    "quality_score": 84.0,
+    "ad_value": 81.35,
+    "plan": {
+      "plan_id": "plan_creative_mut_002",
+      "creative_id": "creative_mut_002",
+      "name": "Character_Attack_hook_gameplay_reward_ending_mut_swap_hook_2_creative_mut_002",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "monster_ad_shot_001",
+          "source_video": "monster_ad",
+          "start_time": 0,
+          "end_time": 2.3716727767714176,
+          "duration": 2.3716727767714176,
+          "dna": {
+            "shot_id": "monster_ad_shot_001",
+            "source_video": "monster_ad",
+            "role": "hook",
+            "subject": "monster",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.3716727767714176,
+            "start_time": 0,
+            "end_time": 2.3716727767714176,
+            "tags": [
+              "monster",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: monster performing attack with surprise emotion"
+          },
+          "match_score": 0.782
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.4,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending_mut_swap_hook_2",
+      "predicted_score": 0.787,
+      "mutation_strategy": "swap_hook"
+    }
+  },
+  {
+    "creative_id": "creative_mut_003",
+    "predicted_score": 78.7,
+    "quality_score": 84.0,
+    "ad_value": 81.35,
+    "plan": {
+      "plan_id": "plan_creative_mut_003",
+      "creative_id": "creative_mut_003",
+      "name": "Character_Attack_hook_gameplay_reward_ending_mut_swap_hook_3_creative_mut_003",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "monster_ad_shot_001",
+          "source_video": "monster_ad",
+          "start_time": 0,
+          "end_time": 2.3716727767714176,
+          "duration": 2.3716727767714176,
+          "dna": {
+            "shot_id": "monster_ad_shot_001",
+            "source_video": "monster_ad",
+            "role": "hook",
+            "subject": "monster",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.3716727767714176,
+            "start_time": 0,
+            "end_time": 2.3716727767714176,
+            "tags": [
+              "monster",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: monster performing attack with surprise emotion"
+          },
+          "match_score": 0.782
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.4,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending_mut_swap_hook_3",
+      "predicted_score": 0.787,
+      "mutation_strategy": "swap_hook"
+    }
+  },
+  {
+    "creative_id": "creative_001",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_001",
+      "creative_id": "creative_001",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_001",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_002",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_002",
+      "creative_id": "creative_002",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_002",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_003",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_003",
+      "creative_id": "creative_003",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_003",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_004",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_004",
+      "creative_id": "creative_004",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_004",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_005",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_005",
+      "creative_id": "creative_005",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_005",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_006",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_006",
+      "creative_id": "creative_006",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_006",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_007",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_007",
+      "creative_id": "creative_007",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_007",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_008",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_008",
+      "creative_id": "creative_008",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_008",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_009",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_009",
+      "creative_id": "creative_009",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_009",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_010",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_010",
+      "creative_id": "creative_010",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_010",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_011",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_011",
+      "creative_id": "creative_011",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_011",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_012",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_012",
+      "creative_id": "creative_012",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_012",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_013",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_013",
+      "creative_id": "creative_013",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_013",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_014",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_014",
+      "creative_id": "creative_014",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_014",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_015",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_015",
+      "creative_id": "creative_015",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_015",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_016",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_016",
+      "creative_id": "creative_016",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_016",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  },
+  {
+    "creative_id": "creative_017",
+    "predicted_score": 83.7,
+    "quality_score": 83.4,
+    "ad_value": 83.55000000000001,
+    "plan": {
+      "plan_id": "plan_creative_017",
+      "creative_id": "creative_017",
+      "name": "Character_Attack_hook_gameplay_reward_ending_creative_017",
+      "segments": [
+        {
+          "role": "hook",
+          "shot_id": "battle_ad_shot_001",
+          "source_video": "battle_ad",
+          "start_time": 0,
+          "end_time": 2.013617918622834,
+          "duration": 2.013617918622834,
+          "dna": {
+            "shot_id": "battle_ad_shot_001",
+            "source_video": "battle_ad",
+            "role": "hook",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "surprise",
+            "camera": "zoom_in",
+            "visual_score": 84,
+            "performance_score": 88,
+            "duration": 2.013617918622834,
+            "start_time": 0,
+            "end_time": 2.013617918622834,
+            "tags": [
+              "character",
+              "attack",
+              "surprise",
+              "hook"
+            ],
+            "description": "hook: character performing attack with surprise emotion"
+          },
+          "match_score": 0.9820000000000001
+        },
+        {
+          "role": "gameplay",
+          "shot_id": "battle_ad_shot_002",
+          "source_video": "battle_ad",
+          "start_time": 5,
+          "end_time": 10.31625314726962,
+          "duration": 5.31625314726962,
+          "dna": {
+            "shot_id": "battle_ad_shot_002",
+            "source_video": "battle_ad",
+            "role": "gameplay",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "curiosity",
+            "camera": "pan",
+            "visual_score": 72,
+            "performance_score": 92,
+            "duration": 5.31625314726962,
+            "start_time": 5,
+            "end_time": 10.31625314726962,
+            "tags": [
+              "character",
+              "attack",
+              "curiosity",
+              "gameplay"
+            ],
+            "description": "gameplay: character performing attack with curiosity emotion"
+          },
+          "match_score": 0.8880000000000001
+        },
+        {
+          "role": "reward",
+          "shot_id": "battle_ad_shot_003",
+          "source_video": "battle_ad",
+          "start_time": 10,
+          "end_time": 15.75420440766365,
+          "duration": 5.75420440766365,
+          "dna": {
+            "shot_id": "battle_ad_shot_003",
+            "source_video": "battle_ad",
+            "role": "reward",
+            "subject": "character",
+            "action": "attack",
+            "emotion": "satisfaction",
+            "camera": "zoom_in",
+            "visual_score": 79,
+            "performance_score": 90,
+            "duration": 5.75420440766365,
+            "start_time": 10,
+            "end_time": 15.75420440766365,
+            "tags": [
+              "character",
+              "attack",
+              "satisfaction",
+              "reward"
+            ],
+            "description": "reward: character performing attack with satisfaction emotion"
+          },
+          "match_score": 0.8350000000000001
+        },
+        {
+          "role": "ending",
+          "shot_id": "witch_ad_shot_004",
+          "source_video": "witch_ad",
+          "start_time": 15,
+          "end_time": 20.0,
+          "duration": 5.0,
+          "dna": {
+            "shot_id": "witch_ad_shot_004",
+            "source_video": "witch_ad",
+            "role": "ending",
+            "subject": "character",
+            "action": "collect",
+            "emotion": "satisfaction",
+            "camera": "tracking",
+            "visual_score": 77,
+            "performance_score": 63,
+            "duration": 5.7574656576815,
+            "start_time": 15,
+            "end_time": 20.7574656576815,
+            "tags": [
+              "character",
+              "collect",
+              "satisfaction",
+              "ending"
+            ],
+            "description": "ending: character performing collect with satisfaction emotion"
+          },
+          "match_score": 0.6445000000000001
+        }
+      ],
+      "total_duration": 18.1,
+      "structure_name": "Character_Attack_hook_gameplay_reward_ending",
+      "predicted_score": 0.837,
+      "mutation_strategy": null
+    }
+  }
+]

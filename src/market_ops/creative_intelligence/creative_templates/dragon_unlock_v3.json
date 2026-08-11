@@ -1,0 +1,71 @@
+{
+  "template_id": "dragon_unlock_v3",
+  "template_name": "Dragon Unlock V3 — Vertical Evolution Sheet",
+  "version": "3.0",
+  "description": "V3: Vertical evolution: egg → baby dragon → legendary dragon, large reward center, CTA bottom",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "background",
+      "position": "full",
+      "x": 0, "y": 0, "width": 1.0, "height": 1.0,
+      "z_index": 0,
+      "content": "background",
+      "generator": "base_background"
+    },
+    {
+      "name": "text_area",
+      "position": "top",
+      "x": 0.0, "y": 0.04, "width": 1.0, "height": 0.14,
+      "z_index": 30,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "reward_area",
+      "position": "center",
+      "x": 0.10, "y": 0.18, "width": 0.80, "height": 0.55,
+      "z_index": 20,
+      "content": "ai_generated",
+      "generator": "reward_asset",
+      "feather_radius": 15,
+      "crop_strategy": "crop_center",
+      "crop_scale": 0.82
+    },
+    {
+      "name": "progression_area",
+      "position": "center_overlay",
+      "x": 0.0, "y": 0.20, "width": 1.0, "height": 0.50,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["evolution_timeline", "level_badges", "sparkle_particles", "rarity_glow"]
+    },
+    {
+      "name": "rarity_badge",
+      "position": "below_character",
+      "x": 0.20, "y": 0.74, "width": 0.60, "height": 0.08,
+      "z_index": 15,
+      "content": "text_label",
+      "text": "LEGENDARY DRAGON UNLOCKED"
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0, "y": 0.84, "width": 1.0, "height": 0.16,
+      "z_index": 35,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "generation_config": {
+    "reward_config": {
+      "reward_type": "legendary_dragon",
+      "rarity": "legendary",
+      "style": "premium_reward_screen"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-28",
+  "ran_at": "2026-07-28T20:00:54",
+  "mode": "SIMULATION",
+  "apply": false,
+  "packages_count": 0,
+  "packages": [],
+  "agents": {
+    "health": {
+      "status": "OK",
+      "seconds": 0.0,
+      "items": 0
+    },
+    "release": {
+      "status": "OK",
+      "seconds": 0.0,
+      "items": 0
+    },
+    "review": {
+      "status": "OK",
+      "seconds": 0.0,
+      "items": 0
+    },
+    "experiment": {
+      "status": "OK",
+      "seconds": 0.0,
+      "items": 0
+    },
+    "tester_pool": {
+      "status": "OK",
+      "seconds": 0.0,
+      "items": 0
+    }
+  },
+  "agents_ok": 5,
+  "agents_total": 5,
+  "real_api_called": false,
+  "failures": [],
+  "status": "OK"
+}

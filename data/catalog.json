@@ -1,0 +1,1324 @@
+[
+  {
+    "game_id": "2022fruit_veg_quiz",
+    "package_name": "",
+    "display_name": "2022Fruit & veg Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "adivinar_palabras_desaf_o",
+    "package_name": "",
+    "display_name": "adivinar palabras desafío",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "be_a_master_chef",
+    "package_name": "",
+    "display_name": "Be A Master Chef",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "simulation",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "be_a_super_model_merge_slay",
+    "package_name": "",
+    "display_name": "Be a Super Model: Merge & Slay",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "merge",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bibbia_quiz",
+    "package_name": "",
+    "display_name": "Bibbia Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_feud_trivia",
+    "package_name": "",
+    "display_name": "Bible Feud Trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_quiz",
+    "package_name": "",
+    "display_name": "Bible Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_quizzes",
+    "package_name": "",
+    "display_name": "bible quizzes",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_trivia",
+    "package_name": "",
+    "display_name": "Bible Trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_trivia_master",
+    "package_name": "",
+    "display_name": "Bible Trivia Master",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_word_cross",
+    "package_name": "",
+    "display_name": "Bible Word Cross",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "bible_word_trivia",
+    "package_name": "",
+    "display_name": "Bible Word Trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_bibleverse_collect_ios",
+    "package_name": "com.bibleverse.collect.ios",
+    "display_name": "com.bibleverse.collect.ios",
+    "platforms": [
+      "app_store"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_bibleword_encryption_challenge_trivia",
+    "package_name": "com.bibleword.encryption.challenge.trivia",
+    "display_name": "com.bibleword.encryption.challenge.trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_born2play_biblequiz",
+    "package_name": "com.born2play.biblequiz",
+    "display_name": "com.born2play.biblequiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_daily_leisure_feud_trivia_ios",
+    "package_name": "com.daily.leisure.feud.trivia.ios",
+    "display_name": "com.daily.leisure.feud.trivia.ios",
+    "platforms": [
+      "app_store"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_lilijoy_monster",
+    "package_name": "com.lilijoy.monster",
+    "display_name": "com.lilijoy.monster",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "merge",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_movie_trivia_quiz_fun_test_ios",
+    "package_name": "com.movie.trivia.quiz.fun.test.ios",
+    "display_name": "com.movie.trivia.quiz.fun.test.ios",
+    "platforms": [
+      "app_store"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_quiz_master_trivia_ios",
+    "package_name": "com.quiz.master.trivia.ios",
+    "display_name": "com.quiz.master.trivia.ios",
+    "platforms": [
+      "app_store"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com_travel_quiz_trivia",
+    "package_name": "com.travel.quiz.trivia",
+    "display_name": "com.travel.quiz.trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "daily_bible_quiz",
+    "package_name": "",
+    "display_name": "Daily Bible Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "daily_codewords",
+    "package_name": "",
+    "display_name": "Daily Codewords",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "drama_hospital_asmr_care",
+    "package_name": "",
+    "display_name": "Drama Hospital: ASMR Care",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "simulation",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "drama_hospital_doctor_asmr",
+    "package_name": "",
+    "display_name": "Drama Hospital: Doctor ASMR",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "simulation",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "estrela_b_blica",
+    "package_name": "",
+    "display_name": "Estrela Bíblica",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "casual",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "estrella_b_blica",
+    "package_name": "",
+    "display_name": "Estrella Bíblica",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "casual",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "fill_in_crossword_puzzles",
+    "package_name": "",
+    "display_name": "Fill In Crossword Puzzles",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "food_trivia_master",
+    "package_name": "",
+    "display_name": "Food Trivia Master",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "geography_quiz",
+    "package_name": "",
+    "display_name": "Geography Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "gossip_hospital",
+    "package_name": "",
+    "display_name": "Gossip Hospital",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "simulation",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "grammar_fun_quizzes",
+    "package_name": "",
+    "display_name": "Grammar Fun Quizzes",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "hospital_fever_super_stylist",
+    "package_name": "",
+    "display_name": "Hospital Fever: Super Stylist",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "simulation",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "islamic_quiz",
+    "package_name": "",
+    "display_name": "Islamic Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "leisure_feud_trivia",
+    "package_name": "",
+    "display_name": "Leisure Feud Trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "math_quiz",
+    "package_name": "",
+    "display_name": "Math Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "merge_legend",
+    "package_name": "",
+    "display_name": "merge legend",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "merge",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "merge_legend_atlantis_mermaid",
+    "package_name": "",
+    "display_name": "Merge Legend-Atlantis Mermaid",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "merge",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "merge_monster_vampire_mansion",
+    "package_name": "",
+    "display_name": "Merge Monster: Vampire Mansion",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "merge",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "merge_witches",
+    "package_name": "",
+    "display_name": "merge witches",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "merge",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "millionaire_quiz",
+    "package_name": "",
+    "display_name": "Millionaire Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "movie_quiz",
+    "package_name": "",
+    "display_name": "Movie Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "movie_talent",
+    "package_name": "",
+    "display_name": "Movie Talent",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "movie_trivia_master",
+    "package_name": "",
+    "display_name": "Movie Trivia Master",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "newfood_quiz",
+    "package_name": "",
+    "display_name": "NEWFood Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "preguntas_de_la_biblia",
+    "package_name": "",
+    "display_name": "Preguntas de la Biblia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "quiz_b_blico",
+    "package_name": "",
+    "display_name": "Quiz B?blico",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "quiz_biblique",
+    "package_name": "",
+    "display_name": "Quiz Biblique",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "quiz_master",
+    "package_name": "",
+    "display_name": "Quiz Master",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "spelling_trivia_master",
+    "package_name": "",
+    "display_name": "Spelling Trivia Master",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "spelling_master_tricky_word_spelling_game",
+    "package_name": "",
+    "display_name": "Spelling?Master - Tricky?Word?Spelling?Game",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "stella_s_salon_drama_makeover",
+    "package_name": "",
+    "display_name": "Stella's Salon: Drama Makeover",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "simulation",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "toy_quiz_en",
+    "package_name": "",
+    "display_name": "Toy Quiz-EN",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "word_tile_master",
+    "package_name": "",
+    "display_name": "Word Tile Master",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "wrestling_quiz",
+    "package_name": "",
+    "display_name": "Wrestling Quiz",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "wrestling_trivia",
+    "package_name": "",
+    "display_name": "Wrestling Trivia",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "game_8ce5d80b30",
+    "package_name": "",
+    "display_name": "مسابقة الإسلامي",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "puzzle",
+    "monetization": "iaa",
+    "status": "development",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "",
+    "selling_points": [],
+    "keywords": [],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T17:18:29",
+    "updated_at": "2026-07-27T17:18:29"
+  },
+  {
+    "game_id": "com.ofwsalary.ofwcalculator",
+    "package_name": "com.ofwsalary.ofwcalculator",
+    "display_name": "OFW Salary Calculator",
+    "platforms": [
+      "google_play"
+    ],
+    "genre": "casual",
+    "monetization": "iaa",
+    "status": "published",
+    "version": "1.0.0",
+    "build_number": 1,
+    "published_version": "1.0.0",
+    "selling_points": [
+      "Calculate",
+      "Free",
+      "Easy",
+      "Accurate"
+    ],
+    "keywords": [
+      "ofw salary calculator",
+      "salary calculator",
+      "ofw",
+      "payroll",
+      "philippines salary"
+    ],
+    "locales": [
+      "en-US"
+    ],
+    "metrics": {},
+    "rejection_history": [],
+    "created_at": "2026-07-27T18:45:58",
+    "updated_at": "2026-07-27T18:45:58"
+  }
+]

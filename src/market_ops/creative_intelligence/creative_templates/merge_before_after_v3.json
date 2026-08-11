@@ -1,0 +1,95 @@
+{
+  "template_id": "merge_before_after_v3",
+  "template_name": "Merge Before/After V3 — Optimized UA Structure",
+  "version": "3.0",
+  "description": "V3: HOOK top, gameplay center-left, reward right, character bottom, CTA bottom-right",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "background",
+      "position": "full",
+      "x": 0, "y": 0, "width": 1.0, "height": 1.0,
+      "z_index": 0,
+      "content": "background",
+      "generator": "base_background"
+    },
+    {
+      "name": "text_area",
+      "position": "top",
+      "x": 0.0, "y": 0.04, "width": 1.0, "height": 0.16,
+      "z_index": 30,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "gameplay_area",
+      "position": "center_left",
+      "x": 0.05, "y": 0.24, "width": 0.52, "height": 0.48,
+      "z_index": 20,
+      "content": "ai_generated",
+      "generator": "gameplay_asset",
+      "feather_radius": 15,
+      "crop_strategy": "crop_center",
+      "crop_scale": 0.72
+    },
+    {
+      "name": "reward_area",
+      "position": "right_center",
+      "x": 0.60, "y": 0.22, "width": 0.35, "height": 0.50,
+      "z_index": 15,
+      "content": "ai_generated",
+      "generator": "reward_asset",
+      "feather_radius": 20,
+      "crop_strategy": "crop_center",
+      "crop_scale": 0.80
+    },
+    {
+      "name": "character_area",
+      "position": "bottom_center",
+      "x": 0.15, "y": 0.62, "width": 0.70, "height": 0.38,
+      "z_index": 18,
+      "content": "ai_generated",
+      "generator": "character_asset",
+      "feather_radius": 25,
+      "crop_strategy": "crop_bottom",
+      "crop_scale": 0.75
+    },
+    {
+      "name": "progression_area",
+      "position": "center_overlay",
+      "x": 0.15, "y": 0.28, "width": 0.70, "height": 0.15,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["evolution_timeline", "level_badges", "glow_burst"]
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0, "y": 0.84, "width": 1.0, "height": 0.16,
+      "z_index": 35,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "generation_config": {
+    "gameplay_config": {
+      "game_type": "merge_witches",
+      "progression": "egg_to_dragon",
+      "style": "3d_mobile_game"
+    },
+    "character_config": {
+      "character_type": "witch",
+      "pose": "dynamic_casting",
+      "direction": "right_toward_gameplay"
+    },
+    "reward_config": {
+      "reward_type": "legendary_dragon",
+      "rarity": "legendary",
+      "style": "premium_reward"
+    }
+  }
+}

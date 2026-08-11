@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -57,13 +57,6 @@ class Settings:
     meta_ad_account_id: str | None
     meta_api_version: str
     meta_creative_lookback_days: int
-    tecdo_app_id: str | None
-    tecdo_app_secret: str | None
-    tecdo_base_url: str
-    tecdo_media_accounts: list[dict[str, Any]]
-    tecdo_media_account_ids: list[str]
-    tecdo_probe_platforms: list[int]
-    tecdo_creative_lookback_days: int
     google_ads_developer_token: str | None
     google_ads_client_id: str | None
     google_ads_client_secret: str | None
@@ -73,6 +66,8 @@ class Settings:
     google_ads_creative_lookback_days: int
     creative_action_min_spend: float
     creative_action_min_roi: float
+    thinkingdata_base_url: str | None = field(default=None, kw_only=True)
+    thinkingdata_token: str | None = field(default=None, kw_only=True)
     adjust_api_token: str | None
     adjust_dashboard_config_path: Path | None
     feishu_bot_webhook: str | None
@@ -151,12 +146,16 @@ class Settings:
         return bool(self.feishu_app_id and self.feishu_app_secret)
 
     @property
+    def using_thinkingdata(self) -> bool:
+        return bool(self.thinkingdata_base_url and self.thinkingdata_token)
+
+    @property
     def using_meta_creative_source(self) -> bool:
         return bool(self.meta_access_token and self.meta_ad_account_id)
 
     @property
-    def using_tecdo_creative_source(self) -> bool:
-        return bool(self.tecdo_app_secret and self.tecdo_effective_media_accounts)
+    def using_api_creative_source(self) -> bool:
+        return self.using_meta_creative_source or self.using_google_creative_source
 
     @property
     def using_google_creative_source(self) -> bool:
@@ -167,25 +166,6 @@ class Settings:
             and self.google_ads_refresh_token
             and self.google_ads_customer_id
         )
-
-    @property
-    def using_api_creative_source(self) -> bool:
-        return self.using_meta_creative_source or self.using_tecdo_creative_source or self.using_google_creative_source
-
-    @property
-    def tecdo_effective_media_accounts(self) -> list[dict[str, Any]]:
-        if self.tecdo_media_accounts:
-            return list(self.tecdo_media_accounts)
-        accounts: list[dict[str, Any]] = []
-        for media_account_id in self.tecdo_media_account_ids:
-            for platform in self.tecdo_probe_platforms:
-                accounts.append(
-                    {
-                        "mediaPlatform": int(platform),
-                        "mediaAccountId": str(media_account_id),
-                    }
-                )
-        return accounts
 
     @property
     def trusted_detail_project_keys(self) -> set[str]:
@@ -317,42 +297,6 @@ def _project_sheet_sources_from_env(value: str | None) -> list[dict[str, str]]:
     return sources
 
 
-def _tecdo_media_accounts_from_env(value: str | None) -> list[dict[str, Any]]:
-    if not value:
-        return []
-    try:
-        payload = json.loads(value)
-    except json.JSONDecodeError:
-        return []
-    if not isinstance(payload, list):
-        return []
-
-    accounts: list[dict[str, Any]] = []
-    for item in payload:
-        if not isinstance(item, dict):
-            continue
-        media_platform = item.get("mediaPlatform")
-        media_account_id = str(item.get("mediaAccountId") or "").strip()
-        if media_platform in (None, "") or not media_account_id:
-            continue
-        try:
-            platform_value = int(media_platform)
-        except (TypeError, ValueError):
-            continue
-        account: dict[str, Any] = {
-            "mediaPlatform": platform_value,
-            "mediaAccountId": media_account_id,
-        }
-        game = str(item.get("game") or "").strip()
-        if game:
-            account["game"] = game
-        channel = str(item.get("channel") or "").strip()
-        if channel:
-            account["channel"] = channel
-        accounts.append(account)
-    return accounts
-
-
 def load_settings() -> Settings:
     load_dotenv()
     return Settings(
@@ -389,13 +333,6 @@ def load_settings() -> Settings:
         meta_ad_account_id=os.getenv("META_AD_ACCOUNT_ID") or None,
         meta_api_version=os.getenv("META_API_VERSION", "v22.0").strip(),
         meta_creative_lookback_days=int(os.getenv("META_CREATIVE_LOOKBACK_DAYS", "7")),
-        tecdo_app_id=os.getenv("TECDO_APP_ID") or None,
-        tecdo_app_secret=os.getenv("TECDO_APP_SECRET") or None,
-        tecdo_base_url=os.getenv("TECDO_BASE_URL", "https://open-power.tec-do.cn").strip().rstrip("/"),
-        tecdo_media_accounts=_tecdo_media_accounts_from_env(os.getenv("TECDO_MEDIA_ACCOUNTS_JSON")),
-        tecdo_media_account_ids=_id_list_from_env(os.getenv("TECDO_MEDIA_ACCOUNT_IDS")),
-        tecdo_probe_platforms=_int_list_from_env(os.getenv("TECDO_PROBE_PLATFORMS"), [1, 2]),
-        tecdo_creative_lookback_days=int(os.getenv("TECDO_CREATIVE_LOOKBACK_DAYS", "7")),
         google_ads_developer_token=os.getenv("GOOGLE_ADS_DEVELOPER_TOKEN") or None,
         google_ads_client_id=os.getenv("GOOGLE_ADS_CLIENT_ID") or None,
         google_ads_client_secret=os.getenv("GOOGLE_ADS_CLIENT_SECRET") or None,
@@ -405,6 +342,8 @@ def load_settings() -> Settings:
         google_ads_creative_lookback_days=int(os.getenv("GOOGLE_ADS_CREATIVE_LOOKBACK_DAYS", "7")),
         creative_action_min_spend=float(os.getenv("CREATIVE_ACTION_MIN_SPEND", "50")),
         creative_action_min_roi=float(os.getenv("CREATIVE_ACTION_MIN_ROI", "1.0")),
+        thinkingdata_base_url=os.getenv("THINKINGDATA_BASE_URL") or None,
+        thinkingdata_token=os.getenv("THINKINGDATA_TOKEN") or None,
         adjust_api_token=os.getenv("ADJUST_API_TOKEN") or None,
         adjust_dashboard_config_path=_optional_path(os.getenv("ADJUST_DASHBOARD_CONFIG_PATH")),
         feishu_bot_webhook=os.getenv("FEISHU_BOT_WEBHOOK") or None,

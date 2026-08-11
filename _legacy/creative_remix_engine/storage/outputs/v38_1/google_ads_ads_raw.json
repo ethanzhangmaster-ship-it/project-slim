@@ -1,0 +1,1027 @@
+{
+  "data": [
+    {
+      "ad_id": "ga_ad_000001",
+      "creative_id": "ga_hero_transformation_001",
+      "video_id": "ga_video_000001",
+      "thumbnail": "ga_thumb_000001.jpg",
+      "spend": 210.78,
+      "impressions": 90297,
+      "clicks": 2108,
+      "installs": 274,
+      "purchase": 11,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000002",
+      "creative_id": "ga_witch_urgency_002",
+      "video_id": "ga_video_000002",
+      "thumbnail": "ga_thumb_000002.jpg",
+      "spend": 127.21,
+      "impressions": 52509,
+      "clicks": 931,
+      "installs": 170,
+      "purchase": 11,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000003",
+      "creative_id": "ga_witch_challenge_003",
+      "video_id": "ga_video_000003",
+      "thumbnail": "ga_thumb_000003.jpg",
+      "spend": 471.5,
+      "impressions": 83577,
+      "clicks": 3732,
+      "installs": 833,
+      "purchase": 44,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000004",
+      "creative_id": "ga_witch_transformation_004",
+      "video_id": "ga_video_000004",
+      "thumbnail": "ga_thumb_000004.jpg",
+      "spend": 173.04,
+      "impressions": 49404,
+      "clicks": 1154,
+      "installs": 236,
+      "purchase": 15,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000005",
+      "creative_id": "ga_dragon_challenge_005",
+      "video_id": "ga_video_000005",
+      "thumbnail": "ga_thumb_000005.jpg",
+      "spend": 119.92,
+      "impressions": 75099,
+      "clicks": 1684,
+      "installs": 289,
+      "purchase": 18,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000006",
+      "creative_id": "ga_hero_transformation_006",
+      "video_id": "ga_video_000006",
+      "thumbnail": "ga_thumb_000006.jpg",
+      "spend": 146.68,
+      "impressions": 27114,
+      "clicks": 1076,
+      "installs": 207,
+      "purchase": 9,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000007",
+      "creative_id": "ga_hero_curiosity_007",
+      "video_id": "ga_video_000007",
+      "thumbnail": "ga_thumb_000007.jpg",
+      "spend": 500.79,
+      "impressions": 55851,
+      "clicks": 2296,
+      "installs": 603,
+      "purchase": 46,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000008",
+      "creative_id": "ga_witch_challenge_008",
+      "video_id": "ga_video_000008",
+      "thumbnail": "ga_thumb_000008.jpg",
+      "spend": 159.97,
+      "impressions": 40669,
+      "clicks": 859,
+      "installs": 190,
+      "purchase": 6,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000009",
+      "creative_id": "ga_dragon_transformation_009",
+      "video_id": "ga_video_000009",
+      "thumbnail": "ga_thumb_000009.jpg",
+      "spend": 98.31,
+      "impressions": 64042,
+      "clicks": 1399,
+      "installs": 237,
+      "purchase": 9,
+      "date": "2026-07-13",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000010",
+      "creative_id": "ga_castle_challenge_010",
+      "video_id": "ga_video_000010",
+      "thumbnail": "ga_thumb_000010.jpg",
+      "spend": 137.75,
+      "impressions": 60797,
+      "clicks": 2216,
+      "installs": 343,
+      "purchase": 31,
+      "date": "2026-06-15",
+      "dna": {
+        "hook": "challenge",
+        "subject": "castle",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000011",
+      "creative_id": "ga_hero_urgency_011",
+      "video_id": "ga_video_000011",
+      "thumbnail": "ga_thumb_000011.jpg",
+      "spend": 59.68,
+      "impressions": 29579,
+      "clicks": 472,
+      "installs": 103,
+      "purchase": 5,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000012",
+      "creative_id": "ga_castle_urgency_012",
+      "video_id": "ga_video_000012",
+      "thumbnail": "ga_thumb_000012.jpg",
+      "spend": 40.83,
+      "impressions": 13324,
+      "clicks": 508,
+      "installs": 72,
+      "purchase": 2,
+      "date": "2026-07-08",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000013",
+      "creative_id": "ga_witch_transformation_013",
+      "video_id": "ga_video_000013",
+      "thumbnail": "ga_thumb_000013.jpg",
+      "spend": 173.5,
+      "impressions": 25993,
+      "clicks": 1166,
+      "installs": 266,
+      "purchase": 17,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000014",
+      "creative_id": "ga_hero_transformation_014",
+      "video_id": "ga_video_000014",
+      "thumbnail": "ga_thumb_000014.jpg",
+      "spend": 269.98,
+      "impressions": 97175,
+      "clicks": 2137,
+      "installs": 341,
+      "purchase": 29,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000015",
+      "creative_id": "ga_dragon_curiosity_015",
+      "video_id": "ga_video_000015",
+      "thumbnail": "ga_thumb_000015.jpg",
+      "spend": 31.63,
+      "impressions": 8712,
+      "clicks": 233,
+      "installs": 42,
+      "purchase": 3,
+      "date": "2026-07-01",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000016",
+      "creative_id": "ga_hero_challenge_016",
+      "video_id": "ga_video_000016",
+      "thumbnail": "ga_thumb_000016.jpg",
+      "spend": 868.23,
+      "impressions": 115082,
+      "clicks": 4590,
+      "installs": 1019,
+      "purchase": 69,
+      "date": "2026-07-07",
+      "dna": {
+        "hook": "challenge",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000017",
+      "creative_id": "ga_witch_challenge_017",
+      "video_id": "ga_video_000017",
+      "thumbnail": "ga_thumb_000017.jpg",
+      "spend": 81.16,
+      "impressions": 37039,
+      "clicks": 1036,
+      "installs": 153,
+      "purchase": 5,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000018",
+      "creative_id": "ga_hero_challenge_018",
+      "video_id": "ga_video_000018",
+      "thumbnail": "ga_thumb_000018.jpg",
+      "spend": 337.41,
+      "impressions": 117896,
+      "clicks": 2231,
+      "installs": 591,
+      "purchase": 44,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "challenge",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000019",
+      "creative_id": "ga_castle_challenge_019",
+      "video_id": "ga_video_000019",
+      "thumbnail": "ga_thumb_000019.jpg",
+      "spend": 31.42,
+      "impressions": 11996,
+      "clicks": 186,
+      "installs": 39,
+      "purchase": 2,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "challenge",
+        "subject": "castle",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000020",
+      "creative_id": "ga_dragon_curiosity_020",
+      "video_id": "ga_video_000020",
+      "thumbnail": "ga_thumb_000020.jpg",
+      "spend": 267.82,
+      "impressions": 74160,
+      "clicks": 2359,
+      "installs": 584,
+      "purchase": 18,
+      "date": "2026-06-30",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000021",
+      "creative_id": "ga_hero_urgency_021",
+      "video_id": "ga_video_000021",
+      "thumbnail": "ga_thumb_000021.jpg",
+      "spend": 91.32,
+      "impressions": 43318,
+      "clicks": 913,
+      "installs": 159,
+      "purchase": 8,
+      "date": "2026-07-12",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000022",
+      "creative_id": "ga_hero_curiosity_022",
+      "video_id": "ga_video_000022",
+      "thumbnail": "ga_thumb_000022.jpg",
+      "spend": 512.78,
+      "impressions": 78015,
+      "clicks": 3010,
+      "installs": 650,
+      "purchase": 53,
+      "date": "2026-06-29",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000023",
+      "creative_id": "ga_dragon_urgency_023",
+      "video_id": "ga_video_000023",
+      "thumbnail": "ga_thumb_000023.jpg",
+      "spend": 271.63,
+      "impressions": 42674,
+      "clicks": 1680,
+      "installs": 433,
+      "purchase": 31,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000024",
+      "creative_id": "ga_castle_curiosity_024",
+      "video_id": "ga_video_000024",
+      "thumbnail": "ga_thumb_000024.jpg",
+      "spend": 91.87,
+      "impressions": 29266,
+      "clicks": 712,
+      "installs": 156,
+      "purchase": 4,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000025",
+      "creative_id": "ga_dragon_challenge_025",
+      "video_id": "ga_video_000025",
+      "thumbnail": "ga_thumb_000025.jpg",
+      "spend": 354.97,
+      "impressions": 118440,
+      "clicks": 3328,
+      "installs": 670,
+      "purchase": 41,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000026",
+      "creative_id": "ga_witch_curiosity_026",
+      "video_id": "ga_video_000026",
+      "thumbnail": "ga_thumb_000026.jpg",
+      "spend": 48.43,
+      "impressions": 16632,
+      "clicks": 521,
+      "installs": 102,
+      "purchase": 3,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000027",
+      "creative_id": "ga_dragon_transformation_027",
+      "video_id": "ga_video_000027",
+      "thumbnail": "ga_thumb_000027.jpg",
+      "spend": 276.48,
+      "impressions": 70496,
+      "clicks": 2344,
+      "installs": 611,
+      "purchase": 45,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000028",
+      "creative_id": "ga_castle_curiosity_028",
+      "video_id": "ga_video_000028",
+      "thumbnail": "ga_thumb_000028.jpg",
+      "spend": 282.7,
+      "impressions": 66201,
+      "clicks": 1789,
+      "installs": 388,
+      "purchase": 35,
+      "date": "2026-07-11",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000029",
+      "creative_id": "ga_castle_transformation_029",
+      "video_id": "ga_video_000029",
+      "thumbnail": "ga_thumb_000029.jpg",
+      "spend": 54.81,
+      "impressions": 11078,
+      "clicks": 405,
+      "installs": 65,
+      "purchase": 2,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "transformation",
+        "subject": "castle",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000030",
+      "creative_id": "ga_hero_curiosity_030",
+      "video_id": "ga_video_000030",
+      "thumbnail": "ga_thumb_000030.jpg",
+      "spend": 387.13,
+      "impressions": 85398,
+      "clicks": 1857,
+      "installs": 446,
+      "purchase": 16,
+      "date": "2026-06-29",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000031",
+      "creative_id": "ga_hero_challenge_031",
+      "video_id": "ga_video_000031",
+      "thumbnail": "ga_thumb_000031.jpg",
+      "spend": 161.86,
+      "impressions": 23745,
+      "clicks": 974,
+      "installs": 183,
+      "purchase": 14,
+      "date": "2026-06-20",
+      "dna": {
+        "hook": "challenge",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000032",
+      "creative_id": "ga_dragon_challenge_032",
+      "video_id": "ga_video_000032",
+      "thumbnail": "ga_thumb_000032.jpg",
+      "spend": 37.56,
+      "impressions": 12946,
+      "clicks": 243,
+      "installs": 58,
+      "purchase": 2,
+      "date": "2026-06-24",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000033",
+      "creative_id": "ga_dragon_transformation_033",
+      "video_id": "ga_video_000033",
+      "thumbnail": "ga_thumb_000033.jpg",
+      "spend": 27.12,
+      "impressions": 12961,
+      "clicks": 347,
+      "installs": 58,
+      "purchase": 5,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000034",
+      "creative_id": "ga_witch_curiosity_034",
+      "video_id": "ga_video_000034",
+      "thumbnail": "ga_thumb_000034.jpg",
+      "spend": 185.81,
+      "impressions": 102762,
+      "clicks": 1745,
+      "installs": 393,
+      "purchase": 34,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000035",
+      "creative_id": "ga_witch_transformation_035",
+      "video_id": "ga_video_000035",
+      "thumbnail": "ga_thumb_000035.jpg",
+      "spend": 361.55,
+      "impressions": 62746,
+      "clicks": 1961,
+      "installs": 409,
+      "purchase": 29,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000036",
+      "creative_id": "ga_castle_urgency_036",
+      "video_id": "ga_video_000036",
+      "thumbnail": "ga_thumb_000036.jpg",
+      "spend": 133.82,
+      "impressions": 63610,
+      "clicks": 1481,
+      "installs": 233,
+      "purchase": 13,
+      "date": "2026-06-23",
+      "dna": {
+        "hook": "urgency",
+        "subject": "castle",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000037",
+      "creative_id": "ga_hero_urgency_037",
+      "video_id": "ga_video_000037",
+      "thumbnail": "ga_thumb_000037.jpg",
+      "spend": 446.99,
+      "impressions": 98803,
+      "clicks": 2328,
+      "installs": 662,
+      "purchase": 35,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000038",
+      "creative_id": "ga_witch_curiosity_038",
+      "video_id": "ga_video_000038",
+      "thumbnail": "ga_thumb_000038.jpg",
+      "spend": 313.42,
+      "impressions": 54907,
+      "clicks": 2202,
+      "installs": 353,
+      "purchase": 15,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000039",
+      "creative_id": "ga_dragon_urgency_039",
+      "video_id": "ga_video_000039",
+      "thumbnail": "ga_thumb_000039.jpg",
+      "spend": 527.85,
+      "impressions": 81309,
+      "clicks": 2894,
+      "installs": 594,
+      "purchase": 22,
+      "date": "2026-06-28",
+      "dna": {
+        "hook": "urgency",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000040",
+      "creative_id": "ga_hero_curiosity_040",
+      "video_id": "ga_video_000040",
+      "thumbnail": "ga_thumb_000040.jpg",
+      "spend": 193.48,
+      "impressions": 86925,
+      "clicks": 1826,
+      "installs": 335,
+      "purchase": 16,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000041",
+      "creative_id": "ga_hero_transformation_041",
+      "video_id": "ga_video_000041",
+      "thumbnail": "ga_thumb_000041.jpg",
+      "spend": 53.97,
+      "impressions": 41619,
+      "clicks": 878,
+      "installs": 126,
+      "purchase": 11,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "transformation",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000042",
+      "creative_id": "ga_hero_urgency_042",
+      "video_id": "ga_video_000042",
+      "thumbnail": "ga_thumb_000042.jpg",
+      "spend": 336.57,
+      "impressions": 75303,
+      "clicks": 1997,
+      "installs": 575,
+      "purchase": 31,
+      "date": "2026-06-25",
+      "dna": {
+        "hook": "urgency",
+        "subject": "hero",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000043",
+      "creative_id": "ga_hero_curiosity_043",
+      "video_id": "ga_video_000043",
+      "thumbnail": "ga_thumb_000043.jpg",
+      "spend": 365.19,
+      "impressions": 49674,
+      "clicks": 2211,
+      "installs": 582,
+      "purchase": 58,
+      "date": "2026-06-16",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000044",
+      "creative_id": "ga_castle_curiosity_044",
+      "video_id": "ga_video_000044",
+      "thumbnail": "ga_thumb_000044.jpg",
+      "spend": 239.35,
+      "impressions": 73022,
+      "clicks": 2589,
+      "installs": 489,
+      "purchase": 16,
+      "date": "2026-07-10",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "castle",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000045",
+      "creative_id": "ga_dragon_curiosity_045",
+      "video_id": "ga_video_000045",
+      "thumbnail": "ga_thumb_000045.jpg",
+      "spend": 533.95,
+      "impressions": 97573,
+      "clicks": 3588,
+      "installs": 792,
+      "purchase": 32,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000046",
+      "creative_id": "ga_dragon_challenge_046",
+      "video_id": "ga_video_000046",
+      "thumbnail": "ga_thumb_000046.jpg",
+      "spend": 69.7,
+      "impressions": 51954,
+      "clicks": 996,
+      "installs": 165,
+      "purchase": 7,
+      "date": "2026-07-04",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000047",
+      "creative_id": "ga_witch_challenge_047",
+      "video_id": "ga_video_000047",
+      "thumbnail": "ga_thumb_000047.jpg",
+      "spend": 501.59,
+      "impressions": 83203,
+      "clicks": 2405,
+      "installs": 579,
+      "purchase": 48,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000048",
+      "creative_id": "ga_witch_curiosity_048",
+      "video_id": "ga_video_000048",
+      "thumbnail": "ga_thumb_000048.jpg",
+      "spend": 208.57,
+      "impressions": 73593,
+      "clicks": 2070,
+      "installs": 344,
+      "purchase": 19,
+      "date": "2026-06-18",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000049",
+      "creative_id": "ga_witch_challenge_049",
+      "video_id": "ga_video_000049",
+      "thumbnail": "ga_thumb_000049.jpg",
+      "spend": 204.17,
+      "impressions": 50610,
+      "clicks": 1803,
+      "installs": 279,
+      "purchase": 22,
+      "date": "2026-07-02",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000050",
+      "creative_id": "ga_witch_transformation_050",
+      "video_id": "ga_video_000050",
+      "thumbnail": "ga_thumb_000050.jpg",
+      "spend": 325.69,
+      "impressions": 41026,
+      "clicks": 1755,
+      "installs": 380,
+      "purchase": 14,
+      "date": "2026-06-17",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000051",
+      "creative_id": "ga_witch_transformation_051",
+      "video_id": "ga_video_000051",
+      "thumbnail": "ga_thumb_000051.jpg",
+      "spend": 44.25,
+      "impressions": 12120,
+      "clicks": 506,
+      "installs": 104,
+      "purchase": 7,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "upgrade"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000052",
+      "creative_id": "ga_witch_challenge_052",
+      "video_id": "ga_video_000052",
+      "thumbnail": "ga_thumb_000052.jpg",
+      "spend": 216.32,
+      "impressions": 57945,
+      "clicks": 1722,
+      "installs": 298,
+      "purchase": 18,
+      "date": "2026-07-05",
+      "dna": {
+        "hook": "challenge",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000053",
+      "creative_id": "ga_witch_urgency_053",
+      "video_id": "ga_video_000053",
+      "thumbnail": "ga_thumb_000053.jpg",
+      "spend": 132.51,
+      "impressions": 37204,
+      "clicks": 1578,
+      "installs": 240,
+      "purchase": 17,
+      "date": "2026-07-06",
+      "dna": {
+        "hook": "urgency",
+        "subject": "witch",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000054",
+      "creative_id": "ga_dragon_challenge_054",
+      "video_id": "ga_video_000054",
+      "thumbnail": "ga_thumb_000054.jpg",
+      "spend": 308.2,
+      "impressions": 41542,
+      "clicks": 1740,
+      "installs": 459,
+      "purchase": 18,
+      "date": "2026-06-13",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000055",
+      "creative_id": "ga_witch_transformation_055",
+      "video_id": "ga_video_000055",
+      "thumbnail": "ga_thumb_000055.jpg",
+      "spend": 870.19,
+      "impressions": 91649,
+      "clicks": 4120,
+      "installs": 1142,
+      "purchase": 114,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000056",
+      "creative_id": "ga_castle_transformation_056",
+      "video_id": "ga_video_000056",
+      "thumbnail": "ga_thumb_000056.jpg",
+      "spend": 498.42,
+      "impressions": 81330,
+      "clicks": 3220,
+      "installs": 918,
+      "purchase": 82,
+      "date": "2026-06-14",
+      "dna": {
+        "hook": "transformation",
+        "subject": "castle",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000057",
+      "creative_id": "ga_hero_curiosity_057",
+      "video_id": "ga_video_000057",
+      "thumbnail": "ga_thumb_000057.jpg",
+      "spend": 124.14,
+      "impressions": 37135,
+      "clicks": 1192,
+      "installs": 242,
+      "purchase": 19,
+      "date": "2026-06-27",
+      "dna": {
+        "hook": "curiosity",
+        "subject": "hero",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000058",
+      "creative_id": "ga_witch_transformation_058",
+      "video_id": "ga_video_000058",
+      "thumbnail": "ga_thumb_000058.jpg",
+      "spend": 56.76,
+      "impressions": 13489,
+      "clicks": 437,
+      "installs": 106,
+      "purchase": 5,
+      "date": "2026-06-19",
+      "dna": {
+        "hook": "transformation",
+        "subject": "witch",
+        "gameplay": "merge"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000059",
+      "creative_id": "ga_dragon_challenge_059",
+      "video_id": "ga_video_000059",
+      "thumbnail": "ga_thumb_000059.jpg",
+      "spend": 78.93,
+      "impressions": 11563,
+      "clicks": 437,
+      "installs": 112,
+      "purchase": 5,
+      "date": "2026-07-03",
+      "dna": {
+        "hook": "challenge",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    },
+    {
+      "ad_id": "ga_ad_000060",
+      "creative_id": "ga_dragon_transformation_060",
+      "video_id": "ga_video_000060",
+      "thumbnail": "ga_thumb_000060.jpg",
+      "spend": 106.38,
+      "impressions": 51925,
+      "clicks": 1085,
+      "installs": 179,
+      "purchase": 11,
+      "date": "2026-06-21",
+      "dna": {
+        "hook": "transformation",
+        "subject": "dragon",
+        "gameplay": "battle"
+      }
+    }
+  ],
+  "timestamp": "2026-07-13T14:14:46.492983",
+  "source": "google_ads",
+  "is_mocked": true
+}

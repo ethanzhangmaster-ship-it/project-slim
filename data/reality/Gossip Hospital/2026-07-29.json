@@ -1,0 +1,45 @@
+{
+  "game_id": "Gossip Hospital",
+  "as_of": "2026-07-29",
+  "saved_at": "2026-07-30T01:24:05.480026+00:00",
+  "snapshot": {
+    "game_id": "Gossip Hospital",
+    "timestamp": "2026-07-29",
+    "revenue": {
+      "daily_revenue": 0.05,
+      "payer_count": 0,
+      "arpdau": 0.0007,
+      "ltv": 0.0,
+      "impressions": 77,
+      "requests": 660,
+      "ecpm": 5.5054,
+      "rewarded_video_revenue": 0.05,
+      "network_distribution": {
+        "FACEBOOK_NETWORK": 0.0,
+        "CHARTBOOST_NETWORK": 0.0,
+        "APPLOVIN_NETWORK": 0.7766,
+        "APPLOVIN_EXCHANGE": 0.2234
+      }
+    },
+    "acquisition": null,
+    "aso": null,
+    "creative": null,
+    "product": {
+      "dau": 63,
+      "retention": 0.0,
+      "conversion": 0.0,
+      "release_status": null
+    },
+    "confidence": 0.4,
+    "sources": [
+      "registry",
+      "max_live"
+    ],
+    "real_confidence": 0.4,
+    "real_domains": [
+      "product",
+      "revenue"
+    ],
+    "attribution": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "last_ingestion_at": 1782882426,
+  "total_ingestions": 1,
+  "total_events_processed": 55,
+  "ingestion_history": [
+    {
+      "ingestion_id": "ingest_3047079c",
+      "source": "runtime_tracking",
+      "events": 55,
+      "timestamp": 1782882426
+    }
+  ]
+}

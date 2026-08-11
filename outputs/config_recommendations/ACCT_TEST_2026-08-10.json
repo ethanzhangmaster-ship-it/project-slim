@@ -1,0 +1,15 @@
+{
+  "account": "ACCT_TEST",
+  "period": {
+    "start": "2026-08-01",
+    "end": "2026-08-10"
+  },
+  "generated_at": "2026-08-11",
+  "overall_blend_ecpm": 0.0,
+  "summary": {
+    "segments": 0,
+    "demote_candidates": 0,
+    "floor_suggestions": 0
+  },
+  "segments": []
+}

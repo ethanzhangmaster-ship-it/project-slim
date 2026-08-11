@@ -1,0 +1,164 @@
+{
+  "account": "ACCT_3",
+  "experiments": [
+    {
+      "exp_id": "ac13642b33f6",
+      "account": "ACCT_3",
+      "title": "Disable CHARTBOOST_BIDDING",
+      "hypothesis": "Removing the zombie frees waterfall slots for higher-eCPM networks; the zombie_network signal clears (network exits the report).",
+      "action_type": "disable_network",
+      "target": "CHARTBOOST_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "free 1,099 requests (revenue loss < $0.00)"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "signal still firing (6/14d); user guardrail pass — keep watching",
+      "last_arpdau_guardrail": "pass",
+      "last_arpdau_delta_pct": 251.25351652963212,
+      "baseline_user_metrics": {
+        "account": "ACCT_3",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "adjust",
+        "note": "Adjust avg_dau summed over 4 app(s)",
+        "dau": 34,
+        "arpdau": 0.64339,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST_BIDDING 消耗 1,099 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.07,
+      "metric_baseline": 0.6433882941176471,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "ed8a9e7312ef",
+      "account": "ACCT_3",
+      "title": "Quarantine & watch CHARTBOOST_BIDDING (7d)",
+      "hypothesis": "If the protected network is truly zombie, 7d isolation confirms it; the zombie_network signal clears on disable.",
+      "action_type": "quarantine_network",
+      "target": "CHARTBOOST_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "looks zombie but protected (sole filler in ar, au, bb, bd, bg, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, ee, es, fr, gb, gd, gf, gh, gq, gy, hk, ht, hu, id, in, iq, it, jm, kh, kr, kw, lt, ly, mx, my, nc, nr, nz, pa, ph, pk, pl, pr, re, ro, ru, se, sg, sl, sr, th, tr, tw, us, uz, vc, wf, za) — confirm 7d before disabling"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "signal still firing (6/14d); user guardrail pass — keep watching",
+      "last_arpdau_guardrail": "pass",
+      "last_arpdau_delta_pct": 32.09553257775467,
+      "baseline_user_metrics": {
+        "account": "ACCT_3",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "adjust",
+        "note": "Adjust avg_dau summed over 4 app(s)",
+        "dau": 34,
+        "arpdau": 1.71083,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST_BIDDING 消耗 3,337 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：隔离观察 7 天后禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.12,
+      "metric_baseline": 1.7108263529411756,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "d304fbdc8031",
+      "account": "ACCT_3",
+      "title": "Quarantine & watch IRONSOURCE_BIDDING (7d)",
+      "hypothesis": "If the protected network is truly zombie, 7d isolation confirms it; the zombie_network signal clears on disable.",
+      "action_type": "quarantine_network",
+      "target": "IRONSOURCE_BIDDING",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "looks zombie but protected (sole filler in ar, au, bb, bd, bg, br, ca, cd, ci, cl, co, de, dk, do, dz, ec, ee, es, fr, gb, gd, gf, gh, gq, gy, hk, ht, hu, id, in, iq, it, jm, kh, kr, kw, lt, ly, mx, my, nc, nr, nz, pa, pe, ph, pk, pl, pr, re, ro, ru, se, sg, sl, sr, th, tr, tw, us, uz, vc, wf, za) — confirm 7d before disabling"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "IRONSOURCE_BIDDING"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "signal still firing (6/14d); user guardrail pass — keep watching",
+      "last_arpdau_guardrail": "pass",
+      "last_arpdau_delta_pct": 32.09553257775467,
+      "baseline_user_metrics": {
+        "account": "ACCT_3",
+        "period": {
+          "start": "2026-07-14",
+          "end": "2026-07-23"
+        },
+        "available": true,
+        "source": "adjust",
+        "note": "Adjust avg_dau summed over 4 app(s)",
+        "dau": 34,
+        "arpdau": 1.71083,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：IRONSOURCE_BIDDING 消耗 2,113 请求仅产生 $0.00（僵尸）",
+      "variant_b": "变体(B)：隔离观察 7 天后禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.71,
+      "metric_baseline": 1.7108263529411756,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    }
+  ]
+}

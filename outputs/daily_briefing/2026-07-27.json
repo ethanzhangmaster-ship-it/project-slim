@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-27",
+  "window": {
+    "start": "2026-07-17",
+    "end": "2026-07-26"
+  },
+  "accounts_total": 1,
+  "ok": 1,
+  "fail": 0,
+  "results": [
+    {
+      "account": "ACCT_TEST",
+      "status": "OK",
+      "seconds": 0.0,
+      "rows": 14,
+      "health": 80,
+      "opportunity": 7,
+      "risk": 92,
+      "revenue": 77.0,
+      "blended_ecpm": 24.44,
+      "actions": 3,
+      "loop_resolved": 0,
+      "loop_open": 0,
+      "early_warnings": 0,
+      "config_segments": 2,
+      "notified": false,
+      "notify_error": null,
+      "paths": {
+        "markdown": "outputs/monetization_reports\\ACCT_TEST_2026-07-27.md",
+        "json": "outputs/monetization_reports\\ACCT_TEST_2026-07-27.json",
+        "config_markdown": "outputs/config_recommendations\\ACCT_TEST_2026-07-26.md",
+        "config_json": "outputs/config_recommendations\\ACCT_TEST_2026-07-26.json"
+      }
+    }
+  ],
+  "fleet": {
+    "status": "OK",
+    "accounts": [
+      "ACCT_TEST"
+    ],
+    "games": 1,
+    "verdicts": 1,
+    "path": "outputs\\fleet_verdicts\\2026-07-27.md",
+    "markdown": "# 真实舰队每日判决\n\n## ACCT_TEST\n\n| 判决 | 游戏 | 单游戏 Rev/DAU | 理由 |\n|---|---|---|---|\n| SCALE | Winner Game | ✅$0.0197 | replicate pattern |",
+    "notified": false
+  },
+  "growth": {
+    "status": "OK",
+    "opportunities": 22,
+    "markdown": "# 🎮 每周新游戏机会（自动发现）\n\n_生成 2026-07-27 · 数据源：Growth OS（真实市场信号已接入（mock + 真实源合并））_\n\n共发现 **22** 条去重机会，按综合分排序，Top 5：\n\n| # | 机会 | 来源 | 综合分 | 目标市场 | 信号 |\n|---|---|---|---|---|---|\n| 1 | merge × vampire | [MOCK] | 0.792 | US,DE,JP | [MOCK] proven in our fleet (Merge Monster) + ... |\n| 2 | word × wortland | public_chart | 0.759 | DE | [CHART-CACHE] Apple top-free Games DE #2 Wort... |\n| 3 | word × zen | [MOCK] | 0.755 | US | [MOCK] word + relax niche trending on TikTok ... |\n| 4 | sort × color | [MOCK] | 0.732 | US | [MOCK] sort/color emerging hypercasual->casua... |\n| 5 | word × word | public_chart | 0.731 | JP | [CHART-CACHE] Apple top-free Games JP #3 Word... |\n\n---\n\n- 🟢 已落盘 `data/market_opportunities.json`，Factory Brain 自动进入 spec 流水线\n- 🔧 真市场源（App Store 排名 / TikTok 话题 / Sensor Tower 等）接入后，\n  仅需注册一个 adapter + 配 endpoint，整条链路不动\n- 📌 本卡为只读发现，未对任一外部系统执行写操作\n",
+    "file": "outputs/growth\\2026-07-27.md",
+    "notified": false
+  },
+  "store": {
+    "status": "disabled",
+    "real_api_called": false,
+    "games": 57,
+    "markdown": "_未激活：dry_run 安全模式（设 LAUNCHFORGE_STORE_LIVE=1 即出真实上架状态）_\n| 游戏 | 平台 | 状态 | 版本 | 备注 |\n|---|---|---|---|---|\n| 2022fruit_veg_quiz | Android | 未知 | — | store status backflow not active |\n| adivinar_palabras_desaf_o | Android | 未知 | — | store status backflow not active |\n| be_a_master_chef | Android | 未知 | — | store status backflow not active |\n| be_a_super_model_merge_slay | Android | 未知 | — | store status backflow not active |\n| bibbia_quiz | Android | 未知 | — | store status backflow not active |\n| bible_feud_trivia | Android | 未知 | — | store status backflow not active |\n| bible_quiz | Android | 未知 | — | store status backflow not active |\n| bible_quizzes | Android | 未知 | — | store status backflow not active |\n| bible_trivia | Android | 未知 | — | store status backflow not active |\n| bible_trivia_master | Android | 未知 | — | store status backflow not active |\n| bible_word_cross | Android | 未知 | — | store status backflow not active |\n| bible_word_trivia | Android | 未知 | — | store status backflow not active |\n| com_bibleverse_collect_ios | iOS | 未知 | — | store status backflow not active |\n| com_bibleword_encryption_challenge_trivia | Android | 未知 | — | store status backflow not active |\n| com_born2play_biblequiz | Android | 未知 | — | store status backflow not active |\n| com_daily_leisure_feud_trivia_ios | iOS | 未知 | — | store status backflow not active |\n| com_lilijoy_monster | Android | 未知 | — | store status backflow not active |\n| com_movie_trivia_quiz_fun_test_ios | iOS | 未知 | — | store status backflow not active |\n| com_quiz_master_trivia_ios | iOS | 未知 | — | store status backflow not active |\n| com_travel_quiz_trivia | Android | 未知 | — | store status backflow not active |\n| daily_bible_quiz | Android | 未知 | — | store status backflow not active |\n| daily_codewords | Android | 未知 | — | store status backflow not active |\n| drama_hospital_asmr_care | Android | 未知 | — | store status backflow not active |\n| drama_hospital_doctor_asmr | Android | 未知 | — | store status backflow not active |\n| estrela_b_blica | Android | 未知 | — | store status backflow not active |\n| estrella_b_blica | Android | 未知 | — | store status backflow not active |\n| fill_in_crossword_puzzles | Android | 未知 | — | store status backflow not active |\n| food_trivia_master | Android | 未知 | — | store status backflow not active |\n| geography_quiz | Android | 未知 | — | store status backflow not active |\n| gossip_hospital | Android | 未知 | — | store status backflow not active |\n| grammar_fun_quizzes | Android | 未知 | — | store status backflow not active |\n| hospital_fever_super_stylist | Android | 未知 | — | store status backflow not active |\n| islamic_quiz | Android | 未知 | — | store status backflow not active |\n| leisure_feud_trivia | Android | 未知 | — | store status backflow not active |\n| math_quiz | Android | 未知 | — | store status backflow not active |\n| merge_legend | Android | 未知 | — | store status backflow not active |\n| merge_legend_atlantis_mermaid | Android | 未知 | — | store status backflow not active |\n| merge_monster_vampire_mansion | Android | 未知 | — | store status backflow not active |\n| merge_witches | Android | 未知 | — | store status backflow not active |\n| millionaire_quiz | Android | 未知 | — | store status backflow not active |\n| movie_quiz | Android | 未知 | — | store status backflow not active |\n| movie_talent | Android | 未知 | — | store status backflow not active |\n| movie_trivia_master | Android | 未知 | — | store status backflow not active |\n| newfood_quiz | Android | 未知 | — | store status backflow not active |\n| preguntas_de_la_biblia | Android | 未知 | — | store status backflow not active |\n| quiz_b_blico | Android | 未知 | — | store status backflow not active |\n| quiz_biblique | Android | 未知 | — | store status backflow not active |\n| quiz_master | Android | 未知 | — | store status backflow not active |\n| spelling_trivia_master | Android | 未知 | — | store status backflow not active |\n| spelling_master_tricky_word_spelling_game | Android | 未知 | — | store status backflow not active |\n| stella_s_salon_drama_makeover | Android | 未知 | — | store status backflow not active |\n| toy_quiz_en | Android | 未知 | — | store status backflow not active |\n| word_tile_master | Android | 未知 | — | store status backflow not active |\n| wrestling_quiz | Android | 未知 | — | store status backflow not active |\n| wrestling_trivia | Android | 未知 | — | store status backflow not active |\n| game_8ce5d80b30 | Android | 未知 | — | store status backflow not active |\n| com.ofwsalary.ofwcalculator | Android | 未知 | — | store status backflow not active |",
+    "notified": false
+  },
+  "production": {
+    "status": "OK",
+    "community_configured": false,
+    "tester_count": 0,
+    "group_count": 0,
+    "tracked_packages": 0,
+    "ready_packages": 0,
+    "markdown": "5️⃣ Production Readiness — no apps tracked yet\n   Invite the closed-testing community to your first new app with:\n     python -m operation.publishing_factory.tester_community invite <package>\n",
+    "notified": false
+  },
+  "digest": {
+    "notified": false,
+    "notify_error": null,
+    "markdown": "# 🌅 LaunchForge 每日全量晨报\n\n_生成 2026-07-27 · 数据窗口 2026-07-17 ~ 2026-07-26_\n_亮灯：1 账户正常 / 0 异常 · 舰队 1 款 · 新游机会 22 条 · 上架 57 款 · 待产 0 款_\n\n## 1️⃣ 营收诊断 · Revenue OS\n\n| 账户 | 健康 | 机会 | 风险 | 营收$ | 混合eCPM | 动作 |\n|---|---|---|---|---|---|---|\n| ACCT_TEST | 80 | 7 | 92 | 77.0 | 24.44 | 3 |\n\n---\n\n## 2️⃣ 真实舰队判决 · Fleet Verdicts\n\n## ACCT_TEST\n\n| 判决 | 游戏 | 单游戏 Rev/DAU | 理由 |\n|---|---|---|---|\n| SCALE | Winner Game | ✅$0.0197 | replicate pattern |\n\n---\n\n## 3️⃣ 新游机会 · Growth\n\n_生成 2026-07-27 · 数据源：Growth OS（真实市场信号已接入（mock + 真实源合并））_\n\n共发现 **22** 条去重机会，按综合分排序，Top 5：\n\n| # | 机会 | 来源 | 综合分 | 目标市场 | 信号 |\n|---|---|---|---|---|---|\n| 1 | merge × vampire | [MOCK] | 0.792 | US,DE,JP | [MOCK] proven in our fleet (Merge Monster) + ... |\n| 2 | word × wortland | public_chart | 0.759 | DE | [CHART-CACHE] Apple top-free Games DE #2 Wort... |\n| 3 | word × zen | [MOCK] | 0.755 | US | [MOCK] word + relax niche trending on TikTok ... |\n| 4 | sort × color | [MOCK] | 0.732 | US | [MOCK] sort/color emerging hypercasual->casua... |\n| 5 | word × word | public_chart | 0.731 | JP | [CHART-CACHE] Apple top-free Games JP #3 Word... |\n\n---\n\n- 🟢 已落盘 `data/market_opportunities.json`，Factory Brain 自动进入 spec 流水线\n- 🔧 真市场源（App Store 排名 / TikTok 话题 / Sensor Tower 等）接入后，\n  仅需注册一个 adapter + 配 endpoint，整条链路不动\n- 📌 本卡为只读发现，未对任一外部系统执行写操作\n\n---\n\n## 4️⃣ 上架状态 · Store Status\n\n_未激活：dry_run 安全模式（设 LAUNCHFORGE_STORE_LIVE=1 即出真实上架状态）_\n| 游戏 | 平台 | 状态 | 版本 | 备注 |\n|---|---|---|---|---|\n| 2022fruit_veg_quiz | Android | 未知 | — | store status backflow not active |\n| adivinar_palabras_desaf_o | Android | 未知 | — | store status backflow not active |\n| be_a_master_chef | Android | 未知 | — | store status backflow not active |\n| be_a_super_model_merge_slay | Android | 未知 | — | store status backflow not active |\n| bibbia_quiz | Android | 未知 | — | store status backflow not active |\n| bible_feud_trivia | Android | 未知 | — | store status backflow not active |\n| bible_quiz | Android | 未知 | — | store status backflow not active |\n| bible_quizzes | Android | 未知 | — | store status backflow not active |\n| bible_trivia | Android | 未知 | — | store status backflow not active |\n| bible_trivia_master | Android | 未知 | — | store status backflow not active |\n| bible_word_cross | Android | 未知 | — | store status backflow not active |\n| bible_word_trivia | Android | 未知 | — | store status backflow not active |\n| com_bibleverse_collect_ios | iOS | 未知 | — | store status backflow not active |\n| com_bibleword_encryption_challenge_trivia | Android | 未知 | — | store status backflow not active |\n| com_born2play_biblequiz | Android | 未知 | — | store status backflow not active |\n| com_daily_leisure_feud_trivia_ios | iOS | 未知 | — | store status backflow not active |\n| com_lilijoy_monster | Android | 未知 | — | store status backflow not active |\n| com_movie_trivia_quiz_fun_test_ios | iOS | 未知 | — | store status backflow not active |\n| com_quiz_master_trivia_ios | iOS | 未知 | — | store status backflow not active |\n| com_travel_quiz_trivia | Android | 未知 | — | store status backflow not active |\n| daily_bible_quiz | Android | 未知 | — | store status backflow not active |\n| daily_codewords | Android | 未知 | — | store status backflow not active |\n| drama_hospital_asmr_care | Android | 未知 | — | store status backflow not active |\n| drama_hospital_doctor_asmr | Android | 未知 | — | store status backflow not active |\n| estrela_b_blica | Android | 未知 | — | store status backflow not active |\n| estrella_b_blica | Android | 未知 | — | store status backflow not active |\n| fill_in_crossword_puzzles | Android | 未知 | — | store status backflow not active |\n| food_trivia_master | Android | 未知 | — | store status backflow not active |\n| geography_quiz | Android | 未知 | — | store status backflow not active |\n| gossip_hospital | Android | 未知 | — | store status backflow not active |\n| grammar_fun_quizzes | Android | 未知 | — | store status backflow not active |\n| hospital_fever_super_stylist | Android | 未知 | — | store status backflow not active |\n| islamic_quiz | Android | 未知 | — | store status backflow not active |\n| leisure_feud_trivia | Android | 未知 | — | store status backflow not active |\n| math_quiz | Android | 未知 | — | store status backflow not active |\n| merge_legend | Android | 未知 | — | store status backflow not active |\n| merge_legend_atlantis_mermaid | Android | 未知 | — | store status backflow not active |\n| merge_monster_vampire_mansion | Android | 未知 | — | store status backflow not active |\n| merge_witches | Android | 未知 | — | store status backflow not active |\n| millionaire_quiz | Android | 未知 | — | store status backflow not active |\n| movie_quiz | Android | 未知 | — | store status backflow not active |\n| movie_talent | Android | 未知 | — | store status backflow not active |\n| movie_trivia_master | Android | 未知 | — | store status backflow not active |\n| newfood_quiz | Android | 未知 | — | store status backflow not active |\n| preguntas_de_la_biblia | Android | 未知 | — | store status backflow not active |\n| quiz_b_blico | Android | 未知 | — | store status backflow not active |\n| quiz_biblique | Android | 未知 | — | store status backflow not active |\n| quiz_master | Android | 未知 | — | store status backflow not active |\n| spelling_trivia_master | Android | 未知 | — | store status backflow not active |\n| spelling_master_tricky_word_spelling_game | Android | 未知 | — | store status backflow not active |\n| stella_s_salon_drama_makeover | Android | 未知 | — | store status backflow not active |\n| toy_quiz_en | Android | 未知 | — | store status backflow not active |\n| word_tile_master | Android | 未知 | — | store status backflow not active |\n| wrestling_quiz | Android | 未知 | — | store status backflow not active |\n| wrestling_trivia | Android | 未知 | — | store status backflow not active |\n| game_8ce5d80b30 | Android | 未知 | — | store status backflow not active |\n| com.ofwsalary.ofwcalculator | Android | 未知 | — | store status backflow not active |\n\n---\n\n## 5️⃣ Production Readiness · 待产状态\n\n5️⃣ Production Readiness — no apps tracked yet\n   Invite the closed-testing community to your first new app with:\n     python -m operation.publishing_factory.tester_community invite <package>\n\n---\n\n📎 完整明细见 outputs/daily_briefing/ 与 outputs/monetization_reports/"
+  }
+}

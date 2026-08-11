@@ -1,121 +1,139 @@
-# FinalBandit 上线 Checklist
+# Full Closed Loop — 上线 Checklist (v2.0)
+
+> 最后更新: 2026-06-29
+> 统一闭环脚本: `scripts/run_full_closed_loop.py`
+
+---
 
 ## 前置条件
 
-- [ ] 有网络环境可访问 `graph.facebook.com`
-- [ ] `.env` 中 `META_ACCESS_TOKEN` 有效（当前已配置但需验证过期时间）
-- [ ] `.env` 中 `META_AD_ACCOUNT_ID` 已配置（当前缺失，需补充）
-- [ ] Lovart API 凭证有效（`LOVART_ACCESS_KEY` + `LOVART_SECRET_KEY`）
-- [ ] DuckDB 数据库可读写
+- [x] 有网络环境可访问 `graph.facebook.com`
+- [x] `.env` 中 `META_ACCESS_TOKEN` 已配置
+- [x] `.env` 中 `META_AD_ACCOUNT_ID` 已配置
+- [x] Lovart API 凭证有效（`LOVART_ACCESS_KEY` + `LOVART_SECRET_KEY`）
+- [x] DuckDB 数据库可读写
+- [x] 统一闭环脚本 `scripts/run_full_closed_loop.py` 已创建
+- [ ] `.env` 中 `CLOSED_LOOP_ADSET_ID` 已配置 (可选, 用于自动上传)
+- [ ] `.env` 中 `CLOSED_LOOP_PAGE_ID` 已配置 (可选, 用于自动上传)
 
 ---
 
-## Phase 1: 拉取最新数据
+## Phase 1: 验证链路连通性
 
 ```bash
-# 拉取最近 30 天 Facebook 数据
-python3 scripts/fetch_facebook_data.py
-
-# 如果 Facebook API 不可用，导入本地数据
-python3 scripts/import_creative_library.py
-python3 scripts/build_feature_variants.py
+# Dry-run 检查所有模块是否正常
+python scripts/run_full_closed_loop.py --dry-run
 ```
 
 **验证**:
-- [ ] `creative_performance` 表有新日期数据
-- [ ] 至少 2 个不同日期
+- [x] 所有核心模块可导入 (Pipeline, Lovart, Facebook Publisher, P04CreativeLoop)
+- [x] 环境变量齐全 (META_*, LOVART_*)
+- [x] 数据库存在
 
 ---
 
-## Phase 2: 运行 Pipeline
+## Phase 2: 运行完整闭环 (Pipeline + 出图)
 
 ```bash
-# P04 专属 (当前重点)
-python3 scripts/run_pipeline.py --project P04 --days 7
+# 完整闭环 (不出图时跳过上传)
+python scripts/run_full_closed_loop.py --project P04 --days 7
 
-# 输出文件:
-#   output/pipeline_strategy.md   → 投放策略报告
-#   output/pipeline_prompts.md    → AI 裂变 prompt
-#   output/monitor/current_state.json → Dashboard 数据
+# 或分步执行:
+# 仅 Pipeline
+python scripts/run_full_closed_loop.py --pipeline-only
+# 仅出图 (基于已有 pipeline 结果)
+python scripts/run_full_closed_loop.py --generate-only
 ```
 
+**输出文件**:
+| 文件 | 说明 |
+|------|------|
+| `output/pipeline_strategy.md` | Bandit 投放策略报告 |
+| `output/pipeline_prompts.md` | AI 裂变 prompt |
+| `output/monitor/current_state.json` | Dashboard 数据 |
+| `output/closed_loop/<run_id>/run_*.json` | 出图+评分结果 |
+| `output/closed_loop/<run_id>/filter_result.json` | 过滤结果 |
+| `output/closed_loop/<run_id>/images/` | 生成的图片 |
+
 **验证**:
-- [ ] Winner 识别率 ≥ 50%
-- [ ] 策略报告中有明确的 "多投/少投" 建议
-- [ ] `output/pipeline_prompts.md` 包含 5 个 prompt
+- [ ] Pipeline 完成 (Step 1-5 全部通过)
+- [ ] 策略报告中有明确的 winner 特征
+- [ ] 出图 10-20 张
+- [ ] 评分 ≥6.0 的图片 ≥3 张
 
 ---
 
-## Phase 3: AI 生成图片
+## Phase 3: 配置 Facebook 上传
+
+在 `.env` 中添加:
+```env
+CLOSED_LOOP_ADSET_ID=<你的 adset ID>
+CLOSED_LOOP_PAGE_ID=<你的 page ID>
+```
+
+**获取 adset_id**:
+1. 打开 Facebook Ads Manager
+2. 找到或创建一个 adset (建议 daily budget $20-50)
+3. adset ID 在 URL 中: `.../adset/238XXXXXXXXXX`
+
+**获取 page_id**:
+1. 打开 Facebook Page Settings
+2. Page ID 在 "Page Info" 中
+
+---
+
+## Phase 4: 完整闭环 (含上传)
 
 ```bash
-# 用 Lovart 生成图片 (需要配置)
-python3 scripts/gen_p04_round1.py
+# 完整闭环 + 上传 (PAUSED 状态)
+python scripts/run_full_closed_loop.py --project P04 --days 7
+
+# 自动激活 (谨慎使用!)
+python scripts/run_full_closed_loop.py --project P04 --days 7 --auto-activate
 ```
 
 **验证**:
-- [ ] 生成 10-15 张图片
-- [ ] 图片符合 winner 特征 (warm 色调 + left_right 布局)
+- [ ] Facebook Ads Manager 中可见新广告 (状态: PAUSED 或 In Review)
+- [ ] 图片与 prompt 描述一致
+- [ ] 人工审核通过后手动激活广告
 
 ---
 
-## Phase 4: 人工审核
+## Phase 5: 安装定时任务
 
-- [ ] 剔除有明显问题的图片（模糊、文字错误、品牌不符）
-- [ ] 确认图片与 prompt 描述一致
-- [ ] 最终保留 5-10 张
+```powershell
+# 安装每日凌晨 2:00 自动运行的定时任务
+.\install_closed_loop_task.ps1 -Project "P04" -Days 7
 
----
+# 自定义时间
+.\install_closed_loop_task.ps1 -ScheduleTime "03:00" -Project "P04"
+```
 
-## Phase 5: 上传 Facebook 投放
-
-```python
-# 在 Python 中执行:
-from market_ops.creative_intelligence.experiment_engine import ExperimentEngine
-
-engine = ExperimentEngine()
-
-# 生成实验 (FinalBandit 自动选 variant)
-exps = engine.generate_experiments(project="P04", count=3)
-
-# 发布
-result = engine.publish_experiments(
-    experiments=exps,
-    adset_id="<YOUR_ADSET_ID>",      # 需替换
-    image_dir_map={"exp_xxx": "/path/to/images"},  # 需替换
-)
+**管理命令**:
+```powershell
+taskschd.msc                                           # 打开任务计划程序
+Get-ScheduledTask -TaskName "MarketOps_FullClosedLoop"  # 查看任务
+Start-ScheduledTask -TaskName "MarketOps_FullClosedLoop" # 手动触发
+Unregister-ScheduledTask -TaskName "MarketOps_FullClosedLoop" # 删除
 ```
 
 **验证**:
-- [ ] Facebook Ads Manager 中可见新 campaign
-- [ ] 状态为 "In Review" 或 "Active"
-- [ ] 每日 budget $20-50
-
----
-
-## Phase 6: 每日 Cron
-
-```bash
-# 每天运行一次 (建议凌晨 2:00)
-0 2 * * * cd /path/to/project && python3 scripts/run_pipeline.py --project P04 --days 7
-
-# 或手动:
-python3 scripts/run_pipeline.py --project P04 --days 7
-```
-
-**验证**:
+- [ ] 定时任务已安装
+- [ ] 日志文件生成正常 (`output/logs/`)
 - [ ] Monitor Dashboard 显示每日更新的 theta/sigma
 - [ ] entropy 不崩塌
-- [ ] 去重计数正常（duplicate_reject 不异常增长）
+- [ ] 去重计数正常
 
 ---
 
-## Phase 7: 7 天后评估
+## Phase 6: 7 天后评估
 
 ```bash
-# 查看 Monitor Dashboard
-cd output/monitor && python3 -m http.server 8080
-# 浏览器打开 http://localhost:8080/dashboard.html
+# 查看 Monitor Dashboard 数据
+cat output/monitor/current_state.json
+
+# 查看最新闭环结果
+ls output/closed_loop/
 ```
 
 **判定标准**:
@@ -125,42 +143,38 @@ cd output/monitor && python3 -m http.server 8080
 | theta 排序 | 与真实 ROAS 排序一致 |
 | sigma 下降 | decline_ratio < 0.9 |
 | entropy | 不崩塌 (> early × 0.3) |
-| flip_rate | < 0.3 |
+| 图片评分 | avg ≥ 6.0 |
+| 上传成功率 | ≥ 80% |
 | 去重 | duplicate_reject 稳定 |
 
-**如果全部 PASS** → 扩大维度，加入更多 gene_type
+**如果全部 PASS** → 扩大维度，加入更多 gene_type，开启 P02/P07
 **如果有 FAIL** → 检查数据质量，考虑调参
 
 ---
 
-## 环境变量检查清单
+## 快速命令参考
 
 ```bash
-# 必需
-META_ACCESS_TOKEN=        # Facebook API token
-META_AD_ACCOUNT_ID=       # 广告账户 ID (当前缺失!)
-META_API_VERSION=v19.0
+# 验证链路
+python scripts/run_full_closed_loop.py --dry-run
 
-# Lovart (图片生成)
-LOVART_ACCESS_KEY=
-LOVART_SECRET_KEY=
-LOVART_BASE_URL=https://lgw.lovart.ai
+# 完整闭环 (不出图时不上传)
+python scripts/run_full_closed_loop.py --project P04 --days 7
 
-# 可选
-DEFAULT_GAME_NAME=P04 Witch
-```
+# 仅 Pipeline
+python scripts/run_full_closed_loop.py --pipeline-only
 
----
+# 仅出图
+python scripts/run_full_closed_loop.py --generate-only
 
-## 快速验证命令
+# 仅上传
+python scripts/run_full_closed_loop.py --publish-only
 
-```bash
-# 一键检查所有模块是否正常
-python3 scripts/test_experiment_engine.py   # Engine 集成测试
-python3 scripts/final_self_check.py         # FinalBandit 8 维度自检
-python3 scripts/verify_iap_observation.py   # IAP Observation 8 问
-python3 scripts/verify_monitor.py           # Monitor 7 问
-python3 scripts/run_pipeline.py --project P04 --days 7  # 完整 Pipeline
+# P07 项目
+python scripts/run_full_closed_loop.py --project P07 --days 14
+
+# 查看帮助
+python scripts/run_full_closed_loop.py --help
 ```
 
 ---
@@ -170,7 +184,8 @@ python3 scripts/run_pipeline.py --project P04 --days 7  # 完整 Pipeline
 | 风险 | 缓解 |
 |------|------|
 | Token 过期 | 提前 7 天检查 token 有效期 |
-| API rate limit | 每天只跑 1 次 backfill |
-| Budget 超支 | campaign 设 daily budget cap |
+| API rate limit | 每天只跑 1 次闭环 |
+| Budget 超支 | campaign 设 daily budget cap, auto_activate=false |
 | 图片审核不通过 | 人工预审 + 避免敏感内容 |
 | 数据延迟回流 | rolling 7 天窗口覆盖 T+7 |
+| Lovart SSL 异常 | 已降级修复 (verify=False fallback) |

@@ -1,5 +1,7 @@
 # 敏感配置
 .env
+credentials/*.json
+!credentials/*.example
 
 # Python
 __pycache__/

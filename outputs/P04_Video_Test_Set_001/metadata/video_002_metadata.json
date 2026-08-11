@@ -1,0 +1,19 @@
+{
+  "id": "video_002",
+  "creative_angle": "witch_transformation",
+  "source_dna": "v2601523",
+  "seed": 1002,
+  "status": "success",
+  "video_path": "outputs/P04_Video_Test_Set_001/video_002.mp4",
+  "flux_path": "outputs/P04_Video_Test_Set_001/frames/video_002_flux.png",
+  "prompt": "",
+  "negative_prompt": "",
+  "error": "",
+  "validation": {
+    "valid": true,
+    "resolution": "832x480",
+    "duration": 10.1,
+    "fps": 8.0,
+    "issues": []
+  }
+}

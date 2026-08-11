@@ -1,0 +1,65 @@
+{
+  "template_id": "collection",
+  "template_name": "Collection Progress — Complete the Set",
+  "version": "1.0",
+  "description": "Collection hook layout: grid of collected items, one missing slot, CTA to complete",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "hook_area",
+      "position": "top",
+      "x": 0,
+      "y": 0,
+      "width": 1.0,
+      "height": 0.15,
+      "z_index": 10,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "collection_grid",
+      "position": "center",
+      "x": 0.12,
+      "y": 0.20,
+      "width": 0.76,
+      "height": 0.50,
+      "z_index": 20,
+      "content": "collection_render",
+      "components": ["item_grid", "collected_slots", "missing_slot", "progress_bar"]
+    },
+    {
+      "name": "progress_indicator",
+      "position": "below_grid",
+      "x": 0.20,
+      "y": 0.72,
+      "width": 0.60,
+      "height": 0.06,
+      "z_index": 15,
+      "content": "progress_bar",
+      "progress_pct": 0.6,
+      "label": "3/5 COLLECTED"
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0,
+      "y": 0.82,
+      "width": 1.0,
+      "height": 0.18,
+      "z_index": 30,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "collection_config": {
+    "total_slots": 5,
+    "collected": 3,
+    "items": ["dragon_fire", "dragon_ice", "dragon_shadow"],
+    "missing_item": "dragon_legendary",
+    "show_progress": true
+  }
+}

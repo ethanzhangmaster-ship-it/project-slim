@@ -1,0 +1,34 @@
+{
+  "sdk_version": "1.0.0",
+  "unity": "2022.3",
+  "platform": "android",
+  "generated_at": "2026-07-23T04:15:04.755115Z",
+  "config_summary": {
+    "game_name": "GameFactory Demo",
+    "ads_provider": "MAX",
+    "analytics_providers": [
+      "Firebase",
+      "Adjust"
+    ],
+    "remote_config_keys": [
+      "ads.interstitial_gap",
+      "ads.reward_frequency",
+      "gameplay.level_difficulty",
+      "gameplay.reward_multiplier"
+    ]
+  },
+  "checks": {
+    "config_generation": "PASS",
+    "remote_config_flatten": "PASS",
+    "file_structure": "PASS",
+    "sdk_package": "PASS",
+    "bootstrap_init": "PENDING_USER_UNITY",
+    "ads_reward": "PENDING_USER_UNITY",
+    "ads_interstitial": "PENDING_USER_UNITY",
+    "ad_revenue_loop": "PENDING_USER_UNITY",
+    "analytics_events": "PENDING_USER_UNITY",
+    "remote_config_read": "PENDING_USER_UNITY",
+    "android_build": "PENDING_USER_UNITY"
+  },
+  "notes": "python-side checks passed; runtime items require Unity Editor (see README)."
+}

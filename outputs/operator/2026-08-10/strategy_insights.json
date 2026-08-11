@@ -1,0 +1,56 @@
+[
+  {
+    "strategy_id": "network_cleanup",
+    "dimension": "monetization",
+    "historical_success_rate": 0.0,
+    "samples": 0,
+    "avg_reward": 0.0,
+    "recommendation": "hold",
+    "rationale": "暂无执行样本，维持默认权重"
+  },
+  {
+    "strategy_id": "aggressive_scale",
+    "dimension": "ua",
+    "historical_success_rate": 0.0,
+    "samples": 0,
+    "avg_reward": 0.0,
+    "recommendation": "hold",
+    "rationale": "暂无执行样本，维持默认权重"
+  },
+  {
+    "strategy_id": "conservative_scale",
+    "dimension": "ua",
+    "historical_success_rate": 0.0,
+    "samples": 0,
+    "avg_reward": 0.0,
+    "recommendation": "hold",
+    "rationale": "暂无执行样本，维持默认权重"
+  },
+  {
+    "strategy_id": "creative_fatigue_guard",
+    "dimension": "creative",
+    "historical_success_rate": 0.0,
+    "samples": 0,
+    "avg_reward": 0.0,
+    "recommendation": "hold",
+    "rationale": "暂无执行样本，维持默认权重"
+  },
+  {
+    "strategy_id": "revenue_recovery",
+    "dimension": "unknown",
+    "historical_success_rate": 0.0,
+    "samples": 0,
+    "avg_reward": 0.0,
+    "recommendation": "hold",
+    "rationale": "暂无执行样本，维持默认权重"
+  },
+  {
+    "strategy_id": "creative_refresh",
+    "dimension": "unknown",
+    "historical_success_rate": 1.0,
+    "samples": 6,
+    "avg_reward": 1.0,
+    "recommendation": "boost",
+    "rationale": "历史成功率 100%，建议提高其优先级"
+  }
+]

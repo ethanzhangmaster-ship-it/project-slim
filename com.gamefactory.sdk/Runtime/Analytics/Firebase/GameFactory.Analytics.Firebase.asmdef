@@ -1,0 +1,14 @@
+{
+  "name": "GameFactory.Analytics.Firebase",
+  "rootNamespace": "GameFactory.Analytics",
+  "references": ["GameFactory.Analytics", "Firebase.Analytics"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": ["FIREBASE_SDK"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

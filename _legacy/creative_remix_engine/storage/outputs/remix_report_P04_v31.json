@@ -1,0 +1,1932 @@
+{
+  "version": "3.1",
+  "game": "P04",
+  "template": "bomb_15s",
+  "target_ratio": "9X16",
+  "total_generated": 30,
+  "assembled": 10,
+  "recipes": [
+    {
+      "recipe_id": "remix_9X16_001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "hook_dragon",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601523",
+          "start": 10,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601523-mg-2d-juesezhanshi-en-16s-9X16.mp4",
+          "material_score": 70.5,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601010",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601010-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 35.290733573357336,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601384-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 51.41748596711353,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601375",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601375-mg-2d-wenzigundong-en-46s-9X16.mp4",
+          "material_score": 49.313211974110025,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_001_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_001",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601523",
+          "start": 10,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601523-mg-2d-juesezhanshi-en-16s-9X16.mp4",
+          "material_score": 70.5,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601010",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601010-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 35.290733573357336,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601384-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 51.41748596711353,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601375",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601375-mg-2d-wenzigundong-en-46s-9X16.mp4",
+          "material_score": 49.313211974110025,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_001_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 13.2,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_001",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601523",
+          "start": 10,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601523-mg-2d-juesezhanshi-en-16s-9X16.mp4",
+          "material_score": 70.5,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601010",
+          "start": 2.0,
+          "duration": 5.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601010-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 35.290733573357336,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 3.3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601384-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 51.41748596711353,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601375",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601375-mg-2d-wenzigundong-en-46s-9X16.mp4",
+          "material_score": 49.313211974110025,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "hook_witch",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601384-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 51.41748596711353,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601452",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601452-mg-2d-hechengwanfa-en-44s-9X16.mp4",
+          "material_score": 34.80424657534247,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601434-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 45.07802052785924,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601531",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601531-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.657145408163267,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_002_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 13.2,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_002",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601384-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 51.41748596711353,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601452",
+          "start": 2.0,
+          "duration": 5.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601452-mg-2d-hechengwanfa-en-44s-9X16.mp4",
+          "material_score": 34.80424657534247,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 3.3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601434-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 45.07802052785924,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601531",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601531-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.657145408163267,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_002_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 14.4,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_002",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601384",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601384-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 51.41748596711353,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601452",
+          "start": 2.0,
+          "duration": 6.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601452-mg-2d-hechengwanfa-en-44s-9X16.mp4",
+          "material_score": 34.80424657534247,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 3.6,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601434-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 45.07802052785924,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601531",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601531-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.657145408163267,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_003",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "hook_rescue",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601434-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 45.07802052785924,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601469",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601469-mg-2d-hechengwanfa-en-14s-9X16.mp4",
+          "material_score": 34.79590498871897,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+          "material_score": 44.980935850263954,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601359",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601359-mg-2d-wenzigundong-en-52s-9X16.mp4",
+          "material_score": 29.114769636963697,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_003_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 13.2,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_003",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601434-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 45.07802052785924,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601469",
+          "start": 2.0,
+          "duration": 5.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601469-mg-2d-hechengwanfa-en-14s-9X16.mp4",
+          "material_score": 34.79590498871897,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 3.3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+          "material_score": 44.980935850263954,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601359",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601359-mg-2d-wenzigundong-en-52s-9X16.mp4",
+          "material_score": 29.114769636963697,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_003_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_003",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601434",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601434-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 45.07802052785924,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601469",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601469-mg-2d-hechengwanfa-en-14s-9X16.mp4",
+          "material_score": 34.79590498871897,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+          "material_score": 44.980935850263954,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601359",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601359-mg-2d-wenzigundong-en-52s-9X16.mp4",
+          "material_score": 29.114769636963697,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_004",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "gameplay_speed",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+          "material_score": 44.980935850263954,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601441",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601441-mg-2d-hechengwanfa-en-46s-9X16.mp4",
+          "material_score": 34.343106835857554,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601509-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+          "material_score": 43.771511019121995,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601054",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601054-mg-2d-wenzigundong-en-27s-9X16.mp4",
+          "material_score": 29.060963620757956,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_004_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_004",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+          "material_score": 44.980935850263954,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601441",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601441-mg-2d-hechengwanfa-en-46s-9X16.mp4",
+          "material_score": 34.343106835857554,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601509-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+          "material_score": 43.771511019121995,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601054",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601054-mg-2d-wenzigundong-en-27s-9X16.mp4",
+          "material_score": 29.060963620757956,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_004_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 14.4,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_004",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601485",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601485-mg-2d-juesezhanshi-en-45s-9X16.mp4",
+          "material_score": 44.980935850263954,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601441",
+          "start": 2.0,
+          "duration": 6.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601441-mg-2d-hechengwanfa-en-46s-9X16.mp4",
+          "material_score": 34.343106835857554,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 3.6,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601509-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+          "material_score": 43.771511019121995,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601054",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601054-mg-2d-wenzigundong-en-27s-9X16.mp4",
+          "material_score": 29.060963620757956,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_005",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "gameplay_combo",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601509-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+          "material_score": 43.771511019121995,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601011",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601011-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601525",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601525-mg-2d-wenzigundong-en-51s-9X16.mp4",
+          "material_score": 29.005052005943536,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_005_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 14.4,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_005",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601509-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+          "material_score": 43.771511019121995,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601011",
+          "start": 2.0,
+          "duration": 6.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601011-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 3.6,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601525",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601525-mg-2d-wenzigundong-en-51s-9X16.mp4",
+          "material_score": 29.005052005943536,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_005_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_005",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601509",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601509-mg-2d-juesezhanshi-en-15s-9X16.mp4",
+          "material_score": 43.771511019121995,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601011",
+          "start": 2.0,
+          "duration": 4.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601011-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 2.7,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601525",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601525-mg-2d-wenzigundong-en-51s-9X16.mp4",
+          "material_score": 29.005052005943536,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_006",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "gameplay_upgrade",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601410",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601410-mg-2d-chongwuzhanshi-en-19s-9X16.mp4",
+          "material_score": 41.94934245061472,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601009",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601009-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601528",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601528-mg-2d-wenzigundong-en-44s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_006_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_006",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601410",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601410-mg-2d-chongwuzhanshi-en-19s-9X16.mp4",
+          "material_score": 41.94934245061472,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601009",
+          "start": 2.0,
+          "duration": 4.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601009-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 2.7,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601528",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601528-mg-2d-wenzigundong-en-44s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_006_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 13.2,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_006",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601410",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601410-mg-2d-chongwuzhanshi-en-19s-9X16.mp4",
+          "material_score": 41.94934245061472,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601009",
+          "start": 2.0,
+          "duration": 5.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601009-mg-2d-wanfashipin-en-30s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 3.3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601528",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601528-mg-2d-wenzigundong-en-44s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_007",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "reward_transform",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601440",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601440-mg-2d-hechengwanfa-en-27s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601466-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.00610370750043,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601403",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601403-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_007_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 13.2,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_007",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601440",
+          "start": 2.0,
+          "duration": 5.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601440-mg-2d-hechengwanfa-en-27s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 3.3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601466-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.00610370750043,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601403",
+          "start": 2.0,
+          "duration": 2.2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601403-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_007_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_007",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601333",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601333-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.88591907500118,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601440",
+          "start": 2.0,
+          "duration": 4.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601440-mg-2d-hechengwanfa-en-27s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 2.7,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601466-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.00610370750043,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601403",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601403-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_008",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "reward_cta",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601466-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.00610370750043,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601470",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601470-mg-2d-hechengwanfa-en-10s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601354-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+          "material_score": 40.96282674788164,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601529",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601529-mg-2d-wenzigundong-en-51s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_008_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_008",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601466-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.00610370750043,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601470",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601470-mg-2d-hechengwanfa-en-10s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601354-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+          "material_score": 40.96282674788164,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601529",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601529-mg-2d-wenzigundong-en-51s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_008_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 14.4,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_008",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601466",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601466-mg-2d-juesezhanshi-en-47s-9X16.mp4",
+          "material_score": 41.00610370750043,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601470",
+          "start": 2.0,
+          "duration": 6.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601470-mg-2d-hechengwanfa-en-10s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 3.6,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601354-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+          "material_score": 40.96282674788164,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601529",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601529-mg-2d-wenzigundong-en-51s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_009",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "reward_character",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601354-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+          "material_score": 40.96282674788164,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601043",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601043-mg-2d-wanfashipin-en-38s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601332-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 40.11745798116034,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601055",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601055-mg-2d-wenzigundong-en-38s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_009_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 14.4,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_009",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601354-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+          "material_score": 40.96282674788164,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601043",
+          "start": 2.0,
+          "duration": 6.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601043-mg-2d-wanfashipin-en-38s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 3.6,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601332-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 40.11745798116034,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601055",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601055-mg-2d-wenzigundong-en-38s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_009_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 14.4,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_009",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601354",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601354-mg-2d-juesezhanshi-en-43s-9X16.mp4",
+          "material_score": 40.96282674788164,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601043",
+          "start": 2.0,
+          "duration": 6.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601043-mg-2d-wanfashipin-en-38s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 3.6,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601332-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 40.11745798116034,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601055",
+          "start": 2.0,
+          "duration": 2.4,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601055-mg-2d-wenzigundong-en-38s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_010",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "hook_dragon",
+      "parent_id": "",
+      "generation": 1,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601332-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 40.11745798116034,
+          "mutation_type": ""
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601483",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601483-mg-2d-hechengwanfa-en-38s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": ""
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601519",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601519-mg-2d-juesezhanshi-en-16s-9X16.mp4",
+          "material_score": 39.89602914116189,
+          "mutation_type": ""
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601530",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601530-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": ""
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_010_v001",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 10.8,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "dragon_attack_fast_merge_character_reward",
+      "parent_id": "remix_9X16_010",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601332-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 40.11745798116034,
+          "mutation_type": "dragon_attack"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601483",
+          "start": 2.0,
+          "duration": 4.5,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601483-mg-2d-hechengwanfa-en-38s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "fast_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601519",
+          "start": 2.0,
+          "duration": 2.7,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601519-mg-2d-juesezhanshi-en-16s-9X16.mp4",
+          "material_score": 39.89602914116189,
+          "mutation_type": "character_reward"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601530",
+          "start": 2.0,
+          "duration": 1.8,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601530-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "character_reward"
+        }
+      ]
+    },
+    {
+      "recipe_id": "remix_9X16_010_v002",
+      "template": "hook",
+      "target_ratio": "9X16",
+      "total_duration": 12.0,
+      "creative_family": "P04_witch_merge",
+      "variant_type": "witch_rescue_combo_merge_castle_unlock",
+      "parent_id": "remix_9X16_010",
+      "generation": 2,
+      "segments": [
+        {
+          "role": "hook",
+          "v_num": "v2601332",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601332-mg-2d-juesezhanshi-en-18s-9X16.mp4",
+          "material_score": 40.11745798116034,
+          "mutation_type": "witch_rescue"
+        },
+        {
+          "role": "gameplay",
+          "v_num": "v2601483",
+          "start": 2.0,
+          "duration": 5.0,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601483-mg-2d-hechengwanfa-en-38s-9X16.mp4",
+          "material_score": 34.25,
+          "mutation_type": "combo_merge"
+        },
+        {
+          "role": "reward",
+          "v_num": "v2601519",
+          "start": 2.0,
+          "duration": 3,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601519-mg-2d-juesezhanshi-en-16s-9X16.mp4",
+          "material_score": 39.89602914116189,
+          "mutation_type": "castle_unlock"
+        },
+        {
+          "role": "cta",
+          "v_num": "v2601530",
+          "start": 2.0,
+          "duration": 2,
+          "filepath": "d:\\project_slim\\output\\P04_remix_videos\\广告视频\\P4-v2601530-mg-2d-wenzigundong-en-45s-9X16.mp4",
+          "material_score": 29.0,
+          "mutation_type": "castle_unlock"
+        }
+      ]
+    }
+  ],
+  "predictions": [
+    {
+      "creative_id": "remix_9X16_001",
+      "hook_score": 70.5,
+      "ctr_score": 75.6,
+      "purchase_score": 80.8,
+      "expected_ctr": 3.779,
+      "expected_cvr": 3.232,
+      "expected_roas": 2.87,
+      "fatigue_risk": 0.0,
+      "overall_score": 82.9,
+      "recommendation": "TEST",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_001_v001",
+      "hook_score": 70.5,
+      "ctr_score": 75.6,
+      "purchase_score": 80.8,
+      "expected_ctr": 3.779,
+      "expected_cvr": 3.232,
+      "expected_roas": 2.87,
+      "fatigue_risk": 0.0,
+      "overall_score": 82.9,
+      "recommendation": "TEST",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_001_v002",
+      "hook_score": 70.5,
+      "ctr_score": 75.6,
+      "purchase_score": 80.8,
+      "expected_ctr": 3.779,
+      "expected_cvr": 3.232,
+      "expected_roas": 2.87,
+      "fatigue_risk": 0.0,
+      "overall_score": 82.9,
+      "recommendation": "TEST",
+      "confidence": 0.85
+    },
+    {
+      "creative_id": "remix_9X16_002",
+      "hook_score": 51.4,
+      "ctr_score": 63.8,
+      "purchase_score": 69.5,
+      "expected_ctr": 3.188,
+      "expected_cvr": 2.782,
+      "expected_roas": 2.53,
+      "fatigue_risk": 0.0,
+      "overall_score": 73.0,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_002_v001",
+      "hook_score": 51.4,
+      "ctr_score": 63.8,
+      "purchase_score": 69.5,
+      "expected_ctr": 3.188,
+      "expected_cvr": 2.782,
+      "expected_roas": 2.53,
+      "fatigue_risk": 0.0,
+      "overall_score": 73.0,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_002_v002",
+      "hook_score": 51.4,
+      "ctr_score": 63.8,
+      "purchase_score": 69.5,
+      "expected_ctr": 3.188,
+      "expected_cvr": 2.782,
+      "expected_roas": 2.53,
+      "fatigue_risk": 0.0,
+      "overall_score": 73.0,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_003",
+      "hook_score": 45.1,
+      "ctr_score": 60.2,
+      "purchase_score": 67.8,
+      "expected_ctr": 3.012,
+      "expected_cvr": 2.712,
+      "expected_roas": 2.46,
+      "fatigue_risk": 0.0,
+      "overall_score": 70.3,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_003_v001",
+      "hook_score": 45.1,
+      "ctr_score": 60.2,
+      "purchase_score": 67.8,
+      "expected_ctr": 3.012,
+      "expected_cvr": 2.712,
+      "expected_roas": 2.46,
+      "fatigue_risk": 0.0,
+      "overall_score": 70.3,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_003_v002",
+      "hook_score": 45.1,
+      "ctr_score": 60.2,
+      "purchase_score": 67.8,
+      "expected_ctr": 3.012,
+      "expected_cvr": 2.712,
+      "expected_roas": 2.46,
+      "fatigue_risk": 0.0,
+      "overall_score": 70.3,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_004",
+      "hook_score": 45.0,
+      "ctr_score": 60.1,
+      "purchase_score": 67.5,
+      "expected_ctr": 3.005,
+      "expected_cvr": 2.698,
+      "expected_roas": 2.45,
+      "fatigue_risk": 0.0,
+      "overall_score": 70.1,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_004_v001",
+      "hook_score": 45.0,
+      "ctr_score": 60.1,
+      "purchase_score": 67.5,
+      "expected_ctr": 3.005,
+      "expected_cvr": 2.698,
+      "expected_roas": 2.45,
+      "fatigue_risk": 0.0,
+      "overall_score": 70.1,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_004_v002",
+      "hook_score": 45.0,
+      "ctr_score": 60.1,
+      "purchase_score": 67.5,
+      "expected_ctr": 3.005,
+      "expected_cvr": 2.698,
+      "expected_roas": 2.45,
+      "fatigue_risk": 0.0,
+      "overall_score": 70.1,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_005",
+      "hook_score": 43.8,
+      "ctr_score": 59.3,
+      "purchase_score": 66.7,
+      "expected_ctr": 2.967,
+      "expected_cvr": 2.667,
+      "expected_roas": 2.43,
+      "fatigue_risk": 0.0,
+      "overall_score": 69.5,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_005_v001",
+      "hook_score": 43.8,
+      "ctr_score": 59.3,
+      "purchase_score": 66.7,
+      "expected_ctr": 2.967,
+      "expected_cvr": 2.667,
+      "expected_roas": 2.43,
+      "fatigue_risk": 0.0,
+      "overall_score": 69.5,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_005_v002",
+      "hook_score": 43.8,
+      "ctr_score": 59.3,
+      "purchase_score": 66.7,
+      "expected_ctr": 2.967,
+      "expected_cvr": 2.667,
+      "expected_roas": 2.43,
+      "fatigue_risk": 0.0,
+      "overall_score": 69.5,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_006",
+      "hook_score": 41.9,
+      "ctr_score": 58.3,
+      "purchase_score": 66.2,
+      "expected_ctr": 2.916,
+      "expected_cvr": 2.648,
+      "expected_roas": 2.41,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.7,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_006_v001",
+      "hook_score": 41.9,
+      "ctr_score": 58.3,
+      "purchase_score": 66.2,
+      "expected_ctr": 2.916,
+      "expected_cvr": 2.648,
+      "expected_roas": 2.41,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.7,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_006_v002",
+      "hook_score": 41.9,
+      "ctr_score": 58.3,
+      "purchase_score": 66.2,
+      "expected_ctr": 2.916,
+      "expected_cvr": 2.648,
+      "expected_roas": 2.41,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.7,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_007",
+      "hook_score": 41.9,
+      "ctr_score": 58.3,
+      "purchase_score": 66.0,
+      "expected_ctr": 2.913,
+      "expected_cvr": 2.639,
+      "expected_roas": 2.4,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.6,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_007_v001",
+      "hook_score": 41.9,
+      "ctr_score": 58.3,
+      "purchase_score": 66.0,
+      "expected_ctr": 2.913,
+      "expected_cvr": 2.639,
+      "expected_roas": 2.4,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.6,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_007_v002",
+      "hook_score": 41.9,
+      "ctr_score": 58.3,
+      "purchase_score": 66.0,
+      "expected_ctr": 2.913,
+      "expected_cvr": 2.639,
+      "expected_roas": 2.4,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.6,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_008",
+      "hook_score": 41.0,
+      "ctr_score": 57.8,
+      "purchase_score": 65.7,
+      "expected_ctr": 2.888,
+      "expected_cvr": 2.63,
+      "expected_roas": 2.39,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.2,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_008_v001",
+      "hook_score": 41.0,
+      "ctr_score": 57.8,
+      "purchase_score": 65.7,
+      "expected_ctr": 2.888,
+      "expected_cvr": 2.63,
+      "expected_roas": 2.39,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.2,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_008_v002",
+      "hook_score": 41.0,
+      "ctr_score": 57.8,
+      "purchase_score": 65.7,
+      "expected_ctr": 2.888,
+      "expected_cvr": 2.63,
+      "expected_roas": 2.39,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.2,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_009",
+      "hook_score": 41.0,
+      "ctr_score": 57.7,
+      "purchase_score": 65.5,
+      "expected_ctr": 2.885,
+      "expected_cvr": 2.621,
+      "expected_roas": 2.39,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.2,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_009_v001",
+      "hook_score": 41.0,
+      "ctr_score": 57.7,
+      "purchase_score": 65.5,
+      "expected_ctr": 2.885,
+      "expected_cvr": 2.621,
+      "expected_roas": 2.39,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.2,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_009_v002",
+      "hook_score": 41.0,
+      "ctr_score": 57.7,
+      "purchase_score": 65.5,
+      "expected_ctr": 2.885,
+      "expected_cvr": 2.621,
+      "expected_roas": 2.39,
+      "fatigue_risk": 0.0,
+      "overall_score": 68.2,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_010",
+      "hook_score": 40.1,
+      "ctr_score": 57.2,
+      "purchase_score": 65.3,
+      "expected_ctr": 2.861,
+      "expected_cvr": 2.61,
+      "expected_roas": 2.38,
+      "fatigue_risk": 0.0,
+      "overall_score": 67.8,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_010_v001",
+      "hook_score": 40.1,
+      "ctr_score": 57.2,
+      "purchase_score": 65.3,
+      "expected_ctr": 2.861,
+      "expected_cvr": 2.61,
+      "expected_roas": 2.38,
+      "fatigue_risk": 0.0,
+      "overall_score": 67.8,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    },
+    {
+      "creative_id": "remix_9X16_010_v002",
+      "hook_score": 40.1,
+      "ctr_score": 57.2,
+      "purchase_score": 65.3,
+      "expected_ctr": 2.861,
+      "expected_cvr": 2.61,
+      "expected_roas": 2.38,
+      "fatigue_risk": 0.0,
+      "overall_score": 67.8,
+      "recommendation": "TEST_LOW_BUDGET",
+      "confidence": 0.65
+    }
+  ],
+  "qa_results": [
+    {
+      "creative_id": "remix_9X16_001",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 100,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "creative_id": "remix_9X16_001_v001",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 100,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "creative_id": "remix_9X16_001_v002",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 100,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "creative_id": "remix_9X16_002",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 100,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "creative_id": "remix_9X16_002_v001",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 100,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "creative_id": "remix_9X16_002_v002",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 100,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "creative_id": "remix_9X16_003",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 90,
+      "issues": [],
+      "warnings": [
+        "素材平均评分较低"
+      ]
+    },
+    {
+      "creative_id": "remix_9X16_003_v001",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 90,
+      "issues": [],
+      "warnings": [
+        "素材平均评分较低"
+      ]
+    },
+    {
+      "creative_id": "remix_9X16_003_v002",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 90,
+      "issues": [],
+      "warnings": [
+        "素材平均评分较低"
+      ]
+    },
+    {
+      "creative_id": "remix_9X16_004",
+      "tech_passed": true,
+      "ai_passed": true,
+      "quality_score": 90,
+      "issues": [],
+      "warnings": [
+        "素材平均评分较低"
+      ]
+    }
+  ]
+}

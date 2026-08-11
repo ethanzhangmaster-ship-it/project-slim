@@ -1,0 +1,500 @@
+{
+  "render_9ee2f32e": {
+    "render_id": "render_9ee2f32e",
+    "creative_id": "c_merge_formula_5081419b",
+    "template_id": "merge_formula",
+    "layout_ast_id": "ast_merge_formula_49bb3833",
+    "image_path": "memory\\test_runtime_e2e\\renders\\render_9ee2f32e.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "center",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Merge result C - glowing reward, L1 visual focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Item A - left side merge ingredient"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Witch character hands reaching in"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "merge_formula",
+        "prompt": "mobile game advertisement, 3D cartoon style, Pixar quality, magical glowing merge result, sparkling, center of attention, largest element, positioned prominently in center, largest element in composition, moderate glow effect, two items merging with plus sign and equals sign, magical sparkles, mechanism clearly visible and readable, structured like game UI elements, witch character hands reaching in from sides, secondary element, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "magical glowing merge result, sparkling, center of attention, largest element, positioned prominently in center, largest element in composition, moderate glow effect",
+        "mechanism_visual": "two items merging with plus sign and equals sign, magical sparkles, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "witch character hands reaching in from sides, secondary element, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782882425,
+    "completed_at": 1782882425
+  },
+  "render_ba59903c": {
+    "render_id": "render_ba59903c",
+    "creative_id": "c_evolution_chain_f2fed664",
+    "template_id": "evolution_chain",
+    "layout_ast_id": "ast_evolution_chain_0b1c34af",
+    "image_path": "memory\\test_runtime_e2e\\renders\\render_ba59903c.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Final MAX evolution form - largest, L1 focus"
+      },
+      "mechanism": {
+        "position": "center_right",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Stage 3 - large pre-final form"
+      },
+      "identity": {
+        "position": "left_side",
+        "size": 0.271,
+        "brightness": "normal",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Stage 1 - smallest starting form"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "evolution_chain",
+        "prompt": "mobile game advertisement, 3D cartoon style, fantasy creatures, final evolved form, largest and most powerful, glowing with energy, positioned on right side as main focus, largest element in composition, moderate glow effect, evolution chain with arrows, stages getting larger left to right, mechanism clearly visible and readable, structured like game UI elements, character observing evolution, secondary position, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "final evolved form, largest and most powerful, glowing with energy, positioned on right side as main focus, largest element in composition, moderate glow effect",
+        "mechanism_visual": "evolution chain with arrows, stages getting larger left to right, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "character observing evolution, secondary position, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782882425,
+    "completed_at": 1782882425
+  },
+  "render_65934f86": {
+    "render_id": "render_65934f86",
+    "creative_id": "c_merge_formula_670b5228",
+    "template_id": "merge_formula",
+    "layout_ast_id": "ast_merge_formula_dfa6cd9c",
+    "image_path": "memory\\test_runtime_e2e\\renders\\render_65934f86.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "center",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Merge result C - glowing reward, L1 visual focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Item A - left side merge ingredient"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Witch character hands reaching in"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "merge_formula",
+        "prompt": "mobile game advertisement, 3D cartoon style, Pixar quality, magical glowing merge result, sparkling, center of attention, largest element, positioned prominently in center, largest element in composition, moderate glow effect, two items merging with plus sign and equals sign, magical sparkles, mechanism clearly visible and readable, structured like game UI elements, witch character hands reaching in from sides, secondary element, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "magical glowing merge result, sparkling, center of attention, largest element, positioned prominently in center, largest element in composition, moderate glow effect",
+        "mechanism_visual": "two items merging with plus sign and equals sign, magical sparkles, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "witch character hands reaching in from sides, secondary element, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782882425,
+    "completed_at": 1782882425
+  },
+  "render_d7eac84b": {
+    "render_id": "render_d7eac84b",
+    "creative_id": "c_before_after_2f4b794a",
+    "template_id": "before_after",
+    "layout_ast_id": "ast_before_after_74902b24",
+    "image_path": "memory\\test_runtime_e2e\\renders\\render_d7eac84b.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "After/reward state - right side, brighter, L1 focus"
+      },
+      "mechanism": {
+        "position": "left_side",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Before/low state - left side, dimmer"
+      },
+      "identity": {
+        "position": "peripheral",
+        "size": 0.217,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Character shown in both states or as guide"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "before_after",
+        "prompt": "mobile game advertisement, 3D cartoon style, split screen, right side after transformation, bright and powerful, positioned on right side as main focus, largest element in composition, moderate glow effect, left side before state, dimmer and smaller, mechanism clearly visible and readable, structured like game UI elements, character shown on both sides as guide, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "right side after transformation, bright and powerful, positioned on right side as main focus, largest element in composition, moderate glow effect",
+        "mechanism_visual": "left side before state, dimmer and smaller, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "character shown on both sides as guide, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782882427,
+    "completed_at": 1782882427
+  },
+  "render_84ae56c0": {
+    "render_id": "render_84ae56c0",
+    "creative_id": "c_evolution_chain_36a0d09d",
+    "template_id": "evolution_chain",
+    "layout_ast_id": "ast_evolution_chain_99697777",
+    "image_path": "memory\\test_runtime_e2e\\renders\\render_84ae56c0.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Final MAX evolution form - largest, L1 focus"
+      },
+      "mechanism": {
+        "position": "center_right",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Stage 3 - large pre-final form"
+      },
+      "identity": {
+        "position": "left_side",
+        "size": 0.271,
+        "brightness": "normal",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Stage 1 - smallest starting form"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "evolution_chain",
+        "prompt": "mobile game advertisement, 3D cartoon style, fantasy creatures, final evolved form, largest and most powerful, glowing with energy, positioned on right side as main focus, largest element in composition, moderate glow effect, evolution chain with arrows, stages getting larger left to right, mechanism clearly visible and readable, structured like game UI elements, character observing evolution, secondary position, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "final evolved form, largest and most powerful, glowing with energy, positioned on right side as main focus, largest element in composition, moderate glow effect",
+        "mechanism_visual": "evolution chain with arrows, stages getting larger left to right, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "character observing evolution, secondary position, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782882427,
+    "completed_at": 1782882427
+  },
+  "render_8f3cacbd": {
+    "render_id": "render_8f3cacbd",
+    "creative_id": "c_evolution_chain_620c2457",
+    "template_id": "evolution_chain",
+    "layout_ast_id": "ast_evolution_chain_e7d9e1d5",
+    "image_path": "memory\\test_runtime_e2e\\renders\\render_8f3cacbd.png",
+    "image_url": "",
+    "image_hash": "",
+    "status": "rendered",
+    "error_message": "",
+    "render_constraints": {
+      "reward": {
+        "position": "right_side",
+        "size": 0.462,
+        "brightness": "high",
+        "contrast": "high",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "highest",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Final MAX evolution form - largest, L1 focus"
+      },
+      "mechanism": {
+        "position": "center_right",
+        "size": 0.325,
+        "brightness": "high",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 1.0,
+        "dominance": "high",
+        "visibility": "high",
+        "structure": "ui-based",
+        "notes": "Stage 3 - large pre-final form"
+      },
+      "identity": {
+        "position": "left_side",
+        "size": 0.271,
+        "brightness": "normal",
+        "contrast": "medium",
+        "glow": "medium",
+        "opacity": 0.3,
+        "dominance": "medium",
+        "visibility": "high",
+        "structure": "",
+        "notes": "Stage 1 - smallest starting form"
+      },
+      "ui": {
+        "position": "bottom_center",
+        "size": 0.125,
+        "brightness": "normal",
+        "contrast": "normal",
+        "glow": "low",
+        "opacity": 1.0,
+        "dominance": "low",
+        "visibility": "high",
+        "structure": "",
+        "notes": "CTA text banner at bottom"
+      },
+      "aspect_ratio": "9:16",
+      "color_palette_hint": "",
+      "negative_constraints": [
+        "no character in center foreground",
+        "character not main focal point",
+        "no visual clutter",
+        "no text dense areas"
+      ]
+    },
+    "metadata": {
+      "render_spec": {
+        "template_id": "evolution_chain",
+        "prompt": "mobile game advertisement, 3D cartoon style, fantasy creatures, final evolved form, largest and most powerful, glowing with energy, positioned on right side as main focus, largest element in composition, moderate glow effect, evolution chain with arrows, stages getting larger left to right, mechanism clearly visible and readable, structured like game UI elements, character observing evolution, secondary position, subtle presence, not dominating, positioned at edges, not center",
+        "negative_prompt": "blurry, low quality, distorted, text dense, cluttered, character in center, character largest, no clear focal point",
+        "aspect_ratio": "9:16",
+        "style": "3d_cartoon",
+        "reward_visual": "final evolved form, largest and most powerful, glowing with energy, positioned on right side as main focus, largest element in composition, moderate glow effect",
+        "mechanism_visual": "evolution chain with arrows, stages getting larger left to right, mechanism clearly visible and readable, structured like game UI elements",
+        "identity_visual": "character observing evolution, secondary position, subtle presence, not dominating, positioned at edges, not center"
+      }
+    },
+    "created_at": 1782882427,
+    "completed_at": 1782882427
+  }
+}

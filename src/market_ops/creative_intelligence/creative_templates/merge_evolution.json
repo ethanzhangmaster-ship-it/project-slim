@@ -1,0 +1,84 @@
+{
+  "template_id": "merge_evolution",
+  "template_name": "Merge Evolution — Before → After",
+  "version": "1.0",
+  "description": "Standard UA merge evolution layout: hook at top, gameplay center, reward right, CTA bottom",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "dark_purple_gradient"
+  },
+  "layers": [
+    {
+      "name": "hook_area",
+      "position": "top",
+      "x": 0,
+      "y": 0,
+      "width": 1.0,
+      "height": 0.18,
+      "z_index": 10,
+      "content": "text_overlay",
+      "align": "center"
+    },
+    {
+      "name": "gameplay_area",
+      "position": "center_left",
+      "x": 0.05,
+      "y": 0.22,
+      "width": 0.55,
+      "height": 0.52,
+      "z_index": 20,
+      "content": "gameplay_render",
+      "components": ["merge_board", "items", "ui_elements"]
+    },
+    {
+      "name": "progression_area",
+      "position": "center",
+      "x": 0.25,
+      "y": 0.38,
+      "width": 0.50,
+      "height": 0.20,
+      "z_index": 25,
+      "content": "progression_render",
+      "components": ["evolution_arrow", "level_badges", "glow_burst"]
+    },
+    {
+      "name": "reward_area",
+      "position": "right_center",
+      "x": 0.62,
+      "y": 0.22,
+      "width": 0.33,
+      "height": 0.52,
+      "z_index": 15,
+      "content": "character_render",
+      "components": ["reward_character", "glow_aura"]
+    },
+    {
+      "name": "cta_area",
+      "position": "bottom",
+      "x": 0.0,
+      "y": 0.82,
+      "width": 1.0,
+      "height": 0.18,
+      "z_index": 30,
+      "content": "cta_render",
+      "align": "center"
+    }
+  ],
+  "merge_config": {
+    "before_items": ["egg_lv1", "egg_lv1"],
+    "after_item": "dragon_baby_lv2",
+    "board_style": "hex_grid",
+    "show_merge_arrow": true,
+    "show_level_badges": true
+  },
+  "ui_elements": {
+    "show_level_badge": true,
+    "level_text": "LEVEL 12",
+    "show_energy_bar": true,
+    "energy_pct": 0.72,
+    "show_coins": true,
+    "coin_count": "2,450",
+    "show_upgrade_button": true
+  }
+}

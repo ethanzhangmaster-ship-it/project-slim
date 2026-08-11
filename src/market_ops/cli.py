@@ -82,9 +82,6 @@ from market_ops.report_audit import ReportAuditBuilder
 from market_ops.rollback_monitor import RollbackMonitorBuilder
 from market_ops.self_check import run_self_check
 from market_ops.strategy_context import StrategyContextBuilder
-from market_ops.tecdo_account_reconciliation import TecDoAccountReconciliationBuilder
-from market_ops.tecdo_probe import TecDoProbeBuilder
-from market_ops.tecdo_sync_checklist import TecDoSyncChecklistBuilder
 from market_ops.user_quality import UserQualityBuilder
 from market_ops.visual_intelligence import VisualIntelligenceBuilder
 
@@ -244,19 +241,6 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Audit whether Meta and Google Ads creative API sources are runnable in the current environment",
     )
     creative_source_readiness.add_argument("--report-date", required=True, help="Report date in YYYY-MM-DD format or latest")
-
-    tecdo_probe = subparsers.add_parser(
-        "tecdo-probe",
-        help="Probe TecDo account/platform access without running the full weekly report flow",
-    )
-    tecdo_probe.add_argument("--report-date", required=True, help="Report date in YYYY-MM-DD format or latest")
-
-    tecdo_account_reconciliation = subparsers.add_parser(
-        "tecdo-account-reconciliation",
-        help="Build a TecDo account reconciliation report with real account info and recent report-row coverage",
-    )
-    tecdo_account_reconciliation.add_argument("--report-date", required=True, help="Report date in YYYY-MM-DD format or latest")
-    tecdo_account_reconciliation.add_argument("--lookback-days", type=int, default=180, help="How many recent days to inspect for report-row coverage")
 
     google_creative_repair = subparsers.add_parser(
         "google-creative-repair-audit",
@@ -754,12 +738,6 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Build a concrete checklist for locking the detailed reply to real Feishu group chat_ids.",
     )
     detail_reply_checklist.add_argument("--report-date", required=True, help="Report date in YYYY-MM-DD format or latest")
-
-    tecdo_sync_checklist = subparsers.add_parser(
-        "tecdo-sync-checklist",
-        help="Build a concrete checklist for the current TecDo sync-pending state and retest steps.",
-    )
-    tecdo_sync_checklist.add_argument("--report-date", required=True, help="Report date in YYYY-MM-DD format or latest")
 
     external_blockers = subparsers.add_parser(
         "external-blockers",
@@ -1645,23 +1623,6 @@ def main() -> None:
         print("Creative source readiness generated:")
         for name, path in paths.items():
             print(f"- {name}: {path}")
-    elif args.command == "tecdo-probe":
-        report_date = _align_weekly_report_date(_resolve_report_date(settings, args.report_date))
-        result = TecDoProbeBuilder(settings).build(report_date=report_date)
-        print("TecDo probe generated:")
-        print(f"- markdown: {result.markdown_path}")
-        print(f"- json: {result.json_path}")
-        print(f"- passed: {result.passed}")
-    elif args.command == "tecdo-account-reconciliation":
-        report_date = _align_weekly_report_date(_resolve_report_date(settings, args.report_date))
-        result = TecDoAccountReconciliationBuilder(settings).build(
-            report_date=report_date,
-            lookback_days=max(1, int(args.lookback_days)),
-        )
-        print("TecDo account reconciliation generated:")
-        print(f"- markdown: {result.markdown_path}")
-        print(f"- json: {result.json_path}")
-        print(f"- passed: {result.passed}")
     elif args.command == "google-creative-repair-audit":
         report_date = _align_weekly_report_date(_resolve_report_date(settings, args.report_date))
         paths = GoogleCreativeRepairAuditBuilder(settings).build(report_date=report_date)
@@ -2185,7 +2146,6 @@ def main() -> None:
         ProjectDetailCoverageBuilder(settings).build(report_date=report_date)
         P04SourceChecklistBuilder(settings).build(report_date=report_date)
         DetailReplyChecklistBuilder(settings).build(report_date=report_date)
-        TecDoSyncChecklistBuilder(settings).build(report_date=report_date)
         _sync_summary_preview_from_pre_send(gate_result, pre_send_result)
         health_result = HealthCheckReportBuilder(settings).build(
             report_date=report_date,
@@ -2362,13 +2322,6 @@ def main() -> None:
         report_date = _align_weekly_report_date(_resolve_report_date(settings, args.report_date))
         result = DetailReplyChecklistBuilder(settings).build(report_date=report_date)
         print("Detail reply checklist generated:")
-        print(f"- markdown: {result.markdown_path}")
-        print(f"- json: {result.json_path}")
-        print(f"- passed: {result.passed}")
-    elif args.command == "tecdo-sync-checklist":
-        report_date = _align_weekly_report_date(_resolve_report_date(settings, args.report_date))
-        result = TecDoSyncChecklistBuilder(settings).build(report_date=report_date)
-        print("TecDo sync checklist generated:")
         print(f"- markdown: {result.markdown_path}")
         print(f"- json: {result.json_path}")
         print(f"- passed: {result.passed}")

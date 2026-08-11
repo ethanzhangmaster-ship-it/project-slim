@@ -1,0 +1,1258 @@
+{
+  "run_id": "aeo7_80c18e893b",
+  "campaign_id": "meta_camp_a187efabfe",
+  "campaign_name": "AEO_Purchase_7Day_1782887742",
+  "campaign_objective": "APP_PROMOTION",
+  "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+  "status": "success",
+  "total_spend": 185.12,
+  "total_impressions": 149280,
+  "total_clicks": 3700,
+  "total_installs": 1037,
+  "total_purchases": 211,
+  "total_revenue": 2697.56,
+  "ctr": 0.024786,
+  "cvr": 0.28027,
+  "cpa": 0.88,
+  "roas": 14.5723,
+  "ipm": 6.95,
+  "best_creative": "c_evolution_chain_original_6c6dc5",
+  "best_creative_roas": 21.1971,
+  "worst_creative": "c_before_after_original_f4e197",
+  "worst_creative_roas": 7.5074,
+  "best_adset": "meta_adset_2df12698c0",
+  "best_adset_type": "broad",
+  "worst_adset": "meta_adset_1bdf85c7d6",
+  "worst_adset_type": "retarget",
+  "budget_curve": [
+    {
+      "day": 1,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 1 — Learning phase, no optimization yet",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 2,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 2 — Learning phase, no optimization yet",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 3,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 3 — Monitoring, all creatives above threshold",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 4,
+      "budget": 50.0,
+      "decision": "reallocate",
+      "delta_percent": 0.1,
+      "reason": "Day 4 — Reallocation: killed 0, reallocated to 3 top creatives (avg ROAS=8.96)",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 5,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 5 — All adsets performing adequately",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 6,
+      "budget": 75.0,
+      "decision": "scale",
+      "delta_percent": 0.5,
+      "reason": "Day 6 — Scale: ROAS 12.43 >= 2.0, budget +50% (3 creatives scaled)",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 7,
+      "budget": 75.0,
+      "decision": "freeze",
+      "delta_percent": 0.0,
+      "reason": "Day 7 — Freeze: final metrics collection and dataset export",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    }
+  ],
+  "learning_delta": {
+    "budget_updates": {},
+    "inference_updates": {
+      "reward_vividness": 0.1,
+      "mechanism_clarity": -0.05
+    },
+    "template_updates": {
+      "merge_formula": -0.005,
+      "evolution_chain": 0.022,
+      "before_after": -0.017
+    },
+    "avg_ctr": 0.024794395106722673,
+    "avg_ipm": 6.953502552741042,
+    "high_ctr_count": 1,
+    "low_ctr_count": 0
+  },
+  "daily_metrics": [
+    {
+      "day": 1,
+      "impressions": 10818,
+      "clicks": 199,
+      "installs": 47,
+      "purchases": 4,
+      "spend": 9.47,
+      "revenue": 46.36,
+      "ctr": 0.018395,
+      "cvr": 0.236181,
+      "cpa": 2.37,
+      "roas": 4.8969,
+      "ipm": 4.34,
+      "total_budget": 50.0,
+      "budget_decision": "hold",
+      "budget_delta_percent": 0.0,
+      "budget_reason": "Day 1 — Learning phase, no optimization yet",
+      "killed_creatives": [],
+      "scaled_creatives": [],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 354,
+          "clicks": 6,
+          "installs": 1,
+          "purchases": 0,
+          "spend": 0.35,
+          "revenue": 0.0,
+          "ctr": 0.017742,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 339,
+          "clicks": 6,
+          "installs": 1,
+          "purchases": 0,
+          "spend": 0.31,
+          "revenue": 0.0,
+          "ctr": 0.018083,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 367,
+          "clicks": 7,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.29,
+          "revenue": 0.0,
+          "ctr": 0.020695,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 357,
+          "clicks": 7,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.29,
+          "revenue": 0.0,
+          "ctr": 0.022392,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 405,
+          "clicks": 6,
+          "installs": 1,
+          "purchases": 0,
+          "spend": 0.24,
+          "revenue": 0.0,
+          "ctr": 0.015961,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 381,
+          "clicks": 6,
+          "installs": 1,
+          "purchases": 0,
+          "spend": 0.25,
+          "revenue": 0.0,
+          "ctr": 0.017305,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 5374,
+          "spend": 4.94,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 3241,
+          "spend": 2.79,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 2203,
+          "spend": 1.73,
+          "type": "retarget"
+        }
+      }
+    },
+    {
+      "day": 2,
+      "impressions": 13404,
+      "clicks": 268,
+      "installs": 69,
+      "purchases": 9,
+      "spend": 12.56,
+      "revenue": 102.72,
+      "ctr": 0.019994,
+      "cvr": 0.257463,
+      "cpa": 1.4,
+      "roas": 8.1802,
+      "ipm": 5.15,
+      "total_budget": 50.0,
+      "budget_decision": "hold",
+      "budget_delta_percent": 0.0,
+      "budget_reason": "Day 2 — Learning phase, no optimization yet",
+      "killed_creatives": [],
+      "scaled_creatives": [],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 393,
+          "clicks": 7,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.34,
+          "revenue": 0.0,
+          "ctr": 0.018825,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 440,
+          "clicks": 9,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.44,
+          "revenue": 0.0,
+          "ctr": 0.022197,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 495,
+          "clicks": 10,
+          "installs": 3,
+          "purchases": 0,
+          "spend": 0.51,
+          "revenue": 0.0,
+          "ctr": 0.021887,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 504,
+          "clicks": 14,
+          "installs": 4,
+          "purchases": 1,
+          "spend": 0.8,
+          "revenue": 10.82,
+          "ctr": 0.029142,
+          "roas": 13.5671,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 387,
+          "clicks": 6,
+          "installs": 1,
+          "purchases": 0,
+          "spend": 0.29,
+          "revenue": 0.0,
+          "ctr": 0.015795,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 436,
+          "clicks": 7,
+          "installs": 1,
+          "purchases": 0,
+          "spend": 0.41,
+          "revenue": 0.0,
+          "ctr": 0.017361,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 6812,
+          "spend": 6.37,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 3937,
+          "spend": 3.41,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 2655,
+          "spend": 2.79,
+          "type": "retarget"
+        }
+      }
+    },
+    {
+      "day": 3,
+      "impressions": 16659,
+      "clicks": 352,
+      "installs": 92,
+      "purchases": 15,
+      "spend": 17.61,
+      "revenue": 181.0,
+      "ctr": 0.02113,
+      "cvr": 0.261364,
+      "cpa": 1.17,
+      "roas": 10.2801,
+      "ipm": 5.52,
+      "total_budget": 50.0,
+      "budget_decision": "hold",
+      "budget_delta_percent": 0.0,
+      "budget_reason": "Day 3 — Monitoring, all creatives above threshold",
+      "killed_creatives": [],
+      "scaled_creatives": [],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 580,
+          "clicks": 11,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.58,
+          "revenue": 0.0,
+          "ctr": 0.019202,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 458,
+          "clicks": 10,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.42,
+          "revenue": 0.0,
+          "ctr": 0.023507,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 550,
+          "clicks": 14,
+          "installs": 4,
+          "purchases": 1,
+          "spend": 0.6,
+          "revenue": 10.63,
+          "ctr": 0.026976,
+          "roas": 17.6689,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 595,
+          "clicks": 16,
+          "installs": 5,
+          "purchases": 1,
+          "spend": 0.93,
+          "revenue": 11.04,
+          "ctr": 0.027603,
+          "roas": 11.9014,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 598,
+          "clicks": 9,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.43,
+          "revenue": 0.0,
+          "ctr": 0.0163,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 613,
+          "clicks": 11,
+          "installs": 2,
+          "purchases": 0,
+          "spend": 0.62,
+          "revenue": 0.0,
+          "ctr": 0.018371,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 7873,
+          "spend": 8.3,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 5392,
+          "spend": 5.71,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 3394,
+          "spend": 3.58,
+          "type": "retarget"
+        }
+      }
+    },
+    {
+      "day": 4,
+      "impressions": 19022,
+      "clicks": 438,
+      "installs": 122,
+      "purchases": 23,
+      "spend": 22.86,
+      "revenue": 278.11,
+      "ctr": 0.023026,
+      "cvr": 0.278539,
+      "cpa": 0.99,
+      "roas": 12.1677,
+      "ipm": 6.41,
+      "total_budget": 50.0,
+      "budget_decision": "reallocate",
+      "budget_delta_percent": 0.1,
+      "budget_reason": "Day 4 — Reallocation: killed 0, reallocated to 3 top creatives (avg ROAS=8.96)",
+      "killed_creatives": [],
+      "scaled_creatives": [
+        "c_evolution_chain_hook_a_d74817",
+        "c_evolution_chain_original_6c6dc5",
+        "c_merge_formula_hook_a_d25bc7"
+      ],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 627,
+          "clicks": 12,
+          "installs": 3,
+          "purchases": 0,
+          "spend": 0.59,
+          "revenue": 0.0,
+          "ctr": 0.020706,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 571,
+          "clicks": 13,
+          "installs": 4,
+          "purchases": 1,
+          "spend": 0.54,
+          "revenue": 12.57,
+          "ctr": 0.02402,
+          "roas": 23.1848,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 681,
+          "clicks": 18,
+          "installs": 5,
+          "purchases": 1,
+          "spend": 0.96,
+          "revenue": 11.11,
+          "ctr": 0.027595,
+          "roas": 11.5497,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 629,
+          "clicks": 18,
+          "installs": 5,
+          "purchases": 1,
+          "spend": 1.03,
+          "revenue": 10.35,
+          "ctr": 0.029052,
+          "roas": 10.0927,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 671,
+          "clicks": 12,
+          "installs": 3,
+          "purchases": 0,
+          "spend": 0.6,
+          "revenue": 0.0,
+          "ctr": 0.018164,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 685,
+          "clicks": 15,
+          "installs": 3,
+          "purchases": 0,
+          "spend": 0.63,
+          "revenue": 0.0,
+          "ctr": 0.021915,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 9518,
+          "spend": 12.09,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 5640,
+          "spend": 6.42,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 3864,
+          "spend": 4.35,
+          "type": "retarget"
+        }
+      }
+    },
+    {
+      "day": 5,
+      "impressions": 21929,
+      "clicks": 552,
+      "installs": 161,
+      "purchases": 34,
+      "spend": 27.73,
+      "revenue": 437.35,
+      "ctr": 0.025172,
+      "cvr": 0.291667,
+      "cpa": 0.82,
+      "roas": 15.7698,
+      "ipm": 7.34,
+      "total_budget": 50.0,
+      "budget_decision": "hold",
+      "budget_delta_percent": 0.0,
+      "budget_reason": "Day 5 — All adsets performing adequately",
+      "killed_creatives": [],
+      "scaled_creatives": [],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 730,
+          "clicks": 14,
+          "installs": 4,
+          "purchases": 0,
+          "spend": 0.57,
+          "revenue": 0.0,
+          "ctr": 0.020372,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 712,
+          "clicks": 17,
+          "installs": 4,
+          "purchases": 1,
+          "spend": 0.94,
+          "revenue": 14.15,
+          "ctr": 0.024383,
+          "roas": 15.1222,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 747,
+          "clicks": 20,
+          "installs": 6,
+          "purchases": 1,
+          "spend": 1.2,
+          "revenue": 11.74,
+          "ctr": 0.027373,
+          "roas": 9.7835,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 795,
+          "clicks": 27,
+          "installs": 9,
+          "purchases": 2,
+          "spend": 1.59,
+          "revenue": 21.97,
+          "ctr": 0.034115,
+          "roas": 13.7957,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 776,
+          "clicks": 13,
+          "installs": 3,
+          "purchases": 0,
+          "spend": 0.67,
+          "revenue": 0.0,
+          "ctr": 0.017901,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 762,
+          "clicks": 18,
+          "installs": 4,
+          "purchases": 0,
+          "spend": 0.99,
+          "revenue": 0.0,
+          "ctr": 0.023678,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 10655,
+          "spend": 13.26,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 6752,
+          "spend": 8.51,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 4522,
+          "spend": 5.96,
+          "type": "retarget"
+        }
+      }
+    },
+    {
+      "day": 6,
+      "impressions": 25009,
+      "clicks": 680,
+      "installs": 195,
+      "purchases": 44,
+      "spend": 32.97,
+      "revenue": 585.95,
+      "ctr": 0.02719,
+      "cvr": 0.286765,
+      "cpa": 0.75,
+      "roas": 17.7718,
+      "ipm": 7.8,
+      "total_budget": 75.0,
+      "budget_decision": "scale",
+      "budget_delta_percent": 0.5,
+      "budget_reason": "Day 6 — Scale: ROAS 12.43 >= 2.0, budget +50% (3 creatives scaled)",
+      "killed_creatives": [],
+      "scaled_creatives": [],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 833,
+          "clicks": 20,
+          "installs": 5,
+          "purchases": 1,
+          "spend": 1.1,
+          "revenue": 11.64,
+          "ctr": 0.024391,
+          "roas": 10.6011,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 755,
+          "clicks": 21,
+          "installs": 5,
+          "purchases": 1,
+          "spend": 0.92,
+          "revenue": 10.59,
+          "ctr": 0.02872,
+          "roas": 11.4974,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 780,
+          "clicks": 24,
+          "installs": 8,
+          "purchases": 2,
+          "spend": 1.19,
+          "revenue": 27.23,
+          "ctr": 0.03094,
+          "roas": 22.8325,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 750,
+          "clicks": 29,
+          "installs": 9,
+          "purchases": 2,
+          "spend": 1.27,
+          "revenue": 22.25,
+          "ctr": 0.038696,
+          "roas": 17.4879,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 795,
+          "clicks": 15,
+          "installs": 3,
+          "purchases": 0,
+          "spend": 0.89,
+          "revenue": 0.0,
+          "ctr": 0.019766,
+          "roas": 0.0,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 850,
+          "clicks": 21,
+          "installs": 5,
+          "purchases": 1,
+          "spend": 1.21,
+          "revenue": 12.86,
+          "ctr": 0.025247,
+          "roas": 10.6588,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 12794,
+          "spend": 17.2,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 7452,
+          "spend": 9.2,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 4763,
+          "spend": 6.58,
+          "type": "retarget"
+        }
+      }
+    },
+    {
+      "day": 7,
+      "impressions": 42439,
+      "clicks": 1211,
+      "installs": 351,
+      "purchases": 82,
+      "spend": 61.92,
+      "revenue": 1066.07,
+      "ctr": 0.028535,
+      "cvr": 0.289843,
+      "cpa": 0.76,
+      "roas": 17.2156,
+      "ipm": 8.27,
+      "total_budget": 75.0,
+      "budget_decision": "freeze",
+      "budget_delta_percent": 0.0,
+      "budget_reason": "Day 7 — Freeze: final metrics collection and dataset export",
+      "killed_creatives": [],
+      "scaled_creatives": [],
+      "killed_adsets": [],
+      "per_creative": {
+        "c_merge_formula_original_295126": {
+          "impressions": 1465,
+          "clicks": 33,
+          "installs": 10,
+          "purchases": 2,
+          "spend": 1.95,
+          "revenue": 29.98,
+          "ctr": 0.022957,
+          "roas": 15.3917,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_merge_formula_hook_a_d25bc7": {
+          "impressions": 1543,
+          "clicks": 45,
+          "installs": 12,
+          "purchases": 2,
+          "spend": 2.22,
+          "revenue": 26.5,
+          "ctr": 0.029741,
+          "roas": 11.9162,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_original_6c6dc5": {
+          "impressions": 1490,
+          "clicks": 51,
+          "installs": 16,
+          "purchases": 4,
+          "spend": 2.54,
+          "revenue": 41.78,
+          "ctr": 0.034663,
+          "roas": 16.4406,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_evolution_chain_hook_a_d74817": {
+          "impressions": 1586,
+          "clicks": 56,
+          "installs": 18,
+          "purchases": 5,
+          "spend": 2.61,
+          "revenue": 67.29,
+          "ctr": 0.035681,
+          "roas": 25.7884,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_original_f4e197": {
+          "impressions": 1454,
+          "clicks": 30,
+          "installs": 8,
+          "purchases": 1,
+          "spend": 1.47,
+          "revenue": 11.56,
+          "ctr": 0.021068,
+          "roas": 7.8502,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        },
+        "c_before_after_hook_a_b02ec0": {
+          "impressions": 1439,
+          "clicks": 35,
+          "installs": 9,
+          "purchases": 1,
+          "spend": 2.09,
+          "revenue": 13.28,
+          "ctr": 0.024406,
+          "roas": 6.3481,
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "adset_type": "retarget"
+        }
+      },
+      "per_adset": {
+        "meta_adset_2df12698c0": {
+          "impressions": 20437,
+          "spend": 29.68,
+          "type": "broad"
+        },
+        "meta_adset_42b52ea334": {
+          "impressions": 13025,
+          "spend": 19.35,
+          "type": "interest"
+        },
+        "meta_adset_1bdf85c7d6": {
+          "impressions": 8977,
+          "spend": 12.88,
+          "type": "retarget"
+        }
+      }
+    }
+  ],
+  "adsets": [
+    {
+      "adset_id": "meta_adset_2df12698c0",
+      "name": "AEO_A_Broad",
+      "type": "broad",
+      "budget": 37.5,
+      "budget_ratio": 0.5,
+      "optimization_event": "purchase",
+      "creatives": [
+        {
+          "creative_id": "c_merge_formula_original_295126",
+          "template_id": "merge_formula",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_ab73d69db746",
+          "asset_url": "http://cdn.example.com/img_ab73d69db746.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_ab73d69db746.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_1b45168b8d",
+          "adset_id": "meta_adset_2df12698c0",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_merge_formula_hook_a_d25bc7",
+          "template_id": "merge_formula",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_cdde97bd7ae9",
+          "asset_url": "http://cdn.example.com/img_cdde97bd7ae9.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_cdde97bd7ae9.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_889b2a2f2d",
+          "adset_id": "meta_adset_2df12698c0",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_evolution_chain_original_6c6dc5",
+          "template_id": "evolution_chain",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_5f8ba06e5a75",
+          "asset_url": "http://cdn.example.com/img_5f8ba06e5a75.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_5f8ba06e5a75.png",
+          "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+          "ad_id": "meta_ad_fb24ca8243",
+          "adset_id": "meta_adset_2df12698c0",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_evolution_chain_hook_a_d74817",
+          "template_id": "evolution_chain",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_33612ede4f4d",
+          "asset_url": "http://cdn.example.com/img_33612ede4f4d.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_33612ede4f4d.png",
+          "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+          "ad_id": "meta_ad_02eab13728",
+          "adset_id": "meta_adset_2df12698c0",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_before_after_original_f4e197",
+          "template_id": "before_after",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_010eced00a51",
+          "asset_url": "http://cdn.example.com/img_010eced00a51.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_010eced00a51.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_d8d9600eb9",
+          "adset_id": "meta_adset_2df12698c0",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_before_after_hook_a_b02ec0",
+          "template_id": "before_after",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_a887614a982b",
+          "asset_url": "http://cdn.example.com/img_a887614a982b.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_a887614a982b.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_dd4cea2d56",
+          "adset_id": "meta_adset_2df12698c0",
+          "status": "ACTIVE"
+        }
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "adset_id": "meta_adset_42b52ea334",
+      "name": "AEO_B_Interest",
+      "type": "interest",
+      "budget": 22.5,
+      "budget_ratio": 0.3,
+      "optimization_event": "purchase",
+      "creatives": [
+        {
+          "creative_id": "c_merge_formula_original_295126",
+          "template_id": "merge_formula",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_ab73d69db746",
+          "asset_url": "http://cdn.example.com/img_ab73d69db746.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_ab73d69db746.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_1b45168b8d",
+          "adset_id": "meta_adset_42b52ea334",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_merge_formula_hook_a_d25bc7",
+          "template_id": "merge_formula",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_cdde97bd7ae9",
+          "asset_url": "http://cdn.example.com/img_cdde97bd7ae9.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_cdde97bd7ae9.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_889b2a2f2d",
+          "adset_id": "meta_adset_42b52ea334",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_evolution_chain_original_6c6dc5",
+          "template_id": "evolution_chain",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_5f8ba06e5a75",
+          "asset_url": "http://cdn.example.com/img_5f8ba06e5a75.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_5f8ba06e5a75.png",
+          "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+          "ad_id": "meta_ad_fb24ca8243",
+          "adset_id": "meta_adset_42b52ea334",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_evolution_chain_hook_a_d74817",
+          "template_id": "evolution_chain",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_33612ede4f4d",
+          "asset_url": "http://cdn.example.com/img_33612ede4f4d.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_33612ede4f4d.png",
+          "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+          "ad_id": "meta_ad_02eab13728",
+          "adset_id": "meta_adset_42b52ea334",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_before_after_original_f4e197",
+          "template_id": "before_after",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_010eced00a51",
+          "asset_url": "http://cdn.example.com/img_010eced00a51.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_010eced00a51.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_d8d9600eb9",
+          "adset_id": "meta_adset_42b52ea334",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_before_after_hook_a_b02ec0",
+          "template_id": "before_after",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_a887614a982b",
+          "asset_url": "http://cdn.example.com/img_a887614a982b.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_a887614a982b.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_dd4cea2d56",
+          "adset_id": "meta_adset_42b52ea334",
+          "status": "ACTIVE"
+        }
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "adset_id": "meta_adset_1bdf85c7d6",
+      "name": "AEO_C_Retarget",
+      "type": "retarget",
+      "budget": 15.0,
+      "budget_ratio": 0.2,
+      "optimization_event": "purchase",
+      "creatives": [
+        {
+          "creative_id": "c_merge_formula_original_295126",
+          "template_id": "merge_formula",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_ab73d69db746",
+          "asset_url": "http://cdn.example.com/img_ab73d69db746.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_ab73d69db746.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_1b45168b8d",
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_merge_formula_hook_a_d25bc7",
+          "template_id": "merge_formula",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_cdde97bd7ae9",
+          "asset_url": "http://cdn.example.com/img_cdde97bd7ae9.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_cdde97bd7ae9.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_889b2a2f2d",
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_evolution_chain_original_6c6dc5",
+          "template_id": "evolution_chain",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_5f8ba06e5a75",
+          "asset_url": "http://cdn.example.com/img_5f8ba06e5a75.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_5f8ba06e5a75.png",
+          "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+          "ad_id": "meta_ad_fb24ca8243",
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_evolution_chain_hook_a_d74817",
+          "template_id": "evolution_chain",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_33612ede4f4d",
+          "asset_url": "http://cdn.example.com/img_33612ede4f4d.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_33612ede4f4d.png",
+          "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+          "ad_id": "meta_ad_02eab13728",
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_before_after_original_f4e197",
+          "template_id": "before_after",
+          "variant_id": "original",
+          "variant_type": "original",
+          "asset_id": "img_010eced00a51",
+          "asset_url": "http://cdn.example.com/img_010eced00a51.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_010eced00a51.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_d8d9600eb9",
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "status": "ACTIVE"
+        },
+        {
+          "creative_id": "c_before_after_hook_a_b02ec0",
+          "template_id": "before_after",
+          "variant_id": "hook_a",
+          "variant_type": "hook_a",
+          "asset_id": "img_a887614a982b",
+          "asset_url": "http://cdn.example.com/img_a887614a982b.png",
+          "asset_path": "memory\\aeo_production_run\\assets\\img_a887614a982b.png",
+          "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+          "ad_id": "meta_ad_dd4cea2d56",
+          "adset_id": "meta_adset_1bdf85c7d6",
+          "status": "ACTIVE"
+        }
+      ],
+      "status": "ACTIVE"
+    }
+  ],
+  "creatives": [
+    {
+      "creative_id": "c_merge_formula_original_295126",
+      "template_id": "merge_formula",
+      "variant_id": "original",
+      "variant_type": "original",
+      "asset_id": "img_ab73d69db746",
+      "asset_url": "http://cdn.example.com/img_ab73d69db746.png",
+      "asset_path": "memory\\aeo_production_run\\assets\\img_ab73d69db746.png",
+      "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+      "ad_id": "meta_ad_1b45168b8d",
+      "adset_id": "meta_adset_2df12698c0",
+      "status": "ACTIVE"
+    },
+    {
+      "creative_id": "c_merge_formula_hook_a_d25bc7",
+      "template_id": "merge_formula",
+      "variant_id": "hook_a",
+      "variant_type": "hook_a",
+      "asset_id": "img_cdde97bd7ae9",
+      "asset_url": "http://cdn.example.com/img_cdde97bd7ae9.png",
+      "asset_path": "memory\\aeo_production_run\\assets\\img_cdde97bd7ae9.png",
+      "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+      "ad_id": "meta_ad_889b2a2f2d",
+      "adset_id": "meta_adset_2df12698c0",
+      "status": "ACTIVE"
+    },
+    {
+      "creative_id": "c_evolution_chain_original_6c6dc5",
+      "template_id": "evolution_chain",
+      "variant_id": "original",
+      "variant_type": "original",
+      "asset_id": "img_5f8ba06e5a75",
+      "asset_url": "http://cdn.example.com/img_5f8ba06e5a75.png",
+      "asset_path": "memory\\aeo_production_run\\assets\\img_5f8ba06e5a75.png",
+      "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+      "ad_id": "meta_ad_fb24ca8243",
+      "adset_id": "meta_adset_2df12698c0",
+      "status": "ACTIVE"
+    },
+    {
+      "creative_id": "c_evolution_chain_hook_a_d74817",
+      "template_id": "evolution_chain",
+      "variant_id": "hook_a",
+      "variant_type": "hook_a",
+      "asset_id": "img_33612ede4f4d",
+      "asset_url": "http://cdn.example.com/img_33612ede4f4d.png",
+      "asset_path": "memory\\aeo_production_run\\assets\\img_33612ede4f4d.png",
+      "asset_hash": "ecdb879290b437de7c4dc1cf4e3ef556f9bf4f5a71fe6a2a1f3b81ff28e8b706",
+      "ad_id": "meta_ad_02eab13728",
+      "adset_id": "meta_adset_2df12698c0",
+      "status": "ACTIVE"
+    },
+    {
+      "creative_id": "c_before_after_original_f4e197",
+      "template_id": "before_after",
+      "variant_id": "original",
+      "variant_type": "original",
+      "asset_id": "img_010eced00a51",
+      "asset_url": "http://cdn.example.com/img_010eced00a51.png",
+      "asset_path": "memory\\aeo_production_run\\assets\\img_010eced00a51.png",
+      "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+      "ad_id": "meta_ad_d8d9600eb9",
+      "adset_id": "meta_adset_2df12698c0",
+      "status": "ACTIVE"
+    },
+    {
+      "creative_id": "c_before_after_hook_a_b02ec0",
+      "template_id": "before_after",
+      "variant_id": "hook_a",
+      "variant_type": "hook_a",
+      "asset_id": "img_a887614a982b",
+      "asset_url": "http://cdn.example.com/img_a887614a982b.png",
+      "asset_path": "memory\\aeo_production_run\\assets\\img_a887614a982b.png",
+      "asset_hash": "2f44aedcc5b413cea18f495235da9051bef0fe559703ecec79de05e9cacba5f8",
+      "ad_id": "meta_ad_dd4cea2d56",
+      "adset_id": "meta_adset_2df12698c0",
+      "status": "ACTIVE"
+    }
+  ],
+  "dataset_written": true,
+  "weight_update_applied": true,
+  "total_budget_changes": 3,
+  "total_creatives_killed": 0,
+  "total_adsets_killed": 0,
+  "timing": {
+    "started_at": 1782887742,
+    "completed_at": 1782887742,
+    "duration_sec": 0
+  },
+  "error": ""
+}

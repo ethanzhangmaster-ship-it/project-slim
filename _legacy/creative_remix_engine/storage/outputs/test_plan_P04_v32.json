@@ -1,0 +1,33 @@
+{
+  "game": "P04",
+  "total_creatives": 1,
+  "test_duration_days": 3,
+  "total_budget": 300.0,
+  "campaigns": [
+    {
+      "name": "Campaign_A_High_Potential",
+      "budget_per_day": 60.0,
+      "creatives": [
+        "remix_9X16_001_v001"
+      ],
+      "expected_roas_range": "18.41 - 18.41",
+      "strategy": "优先放量"
+    }
+  ],
+  "daily_metrics": [
+    "spend",
+    "impressions",
+    "clicks",
+    "ctr",
+    "installs",
+    "cvr",
+    "purchase",
+    "revenue",
+    "roas"
+  ],
+  "stop_rules": {
+    "roas_below_0.5_for_2_days": "暂停",
+    "ctr_below_0.01_for_1_day": "暂停",
+    "roas_above_2.0": "立即加预算 50%"
+  }
+}

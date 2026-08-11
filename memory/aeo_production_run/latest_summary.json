@@ -1,0 +1,102 @@
+{
+  "run_id": "aeo7_80c18e893b",
+  "campaign_id": "meta_camp_a187efabfe",
+  "total_spend": 185.12,
+  "total_impressions": 149280,
+  "total_clicks": 3700,
+  "total_installs": 1037,
+  "total_purchases": 211,
+  "total_revenue": 2697.56,
+  "ctr": 0.024786,
+  "cvr": 0.28027,
+  "roas": 14.5723,
+  "best_creative": "c_evolution_chain_original_6c6dc5",
+  "worst_creative": "c_before_after_original_f4e197",
+  "best_adset": "meta_adset_2df12698c0",
+  "worst_adset": "meta_adset_1bdf85c7d6",
+  "budget_curve": [
+    {
+      "day": 1,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 1 — Learning phase, no optimization yet",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 2,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 2 — Learning phase, no optimization yet",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 3,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 3 — Monitoring, all creatives above threshold",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 4,
+      "budget": 50.0,
+      "decision": "reallocate",
+      "delta_percent": 0.1,
+      "reason": "Day 4 — Reallocation: killed 0, reallocated to 3 top creatives (avg ROAS=8.96)",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 5,
+      "budget": 50.0,
+      "decision": "hold",
+      "delta_percent": 0.0,
+      "reason": "Day 5 — All adsets performing adequately",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 6,
+      "budget": 75.0,
+      "decision": "scale",
+      "delta_percent": 0.5,
+      "reason": "Day 6 — Scale: ROAS 12.43 >= 2.0, budget +50% (3 creatives scaled)",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    },
+    {
+      "day": 7,
+      "budget": 75.0,
+      "decision": "freeze",
+      "delta_percent": 0.0,
+      "reason": "Day 7 — Freeze: final metrics collection and dataset export",
+      "killed_creatives": 0,
+      "killed_adsets": 0
+    }
+  ],
+  "learning_delta": {
+    "budget_updates": {},
+    "inference_updates": {
+      "reward_vividness": 0.1,
+      "mechanism_clarity": -0.05
+    },
+    "template_updates": {
+      "merge_formula": -0.005,
+      "evolution_chain": 0.022,
+      "before_after": -0.017
+    },
+    "avg_ctr": 0.024794395106722673,
+    "avg_ipm": 6.953502552741042,
+    "high_ctr_count": 1,
+    "low_ctr_count": 0
+  },
+  "dataset_written": true,
+  "weight_update_applied": true,
+  "total_budget_changes": 3,
+  "status": "success"
+}

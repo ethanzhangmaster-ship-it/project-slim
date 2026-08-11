@@ -1,0 +1,874 @@
+{
+  "account": "ACCT_TEST",
+  "date": "2026-07-28",
+  "period": {
+    "start": "2026-07-18",
+    "end": "2026-07-27"
+  },
+  "totals": {
+    "revenue": 66.0,
+    "impressions": 2700,
+    "attempts": 69000,
+    "blended_ecpm": 24.44,
+    "waterfall_depth": 25.6
+  },
+  "health": {
+    "score": 80,
+    "grade": "B"
+  },
+  "opportunity": {
+    "score": 7,
+    "grade": "LOW"
+  },
+  "risk": {
+    "score": 92,
+    "grade": "HIGH"
+  },
+  "scores": {
+    "health": {
+      "kind": "health",
+      "score": 80,
+      "grade": "B",
+      "headline": "Health 80/100 (B) — current monetization efficiency; low health reflects state, not lost cause",
+      "dimensions": [
+        {
+          "name": "ecpm_efficiency",
+          "value": 100.0,
+          "weight": 0.25,
+          "detail": "0% of impressions from parasite backfill (eCPM < 15% blend)"
+        },
+        {
+          "name": "demand_quality",
+          "value": 100.0,
+          "weight": 0.15,
+          "detail": "fill rate 66.1% (responses/attempts)"
+        },
+        {
+          "name": "waterfall_efficiency",
+          "value": 61.1,
+          "weight": 0.2,
+          "detail": "depth 25.6 attempts/impression"
+        },
+        {
+          "name": "network_health",
+          "value": 100.0,
+          "weight": 0.25,
+          "detail": "0% of requests on zombie networks (0 att)"
+        },
+        {
+          "name": "revenue_stability",
+          "value": 18.2,
+          "weight": 0.15,
+          "detail": "top app = 91% of revenue"
+        }
+      ],
+      "metrics": {
+        "dilution": 0.0,
+        "waterfall_depth": 25.6,
+        "zombie_request_share": 0.0,
+        "top_app_share": 0.9091
+      }
+    },
+    "opportunity": {
+      "kind": "opportunity",
+      "score": 7,
+      "grade": "LOW",
+      "headline": "Opportunity 7/100 (LOW) — ~$0 in-app upside identified",
+      "dimensions": [
+        {
+          "name": "value_recapture",
+          "value": 0.0,
+          "weight": 0.4,
+          "detail": "~$0 recoverable (0% of $66)"
+        },
+        {
+          "name": "structural_headroom",
+          "value": 19.4,
+          "weight": 0.35,
+          "detail": "0% zombie requests, depth 25.6 — cleanup headroom"
+        },
+        {
+          "name": "demand_upside",
+          "value": 0.0,
+          "weight": 0.25,
+          "detail": "0 actionable demand levers"
+        }
+      ],
+      "metrics": {
+        "recoverable_usd": 0.0,
+        "recapture_pct": 0.0,
+        "parasite_recapture_usd": 0.0,
+        "hidden_winner_uplift_usd": 0.0
+      }
+    },
+    "risk": {
+      "kind": "risk",
+      "score": 92,
+      "grade": "HIGH",
+      "headline": "Risk 92/100 (HIGH) — app 91% / net 100% / geo 100% concentration",
+      "dimensions": [
+        {
+          "name": "app_concentration",
+          "value": 81.8,
+          "weight": 0.45,
+          "detail": "top app = 91% of revenue"
+        },
+        {
+          "name": "network_concentration",
+          "value": 100.0,
+          "weight": 0.35,
+          "detail": "top network = 100% of revenue"
+        },
+        {
+          "name": "geo_concentration",
+          "value": 100.0,
+          "weight": 0.2,
+          "detail": "top country = 100% of revenue (UA scope)"
+        }
+      ],
+      "metrics": {
+        "top_app_share": 0.9091,
+        "top_network_share": 1.0,
+        "top_country_share": 1.0
+      }
+    }
+  },
+  "signals": [
+    {
+      "rule": "waterfall_waste",
+      "severity": "warning",
+      "action": "reduce_waterfall_depth",
+      "target": "ACCOUNT",
+      "confidence": 0.9,
+      "reason": "Waterfall depth 25.6 attempts/impression (waste 96.1%) — trim non-producing networks",
+      "metrics": {
+        "depth": 25.6,
+        "waste": 0.9609,
+        "attempts": 69000,
+        "impressions": 2700
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "revenue_concentration",
+      "severity": "critical",
+      "action": "diversify",
+      "target": "network:MINTEGRAL_BIDDING",
+      "confidence": 0.95,
+      "reason": "One network contributes 100% of revenue ('MINTEGRAL_BIDDING' $66.00 of $66.00) — risk HIGH",
+      "metrics": {
+        "risk": "HIGH",
+        "dimension": "network",
+        "top": "MINTEGRAL_BIDDING",
+        "share": 1.0,
+        "top_revenue": 66.0,
+        "total_revenue": 66.0,
+        "scope": "in-app monetization scope"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "revenue_concentration",
+      "severity": "critical",
+      "action": "monitor",
+      "target": "country:us",
+      "confidence": 0.95,
+      "reason": "One country contributes 100% of revenue ('us' $66.00 of $66.00) — audience risk HIGH; hand to Growth OS, monitor here",
+      "metrics": {
+        "risk": "HIGH",
+        "dimension": "country",
+        "top": "us",
+        "share": 1.0,
+        "top_revenue": 66.0,
+        "total_revenue": 66.0,
+        "scope": "geo concentration is UA/Growth OS scope — monitor only; do NOT diversify country from the monetization system"
+      },
+      "requires_manual_apply": true
+    },
+    {
+      "rule": "revenue_concentration",
+      "severity": "critical",
+      "action": "diversify",
+      "target": "application:GameA",
+      "confidence": 0.95,
+      "reason": "One app contributes 91% of revenue ('GameA' $60.00 of $66.00) — risk HIGH",
+      "metrics": {
+        "risk": "HIGH",
+        "dimension": "application",
+        "top": "GameA",
+        "share": 0.9091,
+        "top_revenue": 60.0,
+        "total_revenue": 66.0,
+        "scope": "portfolio scope"
+      },
+      "requires_manual_apply": true
+    }
+  ],
+  "actions": [
+    {
+      "priority": "P3",
+      "title": "Diversify: network:MINTEGRAL_BIDDING",
+      "action": "diversify",
+      "target": "network:MINTEGRAL_BIDDING",
+      "expected_impact": "reduce single-point-of-failure revenue risk",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P3",
+      "title": "Monitor concentration: country:us",
+      "action": "monitor",
+      "target": "country:us",
+      "expected_impact": "geo concentration — audience risk; hand to Growth OS, monitor only",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true
+    },
+    {
+      "priority": "P3",
+      "title": "Diversify: application:GameA",
+      "action": "diversify",
+      "target": "application:GameA",
+      "expected_impact": "reduce single-point-of-failure revenue risk",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true
+    }
+  ],
+  "validated_actions": [
+    {
+      "priority": "P3",
+      "title": "Diversify: network:MINTEGRAL_BIDDING",
+      "action": "diversify",
+      "target": "network:MINTEGRAL_BIDDING",
+      "expected_impact": "reduce single-point-of-failure revenue risk",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.237,
+      "factors": {
+        "confidence": 0.95,
+        "impact": 0.5,
+        "safety": 1.0,
+        "reversibility": 0.5
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P3",
+      "title": "Diversify: application:GameA",
+      "action": "diversify",
+      "target": "application:GameA",
+      "expected_impact": "reduce single-point-of-failure revenue risk",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.237,
+      "factors": {
+        "confidence": 0.95,
+        "impact": 0.5,
+        "safety": 1.0,
+        "reversibility": 0.5
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    },
+    {
+      "priority": "P3",
+      "title": "Monitor concentration: country:us",
+      "action": "monitor",
+      "target": "country:us",
+      "expected_impact": "geo concentration — audience risk; hand to Growth OS, monitor only",
+      "source_rule": "revenue_concentration",
+      "confidence": 0.95,
+      "requires_manual_apply": true,
+      "layer": "observe",
+      "value_score": 0.19,
+      "factors": {
+        "confidence": 0.95,
+        "impact": 0.2,
+        "safety": 1.0,
+        "reversibility": 1.0
+      },
+      "rationale": "advisory / out-of-scope — watch only, never an automated write"
+    }
+  ],
+  "user_metrics": {
+    "account": "ACCT_TEST",
+    "period": {
+      "start": "2026-07-18",
+      "end": "2026-07-27"
+    },
+    "available": false,
+    "source": "none",
+    "note": "no user-side key configured (adjust, manual_dropin, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+    "dau": 0,
+    "arpdau": 0.0,
+    "ads_per_user": 0.0,
+    "rewarded_per_user": 0.0,
+    "interstitial_per_user": 0.0,
+    "app_dau": {}
+  },
+  "experiments": [
+    {
+      "exp_id": "212da44a6895",
+      "account": "ACCT_TEST",
+      "title": "Disable CHARTBOOST",
+      "hypothesis": "Removing the zombie frees waterfall slots for higher-eCPM networks; the zombie_network signal clears (network exits the report).",
+      "action_type": "disable_network",
+      "target": "CHARTBOOST",
+      "source_rule": "zombie_network",
+      "params": {
+        "expected_impact": "free 17,000 requests (revenue loss < $0.11)"
+      },
+      "expected_signal": {
+        "rule": "zombie_network",
+        "target": "CHARTBOOST"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：CHARTBOOST 消耗 17,000 请求仅产生 $0.11（僵尸）",
+      "variant_b": "变体(B)：禁用 → 释放瀑布槽位，请求重新分配到高 eCPM 网络（保守估计 0.5% 重分配转化为收入）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 1.41,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：移除前后同 DAU Revenue/DAU 差分（移除后僵尸信号消失即验证成功）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "ceb4f91b1346",
+      "account": "ACCT_TEST",
+      "title": "Increase bid opportunity for MIN_WINNER",
+      "hypothesis": "Raising auction exposure captures the network's eCPM-implied potential; the hidden_winner signal should clear without ARPDAU regression.",
+      "action_type": "increase_bid_opportunity",
+      "target": "MIN_WINNER",
+      "source_rule": "hidden_winner",
+      "params": {
+        "expected_impact": "capturing only 15% of its eCPM-implied potential at eCPM $80.00 — raise auction exposure"
+      },
+      "expected_signal": {
+        "rule": "hidden_winner",
+        "target": "MIN_WINNER"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：MIN_WINNER 仅捕获其 eCPM 潜力 15% （300 曝光 @ eCPM $80.00，收入占比 8.7%）",
+      "variant_b": "变体(B)：提升 bidding 曝光优先级，目标捕获潜力 → ~58%，预期收入占比 → ~12.4%",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 3.7,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：apply 前(A) vs apply 后(B) 同 DAU 下 Revenue/DAU 差分（diff-in-diff vs 账户漂移）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "34c8b998d630",
+      "account": "ACCT_TEST",
+      "title": "Raise unified auction price floor on APPLOVIN_EXCHANGE to $3.66-$6.86",
+      "hypothesis": "Lifting the bid constraint cuts lowest-value backfill; the bid_floor signal should clear with fill-rate guarded.",
+      "action_type": "adjust_bid_constraint",
+      "target": "APPLOVIN_EXCHANGE",
+      "source_rule": "bid_floor",
+      "params": {
+        "expected_impact": "cut lowest-value backfill impressions; watch fill"
+      },
+      "expected_signal": {
+        "rule": "bid_floor",
+        "target": "APPLOVIN_EXCHANGE"
+      },
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "SUCCESS",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": "2026-07-27",
+      "result_note": "predicted signal resolved and user guardrail pending — experiment outcome held",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：APPLOVIN_EXCHANGE 占 11.6% 曝光 @ 寄生 eCPM $1.40 （< 账户 blend 4574%），低价值回填",
+      "variant_b": "变体(B)：设 price floor $3.66–$6.86 过滤低价值填充",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 5.64,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：过滤前后同 DAU Revenue/DAU 差分（同时盯整体填充率不下滑）",
+      "ab_kind": "revenue",
+      "verify_mode": "signal"
+    },
+    {
+      "exp_id": "59b99fc5ac3e",
+      "account": "ACCT_TEST",
+      "title": "Diversify: application:app1",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "application:app1",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "risk-hedge experiment (no revenue signal to clear): user guardrail pending — keep watching, archive when hedge goal met",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（application:app1），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    },
+    {
+      "exp_id": "de3f871ef009",
+      "account": "ACCT_TEST",
+      "title": "Diversify: network:GOOD_NET",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "network:GOOD_NET",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-24",
+      "launched_at": "2026-07-24",
+      "resolved_at": null,
+      "result_note": "risk-hedge experiment (no revenue signal to clear): user guardrail pending — keep watching, archive when hedge goal met",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-23",
+          "end": "2026-07-23"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（network:GOOD_NET），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    },
+    {
+      "exp_id": "822acf2c6a47",
+      "account": "ACCT_TEST",
+      "title": "Diversify: network:MINTEGRAL_BIDDING",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "network:MINTEGRAL_BIDDING",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-27",
+      "launched_at": "2026-07-27",
+      "resolved_at": null,
+      "result_note": "risk-hedge experiment (no revenue signal to clear): user guardrail pending — keep watching, archive when hedge goal met",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-17",
+          "end": "2026-07-26"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, manual_dropin, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0,
+        "app_dau": {}
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（network:MINTEGRAL_BIDDING），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    },
+    {
+      "exp_id": "181d45754c08",
+      "account": "ACCT_TEST",
+      "title": "Diversify: application:GameA",
+      "hypothesis": "Introducing a candidate network reduces single-point revenue risk; this is a guardrail hedge, not a direct Revenue/DAU lift.",
+      "action_type": "diversify",
+      "target": "application:GameA",
+      "source_rule": "revenue_concentration",
+      "params": {
+        "expected_impact": "reduce single-point-of-failure revenue risk"
+      },
+      "expected_signal": {},
+      "guardrail": "arpdau",
+      "min_days": 3,
+      "max_days": 14,
+      "status": "ACTIVE",
+      "created_at": "2026-07-27",
+      "launched_at": "2026-07-27",
+      "resolved_at": null,
+      "result_note": "risk-hedge experiment (no revenue signal to clear): user guardrail pending — keep watching, archive when hedge goal met",
+      "last_arpdau_guardrail": "pending",
+      "last_arpdau_delta_pct": null,
+      "baseline_user_metrics": {
+        "account": "ACCT_TEST",
+        "period": {
+          "start": "2026-07-17",
+          "end": "2026-07-26"
+        },
+        "available": false,
+        "source": "none",
+        "note": "no user-side key configured (adjust, manual_dropin, firebase) — ARPDAU/ads-per-user guardrail pending; connect Adjust or Firebase to enable",
+        "dau": 0,
+        "arpdau": 0.0,
+        "ads_per_user": 0.0,
+        "rewarded_per_user": 0.0,
+        "interstitial_per_user": 0.0,
+        "app_dau": {}
+      },
+      "applied_at": null,
+      "impact": {},
+      "decision": "",
+      "memorized_at": null,
+      "variant_a": "现状(A)：收入单点集中（application:GameA），单一网络失效风险",
+      "variant_b": "变体(B)：引入候选网络分散收入来源，降低单点失效风险（不直接提升收入，属风险对冲）",
+      "expected_metric": "revenue_per_dau",
+      "expected_lift_pct": 0.0,
+      "metric_baseline": null,
+      "ab_design": "A/B 测量：仅观察用户侧护栏与集中度变化（不追求直接 Revenue/DAU 提升）",
+      "ab_kind": "risk_hedge",
+      "verify_mode": "guardrail"
+    }
+  ],
+  "config_recommendations": [
+    {
+      "account": "ACCT_TEST",
+      "period": {
+        "start": "2026-07-18",
+        "end": "2026-07-27"
+      },
+      "generated_at": "2026-07-28",
+      "overall_blend_ecpm": 24.44,
+      "summary": {
+        "segments": 2,
+        "demote_candidates": 0,
+        "floor_suggestions": 0
+      },
+      "segments": [
+        {
+          "app": "GameA",
+          "geo": "us",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 25.0,
+          "segment_impressions": 2400,
+          "networks": [
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 25.0,
+              "fill_rate": 0.6818,
+              "impression_share": 1.0,
+              "revenue": 60.0,
+              "score": 17.0455,
+              "rank": 1
+            }
+          ],
+          "recommended_order": [
+            "MINTEGRAL_BIDDING"
+          ],
+          "demote_candidates": [],
+          "floor_suggestions": {}
+        },
+        {
+          "app": "GameB",
+          "geo": "us",
+          "ad_format": "REWARD",
+          "segment_blend_ecpm": 20.0,
+          "segment_impressions": 300,
+          "networks": [
+            {
+              "network": "MINTEGRAL_BIDDING",
+              "ecpm": 20.0,
+              "fill_rate": 0.2,
+              "impression_share": 1.0,
+              "revenue": 6.0,
+              "score": 4.0,
+              "rank": 1
+            }
+          ],
+          "recommended_order": [
+            "MINTEGRAL_BIDDING"
+          ],
+          "demote_candidates": [],
+          "floor_suggestions": {}
+        }
+      ]
+    }
+  ],
+  "ecpm_forecasts": [
+    {
+      "account": "ACCT_TEST",
+      "period": {
+        "start": "2026-07-18",
+        "end": "2026-07-27"
+      },
+      "generated_at": "2026-07-28",
+      "summary": {
+        "total": 2,
+        "up": 0,
+        "down": 0,
+        "flat": 2,
+        "early_warning": 0
+      },
+      "forecasts": [
+        {
+          "segment": "GameA · us · REWARD · MINTEGRAL_BIDDING",
+          "network": "MINTEGRAL_BIDDING",
+          "n_days": 6,
+          "historical_mean": 25.0,
+          "last_ecpm": 25.0,
+          "predicted_ecpm": 25.0,
+          "lower": 24.5,
+          "upper": 25.5,
+          "trend": "FLAT",
+          "slope": 0.0,
+          "r2": 0.0,
+          "confidence": "LOW",
+          "total_impressions": 2400,
+          "last_impressions": 400,
+          "early_warning": false,
+          "note": "n=6d, slope +0.000/d, R²=0.00, band ±$0.00"
+        },
+        {
+          "segment": "GameB · us · REWARD · MINTEGRAL_BIDDING",
+          "network": "MINTEGRAL_BIDDING",
+          "n_days": 6,
+          "historical_mean": 20.0,
+          "last_ecpm": 20.0,
+          "predicted_ecpm": 20.0,
+          "lower": 19.6,
+          "upper": 20.4,
+          "trend": "FLAT",
+          "slope": 0.0,
+          "r2": 0.0,
+          "confidence": "LOW",
+          "total_impressions": 300,
+          "last_impressions": 50,
+          "early_warning": false,
+          "note": "n=6d, slope +0.000/d, R²=0.00, band ±$0.00"
+        }
+      ]
+    }
+  ],
+  "growth_report": {
+    "account": "ACCT_TEST",
+    "date": "2026-07-28",
+    "dau": null,
+    "dau_pending": true,
+    "iia_revenue": 66.0,
+    "revenue_per_dau": null,
+    "prior_revenue": 66.0,
+    "prior_revenue_per_dau": null,
+    "growth_pct": 0.0,
+    "blended_ecpm": 24.44,
+    "impressions": 2700,
+    "health_score": 80,
+    "health_grade": "B",
+    "actions": [],
+    "total_winner_lift_per_day": 0.0,
+    "ai_attributed_lift_pct": 0.0,
+    "experiments": {
+      "running": 0,
+      "winning": 0,
+      "rolled_back": 0,
+      "memorized": 0
+    },
+    "ab_portfolio": {
+      "total": 7,
+      "revenue_experiments": 3,
+      "risk_hedges": 4,
+      "expected_lift_sum_pct": 10.75
+    }
+  },
+  "auto_executor": {
+    "auto": [],
+    "approval": [
+      {
+        "action": "diversify",
+        "target": "network:MINTEGRAL_BIDDING",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → 评估并引入候选网络以分散收入单点风险（需人工评估）",
+        "expected_impact": "reduce single-point-of-failure revenue risk",
+        "confidence": 0.95,
+        "requires_human_apply": true
+      },
+      {
+        "action": "diversify",
+        "target": "application:GameA",
+        "tier": "APPROVAL",
+        "reason": "高风险/结构性变更：需人工审批后再在 MAX 后台落子",
+        "apply_instruction": "MAX 后台 → 评估并引入候选网络以分散收入单点风险（需人工评估）",
+        "expected_impact": "reduce single-point-of-failure revenue risk",
+        "confidence": 0.95,
+        "requires_human_apply": true
+      }
+    ],
+    "observe": [
+      {
+        "action": "monitor",
+        "target": "country:us",
+        "tier": "OBSERVE",
+        "reason": "仅观察，不需执行",
+        "apply_instruction": "仅监控，无需操作",
+        "expected_impact": "geo concentration — audience risk; hand to Growth OS, monitor only",
+        "confidence": 0.95,
+        "requires_human_apply": true
+      }
+    ],
+    "counts": {
+      "auto": 0,
+      "approval": 2,
+      "observe": 1
+    },
+    "markdown": "🤖 **Auto-Executor（决策自动 + 人工落子）**\n自动批准 0 · 需审批 2 · 仅观察 1　|　所有落子均由人在 MAX 后台执行（API 禁写）\n\n⚠️ **需人工审批**：\n  • network:MINTEGRAL_BIDDING [diversify] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子\n  • application:GameA [diversify] — 高风险/结构性变更：需人工审批后再在 MAX 后台落子\n\n👁 **仅观察**：\n  • country:us [monitor]"
+  },
+  "risks": [
+    "One network contributes 100% of revenue ('MINTEGRAL_BIDDING' $66.00 of $66.00) — risk HIGH",
+    "One country contributes 100% of revenue ('us' $66.00 of $66.00) — audience risk HIGH; hand to Growth OS, monitor here",
+    "One app contributes 91% of revenue ('GameA' $60.00 of $66.00) — risk HIGH"
+  ]
+}

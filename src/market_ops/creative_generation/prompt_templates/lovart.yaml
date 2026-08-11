@@ -1,0 +1,47 @@
+# Lovart Model Template — Phase 3.0
+# Prompt structure optimized for Lovart image generation API.
+
+model: lovart
+version: "1.0"
+
+# Prompt structure: layered, sectioned
+prompt_structure:
+  sections:
+    - ad_context
+    - main_subject
+    - action_gameplay
+    - reward_moment
+    - visual_style
+    - format_technical
+
+# Section weights (how much each section contributes to final prompt)
+section_weights:
+  ad_context: 0.8
+  main_subject: 1.0
+  action_gameplay: 0.9
+  reward_moment: 0.9
+  visual_style: 0.8
+  format_technical: 0.5
+
+# Style guard: prevents Lovart from drifting into fantasy art
+style_guard:
+  - "mobile game advertisement"
+  - "not fantasy illustration"
+  - "not cinematic concept art"
+  - "clean game ad feeling"
+  - "clear visual hierarchy"
+  - "strong call-to-action energy"
+
+# Default parameters
+defaults:
+  aspect_ratio: "9:16"
+  format: "1080x1920"
+  style: "mobile_game_ad"
+  timeout: 60
+
+# Supported aspect ratios
+aspect_ratios:
+  - "1:1"
+  - "9:16"
+  - "16:9"
+  - "4:5"

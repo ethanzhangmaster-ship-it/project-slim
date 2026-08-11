@@ -1,0 +1,146 @@
+[
+  {
+    "decision_id": "S1",
+    "action_type": "review_bidding",
+    "lever": "bid_floor_up",
+    "target": "US_android_reward_applovin",
+    "baseline_metric": {
+      "ecpm": 30.0,
+      "fill_rate": 0.9,
+      "impressions": 12000,
+      "revenue": 324.0
+    },
+    "prediction": {
+      "revenue_delta_pct": 1.336,
+      "ecpm_delta_pct": 6.0,
+      "fill_delta_pct": -4.4,
+      "impressions_delta_pct": -4.4,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "confidence": 0.782
+    },
+    "projected_metric": {
+      "ecpm": 31.8,
+      "fill_rate": 0.8604,
+      "impressions": 11472,
+      "revenue": 364.8096
+    },
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": 0.3,
+        "fill": -0.22,
+        "retention": 0.0
+      },
+      "magnitude_pct": 20.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated bid_floor_up (magnitude +20.0%): predicted revenue +1.3%, eCPM +6.0%, fill -4.4%, impressions -4.4%, retention +0.00% (low risk). Confidence 0.782.",
+    "status": "simulated"
+  },
+  {
+    "decision_id": "S2",
+    "action_type": "change_waterfall",
+    "lever": "waterfall_promote",
+    "target": "US_android_reward_applovin",
+    "baseline_metric": {
+      "ecpm": 28.0,
+      "fill_rate": 0.88,
+      "impressions": 9500,
+      "revenue": 263.2
+    },
+    "prediction": {
+      "revenue_delta_pct": 1.352,
+      "ecpm_delta_pct": 3.0,
+      "fill_delta_pct": -1.6,
+      "impressions_delta_pct": -1.6,
+      "retention_delta_pct": 0.0,
+      "retention_risk": "low",
+      "confidence": 0.69
+    },
+    "projected_metric": {
+      "ecpm": 28.84,
+      "fill_rate": 0.8659,
+      "impressions": 9348,
+      "revenue": 269.5963
+    },
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": 0.15,
+        "fill": -0.08,
+        "retention": 0.0
+      },
+      "magnitude_pct": 20.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated waterfall_promote (magnitude +20.0%): predicted revenue +1.4%, eCPM +3.0%, fill -1.6%, impressions -1.6%, retention +0.00% (low risk). Confidence 0.69.",
+    "status": "simulated"
+  },
+  {
+    "decision_id": "S3",
+    "action_type": "adjust_ad_frequency",
+    "lever": "freq_up",
+    "target": "US_android",
+    "baseline_metric": {
+      "ads_per_dau": 3.0,
+      "dau": 8000,
+      "d1_retention_est": 0.4
+    },
+    "prediction": {
+      "revenue_delta_pct": 9.45,
+      "ecpm_delta_pct": -0.5,
+      "fill_delta_pct": 0.0,
+      "impressions_delta_pct": 10.0,
+      "retention_delta_pct": -1.6,
+      "retention_risk": "medium",
+      "confidence": 0.557
+    },
+    "projected_metric": {},
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": -0.05,
+        "fill": 0.0,
+        "retention": -0.16
+      },
+      "magnitude_pct": 10.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated freq_up (magnitude +10.0%): predicted revenue +9.4%, eCPM -0.5%, fill +0.0%, impressions +10.0%, retention -1.60% (medium risk). Confidence 0.557.",
+    "status": "simulated"
+  },
+  {
+    "decision_id": "S4",
+    "action_type": "adjust_ad_frequency",
+    "lever": "freq_down",
+    "target": "US_android",
+    "baseline_metric": {
+      "ads_per_dau": 3.0,
+      "dau": 8000,
+      "d1_retention_est": 0.4
+    },
+    "prediction": {
+      "revenue_delta_pct": -9.55,
+      "ecpm_delta_pct": 0.5,
+      "fill_delta_pct": 0.0,
+      "impressions_delta_pct": -10.0,
+      "retention_delta_pct": 1.6,
+      "retention_risk": "low",
+      "confidence": 0.595
+    },
+    "projected_metric": {},
+    "assumptions": {
+      "model": "linear_elasticity",
+      "elasticities_per_pct": {
+        "ecpm": 0.05,
+        "fill": 0.0,
+        "retention": 0.16
+      },
+      "magnitude_pct": 10.0,
+      "note": "Transparent heuristic. Replace with trained model in E13.3.2."
+    },
+    "notes": "Simulated freq_down (magnitude +10.0%): predicted revenue -9.6%, eCPM +0.5%, fill +0.0%, impressions -10.0%, retention +1.60% (low risk). Confidence 0.595.",
+    "status": "simulated"
+  }
+]

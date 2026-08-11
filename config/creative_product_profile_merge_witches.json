@@ -1,0 +1,43 @@
+{
+  "product": "Merge Witches",
+  "app_store_id": "1573744436",
+  "genre": "casual merge-3 puzzle and sky-city restoration",
+  "visual_truth": {
+    "camera": "bright isometric floating-board gameplay",
+    "render_style": "polished colorful 2D casual mobile-game art with chunky readable objects",
+    "palette": ["turquoise green", "sky blue", "lavender", "bright purple", "warm gold"],
+    "characters": "cute small witches with oversized pointed hats, friendly faces and compact proportions",
+    "merge_objects": ["witch hats", "magical flowers", "crescent moons", "eggs", "mushroom gardens", "witch houses"],
+    "world": "floating grass islands, garden paths, clouds, magical fog and restoration"
+  },
+  "gameplay_truth": [
+    "show exactly three identical source objects for a merge-3 claim",
+    "the three source objects must be visually separate and easy to count",
+    "show one clearly upgraded result",
+    "keep the board and object scale readable on a phone"
+  ],
+  "brand_invariants": [
+    "title must read exactly MERGE WITCHES",
+    "the advertised result must be a witch, creature or object plausible in the product",
+    "the image must look like the same product family as the official screenshots"
+  ],
+  "forbidden": [
+    "photorealistic people",
+    "generic dark gothic poster with no gameplay board",
+    "dragon as the sole reward",
+    "two-object merge presented as real gameplay",
+    "four or more source objects when the claim is merge three",
+    "garbled text",
+    "fake app-store UI",
+    "weapons or combat as the central mechanic",
+    "watermark"
+  ],
+  "placement": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "top_safe_ratio": 0.14,
+    "bottom_safe_ratio": 0.14,
+    "horizontal_safe_ratio": 0.075
+  }
+}

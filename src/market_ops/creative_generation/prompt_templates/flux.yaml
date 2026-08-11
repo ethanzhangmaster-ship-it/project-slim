@@ -1,0 +1,31 @@
+# Flux Model Template — Phase 3.0
+# Prompt structure optimized for Flux (Black Forest Labs).
+
+model: flux
+version: "1.0"
+
+# Prompt structure: concise, keyword-dense
+prompt_structure:
+  style: "comma_separated"
+  max_tokens: 250
+
+# Prompt template
+template: >
+  Mobile game ad, {character}, {reward}, {gameplay} gameplay,
+  {camera}, {lighting}, {palette} palette, {style},
+  high quality, clean composition, {aspect_ratio}
+
+# Default parameters
+defaults:
+  aspect_ratio: "9:16"
+  guidance_scale: 3.5
+  steps: 28
+
+# Supported aspect ratios
+aspect_ratios:
+  - "1:1"
+  - "9:16"
+  - "16:9"
+  - "4:5"
+  - "2:3"
+  - "3:2"

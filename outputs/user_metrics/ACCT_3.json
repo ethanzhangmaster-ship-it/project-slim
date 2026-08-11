@@ -1,0 +1,52 @@
+{
+  "account": "ACCT_3",
+  "dau": 33,
+  "as_of": "2026-07-29",
+  "source": "manual",
+  "arpdau_history": [
+    {
+      "date": "2026-07-24",
+      "dau": 34,
+      "arpdau": 1.71083,
+      "revenue": 58.17
+    },
+    {
+      "date": "2026-07-26",
+      "dau": 30,
+      "arpdau": 2.14632,
+      "revenue": 64.39
+    },
+    {
+      "date": "2026-07-27",
+      "dau": 34,
+      "arpdau": 2.0209,
+      "revenue": 68.71
+    },
+    {
+      "date": "2026-07-28",
+      "dau": 34,
+      "arpdau": 2.21145,
+      "revenue": 75.19
+    },
+    {
+      "date": "2026-07-30",
+      "dau": 33,
+      "arpdau": 2.25993,
+      "revenue": 74.58
+    }
+  ],
+  "apps": {
+    "Be A Master Chef": {
+      "dau": 31.8
+    },
+    "Stella's Salon: Drama Makeover": {
+      "dau": 0.6
+    },
+    "Be a Super Model: Merge & Slay": {
+      "dau": 0.3
+    },
+    "Drama Hospital: Doctor ASMR": {
+      "dau": 0.2
+    }
+  }
+}

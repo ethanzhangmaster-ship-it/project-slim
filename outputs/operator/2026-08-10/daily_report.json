@@ -1,0 +1,300 @@
+{
+  "report_id": "ceo-2026-08-10",
+  "date": "2026-08-10",
+  "company_status": "healthy",
+  "real_api_called": false,
+  "health_summary": {
+    "company_status": "healthy",
+    "status_label": "🟢 健康",
+    "game_count": 12,
+    "total_revenue": 11120.0,
+    "total_dau": 36066,
+    "total_spend": 1280.0,
+    "avg_confidence": 0.6999999999999998,
+    "at_risk": [],
+    "auto_count": 2,
+    "approval_count": 3,
+    "blocked_count": 0,
+    "observed_count": 3
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "game_id": "demo_game_004",
+      "action": "恢复收入（demo_game_004）",
+      "opportunity_type": "revenue_recovery",
+      "priority_score": 0.3078,
+      "expected_value": 0.36,
+      "confidence": 0.9,
+      "urgency": 0.95,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 2,
+      "game_id": "demo_game_008",
+      "action": "恢复收入（demo_game_008）",
+      "opportunity_type": "revenue_recovery",
+      "priority_score": 0.26496,
+      "expected_value": 0.3200000000000001,
+      "confidence": 0.9,
+      "urgency": 0.9200000000000002,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 3,
+      "game_id": "demo_game_000",
+      "action": "恢复收入（demo_game_000）",
+      "opportunity_type": "revenue_recovery",
+      "priority_score": 0.128,
+      "expected_value": 0.2,
+      "confidence": 0.8,
+      "urgency": 0.8,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 4,
+      "game_id": "demo_game_002",
+      "action": "刷新创意素材（demo_game_002）",
+      "opportunity_type": "creative_refresh",
+      "priority_score": 0.10416,
+      "expected_value": 0.2,
+      "confidence": 0.84,
+      "urgency": 0.62,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 5,
+      "game_id": "demo_game_006",
+      "action": "刷新创意素材（demo_game_006）",
+      "opportunity_type": "creative_refresh",
+      "priority_score": 0.10292,
+      "expected_value": 0.2,
+      "confidence": 0.83,
+      "urgency": 0.62,
+      "sim_gate": "PASS"
+    },
+    {
+      "rank": 6,
+      "game_id": "demo_game_009",
+      "action": "止损买量（demo_game_009）",
+      "opportunity_type": "ua_stop_loss",
+      "priority_score": 0.091512,
+      "expected_value": 0.31000000000000005,
+      "confidence": 0.72,
+      "urgency": 0.82,
+      "sim_gate": "—"
+    },
+    {
+      "rank": 7,
+      "game_id": "demo_game_001",
+      "action": "止损买量（demo_game_001）",
+      "opportunity_type": "ua_stop_loss",
+      "priority_score": 0.056088,
+      "expected_value": 0.18999999999999995,
+      "confidence": 0.72,
+      "urgency": 0.82,
+      "sim_gate": "—"
+    },
+    {
+      "rank": 8,
+      "game_id": "demo_game_005",
+      "action": "止损买量（demo_game_005）",
+      "opportunity_type": "ua_stop_loss",
+      "priority_score": 0.04428,
+      "expected_value": 0.15000000000000002,
+      "confidence": 0.72,
+      "urgency": 0.82,
+      "sim_gate": "—"
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "cea-000",
+      "game_id": "demo_game_004",
+      "action_type": "恢复收入（demo_game_004）",
+      "source": "e17.3_decision+p2.3_approval",
+      "priority": 0.3078,
+      "execution_mode": "approval",
+      "status": "awaiting",
+      "explanation": "等待 CEO 审批：恢复收入（demo_game_004） ｜ 风险 45%，置信 90%，预期收益 +36.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+    },
+    {
+      "action_id": "cea-001",
+      "game_id": "demo_game_008",
+      "action_type": "恢复收入（demo_game_008）",
+      "source": "e17.3_decision+p2.3_approval",
+      "priority": 0.26496,
+      "execution_mode": "approval",
+      "status": "awaiting",
+      "explanation": "等待 CEO 审批：恢复收入（demo_game_008） ｜ 风险 45%，置信 90%，预期收益 +32.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+    },
+    {
+      "action_id": "cea-002",
+      "game_id": "demo_game_000",
+      "action_type": "恢复收入（demo_game_000）",
+      "source": "e17.3_decision+p2.3_approval",
+      "priority": 0.128,
+      "execution_mode": "approval",
+      "status": "awaiting",
+      "explanation": "等待 CEO 审批：恢复收入（demo_game_000） ｜ 风险 45%，置信 80%，预期收益 +20.0%。 备注：决策引擎判定需人工审批（已进审批队列）"
+    },
+    {
+      "action_id": "cea-003",
+      "game_id": "demo_game_002",
+      "action_type": "刷新创意素材（demo_game_002）",
+      "source": "e17.3_decision+e17.8_sim+p2.4_execution",
+      "priority": 0.10416,
+      "execution_mode": "auto",
+      "status": "executed",
+      "explanation": "已自动执行：刷新创意素材（demo_game_002） ｜ 预期收益 +20.0%，置信 84%，风险 30%。"
+    },
+    {
+      "action_id": "cea-004",
+      "game_id": "demo_game_006",
+      "action_type": "刷新创意素材（demo_game_006）",
+      "source": "e17.3_decision+e17.8_sim+p2.4_execution",
+      "priority": 0.10292,
+      "execution_mode": "auto",
+      "status": "executed",
+      "explanation": "已自动执行：刷新创意素材（demo_game_006） ｜ 预期收益 +20.0%，置信 83%，风险 30%。"
+    }
+  ],
+  "risks": [
+    {
+      "level": "info",
+      "title": "无显著风险",
+      "detail": "今日未发现需特别关注的风险项。"
+    }
+  ],
+  "learning_summary": [
+    "[network_cleanup] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[aggressive_scale] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[conservative_scale] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[creative_fatigue_guard] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[revenue_recovery] 历史成功率 0.0%（样本 0） → 建议：hold。暂无执行样本，维持默认权重",
+    "[creative_refresh] 历史成功率 100.0%（样本 6） → 建议：boost。历史成功率 100%，建议提高其优先级"
+  ],
+  "execution_summary": {
+    "total_executions": 0,
+    "success": 0,
+    "failed": 0,
+    "rollback": 0,
+    "blocked": 0,
+    "health_level": "",
+    "warnings": [],
+    "recovered": 0,
+    "escalated": 0,
+    "real_api_called": false
+  },
+  "portfolio_recommendation": {
+    "title": "Portfolio Recommendation",
+    "status": "blocked",
+    "summary": "Portfolio proposal: reallocate 640.00 of 1280.00 across 12 game(s); 12 AUTO / 0 APPROVAL / 0 BLOCKED.",
+    "recommendation": "Portfolio proposal: reallocate 640.00 of 1280.00 across 12 game(s); 12 AUTO / 0 APPROVAL / 0 BLOCKED.\n\n  10. demo_game_000: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=10, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  1. demo_game_001: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=1, portfolio_score=0.000); simulated Δ=+0.00 (current=124.00 → proposed=124.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  2. demo_game_002: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=2, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  3. demo_game_003: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=3, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  12. demo_game_004: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=12, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  4. demo_game_005: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=4, portfolio_score=0.000); simulated Δ=+0.00 (current=120.00 → proposed=120.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  5. demo_game_006: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=5, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  6. demo_game_007: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=6, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  11. demo_game_008: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=11, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  7. demo_game_009: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=7, portfolio_score=0.000); simulated Δ=+0.00 (current=136.00 → proposed=136.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  8. demo_game_010: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=8, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n  9. demo_game_011: REDUCE (Δ=+0.00) → AUTO; recommend REDUCE (rank=9, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable\n\nEvidence chain:\n  - Simulation verdict: BLOCKED (simulation confidence=1.000).\n  - Simulation blocked by constraint(s): reserve_floor.\n  - Guard (Rule0~3): 12 AUTO / 0 APPROVAL / 0 BLOCKED.\n  - Budget conservation: Σproposed == Σbaseline — no budget created or destroyed.\n  - Discipline: proposal only — no budget changed, no execution request emitted; awaiting E17.3 Decision Review / human approval.",
+    "guard_verdict": "blocked",
+    "confidence": 0.5,
+    "items": [
+      {
+        "game_id": "demo_game_000",
+        "rank": 10,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=10, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_001",
+        "rank": 1,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=1, portfolio_score=0.000); simulated Δ=+0.00 (current=124.00 → proposed=124.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_002",
+        "rank": 2,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=2, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_003",
+        "rank": 3,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=3, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_004",
+        "rank": 12,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=12, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_005",
+        "rank": 4,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=4, portfolio_score=0.000); simulated Δ=+0.00 (current=120.00 → proposed=120.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_006",
+        "rank": 5,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=5, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_007",
+        "rank": 6,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=6, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_008",
+        "rank": 11,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=11, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_009",
+        "rank": 7,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=7, portfolio_score=0.000); simulated Δ=+0.00 (current=136.00 → proposed=136.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_010",
+        "rank": 8,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=8, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      },
+      {
+        "game_id": "demo_game_011",
+        "rank": 9,
+        "recommended_action": "reduce",
+        "budget_delta": 0.0,
+        "action_state": "auto",
+        "rationale": "recommend REDUCE (rank=9, portfolio_score=0.000); simulated Δ=+0.00 (current=100.00 → proposed=100.00); ranker: score=0.0000 | lifecycle=None | exec_health=0.00 | low_score; AUTO: guard passed, proposal actionable"
+      }
+    ],
+    "real_api_called": false
+  },
+  "memory_reasoning": null,
+  "strategic_memory": null,
+  "reflection": null,
+  "governance": null
+}

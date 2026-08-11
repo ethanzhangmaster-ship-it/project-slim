@@ -154,7 +154,7 @@ class CreativeDnaBuilder:
                 rows = [_creative_row_from_adjust_cache(item) for item in cached_items]
                 return rows, f"Cached Adjust creative analysis: {cache_path}"
         rows = self._repo.load_adjust_creative_library(window_start, report_date)
-        return rows, "Adjust/TecDo creative aggregates + optional input/creative_dna_labels.csv"
+        return rows, "Adjust creative aggregates + optional input/creative_dna_labels.csv"
 
     def _build_item(self, row: CreativeAssetRow, labels: dict[str, dict[str, str]]) -> CreativeDnaItem:
         creative_id = str(row.asset_id or row.creative_name or "").strip()
