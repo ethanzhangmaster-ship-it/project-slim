@@ -136,7 +136,11 @@ def _run_single(store: StateStore, game_id: str, force_new_variant: bool = False
     return result
 
 
-def _run_all(store: StateStore, dashboard: bool = False) -> Dict[str, Any]:
+def _run_all(
+    store: StateStore,
+    dashboard: bool = False,
+    only_game_ids: Optional[List[str]] = None,
+) -> Dict[str, Any]:
     from .aso_optimization_loop import get_aso_optimization_loop
 
     data_dir = _resolve_local_data_dir(store)
@@ -145,7 +149,11 @@ def _run_all(store: StateStore, dashboard: bool = False) -> Dict[str, Any]:
         data_dir=data_dir,
         project_root=project_root,
     )
-    result = loop.run_cycle()
+    # 环境变量优先级: ONLY_GAME_ID (逗号分隔) → CLI 参数 only_game_ids
+    env_only = os.environ.get("ONLY_GAME_ID")
+    if env_only and not only_game_ids:
+        only_game_ids = [x.strip() for x in env_only.split(",") if x.strip()]
+    result = loop.run_cycle(only_game_ids=only_game_ids)
     _sync_local_back_to_cloud_if_needed(store, data_dir)
     if dashboard:
         try:
@@ -283,8 +291,12 @@ def _build_arg_parser() -> argparse.ArgumentParser:
         description="跨机器/关电脑/换账号 不中断的 ASO 自动优化 CLI",
     )
     p.add_argument("--game", metavar="GAME_ID", help="单产品优化循环 (如 com.born2play.biblequiz)")
-    p.add_argument("--all", action="store_true", help="跑全量游戏优化循环")
+    p.add_argument("--all", action="store_true", help="跑全量游戏优化循环 (可与 --only-game-id 组合限制范围)")
     p.add_argument("--dashboard", action="store_true", help="跑完后生成并上传 Dashboard 日报")
+    p.add_argument(
+        "--only-game-id", metavar="GAME_ID", action="append",
+        help="只优化指定游戏 ID, 可传多次或逗号分隔. 优先级高于环境变量 ONLY_GAME_ID",
+    )
     p.add_argument(
         "--multichannel-plan", metavar="GAME_ID",
         help="生成并上传多渠道推广方案 JSON",
@@ -325,7 +337,15 @@ def main(argv: List[str] | None = None) -> int:
                 store, args.game, force_new_variant=args.force_new_variant
             )
         if args.all:
-            result["all_games"] = _run_all(store, dashboard=args.dashboard)
+            only_ids: List[str] = []
+            if args.only_game_id:
+                for ogi in args.only_game_id:
+                    only_ids.extend(x.strip() for x in ogi.split(",") if x.strip())
+            result["all_games"] = _run_all(
+                store,
+                dashboard=args.dashboard,
+                only_game_ids=only_ids if only_ids else None,
+            )
         if not (args.multichannel_plan or args.game or args.all):
             _build_arg_parser().print_help()
             return 1

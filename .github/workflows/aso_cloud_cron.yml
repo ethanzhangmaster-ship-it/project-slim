@@ -28,7 +28,7 @@ on:
   workflow_dispatch:           # 允许手动触发 (点 Run workflow 按钮调试)
     inputs:
       game_id:
-        description: '单产品 GAME_ID (例: com.born2play.biblequiz). 留空=跑全量'
+        description: '单产品 GAME_ID (例: com.born2play.biblequiz). 留空=走 ONLY_GAME_ID 变量或全量'
         required: false
         type: string
         default: ''
@@ -42,6 +42,11 @@ on:
         required: false
         type: boolean
         default: false
+      only_game_id:
+        description: '全量模式下只优化指定游戏 ID (逗号分隔). 留空=走 ONLY_GAME_ID 变量'
+        required: false
+        type: string
+        default: ''
 
 permissions:
   contents: read  # 只需要拉代码, 不需要 push
@@ -73,6 +78,9 @@ jobs:
 
       # 调度日志级别
       CLOUD_RUNNER_LOGLEVEL: INFO
+
+      # 🔴 聚焦优化: 只优化指定游戏, 不碰其他. 逗号分隔可扩多款
+      ONLY_GAME_ID: ${{ vars.ONLY_GAME_ID || 'com.born2play.biblequiz' }}
 
     steps:
       - name: Checkout code
@@ -127,10 +135,18 @@ jobs:
 
       - name: "Scheduled daily — all games + dashboard"
         if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * *') || (github.event_name == 'workflow_dispatch' && inputs.game_id == '' && inputs.only_healthcheck != true) }}
+        env:
+          WORKFLOW_ONLY_GAME_ID: ${{ inputs.only_game_id }}
         run: |
+          ONLY_FLAG=""
+          if [ -n "$WORKFLOW_ONLY_GAME_ID" ]; then
+            ONLY_FLAG="--only-game-id $WORKFLOW_ONLY_GAME_ID"
+          fi
+          # ONLY_GAME_ID env 默认已在 job-level 生效, --only-game-id 会覆盖 env
           python -m market_ops.workspace.cloud_runner \
             --no-dotenv --json \
-            --all --dashboard
+            --all --dashboard \
+            $ONLY_FLAG
 
       - name: "Scheduled 6h — health + recovery only (轻量)"
         if: ${{ github.event_name == 'schedule' && github.event.schedule == '0 */6 * * *' }}

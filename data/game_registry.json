@@ -472,7 +472,7 @@
     {
       "game_id": "com.bibleverse.collect.ios",
       "display_name": "com.bibleverse.collect.ios",
-      "package_name": "com.bibleverse.collect.ios",
+      "package_name": "",
       "genre": "puzzle",
       "platform": "unknown",
       "max_apps": [
@@ -485,7 +485,7 @@
     {
       "game_id": "com.bibleword.encryption.challenge.trivia",
       "display_name": "com.bibleword.encryption.challenge.trivia",
-      "package_name": "com.bibleword.encryption.challenge.trivia",
+      "package_name": "",
       "genre": "puzzle",
       "platform": "unknown",
       "max_apps": [
@@ -511,7 +511,7 @@
     {
       "game_id": "com.daily.leisure.feud.trivia.ios",
       "display_name": "com.daily.leisure.feud.trivia.ios",
-      "package_name": "com.daily.leisure.feud.trivia.ios",
+      "package_name": "",
       "genre": "puzzle",
       "platform": "unknown",
       "max_apps": [
@@ -524,7 +524,7 @@
     {
       "game_id": "com.movie.trivia.quiz.fun.test.ios",
       "display_name": "com.movie.trivia.quiz.fun.test.ios",
-      "package_name": "com.movie.trivia.quiz.fun.test.ios",
+      "package_name": "",
       "genre": "puzzle",
       "platform": "unknown",
       "max_apps": [
@@ -537,7 +537,7 @@
     {
       "game_id": "com.quiz.master.trivia.ios",
       "display_name": "com.quiz.master.trivia.ios",
-      "package_name": "com.quiz.master.trivia.ios",
+      "package_name": "",
       "genre": "puzzle",
       "platform": "unknown",
       "max_apps": [
@@ -550,7 +550,7 @@
     {
       "game_id": "com.travel.quiz.trivia",
       "display_name": "com.travel.quiz.trivia",
-      "package_name": "com.travel.quiz.trivia",
+      "package_name": "",
       "genre": "puzzle",
       "platform": "unknown",
       "max_apps": [
@@ -641,7 +641,7 @@
     {
       "game_id": "com.lilijoy.monster",
       "display_name": "com.lilijoy.monster",
-      "package_name": "com.lilijoy.monster",
+      "package_name": "",
       "genre": "merge",
       "platform": "unknown",
       "max_apps": [
@@ -667,7 +667,7 @@
     {
       "game_id": "merge witches",
       "display_name": "merge witches",
-      "package_name": "com.born2play.mergewitches",
+      "package_name": "",
       "genre": "merge",
       "platform": "android",
       "max_apps": [
